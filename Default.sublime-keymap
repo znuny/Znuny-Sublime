@@ -1,3 +1,3 @@
 [
-    { "keys": ["ctrl+alt+z", "r"], "command": "znuny4_otrs_generate_block_hooks" }
+    { "keys": ["ctrl+alt+z", "h"], "command": "znuny4_otrs_generate_block_hooks" }
 ]
