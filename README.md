@@ -4,14 +4,15 @@ Sublime
 ===============
 Znuny4OTRS is a Sublime Text 2/3 plugin that helps you to make OTRS development less painful.
 
-**Feature List**
+### Feature List
 
 * Automatic 'Frontend::Template::GenerateBlockHooks' config XML generation from .tt template file.
 * OTRS code snippts for fast, consistent and error free coding.
 
-**Installation**
+### Installation
 
 To install this plugin, you have three options:
+
 1. If you have [Sublime Package Control](http://wbond.net/sublime_packages/package_control) installed, simply search for `Znuny4OTRS` to install.
 2. Clone source code to Sublime Text packages folder *Sublime Text 2/Packages* or *Sublime Text 3/Packages*.
 3. Download archive with the latest [release](https://github.com/znuny/Znuny4OTRS/releases) and unpack it to Sublime Text packages folder *Sublime Text 2/Packages* or *Sublime Text 3/Packages*.
@@ -37,8 +38,21 @@ To install this plugin, you have three options:
     cd "%APPDATA%\Sublime Text 3\Packages"
     git clone git://github.com/znuny/Znuny4OTRS-Sublime.git
 
+### Usage
 
-**Commercial Support**
+#### Frontend::Template::GenerateBlockHooks config XML generation
+
+Default keyboard shortcut: ```strg+alt+z, h```
+
+<img src="https://cloud.githubusercontent.com/assets/3873515/7705818/db4f3510-fe46-11e4-90b9-09093b063ac0.gif" width="640">
+
+#### otrs code templates
+
+```otrs``` + Sublime Text autocomplete (command ```auto_complete```)
+
+
+
+### Commercial Support
 
 For this extension and for OTRS in general visit [http://znuny.com](http://znuny.com). Looking forward to hear from you!
 
