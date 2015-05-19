@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\$$1Object->$2(${3:
+    $4
+});
+]]></content>
+    <tabTrigger>otrs.lazy.object.functioncall.my</tabTrigger>
+</snippet>

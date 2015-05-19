@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+{
+    Name       => '${1:InternalName}',
+    Label      => "${2:Label}",
+    ObjectType => '${3:Ticket|Article}',
+    FieldType  => 'Date',
+    Config     => {
+        DefaultValue  => "${4:0|3600|-60}",
+        YearsPeriod   => "${5:1|0}",
+        YearsInFuture => "${6:5}",
+        YearsInPast   => "${7:5}",
+        Link          => '${8:\$LQData{"$1"}}',
+    },
+},
+]]></content>
+    <tabTrigger>otrs.dynamicfield.config.date</tabTrigger>
+</snippet>

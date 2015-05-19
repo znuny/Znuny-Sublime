@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+use Kernel::System::VariableCheck qw(:all);
+]]></content>
+    <tabTrigger>otrs.lazy.variablecheck</tabTrigger>
+</snippet>

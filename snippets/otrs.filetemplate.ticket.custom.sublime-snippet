@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[
+# --
+# Kernel/System/Ticket/$1.pm - $2
+# Copyright (C) 2014 Znuny GmbH, http://znuny.com/
+# --
+
+package Kernel::System::Ticket::$1;
+
+use strict;
+use warnings;
+
+# disable redefine warnings in this scope
+{
+no warnings 'redefine';
+
+sub Kernel::System::Ticket::$3 {
+    my ( \$Self, %Param ) = @_;
+
+    $4
+
+    return 1;
+}
+
+# reset all warnings
+}
+
+1;
+
+]]></content>
+    <tabTrigger>otrs.filetemplate.ticket.custom</tabTrigger>
+</snippet>

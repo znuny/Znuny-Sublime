@@ -1,0 +1,77 @@
+<snippet>
+    <content><![CDATA[
+# --
+# Kernel/Output/HTML/OutputFilterPre${1:Znuny4OTRS}.pm - $2
+# Copyright (C) 2014 Znuny GmbH, http://znuny.com/
+# --
+
+package Kernel::Output::HTML::OutputFilterPre${1:Znuny4OTRS};
+
+use strict;
+use warnings;
+
+sub new {
+    my ( \$Type, %Param ) = @_;
+
+    # allocate new hash for object
+    my \$Self = {};
+    bless( \$Self, \$Type );
+
+    # check needed objects
+    # additional LayoutObject \$Self params are present, see LayoutObject for more information
+    NEEDED:
+    for my \$Needed (qw( ConfigObject LogObject TimeObject MainObject EncodeObject ParamObject LayoutObject HTMLUtilsObject JSONObject UserLanguage )) {
+        \$Self->{\$Needed} = \$Param{\$Needed} || die "Got no \$Needed!";
+    }
+
+    \$Self->{Action} = \$Param{Action} || '';
+
+    return \$Self;
+}
+
+sub Run {
+    my ( \$Self, %Param ) = @_;
+
+    # check Action param
+    return 1 if !\$Self->{Action};
+    return 1 if \$Self->{Action} ne '';
+    return 1 if !scalar grep { \$Self->{Action} eq \$_ } qw();
+
+    # check TemplateFile
+    return 1 if !\$Param{TemplateFile};
+    return 1 if \$Param{TemplateFile} ne '';
+    return 1 if !scalar grep { \$Param{TemplateFile} eq \$_ } qw();
+
+    # check regular parameter
+    return 1 if !\$Self->{ParamObject}->GetParam( Param => '' );
+
+    # create needed objects
+    for my \$RequiredObject (qw(Encode DB Time Ticket)) {
+
+        my \$Module = 'Kernel::System::' . \$RequiredObject;
+
+        if ( !\$Self->{MainObject}->Require(\$Module) ) {
+            \$Self->{LogObject}->Log(
+                Priority => 'error',
+                Message  => "Error while creating needed object '\$RequiredObject'",
+            );
+            return 1;
+        }
+
+        # create new instance
+        \$Self->{ \$RequiredObject . 'Object' } = \$Module->new( %{\$Self} );
+    }
+
+
+
+    # manipulate HTML content
+    \${ \$Param{Data} } =~ s{}{}xms;
+
+    return 1;
+}
+
+1;
+
+]]></content>
+    <tabTrigger>otrs.filetemplate.outputfilter.pre</tabTrigger>
+</snippet>

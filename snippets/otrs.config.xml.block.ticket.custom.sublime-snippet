@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+<ConfigItem Name="Ticket::CustomModule###${1:001}-$2" Required="0" Valid="1">
+    <Description Translatable="1">This configuration registers a custom ticket module that ${3:overloads (redefines) existing functions in Kernel::System::Ticket}.</Description>
+    <Group>${4:Framework}</Group>
+    <SubGroup>${5:Core::Ticket}</SubGroup>
+    <Setting>
+        <String Regex="">Kernel::System::Ticket::$2</String>
+    </Setting>
+</ConfigItem>
+]]></content>
+    <tabTrigger>otrs.config.xml.block.ticket.custom</tabTrigger>
+</snippet>

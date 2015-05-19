@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_config version="1.0" init="${1:Framework|Application|Config|Changes}">
+
+$2
+
+</otrs_config>
+]]></content>
+    <tabTrigger>otrs.filetemplate.config</tabTrigger>
+</snippet>

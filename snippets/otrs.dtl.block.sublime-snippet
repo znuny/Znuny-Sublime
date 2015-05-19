@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<!-- dtl:block:$1 -->
+
+    $2
+
+<!-- dtl:block:$1 -->
+]]></content>
+    <tabTrigger>otrs.dtl.block</tabTrigger>
+</snippet>

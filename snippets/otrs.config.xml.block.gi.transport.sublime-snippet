@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+<ConfigItem Name="GenericInterface::Transport::Module###${1:Protocol}::${2:TransportName}" Required="0" Valid="1">
+    <Description Translatable="1">${3:GenericInterface module registration for the transport layer}.</Description>
+    <Group>${4:GenericInterface}</Group>
+    <SubGroup>${5:GenericInterface::Transport::ModuleRegistration}</SubGroup>
+    <Setting>
+        <Hash>
+            <Item Key="Name">${2:Transport Name}</Item>
+            <Item Key="Protocol">${1:Protocol}</Item>
+            <Item Key="ConfigDialog">AdminGenericInterfaceTransport${1:Protocol}${2:TransportName}</Item>
+        </Hash>
+    </Setting>
+</ConfigItem>
+]]></content>
+    <tabTrigger>otrs.config.xml.block.gi.transport</tabTrigger>
+</snippet>

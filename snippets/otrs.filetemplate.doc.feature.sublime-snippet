@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+# ${1:Headline}
+
+Im OTRS Standard ${2:...}. Dieses Paket erweitert das System um die Funktionalität ${3:...}.
+
+${4:...}
+${5:   * ListItem}
+
+![TITLE](doc/images/image_name.png)
+]]></content>
+    <tabTrigger>otrs.filetemplate.doc.feature</tabTrigger>
+</snippet>

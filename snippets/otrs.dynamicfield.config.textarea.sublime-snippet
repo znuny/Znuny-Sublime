@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+{
+    Name       => '${1:InternalName}',
+    Label      => "${2:Label}",
+    ObjectType => '${3:Ticket|Article}',
+    FieldType  => 'TextArea',
+    Config     => {
+        DefaultValue => "$4",
+        Rows         => '$5',
+        Cols         => '$6',
+    },
+},
+]]></content>
+    <tabTrigger>otrs.dynamicfield.config.textarea</tabTrigger>
+</snippet>

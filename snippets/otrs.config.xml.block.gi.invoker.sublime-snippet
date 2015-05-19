@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+<ConfigItem Name="GenericInterface::Invoker::Module###${1:Controller}${2:InvokerName}" Required="0" Valid="1">
+    <Description Translatable="1">${3:GenericInterface module registration for the invoker layer}.</Description>
+    <Group>${4:GenericInterface}</Group>
+    <SubGroup>${5:GenericInterface::Invoker::ModuleRegistration}</SubGroup>
+    <Setting>
+        <Hash>
+            <Item Key="Name">${2:InvokerName}</Item>
+            <Item Key="Controller">${1:Controller (FolderName)}</Item>
+            <Item Key="ConfigDialog">${6:AdminGenericInterfaceInvokerDefault}</Item>
+        </Hash>
+    </Setting>
+</ConfigItem>
+]]></content>
+    <tabTrigger>otrs.config.xml.block.gi.invoker</tabTrigger>
+</snippet>

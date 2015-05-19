@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+\$Kernel::OM->Get('Kernel::System::Valid')->
+]]></content>
+    <tabTrigger>otrs.lazy.ObjectManager.Valid</tabTrigger>
+</snippet>

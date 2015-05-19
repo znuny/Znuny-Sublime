@@ -1,0 +1,19 @@
+Congratulations!!!
+
+Znuny4OTRS is a Sublime Text 2/3 plugin that helps you to make OTRS development less painful.
+
+You have to do nothing now. Just check out the list of fancy shortcuts in your preferences or type "otrs" and trigger sublime autocompletion.
+
+New features are comming up!
+GitHub link - https://github.com/znuny/Znuny4OTRS-Sublime
+
+For this extension and for OTRS in general visit http://znuny.com. Looking forward to hear from you!
+
+Enjoy!
+
+ Your Znuny Team!
+
+
+Version 0.0.1
+✔ Added automatic 'Frontend::Template::GenerateBlockHooks' config XML generator
+✔ Added "otrs" autocomplete snippets from https://github.com/znuny/SublimeTextAdjustments/CodeSnippets

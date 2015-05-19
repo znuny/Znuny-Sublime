@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+\$Kernel::OM->Get('Kernel::Output::HTML::Layout')->
+]]></content>
+    <tabTrigger>otrs.lazy.ObjectManager.Layout</tabTrigger>
+</snippet>

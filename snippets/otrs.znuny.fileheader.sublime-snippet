@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+# --
+# ${2:Kernel/}$TM_FILENAME - $1
+# Copyright (C) 2014 Znuny GmbH, http://znuny.com/
+# --
+]]></content>
+    <tabTrigger>otrs.znuny.fileheader</tabTrigger>
+</snippet>

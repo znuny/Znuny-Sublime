@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$CommonObject{LogObject}->Log(
+    Priority => 'error',
+    Message  => "$1",
+);
+return;
+]]></content>
+<tabTrigger>otrs.error.log.common</tabTrigger>
+</snippet>

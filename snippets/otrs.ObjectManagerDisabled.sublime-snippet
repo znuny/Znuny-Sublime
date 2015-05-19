@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+our \$ObjectManagerDisabled = 1;
+]]></content>
+    <tabTrigger>otrs.ObjectManagerDisabled</tabTrigger>
+</snippet>

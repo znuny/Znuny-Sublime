@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$Self->{LogObject}->Log(
+    Priority => 'error',
+    Message  => "$1",
+);
+return;
+]]></content>
+<tabTrigger>otrs.error.log.self</tabTrigger>
+</snippet>

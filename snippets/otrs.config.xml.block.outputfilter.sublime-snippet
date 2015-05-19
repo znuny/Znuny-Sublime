@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+<ConfigItem Name="Frontend::Output::FilterElement${1:Pre|Post}###OutputFilter${1:Pre|Post}${2:Filename}" Required="0" Valid="1">
+    <Description Translatable="1">${3:This configuration registers an OutputFilter module that}.</Description>
+    <Group>${4:Framework}</Group>
+    <SubGroup>${5:Core::Web}</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Module">Kernel::Output::HTML::OutputFilter${1:Pre|Post}${2:Filename}</Item>
+                <Item Key="Templates">
+                    <Hash>
+                        <Item Key="${6:ALL}">1</Item>
+                    </Hash>
+                </Item>
+            </Hash>
+        </Setting>
+</ConfigItem>
+]]></content>
+    <tabTrigger>otrs.config.xml.block.outputfilter</tabTrigger>
+</snippet>

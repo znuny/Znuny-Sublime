@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+<CodeUpgrade Type="${1:post|pre}"${2: Version="1.0.0"}><![CDATA[
+# Notes on "Version" attribute:
+# skipped if \$UploadPackageVersion     < \$CodeBlockVersion
+# skipped if \$InstalledPackageVersion >= \$CodeBlockVersion
+
+    \$Kernel::OM->Get('Kernel::System::ZnunyHelper')->$3
+
+${4:]]}></CodeUpgrade>
+]]></content>
+    <tabTrigger>otrs.sopm.block.codeupgrade.4</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+\$Kernel::OM->Get('Kernel::System::Log')->
+]]></content>
+    <tabTrigger>otrs.lazy.ObjectManager.Log</tabTrigger>
+</snippet>

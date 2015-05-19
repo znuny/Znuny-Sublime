@@ -1,0 +1,4 @@
+{
+  "install": "messages/welcome.txt",
+  "0.0.1": "messages/welcome.txt"
+}

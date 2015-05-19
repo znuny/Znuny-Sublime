@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+if ( \$${1:Config}->{Debug} ) {
+
+    \$Self->{LogObject}->Log(
+        Priority => 'debug',
+        Message  => "Debug - ${2:PackageName}: $3.",
+    );
+}
+]]></content>
+    <tabTrigger>otrs.log.debug.block</tabTrigger>
+</snippet>

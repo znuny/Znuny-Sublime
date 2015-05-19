@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$LayoutObject->Block(
+    Name => '$1',
+    Data => ${2:\{
+    \}},
+);
+]]></content>
+    <tabTrigger>otrs.layout.block.inc_data.object</tabTrigger>
+</snippet>

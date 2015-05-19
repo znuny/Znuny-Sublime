@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+<ConfigItem Name="QueuePreferences###${1:PreferenceName}" Required="0" Valid="1">
+    <Description Translatable="1">${2:This configuration registers the queue preference '${1:PreferenceName}' that is used to}.</Description>
+    <Group>${3:Framework}</Group>
+    <SubGroup>${4:Frontend::Queue::Preferences}</SubGroup>
+    <Setting>
+        <Hash>
+            <Item Key="Module">Kernel::Output::HTML::${5:QueuePreferencesGeneric}</Item>
+            <Item Key="PrefKey">${1:PreferenceName}</Item>
+            <Item Key="Label">$6</Item>
+            <Item Key="Desc">$7</Item>
+            <Item Key="Block">${8:InputKey|Input|Option|TextArea|Upload|Password}</Item>
+            ${9: See Kernel/Modules/AdminQueue.pm ~689 and Kernel/Output/HTML/Standard/AdminQueue.dtl ~300 for more options }
+        </Hash>
+    </Setting>
+</ConfigItem>
+]]></content>
+    <tabTrigger>otrs.config.xml.block.queuepreference</tabTrigger>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+# ---
+# $1
+# ---
+    $2
+
+# ---
+]]></content>
+    <tabTrigger>otrs.customization.block</tabTrigger>
+</snippet>

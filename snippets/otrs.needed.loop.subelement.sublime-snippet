@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+# check needed stuff
+NEEDED:
+for my \$Needed ( qw($1) ) {
+
+    next NEEDED if defined \$Param{$2}->{ \$Needed };
+
+    \$Self->{LogObject}->Log(
+        Priority => 'error',
+        Message  => "Parameter '\$Needed' is needed in $2!",
+    );
+    return;
+}
+]]></content>
+    <tabTrigger>otrs.needed.loop.subelement</tabTrigger>
+</snippet>

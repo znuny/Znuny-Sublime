@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+\$Kernel::OM->Get('Kernel::System::Package')->
+]]></content>
+    <tabTrigger>otrs.lazy.ObjectManager.Package</tabTrigger>
+</snippet>

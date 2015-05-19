@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+my \$$1Object = Kernel::System::${2:::}$1->new(
+    $3Object => \$$3Object,
+);
+]]></content>
+    <tabTrigger>otrs.lazy.new.KS.my</tabTrigger>
+</snippet>

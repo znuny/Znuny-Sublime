@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+{
+    Name       => '${1:InternalName}',
+    Label      => "${2:Label}",
+    ObjectType => '${3:Ticket|Article}',
+    FieldType  => 'Text',
+    Config     => {
+        DefaultValue => "$4",
+        Link         => '${5:\$LQData{"$1"}}',
+    },
+},
+]]></content>
+    <tabTrigger>otrs.dynamicfield.config.text</tabTrigger>
+</snippet>

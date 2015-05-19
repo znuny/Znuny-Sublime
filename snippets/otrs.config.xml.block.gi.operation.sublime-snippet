@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+<ConfigItem Name="GenericInterface::Operation::Module###${1:Controller}${2:OperationName}" Required="0" Valid="1">
+    <Description Translatable="1">${3:GenericInterface module registration for the operation layer}.</Description>
+    <Group>${4:GenericInterface}</Group>
+    <SubGroup>${5:GenericInterface::Operation::ModuleRegistration}</SubGroup>
+    <Setting>
+        <Hash>
+            <Item Key="Name">${2:OperationName}</Item>
+            <Item Key="Controller">${1:Controller (FolderName)}</Item>
+            <Item Key="ConfigDialog">${6:AdminGenericInterfaceOperationDefault}</Item>
+        </Hash>
+    </Setting>
+</ConfigItem>
+]]></content>
+    <tabTrigger>otrs.config.xml.block.gi.operation</tabTrigger>
+</snippet>

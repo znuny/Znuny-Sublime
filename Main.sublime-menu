@@ -1,0 +1,34 @@
+[
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Znuny4OTRS",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/Znuny4OTRS/Default.sublime-keymap"},
+                                "caption": "Key Bindings - Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/Default.sublime-keymap"},
+                                "caption": "Key Bindings - User"
+                            },
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

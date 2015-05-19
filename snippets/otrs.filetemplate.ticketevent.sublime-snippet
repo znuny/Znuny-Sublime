@@ -1,0 +1,70 @@
+<snippet>
+    <content><![CDATA[
+# --
+# Kernel/System/Ticket/Event/$1.pm - $2
+# Copyright (C) 2014 Znuny GmbH, http://znuny.com/
+# --
+
+package Kernel::System::Ticket::Event::$1;
+
+use strict;
+use warnings;
+
+sub new {
+    my ( \$Type, %Param ) = @_;
+
+    # allocate new hash for object
+    my \$Self = {};
+    bless( \$Self, \$Type );
+
+    # get needed objects
+    NEEDED:
+    for my \$Needed (qw(ConfigObject DBObject MainObject TimeObject EncodeObject LogObject TicketObject UserObject CustomerUserObject SendmailObject)) {
+        \$Self->{\$Needed} = \$Param{\$Needed} || die "Got no \$Needed!";
+    }
+
+    return \$Self;
+}
+
+sub Run {
+    my ( \$Self, %Param ) = @_;
+
+    # check needed stuff
+    NEEDED:
+    for my \$Needed (qw( Data Event Config UserID )) {
+
+        next NEEDED if \$Param{\$Needed};
+
+        \$Self->{LogObject}->Log(
+            Priority => 'error',
+            Message  => "Need \$Needed!"
+        );
+        return;
+    }
+    NEEDED:
+    for my \$Needed (qw( TicketID )) {
+
+        next NEEDED if \$Param{Data}->{\$Needed};
+
+        \$Self->{LogObject}->Log(
+            Priority => 'error',
+            Message  => "Need \$Needed in Data!"
+        );
+        return;
+    }
+
+    my %Ticket = \$Self->{TicketObject}->TicketGet(
+        TicketID      => \$Param{Data}->{TicketID},
+        DynamicFields => 1,
+    );
+
+    $3
+
+    return 1;
+}
+
+1;
+
+]]></content>
+    <tabTrigger>otrs.filetemplate.ticketevent</tabTrigger>
+</snippet>

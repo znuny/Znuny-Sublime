@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<ConfigItem Name="$1" Required="${8:1}" Valid="1"${7: ConfigLevel="200"}>
+    <Description Translatable="1">${2:This configuration defines}.</Description>
+    <Group>${3:Framework}</Group>
+    <SubGroup>${4:Core}</SubGroup>
+    <Setting>
+        <Hash>
+            <Item Key="$5">$6</Item>
+        </Hash>
+    </Setting>
+</ConfigItem>
+]]></content>
+    <tabTrigger>otrs.config.xml.block.hash</tabTrigger>
+</snippet>

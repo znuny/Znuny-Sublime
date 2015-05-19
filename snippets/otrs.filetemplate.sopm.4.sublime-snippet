@@ -1,0 +1,61 @@
+<snippet>
+	<content><![CDATA[
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+
+    <Name>${1:Znuny4OTRS-}</Name>
+
+    <Version>1.0.0</Version>
+
+    <PackageRequired Version="2.0.2">Znuny4OTRS-Repo</PackageRequired>
+
+    <Framework>${2:4.0.x}</Framework>
+
+    <Vendor>Znuny GmbH</Vendor>
+    <URL>http://znuny.com/</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+
+    <Description Lang="en">This package contains ${3:the functionality to }.</Description>
+    <Description Lang="de">Dieses Paket enthält ${4:die Funktionalität um }.</Description>
+
+    <ModuleRequired></ModuleRequired>
+
+    <Filelist>
+        <File Permission="644" Location="bin/.pl"/>
+
+        <File Permission="644" Location="Custom/Kernel/GenericInterface/.pm"/>
+
+        <File Permission="644" Location="Kernel/Config/Files/${5:Znuny4OTRS}.xml"/>
+
+        <File Permission="644" Location="Kernel/GenericInterface/.pm"/>
+
+        <File Permission="644" Location="Kernel/Language/de_${5:Znuny4OTRS}.pm"/>
+
+        <File Permission="644" Location="Kernel/Modules/.pm"/>
+
+        <File Permission="644" Location="Kernel/Output/HTML/Standard/.dtl"/>
+
+        <File Permission="644" Location="Kernel/Output/HTML/.pm"/>
+
+        <File Permission="644" Location="Kernel/System/.pm"/>
+
+        <File Permission="644" Location="Kernel/System/Stats/Static/.pm"/>
+        <File Permission="644" Location="Kernel/System/Stats/Dynamic/.pm"/>
+
+
+        <File Permission="644" Location="var/packagesetup/${5:Znuny4OTRS}.pm"/>
+
+        <File Permission="644" Location="var/httpd/htdocs/js/Core.Agent.Admin..js"/>
+        <File Permission="644" Location="var/httpd/htdocs/js/Core.Agent..js"/>
+        <File Permission="644" Location="var/httpd/htdocs/js/Core.Customer..js"/>
+
+        <File Permission="644" Location="var/httpd/htdocs/skins/Agent/default/css/Core.Agent.Admin..css"/>
+        <File Permission="644" Location="var/httpd/htdocs/skins/Agent/default/css/Core.Agent..css"/>
+        <File Permission="644" Location="var/httpd/htdocs/skins/Customer/default/css/Core.Customer..css"/>
+
+        <File Permission="644" Location=""/>
+    </Filelist>
+</otrs_package>
+]]></content>
+    <tabTrigger>otrs.filetemplate.sopm.4</tabTrigger>
+</snippet>

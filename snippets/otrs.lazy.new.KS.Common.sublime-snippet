@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+\$CommonObject{$1Object} = Kernel::System::${2:::}$1->new( %CommonObject );
+]]></content>
+    <tabTrigger>otrs.lazy.new.KS.Common</tabTrigger>
+</snippet>

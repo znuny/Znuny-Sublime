@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+\$Kernel::OM->Get('Kernel::System::DynamicFieldValue')->
+]]></content>
+    <tabTrigger>otrs.lazy.ObjectManager.DynamicFieldValue</tabTrigger>
+</snippet>

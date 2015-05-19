@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+{
+    Name       => '${1:InternalName}',
+    Label      => "${2:Label}",
+    ObjectType => '${3:Ticket|Article}',
+    FieldType  => 'Dropdown',
+    Config     => {
+        PossibleValues     => {
+            ${4:Key} => "${5:Value}",
+        },
+        DefaultValue       => "${4:Key}",
+        TreeView           => '${6:1|0}',
+        PossibleNone       => '${7:1|0}',
+        TranslatableValues => '${8:1|0}',
+        Link               => '${9:\$LQData{"$1"}}',
+    },
+},
+]]></content>
+    <tabTrigger>otrs.dynamicfield.config.dropdown</tabTrigger>
+</snippet>

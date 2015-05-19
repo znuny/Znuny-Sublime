@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$Kernel::OM->Get('Kernel::System::Log')->Log(
+    Priority => 'error',
+    Message  => "$1",
+);
+return;
+]]></content>
+<tabTrigger>otrs.error.log.om</tabTrigger>
+</snippet>

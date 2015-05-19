@@ -1,0 +1,104 @@
+<snippet>
+	<content><![CDATA[
+# --
+# Kernel/System/$1.pm - $2
+# Copyright (C) 2014 Znuny GmbH, http://znuny.com/
+# --
+
+package Kernel::System::$1;
+
+use strict;
+use warnings;
+
+=head1 NAME
+
+Kernel::System::$1 - ${3:Backend description}
+
+=head1 SYNOPSIS
+
+$2
+
+=head1 PUBLIC INTERFACE
+
+=over 4
+
+=cut
+
+=item new()
+
+create an object
+
+    use Kernel::Config;
+    use Kernel::System::Encode;
+    use Kernel::System::Log;
+    use Kernel::System::Main;
+    use Kernel::System::DB;
+    use Kernel::System::$1;
+
+    my \$ConfigObject = Kernel::Config->new();
+    my \$EncodeObject = Kernel::System::Encode->new(
+        ConfigObject => \$ConfigObject,
+    );
+    my \$LogObject = Kernel::System::Log->new(
+        ConfigObject => \$ConfigObject,
+        EncodeObject => \$EncodeObject,
+    );
+    my \$MainObject = Kernel::System::Main->new(
+        ConfigObject => \$ConfigObject,
+        EncodeObject => \$EncodeObject,
+        LogObject    => \$LogObject,
+    );
+    my \$DBObject = Kernel::System::DB->new(
+        ConfigObject => \$ConfigObject,
+        EncodeObject => \$EncodeObject,
+        LogObject    => \$LogObject,
+        MainObject   => \$MainObject,
+    );
+    my \$$1Object = Kernel::System::$1->new(
+        ConfigObject => \$ConfigObject,
+        EncodeObject => \$EncodeObject,
+        LogObject    => \$LogObject,
+        DBObject     => \$DBObject,
+        MainObject   => \$MainObject,
+    );
+
+=cut
+
+sub new {
+    my ( \$Type, %Param ) = @_;
+
+    # allocate new hash for object
+    my \$Self = {};
+    bless( \$Self, \$Type );
+
+    # check needed objects
+    for my \$Object ( qw( ${4:DBObject ConfigObject EncodeObject LogObject MainObject} ) ) {
+        \$Self->{\$Object} = \$Param{\$Object} || die "Got no \$Object for creating $1Object!";
+    }
+
+    return \$Self;
+}
+
+=item ${5:FunctionName}()
+
+${6:Function description}
+
+    my \$${5:FunctionName} = \$$1Object->${5:FunctionName}(
+
+    );
+
+=cut
+
+sub ${5:FunctionName} {
+    my ( \$Self, %Param ) = @_;
+
+
+
+    return 1;
+}
+
+1;
+
+]]></content>
+    <tabTrigger>otrs.filetemplate.system</tabTrigger>
+</snippet>

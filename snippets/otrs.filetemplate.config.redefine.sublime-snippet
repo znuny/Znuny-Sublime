@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+# --
+# Kernel/Config/Files/${1:FileName}.pm - $2
+# Copyright (C) 2014 Znuny GmbH, http://znuny.com/
+# --
+
+use strict;
+use warnings;
+
+use ${3:Kernel::System::};
+
+# disable redefine warnings in this scope
+{
+no warnings 'redefine';
+
+sub ${3:Kernel::System::}::${4:FunctionName} {
+
+$5
+
+}
+
+}
+
+1;
+
+]]></content>
+    <tabTrigger>otrs.filetemplate.config.redefine</tabTrigger>
+</snippet>

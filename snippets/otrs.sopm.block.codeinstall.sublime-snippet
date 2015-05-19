@@ -1,0 +1,54 @@
+<snippet>
+    <content><![CDATA[
+<CodeInstall Type="${1:post|pre}"${2: Version="1.0.0"}><![CDATA[
+# Notes on "Version" attribute:
+# skipped if \$UploadPackageVersion     < \$CodeBlockVersion
+# skipped if \$InstalledPackageVersion >= \$CodeBlockVersion
+
+    return if !\$Self->{MainObject}->Require('Kernel::System::ZnunyHelper');
+
+    my \$HelperObject = Kernel::System::ZnunyHelper->new();
+
+    my @DynamicFieldCreateStructure = (
+        # insert dynamic field HashRef config structure here
+        # use Sublime Text snippet otrs.dynamicfield.config.* for easy structure pasting
+        # otherwise check the structure out here:
+        # https://github.com/znuny/SublimeTextAdjustments/tree/master/CodeSnippets
+    );
+    \$HelperObject->_DynamicFieldsCreateIfNotExists( @DynamicFieldCreateStructure );
+    \$HelperObject->_DynamicFieldsCreate( @DynamicFieldCreateStructure );
+
+
+    my %DynamicFieldEnableScreen = (
+        # AgentTicket* / CustomerTicket* => {
+        #     DynamicFieldNameWithoutPrefix => 1,
+        # },
+    );
+    \$HelperObject->_DynamicFieldsScreenEnable( %DynamicFieldEnableScreen );
+
+
+    my %LoaderData = (
+        AgentTicketPhone => [
+                                'Core.Agent.WPTicketOEChange.js',
+                                'Core.Agent.WPTicketOEChange.css',
+                            ],
+    );
+    \$HelperObject->_LoaderAdd( %LoaderData );
+
+
+    my %GroupAttributes = (
+        Name => 'Group Name 123', # required
+        # ...
+    );
+    \$HelperObject->_GroupCreateIfNotExists( %GroupAttributes );
+
+
+    # parameter order \$Type, \$Lang, \$Subject, \$Body
+    \$HelperObject->_NotificationCreateIfNotExists( 'Agent::PvD::NewTicket', 'de', 'sub', 'body' );
+
+    $3
+
+${4:]]}></CodeInstall>
+]]></content>
+    <tabTrigger>otrs.sopm.block.codeinstall</tabTrigger>
+</snippet>
