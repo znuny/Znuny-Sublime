@@ -15,7 +15,7 @@ Enjoy!
 
 
 Version 0.0.2
-✔ Added automatic quoting with custom markers with keyboard shortcut
+✔ Added automatic quoting with custom markers via keyboard shortcut
 
 Version 0.0.1
 ✔ Added automatic 'Frontend::Template::GenerateBlockHooks' config XML generator
