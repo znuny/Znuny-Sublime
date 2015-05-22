@@ -50,6 +50,9 @@ Default keyboard shortcut: ```strg+alt+z, h```
 
 <img src="https://cloud.githubusercontent.com/assets/3873515/7705818/db4f3510-fe46-11e4-90b9-09093b063ac0.gif" width="640">
 
+#### Automatic custom marker quoting
+
+Default keyboard shortcut: ```strg+alt+z, q```
 
 
 ### Commercial Support
