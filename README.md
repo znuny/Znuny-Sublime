@@ -54,6 +54,9 @@ Default keyboard shortcut: ```strg+alt+z, h```
 
 Default keyboard shortcut: ```strg+alt+z, q```
 
+Works with active Perl, JavaScript and HTML sytax.
+
+<img src="https://cloud.githubusercontent.com/assets/3873515/7766583/d64a68fc-006a-11e5-8d9c-682ba128297a.gif" width="640">
 
 ### Commercial Support
 
