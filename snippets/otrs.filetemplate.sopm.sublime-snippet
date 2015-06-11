@@ -7,9 +7,9 @@
 
     <Version>1.0.0</Version>
 
-    <PackageRequired Version="1.0.9">Znuny4OTRS-Repo</PackageRequired>
-
     <Framework>${2:3.3.x}</Framework>
+
+    <PackageRequired Version="1.0.9">Znuny4OTRS-Repo</PackageRequired>
 
     <Vendor>Znuny GmbH</Vendor>
     <URL>http://znuny.com/</URL>
