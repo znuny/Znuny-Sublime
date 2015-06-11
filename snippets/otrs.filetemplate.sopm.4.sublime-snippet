@@ -7,10 +7,10 @@
 
     <Version>1.0.0</Version>
 
-    <PackageRequired Version="2.0.2">Znuny4OTRS-Repo</PackageRequired>
-
     <Framework>${2:4.0.x}</Framework>
 
+    <PackageRequired Version="2.0.2">Znuny4OTRS-Repo</PackageRequired>
+    
     <Vendor>Znuny GmbH</Vendor>
     <URL>http://znuny.com/</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
