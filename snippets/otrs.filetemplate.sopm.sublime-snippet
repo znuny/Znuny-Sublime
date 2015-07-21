@@ -11,14 +11,14 @@
 
     <PackageRequired Version="1.0.9">Znuny4OTRS-Repo</PackageRequired>
 
+    <ModuleRequired></ModuleRequired>
+
     <Vendor>Znuny GmbH</Vendor>
     <URL>http://znuny.com/</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
 
     <Description Lang="en">This package contains ${3:the functionality to }.</Description>
     <Description Lang="de">Dieses Paket enthält ${4:die Funktionalität um }.</Description>
-
-    <ModuleRequired></ModuleRequired>
 
     <Filelist>
         <File Permission="644" Location="bin/.pl"/>
