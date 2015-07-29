@@ -20,6 +20,14 @@ use Getopt::Long;
 use Kernel::System::ObjectManager;
 use Kernel::System::VariableCheck qw(:all);
 
+# get options
+my %Opts;
+GetOptions(
+    'Array|a=s'  => \@{ \$Opts{Array} },
+    'String|s=s' => \\\$Opts{String},
+    'help|h'     => \\\$Opts{Help},
+);
+
 # create common objects
 local \$Kernel::OM = Kernel::System::ObjectManager->new(
     'Kernel::System::Log' => {
