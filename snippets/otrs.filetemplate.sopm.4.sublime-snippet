@@ -20,7 +20,6 @@
     <Description Lang="en">This package contains ${3:the functionality to }.</Description>
     <Description Lang="de">Dieses Paket enthält ${4:die Funktionalität um }.</Description>
 
-
     <Filelist>
         <File Permission="644" Location="bin/.pl"/>
 
