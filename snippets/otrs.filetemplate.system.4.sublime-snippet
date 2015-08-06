@@ -1,0 +1,65 @@
+<snippet>
+	<content><![CDATA[
+# --
+# Kernel/System/$1.pm - $2
+# Copyright (C) 2014 Znuny GmbH, http://znuny.com/
+# --
+# This software comes with ABSOLUTELY NO WARRANTY. For details, see
+# the enclosed file COPYING for license information (AGPL). If you
+# did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
+# --
+
+package Kernel::System::$1;
+
+use strict;
+use warnings;
+
+our @ObjectDependencies = (
+    'Kernel::System::Cache',
+    'Kernel::System::DB',
+    'Kernel::System::Log',
+    'Kernel::System::Valid',
+);
+
+=head1 NAME
+
+Kernel::System::$1 - $1 lib
+
+=head1 SYNOPSIS
+
+All $1 functions.
+
+=head1 PUBLIC INTERFACE
+
+=over 4
+
+=cut
+
+=item new()
+
+create an object
+
+    use Kernel::System::ObjectManager;
+    local \$Kernel::OM = Kernel::System::ObjectManager->new();
+    my \$$1Object = \$Kernel::OM->Get('Kernel::System::$1');
+
+=cut
+
+sub new {
+    my ( \$Type, %Param ) = @_;
+
+    # allocate new hash for object
+    my \$Self = {};
+    bless( \$Self, \$Type );
+
+    \$Self->{CacheType} = '$1';
+    \$Self->{CacheTTL}  = 60 * 60 * 24 * 20;
+
+    return \$Self;
+}
+
+1;
+
+]]></content>
+    <tabTrigger>otrs.filetemplate.system.4</tabTrigger>
+</snippet>
