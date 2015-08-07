@@ -66,6 +66,8 @@ Default keyboard shortcut: ```strg+alt+z, d```
 
 Inserts the @ObjectDependencies array by parsing the file content. Only regular used OM calls are supported.
 
+<img src="https://cloud.githubusercontent.com/assets/3873515/9132331/0ec230a6-3cf3-11e5-8421-9261d25d2694.gif" width="640">
+
 ### Commercial Support
 
 For this extension and for OTRS in general visit [http://znuny.com](http://znuny.com). Looking forward to hear from you!
