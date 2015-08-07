@@ -53,7 +53,7 @@ class Znuny4OtrsQuoteWithMarkerCommand(sublime_plugin.TextCommand):
         code_marker_replace = code_marker_replace.replace('{quote_char}',quote_char)
 #        code_marker_replace.format(**replace_dict)
 
-        # Replace the selection with transformed text
+        # replace the selection with transformed text
         self.view.replace(edit, region, code_marker_replace)
 
     # clear selection regions / cursor position
