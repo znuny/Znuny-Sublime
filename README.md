@@ -8,6 +8,7 @@ Znuny4OTRS is a Sublime Text 2/3 plugin that helps you to make OTRS development 
 
 * Automatic quoting with custom markers via keyboard shortcut.
 * Automatic 'Frontend::Template::GenerateBlockHooks' config XML generation from .tt template file.
+* Automatic creation of the ObjectDependencies array.
 * OTRS code snippts for fast, consistent and error free coding.
 
 ### Installation
@@ -58,6 +59,12 @@ Default keyboard shortcut: ```strg+alt+z, q```
 Works with active Perl, JavaScript and HTML sytax.
 
 <img src="https://cloud.githubusercontent.com/assets/3873515/7766583/d64a68fc-006a-11e5-8d9c-682ba128297a.gif" width="640">
+
+#### Automatic creation of the ObjectDependencies array
+
+Default keyboard shortcut: ```strg+alt+z, d```
+
+Inserts the @ObjectDependencies array by parsing the file content. Only regular used OM calls are supported.
 
 ### Commercial Support
 
