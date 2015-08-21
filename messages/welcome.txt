@@ -14,6 +14,9 @@ Enjoy!
  Your Znuny Team!
 
 
+Version 0.0.8
+✔ Fixed bug: Multiple entries in quick select field in 'Add folder from workspace to project' functionality.
+
 Version 0.0.7
 ✔ Added 'Add folder from workspace to project' functionality.
 ✔ Added, improved and fixed some snippets.
