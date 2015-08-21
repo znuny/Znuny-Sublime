@@ -9,6 +9,7 @@ class Znuny4OtrsAddToProject(sublime_plugin.TextCommand):
 
     workspace_directories    = self.settings.get('znuny4otrs_workspaces')
 
+    self.workspace_content = []
     for workspace_directory in workspace_directories:
       self.workspace_content += [ workspace_directory + name for name in os.listdir(workspace_directory) if os.path.isdir(os.path.join(workspace_directory, name)) ]
 
