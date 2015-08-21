@@ -16,6 +16,22 @@
                         "children":
                         [
                             {
+                                "caption": "Settings - Default",
+                                "command": "open_file",
+                                "args":
+                                {
+                                    "file": "${packages}/Znuny4OTRS/Znuny4Otrs.sublime-settings"
+                                }
+                            },
+                            {
+                                "caption": "Settings - User",
+                                "command": "open_file",
+                                "args":
+                                {
+                                    "file": "${packages}/User/Znuny4Otrs.sublime-settings"
+                                }
+                            },
+                            {
                                 "command": "open_file",
                                 "args": {"file": "${packages}/Znuny4OTRS/Default.sublime-keymap"},
                                 "caption": "Key Bindings - Default"

@@ -14,6 +14,10 @@ Enjoy!
  Your Znuny Team!
 
 
+Version 0.0.7
+✔ Added 'Add folder from workspace to project' functionality.
+✔ Added, improved and fixed some snippets.
+
 Version 0.0.6
 ✔ Added 'Automatic creation of the ObjectDependencies array' functionality.
 ✔ Added, improved and fixed some snippets.

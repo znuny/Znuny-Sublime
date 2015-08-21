@@ -1,5 +1,6 @@
 [
     { "keys": ["ctrl+alt+z", "h"], "command": "znuny4_otrs_generate_block_hooks" },
     { "keys": ["ctrl+alt+z", "q"], "command": "znuny4_otrs_quote_with_marker" },
-    { "keys": ["ctrl+alt+z", "d"], "command": "znuny4_otrs_object_dependencies" }
+    { "keys": ["ctrl+alt+z", "d"], "command": "znuny4_otrs_object_dependencies" },
+    { "keys": ["ctrl+alt+z", "p"], "command": "znuny4_otrs_add_to_project" }
 ]

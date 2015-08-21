@@ -68,6 +68,14 @@ Inserts the @ObjectDependencies array by parsing the file content. Only regular 
 
 <img src="https://cloud.githubusercontent.com/assets/3873515/9132331/0ec230a6-3cf3-11e5-8421-9261d25d2694.gif" width="640">
 
+#### Add folder from workspace(s) to project
+
+Default keyboard shortcut: ```strg+alt+z, p```
+
+Provides a searchable list of folders that can be added to the project. All folders of configurable workspace folders will be displayed.
+
+Preferences -> Package Settings -> Znuny4OTRS -> Settings -> "znuny4otrs_workspaces"
+
 ### Commercial Support
 
 For this extension and for OTRS in general visit [http://znuny.com](http://znuny.com). Looking forward to hear from you!
