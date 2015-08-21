@@ -76,6 +76,8 @@ Provides a searchable list of folders that can be added to the project. All fold
 
 Preferences -> Package Settings -> Znuny4OTRS -> Settings -> "znuny4otrs_workspaces"
 
+<img src="https://cloud.githubusercontent.com/assets/3873515/9403960/a7b9d0d6-47eb-11e5-93a7-d7c513c57ad5.gif" width="640">
+
 ### Commercial Support
 
 For this extension and for OTRS in general visit [http://znuny.com](http://znuny.com). Looking forward to hear from you!
