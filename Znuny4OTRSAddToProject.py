@@ -7,7 +7,7 @@ class Znuny4OtrsAddToProject(sublime_plugin.TextCommand):
   def run(self, edit):
 
     settings               = sublime.load_settings('Znuny4Otrs.sublime-settings')
-    workspace_directories  = self.settings.get('znuny4otrs_workspaces')
+    workspace_directories  = settings.get('znuny4otrs_workspaces')
     self.workspace_content = []
     for workspace_directory in workspace_directories:
       self.workspace_content += [ workspace_directory + name for name in os.listdir(workspace_directory) if os.path.isdir(os.path.join(workspace_directory, name)) ]
