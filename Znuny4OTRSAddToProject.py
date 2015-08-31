@@ -1,12 +1,16 @@
 import sublime, sublime_plugin, os
 
+# https://github.com/titoBouzout/Open-Include/issues/28#issuecomment-31145976
+def plugin_loaded():
+  global settings
+  settings = sublime.load_settings('Znuny4Otrs.sublime-settings')
+
 class Znuny4OtrsAddToProject(sublime_plugin.TextCommand):
 
   workspace_content = []
 
   def run(self, edit):
 
-    settings               = sublime.load_settings('Znuny4Otrs.sublime-settings')
     workspace_directories  = settings.get('znuny4otrs_workspaces')
     self.workspace_content = []
     for workspace_directory in workspace_directories:
