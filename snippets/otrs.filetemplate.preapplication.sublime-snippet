@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 # --
-# Kernel/${1:PreApplication} - $2
+# Kernel/Modules/${1:PreApplication}.pm - $2
 # Copyright (C) 2014 Znuny GmbH, http://znuny.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
@@ -38,6 +38,8 @@ sub PreRun {
     if ( !\$Self->{RequestedURL} ) {
         \$Self->{RequestedURL} = 'Action=';
     }
+
+    my $Action = $Self->{ParamObject}->GetParam( Param => 'Action' );
 
     $3
 
