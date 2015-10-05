@@ -20,7 +20,7 @@ create an object. Do not use it directly, instead use:
 
     use Kernel::System::ObjectManager;
     local $Kernel::OM = Kernel::System::ObjectManager->new();
-    my $TicketObject = $Kernel::OM->Get('Kernel::$1');
+    my $TicketObject = $Kernel::OM->Get('Kernel::System::$1');
 
 =cut
 ]]></content>
