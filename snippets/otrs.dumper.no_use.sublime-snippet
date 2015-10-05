@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-print STDERR "Debug Dump - ${1:ModuleName} - ${2:VariableName} = ". Dumper(${3:\\}$4${2:VariableName}) ."\n";
+print STDERR 'Debug Dump - ${1:ModuleName} - ${2:VariableName} = ' . Dumper(${3:\\}$4${2:VariableName}) . "\n";
 ]]></content>
     <tabTrigger>otrs.dumper.no_use</tabTrigger>
 </snippet>
