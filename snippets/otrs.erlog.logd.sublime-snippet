@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+use Data::Dumper;
+open ERLOG, ">>/tmp/znuny.otrs.log";
+print ERLOG "${1:Description}\n";
+print ERLOG Dumper(${2:Variable});
+close ERLOG;
+]]></content>
+    <tabTrigger>otrs.erlog.d</tabTrigger>
+</snippet>
+<!-- Log Descrition and Data::Dumper Dump of a Variable into /tmp/znuny.otrs.log -->

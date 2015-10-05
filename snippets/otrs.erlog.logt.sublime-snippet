@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+open ERLOG, ">>/tmp/znuny.otrs.log";
+print ERLOG "${1:Logtext}\n";
+close ERLOG;
+]]></content>
+    <tabTrigger>otrs.erlog.t</tabTrigger>
+</snippet>
+<!-- Logging just a Logtext into /tmp/znuny.otrs.log -->
