@@ -39,7 +39,7 @@ sub PreRun {
         \$Self->{RequestedURL} = 'Action=';
     }
 
-    my $Action = $Self->{ParamObject}->GetParam( Param => 'Action' );
+    my \$Action = \$Self->{ParamObject}->GetParam( Param => 'Action' );
 
     $3
 
