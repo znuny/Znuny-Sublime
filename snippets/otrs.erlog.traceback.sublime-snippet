@@ -13,6 +13,6 @@ for my \$Counter (0 .. 12) {
 }
 close ERLOG;
 ]]></content>
-    <tabTrigger>otrs.erlog.r</tabTrigger>
+    <tabTrigger>otrs.erlog.traceback</tabTrigger>
 </snippet>
 <!-- Traceback logging Descriptive Text and up to 12 calling subroutines into /tmp/znuny.otrs.log -->

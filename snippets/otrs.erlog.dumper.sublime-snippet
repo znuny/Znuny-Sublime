@@ -6,6 +6,6 @@ print ERLOG "${1:Description}\n";
 print ERLOG Dumper(${2:Variable});
 close ERLOG;
 ]]></content>
-    <tabTrigger>otrs.erlog.d</tabTrigger>
+    <tabTrigger>otrs.erlog.dump</tabTrigger>
 </snippet>
 <!-- Log Descrition and Data::Dumper Dump of a Variable into /tmp/znuny.otrs.log -->

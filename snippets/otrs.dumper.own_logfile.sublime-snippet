@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-use Data::Dumper;
-open ERLOG, "${1:>>/tmp/znuny.otrs.log}";
-print ERLOG $2;
-close ERLOG;
-]]></content>
-    <tabTrigger>otrs.dumper.own_logfile</tabTrigger>
-</snippet>
