@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+// nofilter($1)
+]]></content>
+    <tabTrigger>otrs.lazy.nofilter.js</tabTrigger>
+</snippet>
