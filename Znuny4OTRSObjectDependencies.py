@@ -21,11 +21,12 @@ class Znuny4OtrsObjectDependencies(sublime_plugin.TextCommand):
 
     # try to extract the packe name of the perl module file
     package_name_check = re.search('package (.+'+ perl_module_name +');', body)
-    # exit early if it is none
-    if not package_name_check: return
 
-    # store template name
-    package_name = package_name_check.group(1)
+    # store if we found one
+    package_name = None
+    if package_name_check:
+        # store template name
+        package_name = package_name_check.group(1)
 
     # @ObjectDependencies template
     object_dependencies_template = "our @ObjectDependencies = (\n"
@@ -36,7 +37,7 @@ class Znuny4OtrsObjectDependencies(sublime_plugin.TextCommand):
     pattern             = re.compile(r'\$Kernel::OM\->Get\(\'?\"?([^\)]+)(?:\'|\")\)')
     for (dependency) in re.findall(pattern, body):
 
-      if dependency == package_name: continue
+      if package_name and dependency == package_name: continue
       if dependency in object_dependencies: continue
       object_dependencies.append( dependency )
 
