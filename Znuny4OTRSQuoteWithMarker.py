@@ -7,11 +7,11 @@ class Znuny4OtrsQuoteWithMarkerCommand(sublime_plugin.TextCommand):
     quote_char = None
     syntax     = self.view.settings().get('syntax')
 
-    if syntax == 'Packages/JavaScript/JavaScript.tmLanguage':
+    if syntax == 'Packages/JavaScript/JavaScript.tmLanguage' or syntax == 'Packages/JavaScript/JavaScript.sublime-syntax':
         quote_char = '//'
-    elif syntax == 'Packages/Perl/Perl.tmLanguage':
+    elif syntax == 'Packages/Perl/Perl.tmLanguage' or syntax == 'Packages/Perl/Perl.sublime-syntax':
         quote_char = '#'
-    elif syntax == 'Packages/HTML/HTML.tmLanguage':
+    elif syntax == 'Packages/HTML/HTML.tmLanguage' or syntax == 'Packages/HTML/HTML.sublime-syntax':
         quote_char = '#'
 
     if not quote_char:
