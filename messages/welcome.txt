@@ -17,7 +17,7 @@ Enjoy!
 Version 0.0.12
 ✔ Added first draft of CheatSheet functionality.
 ✔ Added functionality for fetching framework files from github.
-✔ Added support for sytax names in newer SublimeText versions.
+✔ Added support for syntax names in newer SublimeText versions.
 ✔ Added "otrs.erlog" snippets.
 ✔ Added "Queue", "Type", "Webservice" and "GeneralCatalog" ObjectManager snippets.
 ✔ Added CodePolicy "nofilter" and "origin" snippets.
