@@ -94,7 +94,7 @@ Preferences -> Package Settings -> Znuny4OTRS -> Settings
 
 And add the settings "znuny4otrs_github_username" and "znuny4otrs_github_token" accordingly.
 
-<img src="" width="640">
+<img src="https://cloud.githubusercontent.com/assets/3873515/11466357/a218c11a-9740-11e5-9e9b-2f0e07e60b1b.gif" width="640">
 
 ### Commercial Support
 
