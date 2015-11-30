@@ -3,6 +3,7 @@
     { "keys": ["ctrl+alt+z", "q"], "command": "znuny4_otrs_quote_with_marker" },
     { "keys": ["ctrl+alt+z", "d"], "command": "znuny4_otrs_object_dependencies" },
     { "keys": ["ctrl+alt+z", "p"], "command": "znuny4_otrs_add_to_project" },
+    { "keys": ["ctrl+alt+z", "c"], "command": "znuny4_otrs_customizers_little_helper" },
     {
       "keys": [
         "ctrl+alt+z",

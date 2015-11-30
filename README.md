@@ -6,6 +6,7 @@ Znuny4OTRS is a Sublime Text 2/3 plugin that helps you to make OTRS development 
 
 ### Feature List
 
+* Automatic fetching of framework files from github.
 * Automatic quoting with custom markers via keyboard shortcut.
 * Automatic 'Frontend::Template::GenerateBlockHooks' config XML generation from .tt template file.
 * Automatic creation of the ObjectDependencies array.
@@ -78,6 +79,22 @@ Provides a searchable list of folders that can be added to the project. All fold
 Preferences -> Package Settings -> Znuny4OTRS -> Settings -> "znuny4otrs_workspaces"
 
 <img src="https://cloud.githubusercontent.com/assets/3873515/9403960/a7b9d0d6-47eb-11e5-93a7-d7c513c57ad5.gif" width="640">
+
+#### Fetching of framework files from github
+
+Default keyboard shortcut: ```strg+alt+z, c```
+
+Opens a branch and file selection list to chose a framework file from. The file will get fetched live from the selected github branch and added to the (selected) folder. The Znuny copyright and the origin tag will be added automatically to the file header for you. The file will also be automatically added to the 'Custom/' directory in case it's a file with one of the file extensions '.pm', '.dtl' or '.tt'.
+
+The github API is limited to 60 requests per hour for non authorized requests. Yo can provide your github username and an access token to push this limit to 5000 requests per hour. Please see the [official github doc](https://developer.github.com/v3/#rate-limiting) for further information.
+You can generate the access token in your [github settings](https://github.com/settings/tokens).
+
+To add your access credentials go to:
+Preferences -> Package Settings -> Znuny4OTRS -> Settings
+
+And add the settings "znuny4otrs_github_username" and "znuny4otrs_github_token" accordingly.
+
+<img src="" width="640">
 
 ### Commercial Support
 
