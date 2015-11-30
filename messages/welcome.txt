@@ -14,6 +14,17 @@ Enjoy!
  Your Znuny Team!
 
 
+Version 0.0.12
+✔ Added first draft of CheatSheet functionality.
+✔ Added functionality for fetching framework files from github.
+✔ Added support for sytax names in newer SublimeText versions.
+✔ Added "otrs.erlog" snippets.
+✔ Added "Queue", "Type", "Webservice" and "GeneralCatalog" ObjectManager snippets.
+✔ Added CodePolicy "nofilter" and "origin" snippets.
+✔ Added "GetParam" snippet.
+✔ Added missing AGPL block to file header snippets.
+✔ Fixed bug: Dependencies can only added to real package modules, not templates.
+
 Version 0.0.11
 ✔ Fixed bug: Usage of uninitialized settings caused by caching.
 
