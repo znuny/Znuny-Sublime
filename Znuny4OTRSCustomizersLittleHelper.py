@@ -218,7 +218,7 @@ class Znuny4OtrsCustomizersLittleHelper(sublime_plugin.WindowCommand):
 
       credentials  = '%s:%s' % (github_username, github_token)
 
-      credentials_base64 = base64.encodestring(credentials.encode('utf-8'))
+      credentials_base64 = base64.b64encode(credentials.encode('utf-8'))
 
       request.add_header("Authorization", "Basic %s" % credentials_base64.decode('utf-8'))
 
