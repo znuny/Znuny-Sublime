@@ -38,9 +38,12 @@ class Znuny4OtrsCustomizersLittleHelper(sublime_plugin.WindowCommand):
       for branch in branches:
         self.branch_names.append(branch['name'])
 
+      # reverse branches
+      self.branch_names = self.branch_names[::-1]
+
     sublime.status_message('Showing branch selection.')
 
-    sublime.active_window().show_quick_panel(self.branch_names[::-1], self.branch_selected)
+    sublime.active_window().show_quick_panel(self.branch_names, self.branch_selected)
 
   def branches(self):
     url = 'https://api.github.com/repos/OTRS/otrs/branches'
