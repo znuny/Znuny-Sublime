@@ -5,16 +5,16 @@
     Label         => "${2:Label}",
     ObjectType    => '${3:Ticket|Article}',
     FieldType     => 'Dropdown',
-    InternalField => 1
+    InternalField => ${4:1|0},
     Config        => {
-        PossibleValues     => {
-            ${4:Key} => "${5:Value}",
+        PossibleValues => {
+            ${5:Key} => "${6:Value}",
         },
-        DefaultValue       => "${4:Key}",
-        TreeView           => '${6:1|0}',
-        PossibleNone       => '${7:1|0}',
-        TranslatableValues => '${8:1|0}',
-        Link               => '${9:\$LQData{"$1"}}',
+        DefaultValue       => "${5:Key}",
+        TreeView           => '${7:1|0}',
+        PossibleNone       => '${8:1|0}',
+        TranslatableValues => '${9:1|0}',
+        Link               => '${10:\$LQData{"$1"}}',
     },
 },
 ]]></content>
