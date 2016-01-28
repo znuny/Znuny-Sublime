@@ -1,16 +1,17 @@
 <snippet>
     <content><![CDATA[
 {
-    Name       => '${1:InternalName}',
-    Label      => "${2:Label}",
-    ObjectType => '${3:Ticket|Article}',
-    FieldType  => 'DateTime',
-    Config     => {
-        DefaultValue  => "${4:0|3600|-60}",
-        YearsPeriod   => "${5:1|0}",
-        YearsInFuture => "${6:5}",
-        YearsInPast   => "${7:5}",
-        Link          => '${8:\$LQData{"$1"}}',
+    Name          => '${1:InternalName}',
+    Label         => "${2:Label}",
+    ObjectType    => '${3:Ticket|Article}',
+    FieldType     => 'DateTime',
+    InternalField => ${4:1|0},
+    Config        => {
+        DefaultValue  => "${5:0|3600|-60}",
+        YearsPeriod   => "${6:1|0}",
+        YearsInFuture => "${7:5}",
+        YearsInPast   => "${8:5}",
+        Link          => '${9:\$LQData{"$1"}}',
     },
 },
 ]]></content>

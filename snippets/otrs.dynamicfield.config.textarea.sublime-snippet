@@ -1,14 +1,15 @@
 <snippet>
     <content><![CDATA[
 {
-    Name       => '${1:InternalName}',
-    Label      => "${2:Label}",
-    ObjectType => '${3:Ticket|Article}',
-    FieldType  => 'TextArea',
-    Config     => {
-        DefaultValue => "$4",
-        Rows         => '$5',
-        Cols         => '$6',
+    Name          => '${1:InternalName}',
+    Label         => "${2:Label}",
+    ObjectType    => '${3:Ticket|Article}',
+    FieldType     => 'TextArea',
+    InternalField => ${4:1|0},
+    Config        => {
+        DefaultValue => '$5',
+        Rows         => '$6',
+        Cols         => '$7',
     },
 },
 ]]></content>

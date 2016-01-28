@@ -1,18 +1,19 @@
 <snippet>
     <content><![CDATA[
 {
-    Name       => '${1:InternalName}',
-    Label      => "${2:Label}",
-    ObjectType => '${3:Ticket|Article}',
-    FieldType  => 'Multiselect',
-    Config     => {
-        PossibleValues     => {
-            ${4:Key} => "${5:Value}",
+    Name          => '${1:InternalName}',
+    Label         => "${2:Label}",
+    ObjectType    => '${3:Ticket|Article}',
+    FieldType     => 'Multiselect',
+    InternalField => ${4:1|0},
+    Config        => {
+        PossibleValues => {
+            ${5:Key} => "${6:Value}",
         },
-        DefaultValue       => "${4:Key}",
-        TreeView           => '${6:1|0}',
-        PossibleNone       => '${7:1|0}',
-        TranslatableValues => '${8:1|0}',
+        DefaultValue       => "${5:Key}",
+        TreeView           => '${7:1|0}',
+        PossibleNone       => '${8:1|0}',
+        TranslatableValues => '${9:1|0}',
     },
 },
 ]]></content>

@@ -1,12 +1,13 @@
 <snippet>
     <content><![CDATA[
 {
-    Name       => '${1:InternalName}',
-    Label      => "${2:Label}",
-    ObjectType => '${3:Ticket|Article}',
-    FieldType  => 'Checkbox',
-    Config     => {
-        DefaultValue => "${4:1]0}",
+    Name          => '${1:InternalName}',
+    Label         => "${2:Label}",
+    ObjectType    => '${3:Ticket|Article}',
+    FieldType     => 'Checkbox',
+    InternalField => ${4:1|0},
+    Config        => {
+        DefaultValue => "${5:1|0}",
     },
 },
 ]]></content>

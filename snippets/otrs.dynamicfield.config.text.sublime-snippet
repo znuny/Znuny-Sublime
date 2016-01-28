@@ -1,13 +1,14 @@
 <snippet>
     <content><![CDATA[
 {
-    Name       => '${1:InternalName}',
-    Label      => "${2:Label}",
-    ObjectType => '${3:Ticket|Article}',
-    FieldType  => 'Text',
-    Config     => {
-        DefaultValue => "$4",
-        Link         => '${5:\$LQData{"$1"}}',
+    Name          => '${1:InternalName}',
+    Label         => "${2:Label}",
+    ObjectType    => '${3:Ticket|Article}',
+    FieldType     => 'Text',
+    InternalField => ${4:1|0},
+    Config        => {
+        DefaultValue => '$5',
+        Link         => '${6:\$LQData{"$1"}}',
     },
 },
 ]]></content>
