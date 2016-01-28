@@ -1,11 +1,12 @@
 <snippet>
     <content><![CDATA[
 {
-    Name       => '${1:InternalName}',
-    Label      => "${2:Label}",
-    ObjectType => '${3:Ticket|Article}',
-    FieldType  => 'Multiselect',
-    Config     => {
+    Name          => '${1:InternalName}',
+    Label         => "${2:Label}",
+    ObjectType    => '${3:Ticket|Article}',
+    FieldType     => 'Multiselect',
+    InternalField => 1
+    Config        => {
         PossibleValues     => {
             ${4:Key} => "${5:Value}",
         },

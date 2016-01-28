@@ -1,11 +1,12 @@
 <snippet>
     <content><![CDATA[
 {
-    Name       => '${1:InternalName}',
-    Label      => "${2:Label}",
-    ObjectType => '${3:Ticket|Article}',
-    FieldType  => 'Date',
-    Config     => {
+    Name          => '${1:InternalName}',
+    Label         => "${2:Label}",
+    ObjectType    => '${3:Ticket|Article}',
+    FieldType     => 'Date',
+    InternalField => 1
+    Config        => {
         DefaultValue  => "${4:0|3600|-60}",
         YearsPeriod   => "${5:1|0}",
         YearsInFuture => "${6:5}",
