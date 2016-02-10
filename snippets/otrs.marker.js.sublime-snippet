@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+// ---
+// ${1:Znuny4OTRS-}
+${3:// }---
+$2
+// ---
+]]></content>
+    <tabTrigger>otrs.marker.js</tabTrigger>
+</snippet>
