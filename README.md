@@ -96,11 +96,11 @@ And add the settings "znuny4otrs_github_username" and "znuny4otrs_github_token" 
 
 <img src="https://cloud.githubusercontent.com/assets/3873515/11466357/a218c11a-9740-11e5-9e9b-2f0e07e60b1b.gif" width="640">
 
-#### Creating <Filelist> from project
+#### Creating SOPM Filelist from project
 
 Default keyboard shortcut: ```strg+alt+z, f```
 
-Inserts the SOPM <Filelist> content containing all files of a selectable project.
+Inserts the SOPM Filelist content containing all files of a selectable project.
 
 <img src="https://cloud.githubusercontent.com/assets/3873515/13220468/a1cdd8ee-d976-11e5-8b69-cf936c63c76e.gif" width="640">
 
