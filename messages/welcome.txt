@@ -14,6 +14,14 @@ Enjoy!
  Your Znuny Team!
 
 
+Version 0.0.15
+✔ Added "Internal" attribute to dynamic field snippets.
+✔ Added JS marker snippet.
+✔ Added JS AGPL header snippet.
+✔ Added $LayoutObject->AddJSOnDocumentCompleteIfNotExists snippet.
+✔ Added Core.Form.Znuny4OTRSInput snippets.
+✔ Added 'Creating <Filelist> from project' functionality.
+
 Version 0.0.14
 ✔ Fixed bug: Branch selection is broken.
 
