@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+Core.Form.Znuny4OTRSInput.Type('${1:AtrributeName}');
+]]></content>
+    <tabTrigger>otrs.Znuny4OTRSInput.Type</tabTrigger>
+</snippet>

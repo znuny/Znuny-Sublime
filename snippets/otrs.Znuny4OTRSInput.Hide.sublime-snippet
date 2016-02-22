@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+Core.Form.Znuny4OTRSInput.Hide('${1:AtrributeName}');
+]]></content>
+    <tabTrigger>otrs.Znuny4OTRSInput.Hide</tabTrigger>
+</snippet>

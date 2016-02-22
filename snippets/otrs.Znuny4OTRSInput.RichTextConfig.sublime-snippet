@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+Core.Form.Znuny4OTRSInput.RichTextConfig({
+    '${1:RichText|Global}': {
+        toolbarCanCollapse:     true,
+        toolbarStartupExpanded: false,
+    }
+});
+]]></content>
+    <tabTrigger>otrs.Znuny4OTRSInput.RichTextConfig</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+Core.Form.Znuny4OTRSInput.Module('${1:Action}');
+]]></content>
+    <tabTrigger>otrs.Znuny4OTRSInput.Module</tabTrigger>
+</snippet>

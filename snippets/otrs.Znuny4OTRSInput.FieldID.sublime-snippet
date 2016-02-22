@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+Core.Form.Znuny4OTRSInput.FieldID('${1:AttributeName}');
+]]></content>
+    <tabTrigger>otrs.Znuny4OTRSInput.FieldID</tabTrigger>
+</snippet>
