@@ -96,6 +96,12 @@ And add the settings "znuny4otrs_github_username" and "znuny4otrs_github_token" 
 
 <img src="https://cloud.githubusercontent.com/assets/3873515/11466357/a218c11a-9740-11e5-9e9b-2f0e07e60b1b.gif" width="640">
 
+#### Creating <Filelist> from project
+
+Default keyboard shortcut: ```strg+alt+z, f```
+
+Inserts the SOPM <Filelist> content containing all files of a selectable project.
+
 ### Commercial Support
 
 For this extension and for OTRS in general visit [http://znuny.com](http://znuny.com). Looking forward to hear from you!
