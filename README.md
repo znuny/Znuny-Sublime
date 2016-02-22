@@ -102,6 +102,8 @@ Default keyboard shortcut: ```strg+alt+z, f```
 
 Inserts the SOPM <Filelist> content containing all files of a selectable project.
 
+<img src="https://cloud.githubusercontent.com/assets/3873515/13220468/a1cdd8ee-d976-11e5-8b69-cf936c63c76e.gif" width="640">
+
 ### Commercial Support
 
 For this extension and for OTRS in general visit [http://znuny.com](http://znuny.com). Looking forward to hear from you!
