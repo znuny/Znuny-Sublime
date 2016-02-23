@@ -15,6 +15,9 @@ Enjoy!
 
 
 Version 0.0.15
+✔ Fixed bug: Wrong path seperator for windows machines.
+
+Version 0.0.15
 ✔ Added "Internal" attribute to dynamic field snippets.
 ✔ Added JS marker snippet.
 ✔ Added JS AGPL header snippet.
