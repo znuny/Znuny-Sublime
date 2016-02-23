@@ -26,7 +26,7 @@ class Znuny4OtrsGenerateFilelist(sublime_plugin.TextCommand):
 
       sub_dir = dirpath
       if (sub_dir != folder):
-        sub_dir = sub_dir.replace(folder + '/', '')
+        sub_dir = sub_dir.replace(folder + os.path.sep, '')
       else:
         sub_dir = ''
 
