@@ -43,9 +43,6 @@ class Znuny4OtrsGenerateFilelist(sublime_plugin.TextCommand):
         if re.search(r'^\.', filename):
           continue
 
-        if re.search(r'\.t$', filename):
-          continue
-
         if re.search(r'\.psd$', filename):
           continue
 
