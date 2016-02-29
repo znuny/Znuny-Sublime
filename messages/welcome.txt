@@ -14,7 +14,11 @@ Enjoy!
  Your Znuny Team!
 
 
-Version 0.0.15
+Version 0.0.17
+✔ Added AddJSOnDocumentCompleteIfNotExists snippet.
+✔ Added OutputFilterHook snippets.
+
+Version 0.0.16
 ✔ Fixed bug: Wrong path seperator for windows machines.
 
 Version 0.0.15
