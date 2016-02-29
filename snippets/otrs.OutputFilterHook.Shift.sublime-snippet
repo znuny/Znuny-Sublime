@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+my \$HookContent = \$LayoutObject->_OutputFilterHookShift(
+    Name => '${1:DynamicField}',
+    ${2:All  => 1,
+    }%Param,
+);
+]]></content>
+    <tabTrigger>otrs.OutputFilterHook.Shift</tabTrigger>
+</snippet>

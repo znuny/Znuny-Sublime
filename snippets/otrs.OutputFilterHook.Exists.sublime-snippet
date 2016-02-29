@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+my \$Exists = \$LayoutObject->_OutputFilterHookExists(
+    Name => '${1:DynamicField}',
+    %Param,
+);
+]]></content>
+    <tabTrigger>otrs.OutputFilterHook.Exists</tabTrigger>
+</snippet>
