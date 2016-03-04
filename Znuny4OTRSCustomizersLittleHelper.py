@@ -146,7 +146,7 @@ class Znuny4OtrsCustomizersLittleHelper(sublime_plugin.WindowCommand):
 
     # prepare origin block
     origin_block  = "%s --\n" % comment_prefix
-    origin_block += "%s $origin: https://github.com/OTRS/%s/blob/%s/%s" % (self.selected_repository, comment_prefix, sha, path)
+    origin_block += "%s $origin: https://github.com/OTRS/%s/blob/%s/%s" % (comment_prefix, self.selected_repository, sha, path)
 
     # prepare customization header with copyright and origin
     customization_block = "\n%s%s\n%s" % ( comment_prefix, copyright, origin_block )
