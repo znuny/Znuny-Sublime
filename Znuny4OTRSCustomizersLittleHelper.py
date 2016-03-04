@@ -20,33 +20,39 @@ def plugin_loaded():
 
 class Znuny4OtrsCustomizersLittleHelper(sublime_plugin.WindowCommand):
 
-  branch_names    = []
-  branch_files    = []
-  selected_branch = ''
+  repository_names    = ['otrs', 'ITSMIncidentProblemManagement', 'ITSMConfigurationManagement', 'ITSMChangeManagement', 'ITSMCore', 'GeneralCatalog', 'ITSMServiceLevelManagement', 'OTRSMasterSlave', 'TimeAccounting', 'Survey']
+  selected_repository = ''
+  branch_names        = []
+  branch_files        = []
+  selected_branch     = ''
 
   file = {}
 
   def run(self):
 
-    sublime.status_message('Checking for cached branches.')
-    if len(self.branch_names) == 0:
+    sublime.active_window().show_quick_panel(self.repository_names, self.repository_selected)
 
-      sublime.status_message('No cached branches found.')
+  def repository_selected(self, index):
 
-      branches = self.branches()
+    if index == -1: return
 
-      for branch in branches:
-        self.branch_names.append(branch['name'])
+    self.selected_repository = self.repository_names[index]
 
-      # reverse branches
-      self.branch_names = self.branch_names[::-1]
+    branches = self.branches()
+
+    self.branch_names = []
+    for branch in branches:
+      self.branch_names.append(branch['name'])
+
+    # reverse branches
+    self.branch_names = self.branch_names[::-1]
 
     sublime.status_message('Showing branch selection.')
 
     sublime.active_window().show_quick_panel(self.branch_names, self.branch_selected)
 
   def branches(self):
-    url = 'https://api.github.com/repos/OTRS/otrs/branches'
+    url = 'https://api.github.com/repos/OTRS/%s/branches' % self.selected_repository
     sublime.status_message('fetching branches from "%s".' % url )
 
     return self.url_json(url)
@@ -66,7 +72,7 @@ class Znuny4OtrsCustomizersLittleHelper(sublime_plugin.WindowCommand):
 
   def fetch_branch_files(self):
 
-    url = "https://api.github.com/repos/OTRS/otrs/git/trees/%s?recursive=1" % self.selected_branch
+    url = "https://api.github.com/repos/OTRS/%s/git/trees/%s?recursive=1" % (self.selected_repository, self.selected_branch)
 
     sublime.status_message('Fetching files for branch "%s" from "%s".' % ( self.selected_branch, url ))
 
@@ -92,13 +98,13 @@ class Znuny4OtrsCustomizersLittleHelper(sublime_plugin.WindowCommand):
 
     sublime.status_message('Selected file "%s" from branch "%s".' % (file_path, self.selected_branch))
 
-    url = 'https://api.github.com/repos/OTRS/otrs/contents/%s?ref=%s' % (file_path, self.selected_branch)
+    url = 'https://api.github.com/repos/OTRS/%s/contents/%s?ref=%s' % (self.selected_repository, file_path, self.selected_branch)
 
     sublime.status_message('Fetching file information for file "%s" from branch "%s" from "%s".' % (file_path, self.selected_branch, url))
 
     file_information = self.url_json(url)
 
-    url = "https://api.github.com/repos/OTRS/otrs/commits?path=%s;sha=%s" % (file_path, self.selected_branch)
+    url = "https://api.github.com/repos/OTRS/%s/commits?path=%s;sha=%s" % (self.selected_repository, file_path, self.selected_branch)
 
     sublime.status_message('Fetching commits for file "%s" from branch "%s" from "%s".' % (file_path, self.selected_branch, url))
 
@@ -140,7 +146,7 @@ class Znuny4OtrsCustomizersLittleHelper(sublime_plugin.WindowCommand):
 
     # prepare origin block
     origin_block  = "%s --\n" % comment_prefix
-    origin_block += "%s $origin: https://github.com/OTRS/otrs/blob/%s/%s" % ( comment_prefix, sha, path )
+    origin_block += "%s $origin: https://github.com/OTRS/%s/blob/%s/%s" % (self.selected_repository, comment_prefix, sha, path)
 
     # prepare customization header with copyright and origin
     customization_block = "\n%s%s\n%s" % ( comment_prefix, copyright, origin_block )
