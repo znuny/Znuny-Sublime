@@ -14,6 +14,9 @@ Enjoy!
  Your Znuny Team!
 
 
+Version 0.0.19
+✔ Fixed issue #2: Support other sources than just the framework.
+
 Version 0.0.18
 ✔ Fixed bug in OutputFilterHook OutputFilterHook.Replace snippet.
 
