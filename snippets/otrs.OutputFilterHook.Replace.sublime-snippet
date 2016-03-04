@@ -4,7 +4,7 @@ my \$Success = \$LayoutObject->_OutputFilterHookReplace(
     Name    => '${1:DynamicField}',
     ${2:All  => 1,
     }Replace => sub {
-        my ( \$Self, %Param ) = @_;
+        my ( %Param ) = @_;
 
         my \$Content = \$Param{Content};
 
