@@ -14,8 +14,11 @@ Enjoy!
  Your Znuny Team!
 
 
+Version 0.0.21
+✔ Fixed issue #4: CustomizersLittleHelper: wrong line ending on windows.
+
 Version 0.0.20
-✔ Fixed bug: Repository name is inserted at the wrong position..
+✔ Fixed bug: Repository name is inserted at the wrong position.
 
 Version 0.0.19
 ✔ Fixed issue #2: Support other sources than just the framework.
