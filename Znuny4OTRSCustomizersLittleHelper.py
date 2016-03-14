@@ -119,6 +119,10 @@ class Znuny4OtrsCustomizersLittleHelper(sublime_plugin.WindowCommand):
       sublime.status_message('Adding file "%s" to Custom/ folder.')
       file_path = "Custom/%s" % file_path
 
+    # fix windows line endings
+    file_content = file_content.replace('\r\n', '\n')
+    file_content = file_content.replace('\r', '\n')
+
     self.file['path']    = file_path
     self.file['content'] = file_content
 
