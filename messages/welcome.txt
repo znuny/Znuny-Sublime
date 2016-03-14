@@ -14,6 +14,9 @@ Enjoy!
  Your Znuny Team!
 
 
+Version 0.0.22
+✔ Fixed bug: Error while writing special unicode charakters to file.
+
 Version 0.0.21
 ✔ Fixed issue #4: CustomizersLittleHelper: wrong line ending on windows.
 
