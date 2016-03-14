@@ -3,7 +3,8 @@
 # view.run_command('znuny4_otrs_customizers_little_helper')
 # sublime.run_command('znuny4_otrs_customizers_little_helper')
 
-import sublime, sublime_plugin, os, json, re, base64, datetime
+import sublime, sublime_plugin, os, json, re, base64, datetime, codecs
+
 
 # taken from: https://github.com/twolfson/sublime-request/blob/master/request.py#L5
 # Attempt to load urllib.request/error and fallback to urllib2 (Python 2/3 compat)
@@ -200,7 +201,7 @@ class Znuny4OtrsCustomizersLittleHelper(sublime_plugin.WindowCommand):
       os.makedirs(directory)
 
     sublime.status_message('Writing content to file "%s" from branch "%s".' % (self.file['path'], self.selected_branch))
-    file_handle = open(self.file['absolut_path'], 'w')
+    file_handle = codecs.open(self.file['absolut_path'], 'w', 'utf-8')
     file_handle.write( self.file['content'] )
     file_handle.close()
 
