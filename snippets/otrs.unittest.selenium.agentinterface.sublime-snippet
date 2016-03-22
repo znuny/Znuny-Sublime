@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+\$Selenium->AgentInterface(
+    Action      => '$1',${2:
+    WaitForAJAX => 0,       # optional, default 1
+});
+]]></content>
+    <tabTrigger>otrs.unittest.selenium.agentinterface</tabTrigger>
+</snippet>

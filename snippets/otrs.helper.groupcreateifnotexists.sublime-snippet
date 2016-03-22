@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$Success = \$ZnunyHelperObject->_GroupCreateIfNotExists(
+    Name => '$1',
+);
+]]></content>
+    <tabTrigger>otrs.helper.groupcreateifnotexists</tabTrigger>
+</snippet>

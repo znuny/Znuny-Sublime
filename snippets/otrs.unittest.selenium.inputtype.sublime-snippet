@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$Result = \$Selenium->InputType(
+    FieldID => '${1:Dest}',
+);
+]]></content>
+    <tabTrigger>otrs.unittest.selenium.inputtype</tabTrigger>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+my %Screens = (
+    ${1:AgentTicketFreeText} => {
+        ${2:TestDynamicField1} => 1,
+    },
+);
+
+my \$Success = \$ZnunyHelperObject->_DynamicFieldsScreenDisable(%Screens);
+]]></content>
+    <tabTrigger>otrs.helper.dynamicfieldsscreendisable</tabTrigger>
+</snippet>

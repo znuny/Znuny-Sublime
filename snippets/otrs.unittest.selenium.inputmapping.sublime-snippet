@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+my \$Result = \$Selenium->InputFieldIDMapping(
+    Action => '${1:AgentTicketZoom}',${2:
+    Mapping => {
+        ...
+        QueueID => 'DestQueueID',
+        ...
+    },
+}
+);
+]]></content>
+    <tabTrigger>otrs.unittest.selenium.inputmapping</tabTrigger>
+</snippet>

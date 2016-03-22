@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+\$Self->IsNot(
+    $1, # test scalar/string
+    $2, # expected scalar/string
+    "$3",
+);
+]]></content>
+    <tabTrigger>otrs.unittest.isnot</tabTrigger>
+</snippet>

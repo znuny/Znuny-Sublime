@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+my \$TicketID = \$UnitTestHelper->TicketCreate();
+]]></content>
+    <tabTrigger>otrs.unittest.helper.ticketcreate</tabTrigger>
+</snippet>

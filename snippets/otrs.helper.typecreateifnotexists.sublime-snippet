@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$Success = \$ZnunyHelperObject->_TypeCreateIfNotExists(
+    Name => '$1',
+);
+]]></content>
+    <tabTrigger>otrs.helper.typecreateifnotexists</tabTrigger>
+</snippet>

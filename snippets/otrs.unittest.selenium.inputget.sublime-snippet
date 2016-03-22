@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+my \$Result = \$Selenium->InputGet(
+    Attribute => '${1:QueueID}',${2:
+    Options   => {                          # optinal
+        KeyOrValue => 'Value',              # default is 'Key'
+    }
+});
+]]></content>
+    <tabTrigger>otrs.unittest.selenium.inputget</tabTrigger>
+</snippet>

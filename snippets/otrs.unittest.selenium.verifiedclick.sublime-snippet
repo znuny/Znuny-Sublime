@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+\$Selenium->find_element("${2:#Name}", 'css')->VerifiedClick();
+]]></content>
+    <tabTrigger>otrs.unittest.selenium.verifiedclick</tabTrigger>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+\$Selenium->PublicInterface(
+    Action      => '$1',${2:
+    WaitForAJAX => 0,       # optional, default 1
+});
+]]></content>
+    <tabTrigger>otrs.unittest.selenium.publicinterface</tabTrigger>
+</snippet>

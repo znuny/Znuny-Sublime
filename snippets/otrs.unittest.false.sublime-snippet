@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+\$Self->False(
+    $1,
+    "$2",
+);
+]]></content>
+    <tabTrigger>otrs.unittest.false</tabTrigger>
+</snippet>

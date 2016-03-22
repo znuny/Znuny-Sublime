@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+\$Selenium->find_element("${2:#Name}", 'css')->is_enabled();
+]]></content>
+    <tabTrigger>otrs.unittest.selenium.isenabled</tabTrigger>
+</snippet>

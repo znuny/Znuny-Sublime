@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+\$Selenium->find_element("${2:#Name}", 'css')->VerifiedSubmit();
+]]></content>
+    <tabTrigger>otrs.unittest.selenium.verifiedsubmit</tabTrigger>
+</snippet>

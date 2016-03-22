@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+\$Selenium->AJAXCompleted();
+]]></content>
+    <tabTrigger>otrs.unittest.selenium.ajaxcompleted</tabTrigger>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+\$Self->IsNotDeeply(
+    $1, # test hashref/arrayref
+    $2, # expected hashref/arrayre
+    "$3",
+);
+]]></content>
+    <tabTrigger>otrs.unittest.isnotdeeply</tabTrigger>
+</snippet>

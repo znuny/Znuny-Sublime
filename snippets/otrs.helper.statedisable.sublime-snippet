@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+my @States = (
+    '$1',
+);
+
+my \$Success = \$ZnunyHelperObject->_StateDisable(@States);
+]]></content>
+    <tabTrigger>otrs.helper.statedisable</tabTrigger>
+</snippet>

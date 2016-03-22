@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\$Selenium->SwitchToPopUp(${1:
+    WaitForAJAX => 0, # optional, default 1
+});
+]]></content>
+    <tabTrigger>otrs.unittest.selenium.switchtopopup</tabTrigger>
+</snippet>

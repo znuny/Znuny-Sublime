@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$Result = \$Selenium->InputModule(
+    Action => '${1:AgentTicketZoom}',
+);
+]]></content>
+    <tabTrigger>otrs.unittest.selenium.inputmodule</tabTrigger>
+</snippet>

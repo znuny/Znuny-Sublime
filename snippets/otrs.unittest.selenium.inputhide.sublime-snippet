@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$Result = \$Selenium->InputHide(
+    Attribute => '${1:QueueID}',
+);
+]]></content>
+    <tabTrigger>otrs.unittest.selenium.inputhide</tabTrigger>
+</snippet>

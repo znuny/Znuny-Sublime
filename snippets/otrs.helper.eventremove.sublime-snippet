@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+my \$Success = \$ZnunyHelperObject->_EventRemove(
+    Object => '$1', # Ticket, Article, Queue...
+    Event  => '$2'
+);
+]]></content>
+    <tabTrigger>otrs.helper.eventremove</tabTrigger>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+# maybe the snippet 'otrs.unittest.selenium.inputget' is the proper choice here?
+\$Selenium->find_element("${2:#Name}", 'css')->get_value();
+]]></content>
+    <tabTrigger>otrs.unittest.selenium.getvalue</tabTrigger>
+</snippet>

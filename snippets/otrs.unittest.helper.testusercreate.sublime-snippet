@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+my %UserData = \$UnitTestHelper->TestUserCreate(${1:
+    Groups => ['admin', 'users'],   # optional, list of groups to add this user to (rw rights)
+}${2:    Language => 'de'                # optional, defaults to 'en' if not set
+});
+]]></content>
+    <tabTrigger>otrs.unittest.helper.testusercreate</tabTrigger>
+</snippet>

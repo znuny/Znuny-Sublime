@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+\$Selenium->find_element("${2:#Name}", 'css')->send_keys('$3');
+]]></content>
+    <tabTrigger>otrs.unittest.selenium.sendkeys</tabTrigger>
+</snippet>
