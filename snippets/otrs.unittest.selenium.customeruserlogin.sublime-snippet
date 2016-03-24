@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my %CustomerUserData = \$Selenium->CustomerUserLogin(${1:
+my %CustomerUserData = \$SeleniumObject->CustomerUserLogin(${1:
     Language => 'de'  # optional, defaults to 'en' if not set
 });
 ]]></content>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my \$Result = \$Selenium->execute_script('$3');
+my \$Result = \$SeleniumObject->execute_script('$3');
 ]]></content>
     <tabTrigger>otrs.unittest.selenium.executescript</tabTrigger>
 </snippet>

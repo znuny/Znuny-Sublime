@@ -3,7 +3,7 @@
 ${1:# get script alias
 my \$ScriptAlias = \$Kernel::OM->Get('Kernel::Config')->Get('ScriptAlias');
 
-}\$Selenium->VerifiedGet("\${ScriptAlias}${2:index}.pl?Action=$3");
+}\$SeleniumObject->VerifiedGet("\${ScriptAlias}${2:index}.pl?Action=$3");
 ]]></content>
     <tabTrigger>otrs.unittest.selenium.verifiedget</tabTrigger>
 </snippet>

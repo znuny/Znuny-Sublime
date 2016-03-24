@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my %CustomerUserData = \$UnitTestHelper->TestCustomerUserCreate(
+my %CustomerUserData = \$HelperObject->TestCustomerUserCreate(
     Language => 'de'  # optional, defaults to 'en' if not set
 );
 ]]></content>

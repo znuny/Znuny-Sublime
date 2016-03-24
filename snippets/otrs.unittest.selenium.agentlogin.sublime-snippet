@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my %UserData = \$Selenium->AgentLogin(${1:
+my %UserData = \$SeleniumObject->AgentLogin(${1:
     Groups => ['admin', 'users'],   # optional, list of groups to add this user to (rw rights)
 }${2:    Language => 'de'                # optional, defaults to 'en' if not set
 });

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\$Selenium->SwitchToPopUp(${1:
+\$SeleniumObject->SwitchToPopUp(${1:
     WaitForAJAX => 0, # optional, default 1
 });
 ]]></content>

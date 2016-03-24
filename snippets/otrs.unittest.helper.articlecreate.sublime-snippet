@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my \$ArticleID = \$UnitTestHelper->ArticleCreate(
+my \$ArticleID = \$HelperObject->ArticleCreate(
     TicketID => \$TicketID,
 );
 ]]></content>

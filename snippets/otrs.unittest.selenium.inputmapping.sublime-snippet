@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my \$Result = \$Selenium->InputFieldIDMapping(
+my \$Result = \$SeleniumObject->InputFieldIDMapping(
     Action => '${1:AgentTicketZoom}',${2:
     Mapping => {
         ...

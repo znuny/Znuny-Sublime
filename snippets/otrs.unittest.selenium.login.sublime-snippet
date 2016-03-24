@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\$Selenium->->Login(
+\$SeleniumObject->->Login(
     Type     => '${1:Agent}', # Agent|Customer
     User     => '$2',
     Password => '$3',

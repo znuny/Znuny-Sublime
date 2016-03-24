@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\$Selenium->find_element("${2:#Name}", 'css')->click();
+\$SeleniumObject->find_element("${2:#Name}", 'css')->click();
 ]]></content>
     <tabTrigger>otrs.unittest.selenium.click</tabTrigger>
 </snippet>

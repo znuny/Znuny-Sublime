@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my \$Result = \$Selenium->InputModule(
+my \$Result = \$SeleniumObject->InputModule(
     Action => '${1:AgentTicketZoom}',
 );
 ]]></content>

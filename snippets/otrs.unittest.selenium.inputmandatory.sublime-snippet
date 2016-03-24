@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my \$Result = \$Selenium->InputMandatory(
+my \$Result = \$SeleniumObject->InputMandatory(
     Attribute => '${1:QueueID}',${2:
     Mandatory => 1,         # optional 1 or 0
     );

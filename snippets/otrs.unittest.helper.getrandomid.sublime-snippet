@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\$UnitTestHelper->GetRandomID();
+\$HelperObject->GetRandomID();
 ]]></content>
     <tabTrigger>otrs.unittest.helper.getrandomid</tabTrigger>
 </snippet>

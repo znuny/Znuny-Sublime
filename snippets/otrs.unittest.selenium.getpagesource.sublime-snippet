@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 # maybe the snippet 'otrs.unittest.selenium.pagecontains' is the proper choice here?otrs.unittest.selenium.pagecontains
-my \$PageContent = \$Selenium->get_page_source();
+my \$PageContent = \$SeleniumObject->get_page_source();
 ]]></content>
     <tabTrigger>otrs.unittest.selenium.getpagesource</tabTrigger>
 </snippet>

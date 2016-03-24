@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my \$Result = \$Selenium->InputFieldID(
+my \$Result = \$SeleniumObject->InputFieldID(
     Attribute => '${1:QueueID}',
 );
 ]]></content>

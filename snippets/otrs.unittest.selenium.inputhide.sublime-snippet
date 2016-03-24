@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my \$Result = \$Selenium->InputHide(
+my \$Result = \$SeleniumObject->InputHide(
     Attribute => '${1:QueueID}',
 );
 ]]></content>
