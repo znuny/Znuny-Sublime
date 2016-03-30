@@ -53,7 +53,7 @@ class Znuny4OtrsGenerateFilelist(sublime_plugin.TextCommand):
 
     file_entry_template = '        <File Permission="{permission}" Location="{location}"/>'
     filelist = []
-    for file_location in files:
+    for file_location in sorted(files, key=str.lower):
       file_entry = file_entry_template
 
       permission = '644'
