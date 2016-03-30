@@ -14,6 +14,9 @@ Enjoy!
  Your Znuny Team!
 
 
+Version 0.0.24
+✔ Fixed issue #8: Filelist sorting order is wrong on Windows machines.
+
 Version 0.0.23
 ✔ Removed unneded ConfigLevel attribute.
 ✔ Added UnitTest snippets.
