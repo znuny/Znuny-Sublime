@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+    my \$Result = \$HelperObject->CheckNumberOfEventExecution(
+        TicketID => \$TicketID,
+        Events   => {
+            AnExampleHistoryEntry      => 2,
+            AnotherExampleHistoryEntry => 0,
+        },
+        Comment  => '$1',
+    );
+]]></content>
+    <tabTrigger>otrs.helper.checknumberofeventexecution</tabTrigger>
+</snippet>
