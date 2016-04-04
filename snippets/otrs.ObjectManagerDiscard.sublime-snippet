@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+\$Kernel::OM->ObjectsDiscard(
+    Objects => [
+        '${1:Kernel::System::Ticket}',
+    ],
+${2:
+    # optional
+    # forces the packages to be reloaded from the file system
+    # sometimes necessary with mod_perl when running CodeUpgrade during a package upgrade
+    # if no list of object names is passed, all stored objects are destroyed
+    # and forced to be reloaded
+    ForcePackageReload => 1,
+});
+]]></content>
+    <tabTrigger>otrs.ObjectManagerDiscard</tabTrigger>
+</snippet>
