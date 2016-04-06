@@ -14,6 +14,11 @@ Enjoy!
  Your Znuny Team!
 
 
+Version 0.0.25
+✔ Added snippet for ::OM->ObjectsDiscard call.
+✔ Added snippet for CheckNumberOfEventExecution function.
+✔ Added odumper4.
+
 Version 0.0.24
 ✔ Fixed issue #8: Filelist sorting order is wrong on Windows machines.
 
