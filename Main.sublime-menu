@@ -8,7 +8,7 @@
                 "children": [
                     {
                         "caption": "QuickSearch",
-                        "command": "cheat_sheet_search",
+                        "command": "cheat_sheet_search"
                     },
                     {
                         "caption": "Overview",
