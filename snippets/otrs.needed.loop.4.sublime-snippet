@@ -6,7 +6,7 @@ for my \$Needed ( qw($1) ) {
 
     next NEEDED if defined \$Param{ \$Needed };
 
-    \$Kernel::OM->Get('Kernel::System::Log')->Log(
+    \$LogObject->Log(
         Priority => 'error',
         Message  => "Parameter '\$Needed' is needed!",
     );
