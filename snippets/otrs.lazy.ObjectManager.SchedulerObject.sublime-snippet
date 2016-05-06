@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+    my \$SchedulerObject = \$Kernel::OM->Get('Kernel::System::Kernel::Scheduler');
+]]></content>
+    <tabTrigger>otrs.lazy.ObjectManager.Kernel::SchedulerObject</tabTrigger>
+</snippet>

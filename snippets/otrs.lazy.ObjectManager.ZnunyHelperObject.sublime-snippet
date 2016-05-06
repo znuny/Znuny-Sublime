@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+    my \$ZnunyHelperObject = \$Kernel::OM->Get('Kernel::System::ZnunyHelper');
+]]></content>
+    <tabTrigger>otrs.lazy.ObjectManager.ZnunyHelperObject</tabTrigger>
+</snippet>

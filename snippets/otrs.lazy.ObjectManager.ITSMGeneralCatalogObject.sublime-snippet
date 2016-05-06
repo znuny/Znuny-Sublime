@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+    my \$GeneralCatalogObject = \$Kernel::OM->Get('Kernel::System::GeneralCatalog');
+]]></content>
+    <tabTrigger>otrs.lazy.ObjectManager.ITSMGeneralCatalogObject</tabTrigger>
+</snippet>

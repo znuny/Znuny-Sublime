@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+\$Kernel::OM->Get('Kernel::Language')->
+]]></content>
+    <tabTrigger>otrs.lazy.ObjectManager.Language</tabTrigger>
+</snippet>

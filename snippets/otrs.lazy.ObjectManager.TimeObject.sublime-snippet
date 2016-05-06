@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+    my \$TimeObject = \$Kernel::OM->Get('Kernel::System::Time');
+]]></content>
+    <tabTrigger>otrs.lazy.ObjectManager.TimeObject</tabTrigger>
+</snippet>

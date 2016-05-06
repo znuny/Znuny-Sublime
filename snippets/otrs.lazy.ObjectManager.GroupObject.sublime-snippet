@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+    my \$GroupObject = \$Kernel::OM->Get('Kernel::System::Group');
+]]></content>
+    <tabTrigger>otrs.lazy.ObjectManager.GroupObject</tabTrigger>
+</snippet>
