@@ -2,5 +2,5 @@
 	<content><![CDATA[
     my \$DynamicFieldObject = \$Kernel::OM->Get('Kernel::System::DynamicField');
 ]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.DynamicField</tabTrigger>
+    <tabTrigger>otrs.lazy.ObjectManager.DynamicFieldObject</tabTrigger>
 </snippet>

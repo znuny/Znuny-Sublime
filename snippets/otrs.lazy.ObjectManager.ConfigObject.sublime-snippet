@@ -2,5 +2,5 @@
 	<content><![CDATA[
     my \$ConfigObject = \$Kernel::OM->Get('Kernel::Config');
 ]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.Config</tabTrigger>
+    <tabTrigger>otrs.lazy.ObjectManager.ConfigObject</tabTrigger>
 </snippet>
