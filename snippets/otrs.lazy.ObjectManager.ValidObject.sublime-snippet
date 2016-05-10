@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-    my \$ValidObject = \$Kernel::OM->Get('Kernel::System::Valid');
+my \$ValidObject = \$Kernel::OM->Get('Kernel::System::Valid');
 ]]></content>
     <tabTrigger>otrs.lazy.ObjectManager.ValidObject</tabTrigger>
 </snippet>

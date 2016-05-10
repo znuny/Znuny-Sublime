@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-    my \$PackageObject = \$Kernel::OM->Get('Kernel::System::Package');
+my \$PackageObject = \$Kernel::OM->Get('Kernel::System::Package');
 ]]></content>
     <tabTrigger>otrs.lazy.ObjectManager.PackageObject</tabTrigger>
 </snippet>

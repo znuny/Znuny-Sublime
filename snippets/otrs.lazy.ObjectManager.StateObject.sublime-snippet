@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-    my \$StateObject = \$Kernel::OM->Get('Kernel::System::State');
+my \$StateObject = \$Kernel::OM->Get('Kernel::System::State');
 ]]></content>
     <tabTrigger>otrs.lazy.ObjectManager.StateObject</tabTrigger>
 </snippet>
