@@ -5,6 +5,7 @@
     { "keys": ["ctrl+alt+z", "p"], "command": "znuny4_otrs_add_to_project" },
     { "keys": ["ctrl+alt+z", "c"], "command": "znuny4_otrs_customizers_little_helper" },
     { "keys": ["ctrl+alt+z", "f"], "command": "znuny4_otrs_generate_filelist" },
+    { "keys": ["ctrl+alt+z", "u"], "command": "znuny4_otrs_git_lab_ci_unit_tests" },
     {
       "keys": [
         "ctrl+alt+z",
