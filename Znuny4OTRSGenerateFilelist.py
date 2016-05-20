@@ -32,7 +32,6 @@ class Znuny4OtrsGenerateFilelist(sublime_plugin.TextCommand):
 
 
       if re.search(r'^\.git', sub_dir):
-        print(sub_dir)
         continue
 
       if re.search(r'^doc', sub_dir):
