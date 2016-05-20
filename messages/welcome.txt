@@ -14,6 +14,15 @@ Enjoy!
  Your Znuny Team!
 
 
+Version 0.0.26
+✔ Added snippet for ACLs.
+✔ Added snippet for Calendar SysConfig.
+✔ Added Email Test backend snippets for UnitTests.
+✔ Added further ObjectManager snippets.
+✔ Fixed wrong LanguageObject path in snippet.
+✔ Fixed wrong JSON syntax.
+✔ Added GitLab CI UnitTest shortcut.
+
 Version 0.0.25
 ✔ Added snippet for ::OM->ObjectsDiscard call.
 ✔ Added snippet for CheckNumberOfEventExecution function.
