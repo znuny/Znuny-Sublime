@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-my \$LanguageObject = \$Kernel::OM->Get('Kernel::System::Language');
+my \$LanguageObject = \$Kernel::OM->Get('Kernel::Language');
 ]]></content>
     <tabTrigger>otrs.lazy.ObjectManager.LanguageObject</tabTrigger>
 </snippet>
