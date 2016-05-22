@@ -1,6 +1,7 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 my \$ServiceObject = \$Kernel::OM->Get('Kernel::System::Service');
 ]]></content>
     <tabTrigger>otrs.lazy.ObjectManager.ServiceObject</tabTrigger>
 </snippet>
+

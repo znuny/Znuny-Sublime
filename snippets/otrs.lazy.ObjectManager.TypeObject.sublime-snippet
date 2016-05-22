@@ -1,6 +1,7 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 my \$TypeObject = \$Kernel::OM->Get('Kernel::System::Type');
 ]]></content>
     <tabTrigger>otrs.lazy.ObjectManager.TypeObject</tabTrigger>
 </snippet>
+

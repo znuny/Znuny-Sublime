@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$EnvironmentObject = \$Kernel::OM->Get('Kernel::System::Environment');
+]]></content>
+    <tabTrigger>otrs.lazy.ObjectManager.EnvironmentObject</tabTrigger>
+</snippet>
+

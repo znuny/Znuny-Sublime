@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$VirtualFSObject = \$Kernel::OM->Get('Kernel::System::VirtualFS');
+]]></content>
+    <tabTrigger>otrs.lazy.ObjectManager.VirtualFSObject</tabTrigger>
+</snippet>
+

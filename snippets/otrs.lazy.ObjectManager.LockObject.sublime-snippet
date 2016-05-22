@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$LockObject = \$Kernel::OM->Get('Kernel::System::Lock');
+]]></content>
+    <tabTrigger>otrs.lazy.ObjectManager.LockObject</tabTrigger>
+</snippet>
+

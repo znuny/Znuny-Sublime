@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$AuthObject = \$Kernel::OM->Get('Kernel::System::Auth');
+]]></content>
+    <tabTrigger>otrs.lazy.ObjectManager.AuthObject</tabTrigger>
+</snippet>
+
