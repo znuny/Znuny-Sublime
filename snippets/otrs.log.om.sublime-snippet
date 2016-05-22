@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$Kernel::OM->Get('Kernel::System::Log')->Log(
+\$LogObject->Log(
     Priority => '${1:error|notice|info|debug}',
     Message  => "$2",
 );
