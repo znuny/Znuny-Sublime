@@ -2,11 +2,11 @@
 	<content><![CDATA[
 =head1 NAME
 
-Kernel::$1 - $2
+Kernel::System::$1 - $2 lib
 
 =head1 SYNOPSIS
 
-$3.
+All $3 functions.
 
 =head1 PUBLIC INTERFACE
 
@@ -19,8 +19,8 @@ $3.
 create an object. Do not use it directly, instead use:
 
     use Kernel::System::ObjectManager;
-    local $Kernel::OM = Kernel::System::ObjectManager->new();
-    my $TicketObject = $Kernel::OM->Get('Kernel::System::$1');
+    local \$Kernel::OM = Kernel::System::ObjectManager->new();
+    my \$TicketObject = $Kernel::OM->Get('Kernel::System::$1');
 
 =cut
 ]]></content>
