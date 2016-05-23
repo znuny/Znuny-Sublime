@@ -58,7 +58,9 @@ class Znuny4OtrsGitLabCiUnitTests(sublime_plugin.TextCommand):
       if os.path.sep != '/':
         file_location = file_location.replace(os.path.sep, '/')
 
-      file_entry = file_entry.replace('{location}', file_location)
+      file_location = re.sub(r'\.t$', '', file_location)
+      file_location = file_location.replace('scripts/test/', '')
+      file_entry    = file_entry.replace('{location}', file_location)
 
       filelist.append(file_entry)
 
