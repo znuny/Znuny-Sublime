@@ -45,11 +45,11 @@ class Znuny4OtrsGitLabCiUnitTests(sublime_plugin.TextCommand):
 
 
     if re.search(r'image: otrs4', view_content):
-      file_entry_template = '        - su -c "perl /opt/otrs/bin/otrs.UnitTest.pl -n {location}" -s /bin/bash otrs'
+      file_entry_template = '    - su -c "perl /opt/otrs/bin/otrs.UnitTest.pl -n {location}" -s /bin/bash otrs'
 
     # elif re.search(r'image: otrs5', view_content):
     else:
-      file_entry_template = '        - su -c "perl /opt/otrs/bin/otrs.Console.pl Dev::UnitTest::Run --test {location}" -s /bin/bash otrs'
+      file_entry_template = '    - su -c "perl /opt/otrs/bin/otrs.Console.pl Dev::UnitTest::Run --test {location}" -s /bin/bash otrs'
 
     filelist = []
     for file_location in sorted(files, key=str.lower):
