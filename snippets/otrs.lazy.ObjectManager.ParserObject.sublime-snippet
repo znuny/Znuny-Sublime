@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$ParserObject = Kernel::System::EmailParser
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.ParserObject</tabTrigger>
-</snippet>
-

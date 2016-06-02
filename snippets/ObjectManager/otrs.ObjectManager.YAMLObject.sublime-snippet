@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$YAMLObject = \$Kernel::OM->Get('Kernel::System::YAML');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.YAMLObject</tabTrigger>
+</snippet>
+

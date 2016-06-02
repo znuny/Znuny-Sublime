@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$PostMasterObject = \$Kernel::OM->Get('Kernel::System::PostMaster');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.PostMasterObject</tabTrigger>
+</snippet>
+

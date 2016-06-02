@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+IsPositiveInteger($1)
+]]></content>
+    <tabTrigger>ispositiveinteger</tabTrigger>
+</snippet>

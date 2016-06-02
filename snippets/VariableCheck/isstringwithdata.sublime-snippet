@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+IsStringWithData($1)
+]]></content>
+    <tabTrigger>isstringwithdata</tabTrigger>
+</snippet>

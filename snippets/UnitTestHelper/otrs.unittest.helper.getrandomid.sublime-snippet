@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+my \$${1:RandomID} = \$HelperObject->GetRandomID();
+]]></content>
+    <tabTrigger>otrs.unittest.helper.getrandomid</tabTrigger>
+</snippet>

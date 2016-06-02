@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$GenericAgentObject = \$Kernel::OM->Get('Kernel::System::GenericAgent');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.GenericAgentObject</tabTrigger>
-</snippet>
-

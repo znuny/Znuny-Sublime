@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-\$Self->{Translation}->{"${1:English text...}"} = "${2:Translated text}";
-]]></content>
-    <tabTrigger>otrs.translate.placeholder.doubleqoute</tabTrigger>
-</snippet>

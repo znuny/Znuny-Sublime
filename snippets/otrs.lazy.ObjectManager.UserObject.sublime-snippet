@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$UserObject = \$Kernel::OM->Get('Kernel::System::User');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.UserObject</tabTrigger>
-</snippet>
-

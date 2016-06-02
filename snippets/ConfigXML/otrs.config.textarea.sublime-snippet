@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+<ConfigItem Name="$1" Required="${7:1}" Valid="1">
+    <Description Translatable="1">${2:This configuration defines}.</Description>
+    <Group>${3:Framework}</Group>
+    <SubGroup>${4:Core}</SubGroup>
+    <Setting>
+        <TextArea>$5Hello there beholder,
+
+there was an tragic event:
+
+Log level: &lt;OTRS_LOG_LEVEL&gt;
+Log message: &lt;OTRS_LOG_MESSAGE&gt;
+
+If you want to take a look on the whole system protocol click on the link below.
+
+&lt;OTRS_CONFIG_HttpType&gt;://&lt;OTRS_CONFIG_FQDN&gt;/&lt;OTRS_CONFIG_ScriptAlias&gt;index.pl?Action=AdminLog
+
+Configure this notifications here:
+&lt;OTRS_CONFIG_HttpType&gt;://&lt;OTRS_CONFIG_FQDN&gt;/&lt;OTRS_CONFIG_ScriptAlias&gt;index.pl?Action=AdminSysConfig;Subaction=Edit;SysConfigSubGroup=Core;SysConfigGroup=Znuny4-OTRSAdvancedLog
+        </TextArea>
+    </Setting>
+</ConfigItem>
+]]></content>
+    <tabTrigger>otrs.config.textarea</tabTrigger>
+</snippet>

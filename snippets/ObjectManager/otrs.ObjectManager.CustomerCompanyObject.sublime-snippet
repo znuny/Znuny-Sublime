@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$CustomerCompanyObject = \$Kernel::OM->Get('Kernel::System::CustomerCompany');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.CustomerCompanyObject</tabTrigger>
+</snippet>
+

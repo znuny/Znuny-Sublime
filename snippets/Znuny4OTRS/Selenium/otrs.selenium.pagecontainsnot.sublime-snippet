@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+\$SeleniumObject->PageContainsNot(
+    String  => '$1',${2:
+    Message => "Page doesn't contain '$1'" # optional - default
+});
+]]></content>
+    <tabTrigger>otrs.selenium.pagecontainsnot</tabTrigger>
+</snippet>

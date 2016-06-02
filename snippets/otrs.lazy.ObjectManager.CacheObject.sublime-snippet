@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$CacheObject = \$Kernel::OM->Get('Kernel::System::Cache');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.CacheObject</tabTrigger>
-</snippet>
-

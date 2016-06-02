@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$Result = \$SeleniumObject->InputShow(
-    Attribute => '${1:QueueID}',
-);
-]]></content>
-    <tabTrigger>otrs.unittest.selenium.inputshow</tabTrigger>
-</snippet>

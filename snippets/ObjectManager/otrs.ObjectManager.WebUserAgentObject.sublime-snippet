@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$WebUserAgentObject = Kernel::System::WebUserAgent
+]]></content>
+    <tabTrigger>otrs.ObjectManager.WebUserAgentObject</tabTrigger>
+</snippet>
+

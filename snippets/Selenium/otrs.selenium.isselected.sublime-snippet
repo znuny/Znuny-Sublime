@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+# maybe the snippet 'otrs.selenium.inputget' is the proper choice here?
+\$SeleniumObject->find_element("${2:#Name}", 'css')->is_selected();
+]]></content>
+    <tabTrigger>otrs.selenium.isselected</tabTrigger>
+</snippet>

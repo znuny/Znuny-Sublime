@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-print STDERR "Debug Dump - ${1:ModuleName} - ${2:VariableName} = '$4${2:VariableName}'\n";
-]]></content>
-<tabTrigger>otrs.error.stderr</tabTrigger>
-</snippet>

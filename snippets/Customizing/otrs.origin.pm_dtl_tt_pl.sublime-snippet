@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+# \$origin: https://github.com/OTRS/otrs/blob/$1/$2
+]]></content>
+    <tabTrigger>otrs.origin.pm_dtl_tt_pl</tabTrigger>
+</snippet>

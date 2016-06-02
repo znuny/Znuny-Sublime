@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$Result = \$SeleniumObject->InputFieldID(
-    Attribute => '${1:QueueID}',
-);
-]]></content>
-    <tabTrigger>otrs.unittest.selenium.inputfieldid</tabTrigger>
-</snippet>

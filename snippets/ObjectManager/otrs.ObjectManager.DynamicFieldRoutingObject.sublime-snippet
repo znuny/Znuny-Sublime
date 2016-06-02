@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$DynamicFieldRoutingObject = \$Kernel::OM->Get('Kernel::System::DynamicFieldRouting');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.DynamicFieldRoutingObject</tabTrigger>
+</snippet>
+

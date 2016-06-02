@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$LoaderObject = \$Kernel::OM->Get('Kernel::System::Loader');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.LoaderObject</tabTrigger>
-</snippet>
-

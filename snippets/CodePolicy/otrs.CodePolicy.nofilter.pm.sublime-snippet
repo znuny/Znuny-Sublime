@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+## nofilter($1)
+]]></content>
+    <tabTrigger>otrs.CodePolicy.nofilter.pm</tabTrigger>
+</snippet>

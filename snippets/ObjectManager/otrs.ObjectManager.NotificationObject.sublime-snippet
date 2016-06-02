@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$NotificationObject = \$Kernel::OM->Get('Kernel::System::Notification');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.NotificationObject</tabTrigger>
+</snippet>
+

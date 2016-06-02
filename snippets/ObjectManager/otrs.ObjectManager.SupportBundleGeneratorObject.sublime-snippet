@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$SupportBundleGeneratorObject = \$Kernel::OM->Get('Kernel::System::SupportBundleGenerator');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.SupportBundleGeneratorObject</tabTrigger>
+</snippet>
+

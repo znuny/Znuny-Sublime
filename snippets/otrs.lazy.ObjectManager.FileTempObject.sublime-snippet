@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$FileTempObject = \$Kernel::OM->Get('Kernel::System::FileTemp');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.FileTempObject</tabTrigger>
-</snippet>
-

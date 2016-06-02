@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$CustomerGroupObject = \$Kernel::OM->Get('Kernel::System::CustomerGroup');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.CustomerGroupObject</tabTrigger>
-</snippet>
-

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$SysConfigObject = \$Kernel::OM->Get('Kernel::System::SysConfig');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.SysConfigObject</tabTrigger>
+</snippet>
+

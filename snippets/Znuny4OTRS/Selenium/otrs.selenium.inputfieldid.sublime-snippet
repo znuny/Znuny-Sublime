@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$Result = \$SeleniumObject->InputFieldID(
+    Attribute => '${1:QueueID}',
+);
+]]></content>
+    <tabTrigger>otrs.selenium.inputfieldid</tabTrigger>
+</snippet>

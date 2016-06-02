@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my %CustomerUserData = \$SeleniumObject->CustomerUserLogin(${1:
-    Language => 'de'  # optional, defaults to 'en' if not set
-});
-]]></content>
-    <tabTrigger>otrs.unittest.selenium.customeruserlogin</tabTrigger>
-</snippet>

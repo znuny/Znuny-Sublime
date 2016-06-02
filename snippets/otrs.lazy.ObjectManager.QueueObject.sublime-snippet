@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$QueueObject = \$Kernel::OM->Get('Kernel::System::Queue');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.QueueObject</tabTrigger>
-</snippet>
-

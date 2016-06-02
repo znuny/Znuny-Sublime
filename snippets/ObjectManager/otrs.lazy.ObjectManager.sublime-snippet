@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+my \$${1:Object}Object = \$Kernel::OM->Get('Kernel::System::${1:Object}');
+]]></content>
+    <tabTrigger>otrs.lazy.ObjectManager.om4</tabTrigger>
+</snippet>

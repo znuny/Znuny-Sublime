@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-IsPositiveInteger($1)
-]]></content>
-    <tabTrigger>otrs.lazy.variablecheck.IsPositiveInteger</tabTrigger>
-</snippet>

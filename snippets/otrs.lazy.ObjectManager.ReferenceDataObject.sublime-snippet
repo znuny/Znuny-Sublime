@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$ReferenceDataObject = \$Kernel::OM->Get('Kernel::System::ReferenceData');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.ReferenceDataObject</tabTrigger>
-</snippet>
-

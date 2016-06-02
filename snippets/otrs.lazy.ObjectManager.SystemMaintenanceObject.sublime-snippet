@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$SystemMaintenanceObject = \$Kernel::OM->Get('Kernel::System::SystemMaintenance');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.SystemMaintenanceObject</tabTrigger>
-</snippet>
-

@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-console.log('$1');
-]]></content>
-    <tabTrigger>js.console.log</tabTrigger>
-</snippet>

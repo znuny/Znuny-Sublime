@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$GroupObject = \$Kernel::OM->Get('Kernel::System::Group');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.GroupObject</tabTrigger>
+</snippet>
+

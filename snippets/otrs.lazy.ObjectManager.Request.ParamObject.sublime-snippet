@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-my \$ParamObject = \$Kernel::OM->Get('Kernel::System::Web::Request');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.Request.ParamObject</tabTrigger>
-</snippet>

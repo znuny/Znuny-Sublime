@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$EventObject = \$Kernel::OM->Get('Kernel::System::Event');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.EventObject</tabTrigger>
-</snippet>
-

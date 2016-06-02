@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<ConfigItem Name="$1" Required="${8:1}" Valid="1">
+    <Description Translatable="1">${2:This configuration defines}.</Description>
+    <Group>${3:Framework}</Group>
+    <SubGroup>${4:Core}</SubGroup>
+    <Setting>
+        <String Regex="$6">$5</String>
+    </Setting>
+</ConfigItem>
+]]></content>
+    <tabTrigger>otrs.config.string</tabTrigger>
+</snippet>

@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$UnitTestObject = \$Kernel::OM->Get('Kernel::System::UnitTest');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.UnitTestObject</tabTrigger>
-</snippet>
-

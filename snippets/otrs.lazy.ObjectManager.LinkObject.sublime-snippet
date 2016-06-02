@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$LinkObject = \$Kernel::OM->Get('Kernel::System::LinkObject');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.LinkObject</tabTrigger>
-</snippet>
-

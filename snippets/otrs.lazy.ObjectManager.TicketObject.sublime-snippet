@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$TicketObject = \$Kernel::OM->Get('Kernel::System::Ticket');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.TicketObject</tabTrigger>
-</snippet>
-

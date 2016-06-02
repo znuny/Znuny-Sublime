@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-IsArrayRefWithData(${1:\\})
-]]></content>
-    <tabTrigger>otrs.lazy.variablecheck.IsArrayRefWithData</tabTrigger>
-</snippet>

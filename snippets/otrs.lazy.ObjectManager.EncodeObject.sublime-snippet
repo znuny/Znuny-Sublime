@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-my \$EncodeObject = \$Kernel::OM->Get('Kernel::System::Encode');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.EncodeObject</tabTrigger>
-</snippet>

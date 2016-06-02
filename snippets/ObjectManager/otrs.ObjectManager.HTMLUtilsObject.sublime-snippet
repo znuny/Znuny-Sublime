@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$HTMLUtilsObject = \$Kernel::OM->Get('Kernel::System::HTMLUtils');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.HTMLUtilsObject</tabTrigger>
+</snippet>
+

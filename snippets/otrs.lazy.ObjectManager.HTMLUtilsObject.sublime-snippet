@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$HTMLUtilsObject = \$Kernel::OM->Get('Kernel::System::HTMLUtils');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.HTMLUtilsObject</tabTrigger>
-</snippet>
-

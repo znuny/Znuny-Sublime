@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+my \$${3:DataIsDifferent} = DataIsDifferent(
+    Data1 => \\\$${1:Data1},
+    Data2 => \\\$${2:Data2},
+);
+]]></content>
+    <tabTrigger>dataisdifferent</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+// \$origin: https://github.com/OTRS/otrs/blob/$1/$2
+]]></content>
+    <tabTrigger>otrs.origin.js</tabTrigger>
+</snippet>

@@ -1,0 +1,33 @@
+<snippet>
+    <content><![CDATA[
+# get needed objects
+my \$SysConfigObject = \$Kernel::OM->Get('Kernel::System::SysConfig');
+my \$TestEmailObject = \$Kernel::OM->Get('Kernel::System::Email::Test');
+
+# update SysConfig to use the Test Email backend
+# and cleanup previous mails
+\$SysConfigObject->ConfigItemUpdate(
+    Valid => 1,
+    Key   => 'SendmailModule',
+    Value => 'Kernel::System::Email::Test',
+);
+\$SysConfigObject->ConfigItemUpdate(
+    Valid => 1,
+    Key   => 'CheckEmailAddresses',
+    Value => 0,
+);
+\$TestEmailObject->CleanUp();
+
+
+${1:# ...
+# do stuff
+# ...}
+
+
+# get send mails and cleanup afterwards
+my \$${1:EmailsArrayRef} = \$TestEmailObject->EmailsGet();
+\$TestEmailObject->CleanUp();
+
+]]></content>
+    <tabTrigger>otrs.unittest.block.email.test</tabTrigger>
+</snippet>

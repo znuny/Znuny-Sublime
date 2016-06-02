@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$PIDObject = \$Kernel::OM->Get('Kernel::System::PID');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.PIDObject</tabTrigger>
-</snippet>
-

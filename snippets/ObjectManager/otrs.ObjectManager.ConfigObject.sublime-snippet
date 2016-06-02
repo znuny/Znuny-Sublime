@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$ConfigObject = \$Kernel::OM->Get('Kernel::Config');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.ConfigObject</tabTrigger>
+</snippet>
+

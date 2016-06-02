@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$CheckItemObject = \$Kernel::OM->Get('Kernel::System::CheckItem');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.CheckItemObject</tabTrigger>
-</snippet>
-

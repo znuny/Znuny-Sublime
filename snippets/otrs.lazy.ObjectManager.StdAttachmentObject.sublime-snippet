@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$StdAttachmentObject = \$Kernel::OM->Get('Kernel::System::StdAttachment');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.StdAttachmentObject</tabTrigger>
-</snippet>
-

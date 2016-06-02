@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my @Result = \$HelperObject->PostMaster(
+    Location => \$ConfigObject->Get('Home') . '/scripts/test/sample/Sample-1.box',
+);
+]]></content>
+    <tabTrigger>otrs.helper.postmaster</tabTrigger>
+</snippet>

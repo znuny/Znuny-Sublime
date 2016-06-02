@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$XMLObject = \$Kernel::OM->Get('Kernel::System::XML');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.XMLObject</tabTrigger>
+</snippet>
+

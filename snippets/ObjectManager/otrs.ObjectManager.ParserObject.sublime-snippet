@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$ParserObject = Kernel::System::EmailParser
+]]></content>
+    <tabTrigger>otrs.ObjectManager.ParserObject</tabTrigger>
+</snippet>
+

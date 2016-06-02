@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+\$Self->{Translation}->{"${1:English text...}"} = "${2:Translated text}";
+]]></content>
+    <tabTrigger>otrs.language.doubleqoute</tabTrigger>
+</snippet>

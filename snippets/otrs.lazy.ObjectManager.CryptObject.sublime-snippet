@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$CryptObject = \$Kernel::OM->Get('Kernel::System::Crypt');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.CryptObject</tabTrigger>
-</snippet>
-

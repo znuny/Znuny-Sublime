@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$EmailObject = \$Kernel::OM->Get('Kernel::System::Email');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.EmailObject</tabTrigger>
+</snippet>
+

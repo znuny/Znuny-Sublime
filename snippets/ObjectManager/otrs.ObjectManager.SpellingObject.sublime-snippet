@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$SpellingObject = \$Kernel::OM->Get('Kernel::System::Spelling');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.SpellingObject</tabTrigger>
+</snippet>
+

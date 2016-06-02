@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-\$Kernel::OM->Get('Kernel::System::Ticket')->
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.Ticket</tabTrigger>
-</snippet>

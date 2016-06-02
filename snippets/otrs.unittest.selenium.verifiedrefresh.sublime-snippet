@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-\$SeleniumObject->VerifiedRefresh();
-]]></content>
-    <tabTrigger>otrs.unittest.selenium.verifiedrefresh</tabTrigger>
-</snippet>

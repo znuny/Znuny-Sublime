@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$PDFObject = \$Kernel::OM->Get('Kernel::System::PDF');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.PDFObject</tabTrigger>
-</snippet>
-

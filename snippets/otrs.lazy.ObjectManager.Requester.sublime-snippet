@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-\$Kernel::OM->Get('Kernel::GenericInterface::Requester')->
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.Requester</tabTrigger>
-</snippet>

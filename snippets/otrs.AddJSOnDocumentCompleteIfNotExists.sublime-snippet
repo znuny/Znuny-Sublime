@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$Success = \$LayoutObject->AddJSOnDocumentCompleteIfNotExists(
-    Key  => '${1:InsertUniqueIdentifierForThisBlockUsuallyPackageName}',
-    Code => ${2:\$JSBlock},
-);
-]]></content>
-    <tabTrigger>otrs.AddJSOnDocumentCompleteIfNotExists</tabTrigger>
-</snippet>

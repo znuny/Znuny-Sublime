@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-\$Kernel::OM->Get('Kernel::System::State')->
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.State</tabTrigger>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-my \$ITSMConfigItemObject = \$Kernel::OM->Get('Kernel::System::ITSMConfigItem');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.ITSMConfigItemObject</tabTrigger>
-</snippet>

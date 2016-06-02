@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-\$SeleniumObject->find_element("${2:#Name}", 'css')->is_displayed();
-]]></content>
-    <tabTrigger>otrs.unittest.selenium.isdisplayed</tabTrigger>
-</snippet>

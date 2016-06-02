@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+IsInteger($1)
+]]></content>
+    <tabTrigger>isinteger</tabTrigger>
+</snippet>

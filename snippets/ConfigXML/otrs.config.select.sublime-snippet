@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<ConfigItem Name="$1" Required="${8:1}" Valid="1">
+    <Description Translatable="1">${2:This configuration defines}.</Description>
+    <Group>${3:Framework}</Group>
+    <SubGroup>${4:Core}</SubGroup>
+    <Setting>
+        <Option SelectedID="$5">
+            <Item Key="$5">$6</Item>
+        </Option>
+    </Setting>
+</ConfigItem>
+]]></content>
+    <tabTrigger>otrs.config.select</tabTrigger>
+</snippet>

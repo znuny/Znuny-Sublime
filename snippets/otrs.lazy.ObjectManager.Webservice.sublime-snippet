@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-\$Kernel::OM->Get('Kernel::System::GenericInterface::Webservice')->
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.Webservice</tabTrigger>
-</snippet>

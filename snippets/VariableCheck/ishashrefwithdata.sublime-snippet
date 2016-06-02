@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+IsHashRefWithData(${1:\\})
+]]></content>
+    <tabTrigger>ishashrefwithdata</tabTrigger>
+</snippet>

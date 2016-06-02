@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$CSVObject = \$Kernel::OM->Get('Kernel::System::CSV');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.CSVObject</tabTrigger>
-</snippet>
-

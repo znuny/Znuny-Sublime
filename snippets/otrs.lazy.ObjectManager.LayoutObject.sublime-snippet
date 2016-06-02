@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-my \$LayoutObject = \$Kernel::OM->Get('Kernel::Output::HTML::Layout');
-]]></content>
-    <tabTrigger>otrs.lazy.ObjectManager.LayoutObject</tabTrigger>
-</snippet>
