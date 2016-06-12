@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$DynamicFieldStatsParameter =  \$BackendObject->StatsFieldParameterBuild(
+    DynamicFieldConfig   => \$DynamicFieldConfig,      # complete config of the DynamicField
+    PossibleValuesFilter => ['value1', 'value2'],     # Optional. Some backends may support this.
+                                                      #     This may be needed to realize ACL support for ticket masks,
+                                                      #     where the possible values can be limited with and ACL.
+);
+}
+]]></content>
+    <tabTrigger>otrs.BackendObject.StatsFieldParameterBuild</tabTrigger>
+    <description>4, 5</description>
+</snippet>

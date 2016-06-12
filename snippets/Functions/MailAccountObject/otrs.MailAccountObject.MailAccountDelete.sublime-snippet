@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:\$MailAccountObject->MailAccountDelete(
+    ID => 123,
+);
+}
+]]></content>
+    <tabTrigger>otrs.MailAccountObject.MailAccountDelete</tabTrigger>
+    <description>4, 5</description>
+</snippet>

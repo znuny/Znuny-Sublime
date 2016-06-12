@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$HTMLUtilsObject->EmbeddedImagesExtract(
+    DocumentRef    => \\$Body,
+    AttachmentsRef => \@Attachments,
+);
+}
+]]></content>
+    <tabTrigger>otrs.HTMLUtilsObject.EmbeddedImagesExtract</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$UserObject->SetPreferences(
+    Key    => 'UserComment',
+    Value  => 'some comment',
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.UserObject.SetPreferences</tabTrigger>
+    <description>4, 5</description>
+</snippet>

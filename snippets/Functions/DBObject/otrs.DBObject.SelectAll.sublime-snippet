@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ResultAsArrayRef = \$DBObject->SelectAll(
+    SQL   => "SELECT id, name FROM table",
+    Limit => 10
+);
+}
+]]></content>
+    <tabTrigger>otrs.DBObject.SelectAll</tabTrigger>
+    <description>4, 5</description>
+</snippet>

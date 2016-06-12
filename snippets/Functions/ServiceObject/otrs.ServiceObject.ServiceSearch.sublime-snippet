@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my @ServiceList = \$ServiceObject->ServiceSearch(
+    Name   => 'Service Name', # (optional)
+    Limit  => 122,            # (optional) default 1000
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ServiceObject.ServiceSearch</tabTrigger>
+    <description>4, 5</description>
+</snippet>

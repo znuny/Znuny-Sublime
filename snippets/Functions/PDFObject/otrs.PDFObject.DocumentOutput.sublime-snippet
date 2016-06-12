@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:\$DocumentString = \$PDFObject->DocumentOutput();
+}
+]]></content>
+    <tabTrigger>otrs.PDFObject.DocumentOutput</tabTrigger>
+    <description>4, 5</description>
+</snippet>

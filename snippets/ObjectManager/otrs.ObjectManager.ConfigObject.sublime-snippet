@@ -3,5 +3,5 @@
 my \$ConfigObject = \$Kernel::OM->Get('Kernel::Config');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.ConfigObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

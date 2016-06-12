@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:\$LogObject->CleanUp();
+}
+]]></content>
+    <tabTrigger>otrs.LogObject.CleanUp</tabTrigger>
+    <description>4, 5</description>
+</snippet>

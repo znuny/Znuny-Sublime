@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ServiceID = \$ServiceObject->ServiceAdd(
+    Name     => 'Service Name',
+    ParentID => \$ParentID,           # (optional)
+    ValidID  => \$ValidID,
+    Comment  => 'Comment',    # (optional)
+    UserID   => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ServiceObject.ServiceAdd</tabTrigger>
+    <description>4, 5</description>
+</snippet>

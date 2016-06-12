@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$HTMLString = \$LayoutObject->Ascii2RichText(
+    String => \$TextString,
+);
+}
+]]></content>
+    <tabTrigger>otrs.LayoutObject.Ascii2RichText</tabTrigger>
+    <description>4, 5</description>
+</snippet>

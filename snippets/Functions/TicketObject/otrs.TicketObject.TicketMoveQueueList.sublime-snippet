@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my @QueueList = \$TicketObject->TicketMoveQueueList(
+    TicketID => \$TicketID,
+    Type     => 'Name',
+);
+}${2:my @QueueIDList = \$TicketObject->TicketMoveQueueList(
+    TicketID => \$TicketID,
+    Type     => 'ID',
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.TicketMoveQueueList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

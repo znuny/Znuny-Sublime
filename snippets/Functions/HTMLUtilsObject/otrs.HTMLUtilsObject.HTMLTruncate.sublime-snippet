@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$HTML = \$HTMLUtilsObject->HTMLTruncate(
+    String   => \$String,
+    Chars    => 123,
+    Ellipsis => '...',              # optional (defaults to HTML &#8230;) string to indicate
+                                    #    that the HTML was truncated until that point
+    UTF8Mode => 0,                  # optional 1 or 0 (defaults to 0)
+    OnSpace  => 0,                  # optional 1 or 0 (defaults to 0) if enabled, prevents to
+                                    #    truncate in a middle of a word, but in the space before
+);
+}
+]]></content>
+    <tabTrigger>otrs.HTMLUtilsObject.HTMLTruncate</tabTrigger>
+    <description>5</description>
+</snippet>

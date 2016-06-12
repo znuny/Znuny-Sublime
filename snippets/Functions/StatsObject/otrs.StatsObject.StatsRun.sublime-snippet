@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$StatArray = \$StatsObject->StatsRun(
+    StatID     => \$StatID,
+    GetParam   => \%GetParam,
+);
+}${2:my \$StatArray = \$StatsObject->StatsRun(
+    StatID     => \$StatID,
+    GetParam   => \%GetParam,
+    Preview    => 1,        # optional, return fake data for preview (only for dynamic stats)
+    UserID     => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.StatsObject.StatsRun</tabTrigger>
+    <description>4</description>
+</snippet>

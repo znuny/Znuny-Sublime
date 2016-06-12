@@ -1,0 +1,75 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Success = \$TicketObject->TicketAcl(
+    Data => \{
+        1 => 'new',
+        2 => 'open',
+        # ...
+    \},
+    ReturnType    => 'Ticket',
+    ReturnSubType => 'State',
+    UserID        => \$UserID,
+);
+}${2:my \$Success = \$TicketObject->TicketAcl(
+    Data => \{                            # Values to restrict
+        1 => AgentTicketZoom,
+        # ...
+    \},
+
+    Action        => 'AgentTicketZoom',           # Optional
+    TicketID      => \$TicketID,                         # Optional
+    DynamicField  => \{                            # Optional
+        DynamicField_NameX => 123,
+        DynamicField_NameZ => 'some value',
+    \},
+
+    QueueID          => \$QueueID,                      # Optional
+    Queue            => 'some queue name',        # Optional
+
+    ServiceID        => \$ServiceID,                      # Optional
+    Service          => 'some service name',      # Optional
+
+    TypeID           => \$TypeID,
+    Type             => 'some ticket type name',  # Optional
+
+    PriorityID       => \$PriorityID,                      # Optional
+    NewPriorityID    => \$NewPriorityID,                      # Optional, PriorityID or NewPriorityID can be
+                                                  #   used and they both refers to PriorityID
+    Priority         => 'some priority name',     # Optional
+
+    SLAID            => \$SLAID,
+    SLA              => 'some SLA name',          # Optional
+
+    StateID          => \$StateID,                      # Optional
+    NextStateID      => \$NextStateID,                      # Optional, StateID or NextStateID can be
+                                                  #   used and they both refers to StateID
+    State            => 'some ticket state name', # Optional
+
+    OwnerID          => \$OwnerID,                      # Optional
+    NewOwnerID       => \$NewOwnerID,                      # Optional, OwnerID or NewOwnerID can be
+                                                  #   used and they both refers to OwnerID
+    Owner            => 'some user login'         # Optional
+
+    ResponsibleID    => \$ResponsibleID,                      # Optional
+    NewResponsibleID => \$NewResponsibleID,                      # Optional, ResponsibleID or NewResposibleID
+                                                  #   can be used and they both refers to
+                                                  #     ResponsibleID
+    Responsible      => 'some user login'         # Optional
+
+    ReturnType     => 'Action',                   # To match Possible, PossibleAdd or
+                                                  #   PossibleNot key in ACL
+    ReturnSubType  => '-',                        # To match Possible, PossibleAdd or
+                                                  #   PossibleNot sub-key in ACL
+
+    UserID         => \$UserID,                        # UserID => \$UserID,           # UserID or CustomerUserID are mandatory
+
+    # Process Management Parameters
+    ProcessEntityID        => \$ProcessEntityID,                # Optional
+    ActivityEntityID       => \$ActivityEntityID,                # Optional
+    ActivityDialogEntityID => \$ActivityDialogEntityID,                # Optional
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.TicketAcl</tabTrigger>
+    <description>4, 5</description>
+</snippet>

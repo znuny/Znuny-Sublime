@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$StateID = \$StateObject->StateLookup(
+    State => 'closed successful',
+);
+}${2:my \$State = \$StateObject->StateLookup(
+    StateID => \$StateID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.StateObject.StateLookup</tabTrigger>
+    <description>4, 5</description>
+</snippet>

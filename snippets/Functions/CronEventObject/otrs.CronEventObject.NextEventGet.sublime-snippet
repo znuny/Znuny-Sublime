@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$EventSystemTime = \$CronEventObject->NextEventGet(
+    Schedule  => '*/2 * * * *',    # recurrence parameters based in cron notation
+    StartTime => '1423165100',     # optional, defaults to current time
+);
+}
+]]></content>
+    <tabTrigger>otrs.CronEventObject.NextEventGet</tabTrigger>
+    <description>5</description>
+</snippet>

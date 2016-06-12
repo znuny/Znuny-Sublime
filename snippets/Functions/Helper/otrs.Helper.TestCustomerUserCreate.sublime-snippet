@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$TestUserLogin = \$Helper->TestCustomerUserCreate(
+    Language => 'de',   # optional, defaults to 'en' if not set
+);
+}
+]]></content>
+    <tabTrigger>otrs.Helper.TestCustomerUserCreate</tabTrigger>
+    <description>4, 5</description>
+</snippet>

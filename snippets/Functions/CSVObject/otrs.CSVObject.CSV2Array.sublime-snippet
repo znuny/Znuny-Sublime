@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$RefArray = \$CSVObject->CSV2Array(
+    String    => \$CSVString,
+    Separator => ';', # optional separator (default is ;)
+    Quote     => '"', # optional quote (default is ")
+);
+}
+]]></content>
+    <tabTrigger>otrs.CSVObject.CSV2Array</tabTrigger>
+    <description>4, 5</description>
+</snippet>

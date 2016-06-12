@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my %RoleDataList = \$GroupObject->RoleDataList();
+}
+]]></content>
+    <tabTrigger>otrs.GroupObject.RoleDataList</tabTrigger>
+    <description>5</description>
+</snippet>

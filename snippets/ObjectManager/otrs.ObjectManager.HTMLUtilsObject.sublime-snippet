@@ -3,5 +3,5 @@
 my \$HTMLUtilsObject = \$Kernel::OM->Get('Kernel::System::HTMLUtils');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.HTMLUtilsObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:\$LayoutObject->LoaderCreateCustomerJSCalls();
+}
+]]></content>
+    <tabTrigger>otrs.LayoutObject.LoaderCreateCustomerJSCalls</tabTrigger>
+    <description>4</description>
+</snippet>

@@ -3,5 +3,5 @@
 my \$DynamicFieldObject = \$Kernel::OM->Get('Kernel::System::DynamicField');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.DynamicFieldObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

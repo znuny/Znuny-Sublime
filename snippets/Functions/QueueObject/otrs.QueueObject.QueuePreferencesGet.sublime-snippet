@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Preferences = \$QueueObject->QueuePreferencesGet(
+    QueueID => \$QueueID,
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.QueueObject.QueuePreferencesGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

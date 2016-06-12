@@ -1,0 +1,40 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketPendingTimeSet(
+    String   => '0000-00-00 00:00:00',
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);
+}${2:my \$Success = \$TicketObject->TicketPendingTimeSet(
+    String   => '2003-08-14 22:05:00',
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);
+}${3:my \$Success = \$TicketObject->TicketPendingTimeSet(
+    Diff     => ( 7 * 24 * 60 ),  # minutes (here: 10080 minutes - 7 days)
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);
+}${4:my \$Success = \$TicketObject->TicketPendingTimeSet(
+    Year     => 2003,
+    Month    => 08,
+    Day      => 14,
+    Hour     => 22,
+    Minute   => 05,
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);
+}${5:my \$Success = \$TicketObject->TicketPendingTimeSet(
+    Year     => 0000,
+    Month    => 00,
+    Day      => 00,
+    Hour     => 00,
+    Minute   => 00,
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.TicketPendingTimeSet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

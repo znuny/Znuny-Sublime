@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Data = \$WebUploadCacheObject->FormIDGetAllFilesData(
+    FormID => \$FormID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.WebUploadCacheObject.FormIDGetAllFilesData</tabTrigger>
+    <description>4, 5</description>
+</snippet>

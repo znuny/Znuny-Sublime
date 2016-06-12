@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$HTML = \$LayoutObject->Output(
+    TemplateFile   => 'AdminLog.tt',
+    Data           => \%Param,
+    KeepScriptTags => 1,
+);
+}${2:my \$HTML = \$LayoutObject->Output(
+    Template => '<b>[% Data.SomeKey | html %]</b>',
+    Data     => \%Param,
+);
+}${3:my \$HTML = \$LayoutObject->Output(
+    TemplateFile => 'AdminLog.tt',
+    Data         => \%Param,
+);
+}
+]]></content>
+    <tabTrigger>otrs.LayoutObject.Output</tabTrigger>
+    <description>4</description>
+</snippet>

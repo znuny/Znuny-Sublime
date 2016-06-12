@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ArticleType = \$TicketObject->ArticleTypeLookup(
+    ArticleTypeID => \$ArticleTypeID,
+);
+}${2:my \$ArticleTypeID = \$TicketObject->ArticleTypeLookup(
+    ArticleType => 'webrequest-customer', # note-internal|...
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.ArticleTypeLookup</tabTrigger>
+    <description>4, 5</description>
+</snippet>

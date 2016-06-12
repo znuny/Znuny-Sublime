@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @List = \$PackageObject->RepositoryList(
+    Result => 'short',
+);
+}${2:my @List = \$PackageObject->RepositoryList();
+}
+]]></content>
+    <tabTrigger>otrs.PackageObject.RepositoryList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

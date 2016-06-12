@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$GroupObject->GroupUserRoleMemberAdd(
+    UID    => \$UID,
+    RID    => \$RID,
+    Active => 1,
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.GroupObject.GroupUserRoleMemberAdd</tabTrigger>
+    <description>4</description>
+</snippet>

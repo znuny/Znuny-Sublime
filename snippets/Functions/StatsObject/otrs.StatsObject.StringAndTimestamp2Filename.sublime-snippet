@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Filename = \$StatsObject->StringAndTimestamp2Filename( String => 'Title' );
+}${2:my \$Filename = \$StatsObject->StringAndTimestamp2Filename(
+    String   => 'Title',
+    TimeZone => '+2',  # optional
+);
+}
+]]></content>
+    <tabTrigger>otrs.StatsObject.StringAndTimestamp2Filename</tabTrigger>
+    <description>4</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @ParamNames = \$ParamObject->GetParamNames();
+}${2:my @ParamNames = \$ParamObject->GetParamNames();
+print join " :: ", @ParamNames;
+#prints Action :: Subaction :: Name
+}
+]]></content>
+    <tabTrigger>otrs.ParamObject.GetParamNames</tabTrigger>
+    <description>4, 5</description>
+</snippet>

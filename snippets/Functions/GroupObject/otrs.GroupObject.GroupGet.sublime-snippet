@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %GroupData = \$GroupObject->GroupGet( ID => 2 );
+}${2:my %GroupData = \$GroupObject->GroupGet(
+    ID => 2,
+);
+}
+]]></content>
+    <tabTrigger>otrs.GroupObject.GroupGet</tabTrigger>
+    <description>4</description>
+</snippet>

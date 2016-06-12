@@ -3,5 +3,5 @@
 my \$PIDObject = \$Kernel::OM->Get('Kernel::System::PID');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.PIDObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

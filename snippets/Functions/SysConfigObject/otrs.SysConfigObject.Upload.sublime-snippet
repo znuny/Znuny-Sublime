@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:\$SysConfigObject->Upload(
+    Content => \$Content,
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.Upload</tabTrigger>
+    <description>4, 5</description>
+</snippet>

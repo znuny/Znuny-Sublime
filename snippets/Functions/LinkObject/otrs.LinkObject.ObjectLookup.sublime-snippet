@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Name = \$LinkObject->ObjectLookup(
+    ObjectID => \$ObjectID,
+    UserID   => \$UserID,
+);
+}${2:\$ObjectID = \$LinkObject->ObjectLookup(
+    Name   => 'Ticket',
+    UserID => \$UserID,
+);
+}${3:\$Name = \$LinkObject->ObjectLookup(
+    ObjectID => \$ObjectID,
+);
+}${4:\$ObjectID = \$LinkObject->ObjectLookup(
+    Name => 'Ticket',
+);
+}
+]]></content>
+    <tabTrigger>otrs.LinkObject.ObjectLookup</tabTrigger>
+    <description>4</description>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketServiceSet(
+    ServiceID => \$ServiceID,
+    TicketID  => \$TicketID,
+    UserID    => \$UserID,
+);
+}${2:my \$Success = \$TicketObject->TicketServiceSet(
+    Service  => 'Service A',
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.TicketServiceSet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

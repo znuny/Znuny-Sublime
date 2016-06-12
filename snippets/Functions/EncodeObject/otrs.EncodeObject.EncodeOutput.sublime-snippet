@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:\$EncodeObject->EncodeOutput( \@Array );
+}${2:\$EncodeObject->EncodeOutput( \\$String );
+}
+]]></content>
+    <tabTrigger>otrs.EncodeObject.EncodeOutput</tabTrigger>
+    <description>4, 5</description>
+</snippet>

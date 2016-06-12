@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$HTMLBody = \$LayoutObject->ArticleQuote(
+    TicketID           => \$TicketID,
+    ArticleID          => \$ArticleID,
+    FormID             => \$FormID,
+    UploadCacheObject   => \$Self->\{UploadCacheObject\},
+    AttachmentsInclude => 1,
+);
+}${2:my \$HTMLBody = \$LayoutObject->ArticleQuote(
+    TicketID           => \$TicketID,
+    ArticleID          => \$ArticleID,
+    FormID             => \$FormID,
+    UploadCacheObject   => \$Self->\{UploadCacheObject\},
+    AttachmentsInclude => 0,
+);
+}
+]]></content>
+    <tabTrigger>otrs.LayoutObject.ArticleQuote</tabTrigger>
+    <description>4</description>
+</snippet>

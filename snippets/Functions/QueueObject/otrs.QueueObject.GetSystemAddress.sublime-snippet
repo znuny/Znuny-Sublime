@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Address = \$QueueObject->GetSystemAddress(
+    QueueID => \$QueueID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.QueueObject.GetSystemAddress</tabTrigger>
+    <description>4, 5</description>
+</snippet>

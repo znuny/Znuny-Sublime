@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %MailAccount = \$MailAccountObject->MailAccountGet(
+    ID => 123,
+);
+}
+]]></content>
+    <tabTrigger>otrs.MailAccountObject.MailAccountGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

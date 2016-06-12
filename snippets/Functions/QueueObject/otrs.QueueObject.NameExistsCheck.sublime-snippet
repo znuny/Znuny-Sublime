@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Exist = \$QueueObject->NameExistsCheck(
+    Name => 'Some::Queue',
+    ID => 1, # optional
+);
+}
+]]></content>
+    <tabTrigger>otrs.QueueObject.NameExistsCheck</tabTrigger>
+    <description>4, 5</description>
+</snippet>

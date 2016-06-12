@@ -3,5 +3,5 @@
 my \$YAMLObject = \$Kernel::OM->Get('Kernel::System::YAML');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.YAMLObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$NewSubject = \$TicketObject->TicketSubjectBuild(
+    TicketNumber => \$TicketNumber,
+    Subject      => \$OldSubject,
+    Type         => 'New',
+    Action       => 'Reply',
+);
+}${2:my \$NewSubject = \$TicketObject->TicketSubjectBuild(
+    TicketNumber => \$TicketNumber,
+    Subject      => \$OldSubject,
+    Action       => 'Reply',
+);
+}${3:my \$NewSubject = \$TicketObject->TicketSubjectBuild(
+    TicketNumber => \$TicketNumber,
+    Subject      => \$OldSubject,
+    Action       => 'Forward', # Possible values are Reply and Forward, Reply is default.
+);
+}${4:my \$NewSubject = \$TicketObject->TicketSubjectBuild(
+    TicketNumber => \$TicketNumber,
+    Subject      => \$OldSubject,
+    Type         => 'New',
+    NoCleanup    => 1,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.TicketSubjectBuild</tabTrigger>
+    <description>4, 5</description>
+</snippet>

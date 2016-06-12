@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Signature = \$QueueObject->GetSignature(QueueID => 123);
+}
+]]></content>
+    <tabTrigger>otrs.QueueObject.GetSignature</tabTrigger>
+    <description>4, 5</description>
+</snippet>

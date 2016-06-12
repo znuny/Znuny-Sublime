@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$ProcessObject->ProcessTicketActivitySet(
+    ProcessEntityID  => \$ProcessEntityID,
+    ActivityEntityID => \$ActivityEntityID,
+    TicketID         => \$TicketID,
+    UserID           => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ProcessObject.ProcessTicketActivitySet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

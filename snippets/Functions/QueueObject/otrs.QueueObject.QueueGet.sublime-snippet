@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Queue = \$QueueObject->QueueGet(
+    Name  => 'Some::Queue',
+);
+}${2:my %Queue = \$QueueObject->QueueGet(
+    ID    => 123,
+);
+}
+]]></content>
+    <tabTrigger>otrs.QueueObject.QueueGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

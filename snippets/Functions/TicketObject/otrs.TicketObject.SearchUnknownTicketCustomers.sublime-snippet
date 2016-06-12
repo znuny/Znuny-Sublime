@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$UnknownTicketCustomerList = \$TicketObject->SearchUnknownTicketCustomers(
+    SearchTerm => 'SomeSearchTerm',
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.SearchUnknownTicketCustomers</tabTrigger>
+    <description>5</description>
+</snippet>

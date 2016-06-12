@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:\$LogObject->Dumper(@Array);
+}${2:\$LogObject->Dumper(%Hash);
+}
+]]></content>
+    <tabTrigger>otrs.LogObject.Dumper</tabTrigger>
+    <description>4, 5</description>
+</snippet>

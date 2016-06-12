@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:\$LayoutObject->LoaderCreateAgentCSSCalls(
+    Skin => 'MySkin', # optional, if not provided skin is the configured by default
+);
+}
+]]></content>
+    <tabTrigger>otrs.LayoutObject.LoaderCreateAgentCSSCalls</tabTrigger>
+    <description>4</description>
+</snippet>

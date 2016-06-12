@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$ProviderObject = \$Kernel::OM->Get('Kernel::GenericInterface::Provider');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.ProviderObject</tabTrigger>
+    <description>4, 5</description>
+</snippet>

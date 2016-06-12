@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Article = \$TicketObject->ArticleFirstArticle(
+    TicketID      => \$TicketID,
+    DynamicFields => 1,     # 0 or 1, see ArticleGet()
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.ArticleFirstArticle</tabTrigger>
+    <description>4, 5</description>
+</snippet>

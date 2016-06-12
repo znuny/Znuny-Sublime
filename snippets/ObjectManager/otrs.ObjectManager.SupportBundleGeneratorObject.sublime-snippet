@@ -3,5 +3,5 @@
 my \$SupportBundleGeneratorObject = \$Kernel::OM->Get('Kernel::System::SupportBundleGenerator');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.SupportBundleGeneratorObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$BackendObject = \$Kernel::OM->Get('Kernel::System::DynamicField::Backend');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.BackendObject</tabTrigger>
+    <description>4, 5</description>
+</snippet>

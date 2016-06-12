@@ -3,5 +3,5 @@
 my \$VirtualFSObject = \$Kernel::OM->Get('Kernel::System::VirtualFS');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.VirtualFSObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my %List = \$UserObject->UserList(
+    Type          => 'Short', # Short|Long, default Short
+    Valid         => 1,       # default 1
+    NoOutOfOffice => 1,       # (optional) default 0
+);
+}${2:my %List = \$UserObject->UserList(
+    Type          => 'Short', # Short|Long, default Short
+    Valid         => 1,       # not required, default 0
+    NoOutOfOffice => 1,       # optional, default 0
+);
+}
+]]></content>
+    <tabTrigger>otrs.UserObject.UserList</tabTrigger>
+    <description>5</description>
+</snippet>

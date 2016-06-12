@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:\$HTMLBody = \$HTMLUtilsObject->DocumentCleanup(
+    String => \$HTMLBody,
+);
+}
+]]></content>
+    <tabTrigger>otrs.HTMLUtilsObject.DocumentCleanup</tabTrigger>
+    <description>4, 5</description>
+</snippet>

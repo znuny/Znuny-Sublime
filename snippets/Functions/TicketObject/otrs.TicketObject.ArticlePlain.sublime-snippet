@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$PlainMessage = \$TicketObject->ArticlePlain(
+    ArticleID => \$ArticleID,
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.ArticlePlain</tabTrigger>
+    <description>4, 5</description>
+</snippet>

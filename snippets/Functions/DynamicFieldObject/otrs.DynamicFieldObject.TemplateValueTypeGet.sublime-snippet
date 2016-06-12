@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ValueType = \$DynamicFieldObject->TemplateValueTypeGet(
+    DynamicFieldConfig => \$DynamicFieldConfig,
+    FieldType => 'Search',
+);
+}${2:my \$ValueType = \$DynamicFieldObject->TemplateValueTypeGet(
+    DynamicFieldConfig => \$DynamicFieldConfig,       # complete config of the DynamicField
+    FieldType => 'Edit',                             # or 'Search' or 'All'
+);
+}${3:my \$ValueType = \$DynamicFieldObject->TemplateValueTypeGet(
+    DynamicFieldConfig => \$DynamicFieldConfig,
+    FieldType => 'All',
+);
+}
+]]></content>
+    <tabTrigger>otrs.DynamicFieldObject.TemplateValueTypeGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$StatsObject->StatsUninstall(
+    FilePrefix => 'FAQ',  # (optional)
+);
+}${2:my \$Result = \$StatsObject->StatsUninstall(
+    FilePrefix => 'FAQ',  # (optional)
+    UserID     => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.StatsObject.StatsUninstall</tabTrigger>
+    <description>4</description>
+</snippet>

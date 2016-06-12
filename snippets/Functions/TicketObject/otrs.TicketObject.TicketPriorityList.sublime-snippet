@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Priorities = \$TicketObject->TicketPriorityList(
+    QueueID => \$QueueID,
+    UserID  => \$UserID,
+);
+}${2:my %Priorities = \$TicketObject->TicketPriorityList(
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.TicketPriorityList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

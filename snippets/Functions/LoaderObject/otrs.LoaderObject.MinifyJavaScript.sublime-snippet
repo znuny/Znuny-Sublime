@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$MinifiedJS = \$LoaderObject->MinifyJavaScript( Code => \$JavaScript );
+}
+]]></content>
+    <tabTrigger>otrs.LoaderObject.MinifyJavaScript</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my %ServiceData = \$ServiceObject->ServiceGet(
+    Name    => 'Service::SubService',
+    UserID  => \$UserID,
+);
+}${2:my %ServiceData = \$ServiceObject->ServiceGet(
+    ServiceID => \$ServiceID,
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ServiceObject.ServiceGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,36 @@
+<snippet>
+    <content><![CDATA[
+${1:my @ArticleBox = \$TicketObject->ArticleContentIndex(
+    TicketID                   => \$TicketID,
+    UserID                     => \$UserID,
+    StripPlainBodyAsAttachment => 2,
+);
+}${2:my @ArticleBox = \$TicketObject->ArticleContentIndex(
+    TicketID      => \$TicketID,
+    DynamicFields => 1,         # 0 or 1, default 1. To include or not the dynamic field values on the return structure.
+    UserID        => \$UserID,
+    Order         => 'ASC',     # 'ASC' or 'DESC', default 'ASC'
+);
+}${3:my @ArticleBox = \$TicketObject->ArticleContentIndex(
+    TicketID                   => \$TicketID,
+    UserID                     => \$UserID,
+    StripPlainBodyAsAttachment => 1,
+);
+}${4:my @ArticleBox = \$TicketObject->ArticleContentIndex(
+    TicketID    => \$TicketID,
+    UserID      => \$UserID,
+    Limit       => 5,
+    Page        => 3,   # get 11th to 16th element
+);
+}${5:my @ArticleBox = \$TicketObject->ArticleContentIndex(
+    TicketID    => \$TicketID,
+    UserID      => \$UserID,
+    ArticleType => [ \$ArticleType1, \$ArticleType2 ],
+    # or
+    ArticleTypeID => \$ArticleTypeID, \$ArticleTypeID2 ],
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.ArticleContentIndex</tabTrigger>
+    <description>4, 5</description>
+</snippet>

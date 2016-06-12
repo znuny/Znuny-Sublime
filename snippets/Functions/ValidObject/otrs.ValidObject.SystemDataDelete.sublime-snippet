@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$ValidObject->SystemDataDelete(
+    Key    => 'OTRS Version',
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ValidObject.SystemDataDelete</tabTrigger>
+    <description>4</description>
+</snippet>

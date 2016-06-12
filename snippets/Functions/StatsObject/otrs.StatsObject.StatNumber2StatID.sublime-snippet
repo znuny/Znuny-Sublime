@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$StatID = \$StatsObject->StatNumber2StatID(
+    StatNumber => 11212,
+);
+}
+]]></content>
+    <tabTrigger>otrs.StatsObject.StatNumber2StatID</tabTrigger>
+    <description>4, 5</description>
+</snippet>

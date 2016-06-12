@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$SysConfigObject->ConfigItemValidate(
+    Key         => 'Ticket::Frontend::AgentTicketOwner###PriorityDefault',
+    Value       => '3 normal',  # (optional)
+    Valid       => 1,           # (optional) only used if AutoCorrect is set
+    AutoCorrect => 1,           # (optional) auto-correct the config item
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.ConfigItemValidate</tabTrigger>
+    <description>4, 5</description>
+</snippet>

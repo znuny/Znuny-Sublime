@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %RoleList = \$GroupObject->PermissionUserRoleGet(
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.GroupObject.PermissionUserRoleGet</tabTrigger>
+    <description>5</description>
+</snippet>

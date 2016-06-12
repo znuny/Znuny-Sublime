@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my %OSInfo = \$EnvironmentObject->OSInfoGet();
+}
+]]></content>
+    <tabTrigger>otrs.EnvironmentObject.OSInfoGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

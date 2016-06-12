@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:# put this in the handler script
+\$ProviderObject->Run();
+}
+]]></content>
+    <tabTrigger>otrs.ProviderObject.Run</tabTrigger>
+    <description>4, 5</description>
+</snippet>

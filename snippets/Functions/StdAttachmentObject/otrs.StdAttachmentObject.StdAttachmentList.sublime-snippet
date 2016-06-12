@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %List = \$StdAttachmentObject->StdAttachmentList();
+}${2:my %List = \$StdAttachmentObject->StdAttachmentList( Valid => 1 );
+}
+]]></content>
+    <tabTrigger>otrs.StdAttachmentObject.StdAttachmentList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

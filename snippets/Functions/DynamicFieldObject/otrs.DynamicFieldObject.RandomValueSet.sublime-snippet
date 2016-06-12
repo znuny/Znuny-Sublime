@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$DynamicFieldObject->RandomValueSet(
+    DynamicFieldConfig => \$DynamicFieldConfig,      # complete config of the DynamicField
+    ObjectID           => \$ObjectID,                # ID of the current object that the field
+                                                    # must be linked to, e. g. TicketID
+    UserID             => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.DynamicFieldObject.RandomValueSet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

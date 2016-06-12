@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Preferences = \$ServiceObject->ServicePreferencesGet(
+    ServiceID => \$ServiceID,
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ServiceObject.ServicePreferencesGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$PackageObject->PackageExport(
+    String => \$FileString,
+    Home   => '/path/to/export'
+);
+}
+]]></content>
+    <tabTrigger>otrs.PackageObject.PackageExport</tabTrigger>
+    <description>4, 5</description>
+</snippet>

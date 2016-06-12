@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$UserID = \$UserObject->UserLookup(
+    UserLogin => 'some_user_login',
+);
+}${2:my \$UserLogin = \$UserObject->UserLookup(
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.UserObject.UserLookup</tabTrigger>
+    <description>4, 5</description>
+</snippet>

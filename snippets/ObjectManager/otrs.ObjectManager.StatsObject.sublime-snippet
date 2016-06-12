@@ -3,5 +3,5 @@
 my \$StatsObject = \$Kernel::OM->Get('Kernel::System::Stats');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.StatsObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

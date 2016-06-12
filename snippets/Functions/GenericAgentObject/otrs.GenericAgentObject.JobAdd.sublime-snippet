@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:\$GenericAgentObject->JobAdd(
+    Name => 'JobName',
+    Data => \{
+        Queue => 'SomeQueue',
+        ...
+        Valid => 1,
+    \},
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.GenericAgentObject.JobAdd</tabTrigger>
+    <description>4, 5</description>
+</snippet>

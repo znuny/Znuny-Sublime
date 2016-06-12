@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$WebserviceObject->WebserviceDelete(
+    ID      => 123,
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.WebserviceObject.WebserviceDelete</tabTrigger>
+    <description>4, 5</description>
+</snippet>

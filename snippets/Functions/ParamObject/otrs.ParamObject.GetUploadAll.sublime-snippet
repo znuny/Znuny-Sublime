@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %File = \$ParamObject->GetUploadAll(
+    Param  => 'FileParam',  # the name of the request parameter containing the file data
+);
+}
+]]></content>
+    <tabTrigger>otrs.ParamObject.GetUploadAll</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Task = \$TaskManagerObject->TaskGet(
+    ID => 123,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TaskManagerObject.TaskGet</tabTrigger>
+    <description>4</description>
+</snippet>

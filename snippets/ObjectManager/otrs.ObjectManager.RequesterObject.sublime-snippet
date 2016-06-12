@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$RequesterObject = \$Kernel::OM->Get('Kernel::GenericInterface::Requester');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.RequesterObject</tabTrigger>
+    <description>4, 5</description>
+</snippet>

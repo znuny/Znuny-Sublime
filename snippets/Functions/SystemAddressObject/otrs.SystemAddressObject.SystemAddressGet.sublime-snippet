@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %SystemAddress = \$SystemAddressObject->SystemAddressGet(
+    ID => 1,
+);
+}
+]]></content>
+    <tabTrigger>otrs.SystemAddressObject.SystemAddressGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Output = \$LayoutObject->Header(
+    Type              => 'Small',                # (optional) '' (Default, full header) or 'Small' (blank header)
+    ShowToolbarItems  => 0,                      # (optional) default 1 (0|1)
+    ShowPrefLink      => 0,                      # (optional) default 1 (0|1)
+    ShowLogoutButton  => 0,                      # (optional) default 1 (0|1)
+);
+}
+]]></content>
+    <tabTrigger>otrs.LayoutObject.Header</tabTrigger>
+    <description>4, 5</description>
+</snippet>

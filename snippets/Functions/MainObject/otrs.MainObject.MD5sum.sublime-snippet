@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$MD5Sum = \$MainObject->MD5sum(
+    String => \\$SomeString,
+);
+}${2:# note: needs more memory!
+my \$MD5Sum = \$MainObject->MD5sum(
+    String => \$SomeString,
+);
+}${3:my \$MD5Sum = \$MainObject->MD5sum(
+    Filename => '/path/to/me_to_alal.xml',
+);
+}
+]]></content>
+    <tabTrigger>otrs.MainObject.MD5sum</tabTrigger>
+    <description>4, 5</description>
+</snippet>

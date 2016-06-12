@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$PackageObject->PackageIsInstalled(
+    String => \$PackageString,    # Attribute String or Name is required
+    Name   => \$NameOfThePackage,
+);
+}
+]]></content>
+    <tabTrigger>otrs.PackageObject.PackageIsInstalled</tabTrigger>
+    <description>4, 5</description>
+</snippet>

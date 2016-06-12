@@ -3,5 +3,5 @@
 my \$SalutationObject = \$Kernel::OM->Get('Kernel::System::Salutation');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.SalutationObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

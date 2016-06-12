@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my %State = \$StateObject->StateGet(
+    Name  => 'New State',
+);
+}${2:my %State = \$StateObject->StateGet(
+    ID    => 123,
+);
+}
+]]></content>
+    <tabTrigger>otrs.StateObject.StateGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

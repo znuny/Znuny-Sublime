@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %List = \$SystemAddressObject->SystemAddressList(
+    Valid => 0,  # optional, defaults to 1
+);
+}
+]]></content>
+    <tabTrigger>otrs.SystemAddressObject.SystemAddressList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

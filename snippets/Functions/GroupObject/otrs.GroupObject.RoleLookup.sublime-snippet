@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$RoleID = \$GroupObject->RoleLookup(
+    Role => \$Role,
+);
+}${2:my \$RoleID = \$GroupObject->RoleLookup( Role => \$Role );
+}${3:my \$Role = \$GroupObject->RoleLookup( RoleID => \$RoleID );
+}${4:my \$Role = \$GroupObject->RoleLookup(
+    RoleID => \$RoleID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.GroupObject.RoleLookup</tabTrigger>
+    <description>5</description>
+</snippet>

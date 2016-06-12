@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:\$NotificationEventObject->NotificationDelete(
+    ID     => 1,
+    UserID => \$UserID,
+);
+}${2:\$NotificationEventObject->NotificationDelete(
+    ID     => 123,
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.NotificationEventObject.NotificationDelete</tabTrigger>
+    <description>5</description>
+</snippet>

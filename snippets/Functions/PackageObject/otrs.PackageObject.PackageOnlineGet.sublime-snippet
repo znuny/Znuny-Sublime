@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$PackageObject->PackageOnlineGet(
+    Source => 'http://host.example.com/',
+    File   => 'SomePackage-1.0.opm',
+);
+}
+]]></content>
+    <tabTrigger>otrs.PackageObject.PackageOnlineGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

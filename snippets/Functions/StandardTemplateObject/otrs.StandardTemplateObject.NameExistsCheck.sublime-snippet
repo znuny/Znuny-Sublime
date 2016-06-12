@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Exist = \$StandardTemplateObject->NameExistsCheck(
+    Name => 'Some::Template',
+    ID => 1, # optional
+);
+}
+]]></content>
+    <tabTrigger>otrs.StandardTemplateObject.NameExistsCheck</tabTrigger>
+    <description>4, 5</description>
+</snippet>

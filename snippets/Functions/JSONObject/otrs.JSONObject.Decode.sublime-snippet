@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$PerlStructureScalar = \$JSONObject->Decode(
+    Data => \$JSONString,
+);
+}
+]]></content>
+    <tabTrigger>otrs.JSONObject.Decode</tabTrigger>
+    <description>4, 5</description>
+</snippet>

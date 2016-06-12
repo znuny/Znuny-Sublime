@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$BackendObject->AllValuesDelete(
+    DynamicFieldConfig => \$DynamicFieldConfig,      # complete config of the DynamicField
+    UserID             => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.BackendObject.AllValuesDelete</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Version = \$EnvironmentObject->ModuleVersionGet(
+    Module => 'MIME::Parser',
+);
+}
+]]></content>
+    <tabTrigger>otrs.EnvironmentObject.ModuleVersionGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

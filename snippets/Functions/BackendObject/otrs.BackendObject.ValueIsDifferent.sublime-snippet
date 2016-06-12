@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$BackendObject->ValueIsDifferent(
+    DynamicFieldConfig => \$DynamicFieldConfig,      # complete config of the DynamicField
+                                                    # must be linked to, e. g. TicketID
+    Value1             => \$Value1,                  # Dynamic Field Value
+    Value2             => \$Value2,                  # Dynamic Field Value
+);
+}
+]]></content>
+    <tabTrigger>otrs.BackendObject.ValueIsDifferent</tabTrigger>
+    <description>4, 5</description>
+</snippet>

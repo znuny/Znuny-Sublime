@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$AccessOk = \$TicketObject->OwnerCheck(
+    TicketID => \$TicketID,
+    OwnerID  => \$OwnerID,
+);
+}${2:my (\$OwnerID, \$Owner) = \$TicketObject->OwnerCheck(
+    TicketID => \$TicketID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.OwnerCheck</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %ObjectAttributes = \$StatsObject->GetStatsObjectAttributes(
+    ObjectModule => 'Ticket',
+    Use          => 'UseAsXvalue' || 'UseAsValueSeries' || 'UseAsRestriction',
+);
+}
+]]></content>
+    <tabTrigger>otrs.StatsObject.GetStatsObjectAttributes</tabTrigger>
+    <description>4, 5</description>
+</snippet>

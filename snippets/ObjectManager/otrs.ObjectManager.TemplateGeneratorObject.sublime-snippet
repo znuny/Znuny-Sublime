@@ -3,5 +3,5 @@
 my \$TemplateGeneratorObject = \$Kernel::OM->Get('Kernel::System::TemplateGenerator');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.TemplateGeneratorObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

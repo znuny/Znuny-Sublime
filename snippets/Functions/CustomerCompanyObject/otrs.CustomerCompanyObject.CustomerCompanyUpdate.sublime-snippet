@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+${1:\$CustomerCompanyObject->CustomerCompanyUpdate(
+    CustomerCompanyID       => \$CustomerCompanyID, # required for CustomerCompanyID-update
+    CustomerID              => \$CustomerID,
+    CustomerCompanyName     => 'New Customer Inc.',
+    CustomerCompanyStreet   => '5201 Blue Lagoon Drive',
+    CustomerCompanyZIP      => '33126',
+    CustomerCompanyLocation => 'Miami',
+    CustomerCompanyCountry  => 'USA',
+    CustomerCompanyURL      => 'http://example.com',
+    CustomerCompanyComment  => 'some comment',
+    ValidID                 => \$ValidID,
+    UserID                  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.CustomerCompanyObject.CustomerCompanyUpdate</tabTrigger>
+    <description>4, 5</description>
+</snippet>

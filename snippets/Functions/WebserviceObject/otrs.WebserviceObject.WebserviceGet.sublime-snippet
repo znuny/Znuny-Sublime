@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Webservice = \$WebserviceObject->WebserviceGet(
+    ID   => 123,            # ID or Name must be provided
+    Name => 'MyWebservice',
+);
+}
+]]></content>
+    <tabTrigger>otrs.WebserviceObject.WebserviceGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

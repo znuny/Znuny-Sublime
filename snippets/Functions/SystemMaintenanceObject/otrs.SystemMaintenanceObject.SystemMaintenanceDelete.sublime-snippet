@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$SystemMaintenanceObject->SystemMaintenanceDelete(
+    ID     => 123,
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.SystemMaintenanceObject.SystemMaintenanceDelete</tabTrigger>
+    <description>4, 5</description>
+</snippet>

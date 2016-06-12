@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ProcessTransition = \$ProcessObject->ProcessTransition(
+    ProcessEntityID  => \$ProcessEntityID,
+    ActivityEntityID => \$ActivityEntityID,
+    TicketID         => \$TicketID,
+    UserID           => \$UserID,
+    CheckOnly        => 1,             # optional
+    Data             => \{              # optional
+        Queue         => 'Raw',
+        DynamicField1 => 'Value',
+        Subject       => 'Testsubject',
+        #...
+    \},
+);
+}
+]]></content>
+    <tabTrigger>otrs.ProcessObject.ProcessTransition</tabTrigger>
+    <description>4, 5</description>
+</snippet>

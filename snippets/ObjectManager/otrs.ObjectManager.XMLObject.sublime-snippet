@@ -3,5 +3,5 @@
 my \$XMLObject = \$Kernel::OM->Get('Kernel::System::XML');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.XMLObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

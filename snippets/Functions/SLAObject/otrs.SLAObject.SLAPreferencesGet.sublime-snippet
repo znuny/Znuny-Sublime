@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Preferences = \$SLAObject->SLAPreferencesGet(
+    SLAID => \$SLAID,
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.SLAObject.SLAPreferencesGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

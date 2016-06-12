@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %StandardTemplates = \$StandardTemplateObject->StandardTemplateList();
+}${2:my %StandardTemplates = \$StandardTemplateObject->StandardTemplateList(
+    Valid => 0,
+);
+}
+]]></content>
+    <tabTrigger>otrs.StandardTemplateObject.StandardTemplateList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

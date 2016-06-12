@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$String = \$EncodeObject->Convert2CharsetInternal(
+    Text => \$String,
+    From => \$SourceCharset,
+);
+}
+]]></content>
+    <tabTrigger>otrs.EncodeObject.Convert2CharsetInternal</tabTrigger>
+    <description>4, 5</description>
+</snippet>

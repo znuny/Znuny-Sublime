@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketStateSet(
+    StateID  => \$StateID,
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);
+}${2:my \$Success = \$TicketObject->TicketStateSet(
+    State     => 'open',
+    TicketID  => \$TicketID,
+    ArticleID => \$ArticleID, #optional, for history
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.TicketStateSet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

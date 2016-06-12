@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketTitleUpdate(
+    Title    => 'Some Title',
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.TicketTitleUpdate</tabTrigger>
+    <description>4, 5</description>
+</snippet>

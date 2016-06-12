@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$FollowUpLockOption = \$QueueObject->GetFollowUpLockOption( QueueID => \$QueueID );
+}
+]]></content>
+    <tabTrigger>otrs.QueueObject.GetFollowUpLockOption</tabTrigger>
+    <description>4, 5</description>
+</snippet>

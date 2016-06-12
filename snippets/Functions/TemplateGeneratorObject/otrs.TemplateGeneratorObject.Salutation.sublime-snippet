@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Salutation = \$TemplateGeneratorObject->Salutation(
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+    Data     => \$ArticleHashRef,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TemplateGeneratorObject.Salutation</tabTrigger>
+    <description>4, 5</description>
+</snippet>

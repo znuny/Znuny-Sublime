@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$DBVersion = \$DBObject->Version();
+}
+]]></content>
+    <tabTrigger>otrs.DBObject.Version</tabTrigger>
+    <description>4, 5</description>
+</snippet>

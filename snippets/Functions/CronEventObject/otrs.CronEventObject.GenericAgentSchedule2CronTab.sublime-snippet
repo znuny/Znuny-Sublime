@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Schedule = \$CronEventObject->GenericAgentSchedule2CronTab(
+    ScheduleMinutes [1,2,3],
+    ScheduleHours   [1,2,3],
+    ScheduleDays    [1,2,3],
+);
+}
+]]></content>
+    <tabTrigger>otrs.CronEventObject.GenericAgentSchedule2CronTab</tabTrigger>
+    <description>5</description>
+</snippet>

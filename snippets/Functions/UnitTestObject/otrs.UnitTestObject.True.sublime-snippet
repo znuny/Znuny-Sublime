@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Self->True(\$ParamA, 'Test Name');
+}${2:my \$TrueResult = \$Self->True(
+    \$TestValue,
+    'Test Name',
+);
+}${3:\$Self->True(1, 'Test Name');
+}
+]]></content>
+    <tabTrigger>otrs.UnitTestObject.True</tabTrigger>
+    <description>4, 5</description>
+</snippet>

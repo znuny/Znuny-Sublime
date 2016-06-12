@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Access = \$LayoutObject->Permission(
+    Action => 'AdminCustomerUser',
+    Type   => 'rw', # ro|rw possible
+);
+}
+]]></content>
+    <tabTrigger>otrs.LayoutObject.Permission</tabTrigger>
+    <description>4, 5</description>
+</snippet>

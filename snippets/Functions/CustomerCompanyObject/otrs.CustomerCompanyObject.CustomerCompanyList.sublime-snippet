@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my %List = \$CustomerCompanyObject->CustomerCompanyList(
+    Valid => 0,
+);
+}${2:my %List = \$CustomerCompanyObject->CustomerCompanyList(
+    Search => 'somecompany',
+);
+}${3:my %List = \$CustomerCompanyObject->CustomerCompanyList(
+    Valid => 0,
+    Limit => 0,     # optional, override configured search result limit (0 means unlimited)
+);
+}${4:my %List = \$CustomerCompanyObject->CustomerCompanyList();
+}
+]]></content>
+    <tabTrigger>otrs.CustomerCompanyObject.CustomerCompanyList</tabTrigger>
+    <description>4</description>
+</snippet>

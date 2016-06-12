@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$True = \$LockObject->PriorityAdd(
+    Name    => 'Prio',
+    ValidID => \$ValidID,
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.LockObject.PriorityAdd</tabTrigger>
+    <description>4</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my %OTRSInfo = \$EnvironmentObject->OTRSInfoGet();
+}
+]]></content>
+    <tabTrigger>otrs.EnvironmentObject.OTRSInfoGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

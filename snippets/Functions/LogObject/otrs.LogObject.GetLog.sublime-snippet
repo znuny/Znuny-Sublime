@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$CSVLog = \$LogObject->GetLog();
+}
+]]></content>
+    <tabTrigger>otrs.LogObject.GetLog</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:\$EncodeObject->SetIO( \*STDOUT, \*STDERR );
+}
+]]></content>
+    <tabTrigger>otrs.EncodeObject.SetIO</tabTrigger>
+    <description>4, 5</description>
+</snippet>

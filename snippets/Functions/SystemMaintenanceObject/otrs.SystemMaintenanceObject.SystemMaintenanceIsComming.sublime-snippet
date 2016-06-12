@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SystemMaintenanceIsComming = \$SystemMaintenanceObject->SystemMaintenanceIsComming();
+}
+]]></content>
+    <tabTrigger>otrs.SystemMaintenanceObject.SystemMaintenanceIsComming</tabTrigger>
+    <description>4, 5</description>
+</snippet>

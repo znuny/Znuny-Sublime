@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$LanguageObject = \$Kernel::OM->Get('Kernel::Language');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.LanguageObject</tabTrigger>
+    <description>4, 5</description>
+</snippet>

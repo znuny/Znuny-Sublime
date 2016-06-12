@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Valid = \$UserObject->TokenCheck(
+    Token  => \$Token,
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.UserObject.TokenCheck</tabTrigger>
+    <description>4, 5</description>
+</snippet>

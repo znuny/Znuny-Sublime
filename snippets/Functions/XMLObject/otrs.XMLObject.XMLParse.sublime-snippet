@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my @XMLStructure = \$XMLObject->XMLParse( String => \$FileString );
+}${2:my @XMLStructure = \$XMLObject->XMLParse( String => \\$FileStringScalar );
+}
+]]></content>
+    <tabTrigger>otrs.XMLObject.XMLParse</tabTrigger>
+    <description>4, 5</description>
+</snippet>

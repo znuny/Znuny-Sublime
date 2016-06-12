@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ServiceParentsList = \$ServiceObject->ServiceParentsGet(
+    ServiceID => \$ServiceID,
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ServiceObject.ServiceParentsGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

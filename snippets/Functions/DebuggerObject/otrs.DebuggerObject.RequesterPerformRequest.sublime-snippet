@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$DebuggerObject->RequesterPerformRequest(
+    Operation       => 'remote_op', # name of remote operation to perform
+    Data            => \{            # data payload for request
+        ...
+    \},
+);
+}
+]]></content>
+    <tabTrigger>otrs.DebuggerObject.RequesterPerformRequest</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my @UserIDs = \$TicketObject->GetSubscribedUserIDsByServiceID(
+    ServiceID => \$ServiceID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.GetSubscribedUserIDsByServiceID</tabTrigger>
+    <description>4, 5</description>
+</snippet>

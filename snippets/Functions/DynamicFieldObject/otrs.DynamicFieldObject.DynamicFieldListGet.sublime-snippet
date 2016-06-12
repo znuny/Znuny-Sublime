@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$List = \$DynamicFieldObject->DynamicFieldListGet(
+    Valid        => 0,            # optional, defaults to 1
+
+    # object  type (optional) as STRING or as ARRAYREF
+    ObjectType => 'Ticket',
+    ObjectType => ['Ticket', 'Article'],
+
+    FieldFilter => \{        # optional, only active fields (non 0) will be returned
+        nameforfield => 1,
+        fieldname    => 2,
+        other        => 0,
+        otherfield   => 0,
+    \},
+
+);
+}${2:my \$List = \$DynamicFieldObject->DynamicFieldListGet();
+}
+]]></content>
+    <tabTrigger>otrs.DynamicFieldObject.DynamicFieldListGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

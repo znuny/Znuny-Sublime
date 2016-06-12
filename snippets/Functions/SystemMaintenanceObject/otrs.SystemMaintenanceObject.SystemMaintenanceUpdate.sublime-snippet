@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$SystemMaintenanceObject->SystemMaintenanceUpdate(
+    ID               => 123,                        # mandatory
+    StartData        => 'NameOfSystemMaintenance',  # mandatory
+    StopDate         => 'NameOfSystemMaintenance',  # mandatory
+    Comment          => 'Comment',                  # mandatory
+    LoginMessage     => 'Description',              # optional
+    ShowLoginMessage => 1,                          # optional
+    NotifyMessage    => 'Notification for showing', # optional
+    ValidID          => \$ValidID,                  # mandatory
+    UserID           => \$UserID,                        # mandatory
+);
+}
+]]></content>
+    <tabTrigger>otrs.SystemMaintenanceObject.SystemMaintenanceUpdate</tabTrigger>
+    <description>4, 5</description>
+</snippet>

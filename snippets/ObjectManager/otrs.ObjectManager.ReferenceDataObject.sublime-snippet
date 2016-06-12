@@ -3,5 +3,5 @@
 my \$ReferenceDataObject = \$Kernel::OM->Get('Kernel::System::ReferenceData');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.ReferenceDataObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

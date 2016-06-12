@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ActiveMaintenance = \$SystemMaintenanceObject->SystemMaintenanceIsActive();
+}
+]]></content>
+    <tabTrigger>otrs.SystemMaintenanceObject.SystemMaintenanceIsActive</tabTrigger>
+    <description>4, 5</description>
+</snippet>

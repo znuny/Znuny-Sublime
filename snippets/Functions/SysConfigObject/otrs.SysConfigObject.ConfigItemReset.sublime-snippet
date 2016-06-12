@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:\$SysConfigObject->ConfigItemReset(
+    Name => 'Ticket::NumberGenerator',
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.ConfigItemReset</tabTrigger>
+    <description>4, 5</description>
+</snippet>

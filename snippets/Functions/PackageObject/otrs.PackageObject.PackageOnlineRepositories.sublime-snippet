@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my %List = \$PackageObject->PackageOnlineRepositories();
+}
+]]></content>
+    <tabTrigger>otrs.PackageObject.PackageOnlineRepositories</tabTrigger>
+    <description>4, 5</description>
+</snippet>

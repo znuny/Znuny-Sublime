@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @SearchOptionList = \$LayoutObject->LinkObjectSearchOptionList(
+    Object    => 'Ticket',
+    SubObject => 'Bla',     # (optional)
+);
+}
+]]></content>
+    <tabTrigger>otrs.LayoutObject.LinkObjectSearchOptionList</tabTrigger>
+    <description>4</description>
+</snippet>

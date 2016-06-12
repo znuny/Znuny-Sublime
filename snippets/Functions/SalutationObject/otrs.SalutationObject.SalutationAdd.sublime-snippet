@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ID = \$SalutationObject->SalutationAdd(
+    Name        => 'New Salutation',
+    Text        => "--\nSome Salutation Infos",
+    ContentType => 'text/plain; charset=utf-8',
+    Comment     => 'some comment',
+    ValidID     => \$ValidID,
+    UserID      => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.SalutationObject.SalutationAdd</tabTrigger>
+    <description>4, 5</description>
+</snippet>

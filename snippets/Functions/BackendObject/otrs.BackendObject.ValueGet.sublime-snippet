@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Value = \$BackendObject->ValueGet(
+    DynamicFieldConfig => \$DynamicFieldConfig,      # complete config of the DynamicField
+    ObjectID           => \$ObjectID,                # ID of the current object that the field
+                                                    # must be linked to, e. g. TicketID
+);
+}
+]]></content>
+    <tabTrigger>otrs.BackendObject.ValueGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

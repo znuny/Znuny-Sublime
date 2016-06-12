@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$DynamicFieldObject->ValueSet(
+    DynamicFieldConfig => \$DynamicFieldConfig,      # complete config of the DynamicField
+    ObjectID           => \$ObjectID,                # ID of the current object that the field
+                                                    # must be linked to, e. g. TicketID
+    Value              => \$Value,                   # Value to store, depends on backend type
+    UserID             => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.DynamicFieldObject.ValueSet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

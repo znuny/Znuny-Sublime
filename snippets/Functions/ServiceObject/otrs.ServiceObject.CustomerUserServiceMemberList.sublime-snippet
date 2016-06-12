@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:\$ServiceObject->CustomerUserServiceMemberList(
+    CustomerUserLogin => 'Test',
+    Result            => 'HASH',
+    DefaultServices   => 0,
+);
+}${2:\$ServiceObject->CustomerUserServiceMemberList(
+    ServiceID => \$ServiceID,
+    Result    => 'HASH',
+);
+}
+]]></content>
+    <tabTrigger>otrs.ServiceObject.CustomerUserServiceMemberList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Check = \$EmailObject->Check();
+}
+]]></content>
+    <tabTrigger>otrs.EmailObject.Check</tabTrigger>
+    <description>4, 5</description>
+</snippet>

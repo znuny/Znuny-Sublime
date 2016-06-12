@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$TimeStamp = \$TimeObject->SystemTime2TimeStamp(
+    SystemTime => \$SystemTime,
+    Type       => 'Short',
+);
+}${2:my \$TimeStamp = \$TimeObject->SystemTime2TimeStamp(
+    SystemTime => \$SystemTime,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TimeObject.SystemTime2TimeStamp</tabTrigger>
+    <description>4, 5</description>
+</snippet>

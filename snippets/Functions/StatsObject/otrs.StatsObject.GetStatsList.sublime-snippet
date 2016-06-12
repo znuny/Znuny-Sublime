@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ArrayRef = \$StatsObject->GetStatsList(
+    AccessRw  => 1, # Optional, indicates that user may see all statistics
+    OrderBy   => 'ID' || 'Title' || 'Object', # optional
+    Direction => 'ASC' || 'DESC',             # optional
+    UserID    => \$UserID,
+);
+}${2:my \$ArrayRef = \$StatsObject->GetStatsList(
+    AccessRw  => 1, # Optional, indicates that user may see all statistics
+    OrderBy   => 'ID' || 'Title' || 'Object', # optional
+    Direction => 'ASC' || 'DESC',             # optional
+);
+}
+]]></content>
+    <tabTrigger>otrs.StatsObject.GetStatsList</tabTrigger>
+    <description>5</description>
+</snippet>

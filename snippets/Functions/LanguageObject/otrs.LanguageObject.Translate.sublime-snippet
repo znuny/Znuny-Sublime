@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Text = \$LanguageObject->Translate('Hello %s!', 'world');
+}
+]]></content>
+    <tabTrigger>otrs.LanguageObject.Translate</tabTrigger>
+    <description>4, 5</description>
+</snippet>

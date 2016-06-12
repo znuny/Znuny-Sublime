@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$List = \$SystemMaintenanceObject->SystemMaintenanceListGet(
+    UserID   => \$UserID,
+    ValidIDs => ['1','2'], # optional, to filter SystemMaintenances that match listed valid IDs
+);
+}
+]]></content>
+    <tabTrigger>otrs.SystemMaintenanceObject.SystemMaintenanceListGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

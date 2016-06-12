@@ -3,5 +3,5 @@
 my \$TimeObject = \$Kernel::OM->Get('Kernel::System::Time');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.TimeObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

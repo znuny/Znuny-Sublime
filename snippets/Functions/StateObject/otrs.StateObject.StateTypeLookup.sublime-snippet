@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$StateTypeID = \$StateObject->StateTypeLookup(
+    StateType => 'pending auto',
+);
+}${2:my \$StateType = \$StateObject->StateTypeLookup(
+    StateTypeID => \$StateTypeID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.StateObject.StateTypeLookup</tabTrigger>
+    <description>4, 5</description>
+</snippet>

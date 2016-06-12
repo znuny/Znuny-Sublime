@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my @ArticleSenderTypeList = \$TicketObject->ArticleSenderTypeList(
+    Result => 'ARRAY', # optional, ARRAY|HASH
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.ArticleSenderTypeList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

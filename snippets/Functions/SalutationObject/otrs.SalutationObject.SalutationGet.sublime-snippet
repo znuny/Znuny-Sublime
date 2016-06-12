@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Salutation = \$SalutationObject->SalutationGet(
+    ID => 123,
+);
+}
+]]></content>
+    <tabTrigger>otrs.SalutationObject.SalutationGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

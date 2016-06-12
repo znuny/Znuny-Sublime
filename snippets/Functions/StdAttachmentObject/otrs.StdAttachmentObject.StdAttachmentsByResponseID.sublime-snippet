@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %StdAttachment = \$StdAttachmentObject->StdAttachmentsByResponseID(
+    ID => 4711,
+);
+}
+]]></content>
+    <tabTrigger>otrs.StdAttachmentObject.StdAttachmentsByResponseID</tabTrigger>
+    <description>4, 5</description>
+</snippet>

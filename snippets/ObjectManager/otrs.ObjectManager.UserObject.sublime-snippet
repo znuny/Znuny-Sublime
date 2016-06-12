@@ -3,5 +3,5 @@
 my \$UserObject = \$Kernel::OM->Get('Kernel::System::User');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.UserObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my %List = \$ValidObject->ValidList();
+}
+]]></content>
+    <tabTrigger>otrs.ValidObject.ValidList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

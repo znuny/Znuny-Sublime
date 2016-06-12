@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %List = \$LockObject->PriorityList(
+    Valid => 0,
+);
+}
+]]></content>
+    <tabTrigger>otrs.LockObject.PriorityList</tabTrigger>
+    <description>4</description>
+</snippet>

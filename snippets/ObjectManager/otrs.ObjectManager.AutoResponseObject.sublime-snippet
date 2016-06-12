@@ -3,5 +3,5 @@
 my \$AutoResponseObject = \$Kernel::OM->Get('Kernel::System::AutoReponse');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.AutoResponseObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

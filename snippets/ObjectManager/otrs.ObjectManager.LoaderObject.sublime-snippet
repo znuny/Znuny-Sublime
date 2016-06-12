@@ -3,5 +3,5 @@
 my \$LoaderObject = \$Kernel::OM->Get('Kernel::System::Loader');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.LoaderObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$StoableData = \$StorableObject->Clone(
+    Data => \$Data,          # must be a reference
+);
+}
+]]></content>
+    <tabTrigger>otrs.StorableObject.Clone</tabTrigger>
+    <description>5</description>
+</snippet>

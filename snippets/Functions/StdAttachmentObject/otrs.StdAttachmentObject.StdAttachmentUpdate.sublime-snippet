@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ID = \$StdAttachmentObject->StdAttachmentUpdate(
+    ID          => \$ID,
+    Name        => 'Some Name',
+    ValidID     => \$ValidID,
+    Content     => \$Content,
+    ContentType => 'text/xml',
+    Filename    => 'SomeFile.xml',
+    UserID      => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.StdAttachmentObject.StdAttachmentUpdate</tabTrigger>
+    <description>4, 5</description>
+</snippet>

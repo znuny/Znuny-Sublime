@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:    if ( \$SystemAddressObject->SystemAddressIsLocalAddress( Address => 'info@example.com' ) ) \{
+        # is local
+    \}
+    else \{
+        # is not local
+    \}
+
+
+}
+]]></content>
+    <tabTrigger>otrs.SystemAddressObject.SystemAddressIsLocalAddress</tabTrigger>
+    <description>4, 5</description>
+</snippet>

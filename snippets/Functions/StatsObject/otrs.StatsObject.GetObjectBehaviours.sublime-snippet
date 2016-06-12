@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Behaviours = \$StatsObject->GetObjectBehaviours(
+    ObjectModule => 'Kernel::System::Stats::Dynamic::TicketList',
+);
+}
+]]></content>
+    <tabTrigger>otrs.StatsObject.GetObjectBehaviours</tabTrigger>
+    <description>4, 5</description>
+</snippet>

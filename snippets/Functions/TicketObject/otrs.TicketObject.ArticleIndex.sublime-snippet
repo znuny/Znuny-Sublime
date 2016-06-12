@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my @ArticleIDs = \$TicketObject->ArticleIndex(
+    TicketID => \$TicketID,
+);
+}${2:my @ArticleIDs = \$TicketObject->ArticleIndex(
+    SenderType => 'customer',                   # optional, to limit to a certain sender type
+    TicketID   => \$TicketID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.ArticleIndex</tabTrigger>
+    <description>4, 5</description>
+</snippet>

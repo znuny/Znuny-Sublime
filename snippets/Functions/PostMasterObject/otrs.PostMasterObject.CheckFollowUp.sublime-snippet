@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my (\$TicketNumber, \$TicketID) = \$PostMasterObject->CheckFollowUp(
+    Subject => 'Re: [Ticket:#123456] Some Subject',
+);
+}
+]]></content>
+    <tabTrigger>otrs.PostMasterObject.CheckFollowUp</tabTrigger>
+    <description>4, 5</description>
+</snippet>

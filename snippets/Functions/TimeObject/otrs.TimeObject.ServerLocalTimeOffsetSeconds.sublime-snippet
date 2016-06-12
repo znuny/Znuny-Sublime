@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ServerLocalTimeOffsetSeconds = \$TimeObject->ServerLocalTimeOffsetSeconds(
+    SystemTime => \$SystemTime,  # optional, otherwise call time()
+);
+}
+]]></content>
+    <tabTrigger>otrs.TimeObject.ServerLocalTimeOffsetSeconds</tabTrigger>
+    <description>5</description>
+</snippet>

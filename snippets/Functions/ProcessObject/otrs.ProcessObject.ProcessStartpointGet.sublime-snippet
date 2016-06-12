@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Start = \$ProcessObject->ProcessStartpointGet(
+    ProcessEntityID => \$ProcessEntityID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ProcessObject.ProcessStartpointGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my %AclAction = \$TicketObject->TicketAclActionData();
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.TicketAclActionData</tabTrigger>
+    <description>4, 5</description>
+</snippet>

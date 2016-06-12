@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$ObjectLockStateObject->ObjectLockStatePurge(
+    WebserviceID     => \$WebserviceID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ObjectLockStateObject.ObjectLockStatePurge</tabTrigger>
+    <description>4, 5</description>
+</snippet>

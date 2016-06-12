@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Notify = \$StatsObject->CompletenessCheck(
+    StatData => \%StatData,
+    Section => 'All' || 'Specification' || 'ValueSeries' || 'Restrictions || Xaxis'
+);
+}
+]]></content>
+    <tabTrigger>otrs.StatsObject.CompletenessCheck</tabTrigger>
+    <description>4</description>
+</snippet>

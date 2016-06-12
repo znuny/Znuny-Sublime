@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Data = \$SessionObject->GetSessionIDData(
+    SessionID => \$SessionID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.SessionObject.GetSessionIDData</tabTrigger>
+    <description>4, 5</description>
+</snippet>

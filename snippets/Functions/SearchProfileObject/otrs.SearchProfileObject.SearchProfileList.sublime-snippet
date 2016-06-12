@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %SearchProfiles = \$SearchProfileObject->SearchProfileList(
+    Base      => 'TicketSearch',
+    UserLogin => 'me',
+);
+}
+]]></content>
+    <tabTrigger>otrs.SearchProfileObject.SearchProfileList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:\$DBObject->Disconnect();
+}
+]]></content>
+    <tabTrigger>otrs.DBObject.Disconnect</tabTrigger>
+    <description>4, 5</description>
+</snippet>

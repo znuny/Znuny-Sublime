@@ -3,5 +3,5 @@
 my \$GenericAgentObject = \$Kernel::OM->Get('Kernel::System::GenericAgent');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.GenericAgentObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

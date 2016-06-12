@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Ok = \$SessionObject->CheckSessionID(
+    SessionID => \$SessionID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.SessionObject.CheckSessionID</tabTrigger>
+    <description>4, 5</description>
+</snippet>

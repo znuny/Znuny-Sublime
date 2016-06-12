@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Attachments = \$ParserObject->GetAttachments();
+for my \$Attachment (@Attachments) \{
+    print \$Attachment->\{Filename\};
+    print \$Attachment->\{Charset\};
+    print \$Attachment->\{MimeType\};
+    print \$Attachment->\{ContentType\};
+    print \$Attachment->\{Content\};
+}
+]]></content>
+    <tabTrigger>otrs.ParserObject.GetAttachments</tabTrigger>
+    <description>4, 5</description>
+</snippet>

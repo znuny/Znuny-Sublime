@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %SystemData = \$ValidObject->SystemDataGroupGet(
+    Group => 'SystemRegistration',
+);
+}
+]]></content>
+    <tabTrigger>otrs.ValidObject.SystemDataGroupGet</tabTrigger>
+    <description>4</description>
+</snippet>

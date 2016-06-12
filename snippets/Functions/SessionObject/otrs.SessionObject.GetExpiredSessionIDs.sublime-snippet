@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Sessions = \$SessionObject->GetExpiredSessionIDs();
+}
+]]></content>
+    <tabTrigger>otrs.SessionObject.GetExpiredSessionIDs</tabTrigger>
+    <description>4, 5</description>
+</snippet>

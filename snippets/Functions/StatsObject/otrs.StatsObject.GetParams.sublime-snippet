@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Params = \$StatsObject->GetParams( StatID => '123' );
+}
+]]></content>
+    <tabTrigger>otrs.StatsObject.GetParams</tabTrigger>
+    <description>4, 5</description>
+</snippet>

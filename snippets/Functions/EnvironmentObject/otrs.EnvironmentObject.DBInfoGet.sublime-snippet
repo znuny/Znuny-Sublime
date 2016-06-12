@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my %DBInfo = \$EnvironmentObject->DBInfoGet();
+}
+]]></content>
+    <tabTrigger>otrs.EnvironmentObject.DBInfoGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

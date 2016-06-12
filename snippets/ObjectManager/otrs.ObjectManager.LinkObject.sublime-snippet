@@ -3,5 +3,5 @@
 my \$LinkObject = \$Kernel::OM->Get('Kernel::System::LinkObject');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.LinkObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->ArticleWriteAttachment(
+    Content            => \$ContentAsString,
+    ContentType        => 'text/html; charset="iso-8859-15"',
+    Filename           => 'lala.html',
+    ContentID          => \$ContentID,   # optional
+    ContentAlternative => 0,            # optional, alternative content to shown as body
+    Disposition        => 'attachment', # or 'inline'
+    ArticleID          => \$ArticleID,
+    UserID             => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.ArticleWriteAttachment</tabTrigger>
+    <description>4, 5</description>
+</snippet>

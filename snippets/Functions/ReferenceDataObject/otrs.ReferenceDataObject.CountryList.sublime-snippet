@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$CountryList = \$ReferenceDataObject->CountryList(
+   Result => 'CODE', # optional: returns CODE => Country pairs conform ISO 3166-2.
+);
+}
+]]></content>
+    <tabTrigger>otrs.ReferenceDataObject.CountryList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

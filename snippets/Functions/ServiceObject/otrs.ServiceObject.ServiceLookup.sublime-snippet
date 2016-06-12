@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ServiceName = \$ServiceObject->ServiceLookup(
+    ServiceID => \$ServiceID,
+);
+}${2:my \$ServiceID = \$ServiceObject->ServiceLookup(
+    Name => 'Service::SubService',
+);
+}
+]]></content>
+    <tabTrigger>otrs.ServiceObject.ServiceLookup</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -3,5 +3,5 @@
 my \$NotificationObject = \$Kernel::OM->Get('Kernel::System::Notification');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.NotificationObject</tabTrigger>
+    <description>4</description>
 </snippet>
-

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my %AutoResponseWithoutQueue = \$AutoResponseObject->AutoResponseWithoutQueue();
+}
+]]></content>
+    <tabTrigger>otrs.AutoResponseObject.AutoResponseWithoutQueue</tabTrigger>
+    <description>5</description>
+</snippet>

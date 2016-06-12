@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$String = \$LayoutObject->LinkObjectTableCreateComplex(
+    LinkListWithData => \$LinkListRef,
+    ViewMode         => 'Complex', # (Complex|ComplexAdd|ComplexDelete|ComplexRaw)
+);
+}
+]]></content>
+    <tabTrigger>otrs.LayoutObject.LinkObjectTableCreateComplex</tabTrigger>
+    <description>4</description>
+</snippet>

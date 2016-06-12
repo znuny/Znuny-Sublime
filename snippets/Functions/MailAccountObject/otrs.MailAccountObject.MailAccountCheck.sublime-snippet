@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Check = \$MailAccountObject->MailAccountCheck(
+    Login         => 'mail',
+    Password      => 'SomePassword',
+    Host          => 'pop3.example.com',
+    Type          => 'POP3', # POP3|POP3S|IMAP|IMAPS
+    Timeout       => '60',
+    Debug         => '0',
+);
+}
+]]></content>
+    <tabTrigger>otrs.MailAccountObject.MailAccountCheck</tabTrigger>
+    <description>4, 5</description>
+</snippet>

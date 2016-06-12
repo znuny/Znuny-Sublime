@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %CustomerCompany = \$CustomerCompanyObject->CustomerCompanyGet(
+    CustomerID => \$CustomerID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.CustomerCompanyObject.CustomerCompanyGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

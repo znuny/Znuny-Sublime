@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Message = \$LogObject->GetLogEntry(
+    Type => 'error', # error|info|notice
+    What => 'Message', # Message|Traceback
+);
+}
+]]></content>
+    <tabTrigger>otrs.LogObject.GetLogEntry</tabTrigger>
+    <description>4, 5</description>
+</snippet>

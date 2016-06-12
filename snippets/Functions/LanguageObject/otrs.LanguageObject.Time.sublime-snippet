@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[
+${1:\$TimeLong = \$LanguageObject->Time(
+    Action => 'GET',
+    Format => 'DateFormatLong',
+);
+}${2:\$TimeLong = \$LanguageObject->Time(
+    Action => 'RETURN',
+    Format => 'DateInputFormatLong',
+    Mode   => 'NotNumeric',
+    Year   => '<input value="2014"/>',
+    Month  => '<input value="1"/>',
+    Day    => '<input value="10"/>',
+    Hour   => '<input value="11"/>',
+    Minute => '<input value="12"/>',
+    Second => '<input value="13"/>',
+);
+}${3:\$TimeLong = \$LanguageObject->Time(
+    Action => 'RETURN',
+    Format => 'DateFormatLong',
+    Year   => 1977,
+    Month  => 10,
+    Day    => 27,
+    Hour   => 20,
+    Minute => 10,
+    Second => 05,
+);
+}
+]]></content>
+    <tabTrigger>otrs.LanguageObject.Time</tabTrigger>
+    <description>4, 5</description>
+</snippet>

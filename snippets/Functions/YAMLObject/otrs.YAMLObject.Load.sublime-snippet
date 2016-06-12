@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$PerlStructureScalar = \$YAMLObject->Load(
+    Data => \$YAMLString,
+);
+}
+]]></content>
+    <tabTrigger>otrs.YAMLObject.Load</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SearchFieldPreferences = \$BackendObject->SearchFieldPreferences(
+    DynamicFieldConfig => \$DynamicFieldConfig,       # complete config of the DynamicField
+);
+}
+]]></content>
+    <tabTrigger>otrs.BackendObject.SearchFieldPreferences</tabTrigger>
+    <description>4, 5</description>
+</snippet>

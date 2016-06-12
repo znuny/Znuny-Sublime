@@ -3,5 +3,5 @@
 my \$EmailObject = \$Kernel::OM->Get('Kernel::System::Email');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.EmailObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

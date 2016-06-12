@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %SLAData = \$SLAObject->SLAGet(
+    SLAID  => \$SLAID,
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.SLAObject.SLAGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

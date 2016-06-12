@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$PossibleValues = \$BackendObject->PossibleValuesGet(
+    DynamicFieldConfig => \$DynamicFieldConfig,       # complete config of the DynamicField
+);
+}
+]]></content>
+    <tabTrigger>otrs.BackendObject.PossibleValuesGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

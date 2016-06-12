@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my %SLAList = \$SLAObject->SLAList(
+    ServiceID => \$ServiceID,  # (optional)
+    Valid     => 0,  # (optional) default 1 (0|1)
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.SLAObject.SLAList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

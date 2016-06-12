@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$LogData = \$DebugLogObject->LogGet(
+    CommunicationID => \$CommunicationID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.DebugLogObject.LogGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %List = \$MailAccountObject->MailAccountList(
+    Valid => 0, # just valid/all accounts
+);
+}
+]]></content>
+    <tabTrigger>otrs.MailAccountObject.MailAccountList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

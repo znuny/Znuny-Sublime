@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Token = \$CustomerUserObject->TokenGenerate(
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.CustomerUserObject.TokenGenerate</tabTrigger>
+    <description>4, 5</description>
+</snippet>

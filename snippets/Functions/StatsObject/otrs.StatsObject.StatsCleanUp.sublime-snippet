@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$StatsObject->StatsCleanUp();
+}
+]]></content>
+    <tabTrigger>otrs.StatsObject.StatsCleanUp</tabTrigger>
+    <description>4, 5</description>
+</snippet>

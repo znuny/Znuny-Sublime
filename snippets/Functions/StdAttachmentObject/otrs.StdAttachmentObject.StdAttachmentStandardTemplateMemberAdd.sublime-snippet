@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$StdAttachmentObject->StdAttachmentStandardTemplateMemberAdd(
+    AttachmentID       => \$AttachmentID,
+    StandardTemplateID => \$StandardTemplateID,
+    Active             => 1,        # optional
+    UserID             => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.StdAttachmentObject.StdAttachmentStandardTemplateMemberAdd</tabTrigger>
+    <description>4, 5</description>
+</snippet>

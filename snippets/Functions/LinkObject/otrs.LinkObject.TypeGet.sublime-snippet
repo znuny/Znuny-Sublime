@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:%TypeData = \$LinkObject->TypeGet(
+    TypeID => \$TypeID,
+    UserID => \$UserID,
+);
+}${2:%TypeData = \$LinkObject->TypeGet(
+    TypeID => \$TypeID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.LinkObject.TypeGet</tabTrigger>
+    <description>4</description>
+</snippet>

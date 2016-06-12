@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:\$True = \$LinkObject->LinkCleanup(
+    State  => 'Temporary',
+    Age    => ( 60 * 60 * 24 ),
+);
+}${2:\$True = \$LinkObject->LinkCleanup(
+    State  => 'Temporary',
+    Age    => ( 60 * 60 * 24 ),
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.LinkObject.LinkCleanup</tabTrigger>
+    <description>5</description>
+</snippet>

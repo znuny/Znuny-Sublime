@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketUnlockTimeoutUpdate(
+    UnlockTimeout => \$TimeObject->SystemTime(),
+    TicketID      => \$TicketID,
+    UserID        => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.TicketUnlockTimeoutUpdate</tabTrigger>
+    <description>4, 5</description>
+</snippet>

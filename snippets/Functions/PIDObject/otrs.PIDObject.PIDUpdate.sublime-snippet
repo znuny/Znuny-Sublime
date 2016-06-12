@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$PIDObject->PIDUpdate(
+    Name    => 'PostMasterPOP3',
+);
+}
+]]></content>
+    <tabTrigger>otrs.PIDObject.PIDUpdate</tabTrigger>
+    <description>4, 5</description>
+</snippet>

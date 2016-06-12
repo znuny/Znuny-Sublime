@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:\$MailAccountObject->MailAccountAdd(
+    Login         => 'mail',
+    Password      => 'SomePassword',
+    Host          => 'pop3.example.com',
+    Type          => 'POP3',
+    IMAPFolder    => 'Some Folder', # optional, only valid for IMAP-type accounts
+    ValidID       => \$ValidID,
+    Trusted       => 0,
+    DispatchingBy => 'Queue', # Queue|From
+    QueueID       => \$QueueID,
+    UserID        => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.MailAccountObject.MailAccountAdd</tabTrigger>
+    <description>4, 5</description>
+</snippet>

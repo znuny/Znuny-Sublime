@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ContentType = \$ParserObject->GetContentType();
+}
+]]></content>
+    <tabTrigger>otrs.ParserObject.GetContentType</tabTrigger>
+    <description>4, 5</description>
+</snippet>

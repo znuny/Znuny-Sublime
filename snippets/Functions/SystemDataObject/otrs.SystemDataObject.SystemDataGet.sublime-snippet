@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SystemData = \$SystemDataObject->SystemDataGet(
+    Key => 'OTRS Version',
+);
+}
+]]></content>
+    <tabTrigger>otrs.SystemDataObject.SystemDataGet</tabTrigger>
+    <description>5</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Result = \$SpellingObject->Check(
+    Text          => 'Some Text to check.',
+    SpellLanguage => 'en',
+    RichText      => 1, # default: 0
+);
+}
+]]></content>
+    <tabTrigger>otrs.SpellingObject.Check</tabTrigger>
+    <description>4, 5</description>
+</snippet>

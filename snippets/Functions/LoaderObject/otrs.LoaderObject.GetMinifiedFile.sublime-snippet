@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$MinifiedCSS = \$LoaderObject->GetMinifiedFile(
+    Location => \$Filename,
+    Type     => 'CSS',      # CSS | JavaScript
+);
+}
+]]></content>
+    <tabTrigger>otrs.LoaderObject.GetMinifiedFile</tabTrigger>
+    <description>4, 5</description>
+</snippet>

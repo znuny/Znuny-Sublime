@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %PerlInfo = \$EnvironmentObject->PerlInfoGet(
+    BundledModules => 1,
+);
+}${2:my %PerlInfo = \$EnvironmentObject->PerlInfoGet();
+}
+]]></content>
+    <tabTrigger>otrs.EnvironmentObject.PerlInfoGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

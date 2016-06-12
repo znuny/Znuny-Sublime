@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$EmailObject->Bounce(
+    From  => 'me@example.com',
+    To    => 'friend@example.com',
+    Email => \$Email,
+);
+}
+]]></content>
+    <tabTrigger>otrs.EmailObject.Bounce</tabTrigger>
+    <description>4, 5</description>
+</snippet>

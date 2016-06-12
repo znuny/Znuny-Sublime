@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$IsAJAXRequest = \$ParamObject->IsAJAXRequest();
+}
+]]></content>
+    <tabTrigger>otrs.ParamObject.IsAJAXRequest</tabTrigger>
+    <description>4, 5</description>
+</snippet>

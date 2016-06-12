@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$DBString = \$DBObject->Quote( "2005-10-27 20:15:01" );
+}${2:quote strings, date and time:
+=============================
+my \$DBString = \$DBObject->Quote( "This isn't a problem!" );
+}${3:quote numbers (e. g. 1, 1.4, 42342.23424):
+==========================================
+my \$DBString = \$DBObject->Quote( 1234, 'Number' );
+}${4:quote integers:
+===============
+my \$DBString = \$DBObject->Quote( 1234, 'Integer' );
+}
+]]></content>
+    <tabTrigger>otrs.DBObject.Quote</tabTrigger>
+    <description>4, 5</description>
+</snippet>

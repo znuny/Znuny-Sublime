@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->ArticleDeletePlain(
+    ArticleID => \$ArticleID,
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.ArticleDeletePlain</tabTrigger>
+    <description>4, 5</description>
+</snippet>

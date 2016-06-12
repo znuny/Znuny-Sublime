@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my %User = \$UserObject->GetUserData(
+    User          => 'franz',
+    Valid         => 1,       # not required -> 0|1 (default 0)
+                              # returns only data if user is valid
+    NoOutOfOffice => 1,       # not required -> 0|1 (default 0)
+                              # returns data without out of office infos
+);
+}${2:my %User = \$UserObject->GetUserData(
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.UserObject.GetUserData</tabTrigger>
+    <description>4, 5</description>
+</snippet>

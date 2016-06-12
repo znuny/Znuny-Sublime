@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$WebserviceObject = \$Kernel::OM->Get('Kernel::System::GenericInterface::Webservice');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.WebserviceObject</tabTrigger>
+    <description>4, 5</description>
+</snippet>

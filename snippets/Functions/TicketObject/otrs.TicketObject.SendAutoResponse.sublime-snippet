@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ArticleID = \$TicketObject->SendAutoResponse(
+    TicketID         => \$TicketID,
+    AutoResponseType => 'auto reply',
+    OrigHeader       => \{
+        From    => 'some@example.com',
+        Subject => 'For the message!',
+    \},
+    UserID          => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.SendAutoResponse</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$DynamicFieldStatsSearchParameter = \$BackendObject->StatsSearchFieldParameterBuild(
+    DynamicFieldConfig   => \$DynamicFieldConfig,    # complete config of the DynamicField
+    Value                => \$Value,                 # the serach profile
+);
+}
+]]></content>
+    <tabTrigger>otrs.BackendObject.StatsSearchFieldParameterBuild</tabTrigger>
+    <description>4, 5</description>
+</snippet>

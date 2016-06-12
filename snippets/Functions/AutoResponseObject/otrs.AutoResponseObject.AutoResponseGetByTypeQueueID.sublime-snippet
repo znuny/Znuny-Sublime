@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %QueueAddressData = \$AutoResponseObject->AutoResponseGetByTypeQueueID(
+    QueueID => \$QueueID,
+    Type    => 'auto reply/new ticket',
+);
+}
+]]></content>
+    <tabTrigger>otrs.AutoResponseObject.AutoResponseGetByTypeQueueID</tabTrigger>
+    <description>4, 5</description>
+</snippet>

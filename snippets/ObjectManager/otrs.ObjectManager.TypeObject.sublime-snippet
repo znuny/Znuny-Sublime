@@ -3,5 +3,5 @@
 my \$TypeObject = \$Kernel::OM->Get('Kernel::System::Type');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.TypeObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

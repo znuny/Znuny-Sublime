@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$SystemDataObject->SystemDataUpdate(
+    Key     => 'OTRS Version',
+    Value   => 'Some New Value',
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.SystemDataObject.SystemDataUpdate</tabTrigger>
+    <description>5</description>
+</snippet>

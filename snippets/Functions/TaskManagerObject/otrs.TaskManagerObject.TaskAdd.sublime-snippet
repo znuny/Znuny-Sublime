@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ID = \$TaskManagerObject->TaskAdd(
+    Type    => 'GenericInterface',     # e. g. GenericInterface, Test
+    DueTime => '2006-01-19 23:59:59',  # optional (default current time)
+    Data    => \{
+        ...
+    \},
+);
+}
+]]></content>
+    <tabTrigger>otrs.TaskManagerObject.TaskAdd</tabTrigger>
+    <description>4</description>
+</snippet>

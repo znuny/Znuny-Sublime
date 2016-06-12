@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:\$ConfigObject->ObjectRegisterEventHandler(
+    EventHandler => \$EventHandlerObject,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ConfigObject.ObjectRegisterEventHandler</tabTrigger>
+    <description>4, 5</description>
+</snippet>

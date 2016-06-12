@@ -3,5 +3,5 @@
 my \$AuthObject = \$Kernel::OM->Get('Kernel::System::Auth');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.AuthObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

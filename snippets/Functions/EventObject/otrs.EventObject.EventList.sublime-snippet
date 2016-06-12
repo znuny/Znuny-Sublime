@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Events = \$EventObject->EventList(
+    ObjectTypes => ['Ticket', 'Article'],    # optional filter
+);
+}
+]]></content>
+    <tabTrigger>otrs.EventObject.EventList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

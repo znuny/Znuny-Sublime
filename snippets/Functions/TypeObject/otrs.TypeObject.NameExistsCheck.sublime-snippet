@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Exist = \$TypeObject->NameExistsCheck(
+    Name => 'Some::Template',
+    ID => 1, # optional
+);
+}
+]]></content>
+    <tabTrigger>otrs.TypeObject.NameExistsCheck</tabTrigger>
+    <description>4, 5</description>
+</snippet>

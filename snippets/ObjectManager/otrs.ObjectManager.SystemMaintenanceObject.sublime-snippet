@@ -3,5 +3,5 @@
 my \$SystemMaintenanceObject = \$Kernel::OM->Get('Kernel::System::SystemMaintenance');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.SystemMaintenanceObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

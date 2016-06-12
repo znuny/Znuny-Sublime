@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Charset = \$ParserObject->GetReturnCharset();
+}
+]]></content>
+    <tabTrigger>otrs.ParserObject.GetReturnCharset</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SQL = \$BackendObject->SearchSQLOrderFieldGet(
+    DynamicFieldConfig => \$DynamicFieldConfig,      # complete config of the DynamicField
+    TableAlias         => \$TableAlias,              # the alias of the already joined dynamic_field_value table to use
+);
+}
+]]></content>
+    <tabTrigger>otrs.BackendObject.SearchSQLOrderFieldGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

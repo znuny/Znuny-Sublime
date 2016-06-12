@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @IDs = \$NotificationEventObject->NotificationEventCheck(
+    Event => 'ArticleCreate',
+);
+}${2:my @IDs = \$NotificationEventObject->NotificationEventCheck( Event => 'ArticleCreate' );
+}
+]]></content>
+    <tabTrigger>otrs.NotificationEventObject.NotificationEventCheck</tabTrigger>
+    <description>5</description>
+</snippet>

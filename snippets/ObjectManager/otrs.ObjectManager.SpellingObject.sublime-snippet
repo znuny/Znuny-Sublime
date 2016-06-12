@@ -3,5 +3,5 @@
 my \$SpellingObject = \$Kernel::OM->Get('Kernel::System::Spelling');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.SpellingObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

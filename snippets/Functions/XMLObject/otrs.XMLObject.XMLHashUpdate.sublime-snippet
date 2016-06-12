@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$XMLObject->XMLHashUpdate(
+    Type    => 'SomeType',
+    Key     => '123',
+    XMLHash => \@XMLHash,
+);
+}
+]]></content>
+    <tabTrigger>otrs.XMLObject.XMLHashUpdate</tabTrigger>
+    <description>4, 5</description>
+</snippet>

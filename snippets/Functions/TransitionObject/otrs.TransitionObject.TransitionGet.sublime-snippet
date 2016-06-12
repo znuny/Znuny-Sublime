@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Transition = \$TransitionObject->TransitionGet(
+    TransitionEntityID => \$TransitionEntityID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TransitionObject.TransitionGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

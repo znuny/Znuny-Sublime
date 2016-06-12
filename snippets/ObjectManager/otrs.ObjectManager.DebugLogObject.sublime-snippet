@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$DebugLogObject = \$Kernel::OM->Get('Kernel::System::GenericInterface::DebugLog');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.DebugLogObject</tabTrigger>
+    <description>4, 5</description>
+</snippet>

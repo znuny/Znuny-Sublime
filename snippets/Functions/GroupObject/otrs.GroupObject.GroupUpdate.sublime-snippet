@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$GroupObject->GroupUpdate(
+    ID      => 123,
+    Name    => 'example-group',
+    Comment => 'comment describing the group',   # optional
+    ValidID => \$ValidID,
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.GroupObject.GroupUpdate</tabTrigger>
+    <description>4, 5</description>
+</snippet>

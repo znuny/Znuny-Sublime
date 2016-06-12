@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SystemMaintenance = \$SystemMaintenanceObject->SystemMaintenanceGet(
+    ID     => 123,          # ID or name is needed
+    UserID => \$UserID,          # mandatory
+);
+}
+]]></content>
+    <tabTrigger>otrs.SystemMaintenanceObject.SystemMaintenanceGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

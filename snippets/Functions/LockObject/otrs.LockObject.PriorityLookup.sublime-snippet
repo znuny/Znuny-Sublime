@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Priority = \$LockObject->PriorityLookup(
+    PriorityID => \$PriorityID,
+);
+}${2:my \$PriorityID = \$LockObject->PriorityLookup(
+    Priority => '3 normal',
+);
+}
+]]></content>
+    <tabTrigger>otrs.LockObject.PriorityLookup</tabTrigger>
+    <description>4</description>
+</snippet>

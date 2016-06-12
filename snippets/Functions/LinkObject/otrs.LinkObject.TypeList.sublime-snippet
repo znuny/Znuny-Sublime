@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %TypeList = \$LinkObject->TypeList(
+    UserID => \$UserID,
+);
+}${2:my %TypeList = \$LinkObject->TypeList();
+}
+]]></content>
+    <tabTrigger>otrs.LinkObject.TypeList</tabTrigger>
+    <description>4</description>
+</snippet>

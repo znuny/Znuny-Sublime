@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %List = \$LockObject->LockList(
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.LockObject.LockList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

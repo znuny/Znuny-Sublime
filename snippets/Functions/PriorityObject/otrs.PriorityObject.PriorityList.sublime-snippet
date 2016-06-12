@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %List = \$PriorityObject->PriorityList(
+    Valid => 0,
+);
+}
+]]></content>
+    <tabTrigger>otrs.PriorityObject.PriorityList</tabTrigger>
+    <description>5</description>
+</snippet>

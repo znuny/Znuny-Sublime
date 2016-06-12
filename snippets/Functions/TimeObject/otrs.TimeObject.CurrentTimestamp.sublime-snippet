@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$TimeStamp = \$TimeObject->CurrentTimestamp();
+}
+]]></content>
+    <tabTrigger>otrs.TimeObject.CurrentTimestamp</tabTrigger>
+    <description>4, 5</description>
+</snippet>

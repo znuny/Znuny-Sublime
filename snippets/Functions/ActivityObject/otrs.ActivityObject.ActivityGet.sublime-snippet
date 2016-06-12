@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Activity = \$ActivityObject->ActivityGet(
+    ActivityEntityID => \$ActivityEntityID,
+    Interface        => ['AgentInterface'],   # ['AgentInterface'] or ['CustomerInterface'] or ['AgentInterface', 'CustomerInterface'] or 'all'
+);
+}
+]]></content>
+    <tabTrigger>otrs.ActivityObject.ActivityGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

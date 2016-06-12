@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+${1:\$PDFObject->PageNew(
+    Width           => 200,                 # (optional) default 595 (Din A4)
+    Height          => 300,                 # (optional) default 842 (Din A4)
+    PageOrientation => 'landscape',         # (optional) default normal (normal|landscape)
+    MarginTop       => 40,                  # (optional) default 0
+    MarginRight     => 40,                  # (optional) default 0
+    MarginBottom    => 40,                  # (optional) default 0
+    MarginLeft      => 40,                  # (optional) default 0
+    ShowPageNumber  => 0,                   # (optional) default 1
+    LogoFile        => '/path/to/file.jpg', # (optional) you can use jpg, gif and png-Images
+    HeaderRight     => 'Header Right Text', # (optional)
+    HeadlineLeft    => 'Headline Text',     # (optional)
+    HeadlineRight   => 'Headline Text',     # (optional)
+    FooterLeft      => 'Footer Left Text',  # (optional)
+    FooterRight     => 'Footer Right Text', # (optional)
+);
+}
+]]></content>
+    <tabTrigger>otrs.PDFObject.PageNew</tabTrigger>
+    <description>4, 5</description>
+</snippet>

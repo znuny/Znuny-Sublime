@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$StatArray = \$StatsObject->SumBuild(
+    Array  => \@Result,
+    SumRow => 1,
+    SumCol => 0,
+);
+}
+]]></content>
+    <tabTrigger>otrs.StatsObject.SumBuild</tabTrigger>
+    <description>4, 5</description>
+</snippet>

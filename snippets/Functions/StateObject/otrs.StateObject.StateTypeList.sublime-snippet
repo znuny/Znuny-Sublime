@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %ListType = \$StateObject->StateTypeList(
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.StateObject.StateTypeList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

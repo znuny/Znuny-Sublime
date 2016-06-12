@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:\$GroupObject->GroupUserRoleMemberList(
+    UserID => \$UserID,
+    Result => 'HASH',
+);
+}${2:\$GroupObject->GroupUserRoleMemberList(
+    RoleID => \$RoleID,
+    Result => 'HASH',
+);
+}
+]]></content>
+    <tabTrigger>otrs.GroupObject.GroupUserRoleMemberList</tabTrigger>
+    <description>4</description>
+</snippet>

@@ -3,5 +3,5 @@
 my \$PostMasterObject = \$Kernel::OM->Get('Kernel::System::PostMaster');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.PostMasterObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

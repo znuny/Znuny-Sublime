@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$IsSuperset = \$EncodeObject->EncodingIsAsciiSuperset(
+    Encoding    => 'UTF-8',
+);
+}
+]]></content>
+    <tabTrigger>otrs.EncodeObject.EncodingIsAsciiSuperset</tabTrigger>
+    <description>4, 5</description>
+</snippet>

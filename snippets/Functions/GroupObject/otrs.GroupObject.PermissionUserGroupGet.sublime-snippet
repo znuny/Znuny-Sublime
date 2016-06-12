@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %GroupList = \$GroupObject->PermissionUserGroupGet(
+    UserID => \$UserID,
+    Type   => 'move_into',  # ro|move_into|priority|create|rw
+);
+}
+]]></content>
+    <tabTrigger>otrs.GroupObject.PermissionUserGroupGet</tabTrigger>
+    <description>5</description>
+</snippet>

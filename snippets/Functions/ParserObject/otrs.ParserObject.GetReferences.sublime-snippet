@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my @References = \$ParserObject->GetReferences();
+}
+]]></content>
+    <tabTrigger>otrs.ParserObject.GetReferences</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$HTMLWithLinks = \$HTMLUtilsObject->LinkQuote(
+    String    => \$HTMLString,
+    Target    => 'TargetName', # content of target="?", e. g. _blank
+    TargetAdd => 1,            # add target="_blank" to all existing "<a href"
+);
+}${2:my \$HTMLWithLinksRef = \$HTMLUtilsObject->LinkQuote(
+    String => \\$HTMLStringRef,
+);
+}
+]]></content>
+    <tabTrigger>otrs.HTMLUtilsObject.LinkQuote</tabTrigger>
+    <description>4, 5</description>
+</snippet>

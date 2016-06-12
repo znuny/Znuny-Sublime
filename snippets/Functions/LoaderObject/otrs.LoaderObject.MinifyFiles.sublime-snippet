@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$TargetFilename = \$LoaderObject->MinifyFiles(
+    List  => [
+        \$Filename,
+        \$Filename2,
+    ],
+    Type                 => 'CSS',      # CSS | JavaScript
+    TargetDirectory      => \$TargetDirectory,
+    TargetFilenamePrefix => 'CommonCSS',    # optional, prefix for the target filename
+);
+}
+]]></content>
+    <tabTrigger>otrs.LoaderObject.MinifyFiles</tabTrigger>
+    <description>4, 5</description>
+</snippet>

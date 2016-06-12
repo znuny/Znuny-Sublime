@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$HTMLWithLinksRef = \$LayoutObject->LinkQuote(
+    Text => \\$HTMLWithOutLinksRef,
+);
+}${2:my \$HTMLWithLinks = \$LayoutObject->LinkQuote(
+    Text => \$HTMLWithOutLinks,
+);
+}
+]]></content>
+    <tabTrigger>otrs.LayoutObject.LinkQuote</tabTrigger>
+    <description>4, 5</description>
+</snippet>

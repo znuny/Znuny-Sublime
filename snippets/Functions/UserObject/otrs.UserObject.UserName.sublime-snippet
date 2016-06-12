@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Name = \$UserObject->UserName(
+    UserLogin => 'some-login',
+);
+}${2:my \$Name = \$UserObject->UserName(
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.UserObject.UserName</tabTrigger>
+    <description>4, 5</description>
+</snippet>

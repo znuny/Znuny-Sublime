@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$SystemDataObject->SystemDataAdd(
+    Key    => 'SystemRegistration::Version',
+    Value  => 'Some Value',
+    UserID => \$UserID,
+);
+}${2:my \$Result = \$SystemDataObject->SystemDataAdd(
+    Key    => 'SomeKey',
+    Value  => 'Some Value',
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.SystemDataObject.SystemDataAdd</tabTrigger>
+    <description>5</description>
+</snippet>

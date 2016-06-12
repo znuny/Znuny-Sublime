@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ColumnFilterValues = \$DynamicFieldObject->ColumnFilterValuesGet(
+    DynamicFieldConfig => \$DynamicFieldConfig,      #DynamicField configuraction
+    LayoutObject       => \$LayoutObject,
+    TicketIDs          => [23, 1, 56, 74],          # array ref list of ticket IDs
+);
+}${2:# call ColumnFilterValuesGet on the specific backend
+return \$DynamicFieldObject->ColumnFilterValuesGet(
+    %Param
+);
+\}
+}
+]]></content>
+    <tabTrigger>otrs.DynamicFieldObject.ColumnFilterValuesGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

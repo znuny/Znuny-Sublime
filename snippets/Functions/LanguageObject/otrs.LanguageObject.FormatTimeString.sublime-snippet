@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Date = \$LanguageObject->FormatTimeString(
+    '2009-12-12 12:12:12',  # timestamp
+    'DateFormat',           # which date format to use, e. g. DateFormatLong
+    0,                      # optional, hides the seconds from the time output
+);
+}
+]]></content>
+    <tabTrigger>otrs.LanguageObject.FormatTimeString</tabTrigger>
+    <description>4, 5</description>
+</snippet>

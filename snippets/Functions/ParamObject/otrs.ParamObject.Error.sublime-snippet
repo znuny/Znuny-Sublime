@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:    if ( \$ParamObject->Error() ) \{
+        print STDERR \$ParamObject->Error() . "\n";
+    \}
+
+
+}
+]]></content>
+    <tabTrigger>otrs.ParamObject.Error</tabTrigger>
+    <description>4, 5</description>
+</snippet>

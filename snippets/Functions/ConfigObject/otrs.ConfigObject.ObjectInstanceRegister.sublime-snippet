@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$ConfigObject->ObjectInstanceRegister(
+    Package      => 'Kernel::System::UnitTest',
+    Object       => \$UnitTestObject,
+    Dependencies => [],         # optional, specify OM-managed packages that the object might depend on
+);
+}
+]]></content>
+    <tabTrigger>otrs.ConfigObject.ObjectInstanceRegister</tabTrigger>
+    <description>4, 5</description>
+</snippet>

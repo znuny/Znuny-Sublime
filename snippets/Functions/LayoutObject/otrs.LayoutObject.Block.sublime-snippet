@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:\$LayoutObject->Block(
+    Name => 'Row',
+    Data => \{
+        Time     => \$Row[0],
+        Priority => \$Row[1],
+        Facility => \$Row[2],
+        Message  => \$Row[3],
+    \},
+);
+}
+]]></content>
+    <tabTrigger>otrs.LayoutObject.Block</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Encoding = \$EncodeObject->FindAsciiSupersetEncoding(
+    Encodings   => [ 'UTF-16LE', 'UTF-8' ],
+);
+}
+]]></content>
+    <tabTrigger>otrs.EncodeObject.FindAsciiSupersetEncoding</tabTrigger>
+    <description>4, 5</description>
+</snippet>

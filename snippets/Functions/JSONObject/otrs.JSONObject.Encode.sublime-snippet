@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$JSONString = \$JSONObject->Encode(
+    Data     => \$Data,
+    SortKeys => 1,    (optional) (0|1) default 0, to sort the keys of the json data
+);
+}${2:my \$JSONString = \$JSONObject->Encode(
+    Data     => \$Data,
+    SortKeys => 1,          # (optional) (0|1) default 0, to sort the keys of the json data
+);
+}
+]]></content>
+    <tabTrigger>otrs.JSONObject.Encode</tabTrigger>
+    <description>4</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Addresses = \$ParserObject->SplitAddressLine(
+    Line => 'Juergen Weber <juergen.qeber@air.com>, me@example.com, hans@example.com (Hans Huber)',
+);
+}
+]]></content>
+    <tabTrigger>otrs.ParserObject.SplitAddressLine</tabTrigger>
+    <description>4, 5</description>
+</snippet>

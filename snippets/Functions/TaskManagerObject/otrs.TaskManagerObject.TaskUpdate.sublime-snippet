@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TaskManagerObject->TaskUpdate(
+    ID      => 123m
+    Type    => 'GenericInterface',     # optional, e. g. GenericInterface, Test
+    DueTime => '2006-01-19 23:59:59',  # optional
+    Data    => \{                       # optional
+        ...
+    \},
+);
+}
+]]></content>
+    <tabTrigger>otrs.TaskManagerObject.TaskUpdate</tabTrigger>
+    <description>4</description>
+</snippet>

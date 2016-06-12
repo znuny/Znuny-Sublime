@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my %List = \$NotificationObject->NotificationList();
+}
+]]></content>
+    <tabTrigger>otrs.NotificationObject.NotificationList</tabTrigger>
+    <description>4</description>
+</snippet>

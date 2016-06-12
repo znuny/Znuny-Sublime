@@ -3,5 +3,5 @@
 my \$SLAObject = \$Kernel::OM->Get('Kernel::System::SLA');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.SLAObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

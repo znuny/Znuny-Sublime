@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:\$PackageObject->PackageUninstall( String => \$FileString );
+}
+]]></content>
+    <tabTrigger>otrs.PackageObject.PackageUninstall</tabTrigger>
+    <description>4, 5</description>
+</snippet>

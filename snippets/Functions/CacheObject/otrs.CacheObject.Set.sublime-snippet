@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+${1:\$CacheObject->Set(
+    Type  => 'ObjectName',      # only [a-zA-Z0-9_] chars usable
+    Key   => 'SomeKey',
+    Value => 'Some Value',
+    TTL   => 60 * 60 * 24 * 20, # seconds, this means 20 days
+);
+}${2:\$CacheObject->Set(
+    Type  => 'ObjectName',
+    Key   => 'SomeKey',
+    Value => \{ ... complex data ... \},
+
+    TTL            => 60 * 60 * 24 * 1,  # optional, default 20 days
+    CacheInMemory  => 0,                 # optional, defaults to 1
+    CacheInBackend => 1,                 # optional, defaults to 1
+);
+}
+]]></content>
+    <tabTrigger>otrs.CacheObject.Set</tabTrigger>
+    <description>4, 5</description>
+</snippet>

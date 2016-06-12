@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:\$StatsObject->StatsDelete( StatID => '123' );
+}
+]]></content>
+    <tabTrigger>otrs.StatsObject.StatsDelete</tabTrigger>
+    <description>4, 5</description>
+</snippet>

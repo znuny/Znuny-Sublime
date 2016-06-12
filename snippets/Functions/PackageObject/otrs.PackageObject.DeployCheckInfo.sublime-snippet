@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Hash = \$PackageObject->DeployCheckInfo();
+}
+]]></content>
+    <tabTrigger>otrs.PackageObject.DeployCheckInfo</tabTrigger>
+    <description>4, 5</description>
+</snippet>

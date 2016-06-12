@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Notification = \$NotificationEventObject->NotificationGet(
+    ID => 1,
+);
+}${2:my %Notification = \$NotificationEventObject->NotificationGet( ID => 123 );
+}${3:my %Notification = \$NotificationEventObject->NotificationGet( Name => 'NotificationName' );
+}${4:my %Notification = \$NotificationEventObject->NotificationGet(
+    Name => 'NotificationName',
+);
+}
+]]></content>
+    <tabTrigger>otrs.NotificationEventObject.NotificationGet</tabTrigger>
+    <description>5</description>
+</snippet>

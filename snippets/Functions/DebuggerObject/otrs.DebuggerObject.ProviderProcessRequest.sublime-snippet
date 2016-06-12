@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$DebuggerObject->ProviderProcessRequest();
+}
+]]></content>
+    <tabTrigger>otrs.DebuggerObject.ProviderProcessRequest</tabTrigger>
+    <description>4, 5</description>
+</snippet>

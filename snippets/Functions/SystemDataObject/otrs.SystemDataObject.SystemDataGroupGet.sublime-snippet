@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %SystemData = \$SystemDataObject->SystemDataGroupGet(
+    Group => 'SystemRegistration',
+);
+}
+]]></content>
+    <tabTrigger>otrs.SystemDataObject.SystemDataGroupGet</tabTrigger>
+    <description>5</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$True = \$ServiceObject->ServiceUpdate(
+    ServiceID => \$ServiceID,
+    ParentID  => \$ParentID,           # (optional)
+    Name      => 'Service Name',
+    ValidID   => \$ValidID,
+    Comment   => 'Comment',    # (optional)
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ServiceObject.ServiceUpdate</tabTrigger>
+    <description>4, 5</description>
+</snippet>

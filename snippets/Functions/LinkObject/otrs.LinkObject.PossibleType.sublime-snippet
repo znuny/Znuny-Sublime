@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$True = \$LinkObject->PossibleType(
+    Type1  => 'Normal',
+    Type2  => 'ParentChild',
+    UserID => \$UserID,
+);
+}${2:my \$True = \$LinkObject->PossibleType(
+    Type1 => 'Normal',
+    Type2 => 'ParentChild',
+);
+}
+]]></content>
+    <tabTrigger>otrs.LinkObject.PossibleType</tabTrigger>
+    <description>4</description>
+</snippet>

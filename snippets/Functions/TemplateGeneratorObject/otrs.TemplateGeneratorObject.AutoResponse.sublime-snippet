@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my %AutoResponse = \$TemplateGeneratorObject->AutoResponse(
+    TicketID         => \$TicketID,
+    OrigHeader       => \{\},
+    AutoResponseType => 'auto reply',
+    UserID           => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TemplateGeneratorObject.AutoResponse</tabTrigger>
+    <description>4, 5</description>
+</snippet>

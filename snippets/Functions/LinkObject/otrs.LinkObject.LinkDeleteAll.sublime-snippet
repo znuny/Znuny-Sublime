@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$True = \$LinkObject->LinkDeleteAll(
+    Object => 'Ticket',
+    Key    => '321',
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.LinkObject.LinkDeleteAll</tabTrigger>
+    <description>4, 5</description>
+</snippet>

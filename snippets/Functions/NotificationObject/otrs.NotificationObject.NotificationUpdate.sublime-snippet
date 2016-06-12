@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:\$NotificationObject->NotificationUpdate(
+    Type        => 'NewTicket',
+    Charset     => 'utf-8',
+    Language    => 'en',
+    Subject     => 'Some Subject with <OTRS_TAGS>',
+    Body        => 'Some Body with <OTRS_TAGS>',
+    ContentType => 'text/plain',
+    UserID      => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.NotificationObject.NotificationUpdate</tabTrigger>
+    <description>4</description>
+</snippet>

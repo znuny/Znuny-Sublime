@@ -1,0 +1,48 @@
+<snippet>
+    <content><![CDATA[
+${1:# search by CustomerID
+my %List = \$CustomerUserObject->CustomerSearch(
+    CustomerID       => \$CustomerID,
+    Valid            => 1, # not required, default 1
+);
+}${2:# text search
+my %List = \$CustomerUserObject->CustomerSearch(
+    Search => '*some*', # also 'hans+huber' possible
+    Valid  => 1, # not required, default 1
+);
+}${3:# username search
+my %List = \$CustomerUserObject->CustomerSearch(
+    UserLogin => '*some*',
+    Valid     => 1,         # (optional) default 1
+);
+}${4:# search by CustomerID
+my %List = \$CustomerUserObject->CustomerSearch(
+    CustomerID       => \$CustomerID,
+    Valid            => 1,                # (optional) default 1
+);
+}${5:# text search
+my %List = \$CustomerUserObject->CustomerSearch(
+    Search => '*some*', # also 'hans+huber' possible
+    Valid  => 1,        # (optional) default 1
+    Limit  => 100,      # (optional) overrides limit of the config
+);
+}${6:# email search
+my %List = \$CustomerUserObject->CustomerSearch(
+    PostMasterSearch => 'email@example.com',
+    Valid            => 1,                    # (optional) default 1
+);
+}${7:# email search
+my %List = \$CustomerUserObject->CustomerSearch(
+    PostMasterSearch => 'email@example.com',
+    Valid            => 1, # not required, default 1
+);
+}${8:# username search
+my %List = \$CustomerUserObject->CustomerSearch(
+    UserLogin => '*some*',
+    Valid     => 1, # not required, default 1
+);
+}
+]]></content>
+    <tabTrigger>otrs.CustomerUserObject.CustomerSearch</tabTrigger>
+    <description>4</description>
+</snippet>

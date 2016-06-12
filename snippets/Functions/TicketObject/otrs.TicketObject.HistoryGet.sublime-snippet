@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @HistoryLines = \$TicketObject->HistoryGet(
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.HistoryGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

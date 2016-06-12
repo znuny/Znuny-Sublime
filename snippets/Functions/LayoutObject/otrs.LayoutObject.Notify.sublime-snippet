@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Output = \$LayoutObject->Notify(
+    Priority => 'Error',
+    Info => 'Some Error Message',
+);
+}${2:my \$Output = \$LayoutObject->Notify(
+    Priority  => 'Warning',
+    Data      => 'Template content',
+    Link      => 'http://example.com/',
+    LinkClass => 'some_CSS_class',              # optional
+);
+}${3:my \$Output = \$LayoutObject->Notify(
+    Priority => 'Warning',
+    Info => 'Some Info Message',
+);
+}${4:my \$Output = \$LayoutObject->Notify(
+    Priority => 'Error',
+);
+}
+]]></content>
+    <tabTrigger>otrs.LayoutObject.Notify</tabTrigger>
+    <description>4, 5</description>
+</snippet>

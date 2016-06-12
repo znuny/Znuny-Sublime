@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$True = \$PriorityObject->PriorityUpdate(
+    PriorityID     => \$PriorityID,
+    Name           => 'New Prio',
+    ValidID        => \$ValidID,
+    CheckSysConfig => 0,   # (optional) default 1
+    UserID         => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.PriorityObject.PriorityUpdate</tabTrigger>
+    <description>5</description>
+</snippet>

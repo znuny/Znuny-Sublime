@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$JSON = \$LayoutObject->JSONEncode(
+    Data        => \$Data,
+    NoQuotes    => 0|1, # optional: no double quotes at the start and the end of JSON string
+);
+}
+]]></content>
+    <tabTrigger>otrs.LayoutObject.JSONEncode</tabTrigger>
+    <description>4, 5</description>
+</snippet>

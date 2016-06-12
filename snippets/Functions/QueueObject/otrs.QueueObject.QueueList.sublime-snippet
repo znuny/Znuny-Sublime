@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Queues = \$QueueObject->QueueList();
+}${2:my %Queues = \$QueueObject->QueueList( Valid => 1 );
+}
+]]></content>
+    <tabTrigger>otrs.QueueObject.QueueList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Path = \$TicketObject->ArticleGetContentPath(
+    ArticleID => \$ArticleID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.ArticleGetContentPath</tabTrigger>
+    <description>4, 5</description>
+</snippet>

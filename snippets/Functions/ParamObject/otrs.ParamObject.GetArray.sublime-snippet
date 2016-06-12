@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Param = \$ParamObject->GetArray(
+    Param => 'ID',
+    Raw   => 1,     # optional, input data is not changed
+);
+}
+]]></content>
+    <tabTrigger>otrs.ParamObject.GetArray</tabTrigger>
+    <description>4, 5</description>
+</snippet>

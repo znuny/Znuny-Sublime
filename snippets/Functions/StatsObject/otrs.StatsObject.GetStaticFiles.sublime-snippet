@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$FileHash = \$StatsObject->GetStaticFiles(
+    OnlyUnusedFiles => 1 | 0, # optional default 0
+);
+}${2:my \$FileHash = \$StatsObject->GetStaticFiles(
+    OnlyUnusedFiles => 1 | 0, # optional default 0
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.StatsObject.GetStaticFiles</tabTrigger>
+    <description>4</description>
+</snippet>

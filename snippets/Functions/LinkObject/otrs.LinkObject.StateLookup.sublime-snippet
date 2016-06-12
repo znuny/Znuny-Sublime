@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Name = \$LinkObject->StateLookup(
+    StateID => \$StateID,
+    UserID  => \$UserID,
+);
+}${2:\$Name = \$LinkObject->StateLookup(
+    StateID => \$StateID,
+);
+}${3:\$StateID = \$LinkObject->StateLookup(
+    Name   => 'Valid',
+    UserID => \$UserID,
+);
+}${4:\$StateID = \$LinkObject->StateLookup(
+    Name => 'Valid',
+);
+}
+]]></content>
+    <tabTrigger>otrs.LinkObject.StateLookup</tabTrigger>
+    <description>4</description>
+</snippet>

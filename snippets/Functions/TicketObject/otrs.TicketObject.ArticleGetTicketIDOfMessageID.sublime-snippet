@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$TicketID = \$TicketObject->ArticleGetTicketIDOfMessageID(
+    MessageID => \$MessageID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.ArticleGetTicketIDOfMessageID</tabTrigger>
+    <description>4, 5</description>
+</snippet>

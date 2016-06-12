@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Values = \$TicketColumnFilterObject->LockFilterValuesGet(
+    TicketIDs => [23, 1, 56, 74],                    # array ref list of ticket IDs
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketColumnFilterObject.LockFilterValuesGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

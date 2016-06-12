@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$DynamicFieldObject->DynamicFieldUpdate(
+    ID          => 1234,            # mandatory
+    Name        => 'NameForField',  # mandatory
+    Label       => 'a description', # mandatory, label to show
+    FieldOrder  => 123,             # mandatory, display order
+    FieldType   => 'Text',          # mandatory, selects the DF backend to use for this field
+    ObjectType  => 'Article',       # this controls which object the dynamic field links to
+                                    # allow only lowercase letters
+    Config      => \$ConfigHashRef,  # it is stored on YAML format
+                                    # to individual articles, otherwise to tickets
+    ValidID     => \$ValidID,
+    Reorder     => 1,               # or 0, to trigger reorder function, default 1
+    UserID      => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.DynamicFieldObject.DynamicFieldUpdate</tabTrigger>
+    <description>4, 5</description>
+</snippet>

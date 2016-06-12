@@ -1,0 +1,45 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Ok = \$NotificationEventObject->NotificationUpdate(
+    ID      => 123,
+    Name    => 'Agent::OwnerUpdate',
+    Data => \{
+        Events => [ 'TicketQueueUpdate' ],
+        ...
+        Queue => [ 'SomeQueue' ],
+    \},
+    Message => \{
+        en => \{
+            Subject     => 'Hello',
+            Body        => 'Hello World',
+            ContentType => 'text/plain',
+        \},
+        de => \{
+            Subject     => 'Hallo',
+            Body        => 'Hallo Welt',
+            ContentType => 'text/plain',
+        \},
+    \},
+    Comment => 'An optional comment',  # (optional)
+    ValidID => \$ValidID,
+    UserID  => \$UserID,
+);
+}${2:my \$Ok = \$NotificationEventObject->NotificationUpdate(
+    ID      => 123,
+    Name    => 'JobName',
+    Subject => 'JobName',
+    Body    => 'JobName',
+    Type    => 'text/plain',
+    Charset => 'utf8',
+    Data => \{
+        Queue => [ 'SomeQueue', ],
+        ...
+        Valid => [ 1, ],
+    \},
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.NotificationEventObject.NotificationUpdate</tabTrigger>
+    <description>5</description>
+</snippet>

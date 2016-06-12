@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ValueStrg = \$DynamicFieldObject->ReadableValueRender(
+    DynamicFieldConfig => \$DynamicFieldConfig,      # complete config of the DynamicField
+    Value              => 'Any value',              # Optional
+    ValueMaxChars      => 20,                       # Optional
+    TitleMaxChars      => 20,                       # Optional
+);
+}
+]]></content>
+    <tabTrigger>otrs.DynamicFieldObject.ReadableValueRender</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Attachment = \$TicketObject->ArticleAttachment(
+    ArticleID => \$ArticleID,
+    FileID    => \$FileID,   # as returned by ArticleAttachmentIndex
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.ArticleAttachment</tabTrigger>
+    <description>4, 5</description>
+</snippet>

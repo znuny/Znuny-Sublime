@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$String = \$MainObject->GenerateRandomString();
+}${2:my \$String = \$MainObject->GenerateRandomString(
+    Length     => 32,
+    Dictionary => [ 0..9, 'a'..'f' ], # hexadecimal
+    );
+}${3:my \$String = \$MainObject->GenerateRandomString(
+    Length => 32,
+);
+}
+]]></content>
+    <tabTrigger>otrs.MainObject.GenerateRandomString</tabTrigger>
+    <description>4, 5</description>
+</snippet>

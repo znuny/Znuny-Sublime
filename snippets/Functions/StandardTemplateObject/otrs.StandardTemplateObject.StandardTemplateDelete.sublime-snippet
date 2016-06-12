@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:\$StandardTemplateObject->StandardTemplateDelete(
+    ID => 123,
+);
+}
+]]></content>
+    <tabTrigger>otrs.StandardTemplateObject.StandardTemplateDelete</tabTrigger>
+    <description>4, 5</description>
+</snippet>

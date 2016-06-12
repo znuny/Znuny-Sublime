@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$StopWords = \$TicketObject->SearchStringStopWordsFind(
+    SearchStrings => \{
+        'Fulltext' => '(this AND is) OR test',
+        'From'     => 'myself',
+    \},
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.SearchStringStopWordsFind</tabTrigger>
+    <description>4, 5</description>
+</snippet>

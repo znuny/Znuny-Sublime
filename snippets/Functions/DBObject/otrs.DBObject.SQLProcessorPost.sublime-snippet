@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my @SQL = \$DBObject->SQLProcessorPost();
+}
+]]></content>
+    <tabTrigger>otrs.DBObject.SQLProcessorPost</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$RoleID = \$GroupObject->RoleAdd(
+    Name    => 'example-role',
+    Comment => 'comment describing the role',   # optional
+    ValidID => \$ValidID,
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.GroupObject.RoleAdd</tabTrigger>
+    <description>4, 5</description>
+</snippet>

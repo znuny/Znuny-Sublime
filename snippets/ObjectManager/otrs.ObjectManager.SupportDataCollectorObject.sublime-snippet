@@ -3,5 +3,5 @@
 my \$SupportDataCollectorObject = \$Kernel::OM->Get('Kernel::System::SupportDataCollector');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.SupportDataCollectorObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

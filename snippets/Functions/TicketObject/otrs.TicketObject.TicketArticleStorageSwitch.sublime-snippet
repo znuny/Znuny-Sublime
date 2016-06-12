@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketArticleStorageSwitch(
+    TicketID    => \$TicketID,
+    Source      => 'ArticleStorageDB',
+    Destination => 'ArticleStorageFS',
+    UserID      => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.TicketArticleStorageSwitch</tabTrigger>
+    <description>4, 5</description>
+</snippet>

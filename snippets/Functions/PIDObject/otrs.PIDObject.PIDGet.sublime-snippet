@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %PID = \$PIDObject->PIDGet(
+    Name => 'PostMasterPOP3',
+);
+}
+]]></content>
+    <tabTrigger>otrs.PIDObject.PIDGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

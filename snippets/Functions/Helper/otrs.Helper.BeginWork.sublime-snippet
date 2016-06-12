@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:    \$Helper->BeginWork()
+
+
+}
+]]></content>
+    <tabTrigger>otrs.Helper.BeginWork</tabTrigger>
+    <description>5</description>
+</snippet>

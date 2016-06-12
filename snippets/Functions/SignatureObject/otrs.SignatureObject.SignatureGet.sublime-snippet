@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Signature = \$SignatureObject->SignatureGet(
+    ID => 123,
+);
+}
+]]></content>
+    <tabTrigger>otrs.SignatureObject.SignatureGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my @CustomerIDs = \$CustomerUserObject->CustomerIDs(
+    User => 'some-login',
+);
+}
+]]></content>
+    <tabTrigger>otrs.CustomerUserObject.CustomerIDs</tabTrigger>
+    <description>4, 5</description>
+</snippet>

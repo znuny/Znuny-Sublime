@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %StandardTemplate = \$StandardTemplateObject->StandardTemplateGet(
+    ID => 123,
+);
+}
+]]></content>
+    <tabTrigger>otrs.StandardTemplateObject.StandardTemplateGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

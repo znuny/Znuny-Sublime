@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SystemTime = \$TimeObject->SystemTime();
+}
+]]></content>
+    <tabTrigger>otrs.TimeObject.SystemTime</tabTrigger>
+    <description>4, 5</description>
+</snippet>

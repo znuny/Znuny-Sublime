@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$DebuggerObject->HandleResponse(
+    ResponseSuccess      => 1,              # success status of the remote webservice
+    ResponseErrorMessage => '',             # in case of webservice error
+    Data => \{                               # data payload
+        ...
+    \},
+);
+}
+]]></content>
+    <tabTrigger>otrs.DebuggerObject.HandleResponse</tabTrigger>
+    <description>4, 5</description>
+</snippet>

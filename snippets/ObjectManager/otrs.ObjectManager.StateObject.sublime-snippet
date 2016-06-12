@@ -3,5 +3,5 @@
 my \$StateObject = \$Kernel::OM->Get('Kernel::System::State');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.StateObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

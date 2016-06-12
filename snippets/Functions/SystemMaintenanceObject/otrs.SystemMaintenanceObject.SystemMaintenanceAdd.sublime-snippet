@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ID = \$SystemMaintenanceObject->SystemMaintenanceAdd(
+    StartDate        => '2014-05-02 14:55:00'    # mandatory
+    StopDate         => '2014-05-02 16:01:00'    # mandatory
+    Comment          => 'Comment',               # mandatory
+    LoginMessage     => 'A login message.',      # optional
+    ShowLoginMessage => 1,                       # optional
+    NotifyMessage    => 'Notification message.', # optional
+    ValidID          => \$ValidID,                       # mandatory
+    UserID           => \$UserID,                     # mandatory
+);
+}
+]]></content>
+    <tabTrigger>otrs.SystemMaintenanceObject.SystemMaintenanceAdd</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketArchiveFlagSet(
+    ArchiveFlag => 'y',  # (y|n)
+    TicketID    => \$TicketID,
+    UserID      => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.TicketArchiveFlagSet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

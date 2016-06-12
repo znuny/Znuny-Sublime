@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$VirtualFSObject->Delete(
+    Filename => '/Object/SomeFileName.txt',
+
+    # optional
+    DisableWarnings => 1,
+);
+}
+]]></content>
+    <tabTrigger>otrs.VirtualFSObject.Delete</tabTrigger>
+    <description>4, 5</description>
+</snippet>

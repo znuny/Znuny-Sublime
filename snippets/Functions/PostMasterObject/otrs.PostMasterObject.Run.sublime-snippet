@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$PostMasterObject->Run(
+    Queue   => 'Junk',  # optional, specify target queue for new tickets
+    QueueID => \$QueueID,       # optional, specify target queue for new tickets
+);
+}${2:\$PostMasterObject->Run();
+}
+]]></content>
+    <tabTrigger>otrs.PostMasterObject.Run</tabTrigger>
+    <description>5</description>
+</snippet>

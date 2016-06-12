@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my %PageNavBar = \$LayoutObject->PageNavBar(
+    Limit       => 100,         # marks result of TotalHits red if Limit is gerater then AllHits
+    WindowSize  => 15,          # max shown pages to click
+    StartHit    => 1,           # start to show items
+    PageShown   => 15,          # number of shown items a page
+    AllHits     => 56,          # number of total hits
+    Action      => 'AgentXXX',  # e. g. 'Action=' . \$Self->\{LayoutObject\}->\{Action\}
+    Link        => \$Link,       # e. g. 'Subaction=View;'
+    AJAXReplace => 'IDElement', # IDElement which should be replaced
+    IDPrefix    => 'Tickets',   # Prefix for the id parameter
+);
+}
+]]></content>
+    <tabTrigger>otrs.LayoutObject.PageNavBar</tabTrigger>
+    <description>4, 5</description>
+</snippet>

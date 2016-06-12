@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:\$WebUploadCacheObject->FormIDCleanUp();
+}
+]]></content>
+    <tabTrigger>otrs.WebUploadCacheObject.FormIDCleanUp</tabTrigger>
+    <description>4, 5</description>
+</snippet>

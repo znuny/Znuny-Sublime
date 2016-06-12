@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:\$PackageObject->PackageReinstall( String => \$FileString );
+}
+]]></content>
+    <tabTrigger>otrs.PackageObject.PackageReinstall</tabTrigger>
+    <description>4, 5</description>
+</snippet>

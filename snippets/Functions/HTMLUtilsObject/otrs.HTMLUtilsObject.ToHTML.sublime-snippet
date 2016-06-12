@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$HTMLString = \$HTMLUtilsObject->ToHTML( String => \$String );
+}
+]]></content>
+    <tabTrigger>otrs.HTMLUtilsObject.ToHTML</tabTrigger>
+    <description>4, 5</description>
+</snippet>

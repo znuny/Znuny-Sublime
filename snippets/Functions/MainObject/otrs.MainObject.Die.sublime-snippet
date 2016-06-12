@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:\$MainObject->Die('some message to die');
+}
+]]></content>
+    <tabTrigger>otrs.MainObject.Die</tabTrigger>
+    <description>4, 5</description>
+</snippet>

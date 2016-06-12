@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ActivityDialog = \$ActivityDialogObject->ActivityDialogGet(
+    ActivityDialogEntityID => \$ActivityDialogEntityID,
+    Interface              => ['AgentInterface'],   # ['AgentInterface'] or ['CustomerInterface'] or ['AgentInterface', 'CustomerInterface'] or 'all'
+    Silent                 => 1,    # 1 or 0, default 0, if set to 1, will not log errors about not matching interfaces
+);
+}
+]]></content>
+    <tabTrigger>otrs.ActivityDialogObject.ActivityDialogGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

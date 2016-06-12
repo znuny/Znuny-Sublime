@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+${1:my @FilesInDirectory = \$MainObject->DirectoryRead(
+    Directory => '/tmp',
+    Filter    => \@MyFilters,
+);
+}${2:my @FilesInDirectory = \$MainObject->DirectoryRead(
+    Directory => '/tmp',
+    Filter    => 'Filenam*',
+);
+}${3:my @FilesInDirectory = \$MainObject->DirectoryRead(
+    Directory => \$Path,
+    Filter    => '*',
+    Recursive => 1,
+);
+}${4:my @FilesInDirectory = \$MainObject->DirectoryRead(
+    Directory => '/special/optional/directory/',
+    Filter    => '*',
+    Silent    => 1,     # will not log errors if the directory does not exist
+);
+}${5:my @FilesInDirectory = \$MainObject->DirectoryRead(
+    Directory => \$Path,
+    Filter    => '*',
+);
+}
+]]></content>
+    <tabTrigger>otrs.MainObject.DirectoryRead</tabTrigger>
+    <description>4, 5</description>
+</snippet>

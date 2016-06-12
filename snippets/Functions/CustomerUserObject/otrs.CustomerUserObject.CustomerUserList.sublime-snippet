@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %List = \$CustomerUserObject->CustomerUserList(
+    Valid => 1, # not required
+);
+}
+]]></content>
+    <tabTrigger>otrs.CustomerUserObject.CustomerUserList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

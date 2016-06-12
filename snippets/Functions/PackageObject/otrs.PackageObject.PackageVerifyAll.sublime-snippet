@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my %VerificationInfo = \$PackageObject->PackageVerifyAll();
+}
+]]></content>
+    <tabTrigger>otrs.PackageObject.PackageVerifyAll</tabTrigger>
+    <description>4, 5</description>
+</snippet>

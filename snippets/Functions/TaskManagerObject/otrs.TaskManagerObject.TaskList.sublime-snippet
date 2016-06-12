@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my @List = \$TaskManagerObject->TaskList();
+}
+]]></content>
+    <tabTrigger>otrs.TaskManagerObject.TaskList</tabTrigger>
+    <description>4</description>
+</snippet>

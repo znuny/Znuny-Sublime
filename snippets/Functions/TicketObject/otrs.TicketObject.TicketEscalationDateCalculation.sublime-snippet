@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Escalation = \$TicketObject->TicketEscalationDateCalculation(
+    Ticket => \$Param\{Ticket\},
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.TicketEscalationDateCalculation</tabTrigger>
+    <description>4, 5</description>
+</snippet>

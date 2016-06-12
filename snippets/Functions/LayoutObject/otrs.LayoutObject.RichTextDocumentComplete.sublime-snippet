@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:\$HTMLBody = \$LayoutObject->RichTextDocumentComplete(
+    String => \$HTMLBody,
+);
+}
+]]></content>
+    <tabTrigger>otrs.LayoutObject.RichTextDocumentComplete</tabTrigger>
+    <description>4, 5</description>
+</snippet>

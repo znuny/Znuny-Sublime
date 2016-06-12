@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$What = \$DBObject->GetDatabaseFunction('DirectBlob');
+}
+]]></content>
+    <tabTrigger>otrs.DBObject.GetDatabaseFunction</tabTrigger>
+    <description>4, 5</description>
+</snippet>

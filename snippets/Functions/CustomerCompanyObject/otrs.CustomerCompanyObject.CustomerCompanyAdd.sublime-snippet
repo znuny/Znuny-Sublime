@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ID = \$CustomerCompanyObject->CustomerCompanyAdd(
+    CustomerID              => \$CustomerID,
+    CustomerCompanyName     => 'New Customer Inc.',
+    CustomerCompanyStreet   => '5201 Blue Lagoon Drive',
+    CustomerCompanyZIP      => '33126',
+    CustomerCompanyCity     => 'Miami',
+    CustomerCompanyCountry  => 'USA',
+    CustomerCompanyURL      => 'http://www.example.org',
+    CustomerCompanyComment  => 'some comment',
+    ValidID                 => \$ValidID,
+    UserID                  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.CustomerCompanyObject.CustomerCompanyAdd</tabTrigger>
+    <description>4, 5</description>
+</snippet>

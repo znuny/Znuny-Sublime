@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Type = \$TypeObject->TypeGet(
+    ID => 123,
+);
+}${2:my %Type = \$TypeObject->TypeGet(
+    Name => 'default',
+);
+}
+]]></content>
+    <tabTrigger>otrs.TypeObject.TypeGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

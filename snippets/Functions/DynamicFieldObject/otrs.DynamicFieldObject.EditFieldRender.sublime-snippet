@@ -1,0 +1,41 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$FieldHTML = \$DynamicFieldObject->EditFieldRender(
+    DynamicFieldConfig   => \$DynamicFieldConfig,      # complete config of the DynamicField
+    ParamObject          => \$ParamObject,
+    LayoutObject         => \$LayoutObject,
+    PossibleValuesFilter => \{                         # Optional. Some backends may support this.
+        'Key1' => 'Value1',                           #     This may be needed to realize ACL support for ticket masks,
+        'Key2' => 'Value2',                           #     where the possible values can be limited with and ACL.
+    \},
+    Template             => \{                         # Optional data structure of GenericAgent etc.
+            Owner => 2,                               # Value is accessable via field name (DynamicField_ + field name)
+            Title => 'Generic Agent Job was here'     # and could be a scalar, Hash- or ArrayRef
+            ...
+            DynamicField_ExampleField1 => 'Value 1'
+        \}
+    Value                => 'Any value',              # Optional
+    Mandatory            => 1,                        # 0 or 1,
+    Class                => 'AnyCSSClass OrOneMore',  # Optional
+    ServerError          => 1,                        # 0 or 1,
+    ErrorMessage         => \$ErrorMessage,            # Optional or a default will be used in error case
+    UseDefaultValue      => 1,                        # 0 or 1, 1 default
+    OverridePossibleNone => 1,                        # Optional, 0 or 1. If defined orverrides the Possible None
+                                                      #     setting of all dynamic fields (where applies) with the
+                                                      #     defined value
+    ConfirmationNeeded   => 0,                        # Optional, 0 or 1, default 0. To display a confirmation element
+                                                      #     on fields that apply (like checkbox)
+    AJAXUpdate           => 1,                        # Optional, 0 ir 1. To create JS code for field change to update
+                                                      #     the form using ACLs triggered by the field.
+    UpdatableFields      => [                         # Optional, to use if AJAXUpdate is 1. List of fields to display a
+        'NetxStateID',                                #     spinning wheel when reloading via AJAXUpdate.
+        'PriorityID',
+    ],
+    MaxLength            => 100                       # Optional, defines the maximum number of characters on fields
+                                                      #      where applies (like TextArea)
+);
+}
+]]></content>
+    <tabTrigger>otrs.DynamicFieldObject.EditFieldRender</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$StatArray = \$StatsObject->StatsResultCacheCompute(
+    StatID       => \$StatID,
+    UserID       => \$UserID,        # target UserID
+    UserGetParam => \%UserGetParam, # user settings of non-fixed fields
+);
+}${2:my \$StatArray = \$StatsObject->StatsResultCacheCompute(
+    StatID       => \$StatID,
+    UserGetParam => \%UserGetParam, # user settings of non-fixed fields
+);
+}
+]]></content>
+    <tabTrigger>otrs.StatsObject.StatsResultCacheCompute</tabTrigger>
+    <description>5</description>
+</snippet>

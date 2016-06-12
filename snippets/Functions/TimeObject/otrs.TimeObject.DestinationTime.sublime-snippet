@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$DestinationTime = \$TimeObject->DestinationTime(
+    StartTime => \$Created,
+    Time      => 60*60*24*2,
+);
+}${2:my \$DestinationTime = \$TimeObject->DestinationTime(
+    StartTime => \$Created,
+    Time      => 60*60*24*2,
+    Calendar  => 3, # '' is default
+);
+}
+]]></content>
+    <tabTrigger>otrs.TimeObject.DestinationTime</tabTrigger>
+    <description>4, 5</description>
+</snippet>

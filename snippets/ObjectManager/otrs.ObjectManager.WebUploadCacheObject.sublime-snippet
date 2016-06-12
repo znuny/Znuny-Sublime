@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$WebUploadCacheObject = \$Kernel::OM->Get('Kernel::System::Web::UploadCache');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.WebUploadCacheObject</tabTrigger>
+    <description>4, 5</description>
+</snippet>

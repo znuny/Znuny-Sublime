@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:\$StatsObject->StatsUpdate(
+    StatID => \$StatID,
+    Hash   => \%Hash,
+    UserID => \$UserID,
+);
+}${2:\$StatsObject->StatsUpdate(
+    StatID => \$StatID,
+    Hash   => \%Hash
+);
+}
+]]></content>
+    <tabTrigger>otrs.StatsObject.StatsUpdate</tabTrigger>
+    <description>5</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:\$GenericAgentObject->JobRun(
+    Job          => 'JobName',
+    OnlyTicketID => \$OnlyTicketID,     # (optional) for event based Job execution
+    SleepTime    => 100_000  # (optional) sleeptime per ticket in microseconds
+    UserID       => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.GenericAgentObject.JobRun</tabTrigger>
+    <description>4, 5</description>
+</snippet>

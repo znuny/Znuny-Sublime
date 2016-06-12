@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$WorkingTime = \$TimeObject->WorkingTime(
+    StartTime => \$Created,
+    StopTime  => \$TimeObject->SystemTime(),
+    Calendar  => 3, # '' is default
+);
+}${2:my \$WorkingTime = \$TimeObject->WorkingTime(
+    StartTime => \$Created,
+    StopTime  => \$TimeObject->SystemTime(),
+);
+}
+]]></content>
+    <tabTrigger>otrs.TimeObject.WorkingTime</tabTrigger>
+    <description>4, 5</description>
+</snippet>

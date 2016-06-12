@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:\$TypeObject->TypeUpdate(
+    ID      => 123,
+    Name    => 'New Type',
+    ValidID => \$ValidID,
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TypeObject.TypeUpdate</tabTrigger>
+    <description>4, 5</description>
+</snippet>

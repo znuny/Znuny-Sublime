@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$DebuggerObject->Debug(
+    Summary => 'Short summary, one line',
+    Data    => \$Data, # optional, \$Data can be a string or a scalar reference
+);
+}
+]]></content>
+    <tabTrigger>otrs.DebuggerObject.Debug</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$HistoricalValues = \$DynamicFieldValueObject->HistoricalValueGet(
+    FieldID   => \$FieldID,                  # ID of the dynamic field
+    ValueType => 'Text',                    # or 'DateTime' or 'Integer'. Default 'Text'
+);
+}
+]]></content>
+    <tabTrigger>otrs.DynamicFieldValueObject.HistoricalValueGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

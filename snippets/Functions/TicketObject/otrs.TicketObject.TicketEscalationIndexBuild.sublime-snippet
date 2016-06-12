@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketEscalationIndexBuild(
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.TicketEscalationIndexBuild</tabTrigger>
+    <description>4, 5</description>
+</snippet>

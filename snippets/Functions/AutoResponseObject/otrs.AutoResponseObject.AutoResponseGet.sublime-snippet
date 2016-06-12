@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Data = \$AutoResponseObject->AutoResponseGet(
+    ID => 123,
+);
+}
+]]></content>
+    <tabTrigger>otrs.AutoResponseObject.AutoResponseGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

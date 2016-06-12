@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$DebuggerObject->PrepareRequest(
+    Data => \{                               # data payload
+        ...
+    \},
+);
+}
+]]></content>
+    <tabTrigger>otrs.DebuggerObject.PrepareRequest</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Dim = \$PDFObject->DimGet();
+}
+]]></content>
+    <tabTrigger>otrs.PDFObject.DimGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$WebserviceHistory = \$WebserviceHistoryObject->WebserviceHistoryGet(
+    ID => 123,
+);
+}
+]]></content>
+    <tabTrigger>otrs.WebserviceHistoryObject.WebserviceHistoryGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %PossibleLinkList = \$LinkObject->PossibleLinkList();
+}${2:my %PossibleLinkList = \$LinkObject->PossibleLinkList(
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.LinkObject.PossibleLinkList</tabTrigger>
+    <description>5</description>
+</snippet>

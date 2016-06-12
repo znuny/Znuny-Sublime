@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$HashRef = \$StatsObject->StatsGet(
+    StatID             => \$StatID,
+    NoObjectAttributes => 1,       # optional
+);
+}
+]]></content>
+    <tabTrigger>otrs.StatsObject.StatsGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

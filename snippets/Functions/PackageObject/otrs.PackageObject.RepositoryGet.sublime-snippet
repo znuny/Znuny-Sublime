@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$PackageScalar = \$PackageObject->RepositoryGet(
+    Name            => 'Application A',
+    Version         => '1.0',
+    Result          => 'SCALAR',
+    DisableWarnings => 1,         # optional
+);
+}${2:my \$Package = \$PackageObject->RepositoryGet(
+    Name    => 'Application A',
+    Version => '1.0',
+);
+}${3:my \$PackageScalar = \$PackageObject->RepositoryGet(
+    Name    => 'Application A',
+    Version => '1.0',
+    Result  => 'SCALAR',
+);
+}
+]]></content>
+    <tabTrigger>otrs.PackageObject.RepositoryGet</tabTrigger>
+    <description>5</description>
+</snippet>

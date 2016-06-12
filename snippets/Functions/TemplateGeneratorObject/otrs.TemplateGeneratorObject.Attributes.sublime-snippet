@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Attributes = \$TemplateGeneratorObject->Attributes(
+    TicketID   => \$TicketID,
+    ArticleID  => \$ArticleID,
+    ResponseID => \$ResponseID,
+    Action     => 'Forward', # Possible values are Reply and Forward, Reply is default.
+);
+}
+]]></content>
+    <tabTrigger>otrs.TemplateGeneratorObject.Attributes</tabTrigger>
+    <description>4, 5</description>
+</snippet>

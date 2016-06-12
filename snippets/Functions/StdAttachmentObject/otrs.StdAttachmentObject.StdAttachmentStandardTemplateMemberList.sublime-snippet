@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my %List = \$StdAttachmentObject->StdAttachmentStandardTemplateMemberList(
+    AttachmentID => \$AttachmentID,
+);
+}${2:or
+my %List = \$StdAttachmentObject->StdAttachmentStandardTemplateMemberList(
+    StandardTemplateID => \$StandardTemplateID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.StdAttachmentObject.StdAttachmentStandardTemplateMemberList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

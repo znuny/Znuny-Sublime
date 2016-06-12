@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my @List = \$SysConfigObject->ConfigItemSearch(
+    Search => 'some topic',
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.ConfigItemSearch</tabTrigger>
+    <description>4, 5</description>
+</snippet>

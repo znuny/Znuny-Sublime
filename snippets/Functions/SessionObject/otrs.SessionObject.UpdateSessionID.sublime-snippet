@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$SessionObject->UpdateSessionID(
+    SessionID => \$SessionID,
+    Key       => 'LastScreenOverview',
+    Value     => 'SomeInfo',
+);
+}
+]]></content>
+    <tabTrigger>otrs.SessionObject.UpdateSessionID</tabTrigger>
+    <description>4, 5</description>
+</snippet>

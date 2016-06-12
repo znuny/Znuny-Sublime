@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my %StateList = \$LinkObject->StateList(
+    Valid => 0,   # (optional) default 1 (0|1)
+);
+}${2:my %StateList = \$LinkObject->StateList(
+    Valid  => 0,   # (optional) default 1 (0|1)
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.LinkObject.StateList</tabTrigger>
+    <description>5</description>
+</snippet>

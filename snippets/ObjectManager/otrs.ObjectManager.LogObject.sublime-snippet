@@ -3,5 +3,5 @@
 my \$LogObject = \$Kernel::OM->Get('Kernel::System::Log');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.LogObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

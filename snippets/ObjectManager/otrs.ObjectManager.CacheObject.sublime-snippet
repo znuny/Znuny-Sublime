@@ -3,5 +3,5 @@
 my \$CacheObject = \$Kernel::OM->Get('Kernel::System::Cache');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.CacheObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

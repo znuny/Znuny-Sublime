@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:\$TaskManagerObject->TaskDelete(
+    ID     => 123,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TaskManagerObject.TaskDelete</tabTrigger>
+    <description>4</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$DynamicFieldValueObject->ValueDelete(
+    FieldID            => \$FieldID,                 # ID of the dynamic field
+    ObjectID           => \$ObjectID,                # ID of the current object that the field
+                                                    #   is linked to, e. g. TicketID
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.DynamicFieldValueObject.ValueDelete</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$XMLObject->XMLHashDelete(
+    Type => 'SomeType',
+    Key  => '123',
+);
+}
+]]></content>
+    <tabTrigger>otrs.XMLObject.XMLHashDelete</tabTrigger>
+    <description>4, 5</description>
+</snippet>

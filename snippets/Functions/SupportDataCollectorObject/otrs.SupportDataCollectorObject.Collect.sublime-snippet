@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Result = \$SupportDataCollectorObject->Collect(
+    UseCache   => 1,    # (optional) to get data from cache if any
+    WebTimeout => 60,   # (optional)
+    Hostname   => 'my.test.host:8080' # (optional, for testing purposes)
+);
+}${2:my %Result = \$SupportDataCollectorObject->Collect(
+    UseCache   => 1,    # (optional) to get data from cache if any
+    WebTimeout => 60,   # (optional)
+);
+}
+]]></content>
+    <tabTrigger>otrs.SupportDataCollectorObject.Collect</tabTrigger>
+    <description>5</description>
+</snippet>

@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-my \$EncodeObject = Kernel::System::Encode
+my \$EncodeObject = \$Kernel::OM->Get('Kernel::System::Encode');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.EncodeObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

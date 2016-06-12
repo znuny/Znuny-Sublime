@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$NewSubject = \$TicketObject->TicketSubjectClean(
+    TicketNumber => \$TicketNumber,
+    Subject      => \$OldSubject,
+    Size         => \$SubjectSizeToBeDisplayed   # optional, if 0 do not cut subject
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.TicketSubjectClean</tabTrigger>
+    <description>4, 5</description>
+</snippet>

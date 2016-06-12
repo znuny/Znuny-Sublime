@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$DynamicFieldObject->ValueValidate(
+    DynamicFieldConfig => \$DynamicFieldConfig,      # complete config of the DynamicField
+    Value              => \$Value,                   # Value to store, depends on backend type
+    UserID             => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.DynamicFieldObject.ValueValidate</tabTrigger>
+    <description>4, 5</description>
+</snippet>

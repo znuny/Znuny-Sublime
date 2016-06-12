@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:%Description = \$LinkObject->ObjectDescriptionGet(
+    Object  => 'Ticket',
+    Key     => 123,
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.LinkObject.ObjectDescriptionGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

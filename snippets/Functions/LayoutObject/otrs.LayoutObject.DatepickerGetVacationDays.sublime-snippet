@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:\$LayoutObject->DatepickerGetVacationDays();
+}
+]]></content>
+    <tabTrigger>otrs.LayoutObject.DatepickerGetVacationDays</tabTrigger>
+    <description>4</description>
+</snippet>

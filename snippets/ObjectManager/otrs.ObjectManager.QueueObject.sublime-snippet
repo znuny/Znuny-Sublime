@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-my \$QueueObject = \$Kernel::OM->Get('Kernel::System::Auth');
+my \$QueueObject = \$Kernel::OM->Get('Kernel::System::Queue');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.QueueObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

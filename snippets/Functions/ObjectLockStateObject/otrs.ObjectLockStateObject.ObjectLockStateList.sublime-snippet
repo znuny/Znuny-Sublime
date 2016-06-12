@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ObjectLockStates = \$ObjectLockStateObject->ObjectLockStateList(
+    WebserviceID     => \$WebserviceID,
+    ObjectType       => 'Ticket',       # type of the object
+    LockState        => 'sync_started', # optional, only entries with this lock state
+);
+}
+]]></content>
+    <tabTrigger>otrs.ObjectLockStateObject.ObjectLockStateList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

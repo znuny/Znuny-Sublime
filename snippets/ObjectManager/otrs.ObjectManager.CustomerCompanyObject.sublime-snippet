@@ -3,5 +3,5 @@
 my \$CustomerCompanyObject = \$Kernel::OM->Get('Kernel::System::CustomerCompany');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.CustomerCompanyObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

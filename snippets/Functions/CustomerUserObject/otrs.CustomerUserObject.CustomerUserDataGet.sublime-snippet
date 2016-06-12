@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %User = \$CustomerUserObject->CustomerUserDataGet(
+    User => 'franz',
+);
+}
+]]></content>
+    <tabTrigger>otrs.CustomerUserObject.CustomerUserDataGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

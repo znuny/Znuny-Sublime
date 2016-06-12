@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$String = \$ParamObject->GetCookie(
+    Key => ID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ParamObject.GetCookie</tabTrigger>
+    <description>4, 5</description>
+</snippet>

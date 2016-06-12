@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$WarningActive = \$TicketObject->SearchStringStopWordsUsageWarningActive();
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.SearchStringStopWordsUsageWarningActive</tabTrigger>
+    <description>4, 5</description>
+</snippet>

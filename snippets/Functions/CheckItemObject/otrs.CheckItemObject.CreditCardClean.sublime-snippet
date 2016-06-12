@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my (\$StringRef, \$Found) = \$CheckItemObject->CreditCardClean(
+    StringRef => \'String',
+);
+}
+]]></content>
+    <tabTrigger>otrs.CheckItemObject.CreditCardClean</tabTrigger>
+    <description>4, 5</description>
+</snippet>

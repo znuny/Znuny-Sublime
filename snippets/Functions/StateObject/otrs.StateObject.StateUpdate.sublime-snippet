@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:\$StateObject->StateUpdate(
+    ID             => 123,
+    Name           => 'New State',
+    Comment        => 'some comment',
+    ValidID        => \$ValidID,
+    TypeID         => \$TypeID,
+    CheckSysConfig => 0,   # (optional) default 1
+    UserID         => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.StateObject.StateUpdate</tabTrigger>
+    <description>4, 5</description>
+</snippet>

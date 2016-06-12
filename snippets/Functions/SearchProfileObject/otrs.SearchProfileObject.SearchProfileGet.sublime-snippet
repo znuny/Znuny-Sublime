@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my %SearchProfileData = \$SearchProfileObject->SearchProfileGet(
+    Base      => 'TicketSearch',
+    Name      => 'last-search',
+    UserLogin => 'me',
+);
+}
+]]></content>
+    <tabTrigger>otrs.SearchProfileObject.SearchProfileGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

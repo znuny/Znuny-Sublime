@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$QueueObject->QueueStandardTemplateMemberAdd(
+    QueueID            => \$QueueID,
+    StandardTemplateID => \$StandardTemplateID,
+    Active             => 1,        # optional
+    UserID             => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.QueueObject.QueueStandardTemplateMemberAdd</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -3,5 +3,5 @@
 my \$FileTempObject = \$Kernel::OM->Get('Kernel::System::FileTemp');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.FileTempObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

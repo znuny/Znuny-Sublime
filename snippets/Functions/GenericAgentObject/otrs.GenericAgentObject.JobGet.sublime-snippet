@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Job = \$GenericAgentObject->JobGet(Name => 'JobName');
+}
+]]></content>
+    <tabTrigger>otrs.GenericAgentObject.JobGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

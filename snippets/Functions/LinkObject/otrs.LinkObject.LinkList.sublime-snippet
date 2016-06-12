@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$LinkList = \$LinkObject->LinkList(
+    Object    => 'Ticket',
+    Key       => '321',
+    Object2   => 'FAQ',         # (optional)
+    State     => 'Valid',
+    Type      => 'ParentChild', # (optional)
+    Direction => 'Target',      # (optional) default Both (Source|Target|Both)
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.LinkObject.LinkList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

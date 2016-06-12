@@ -3,5 +3,5 @@
 my \$SearchProfileObject = \$Kernel::OM->Get('Kernel::System::SearchProfile');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.SearchProfileObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$StatsObject->StatsInstall(
+    FilePrefix => 'FAQ',  # (optional)
+    UserID     => \$UserID,
+);
+}${2:my \$Result = \$StatsObject->StatsInstall(
+    FilePrefix => 'FAQ',  # (optional)
+);
+}
+]]></content>
+    <tabTrigger>otrs.StatsObject.StatsInstall</tabTrigger>
+    <description>5</description>
+</snippet>

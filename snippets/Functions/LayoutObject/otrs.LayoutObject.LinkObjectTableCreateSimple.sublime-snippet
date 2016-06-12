@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$String = \$LayoutObject->LinkObjectTableCreateSimple(
+    LinkListWithData => \$LinkListWithDataRef,
+    ViewMode         => 'SimpleRaw',            # (optional) (Simple|SimpleRaw)
+);
+}
+]]></content>
+    <tabTrigger>otrs.LayoutObject.LinkObjectTableCreateSimple</tabTrigger>
+    <description>4</description>
+</snippet>

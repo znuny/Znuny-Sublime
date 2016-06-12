@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$OperationObject->Run(
+    Data     => \{                          # task data, depends on TaskType
+        ...
+    \},
+);
+}${2:my \$Result = \$OperationObject->Run(
+    Data => \{                               # data payload before Operation
+        ...
+    \},
+);
+}
+]]></content>
+    <tabTrigger>otrs.OperationObject.Run</tabTrigger>
+    <description>4</description>
+</snippet>

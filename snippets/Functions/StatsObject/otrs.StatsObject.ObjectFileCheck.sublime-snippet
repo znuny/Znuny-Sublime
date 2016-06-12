@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ObjectFileCheck = \$StatsObject->ObjectFileCheck(
+    Type => 'static',
+    Name => 'NewTickets',
+);
+}
+]]></content>
+    <tabTrigger>otrs.StatsObject.ObjectFileCheck</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my @List = \$SchedulerObject->FutureTaskList(
+    Type => 'some type',  # optional
+);
+}
+]]></content>
+    <tabTrigger>otrs.SchedulerObject.FutureTaskList</tabTrigger>
+    <description>5</description>
+</snippet>

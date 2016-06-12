@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$WebserviceHistoryObject = \$Kernel::OM->Get('Kernel::System::GenericInterface::WebserviceHistory');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.WebserviceHistoryObject</tabTrigger>
+    <description>4, 5</description>
+</snippet>

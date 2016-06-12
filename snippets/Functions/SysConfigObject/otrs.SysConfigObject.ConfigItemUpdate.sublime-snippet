@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:\$SysConfigObject->ConfigItemUpdate(
+    Valid        => 1,
+    Key          => 'WebUploadCacheModule',
+    Value        => 'Kernel::System::Web::UploadCache::DB',
+    NoValidation => 1,    # (optional) no validation or auto-correction will be done, to prevent loops.
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.ConfigItemUpdate</tabTrigger>
+    <description>4, 5</description>
+</snippet>

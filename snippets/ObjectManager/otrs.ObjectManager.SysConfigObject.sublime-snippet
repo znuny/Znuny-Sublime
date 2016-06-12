@@ -3,5 +3,5 @@
 my \$SysConfigObject = \$Kernel::OM->Get('Kernel::System::SysConfig');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.SysConfigObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

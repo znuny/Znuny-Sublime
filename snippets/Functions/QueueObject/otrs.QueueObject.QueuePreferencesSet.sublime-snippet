@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:\$QueueObject->QueuePreferencesSet(
+    QueueID => \$QueueID,
+    Key     => 'UserComment',
+    Value   => 'some comment',
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.QueueObject.QueuePreferencesSet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

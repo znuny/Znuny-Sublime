@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->ArticleBounce(
+    From      => 'some@example.com',
+    To        => 'webmaster@example.com',
+    TicketID  => \$TicketID,
+    ArticleID => \$ArticleID,
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.ArticleBounce</tabTrigger>
+    <description>4, 5</description>
+</snippet>

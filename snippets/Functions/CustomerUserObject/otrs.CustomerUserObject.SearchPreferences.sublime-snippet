@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %UserList = \$CustomerUserObject->SearchPreferences(
+    Key   => 'UserSomeKey',
+    Value => 'SomeValue',   # optional, limit to a certain value/pattern
+);
+}
+]]></content>
+    <tabTrigger>otrs.CustomerUserObject.SearchPreferences</tabTrigger>
+    <description>4, 5</description>
+</snippet>

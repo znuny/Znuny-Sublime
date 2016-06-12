@@ -1,0 +1,37 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$FieldHTML = \$BackendObject->SearchFieldRender(
+    DynamicFieldConfig   => \$DynamicFieldConfig,      # complete config of the DynamicField
+    ParamObject          => \$ParamObject,
+    Profile              => \$ProfileData,             # search template data to load
+    PossibleValuesFilter => \{                         # optional. Some backends may support this.
+        'Key1' => 'Value1',                           #     This may be needed to realize ACL support for ticket masks,
+        'Key2' => 'Value2',                           #     where the possible values can be limited with and ACL.
+    \},
+    DefaultValue         => \$Value,                   # optional, depending on each field type e.g
+                                                      #   \$Value = a text';
+                                                      #   \$Value
+                                                      #       = 'DynamicField_' . \$DynamicFieldConfig->\{Name\} . 'StartYear=1977;'
+                                                      #       . 'DynamicField_' . \$DynamicFieldConfig->\{Name\} . 'StartMonth=12;'
+                                                      #       . 'DynamicField_' . \$DynamicFieldConfig->\{Name\} . 'StartDay=12;'
+                                                      #       . 'DynamicField_' . \$DynamicFieldConfig->\{Name\} . 'StartHour=00;'
+                                                      #       . 'DynamicField_' . \$DynamicFieldConfig->\{Name\} . 'StartMinute=00;'
+                                                      #       . 'DynamicField_' . \$DynamicFieldConfig->\{Name\} . 'StartSecond=00;'
+                                                      #       . 'DynamicField_' . \$DynamicFieldConfig->\{Name\} . 'StopYear=2011;'
+                                                      #       . 'DynamicField_' . \$DynamicFieldConfig->\{Name\} . 'StopMonth=09;'
+                                                      #       . 'DynamicField_' . \$DynamicFieldConfig->\{Name\} . 'StopDay=29;'
+                                                      #       . 'DynamicField_' . \$DynamicFieldConfig->\{Name\} . 'StopHour=23;'
+                                                      #       . 'DynamicField_' . \$DynamicFieldConfig->\{Name\} . 'StopMinute=59;'
+                                                      #       . 'DynamicField_' . \$DynamicFieldConfig->\{Name\} . 'StopSecond=59;';
+                                                      #
+                                                      #   \$Value =  1;
+    ConfirmationCheckboxes => 0,                      # or 1, to dislay confirmation checkboxes
+    UseLabelHints          => 1,                      # or 0, default 1. To display seach hints in labels
+    Type                   => 'some type',            # search preference type
+
+);
+}
+]]></content>
+    <tabTrigger>otrs.BackendObject.SearchFieldRender</tabTrigger>
+    <description>4, 5</description>
+</snippet>

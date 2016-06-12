@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my %NotificationEvent = \$TemplateGeneratorObject->NotificationEvent(
+    TicketID              => \$TicketID,
+    Recipient             => \$UserDataHashRef,          # Agent or Customer data get result
+    Notification          => \$NotificationDataHashRef,
+    CustomerMessageParams => \$ArticleHashRef,           # optional
+    UserID                => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TemplateGeneratorObject.NotificationEvent</tabTrigger>
+    <description>5</description>
+</snippet>

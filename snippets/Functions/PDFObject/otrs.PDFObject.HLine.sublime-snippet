@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:\$True = \$PDFObject->HLine(
+    Width     => 300,           # (optional) default 'end of printable dimension'
+    Type      => 'ReturnFalse'  # (optional) default Cut (ReturnFalse|Cut)
+    Color     => '#101010',     # (optional) default black
+    LineWidth => 1,             # (optional) default 1
+);
+}
+]]></content>
+    <tabTrigger>otrs.PDFObject.HLine</tabTrigger>
+    <description>4, 5</description>
+</snippet>

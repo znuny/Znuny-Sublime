@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$String = \$LayoutObject->LinkObjectSelectableObjectList(
+    Object   => 'Ticket',
+    Selected => \$Identifier,  # (optional)
+);
+}
+]]></content>
+    <tabTrigger>otrs.LayoutObject.LinkObjectSelectableObjectList</tabTrigger>
+    <description>4</description>
+</snippet>

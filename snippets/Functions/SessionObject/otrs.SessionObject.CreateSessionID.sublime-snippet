@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SessionID = \$SessionObject->CreateSessionID(
+    UserLogin => 'root',
+    UserEmail => 'root@example.com',
+);
+}
+]]></content>
+    <tabTrigger>otrs.SessionObject.CreateSessionID</tabTrigger>
+    <description>4, 5</description>
+</snippet>

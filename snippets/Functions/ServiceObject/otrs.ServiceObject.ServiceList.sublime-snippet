@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %ServiceList = \$ServiceObject->ServiceList(
+    Valid  => 0,   # (optional) default 1 (0|1)
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ServiceObject.ServiceList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,51 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Sent = \$EmailObject->Send(
+    From          => 'me@example.com',
+    To            => 'friend@example.com',
+    Cc            => 'Some Customer B <customer-b@example.com>',   # not required
+    ReplyTo       => 'Some Customer B <customer-b@example.com>',   # not required, is possible to use 'Reply-To' instead
+    Subject       => 'Some words!',
+    Charset       => 'iso-8859-15',
+    MimeType      => 'text/plain', # "text/plain" or "text/html"
+    Body          => 'Some nice text',
+    InReplyTo     => '<somemessageid-2@example.com>',
+    References    => '<somemessageid-1@example.com> <somemessageid-2@example.com>',
+    Loop          => 1, # not required, removes smtp from
+    CustomHeaders => \{
+        X-OTRS-MyHeader => 'Some Value',
+    \},
+    Attachment   => [
+        \{
+            Filename    => "somefile.csv",
+            Content     => \$ContentCSV,
+            ContentType => "text/csv",
+        \},
+        \{
+            Filename    => "somefile.png",
+            Content     => \$ContentPNG,
+            ContentType => "image/png",
+        \}
+    ],
+    Sign => \{
+        Type    => 'PGP',
+        SubType => 'Inline|Detached',
+        Key     => '81877F5E',
+
+        Type => 'SMIME',
+        Key  => '3b630c80',
+    \},
+    Crypt => \{
+        Type    => 'PGP',
+        SubType => 'Inline|Detached',
+        Key     => '81877F5E',
+
+        Type => 'SMIME',
+        Key  => '3b630c80',
+    \},
+);
+}
+]]></content>
+    <tabTrigger>otrs.EmailObject.Send</tabTrigger>
+    <description>4, 5</description>
+</snippet>

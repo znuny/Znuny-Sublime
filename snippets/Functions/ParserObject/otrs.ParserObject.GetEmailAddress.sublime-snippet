@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SenderEmail = \$ParserObject->GetEmailAddress(
+    Email => 'Juergen Weber <juergen.qeber@air.com>',
+);
+}
+]]></content>
+    <tabTrigger>otrs.ParserObject.GetEmailAddress</tabTrigger>
+    <description>4, 5</description>
+</snippet>

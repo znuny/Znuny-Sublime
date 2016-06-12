@@ -1,0 +1,57 @@
+<snippet>
+    <content><![CDATA[
+${1:(%Return, \$CellData, \$ColumnData) = \$PDFObject->Table(
+    CellData            => \$CellData,    # 2D arrayref (see example)
+    ColumnData          => \$ColumnData,  # arrayref (see example)
+    RowData             => \$RowData,     # arrayref (see example)
+    Type                => 'Cut',        # (optional) default ReturnLeftOver (ReturnLeftOver|ReturnLeftOverHard|Cut)
+    Width               => 300,          # (optional) default maximal width
+    Height              => 400,          # (optional) default minimal height
+    Font                => 'Monospaced', # (optional) default Proportional (see DocumentNew())
+    FontSize            => 9,            # (optional) default 11
+    FontColor           => 'red',        # (optional) default black
+    FontColorEven       => 'blue',       # (optional) cell font color for even rows
+    FontColorOdd        => 'green',      # (optional) cell font color for odd rows
+    Align               => 'right',      # (optional) default left (left|center|right)
+    Lead                => 3,            # (optional) default 1
+    Padding             => 18,           # (optional) default 3
+    PaddingTop          => 10,           # (optional) top cell padding, overides Padding
+    PaddingRight        => 30,           # (optional) right cell padding, overides Padding
+    PaddingBottom       => 30,           # (optional) bottom cell padding, overides Padding
+    PaddingLeft         => 10,           # (optional) left cell padding, overides Padding
+    BackgroundColor     => '#101010',    # (optional) default white
+    BackgroundColorEven => '#F0F0F0',    # (optional) cell background color for even rows
+    BackgroundColorOdd  => '#A0A0A0',    # (optional) cell background color for odd rows
+    Border              => 1,            # (optional) default 1 (values between 0 and 20)
+    BorderColor         => '#FF0000',    # (optional) default black
+);
+}${2:%Return = \$PDFObject->Table(
+    CellData            => \$CellData,    # 2D arrayref (see example)
+    ColumnData          => \$ColumnData,  # arrayref (see example)
+    RowData             => \$RowData,     # arrayref (see example)
+    Type                => 'Cut',        # (optional) default ReturnLeftOver (ReturnLeftOver|ReturnLeftOverHard|Cut)
+    Width               => 300,          # (optional) default maximal width
+    Height              => 400,          # (optional) default minimal height
+    Font                => 'Monospaced', # (optional) default Proportional (see DocumentNew())
+    FontSize            => 9,            # (optional) default 11
+    FontColor           => 'red',        # (optional) default black
+    FontColorEven       => 'blue',       # (optional) cell font color for even rows
+    FontColorOdd        => 'green',      # (optional) cell font color for odd rows
+    Align               => 'right',      # (optional) default left (left|center|right)
+    Lead                => 3,            # (optional) default 1
+    Padding             => 18,           # (optional) default 3
+    PaddingTop          => 10,           # (optional) top cell padding, overides Padding
+    PaddingRight        => 30,           # (optional) right cell padding, overides Padding
+    PaddingBottom       => 30,           # (optional) bottom cell padding, overides Padding
+    PaddingLeft         => 10,           # (optional) left cell padding, overides Padding
+    BackgroundColor     => '#101010',    # (optional) default white
+    BackgroundColorEven => '#F0F0F0',    # (optional) cell background color for even rows
+    BackgroundColorOdd  => '#A0A0A0',    # (optional) cell background color for odd rows
+    Border              => 1,            # (optional) default 1 (values between 0 and 20)
+    BorderColor         => '#FF0000',    # (optional) default black
+);
+}
+]]></content>
+    <tabTrigger>otrs.PDFObject.Table</tabTrigger>
+    <description>4</description>
+</snippet>

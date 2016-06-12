@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$StatsRef = \$StatsObject->StatsListGet(
+    AccessRw => 1, # Optional, indicates that user may see all statistics
+);
+}${2:my \$StatsRef = \$StatsObject->StatsListGet(
+    AccessRw => 1, # Optional, indicates that user may see all statistics
+    UserID   => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.StatsObject.StatsListGet</tabTrigger>
+    <description>4</description>
+</snippet>

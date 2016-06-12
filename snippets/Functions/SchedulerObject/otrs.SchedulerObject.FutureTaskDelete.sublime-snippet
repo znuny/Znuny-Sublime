@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$SchedulerObject->FutureTaskDelete(
+    TaskID => \$TaskID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.SchedulerObject.FutureTaskDelete</tabTrigger>
+    <description>5</description>
+</snippet>

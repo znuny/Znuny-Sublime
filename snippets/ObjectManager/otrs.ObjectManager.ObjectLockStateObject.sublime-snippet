@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$ObjectLockStateObject = \$Kernel::OM->Get('Kernel::System::GenericInterface::ObjectLockState');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.ObjectLockStateObject</tabTrigger>
+    <description>4, 5</description>
+</snippet>

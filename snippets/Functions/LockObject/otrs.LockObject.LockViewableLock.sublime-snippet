@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my @ListID = \$LockObject->LockViewableLock(
+    Type => 'ID', # ID|Name
+);
+}${2:my @List = \$LockObject->LockViewableLock(
+    Type => 'Name', # ID|Name
+);
+}
+]]></content>
+    <tabTrigger>otrs.LockObject.LockViewableLock</tabTrigger>
+    <description>4, 5</description>
+</snippet>

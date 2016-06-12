@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my ( \$Content, \$Filename ) = \$SupportBundleGeneratorObject->GeneratePackageList();
+}
+]]></content>
+    <tabTrigger>otrs.SupportBundleGeneratorObject.GeneratePackageList</tabTrigger>
+    <description>4, 5</description>
+</snippet>

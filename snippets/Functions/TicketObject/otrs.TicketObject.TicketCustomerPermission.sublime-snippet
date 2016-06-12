@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Access = \$TicketObject->TicketCustomerPermission(
+    Type     => 'ro',
+    TicketID => \$TicketID,
+    LogNo    => 1,
+    UserID   => \$UserID,
+);
+}${2:my \$Access = \$TicketObject->TicketCustomerPermission(
+    Type     => 'ro',
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.TicketCustomerPermission</tabTrigger>
+    <description>4, 5</description>
+</snippet>

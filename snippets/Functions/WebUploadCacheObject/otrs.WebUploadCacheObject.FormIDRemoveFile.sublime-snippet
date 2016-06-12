@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$WebUploadCacheObject->FormIDRemoveFile(
+    FormID => \$FormID,
+    FileID => \$FileID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.WebUploadCacheObject.FormIDRemoveFile</tabTrigger>
+    <description>4, 5</description>
+</snippet>

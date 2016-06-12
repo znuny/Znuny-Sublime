@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SLAName = \$SLAObject->SLALookup(
+    SLAID => \$SLAID,
+);
+}${2:my \$SLAID = \$SLAObject->SLALookup(
+    Name => 'SLA Name',
+);
+}
+]]></content>
+    <tabTrigger>otrs.SLAObject.SLALookup</tabTrigger>
+    <description>4, 5</description>
+</snippet>

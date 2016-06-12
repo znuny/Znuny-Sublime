@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Valid = \$CheckItemObject->CheckEmail(
+    Address => 'info@example.com',
+);
+}
+]]></content>
+    <tabTrigger>otrs.CheckItemObject.CheckEmail</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -3,5 +3,5 @@
 my \$EventObject = \$Kernel::OM->Get('Kernel::System::Event');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.EventObject</tabTrigger>
+    <description>4, 5</description>
 </snippet>
-

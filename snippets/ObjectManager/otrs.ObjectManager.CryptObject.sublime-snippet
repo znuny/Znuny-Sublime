@@ -3,5 +3,5 @@
 my \$CryptObject = \$Kernel::OM->Get('Kernel::System::Crypt');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.CryptObject</tabTrigger>
+    <description>4</description>
 </snippet>
-

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:\$PackageObject->PackageVerify(
+    Package => \$Package,
+    Name    => 'FAQ',
+);
+}${2:\$PackageObject->PackageVerify(
+    Package   => \$Package,
+    Structure => \%Structure,
+);
+}
+]]></content>
+    <tabTrigger>otrs.PackageObject.PackageVerify</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Self->Run(
+    Name      => 'JSON:User:Auth',  # optional, control which tests to select
+    Directory => 'Selenium',        # optional, control which tests to select
+
+    SubmitURL => \$URL,              # optional, send results to unit test result server
+);
+}${2:\$Self->Run(
+    Name      => 'JSON:User:Auth',  # optional, control which tests to select
+    Directory => 'Selenium',        # optional, control which tests to select
+    SubmitURL => \$URL,              # optional, send results to unit test result server
+    Verbose   => 1,                 # optional (default 0), only show result details for all tests, not just failing
+);
+}
+]]></content>
+    <tabTrigger>otrs.UnitTestObject.Run</tabTrigger>
+    <description>4</description>
+</snippet>

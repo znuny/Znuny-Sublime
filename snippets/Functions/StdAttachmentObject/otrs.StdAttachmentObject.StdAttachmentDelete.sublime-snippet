@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:\$StdAttachmentObject->StdAttachmentDelete(
+    ID => \$ID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.StdAttachmentObject.StdAttachmentDelete</tabTrigger>
+    <description>4, 5</description>
+</snippet>
