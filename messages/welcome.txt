@@ -14,6 +14,9 @@ Enjoy!
  Your Znuny Team!
 
 
+Version 0.0.27
+✔ Activated insane mode. Deal with it.
+
 Version 0.0.26
 ✔ Added snippet for ACLs.
 ✔ Added snippet for Calendar SysConfig.
