@@ -1,17 +1,17 @@
 <snippet>
     <content><![CDATA[
-${1:\$ConfigObject->ObjectParamAdd(
+${1:\$Kernel::OM->ObjectParamAdd(
     'Kernel::System::Ticket' => \{
         Key => undef,               # this will remove the key from the hash
     \},
 );
-}${2:\$ConfigObject->ObjectParamAdd(
+}${2:\$Kernel::OM->ObjectParamAdd(
     'Kernel::System::Ticket' => \{
         Key => 'Value',
     \},
 );
 }
 ]]></content>
-    <tabTrigger>otrs.ConfigObject.ObjectParamAdd</tabTrigger>
+    <tabTrigger>otrs.ObjectManager.ObjectParamAdd</tabTrigger>
     <description>4, 5</description>
 </snippet>

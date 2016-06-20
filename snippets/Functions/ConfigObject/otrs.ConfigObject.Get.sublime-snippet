@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$$1 = \$ConfigObject->Get('$2');
+]]></content>
+    <tabTrigger>otrs.ConfigOject.Get</tabTrigger>
+    <description>4, 5</description>
+</snippet>

@@ -18,5 +18,5 @@ sub $1 {
     $4
 }
 ]]></content>
-    <tabTrigger>otrs.perl.sub</tabTrigger>
+    <tabTrigger>sub</tabTrigger>
 </snippet>

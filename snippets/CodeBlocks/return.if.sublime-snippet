@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+return${1: } if ${2:!};
+]]></content>
+    <tabTrigger>return.if</tabTrigger>
+</snippet>

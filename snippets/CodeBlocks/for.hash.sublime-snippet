@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+$1:
+for my \$$2 ( ${3:sort }keys %$4 ) {
+    $5
+}
+]]></content>
+    <tabTrigger>for.hash</tabTrigger>
+</snippet>

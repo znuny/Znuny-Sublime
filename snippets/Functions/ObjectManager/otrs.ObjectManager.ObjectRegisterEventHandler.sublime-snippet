@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
-${1:\$ConfigObject->ObjectRegisterEventHandler(
+${1:\$Kernel::OM->ObjectRegisterEventHandler(
     EventHandler => \$EventHandlerObject,
 );
 }
 ]]></content>
-    <tabTrigger>otrs.ConfigObject.ObjectRegisterEventHandler</tabTrigger>
+    <tabTrigger>otrs.ObjectManager.ObjectRegisterEventHandler</tabTrigger>
     <description>4, 5</description>
 </snippet>

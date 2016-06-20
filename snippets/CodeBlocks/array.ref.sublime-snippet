@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+\@${1:Array}
+]]></content>
+    <tabTrigger>array.ref</tabTrigger>
+</snippet>

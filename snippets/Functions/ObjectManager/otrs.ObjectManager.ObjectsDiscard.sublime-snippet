@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-${1:\$ConfigObject->ObjectsDiscard(
+${1:\$Kernel::OM->ObjectsDiscard(
     Objects            => ['Kernel::System::Ticket', 'Kernel::System::Queue'],
 
     # optional
@@ -10,9 +10,9 @@ ${1:\$ConfigObject->ObjectsDiscard(
     # and forced to be reloaded
     ForcePackageReload => 1,
 );
-}${2:\$ConfigObject->ObjectsDiscard();
+}${2:\$Kernel::OM->ObjectsDiscard();
 }
 ]]></content>
-    <tabTrigger>otrs.ConfigObject.ObjectsDiscard</tabTrigger>
+    <tabTrigger>otrs.ObjectManager.ObjectsDiscard</tabTrigger>
     <description>4, 5</description>
 </snippet>

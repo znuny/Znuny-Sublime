@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+else {
+    $1
+}
+]]></content>
+    <tabTrigger>else</tabTrigger>
+</snippet>

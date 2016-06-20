@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+my @${1:Array} = @{ \$$2 };
+]]></content>
+    <tabTrigger>array.deref</tabTrigger>
+</snippet>

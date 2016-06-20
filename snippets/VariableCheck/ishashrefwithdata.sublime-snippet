@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-IsHashRefWithData(${1:\\})
+IsHashRefWithData($1)
 ]]></content>
     <tabTrigger>IsHashRefWithData</tabTrigger>
 </snippet>

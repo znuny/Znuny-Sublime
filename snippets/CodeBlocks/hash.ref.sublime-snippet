@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+\%${1:Hash}
+]]></content>
+    <tabTrigger>hash.ref</tabTrigger>
+</snippet>
