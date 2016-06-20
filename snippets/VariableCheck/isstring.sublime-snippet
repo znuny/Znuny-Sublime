@@ -2,5 +2,5 @@
     <content><![CDATA[
 IsString($1)
 ]]></content>
-    <tabTrigger>isstring</tabTrigger>
+    <tabTrigger>IsString</tabTrigger>
 </snippet>

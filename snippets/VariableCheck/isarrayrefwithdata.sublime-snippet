@@ -2,5 +2,5 @@
     <content><![CDATA[
 IsArrayRefWithData(${1:\\})
 ]]></content>
-    <tabTrigger>isarrayrefwithdata</tabTrigger>
+    <tabTrigger>IsArrayRefWithData</tabTrigger>
 </snippet>

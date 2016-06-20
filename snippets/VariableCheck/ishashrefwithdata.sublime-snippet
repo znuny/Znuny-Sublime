@@ -2,5 +2,5 @@
     <content><![CDATA[
 IsHashRefWithData(${1:\\})
 ]]></content>
-    <tabTrigger>ishashrefwithdata</tabTrigger>
+    <tabTrigger>IsHashRefWithData</tabTrigger>
 </snippet>

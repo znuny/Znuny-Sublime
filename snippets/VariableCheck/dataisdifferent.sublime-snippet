@@ -5,5 +5,5 @@ my \$${3:DataIsDifferent} = DataIsDifferent(
     Data2 => \\\$${2:Data2},
 );
 ]]></content>
-    <tabTrigger>dataisdifferent</tabTrigger>
+    <tabTrigger>DataIsDifferent</tabTrigger>
 </snippet>
