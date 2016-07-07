@@ -15,6 +15,9 @@ Enjoy!
 
 
 Version 0.0.28
+✔ Fixed bug: UnitTest shortcut not usable on Windows machines.
+
+Version 0.0.28
 ✔ Usability improvement for VariableCheck snippets.
 ✔ Further snippet refactoring.
 ✔ Added basic perl snippets.
