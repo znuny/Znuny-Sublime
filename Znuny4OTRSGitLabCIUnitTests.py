@@ -30,7 +30,7 @@ class Znuny4OtrsGitLabCiUnitTests(sublime_plugin.TextCommand):
       else:
         sub_dir = ''
 
-      if not re.search(r'^scripts/test', sub_dir):
+      if not re.search(r"^scripts"+ re.escape(os.path.sep) + r"test", sub_dir):
         continue
 
       for filename in filenames:
