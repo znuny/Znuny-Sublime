@@ -3,8 +3,6 @@
 ${1:    while (my @Row = \$DBObject->FetchrowArray()) \{
         print "\$Row[0]:\$Row[1]\n";
     \}
-
-
 }
 ]]></content>
     <tabTrigger>otrs.DBObject.FetchrowArray</tabTrigger>
