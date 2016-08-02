@@ -14,7 +14,11 @@ Enjoy!
  Your Znuny Team!
 
 
-Version 0.0.28
+Version 0.0.30
+✔ Added OTRS comment style.
+✔ Improved snippets.
+
+Version 0.0.29
 ✔ Fixed bug: UnitTest shortcut not usable on Windows machines.
 
 Version 0.0.28
