@@ -59,6 +59,9 @@ class Znuny4OtrsGenerateFilelist(sublime_plugin.TextCommand):
       if re.search(r'^bin/', file_location):
         permission = '755'
 
+      if re.search(r'\.sh$', file_location):
+        permission = '755'
+
       if os.path.sep != '/':
         file_location = file_location.replace(os.path.sep, '/')
 
