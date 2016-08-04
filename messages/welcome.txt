@@ -14,6 +14,9 @@ Enjoy!
  Your Znuny Team!
 
 
+Version 0.0.31
+✔ Fixed issue #10 - Wrong file permissions for .sh files.
+
 Version 0.0.30
 ✔ Added OTRS comment style.
 ✔ Improved snippets.
