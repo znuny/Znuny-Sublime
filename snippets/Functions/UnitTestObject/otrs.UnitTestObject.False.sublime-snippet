@@ -5,6 +5,6 @@
     "$2",
 );
 ]]></content>
-    <tabTrigger>otrs.UnitTest.False</tabTrigger>
+    <tabTrigger>otrs.UnitTestObject.False</tabTrigger>
     <description>4, 5</description>
 </snippet>
