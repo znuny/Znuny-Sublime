@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+my \$Success = \$UnitTestEmailObject->EmailValidate(
+    Email   => \@Email,
+    Header  => qr{To\:\sto\@test.com}xms,       # Regex or Array of Regexes that all have to matche
+                                                # in the Header of one single email
+                                                # example: [qr{To\:\sto\@test.com}xms, qr{To\:\scc\@test.com}xms ],
+
+    Body    => qr{Hello [ ] World}xms,          # Regex or string 'Hello World'
+
+    TOArray => 'email1realrecipient1@test.com', # or Array with all real recipients
+                                                # example: ['email1realrecipient1@test.com', 'email1realrecipient2@test.com', ],
+                                                #
+                                                # instead of String or Array of Strings
+                                                # a Regex or an Array of Regexes is possible too
+);
+]]></content>
+    <tabTrigger>otrs.UnitTestEmailObject.EmailValidate</tabTrigger>
+    <description>4, 5</description>
+</snippet>

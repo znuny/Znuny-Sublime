@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$Success = \$UnitTestEmailObject->EmailGet();
+]]></content>
+    <tabTrigger>otrs.UnitTestEmailObject.EmailGet</tabTrigger>
+    <description>4, 5</description>
+</snippet>

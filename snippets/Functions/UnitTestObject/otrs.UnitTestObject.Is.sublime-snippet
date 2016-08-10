@@ -1,12 +1,10 @@
 <snippet>
     <content><![CDATA[
-${1:my \$IsResult = \$Self->Is(
-    \$ValueFromFunction,      # test data
-    1,                       # expected value
-    'Test Name',
+\$Self->Is(
+    $1, # test scalar/string
+    $2, # expected scalar/string
+    "$3",
 );
-}${2:\$Self->Is(\$A, \$B, 'Test Name');
-}
 ]]></content>
     <tabTrigger>otrs.UnitTestObject.Is</tabTrigger>
     <description>4, 5</description>

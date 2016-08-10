@@ -6,5 +6,6 @@
     "$3",
 );
 ]]></content>
-    <tabTrigger>otrs.unittest.isnot</tabTrigger>
+    <tabTrigger>otrs.UnitTest.IsNot</tabTrigger>
+    <description>4, 5</description>
 </snippet>

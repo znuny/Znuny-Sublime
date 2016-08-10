@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$Success = \$UnitTestEmailObject->MailBackendSetup();
+]]></content>
+    <tabTrigger>otrs.UnitTestEmailObject.MailBackendSetup</tabTrigger>
+    <description>4, 5</description>
+</snippet>
