@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+use base qw( $1 );
+]]></content>
+    <tabTrigger>use_base</tabTrigger>
+</snippet>
