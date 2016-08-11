@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+my \$JSBlock = <<'JSBLOCK';
+
+JSBLOCK
+
+\$LayoutObject->AddJSOnDocumentCompleteIfNotExists(
+    Key  => '${1:InsertUniqueIdentifierForThisBlockUsuallyPackageName}',
+    Code => \$JSBlock,
+);
+]]></content>
+    <tabTrigger>otrs.AddJSOnDocumentCompleteIfNotExists</tabTrigger>
+    <description>Repo</description>
+</snippet>
