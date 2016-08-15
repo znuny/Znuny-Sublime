@@ -14,6 +14,12 @@ Enjoy!
  Your Znuny Team!
 
 
+Version 0.0.32
+✔ Snippets improvements.
+✔ Added JSOnDocumentCompleteIfNotExists to Functions->LayoutObject.
+✔ Added use base snippet.
+✔ Added UnitTestEmailObject, moved old UnitTest snippets into UnitTestObject.
+
 Version 0.0.31
 ✔ Fixed issue #10 - Wrong file permissions for .sh files.
 
