@@ -14,6 +14,10 @@ Enjoy!
  Your Znuny Team!
 
 
+Version 0.0.33
+✔ Fixed code policy incompatibility - PSD files should get included, README.md don't.
+✔ Fixed object name for HelperObject ObjectManager snippet.
+
 Version 0.0.32
 ✔ Snippets improvements.
 ✔ Added JSOnDocumentCompleteIfNotExists to Functions->LayoutObject.
