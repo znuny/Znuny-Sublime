@@ -16,6 +16,8 @@ sub $1 {
     my ( \$Self, %Param ) = @_;
 
     $4
+
+    return 1;
 }
 ]]></content>
     <tabTrigger>sub</tabTrigger>
