@@ -13,6 +13,9 @@ Enjoy!
 
  Your Znuny Team!
 
+Version 0.0.34
+✔ Improved Perl sub snippet.
+✔ Improved needed loop ObjectManager snippet to include LogObject.
 
 Version 0.0.33
 ✔ Fixed code policy incompatibility - PSD files should get included, README.md don't.
