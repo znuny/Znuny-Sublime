@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+\$ParamObject->GetParam( Param => '$1' )${2: || ''};
+]]></content>
+    <tabTrigger>otrs.param.getparam.object</tabTrigger>
+</snippet>
