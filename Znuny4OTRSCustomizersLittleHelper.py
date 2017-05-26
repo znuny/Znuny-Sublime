@@ -21,7 +21,7 @@ def plugin_loaded():
 
 class Znuny4OtrsCustomizersLittleHelper(sublime_plugin.WindowCommand):
 
-  repository_names    = ['otrs', 'ITSMIncidentProblemManagement', 'ITSMConfigurationManagement', 'ITSMChangeManagement', 'ITSMCore', 'GeneralCatalog', 'ITSMServiceLevelManagement', 'OTRSMasterSlave', 'TimeAccounting', 'Survey', 'FAQ']
+  repository_names    = ['otrs', 'ITSMIncidentProblemManagement', 'ITSMConfigurationManagement', 'ITSMChangeManagement', 'ITSMCore', 'GeneralCatalog', 'ITSMServiceLevelManagement', 'ImportExport', 'OTRSMasterSlave', 'TimeAccounting', 'Survey', 'FAQ']
   selected_repository = ''
   branch_names        = []
   branch_files        = []
