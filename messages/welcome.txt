@@ -13,6 +13,9 @@ Enjoy!
 
  Your Znuny Team!
 
+Version 0.0.36
+✔ Applied new SOPM file permissions to Filelist generator.
+
 Version 0.0.35
 ✔ Applied new origin line format.
 ✔ Added ImportExport repo to Znuny4OtrsCustomizersLittleHelper.
