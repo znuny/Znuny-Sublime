@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$HTMLStr = \$SysConfigObject->SettingRender(
+    Setting   => \{
+        Name             => 'Setting Name',
+        XMLContentParsed => \$XMLParsedToPerl,
+        EffectiveValue   => "Product 6",        # or a complex structure
+        DefaultValue     => "Product 5",        # or a complex structure
+        IsAjax           => 1,                  # (optional) is ajax request. Default 0.
+        # ...
+    \},
+    RW => 1,                                    # (optional) Allow editing. Default 0.
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.SettingRender</tabTrigger>
+    <description>6</description>
+</snippet>

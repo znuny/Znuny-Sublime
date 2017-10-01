@@ -6,5 +6,5 @@ ${1:my \$Process = \$ProcessObject->ProcessGet(
 }
 ]]></content>
     <tabTrigger>otrs.ProcessObject.ProcessGet</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

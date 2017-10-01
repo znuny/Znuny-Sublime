@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
-${1:my %Roles = \$GroupObject->RoleList(
+${1:my %Roles = \$GroupObject->RoleList( Valid => 1 );
+}${2:my %Roles = \$GroupObject->RoleList(
     Valid => 1,
 );
-}${2:my %Roles = \$GroupObject->RoleList( Valid => 1 );
 }
 ]]></content>
     <tabTrigger>otrs.GroupObject.RoleList</tabTrigger>
-    <description>5</description>
+    <description>6, 5, 4</description>
 </snippet>

@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SQL = \$DBObject->QueryInCondition(
+    Key       => 'table.column',
+    Values    => [ 1, 2, 3, 4, 5, 6 ],
+    QuoteType => '(undef|Integer|Number)',
+    BindMode  => (0|1),
+    Negate    => (0|1),
+);
+}
+]]></content>
+    <tabTrigger>otrs.DBObject.QueryInCondition</tabTrigger>
+    <description>6</description>
+</snippet>

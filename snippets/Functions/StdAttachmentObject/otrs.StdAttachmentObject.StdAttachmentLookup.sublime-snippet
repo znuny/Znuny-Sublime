@@ -1,13 +1,13 @@
 <snippet>
     <content><![CDATA[
-${1:my \$Name = \$StdAttachmentObject->StdAttachmentLookup(
-    StdAttachmentID => \$StdAttachmentID,
-);
-}${2:my \$ID = \$StdAttachmentObject->StdAttachmentLookup(
+${1:my \$ID = \$StdAttachmentObject->StdAttachmentLookup(
     StdAttachment => 'Some Name',
+);
+}${2:my \$Name = \$StdAttachmentObject->StdAttachmentLookup(
+    StdAttachmentID => \$StdAttachmentID,
 );
 }
 ]]></content>
     <tabTrigger>otrs.StdAttachmentObject.StdAttachmentLookup</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my %Notification = \$NotificationEventObject->NotificationGet(
+${1:my %Notification = \$NotificationEventObject->NotificationGet( ID => 123 );
+}${2:my %Notification = \$NotificationEventObject->NotificationGet(
     ID => 1,
 );
-}${2:my %Notification = \$NotificationEventObject->NotificationGet( ID => 123 );
 }${3:my %Notification = \$NotificationEventObject->NotificationGet( Name => 'NotificationName' );
 }${4:my %Notification = \$NotificationEventObject->NotificationGet(
     Name => 'NotificationName',
@@ -11,5 +11,5 @@ ${1:my %Notification = \$NotificationEventObject->NotificationGet(
 }
 ]]></content>
     <tabTrigger>otrs.NotificationEventObject.NotificationGet</tabTrigger>
-    <description>5</description>
+    <description>6, 5, 4</description>
 </snippet>

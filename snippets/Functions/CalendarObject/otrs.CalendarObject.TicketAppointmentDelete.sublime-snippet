@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$CalendarObject->TicketAppointmentDelete(
+    CalendarID    => \$CalendarID,
+    RuleID        => \$RuleID,
+    TicketID      => \$TicketID,                                     # (optional) Ticket ID is known
+    AppointmentID => \$AppointmentID,                                     # (optional) Appointment ID is known
+);
+}
+]]></content>
+    <tabTrigger>otrs.CalendarObject.TicketAppointmentDelete</tabTrigger>
+    <description>6</description>
+</snippet>

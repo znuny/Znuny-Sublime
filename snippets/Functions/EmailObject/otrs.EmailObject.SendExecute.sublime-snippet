@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$EmailObject->SendExecute(
+    From                   => \$RealFrom,
+    ToArray                => \@ToArray,
+    Header                 => \\$Param\{Header\},
+    Body                   => \\$Param\{Body\},
+    CommunicationLogObject => \$CommunicationLogObject,
+);
+}
+]]></content>
+    <tabTrigger>otrs.EmailObject.SendExecute</tabTrigger>
+    <description>6</description>
+</snippet>

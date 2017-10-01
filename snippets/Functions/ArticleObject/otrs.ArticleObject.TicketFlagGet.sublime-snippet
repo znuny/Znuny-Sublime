@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Flags = \$TicketObject->TicketFlagGet(
+    TicketID => \$TicketID,
+    AllUsers => 1,    # to get flags of all users
+);
+}${2:my %Flags = \$TicketObject->TicketFlagGet(
+    TicketID => \$TicketID,
+    UserID   => \$UserID,  # to get flags of one user
+);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.TicketFlagGet</tabTrigger>
+    <description>6</description>
+</snippet>

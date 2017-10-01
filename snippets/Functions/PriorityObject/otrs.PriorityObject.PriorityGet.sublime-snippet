@@ -7,5 +7,5 @@ ${1:my %List = \$PriorityObject->PriorityGet(
 }
 ]]></content>
     <tabTrigger>otrs.PriorityObject.PriorityGet</tabTrigger>
-    <description>5</description>
+    <description>6, 5, 4</description>
 </snippet>

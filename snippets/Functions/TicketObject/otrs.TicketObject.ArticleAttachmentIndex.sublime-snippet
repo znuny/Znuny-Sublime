@@ -1,10 +1,8 @@
 <snippet>
     <content><![CDATA[
 ${1:my %Index = \$TicketObject->ArticleAttachmentIndex(
-    ArticleID                  => \$ArticleID,
-    UserID                     => \$UserID,
-    Article                    => \%Article,
-    StripPlainBodyAsAttachment => 2,
+    ArticleID => \$ArticleID,
+    UserID    => \$UserID,
 );
 }${2:my %Index = \$TicketObject->ArticleAttachmentIndex(
     ArticleID                  => \$ArticleID,
@@ -19,11 +17,13 @@ ${1:my %Index = \$TicketObject->ArticleAttachmentIndex(
     StripPlainBodyAsAttachment => 3,
 );
 }${4:my %Index = \$TicketObject->ArticleAttachmentIndex(
-    ArticleID => \$ArticleID,
-    UserID    => \$UserID,
+    ArticleID                  => \$ArticleID,
+    UserID                     => \$UserID,
+    Article                    => \%Article,
+    StripPlainBodyAsAttachment => 2,
 );
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.ArticleAttachmentIndex</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

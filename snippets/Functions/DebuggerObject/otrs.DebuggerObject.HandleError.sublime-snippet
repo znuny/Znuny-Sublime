@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$DebuggerObject->HandleError(
+    Data => \{                               # data payload
+        ...
+    \},
+);
+}
+]]></content>
+    <tabTrigger>otrs.DebuggerObject.HandleError</tabTrigger>
+    <description>6</description>
+</snippet>

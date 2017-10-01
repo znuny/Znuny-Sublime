@@ -1,16 +1,16 @@
 <snippet>
     <content><![CDATA[
 ${1:my @XMLHash = \$XMLObject->XMLHashGet(
+    Type => 'SomeType',
+    Key  => '123',
+);
+}${2:my @XMLHash = \$XMLObject->XMLHashGet(
     Type  => 'SomeType',
     Key   => '123',
     Cache => 0,   # (optional) do not use cached data
 );
-}${2:my @XMLHash = \$XMLObject->XMLHashGet(
-    Type => 'SomeType',
-    Key  => '123',
-);
 }
 ]]></content>
     <tabTrigger>otrs.XMLObject.XMLHashGet</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

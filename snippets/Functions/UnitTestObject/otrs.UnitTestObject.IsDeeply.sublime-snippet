@@ -1,11 +1,13 @@
 <snippet>
     <content><![CDATA[
-\$Self->IsDeeply(
-    $1, # test hashref/arrayref
-    $2, # expected hashref/arrayre
-    "$3",
+${1:\$Self->IsDeeply(\$ParamA, \$ParamB, 'Test Name');
+}${2:my \$IsDeeplyResult = \$Self->IsDeeply(
+    \%ResultHash,           # test data
+    \%ExpectedHash,         # expected value
+    'Dummy Test Name',
 );
+}
 ]]></content>
     <tabTrigger>otrs.UnitTestObject.IsDeeply</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

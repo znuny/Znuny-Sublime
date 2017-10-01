@@ -8,5 +8,5 @@ ${1:my \$Success = \$TicketObject->TicketLockSet(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketLockSet</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

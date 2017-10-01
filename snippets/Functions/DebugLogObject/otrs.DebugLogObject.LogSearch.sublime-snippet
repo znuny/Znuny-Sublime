@@ -5,7 +5,6 @@ ${1:my \$LogData = \$DebugLogObject->LogSearch(
     CommunicationType => 'Provider',     # optional, 'Provider' or 'Requester'
     CreatedAtOrAfter  => '2011-01-01 00:00:00', # optional
     CreatedAtOrBefore => '2011-12-31 23:59:59', # optional
-    Limit             => 1000, # optional, default 100
     RemoteIP          => '192.168.0.1', # optional, must be valid IPv4 or IPv6 address
     WebserviceID      => \$WebserviceID, # optional
     WithData          => 0, # optional
@@ -15,12 +14,24 @@ ${1:my \$LogData = \$DebugLogObject->LogSearch(
     CommunicationType => 'Provider',     # optional, 'Provider' or 'Requester'
     CreatedAtOrAfter  => '2011-01-01 00:00:00', # optional
     CreatedAtOrBefore => '2011-12-31 23:59:59', # optional
+    Limit             => 1000, # optional, default 100
     RemoteIP          => '192.168.0.1', # optional, must be valid IPv4 or IPv6 address
     WebserviceID      => \$WebserviceID, # optional
     WithData          => 0, # optional
 );
+}${3:my \$LogData = \$DebugLogObject->LogSearch(
+    CommunicationID   => \$CommunicationID, # optional
+    CommunicationType => 'Provider',     # optional, 'Provider' or 'Requester'
+    CreatedAtOrAfter  => '2011-01-01 00:00:00', # optional
+    CreatedAtOrBefore => '2011-12-31 23:59:59', # optional
+    Limit             => 1000, # optional, default 100
+    RemoteIP          => '192.168.0.1', # optional, must be valid IPv4 or IPv6 address
+    WebserviceID      => \$WebserviceID, # optional
+    WithData          => 0, # optional
+    Sort              => 'ASC', # optional. 'ASC' (default) or 'DESC'
+);
 }
 ]]></content>
     <tabTrigger>otrs.DebugLogObject.LogSearch</tabTrigger>
-    <description>5</description>
+    <description>6, 5, 4</description>
 </snippet>

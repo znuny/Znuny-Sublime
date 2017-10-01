@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$CommunicationLogObject->ObjectLog(
+    ObjectLogType => '...' # (required) To be defined by the related LogObject
+    ObjectLogID   => \$ObjectLogID, # (required) The ObjectID of the started object type
+);
+}
+]]></content>
+    <tabTrigger>otrs.CommunicationLogObject.ObjectLog</tabTrigger>
+    <description>6</description>
+</snippet>

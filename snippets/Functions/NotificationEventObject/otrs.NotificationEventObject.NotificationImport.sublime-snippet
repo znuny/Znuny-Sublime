@@ -8,5 +8,5 @@ ${1:my \$NotificationImport = \$NotificationEventObject->NotificationImport(
 }
 ]]></content>
     <tabTrigger>otrs.NotificationEventObject.NotificationImport</tabTrigger>
-    <description>5</description>
+    <description>6, 5</description>
 </snippet>

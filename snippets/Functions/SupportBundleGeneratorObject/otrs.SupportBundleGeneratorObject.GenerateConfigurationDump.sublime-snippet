@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my ( \$Content, \$Filename ) = \$SupportBundleGeneratorObject->GenerateConfigurationDump();
+}
+]]></content>
+    <tabTrigger>otrs.SupportBundleGeneratorObject.GenerateConfigurationDump</tabTrigger>
+    <description>6</description>
+</snippet>

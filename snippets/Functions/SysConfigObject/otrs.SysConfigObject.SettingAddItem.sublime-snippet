@@ -1,0 +1,34 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Result = \$SysConfigObject->SettingAddItem(
+    SettingStructure  => [],         # (required) array that contains structure
+                                     #  where a new item should be inserted (can be empty)
+    Setting           => \{           # (required) Setting hash (from SettingGet())
+        'DefaultID' => '8905',
+        'DefaultValue' => [ 'Item 1', 'Item 2' ],
+        'Description' => 'Simple array item(Min 1, Max 3).',
+        'Name' => 'TestArray',
+        ...
+    \},
+    Key               => 'HashKey',  # (optional) hash key
+    IDSuffix          => '_Array3,   # (optional) suffix that will be added to all input/select fields
+                                     #    (it is used in the JS on Update, during EffectiveValue calculation)
+    Value             => [           # (optional) Perl structure
+        \{
+            'Array' => [
+                'Item' => [
+                    \{
+                    'Content' => 'Item 1',
+                    \},
+                    ...
+                ],
+            ],
+        \},
+    ],
+    AddSettingContent => 0,          # (optional) if enabled, result will be inside of div with class "SettingContent"
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.SettingAddItem</tabTrigger>
+    <description>6</description>
+</snippet>

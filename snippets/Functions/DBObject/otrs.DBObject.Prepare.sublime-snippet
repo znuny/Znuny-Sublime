@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 ${1:\$DBObject->Prepare(
-    SQL    => "SELECT id, name, content FROM table",
-    Encode => [ 1, 1, 0 ],
+    SQL   => "SELECT id, name FROM table",
+    Limit => 10,
 );
 }${2:\$DBObject->Prepare(
     SQL   => "SELECT id, name FROM table",
@@ -10,8 +10,8 @@ ${1:\$DBObject->Prepare(
     Limit => 20,
 );
 }${3:\$DBObject->Prepare(
-    SQL   => "SELECT id, name FROM table",
-    Limit => 10,
+    SQL    => "SELECT id, name, content FROM table",
+    Encode => [ 1, 1, 0 ],
 );
 }${4:\$DBObject->Prepare(
     SQL    => "SELECT id, name, content FROM table WHERE name_a = ? AND name_b = ?",
@@ -21,5 +21,5 @@ ${1:\$DBObject->Prepare(
 }
 ]]></content>
     <tabTrigger>otrs.DBObject.Prepare</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$CommunicationChannelObject->ChannelSync(
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.CommunicationChannelObject.ChannelSync</tabTrigger>
+    <description>6</description>
+</snippet>

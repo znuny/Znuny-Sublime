@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Status = \$ArticleObject->ArticleSearchIndexStatus();
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.ArticleSearchIndexStatus</tabTrigger>
+    <description>6</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ArticleBackendObject = \$ArticleObject->BackendForChannel( ChannelName => 'Email' );
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.BackendForChannel</tabTrigger>
+    <description>6</description>
+</snippet>

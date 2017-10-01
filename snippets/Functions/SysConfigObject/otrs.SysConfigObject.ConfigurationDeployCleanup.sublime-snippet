@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$SysConfigObject->ConfigurationDeployCleanup();
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.ConfigurationDeployCleanup</tabTrigger>
+    <description>6</description>
+</snippet>

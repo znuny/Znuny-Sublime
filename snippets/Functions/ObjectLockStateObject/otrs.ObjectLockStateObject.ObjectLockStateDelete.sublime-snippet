@@ -8,5 +8,5 @@ ${1:my \$Success = \$ObjectLockStateObject->ObjectLockStateDelete(
 }
 ]]></content>
     <tabTrigger>otrs.ObjectLockStateObject.ObjectLockStateDelete</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

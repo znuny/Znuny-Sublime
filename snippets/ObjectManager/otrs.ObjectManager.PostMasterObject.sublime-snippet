@@ -1,7 +1,13 @@
 <snippet>
     <content><![CDATA[
-my \$PostMasterObject = \$Kernel::OM->Get('Kernel::System::PostMaster');
+my \$PostMasterObject = \$Kernel::OM->Create(
+        'Kernel::System::PostMaster',
+        ObjectParams => \{
+            Email        => \@ArrayOfEmailContent,
+            Trusted      => 1, # 1|0 ignore X-OTRS header if false
+        \},
+    );
 ]]></content>
     <tabTrigger>otrs.ObjectManager.PostMasterObject</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

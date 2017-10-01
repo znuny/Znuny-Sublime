@@ -1,15 +1,15 @@
 <snippet>
     <content><![CDATA[
-${1:\$TypeID = \$LinkObject->TypeLookup(
-    Name   => 'Normal',
+${1:\$Name = \$LinkObject->TypeLookup(
+    TypeID => \$TypeID,
     UserID => \$UserID,
 );
-}${2:\$Name = \$LinkObject->TypeLookup(
-    TypeID => \$TypeID,
+}${2:\$TypeID = \$LinkObject->TypeLookup(
+    Name   => 'Normal',
     UserID => \$UserID,
 );
 }
 ]]></content>
     <tabTrigger>otrs.LinkObject.TypeLookup</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:\$HelperObject->TestDatabaseCleanup();
+}
+]]></content>
+    <tabTrigger>otrs.HelperObject.TestDatabaseCleanup</tabTrigger>
+    <description>6</description>
+</snippet>

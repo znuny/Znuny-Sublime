@@ -10,5 +10,5 @@ ${1:my \$SQL = \$BackendObject->SearchSQLGet(
 }
 ]]></content>
     <tabTrigger>otrs.BackendObject.SearchSQLGet</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

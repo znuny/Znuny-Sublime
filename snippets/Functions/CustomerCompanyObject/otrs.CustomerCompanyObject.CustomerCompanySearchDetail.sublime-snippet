@@ -1,0 +1,51 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$CustomerCompanyIDsRef = \$CustomerCompanyObject->CustomerCompanySearchDetail(
+
+    # all search fields possible which are defined in CustomerCompany::EnhancedSearchFields
+    CustomerID          => \$CustomerID,                                  # (optional)
+    CustomerCompanyName => 'Name*',                                     # (optional)
+
+    # array parameters are used with logical OR operator (all values are possible which
+    are defined in the config selection hash for the field)
+    CustomerCompanyCountry => [ 'Austria', 'Germany', ],                # (optional)
+
+    # DynamicFields
+    #   At least one operator must be specified. Operators will be connected with AND,
+    #       values in an operator with OR.
+    #   You can also pass more than one argument to an operator: ['value1', 'value2']
+    DynamicField_FieldNameX => \{
+        Equals            => 123,
+        Like              => 'value*',                # "equals" operator with wildcard support
+        GreaterThan       => '2001-01-01 01:01:01',
+        GreaterThanEquals => '2001-01-01 01:01:01',
+        SmallerThan       => '2002-02-02 02:02:02',
+        SmallerThanEquals => '2002-02-02 02:02:02',
+    \}
+
+    OrderBy => [ 'CustomerID', 'CustomerCompanyCountry' ],              # (optional)
+    # ignored if the result type is 'COUNT'
+    # default: [ 'CustomerID' ]
+    # (all search fields possible which are defined in
+    CustomerCompany::EnhancedSearchFields)
+
+    # Additional information for OrderBy:
+    # The OrderByDirection can be specified for each OrderBy attribute.
+    # The pairing is made by the array indices.
+
+    OrderByDirection => [ 'Down', 'Up' ],                               # (optional)
+    # ignored if the result type is 'COUNT'
+    # (Down | Up) Default: [ 'Down' ]
+
+    Result => 'ARRAY' || 'COUNT',                                       # (optional)
+    # default: ARRAY, returns an array of change ids
+    # COUNT returns a scalar with the number of found changes
+
+    Limit => 100,                                                       # (optional)
+    # ignored if the result type is 'COUNT'
+);
+}
+]]></content>
+    <tabTrigger>otrs.CustomerCompanyObject.CustomerCompanySearchDetail</tabTrigger>
+    <description>6</description>
+</snippet>

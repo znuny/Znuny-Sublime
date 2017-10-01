@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
-${1:my %List = \$TypeObject->TypeList(
+${1:my %List = \$TypeObject->TypeList();
+}${2:my %List = \$TypeObject->TypeList(
     Valid => 0,
 );
-}${2:my %List = \$TypeObject->TypeList();
 }
 ]]></content>
     <tabTrigger>otrs.TypeObject.TypeList</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

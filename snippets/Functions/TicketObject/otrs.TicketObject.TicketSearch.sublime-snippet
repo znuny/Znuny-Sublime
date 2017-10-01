@@ -503,5 +503,5 @@ ${1:my @TicketIDs = \$TicketObject->TicketSearch(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketSearch</tabTrigger>
-    <description>4</description>
+    <description>5, 4</description>
 </snippet>

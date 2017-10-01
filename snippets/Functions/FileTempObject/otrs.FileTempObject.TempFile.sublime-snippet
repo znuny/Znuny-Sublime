@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
-${1:my (\$FileHandle, \$Filename) = \$FileTempObject->TempFile(
+${1:my (\$fh, \$Filename) = \$FileTempObject->TempFile();
+}${2:my (\$FileHandle, \$Filename) = \$FileTempObject->TempFile(
     Suffix => '.png',   # optional, defaults to '.tmp'
 );
-}${2:my (\$fh, \$Filename) = \$FileTempObject->TempFile();
 }
 ]]></content>
     <tabTrigger>otrs.FileTempObject.TempFile</tabTrigger>
-    <description>5</description>
+    <description>6, 5, 4</description>
 </snippet>

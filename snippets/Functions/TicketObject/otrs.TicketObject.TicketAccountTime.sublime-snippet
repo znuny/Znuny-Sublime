@@ -9,5 +9,5 @@ ${1:my \$Success = \$TicketObject->TicketAccountTime(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketAccountTime</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

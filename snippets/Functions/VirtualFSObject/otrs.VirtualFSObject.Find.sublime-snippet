@@ -1,12 +1,12 @@
 <snippet>
     <content><![CDATA[
 ${1:my @List = \$VirtualFSObject->Find(
+    Filename => '/Object/some_what/*.txt',
+);
+}${2:my @List = \$VirtualFSObject->Find(
     Preferences => \{
         ContentType => 'text/plain',
     \},
-);
-}${2:my @List = \$VirtualFSObject->Find(
-    Filename => '/Object/some_what/*.txt',
 );
 }${3:my @List = \$VirtualFSObject->Find(
     Filename    => '/Object/some_what/*.txt',
@@ -17,5 +17,5 @@ ${1:my @List = \$VirtualFSObject->Find(
 }
 ]]></content>
     <tabTrigger>otrs.VirtualFSObject.Find</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

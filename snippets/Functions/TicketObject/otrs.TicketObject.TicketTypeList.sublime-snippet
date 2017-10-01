@@ -4,15 +4,18 @@ ${1:my %Types = \$TicketObject->TicketTypeList(
     UserID => \$UserID,
 );
 }${2:my %Types = \$TicketObject->TicketTypeList(
+    CustomerUserID => \$CustomerUserID,
+);
+}${3:my %Types = \$TicketObject->TicketTypeList(
     QueueID => \$QueueID,
     UserID  => \$UserID,
 );
-}${3:my %Types = \$TicketObject->TicketTypeList(
+}${4:my %Types = \$TicketObject->TicketTypeList(
     TicketID => \$TicketID,
     UserID   => \$UserID,
 );
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketTypeList</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

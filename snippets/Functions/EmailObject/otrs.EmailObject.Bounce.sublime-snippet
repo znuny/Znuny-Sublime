@@ -8,5 +8,5 @@ ${1:\$EmailObject->Bounce(
 }
 ]]></content>
     <tabTrigger>otrs.EmailObject.Bounce</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

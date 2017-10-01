@@ -9,5 +9,5 @@ ${1:my \$SenderType = \$TicketObject->ArticleSenderTypeLookup(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.ArticleSenderTypeLookup</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

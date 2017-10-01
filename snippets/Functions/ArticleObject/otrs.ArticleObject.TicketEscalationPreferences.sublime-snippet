@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Escalation = \$TicketObject->TicketEscalationPreferences(
+    Ticket => \$Param\{Ticket\},
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.TicketEscalationPreferences</tabTrigger>
+    <description>6</description>
+</snippet>

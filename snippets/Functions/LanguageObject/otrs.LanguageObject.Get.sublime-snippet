@@ -4,5 +4,5 @@ ${1:my \$Text = \$LanguageObject->Get('Hello');
 }
 ]]></content>
     <tabTrigger>otrs.LanguageObject.Get</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

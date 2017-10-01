@@ -13,5 +13,5 @@ ${1:my \$utf8 = \$EncodeObject->Convert(
 }
 ]]></content>
     <tabTrigger>otrs.EncodeObject.Convert</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

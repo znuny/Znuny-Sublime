@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @RuleIDs = \$CalendarObject->TicketAppointmentRuleIDsGet(
+    CalendarID => \$CalendarID,
+    TicketID   => \$TicketID,    # (optional) Return rules used only for specific ticket
+);
+}
+]]></content>
+    <tabTrigger>otrs.CalendarObject.TicketAppointmentRuleIDsGet</tabTrigger>
+    <description>6</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my @CommunicationChannels = \$CommunicationChannelObject->ChannelList(
+    ValidID => \$ValidID,           # (optional) filter by ValidID
+);
+}
+]]></content>
+    <tabTrigger>otrs.CommunicationChannelObject.ChannelList</tabTrigger>
+    <description>6</description>
+</snippet>

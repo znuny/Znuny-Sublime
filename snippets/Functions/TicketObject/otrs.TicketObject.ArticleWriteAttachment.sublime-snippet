@@ -13,5 +13,5 @@ ${1:my \$Success = \$TicketObject->ArticleWriteAttachment(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.ArticleWriteAttachment</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$UserInitials = \$LayoutObject->UserInitialsGet(
+    Fullname => 'John Doe',
+);
+}
+]]></content>
+    <tabTrigger>otrs.LayoutObject.UserInitialsGet</tabTrigger>
+    <description>6</description>
+</snippet>

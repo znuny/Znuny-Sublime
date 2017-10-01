@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-${1:(%Return, \$CellData, \$ColumnData) = \$PDFObject->Table(
+${1:%Return = \$PDFObject->Table(
     CellData            => \$CellData,    # 2D arrayref (see example)
     ColumnData          => \$ColumnData,  # arrayref (see example)
     RowData             => \$RowData,     # arrayref (see example)
@@ -25,7 +25,7 @@ ${1:(%Return, \$CellData, \$ColumnData) = \$PDFObject->Table(
     Border              => 1,            # (optional) default 1 (values between 0 and 20)
     BorderColor         => '#FF0000',    # (optional) default black
 );
-}${2:%Return = \$PDFObject->Table(
+}${2:(%Return, \$CellData, \$ColumnData) = \$PDFObject->Table(
     CellData            => \$CellData,    # 2D arrayref (see example)
     ColumnData          => \$ColumnData,  # arrayref (see example)
     RowData             => \$RowData,     # arrayref (see example)
@@ -53,5 +53,5 @@ ${1:(%Return, \$CellData, \$ColumnData) = \$PDFObject->Table(
 }
 ]]></content>
     <tabTrigger>otrs.PDFObject.Table</tabTrigger>
-    <description>4</description>
+    <description>6, 5, 4</description>
 </snippet>

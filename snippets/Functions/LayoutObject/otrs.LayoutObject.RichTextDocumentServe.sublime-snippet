@@ -13,8 +13,21 @@ ${1:my %HTMLFile = \$LayoutObject->RichTextDocumentServe(
     LoadExternalImages => 0,    # Load external images? If this is 0, a message will be included if
                                 # external images were found and removed.
 );
+}${2:my %HTMLFile = \$LayoutObject->RichTextDocumentServe(
+    Data => \{
+        Content     => \$HTMLBodyRef,
+        ContentType => 'text/html; charset="iso-8859-1"',
+    \},
+    URL               => 'AgentTicketAttachment;Subaction=HTMLView;TicketID=123;ArticleID=123;FileID=',
+    Attachments       => \%AttachmentListOfInlineAttachments,
+
+    LoadInlineContent => 0,     # Serve the document including all inline content. WARNING: This might be dangerous.
+
+    LoadExternalImages => 0,    # Load external images? If this is 0, a message will be included if
+                                # external images were found and removed.
+);
 }
 ]]></content>
     <tabTrigger>otrs.LayoutObject.RichTextDocumentServe</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$TaskHandlerObject = Kernel::System::Scheduler::TaskHandler
+]]></content>
+    <tabTrigger>otrs.ObjectManager.TaskHandlerObject</tabTrigger>
+    <description>4</description>
+</snippet>

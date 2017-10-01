@@ -8,5 +8,5 @@ ${1:my \$NewSubject = \$TicketObject->TicketSubjectClean(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketSubjectClean</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

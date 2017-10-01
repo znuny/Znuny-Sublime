@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$CalendarObject->TicketAppointmentProcessRule(
+    CalendarID => \$CalendarID,
+    Config => \{
+        DynamicField_TestDate => \{
+            Module => 'Kernel::System::Calendar::Ticket::DynamicField',
+        \},
+        ...
+    \},
+    Rule => \{
+        StartDate => 'DynamicField_TestDate',
+        EndDate   => 'Plus_5',
+        QueueID   => \$QueueID,
+        RuleID    => \$RuleID,
+        SearchParams => \{
+            Title => 'Welcome*',
+        \},
+    \},
+    TicketID => \$TicketID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.CalendarObject.TicketAppointmentProcessRule</tabTrigger>
+    <description>6</description>
+</snippet>

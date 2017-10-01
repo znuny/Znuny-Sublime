@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$SysConfigObject->SettingUnlock(
+    DefaultID => \$DefaultID,                     # the ID of the setting that needs to be unlocked
+                                        #   or
+    Name      => 'SettingName',         # the name of the setting that needs to be locked
+                                        #   or
+    UnlockAll => 1,                     # unlock all settings
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.SettingUnlock</tabTrigger>
+    <description>6</description>
+</snippet>

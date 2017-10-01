@@ -3,27 +3,27 @@
 ${1:my \$NewSubject = \$TicketObject->TicketSubjectBuild(
     TicketNumber => \$TicketNumber,
     Subject      => \$OldSubject,
-    Type         => 'New',
     Action       => 'Reply',
 );
 }${2:my \$NewSubject = \$TicketObject->TicketSubjectBuild(
     TicketNumber => \$TicketNumber,
     Subject      => \$OldSubject,
-    Action       => 'Reply',
+    Type         => 'New',
+    NoCleanup    => 1,
 );
 }${3:my \$NewSubject = \$TicketObject->TicketSubjectBuild(
     TicketNumber => \$TicketNumber,
     Subject      => \$OldSubject,
-    Action       => 'Forward', # Possible values are Reply and Forward, Reply is default.
+    Type         => 'New',
+    Action       => 'Reply',
 );
 }${4:my \$NewSubject = \$TicketObject->TicketSubjectBuild(
     TicketNumber => \$TicketNumber,
     Subject      => \$OldSubject,
-    Type         => 'New',
-    NoCleanup    => 1,
+    Action       => 'Forward', # Possible values are Reply and Forward, Reply is default.
 );
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketSubjectBuild</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

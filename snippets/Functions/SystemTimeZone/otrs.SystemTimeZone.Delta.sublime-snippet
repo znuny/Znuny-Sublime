@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Delta = \$DateTimeObject->Delta( DateTimeObject => \$AnotherDateTimeObject );
+}
+]]></content>
+    <tabTrigger>otrs.SystemTimeZone.Delta</tabTrigger>
+    <description>6</description>
+</snippet>

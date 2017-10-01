@@ -8,5 +8,5 @@ ${1:my \$ActivityDialog = \$ActivityDialogObject->ActivityDialogGet(
 }
 ]]></content>
     <tabTrigger>otrs.ActivityDialogObject.ActivityDialogGet</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

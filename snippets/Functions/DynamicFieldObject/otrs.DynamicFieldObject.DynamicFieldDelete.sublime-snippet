@@ -8,5 +8,5 @@ ${1:my \$Success = \$DynamicFieldObject->DynamicFieldDelete(
 }
 ]]></content>
     <tabTrigger>otrs.DynamicFieldObject.DynamicFieldDelete</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

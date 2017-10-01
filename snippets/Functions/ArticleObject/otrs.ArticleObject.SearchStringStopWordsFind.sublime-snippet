@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$StopWords = \$ArticleObject->SearchStringStopWordsFind(
+    SearchStrings => \{
+        'Fulltext'      => '(this AND is) OR test',
+        'MIMEBase_From' => 'myself',
+    \},
+);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.SearchStringStopWordsFind</tabTrigger>
+    <description>6</description>
+</snippet>

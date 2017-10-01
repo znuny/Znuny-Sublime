@@ -3,5 +3,5 @@
 my \$TicketObject = \$Kernel::OM->Get('Kernel::System::Ticket');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.TicketObject</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

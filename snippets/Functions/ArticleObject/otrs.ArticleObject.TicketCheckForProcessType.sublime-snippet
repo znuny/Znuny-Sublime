@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:\$TicketObject->TicketCheckForProcessType(
+    TicketID => \$TicketID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.TicketCheckForProcessType</tabTrigger>
+    <description>6</description>
+</snippet>

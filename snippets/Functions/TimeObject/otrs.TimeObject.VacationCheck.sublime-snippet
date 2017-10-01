@@ -4,15 +4,15 @@ ${1:\$TimeObject->VacationCheck(
     Year     => 2005,
     Month    => 7 || '07',
     Day      => 13,
-    Calendar => 3, # '' is default; 0 is handled like ''
 );
 }${2:\$TimeObject->VacationCheck(
     Year     => 2005,
     Month    => 7 || '07',
     Day      => 13,
+    Calendar => 3, # '' is default; 0 is handled like ''
 );
 }
 ]]></content>
     <tabTrigger>otrs.TimeObject.VacationCheck</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

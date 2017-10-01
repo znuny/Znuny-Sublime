@@ -7,7 +7,6 @@ ${1:\$UserObject->UserUpdate(
     UserLogin     => 'mhuber',
     UserPw        => 'some-pass', # not required
     UserEmail     => 'email@example.com',
-    UserMobile    => '1234567890', # not required
     ValidID       => \$ValidID,
     ChangeUserID  => \$ChangeUserID,
 );
@@ -18,11 +17,12 @@ ${1:\$UserObject->UserUpdate(
     UserLogin     => 'mhuber',
     UserPw        => 'some-pass', # not required
     UserEmail     => 'email@example.com',
+    UserMobile    => '1234567890', # not required
     ValidID       => \$ValidID,
     ChangeUserID  => \$ChangeUserID,
 );
 }
 ]]></content>
     <tabTrigger>otrs.UserObject.UserUpdate</tabTrigger>
-    <description>5</description>
+    <description>6, 5, 4</description>
 </snippet>

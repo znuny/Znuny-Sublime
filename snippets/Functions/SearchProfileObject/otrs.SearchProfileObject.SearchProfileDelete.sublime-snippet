@@ -8,5 +8,5 @@ ${1:\$SearchProfileObject->SearchProfileDelete(
 }
 ]]></content>
     <tabTrigger>otrs.SearchProfileObject.SearchProfileDelete</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

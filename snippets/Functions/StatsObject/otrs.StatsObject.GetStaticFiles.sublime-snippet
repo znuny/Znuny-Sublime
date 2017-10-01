@@ -10,5 +10,5 @@ ${1:my \$FileHash = \$StatsObject->GetStaticFiles(
 }
 ]]></content>
     <tabTrigger>otrs.StatsObject.GetStaticFiles</tabTrigger>
-    <description>4</description>
+    <description>6, 5, 4</description>
 </snippet>

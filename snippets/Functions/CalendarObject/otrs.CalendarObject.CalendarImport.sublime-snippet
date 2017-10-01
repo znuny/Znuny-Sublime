@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$CalendarObject->CalendarImport(
+    Data => \{
+        CalendarData => \{
+            CalendarID   => \$CalendarID,
+            GroupID      => \$GroupID,
+            CalendarName => 'Meetings',
+            Color        => '#FF7700',
+            ValidID      => \$ValidID,
+        \},
+        AppointmentData => \{
+            \{
+                AppointmentID       => \$AppointmentID,
+                ParentID            => \$ParentID,
+                CalendarID          => \$CalendarID,
+                UniqueID            => \$UniqueID,
+                ...
+            \},
+            ...
+        \},
+    \},
+    OverwriteExistingEntities => 0,     # (optional) Overwrite existing calendar and appointments, default: 0
+                                        # Calendar with same name will be overwritten
+                                        # Appointments with same UniqueID in existing calendar will be overwritten
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.CalendarObject.CalendarImport</tabTrigger>
+    <description>6</description>
+</snippet>

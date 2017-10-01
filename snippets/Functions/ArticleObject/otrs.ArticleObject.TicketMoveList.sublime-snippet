@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Queues = \$TicketObject->TicketMoveList(
+    Type   => 'create',
+    UserID => \$UserID,
+);
+}${2:my %Queues = \$TicketObject->TicketMoveList(
+    QueueID => \$QueueID,
+    UserID  => \$UserID,
+);
+}${3:my %Queues = \$TicketObject->TicketMoveList(
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);
+}${4:my %Queues = \$TicketObject->TicketMoveList(
+    Type           => 'create',
+    CustomerUserID => \$CustomerUserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.TicketMoveList</tabTrigger>
+    <description>6</description>
+</snippet>

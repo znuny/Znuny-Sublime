@@ -8,5 +8,5 @@ ${1:\$True = \$PDFObject->DocumentNew(
 }
 ]]></content>
     <tabTrigger>otrs.PDFObject.DocumentNew</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

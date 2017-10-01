@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$TicketID = \$CalendarObject->TicketAppointmentTicketID(
+    AppointmentID => \$AppointmentID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.CalendarObject.TicketAppointmentTicketID</tabTrigger>
+    <description>6</description>
+</snippet>

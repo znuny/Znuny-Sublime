@@ -12,5 +12,5 @@ ${1:my %LinkKeyList = \$LinkObject->LinkKeyList(
 }
 ]]></content>
     <tabTrigger>otrs.LinkObject.LinkKeyList</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

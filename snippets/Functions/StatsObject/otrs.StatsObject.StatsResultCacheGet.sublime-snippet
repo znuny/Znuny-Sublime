@@ -12,5 +12,5 @@ ${1:my \$StatArray = \$StatsObject->StatsResultCacheGet(
 }
 ]]></content>
     <tabTrigger>otrs.StatsObject.StatsResultCacheGet</tabTrigger>
-    <description>4</description>
+    <description>6, 5, 4</description>
 </snippet>

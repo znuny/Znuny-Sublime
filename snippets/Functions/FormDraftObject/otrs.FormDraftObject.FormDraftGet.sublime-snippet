@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$FormDraft = \$FormDraftObject->FormDraftGet(
+    FormDraftID    => \$FormDraftID,
+    GetContent => 1,                # optional, default 1
+    UserID     => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.FormDraftObject.FormDraftGet</tabTrigger>
+    <description>6</description>
+</snippet>

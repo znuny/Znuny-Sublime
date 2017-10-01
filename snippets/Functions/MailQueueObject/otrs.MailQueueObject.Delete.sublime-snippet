@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$MailQueueObject->Delete(
+    %Filters,                       # See _FiltersSQLAndBinds
+);
+}
+]]></content>
+    <tabTrigger>otrs.MailQueueObject.Delete</tabTrigger>
+    <description>6</description>
+</snippet>

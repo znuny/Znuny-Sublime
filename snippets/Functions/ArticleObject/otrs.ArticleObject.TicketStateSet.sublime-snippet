@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketStateSet(
+    StateID  => \$StateID,
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.TicketStateSet</tabTrigger>
+    <description>6</description>
+</snippet>

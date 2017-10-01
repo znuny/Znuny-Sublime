@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my @InvolvedAgents = \$TicketObject->TicketInvolvedAgentsList(
+    TicketID => \$TicketID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.TicketInvolvedAgentsList</tabTrigger>
+    <description>6</description>
+</snippet>

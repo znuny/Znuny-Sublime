@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:\$HelperObject->DatabaseXMLExecute(
+    XML => \$XML,     # OTRS database XML schema to execute
+);
+}${2:\$HelperObject->DatabaseXMLExecute(
+    XMLFile => '/path/to/file',  # OTRS database XML file to execute
+);
+}
+]]></content>
+    <tabTrigger>otrs.HelperObject.DatabaseXMLExecute</tabTrigger>
+    <description>6</description>
+</snippet>

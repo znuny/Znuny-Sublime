@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$CommunicationLogObject->IsObjectLogOpen(
+    ObjectLogType => '...',     # Required
+);
+}
+]]></content>
+    <tabTrigger>otrs.CommunicationLogObject.IsObjectLogOpen</tabTrigger>
+    <description>6</description>
+</snippet>

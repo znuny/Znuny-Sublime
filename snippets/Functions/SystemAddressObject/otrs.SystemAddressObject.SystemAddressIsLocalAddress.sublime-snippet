@@ -6,10 +6,8 @@ ${1:    if ( \$SystemAddressObject->SystemAddressIsLocalAddress( Address => 'inf
     else \{
         # is not local
     \}
-
-
 }
 ]]></content>
     <tabTrigger>otrs.SystemAddressObject.SystemAddressIsLocalAddress</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Rule = \$CalendarObject->TicketAppointmentRuleGet(
+    CalendarID => \$CalendarID,
+    RuleID     => \$RuleID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.CalendarObject.TicketAppointmentRuleGet</tabTrigger>
+    <description>6</description>
+</snippet>

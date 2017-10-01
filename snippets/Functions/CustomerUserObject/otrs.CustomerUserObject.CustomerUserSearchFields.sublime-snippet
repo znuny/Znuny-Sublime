@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my @SeachFields = \$CustomerUserObject->CustomerUserSearchFields(
+    Source => 'CustomerUser', # optional, but important in the CustomerSearchDetail to get the right database fields
+);
+}
+]]></content>
+    <tabTrigger>otrs.CustomerUserObject.CustomerUserSearchFields</tabTrigger>
+    <description>6</description>
+</snippet>

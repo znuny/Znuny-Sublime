@@ -3,5 +3,5 @@
 my \$CheckItemObject = \$Kernel::OM->Get('Kernel::System::CheckItem');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.CheckItemObject</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

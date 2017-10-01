@@ -7,5 +7,5 @@ ${1:my %PossibleLinkList = \$LinkObject->PossibleLinkList();
 }
 ]]></content>
     <tabTrigger>otrs.LinkObject.PossibleLinkList</tabTrigger>
-    <description>5</description>
+    <description>6, 5, 4</description>
 </snippet>

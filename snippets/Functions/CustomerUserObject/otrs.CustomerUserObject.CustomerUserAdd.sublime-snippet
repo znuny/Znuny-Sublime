@@ -14,5 +14,5 @@ ${1:my \$UserLogin = \$CustomerUserObject->CustomerUserAdd(
 }
 ]]></content>
     <tabTrigger>otrs.CustomerUserObject.CustomerUserAdd</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

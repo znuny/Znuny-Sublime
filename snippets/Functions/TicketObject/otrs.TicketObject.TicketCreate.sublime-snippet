@@ -1,6 +1,17 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$TicketID = \$TicketObject->TicketCreate(
+    Title        => 'Some Ticket Title',
+    Queue        => 'Raw',            # or QueueID => \$QueueID,
+    Lock         => 'unlock',
+    Priority     => '3 normal',       # or PriorityID => \$PriorityID,
+    State        => 'new',            # or StateID => \$StateID,
+    CustomerID   => \$CustomerID,
+    CustomerUser => 'customer@example.com',
+    OwnerID      => \$OwnerID,
+    UserID       => \$UserID,
+);
+}${2:my \$TicketID = \$TicketObject->TicketCreate(
     TN            => \$TicketObject->TicketCreateNumber(), # optional
     Title         => 'Some Ticket Title',
     Queue         => 'Raw',              # or QueueID => \$QueueID,
@@ -17,7 +28,7 @@ ${1:my \$TicketID = \$TicketObject->TicketCreate(
     ArchiveFlag   => 'y',                # (y|n) not required
     UserID        => \$UserID,
 );
-}${2:my \$TicketID = \$TicketObject->TicketCreate(
+}${3:my \$TicketID = \$TicketObject->TicketCreate(
     TN            => \$TicketObject->TicketCreateNumber(), # optional
     Title         => 'Some Ticket Title',
     Queue         => 'Raw',              # or QueueID => \$QueueID,
@@ -34,19 +45,8 @@ ${1:my \$TicketID = \$TicketObject->TicketCreate(
     ArchiveFlag   => 'y',                # (y|n) not required
     UserID        => \$UserID,
 );
-}${3:my \$TicketID = \$TicketObject->TicketCreate(
-    Title        => 'Some Ticket Title',
-    Queue        => 'Raw',            # or QueueID => \$QueueID,
-    Lock         => 'unlock',
-    Priority     => '3 normal',       # or PriorityID => \$PriorityID,
-    State        => 'new',            # or StateID => \$StateID,
-    CustomerID   => \$CustomerID,
-    CustomerUser => 'customer@example.com',
-    OwnerID      => \$OwnerID,
-    UserID       => \$UserID,
-);
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketCreate</tabTrigger>
-    <description>4</description>
+    <description>5, 4</description>
 </snippet>

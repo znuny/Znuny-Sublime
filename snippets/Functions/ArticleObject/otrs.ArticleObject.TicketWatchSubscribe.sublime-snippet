@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketWatchSubscribe(
+    TicketID    => \$TicketID,
+    WatchUserID => \$WatchUserID,
+    UserID      => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.TicketWatchSubscribe</tabTrigger>
+    <description>6</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Flags = \$ArticleObject->ArticleFlagsOfTicketGet(
+    TicketID  => \$TicketID,
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.ArticleFlagsOfTicketGet</tabTrigger>
+    <description>6</description>
+</snippet>

@@ -24,5 +24,5 @@ ${1:\$AutoResponseObject->AutoResponseAdd(
 }
 ]]></content>
     <tabTrigger>otrs.AutoResponseObject.AutoResponseAdd</tabTrigger>
-    <description>5</description>
+    <description>6, 5, 4</description>
 </snippet>

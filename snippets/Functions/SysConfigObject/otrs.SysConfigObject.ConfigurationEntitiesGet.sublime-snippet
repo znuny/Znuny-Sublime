@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Result = \$SysConfigObject->ConfigurationEntitiesGet();
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.ConfigurationEntitiesGet</tabTrigger>
+    <description>6</description>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$FormDraftID = \$ParamObject->SaveFormDraft(
+    UserID         => \$UserID,
+    ObjectID       => \$ObjectID,
+    OverrideParams => \{               # optional, can contain strings and array references
+        Subaction   => undef,
+        UserID      => \$UserID,
+        CustomParam => [ 1, 2, 3, ],
+        ...
+    \},
+);
+}
+]]></content>
+    <tabTrigger>otrs.ParamObject.SaveFormDraft</tabTrigger>
+    <description>6</description>
+</snippet>

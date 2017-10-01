@@ -6,15 +6,19 @@ ${1:my %States = \$TicketObject->TicketStateList(
 );
 }${2:my %States = \$TicketObject->TicketStateList(
     TicketID => \$TicketID,
-    Type     => 'open',
     UserID   => \$UserID,
 );
 }${3:my %States = \$TicketObject->TicketStateList(
+    TicketID       => \$TicketID,
+    CustomerUserID => \$CustomerUserID,
+);
+}${4:my %States = \$TicketObject->TicketStateList(
     TicketID => \$TicketID,
+    Type     => 'open',
     UserID   => \$UserID,
 );
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketStateList</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

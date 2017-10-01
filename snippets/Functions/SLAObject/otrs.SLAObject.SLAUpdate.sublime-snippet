@@ -18,5 +18,5 @@ ${1:my \$True = \$SLAObject->SLAUpdate(
 }
 ]]></content>
     <tabTrigger>otrs.SLAObject.SLAUpdate</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

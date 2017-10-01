@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %SelectionsData = \$CustomerCompanyObject->GetFieldSelections(
+    FieldName => 'CustomerCompanyCountry',
+);
+}
+]]></content>
+    <tabTrigger>otrs.CustomerCompanyObject.GetFieldSelections</tabTrigger>
+    <description>6</description>
+</snippet>

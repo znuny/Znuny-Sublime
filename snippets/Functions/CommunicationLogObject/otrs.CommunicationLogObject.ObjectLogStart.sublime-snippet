@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ObjectID = \$CommunicationLogObject->ObjectLogStart(
+    ObjectType => 'Connection' # (required) Can be 'Connection' or 'Message'
+);
+}
+]]></content>
+    <tabTrigger>otrs.CommunicationLogObject.ObjectLogStart</tabTrigger>
+    <description>6</description>
+</snippet>

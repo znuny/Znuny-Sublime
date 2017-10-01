@@ -7,5 +7,5 @@ ${1:my \$Success = \$SystemMaintenanceObject->SystemMaintenanceDelete(
 }
 ]]></content>
     <tabTrigger>otrs.SystemMaintenanceObject.SystemMaintenanceDelete</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

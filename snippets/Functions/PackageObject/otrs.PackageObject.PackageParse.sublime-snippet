@@ -4,5 +4,5 @@ ${1:my %Structure = \$PackageObject->PackageParse( String => \$FileString );
 }
 ]]></content>
     <tabTrigger>otrs.PackageObject.PackageParse</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

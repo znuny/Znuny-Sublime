@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Valid = \$TimeZones->IsTimeZoneValid( TimeZone => 'Europe/Berlin' );
+}
+]]></content>
+    <tabTrigger>otrs.SystemTimeZone.IsTimeZoneValid</tabTrigger>
+    <description>6</description>
+</snippet>

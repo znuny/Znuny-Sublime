@@ -11,5 +11,5 @@ ${1:my \$Page = \$TicketObject->ArticlePage(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.ArticlePage</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

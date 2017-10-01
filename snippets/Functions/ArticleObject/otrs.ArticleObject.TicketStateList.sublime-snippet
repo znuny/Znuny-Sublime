@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+${1:my %States = \$TicketObject->TicketStateList(
+    QueueID => \$QueueID,
+    UserID  => \$UserID,
+);
+}${2:my %States = \$TicketObject->TicketStateList(
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);
+}${3:my %States = \$TicketObject->TicketStateList(
+    TicketID       => \$TicketID,
+    CustomerUserID => \$CustomerUserID,
+);
+}${4:my %States = \$TicketObject->TicketStateList(
+    TicketID => \$TicketID,
+    Type     => 'open',
+    UserID   => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.TicketStateList</tabTrigger>
+    <description>6</description>
+</snippet>

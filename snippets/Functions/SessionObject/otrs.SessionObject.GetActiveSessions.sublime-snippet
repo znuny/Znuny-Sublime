@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Result = \$SessionObject->GetActiveSessions(
+    UserType => '(User|Customer)',
+);
+}
+]]></content>
+    <tabTrigger>otrs.SessionObject.GetActiveSessions</tabTrigger>
+    <description>6, 5, 4</description>
+</snippet>

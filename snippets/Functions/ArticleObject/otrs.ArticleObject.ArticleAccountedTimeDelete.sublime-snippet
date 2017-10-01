@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$ArticleObject->ArticleAccountedTimeDelete(
+    ArticleID => \$ArticleID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.ArticleAccountedTimeDelete</tabTrigger>
+    <description>6</description>
+</snippet>

@@ -10,5 +10,5 @@ ${1:my \$Success = \$ObjectLockStateObject->ObjectLockStateSet(
 }
 ]]></content>
     <tabTrigger>otrs.ObjectLockStateObject.ObjectLockStateSet</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

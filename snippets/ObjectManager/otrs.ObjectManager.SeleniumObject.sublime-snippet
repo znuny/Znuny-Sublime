@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$SeleniumObject = \$Kernel::OM->Get('Kernel::System::Selenium');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.SeleniumObject</tabTrigger>
+    <description>6, 5, 4</description>
+</snippet>

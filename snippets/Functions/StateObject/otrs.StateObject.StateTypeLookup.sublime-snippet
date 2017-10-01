@@ -1,13 +1,13 @@
 <snippet>
     <content><![CDATA[
-${1:my \$StateTypeID = \$StateObject->StateTypeLookup(
-    StateType => 'pending auto',
-);
-}${2:my \$StateType = \$StateObject->StateTypeLookup(
+${1:my \$StateType = \$StateObject->StateTypeLookup(
     StateTypeID => \$StateTypeID,
+);
+}${2:my \$StateTypeID = \$StateObject->StateTypeLookup(
+    StateType => 'pending auto',
 );
 }
 ]]></content>
     <tabTrigger>otrs.StateObject.StateTypeLookup</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

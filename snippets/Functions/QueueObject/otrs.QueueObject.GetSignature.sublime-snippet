@@ -4,5 +4,5 @@ ${1:my \$Signature = \$QueueObject->GetSignature(QueueID => 123);
 }
 ]]></content>
     <tabTrigger>otrs.QueueObject.GetSignature</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

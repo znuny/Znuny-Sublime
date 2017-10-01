@@ -13,5 +13,5 @@ ${1:my %HistoryData = \$TicketObject->HistoryTicketGet(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.HistoryTicketGet</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

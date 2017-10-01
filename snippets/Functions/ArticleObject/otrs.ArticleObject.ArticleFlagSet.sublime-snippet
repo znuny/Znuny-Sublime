@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$ArticleObject->ArticleFlagSet(
+    TicketID  => \$TicketID,
+    ArticleID => \$ArticleID,
+    Key       => 'Seen',
+    Value     => 1,
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.ArticleFlagSet</tabTrigger>
+    <description>6</description>
+</snippet>

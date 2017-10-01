@@ -1,8 +1,7 @@
 <snippet>
     <content><![CDATA[
-${1:\$Name = \$LinkObject->StateLookup(
-    StateID => \$StateID,
-    UserID  => \$UserID,
+${1:\$StateID = \$LinkObject->StateLookup(
+    Name => 'Valid',
 );
 }${2:\$Name = \$LinkObject->StateLookup(
     StateID => \$StateID,
@@ -11,11 +10,12 @@ ${1:\$Name = \$LinkObject->StateLookup(
     Name   => 'Valid',
     UserID => \$UserID,
 );
-}${4:\$StateID = \$LinkObject->StateLookup(
-    Name => 'Valid',
+}${4:\$Name = \$LinkObject->StateLookup(
+    StateID => \$StateID,
+    UserID  => \$UserID,
 );
 }
 ]]></content>
     <tabTrigger>otrs.LinkObject.StateLookup</tabTrigger>
-    <description>4</description>
+    <description>6, 5, 4</description>
 </snippet>

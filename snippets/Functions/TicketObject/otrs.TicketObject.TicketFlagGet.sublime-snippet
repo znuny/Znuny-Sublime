@@ -6,18 +6,18 @@ ${1:my @Flags = \$TicketObject->TicketFlagGet(
 );
 }${2:my %Flags = \$TicketObject->TicketFlagGet(
     TicketID => \$TicketID,
-    UserID   => \$UserID,  # to get flags of one user
-);
-}${3:my %Flags = \$TicketObject->TicketFlagGet(
-    TicketID => \$TicketID,
     UserID   => \$UserID, # to get flags one user
 );
-}${4:my @Flags = \$TicketObject->TicketFlagGet(
+}${3:my @Flags = \$TicketObject->TicketFlagGet(
     TicketID => \$TicketID,
     AllUsers => 1,    # to get flags of all users
+);
+}${4:my %Flags = \$TicketObject->TicketFlagGet(
+    TicketID => \$TicketID,
+    UserID   => \$UserID,  # to get flags of one user
 );
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketFlagGet</tabTrigger>
-    <description>4</description>
+    <description>5, 4</description>
 </snippet>

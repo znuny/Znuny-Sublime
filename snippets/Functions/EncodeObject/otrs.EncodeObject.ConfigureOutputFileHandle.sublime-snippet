@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:\$EncodeObject->ConfigureOutputFileHandle( FileHandle => \*STDOUT );
+}
+]]></content>
+    <tabTrigger>otrs.EncodeObject.ConfigureOutputFileHandle</tabTrigger>
+    <description>6</description>
+</snippet>

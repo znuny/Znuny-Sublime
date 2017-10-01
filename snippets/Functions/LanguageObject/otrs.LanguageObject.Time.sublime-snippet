@@ -6,6 +6,16 @@ ${1:\$TimeLong = \$LanguageObject->Time(
 );
 }${2:\$TimeLong = \$LanguageObject->Time(
     Action => 'RETURN',
+    Format => 'DateFormatLong',
+    Year   => 1977,
+    Month  => 10,
+    Day    => 27,
+    Hour   => 20,
+    Minute => 10,
+    Second => 05,
+);
+}${3:\$TimeLong = \$LanguageObject->Time(
+    Action => 'RETURN',
     Format => 'DateInputFormatLong',
     Mode   => 'NotNumeric',
     Year   => '<input value="2014"/>',
@@ -15,18 +25,8 @@ ${1:\$TimeLong = \$LanguageObject->Time(
     Minute => '<input value="12"/>',
     Second => '<input value="13"/>',
 );
-}${3:\$TimeLong = \$LanguageObject->Time(
-    Action => 'RETURN',
-    Format => 'DateFormatLong',
-    Year   => 1977,
-    Month  => 10,
-    Day    => 27,
-    Hour   => 20,
-    Minute => 10,
-    Second => 05,
-);
 }
 ]]></content>
     <tabTrigger>otrs.LanguageObject.Time</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

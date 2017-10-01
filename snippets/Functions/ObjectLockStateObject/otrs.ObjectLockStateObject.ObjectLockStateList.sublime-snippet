@@ -8,5 +8,5 @@ ${1:my \$ObjectLockStates = \$ObjectLockStateObject->ObjectLockStateList(
 }
 ]]></content>
     <tabTrigger>otrs.ObjectLockStateObject.ObjectLockStateList</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

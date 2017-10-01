@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Calendar = \$TicketObject->TicketCalendarGet(
+    QueueID => \$QueueID,
+    SLAID   => \$SLAID,   # optional
+);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.TicketCalendarGet</tabTrigger>
+    <description>6</description>
+</snippet>

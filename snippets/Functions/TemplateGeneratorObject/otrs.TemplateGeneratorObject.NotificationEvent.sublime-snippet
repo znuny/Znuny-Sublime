@@ -1,7 +1,20 @@
 <snippet>
     <content><![CDATA[
 ${1:my %NotificationEvent = \$TemplateGeneratorObject->NotificationEvent(
+    AppointmentID => \$AppointmentID,
+    Recipient     => \$UserDataHashRef,          # Agent data get result
+    Notification  => \$NotificationDataHashRef,
+    UserID        => \$UserID,
+);
+}${2:my %NotificationEvent = \$TemplateGeneratorObject->NotificationEvent(
     TicketID              => \$TicketID,
+    Recipient             => \$UserDataHashRef,          # Agent or Customer data get result
+    Notification          => \$NotificationDataHashRef,
+    CustomerMessageParams => \$ArticleHashRef,           # optional
+    UserID                => \$UserID,
+);
+}${3:my %NotificationEvent = \$TemplateGeneratorObject->NotificationEvent(
+    TicketData            => \$TicketDataHashRef,
     Recipient             => \$UserDataHashRef,          # Agent or Customer data get result
     Notification          => \$NotificationDataHashRef,
     CustomerMessageParams => \$ArticleHashRef,           # optional
@@ -10,5 +23,5 @@ ${1:my %NotificationEvent = \$TemplateGeneratorObject->NotificationEvent(
 }
 ]]></content>
     <tabTrigger>otrs.TemplateGeneratorObject.NotificationEvent</tabTrigger>
-    <description>5</description>
+    <description>6, 5</description>
 </snippet>

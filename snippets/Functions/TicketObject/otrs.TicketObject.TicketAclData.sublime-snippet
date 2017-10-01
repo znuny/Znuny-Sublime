@@ -4,5 +4,5 @@ ${1:my %Acl = \$TicketObject->TicketAclData();
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketAclData</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

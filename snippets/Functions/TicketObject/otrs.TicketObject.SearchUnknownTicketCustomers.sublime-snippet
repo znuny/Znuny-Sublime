@@ -6,5 +6,5 @@ ${1:my \$UnknownTicketCustomerList = \$TicketObject->SearchUnknownTicketCustomer
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.SearchUnknownTicketCustomers</tabTrigger>
-    <description>5</description>
+    <description>5, 4</description>
 </snippet>

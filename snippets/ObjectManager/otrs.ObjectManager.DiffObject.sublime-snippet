@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$DiffObject = \$Kernel::OM->Get('Kernel::System::Diff');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.DiffObject</tabTrigger>
+    <description>6</description>
+</snippet>

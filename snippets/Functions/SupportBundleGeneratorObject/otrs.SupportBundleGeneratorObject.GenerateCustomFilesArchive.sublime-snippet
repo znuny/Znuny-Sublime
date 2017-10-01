@@ -4,5 +4,5 @@ ${1:my ( \$Content, \$Filename ) = \$SupportBundleGeneratorObject->GenerateCusto
 }
 ]]></content>
     <tabTrigger>otrs.SupportBundleGeneratorObject.GenerateCustomFilesArchive</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

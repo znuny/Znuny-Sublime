@@ -1,6 +1,20 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$ContentSCALARRef = \$MainObject->FileRead(
+    Directory => 'c:\some\location',
+    Filename  => 'file2read.txt',
+    # or Location
+    Location  => 'c:\some\location\file2read.txt',
+);
+}${2:my \$ContentARRAYRef = \$MainObject->FileRead(
+    Directory => 'c:\some\location',
+    Filename  => 'file2read.txt',
+    # or Location
+    Location  => 'c:\some\location\file2read.txt',
+
+    Result    => 'ARRAY', # optional - SCALAR|ARRAY
+);
+}${3:my \$ContentSCALARRef = \$MainObject->FileRead(
     Directory       => 'c:\some\location',
     Filename        => 'file2read.txt',
     # or Location
@@ -11,22 +25,8 @@ ${1:my \$ContentSCALARRef = \$MainObject->FileRead(
     Result          => 'SCALAR',  # optional - SCALAR|ARRAY
     DisableWarnings => 1,         # optional
 );
-}${2:my \$ContentSCALARRef = \$MainObject->FileRead(
-    Directory => 'c:\some\location',
-    Filename  => 'file2read.txt',
-    # or Location
-    Location  => 'c:\some\location\file2read.txt',
-);
-}${3:my \$ContentARRAYRef = \$MainObject->FileRead(
-    Directory => 'c:\some\location',
-    Filename  => 'file2read.txt',
-    # or Location
-    Location  => 'c:\some\location\file2read.txt',
-
-    Result    => 'ARRAY', # optional - SCALAR|ARRAY
-);
 }
 ]]></content>
     <tabTrigger>otrs.MainObject.FileRead</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

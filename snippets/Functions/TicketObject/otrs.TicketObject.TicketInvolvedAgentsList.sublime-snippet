@@ -6,5 +6,5 @@ ${1:my @InvolvedAgents = \$TicketObject->TicketInvolvedAgentsList(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketInvolvedAgentsList</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

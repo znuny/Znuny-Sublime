@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$TicketNumber = \$TicketObject->GetTNByString(\$Subject);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.GetTNByString</tabTrigger>
+    <description>6</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my @MailAccounts = \$MailAccountObject->MailAccountGetAll();
+}
+]]></content>
+    <tabTrigger>otrs.MailAccountObject.MailAccountGetAll</tabTrigger>
+    <description>6</description>
+</snippet>

@@ -9,5 +9,5 @@ ${1:my %AutoResponse = \$TemplateGeneratorObject->AutoResponse(
 }
 ]]></content>
     <tabTrigger>otrs.TemplateGeneratorObject.AutoResponse</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

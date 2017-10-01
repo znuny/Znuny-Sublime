@@ -5,5 +5,5 @@ ${1:my \$TypeID = \$TypeObject->TypeLookup( Type => \$Type );
 }
 ]]></content>
     <tabTrigger>otrs.TypeObject.TypeLookup</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

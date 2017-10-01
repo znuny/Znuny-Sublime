@@ -5,14 +5,14 @@ ${1:my %List = \$StateObject->StateList(
 );
 }${2:my %List = \$StateObject->StateList(
     UserID => \$UserID,
-    Valid  => 1, # is default
+    Valid  => 0,
 );
 }${3:my %List = \$StateObject->StateList(
     UserID => \$UserID,
-    Valid  => 0,
+    Valid  => 1, # is default
 );
 }
 ]]></content>
     <tabTrigger>otrs.StateObject.StateList</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

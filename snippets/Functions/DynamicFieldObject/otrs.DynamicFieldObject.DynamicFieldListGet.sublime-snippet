@@ -1,6 +1,7 @@
 <snippet>
     <content><![CDATA[
-${1:my \$List = \$DynamicFieldObject->DynamicFieldListGet(
+${1:my \$List = \$DynamicFieldObject->DynamicFieldListGet();
+}${2:my \$List = \$DynamicFieldObject->DynamicFieldListGet(
     Valid        => 0,            # optional, defaults to 1
 
     # object  type (optional) as STRING or as ARRAYREF
@@ -15,9 +16,8 @@ ${1:my \$List = \$DynamicFieldObject->DynamicFieldListGet(
     \},
 
 );
-}${2:my \$List = \$DynamicFieldObject->DynamicFieldListGet();
 }
 ]]></content>
     <tabTrigger>otrs.DynamicFieldObject.DynamicFieldListGet</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

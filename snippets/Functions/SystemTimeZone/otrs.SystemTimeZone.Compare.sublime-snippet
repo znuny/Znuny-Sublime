@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$DateTimeObject->Compare( DateTimeObject => \$AnotherDateTimeObject );
+}${2:my @SortedDateTimeObjects = sort \{ \$DateTimeObject->Compare( DateTimeObject => \$b ); \} @UnsortedDateTimeObjects:
+}
+]]></content>
+    <tabTrigger>otrs.SystemTimeZone.Compare</tabTrigger>
+    <description>6</description>
+</snippet>

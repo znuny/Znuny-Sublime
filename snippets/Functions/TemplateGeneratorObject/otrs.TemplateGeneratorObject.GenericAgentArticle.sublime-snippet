@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$GenericAgentArticle = \$TemplateGeneratorObject->GenericAgentArticle(
+    Notification    => \$NotificationDataHashRef,
+    TicketID        => \$TicketID,
+    UserID          => \$UserID,
+    Data            => \$ArticleHashRef,             # Optional
+);
+}
+]]></content>
+    <tabTrigger>otrs.TemplateGeneratorObject.GenericAgentArticle</tabTrigger>
+    <description>6</description>
+</snippet>

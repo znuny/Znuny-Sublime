@@ -1,15 +1,15 @@
 <snippet>
     <content><![CDATA[
-${1:or to force delete even if the PID is registered by another host
+${1:my \$Success = \$PIDObject->PIDDelete(
+    Name  => 'PostMasterPOP3',
+);
+}${2:or to force delete even if the PID is registered by another host
 my \$Success = \$PIDObject->PIDDelete(
     Name  => 'PostMasterPOP3',
     Force => 1,
 );
-}${2:my \$Success = \$PIDObject->PIDDelete(
-    Name  => 'PostMasterPOP3',
-);
 }
 ]]></content>
     <tabTrigger>otrs.PIDObject.PIDDelete</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

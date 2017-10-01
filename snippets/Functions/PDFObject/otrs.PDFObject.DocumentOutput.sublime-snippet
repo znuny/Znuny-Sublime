@@ -4,5 +4,5 @@ ${1:\$DocumentString = \$PDFObject->DocumentOutput();
 }
 ]]></content>
     <tabTrigger>otrs.PDFObject.DocumentOutput</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

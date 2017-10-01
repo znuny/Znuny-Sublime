@@ -5,5 +5,5 @@ ${1:my \$GroupID = \$CustomerGroupObject->GroupLookup(Group => \$Group);
 }
 ]]></content>
     <tabTrigger>otrs.CustomerGroupObject.GroupLookup</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

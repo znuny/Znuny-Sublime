@@ -15,5 +15,5 @@ ${1:\$MailAccountObject->MailAccountAdd(
 }
 ]]></content>
     <tabTrigger>otrs.MailAccountObject.MailAccountAdd</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

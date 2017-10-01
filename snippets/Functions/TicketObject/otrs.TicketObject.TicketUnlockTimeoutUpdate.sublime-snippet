@@ -8,5 +8,5 @@ ${1:my \$Success = \$TicketObject->TicketUnlockTimeoutUpdate(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketUnlockTimeoutUpdate</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

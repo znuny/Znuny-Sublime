@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my @List = \$SysConfigObject->ConfigurationListGet(
+    Navigation           => 'SomeNavigationGroup',  # (optional) limit to the settings that have provided navigation
+    TargetUserID         => \$TargetUserID,                      # (optional) if provided, system returns setting for particular user only,
+                                                    #       otherwise, returns global setting list
+    IsValid              => 1,                      # (optional) by default returns valid and invalid settings.
+    Invisible            => 0,                      # (optional) Include Invisible settings. By default, not included.
+    UserPreferencesGroup => 'Advanced',             # (optional) filter list by group.
+    Translate            => 0,                      # (optional) Translate translatable string in EffectiveValue. Default 0.
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.ConfigurationListGet</tabTrigger>
+    <description>6</description>
+</snippet>

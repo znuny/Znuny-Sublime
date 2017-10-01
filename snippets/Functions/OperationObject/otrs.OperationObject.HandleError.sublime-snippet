@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$OperationObject->HandleError(
+    Data => \{                               # data payload
+        ...
+    \},
+);
+}
+]]></content>
+    <tabTrigger>otrs.OperationObject.HandleError</tabTrigger>
+    <description>6</description>
+</snippet>

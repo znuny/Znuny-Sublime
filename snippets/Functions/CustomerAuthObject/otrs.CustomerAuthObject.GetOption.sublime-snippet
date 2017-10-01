@@ -3,10 +3,8 @@
 ${1:    if (\$CustomerAuthObject->GetOption(What => 'PreAuth')) \{
         print "No login screen is needed. Authentication is based on other options. E. g. \$ENV\{REMOTE_USER\}\n";
     \}
-
-
 }
 ]]></content>
     <tabTrigger>otrs.CustomerAuthObject.GetOption</tabTrigger>
-    <description>5</description>
+    <description>6, 5</description>
 </snippet>

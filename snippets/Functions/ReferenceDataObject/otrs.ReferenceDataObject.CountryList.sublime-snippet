@@ -6,5 +6,5 @@ ${1:my \$CountryList = \$ReferenceDataObject->CountryList(
 }
 ]]></content>
     <tabTrigger>otrs.ReferenceDataObject.CountryList</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

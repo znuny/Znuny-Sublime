@@ -1,6 +1,14 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$FileLocation = \$MainObject->FileWrite(
+    Directory => 'c:\some\location',
+    Filename  => 'file2write.txt',
+    # or Location
+    Location  => 'c:\some\location\file2write.txt',
+
+    Content   => \\$Content,
+);
+}${2:my \$FileLocation = \$MainObject->FileWrite(
     Directory  => 'c:\some\location',
     Filename   => 'file2write.txt',
     # or Location
@@ -11,16 +19,8 @@ ${1:my \$FileLocation = \$MainObject->FileWrite(
     Type       => 'Local',   # optional - Local|Attachment|MD5
     Permission => '644',     # optional - unix file permissions
 );
-}${2:my \$FileLocation = \$MainObject->FileWrite(
-    Directory => 'c:\some\location',
-    Filename  => 'file2write.txt',
-    # or Location
-    Location  => 'c:\some\location\file2write.txt',
-
-    Content   => \\$Content,
-);
 }
 ]]></content>
     <tabTrigger>otrs.MainObject.FileWrite</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

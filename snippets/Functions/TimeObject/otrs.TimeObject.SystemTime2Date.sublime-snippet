@@ -6,5 +6,5 @@ ${1:my (\$Sec, \$Min, \$Hour, \$Day, \$Month, \$Year, \$WeekDay) = \$TimeObject-
 }
 ]]></content>
     <tabTrigger>otrs.TimeObject.SystemTime2Date</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

@@ -12,5 +12,5 @@ ${1:my \$ValueStrg = \$BackendObject->DisplayValueRender(
 }
 ]]></content>
     <tabTrigger>otrs.BackendObject.DisplayValueRender</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

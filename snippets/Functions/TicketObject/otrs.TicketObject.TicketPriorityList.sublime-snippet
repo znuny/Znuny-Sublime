@@ -8,8 +8,12 @@ ${1:my %Priorities = \$TicketObject->TicketPriorityList(
     TicketID => \$TicketID,
     UserID   => \$UserID,
 );
+}${3:my %Priorities = \$TicketObject->TicketPriorityList(
+    TicketID       => \$TicketID,
+    CustomerUserID => \$CustomerUserID,
+);
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketPriorityList</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

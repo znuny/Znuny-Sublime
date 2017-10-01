@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$SysConfigObject->SettingsSet(
+    UserID   => \$UserID,                                      # (required) UserID
+    Comments => 'Deployment comment',                   # (optional) Comment
+    Settings => [                                       # (required) List of settings to update.
+        \{
+            Name                   => 'Setting::Name',  # (required)
+            EffectiveValue         => 'Value',          # (optional)
+            IsValid                => 1,                # (optional)
+            UserModificationActive => 1,                # (optional)
+        \},
+        ...
+    ],
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.SettingsSet</tabTrigger>
+    <description>6</description>
+</snippet>

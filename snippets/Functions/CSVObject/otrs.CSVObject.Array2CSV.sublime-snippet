@@ -12,8 +12,21 @@ ${1:\$CSV = \$CSVObject->Array2CSV(
     Quote     => '"',  # optional quote (default is ")
     Format    => 'CSV', # optional format [Excel|CSV ] (default is CSV)
 );
+}${2:\$CSV = \$CSVObject->Array2CSV(
+    WithHeader => [ 'RowA', 'RowB', ],   # optional
+    Head       => [ 'RowA', 'RowB', ],   # optional
+    Data       => [
+        [ 1, 4 ],
+        [ 7, 3 ],
+        [ 1, 9 ],
+        [ 34, 4 ],
+    ],
+    Separator => ';',  # optional separator (default is ;)
+    Quote     => '"',  # optional quote (default is ")
+    Format    => 'CSV', # optional format [Excel|CSV ] (default is CSV)
+);
 }
 ]]></content>
     <tabTrigger>otrs.CSVObject.Array2CSV</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

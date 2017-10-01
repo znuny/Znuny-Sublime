@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$List = \$MailQueueObject->Send(
+    ID              => '...',
+    Sender          => '...',
+    Recipient       => '...',
+    Message         => '...',
+    Force           => '...' # optional, to force the sending even if isn't time
+);
+}
+]]></content>
+    <tabTrigger>otrs.MailQueueObject.Send</tabTrigger>
+    <description>6</description>
+</snippet>

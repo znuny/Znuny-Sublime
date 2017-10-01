@@ -7,5 +7,5 @@ ${1:my %Users = \$GroupObject->PermissionGroupGet(
 }
 ]]></content>
     <tabTrigger>otrs.GroupObject.PermissionGroupGet</tabTrigger>
-    <description>5</description>
+    <description>6, 5</description>
 </snippet>

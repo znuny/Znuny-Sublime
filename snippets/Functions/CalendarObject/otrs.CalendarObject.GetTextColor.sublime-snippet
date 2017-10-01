@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$BestTextColor = \$CalendarObject->GetTextColor(
+    Background => '#FFF',    # (required) must be in valid hexadecimal RGB notation
+);
+}
+]]></content>
+    <tabTrigger>otrs.CalendarObject.GetTextColor</tabTrigger>
+    <description>6</description>
+</snippet>

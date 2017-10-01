@@ -8,5 +8,5 @@ ${1:my \$Success = \$TicketObject->ArticleWritePlain(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.ArticleWritePlain</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

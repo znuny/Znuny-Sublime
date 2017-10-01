@@ -8,5 +8,5 @@ ${1:my %Attachment = \$TicketObject->ArticleAttachment(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.ArticleAttachment</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

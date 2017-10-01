@@ -5,15 +5,15 @@ ${1:my \$ValueType = \$BackendObject->TemplateValueTypeGet(
     FieldType => 'All',
 );
 }${2:my \$ValueType = \$BackendObject->TemplateValueTypeGet(
-    DynamicFieldConfig => \$DynamicFieldConfig,       # complete config of the DynamicField
-    FieldType => 'Edit',                             # or 'Search' or 'All'
-);
-}${3:my \$ValueType = \$BackendObject->TemplateValueTypeGet(
     DynamicFieldConfig => \$DynamicFieldConfig,
     FieldType => 'Search',
+);
+}${3:my \$ValueType = \$BackendObject->TemplateValueTypeGet(
+    DynamicFieldConfig => \$DynamicFieldConfig,       # complete config of the DynamicField
+    FieldType => 'Edit',                             # or 'Search' or 'All'
 );
 }
 ]]></content>
     <tabTrigger>otrs.BackendObject.TemplateValueTypeGet</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my @CustomerUsers = \$CustomerUserObject->CustomerUserCustomerMemberList(
+    CustomerID => \$CustomerID,
+);
+}${2:my @CustomerIDs = \$CustomerUserObject->CustomerUserCustomerMemberList(
+    CustomerUserID => \$CustomerUserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.CustomerUserObject.CustomerUserCustomerMemberList</tabTrigger>
+    <description>6</description>
+</snippet>

@@ -8,5 +8,5 @@ ${1:my %Result = \$SpellingObject->Check(
 }
 ]]></content>
     <tabTrigger>otrs.SpellingObject.Check</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

@@ -2,6 +2,20 @@
     <content><![CDATA[
 ${1:my \$Ok = \$NotificationEventObject->NotificationUpdate(
     ID      => 123,
+    Name    => 'JobName',
+    Subject => 'JobName',
+    Body    => 'JobName',
+    Type    => 'text/plain',
+    Charset => 'utf8',
+    Data => \{
+        Queue => [ 'SomeQueue', ],
+        ...
+        Valid => [ 1, ],
+    \},
+    UserID => \$UserID,
+);
+}${2:my \$Ok = \$NotificationEventObject->NotificationUpdate(
+    ID      => 123,
     Name    => 'Agent::OwnerUpdate',
     Data => \{
         Events => [ 'TicketQueueUpdate' ],
@@ -24,22 +38,8 @@ ${1:my \$Ok = \$NotificationEventObject->NotificationUpdate(
     ValidID => \$ValidID,
     UserID  => \$UserID,
 );
-}${2:my \$Ok = \$NotificationEventObject->NotificationUpdate(
-    ID      => 123,
-    Name    => 'JobName',
-    Subject => 'JobName',
-    Body    => 'JobName',
-    Type    => 'text/plain',
-    Charset => 'utf8',
-    Data => \{
-        Queue => [ 'SomeQueue', ],
-        ...
-        Valid => [ 1, ],
-    \},
-    UserID => \$UserID,
-);
 }
 ]]></content>
     <tabTrigger>otrs.NotificationEventObject.NotificationUpdate</tabTrigger>
-    <description>5</description>
+    <description>6, 5, 4</description>
 </snippet>

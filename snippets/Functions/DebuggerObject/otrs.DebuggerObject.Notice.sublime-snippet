@@ -7,5 +7,5 @@ ${1:\$DebuggerObject->Notice(
 }
 ]]></content>
     <tabTrigger>otrs.DebuggerObject.Notice</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

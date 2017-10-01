@@ -4,5 +4,5 @@ ${1:my %AutoResponseWithoutQueue = \$AutoResponseObject->AutoResponseWithoutQueu
 }
 ]]></content>
     <tabTrigger>otrs.AutoResponseObject.AutoResponseWithoutQueue</tabTrigger>
-    <description>5</description>
+    <description>6, 5</description>
 </snippet>

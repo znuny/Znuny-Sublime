@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$HelperObject = \$Kernel::OM->Get('Kernel::System::UnitTest::Helper');
+]]></content>
+    <tabTrigger>otrs.ObjectManager.HelperObject</tabTrigger>
+    <description>6, 5, 4</description>
+</snippet>

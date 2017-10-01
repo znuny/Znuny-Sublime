@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$ArticleObject->ArticleSearchIndexBuild(
+    TicketID  => \$TicketID,
+    ArticleID => \$ArticleID,
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.ArticleSearchIndexBuild</tabTrigger>
+    <description>6</description>
+</snippet>

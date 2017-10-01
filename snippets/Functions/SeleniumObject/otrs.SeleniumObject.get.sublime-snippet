@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:\$SeleniumObject->get(
+    \$URL,
+);
+}
+]]></content>
+    <tabTrigger>otrs.SeleniumObject.get</tabTrigger>
+    <description>6, 5, 4</description>
+</snippet>

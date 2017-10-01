@@ -10,5 +10,5 @@ ${1:my \$Success = \$TicketObject->ArticleBounce(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.ArticleBounce</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$SchedulerDBObject->TaskUnlockExpired();
+}
+]]></content>
+    <tabTrigger>otrs.SchedulerDBObject.TaskUnlockExpired</tabTrigger>
+    <description>6, 5</description>
+</snippet>

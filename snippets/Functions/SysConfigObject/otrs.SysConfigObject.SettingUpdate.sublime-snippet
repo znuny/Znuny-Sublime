@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Result = \$SysConfigObject->SettingUpdate(
+    Name                   => 'Setting::Name',           # (required) setting name
+    IsValid                => 1,                         # (optional) 1 or 0, modified 0
+    EffectiveValue         => \$SettingEffectiveValue,    # (optional)
+    UserModificationActive => 0,                         # (optional) 1 or 0, modified 0
+    TargetUserID           => \$TargetUserID,                         # (optional) ID of the user for which the modified setting is meant,
+                                                         #   leave it undef for global changes.
+    ExclusiveLockGUID      => \$ExclusiveLockGUID,            # the GUID used to locking the setting
+    UserID                 => \$UserID,                         # (required) UserID
+    NoValidation           => 1,                         # (optional) no value type validation.
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.SettingUpdate</tabTrigger>
+    <description>6</description>
+</snippet>

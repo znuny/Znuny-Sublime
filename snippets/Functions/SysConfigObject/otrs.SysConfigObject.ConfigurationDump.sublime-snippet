@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ConfigurationDumpYAML = \$SysConfigObject->ConfigurationDump(
+    OnlyValues => 1,
+);
+}${2:my \$ConfigurationDumpYAML = \$SysConfigObject->ConfigurationDump(
+    OnlyValues           => 0,  # optional, default 0, dumps only the setting effective value instead of the whole setting attributes.
+    SkipDefaultSettings  => 0,  # optional, default 0, do not include default settings
+    SkipModifiedSettings => 0,  # optional, default 0, do not include modified settings
+    SkipUserSettings     => 0,  # optional, default 0, do not include user settings
+    DeploymentID         => \$DeploymentID, # optional, if it is provided the modified settings are retrieved from versions
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.ConfigurationDump</tabTrigger>
+    <description>6</description>
+</snippet>

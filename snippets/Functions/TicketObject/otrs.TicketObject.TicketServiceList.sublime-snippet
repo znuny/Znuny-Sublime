@@ -16,5 +16,5 @@ ${1:my %Services = \$TicketObject->TicketServiceList(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketServiceList</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

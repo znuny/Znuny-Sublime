@@ -1,17 +1,17 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$Success = \$TicketObject->TicketSLASet(
-    SLA      => 'SLA A',
+    SLAID    => \$SLAID,
     TicketID => \$TicketID,
     UserID   => \$UserID,
 );
 }${2:my \$Success = \$TicketObject->TicketSLASet(
-    SLAID    => \$SLAID,
+    SLA      => 'SLA A',
     TicketID => \$TicketID,
     UserID   => \$UserID,
 );
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketSLASet</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

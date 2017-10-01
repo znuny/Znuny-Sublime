@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$QueueID = \$TicketObject->TicketQueueID(
+    TicketID => \$TicketID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.TicketQueueID</tabTrigger>
+    <description>6</description>
+</snippet>

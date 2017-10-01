@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ChannelID = \$CommunicationChannelObject->ChannelAdd(
+    ChannelName => 'Email',                                          # (required) Communication channel name
+    Module      => 'Kernel::System::CommunicationChannel::Internal', # (required) Module
+    PackageName => 'Framework',                                      # (required) Package name
+    ChannelData => \{...\},                                            # (optional) Additional channel data (can be array, hash, scalar).
+    ValidID     => \$ValidID,                                                # (optional) Default 1.
+    UserID      => \$UserID,                                                # (required) UserID
+);
+}
+]]></content>
+    <tabTrigger>otrs.CommunicationChannelObject.ChannelAdd</tabTrigger>
+    <description>6</description>
+</snippet>

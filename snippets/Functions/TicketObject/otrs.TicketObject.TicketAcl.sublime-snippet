@@ -71,5 +71,5 @@ ${1:\$Success = \$TicketObject->TicketAcl(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketAcl</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

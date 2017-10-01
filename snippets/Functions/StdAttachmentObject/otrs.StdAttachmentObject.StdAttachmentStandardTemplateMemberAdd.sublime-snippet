@@ -9,5 +9,5 @@ ${1:my \$Success = \$StdAttachmentObject->StdAttachmentStandardTemplateMemberAdd
 }
 ]]></content>
     <tabTrigger>otrs.StdAttachmentObject.StdAttachmentStandardTemplateMemberAdd</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

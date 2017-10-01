@@ -13,5 +13,5 @@ ${1:my \$Success = \$TicketObject->TicketResponsibleSet(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketResponsibleSet</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

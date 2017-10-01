@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:y \$TestUserLogin = \$HelperObject->TestUserCreate(
+    Groups => ['admin', 'users'],           # optional, list of groups to add this user to (rw rights)
+    Language => 'de'                        # optional, defaults to 'en' if not set
+);
+}${2:my \$TestUserLogin = \$HelperObject->TestUserCreate(
+    Groups => ['admin', 'users'],           # optional, list of groups to add this user to (rw rights)
+    Language => 'de'                        # optional, defaults to 'en' if not set
+);
+}
+]]></content>
+    <tabTrigger>otrs.HelperObject.TestUserCreate</tabTrigger>
+    <description>6, 5, 4</description>
+</snippet>

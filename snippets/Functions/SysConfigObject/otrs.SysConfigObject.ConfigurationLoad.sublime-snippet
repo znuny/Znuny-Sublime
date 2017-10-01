@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$SysConfigObject->ConfigurationLoad(
+    ConfigurationYAML   => \$YAMLString,     # a YAML string in the format of L<ConfigurationDump()>
+    UserID              => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.ConfigurationLoad</tabTrigger>
+    <description>6</description>
+</snippet>

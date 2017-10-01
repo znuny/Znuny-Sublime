@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$TicketNumber = \$TicketObject->TicketNumberLookup(
+    TicketID => \$TicketID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.TicketNumberLookup</tabTrigger>
+    <description>6</description>
+</snippet>

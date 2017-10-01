@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$HelperObject->ConfigSettingChange(
+    Valid => 1,            # (optional) enable or disable setting
+    Key   => 'MySetting',  # setting name
+    Value => \{ ... \} ,     # setting value
+);
+}
+]]></content>
+    <tabTrigger>otrs.HelperObject.ConfigSettingChange</tabTrigger>
+    <description>6</description>
+</snippet>

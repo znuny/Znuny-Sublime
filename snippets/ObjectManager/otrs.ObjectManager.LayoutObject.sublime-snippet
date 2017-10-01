@@ -3,5 +3,5 @@
 my \$LayoutObject = \$Kernel::OM->Get('Kernel::Output::HTML::Layout');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.LayoutObject</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

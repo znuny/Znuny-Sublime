@@ -11,5 +11,5 @@ my @ArticleTypeList = \$TicketObject->ArticleTypeList(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.ArticleTypeList</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

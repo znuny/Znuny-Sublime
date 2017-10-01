@@ -11,5 +11,5 @@ ${1:my \$ID = \$StandardTemplateObject->StandardTemplateAdd(
 }
 ]]></content>
     <tabTrigger>otrs.StandardTemplateObject.StandardTemplateAdd</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

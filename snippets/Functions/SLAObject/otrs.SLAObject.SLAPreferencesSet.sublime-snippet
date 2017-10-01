@@ -1,6 +1,12 @@
 <snippet>
     <content><![CDATA[
 ${1:\$SLAObject->SLAPreferencesSet(
+    SLAID  => \$SLAID,
+    Key    => 'UserComment',
+    Value  => 'some comment',
+    UserID => \$UserID,
+);
+}${2:\$SLAObject->SLAPreferencesSet(
     SLAID => \$SLAID,
     Key       => 'UserComment',
     Value     => 'some comment',
@@ -9,5 +15,5 @@ ${1:\$SLAObject->SLAPreferencesSet(
 }
 ]]></content>
     <tabTrigger>otrs.SLAObject.SLAPreferencesSet</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

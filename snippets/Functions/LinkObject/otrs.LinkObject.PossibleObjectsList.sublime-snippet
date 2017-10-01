@@ -2,13 +2,13 @@
     <content><![CDATA[
 ${1:my %PossibleObjectsList = \$LinkObject->PossibleObjectsList(
     Object => 'Ticket',
-    UserID => \$UserID,
 );
 }${2:my %PossibleObjectsList = \$LinkObject->PossibleObjectsList(
     Object => 'Ticket',
+    UserID => \$UserID,
 );
 }
 ]]></content>
     <tabTrigger>otrs.LinkObject.PossibleObjectsList</tabTrigger>
-    <description>4</description>
+    <description>6, 5, 4</description>
 </snippet>

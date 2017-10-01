@@ -10,5 +10,5 @@ ${1:my \$Result = \$StatsObject->StatsUninstall(
 }
 ]]></content>
     <tabTrigger>otrs.StatsObject.StatsUninstall</tabTrigger>
-    <description>4</description>
+    <description>6, 5, 4</description>
 </snippet>

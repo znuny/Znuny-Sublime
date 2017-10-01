@@ -4,5 +4,5 @@ ${1:my \$SystemMaintenanceIsComming = \$SystemMaintenanceObject->SystemMaintenan
 }
 ]]></content>
     <tabTrigger>otrs.SystemMaintenanceObject.SystemMaintenanceIsComming</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

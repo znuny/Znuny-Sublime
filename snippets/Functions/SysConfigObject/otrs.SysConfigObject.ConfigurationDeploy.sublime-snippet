@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$SysConfigObject->ConfigurationDeploy(
+    Comments            => "Some comments",     # (optional)
+    NoValidation        => 0,                   # (optional) 1 or 0, default 0, skips settings validation
+    UserID              => \$UserID,                 # if ExclusiveLockGUID is used, UserID must match the user that creates the lock
+    Force               => 1,                   # (optional) proceed even if lock is set to another user
+    NotDirty            => 1,                   # (optional) do not use any values from modified dirty settings
+    AllSettings         => 1,                   # (optional) use dirty modified settings from all users
+    DirtySettings       => [                    # (optional) use only this dirty modified settings from the current user
+        'SettingOne',
+        'SettingTwo',
+    ],
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.ConfigurationDeploy</tabTrigger>
+    <description>6</description>
+</snippet>

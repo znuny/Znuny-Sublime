@@ -11,5 +11,5 @@ ${1:my \$Success = \$DynamicFieldValueObject->ValueValidate(
 }
 ]]></content>
     <tabTrigger>otrs.DynamicFieldValueObject.ValueValidate</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

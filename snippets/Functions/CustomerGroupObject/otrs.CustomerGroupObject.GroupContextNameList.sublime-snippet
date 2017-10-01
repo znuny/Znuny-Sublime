@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my @ContextNames = \$CustomerGroupObject->GroupContextNameList();
+}
+]]></content>
+    <tabTrigger>otrs.CustomerGroupObject.GroupContextNameList</tabTrigger>
+    <description>6</description>
+</snippet>

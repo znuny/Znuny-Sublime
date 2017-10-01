@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Direction = \$CommunicationLogObject->DirectionGet();
+}
+]]></content>
+    <tabTrigger>otrs.CommunicationLogObject.DirectionGet</tabTrigger>
+    <description>6</description>
+</snippet>

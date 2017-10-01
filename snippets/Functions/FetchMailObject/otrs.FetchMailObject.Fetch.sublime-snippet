@@ -73,5 +73,5 @@ ${1:my \$Success = \$FetchMailObject->Fetch(
 }
 ]]></content>
     <tabTrigger>otrs.FetchMailObject.Fetch</tabTrigger>
-    <description>5</description>
+    <description>6, 5</description>
 </snippet>

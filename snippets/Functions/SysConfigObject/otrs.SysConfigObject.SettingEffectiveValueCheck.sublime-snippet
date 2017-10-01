@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Result = \$SysConfigObject->SettingEffectiveValueCheck(
+    EffectiveValue => 'open',     # (optional)
+    XMLContentParsed => \{         # (required)
+        Value => [
+            \{
+                'Item' => [
+                    \{
+                        'Content' => "Scalar value",
+                    \},
+                ],
+            \},
+        ],
+    \},
+    UseCache              => 1,
+    SettingUID            => \$SettingUID,             # (optional) no value type validation.
+    UserID                => \$UserID,             # (required) UserID
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.SettingEffectiveValueCheck</tabTrigger>
+    <description>6</description>
+</snippet>

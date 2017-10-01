@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+my \$CommunicationLogObject = \$Kernel::OM->Create(
+        'Kernel::System::CommunicationLog',
+        ObjectParams => \{
+            CommunicationID => 123,
+        \}
+    );
+]]></content>
+    <tabTrigger>otrs.ObjectManager.CommunicationLogObject</tabTrigger>
+    <description>6</description>
+</snippet>

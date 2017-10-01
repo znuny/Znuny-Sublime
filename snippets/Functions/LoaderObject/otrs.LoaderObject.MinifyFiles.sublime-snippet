@@ -9,8 +9,19 @@ ${1:my \$TargetFilename = \$LoaderObject->MinifyFiles(
     TargetDirectory      => \$TargetDirectory,
     TargetFilenamePrefix => 'CommonCSS',    # optional, prefix for the target filename
 );
+}${2:my \$TargetFilename = \$LoaderObject->MinifyFiles(
+    List  => [                          # optional,  minify list of files
+        \$Filename,
+        \$Filename2,
+    ],
+    Checksum             => '...'       # optional, pass a checksum for the minified file
+    Content              => '...'       # optional, pass direct (already minified) content instead of a file list
+    Type                 => 'CSS',      # CSS | JavaScript
+    TargetDirectory      => \$TargetDirectory,
+    TargetFilenamePrefix => 'CommonCSS',    # optional, prefix for the target filename
+);
 }
 ]]></content>
     <tabTrigger>otrs.LoaderObject.MinifyFiles</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

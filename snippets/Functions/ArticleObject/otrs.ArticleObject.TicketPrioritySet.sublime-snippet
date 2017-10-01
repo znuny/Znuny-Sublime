@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketPrioritySet(
+    TicketID => \$TicketID,
+    Priority => 'low',
+    UserID   => \$UserID,
+);
+}${2:my \$Success = \$TicketObject->TicketPrioritySet(
+    TicketID   => \$TicketID,
+    PriorityID => \$PriorityID,
+    UserID     => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.TicketPrioritySet</tabTrigger>
+    <description>6</description>
+</snippet>

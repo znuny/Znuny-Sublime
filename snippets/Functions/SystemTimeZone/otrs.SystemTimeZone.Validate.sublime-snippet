@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$IsValid = \$DateTimeObject->Validate(
+    Year     => 2016,
+    Month    => 1,
+    Day      => 22,
+    Hour     => 16,
+    Minute   => 35,
+    Second   => 59,
+    TimeZone => 'Europe/Berlin',
+);
+}
+]]></content>
+    <tabTrigger>otrs.SystemTimeZone.Validate</tabTrigger>
+    <description>6</description>
+</snippet>

@@ -4,5 +4,5 @@ ${1:my \$ParamValueEncoded = \$LayoutObject->LinkEncode(\$ParamValue);
 }
 ]]></content>
     <tabTrigger>otrs.LayoutObject.LinkEncode</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

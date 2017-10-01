@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Result = \$SysConfigObject->ConfigurationSearch(
+    Search           => 'The search string', # (optional)
+    Category         => 'OTRSFree'           # (optional)
+    IncludeInvisible => 1,                   # (optional) Default 0.
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.ConfigurationSearch</tabTrigger>
+    <description>6</description>
+</snippet>

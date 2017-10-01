@@ -5,8 +5,13 @@ ${1:my @NextEvents = \$CronEventObject->NextEventList(
     StartTime => '1423165100',            # optional, defaults to current time
     StopTime  => '1423165300',
 );
+}${2:my @NextEvents = \$CronEventObject->NextEventList(
+    Schedule      => '*/2 * * * *',         # recurrence parameters based in cron notation
+    StartDateTime => \$StartDateTimeObject,  # optional, defaults to current date/time
+    StopDateTime  => \$StopDateTimeObject,
+);
 }
 ]]></content>
     <tabTrigger>otrs.CronEventObject.NextEventList</tabTrigger>
-    <description>5</description>
+    <description>6, 5</description>
 </snippet>

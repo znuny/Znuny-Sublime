@@ -6,5 +6,5 @@ ${1:my \$StatID = \$StatsObject->StatNumber2StatID(
 }
 ]]></content>
     <tabTrigger>otrs.StatsObject.StatNumber2StatID</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

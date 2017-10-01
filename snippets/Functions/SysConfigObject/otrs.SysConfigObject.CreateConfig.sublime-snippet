@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:\$SysConfigObject->CreateConfig( EmptyFile => 1 );
-}${2:\$SysConfigObject->CreateConfig();
+${1:\$SysConfigObject->CreateConfig();
+}${2:\$SysConfigObject->CreateConfig( EmptyFile => 1 );
 }
 ]]></content>
     <tabTrigger>otrs.SysConfigObject.CreateConfig</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

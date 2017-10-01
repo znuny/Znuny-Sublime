@@ -4,5 +4,5 @@ ${1:my \$TrueIfError = \$SpellingObject->Error();
 }
 ]]></content>
     <tabTrigger>otrs.SpellingObject.Error</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

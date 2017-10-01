@@ -6,10 +6,8 @@ ${1:    if (\$TicketObject->TicketLockGet(TicketID => 123)) \{
     else \{
         print "Ticket is not locked!\n";
     \}
-
-
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketLockGet</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

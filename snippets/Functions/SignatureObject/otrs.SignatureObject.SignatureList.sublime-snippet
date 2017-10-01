@@ -1,11 +1,14 @@
 <snippet>
     <content><![CDATA[
-${1:my %List = \$SignatureObject->SignatureList(
+${1:my %List = \$SignatureObject->SignatureList();
+}${2:my %List = \$SignatureObject->SignatureList(
     Valid => 0,
 );
-}${2:my %List = \$SignatureObject->SignatureList();
+}${3:my %List = \$SignatureObject->SignatureList(
+    Valid => 0,  # optional, defaults to 1
+);
 }
 ]]></content>
     <tabTrigger>otrs.SignatureObject.SignatureList</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

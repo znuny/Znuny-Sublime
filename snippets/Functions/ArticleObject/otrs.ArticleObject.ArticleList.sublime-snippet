@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Articles = \$ArticleObject->ArticleList(
+
+    TicketID               => \$TicketID,
+
+    # Optional filters, these can be combined:
+
+    ArticleID              => \$ArticleID,                # optional, limit to one article (if present on a ticket)
+    CommunicationChannel   => 'Email',            # optional, to limit to a certain CommunicationChannel
+    CommunicationChannelID => \$CommunicationChannelID,                  # optional, to limit to a certain CommunicationChannelID
+    SenderType             => 'customer',         # optional, to limit to a certain article SenderType
+    SenderTypeID           => \$SenderTypeID,                  # optional, to limit to a certain article SenderTypeID
+    IsVisibleForCustomer   => 0,                  # optional, to limit to a certain visibility
+
+    # After filtering, you can also limit to first or last found article only:
+
+    OnlyFirst              => 0,                  # optional, only return first match
+    OnlyLast               => 0,                  # optional, only return last match
+);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.ArticleList</tabTrigger>
+    <description>6</description>
+</snippet>

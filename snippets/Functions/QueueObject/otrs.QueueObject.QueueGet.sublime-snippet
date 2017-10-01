@@ -1,13 +1,13 @@
 <snippet>
     <content><![CDATA[
 ${1:my %Queue = \$QueueObject->QueueGet(
-    Name  => 'Some::Queue',
+    ID    => 123,
 );
 }${2:my %Queue = \$QueueObject->QueueGet(
-    ID    => 123,
+    Name  => 'Some::Queue',
 );
 }
 ]]></content>
     <tabTrigger>otrs.QueueObject.QueueGet</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

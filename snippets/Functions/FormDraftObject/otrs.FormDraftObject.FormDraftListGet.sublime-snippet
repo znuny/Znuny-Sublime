@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$FormDraftList = \$FormDraftObject->FormDraftListGet(
+    ObjectType => 'Ticket',             # optional
+    ObjectID   => \$ObjectID,                  # optional
+    Action     => 'AgentTicketCompose', # optional
+    UserID     => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.FormDraftObject.FormDraftListGet</tabTrigger>
+    <description>6</description>
+</snippet>

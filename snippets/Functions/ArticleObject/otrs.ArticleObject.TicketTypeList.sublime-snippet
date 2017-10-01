@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Types = \$TicketObject->TicketTypeList(
+    UserID => \$UserID,
+);
+}${2:my %Types = \$TicketObject->TicketTypeList(
+    CustomerUserID => \$CustomerUserID,
+);
+}${3:my %Types = \$TicketObject->TicketTypeList(
+    QueueID => \$QueueID,
+    UserID  => \$UserID,
+);
+}${4:my %Types = \$TicketObject->TicketTypeList(
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.TicketTypeList</tabTrigger>
+    <description>6</description>
+</snippet>

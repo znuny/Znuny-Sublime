@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Path = \$SysConfigObject->SettingNavigationToPath(
+    Navigation => 'Frontend::Agent::ToolBarModule',  # (optional)
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.SettingNavigationToPath</tabTrigger>
+    <description>6</description>
+</snippet>

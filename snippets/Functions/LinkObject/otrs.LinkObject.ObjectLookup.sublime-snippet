@@ -1,21 +1,21 @@
 <snippet>
     <content><![CDATA[
-${1:\$Name = \$LinkObject->ObjectLookup(
-    ObjectID => \$ObjectID,
-    UserID   => \$UserID,
+${1:\$ObjectID = \$LinkObject->ObjectLookup(
+    Name => 'Ticket',
 );
-}${2:\$ObjectID = \$LinkObject->ObjectLookup(
+}${2:\$Name = \$LinkObject->ObjectLookup(
+    ObjectID => \$ObjectID,
+);
+}${3:\$ObjectID = \$LinkObject->ObjectLookup(
     Name   => 'Ticket',
     UserID => \$UserID,
 );
-}${3:\$Name = \$LinkObject->ObjectLookup(
+}${4:\$Name = \$LinkObject->ObjectLookup(
     ObjectID => \$ObjectID,
-);
-}${4:\$ObjectID = \$LinkObject->ObjectLookup(
-    Name => 'Ticket',
+    UserID   => \$UserID,
 );
 }
 ]]></content>
     <tabTrigger>otrs.LinkObject.ObjectLookup</tabTrigger>
-    <description>4</description>
+    <description>6, 5, 4</description>
 </snippet>

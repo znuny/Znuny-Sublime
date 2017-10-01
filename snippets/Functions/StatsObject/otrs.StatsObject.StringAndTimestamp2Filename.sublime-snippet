@@ -5,8 +5,12 @@ ${1:my \$Filename = \$StatsObject->StringAndTimestamp2Filename( String => 'Title
     String   => 'Title',
     TimeZone => '+2',  # optional
 );
+}${3:my \$Filename = \$StatsObject->StringAndTimestamp2Filename(
+    String   => 'Title',
+    TimeZone => 'Europe/Berlin',  # optional
+);
 }
 ]]></content>
     <tabTrigger>otrs.StatsObject.StringAndTimestamp2Filename</tabTrigger>
-    <description>4</description>
+    <description>6, 5, 4</description>
 </snippet>

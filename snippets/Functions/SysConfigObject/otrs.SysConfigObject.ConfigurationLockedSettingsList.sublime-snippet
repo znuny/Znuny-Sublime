@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Result = \$SysConfigObject->ConfigurationLockedSettingsList(
+    ExclusiveLockUserID       => \$ExclusiveLockUserID, # Optional, ID of the user for which the default setting is locked
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.ConfigurationLockedSettingsList</tabTrigger>
+    <description>6</description>
+</snippet>

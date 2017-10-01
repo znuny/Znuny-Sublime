@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$SeleniumObject->Login(
+    Type     => 'Agent', # Agent|Customer
+    User     => 'someuser',
+    Password => 'somepassword',
+);
+}
+]]></content>
+    <tabTrigger>otrs.SeleniumObject.Login</tabTrigger>
+    <description>6, 5, 4</description>
+</snippet>

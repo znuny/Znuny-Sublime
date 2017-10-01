@@ -4,5 +4,5 @@ ${1:my @Services = \$ServiceObject->GetAllCustomServices( UserID => 123 );
 }
 ]]></content>
     <tabTrigger>otrs.ServiceObject.GetAllCustomServices</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

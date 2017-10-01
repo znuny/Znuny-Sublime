@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
-${1:my \$StatID = \$StatsObject->StatsAdd(
+${1:my \$StatID = \$StatsObject->StatsAdd();
+}${2:my \$StatID = \$StatsObject->StatsAdd(
     UserID => \$UserID,
 );
-}${2:my \$StatID = \$StatsObject->StatsAdd();
 }
 ]]></content>
     <tabTrigger>otrs.StatsObject.StatsAdd</tabTrigger>
-    <description>5</description>
+    <description>6, 5, 4</description>
 </snippet>

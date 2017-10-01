@@ -4,5 +4,5 @@ ${1:my \$AccountedTime = \$TicketObject->TicketAccountedTimeGet(TicketID => 1234
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketAccountedTimeGet</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

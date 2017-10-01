@@ -1,0 +1,49 @@
+<snippet>
+    <content><![CDATA[
+${1:my @CustomerIDs = \$CustomerGroupObject->GroupCustomerList(
+    GroupID => \$GroupID,
+    Type    => 'ro',    # ro|move_into|priority|create|owner|rw
+    Context => 'Ticket::CustomerID::Same',
+                        # permissions to same company tickets, default context
+    Result  => 'ID',    # return array of customer ids
+);
+}${2:my @CustomerNames = \$CustomerGroupObject->GroupCustomerList(
+    GroupID => \$GroupID,
+    Type    => 'ro',    # ro|move_into|priority|create|owner|rw
+    Context => 'Ticket::CustomerID::Same',
+                        # permissions to same company tickets, default context
+    Result  => 'Name',  # return array of customer ids
+);
+}${3:my @GroupIDs = \$CustomerGroupObject->GroupCustomerList(
+    CustomerID => \$CustomerID,
+    Type       => 'ro',     # ro|move_into|priority|create|owner|rw
+    Context => 'Ticket::CustomerID::Same',
+                        # permissions to same company tickets, default context
+    Result     => 'ID',     # return array of group ids
+);
+}${4:my @GroupNames = \$CustomerGroupObject->GroupCustomerList(
+    CustomerID => \$CustomerID,
+    Type       => 'ro',     # ro|move_into|priority|create|owner|rw
+    Context => 'Ticket::CustomerID::Same',
+                        # permissions to same company tickets, default context
+    Result     => 'Name',   # return array of group names
+);
+}${5:my %Customers = \$CustomerGroupObject->GroupCustomerList(
+    GroupID => \$GroupID,
+    Type    => 'ro',    # ro|move_into|priority|create|owner|rw
+    Context => 'Ticket::CustomerID::Same',
+                        # permissions to same company tickets, default context
+    Result  => 'HASH',  # return hash of customer id => group name entries
+);
+}${6:my %Groups = \$CustomerGroupObject->GroupCustomerList(
+    CustomerID => \$CustomerID,
+    Type       => 'ro',     # ro|move_into|priority|create|owner|rw
+    Context => 'Ticket::CustomerID::Same',
+                        # permissions to same company tickets, default context
+    Result     => 'HASH',   # return hash of group id => group name entries
+);
+}
+]]></content>
+    <tabTrigger>otrs.CustomerGroupObject.GroupCustomerList</tabTrigger>
+    <description>6</description>
+</snippet>

@@ -6,5 +6,5 @@ ${1:my \$Behaviours = \$StatsObject->GetObjectBehaviours(
 }
 ]]></content>
     <tabTrigger>otrs.StatsObject.GetObjectBehaviours</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

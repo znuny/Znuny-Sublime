@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %CheckOk = \$PackageObject->AnalyzePackageFrameworkRequirements(
+    Framework       => \$Structure\{Framework\}, # [ \{ 'Content' => '4.0.x', 'Minimum' => '4.0.4'\} ]
+    NoLog           => 1, # optional
+);
+}
+]]></content>
+    <tabTrigger>otrs.PackageObject.AnalyzePackageFrameworkRequirements</tabTrigger>
+    <description>6</description>
+</snippet>

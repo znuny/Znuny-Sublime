@@ -9,5 +9,5 @@ ${1:my \$ArticleType = \$TicketObject->ArticleTypeLookup(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.ArticleTypeLookup</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

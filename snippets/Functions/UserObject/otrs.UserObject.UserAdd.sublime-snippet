@@ -6,7 +6,6 @@ ${1:my \$UserID = \$UserObject->UserAdd(
     UserLogin     => 'mhuber',
     UserPw        => 'some-pass', # not required
     UserEmail     => 'email@example.com',
-    UserMobile    => '1234567890', # not required
     ValidID       => \$ValidID,
     ChangeUserID  => \$ChangeUserID,
 );
@@ -16,11 +15,12 @@ ${1:my \$UserID = \$UserObject->UserAdd(
     UserLogin     => 'mhuber',
     UserPw        => 'some-pass', # not required
     UserEmail     => 'email@example.com',
+    UserMobile    => '1234567890', # not required
     ValidID       => \$ValidID,
     ChangeUserID  => \$ChangeUserID,
 );
 }
 ]]></content>
     <tabTrigger>otrs.UserObject.UserAdd</tabTrigger>
-    <description>5</description>
+    <description>6, 5, 4</description>
 </snippet>

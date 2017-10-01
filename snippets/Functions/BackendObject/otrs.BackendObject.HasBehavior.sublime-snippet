@@ -18,5 +18,5 @@ ${1:my \$Success = \$BackendObject->HasBehavior(
 }
 ]]></content>
     <tabTrigger>otrs.BackendObject.HasBehavior</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:    if (\$TicketObject->TicketLockGet(TicketID => 123)) \{
+        print "Ticket is locked!\n";
+    \}
+    else \{
+        print "Ticket is not locked!\n";
+    \}
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.TicketLockGet</tabTrigger>
+    <description>6</description>
+</snippet>

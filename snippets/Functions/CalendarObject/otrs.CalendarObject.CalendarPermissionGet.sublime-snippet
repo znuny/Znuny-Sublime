@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Permission = \$CalendarObject->CalendarPermissionGet(
+    CalendarID  => \$CalendarID,                   # (required) CalendarID
+    UserID      => \$UserID,                   # (required) UserID
+);
+}
+]]></content>
+    <tabTrigger>otrs.CalendarObject.CalendarPermissionGet</tabTrigger>
+    <description>6</description>
+</snippet>

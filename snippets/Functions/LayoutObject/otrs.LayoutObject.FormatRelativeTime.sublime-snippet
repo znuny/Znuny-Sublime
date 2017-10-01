@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Result = \$LayoutObject->FormatRelativeTime(
+    DateTimeObject => \$DateTimeObject,      # (required)
+);
+}
+]]></content>
+    <tabTrigger>otrs.LayoutObject.FormatRelativeTime</tabTrigger>
+    <description>6</description>
+</snippet>

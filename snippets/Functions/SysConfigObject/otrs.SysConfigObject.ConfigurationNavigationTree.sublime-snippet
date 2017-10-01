@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Result = \$SysConfigObject->ConfigurationNavigationTree(
+    RootNavigation         => 'Parent',     # (optional) If provided only sub groups of the root navigation are returned.
+    UserModificationActive => 1,            # (optional) Return settings that can be modified on user level only.
+    IsValid                => 1,            # (optional) By default, display all settings.
+    Category               => 'OTRSFree'    # (optional)
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.ConfigurationNavigationTree</tabTrigger>
+    <description>6</description>
+</snippet>

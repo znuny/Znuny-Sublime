@@ -3,5 +3,5 @@
 my \$SessionObject = \$Kernel::OM->Get('Kernel::System::AuthSession');
 ]]></content>
     <tabTrigger>otrs.ObjectManager.SessionObject</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

@@ -14,5 +14,5 @@ ${1:my \$Value = \$CacheObject->Get(
 }
 ]]></content>
     <tabTrigger>otrs.CacheObject.Get</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

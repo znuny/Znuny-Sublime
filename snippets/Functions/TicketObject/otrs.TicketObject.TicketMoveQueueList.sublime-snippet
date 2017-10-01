@@ -11,5 +11,5 @@ ${1:my @QueueList = \$TicketObject->TicketMoveQueueList(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketMoveQueueList</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

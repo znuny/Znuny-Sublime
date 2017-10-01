@@ -8,5 +8,5 @@ ${1:\$GenericAgentObject->JobDelete(Name => 'JobName');
 }
 ]]></content>
     <tabTrigger>otrs.GenericAgentObject.JobDelete</tabTrigger>
-    <description>4</description>
+    <description>6, 5, 4</description>
 </snippet>

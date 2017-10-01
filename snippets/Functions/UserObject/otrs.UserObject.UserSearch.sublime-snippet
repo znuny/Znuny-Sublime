@@ -1,20 +1,20 @@
 <snippet>
     <content><![CDATA[
 ${1:my %List = \$UserObject->UserSearch(
-    PostMasterSearch => 'email@example.com',
-    Valid            => 1, # not required
-);
-}${2:my %List = \$UserObject->UserSearch(
     UserLogin => '*some*',
     Limit     => 50,
     Valid     => 1, # not required
 );
-}${3:my %List = \$UserObject->UserSearch(
+}${2:my %List = \$UserObject->UserSearch(
     Search => '*some*', # also 'hans+huber' possible
     Valid  => 1, # not required
+);
+}${3:my %List = \$UserObject->UserSearch(
+    PostMasterSearch => 'email@example.com',
+    Valid            => 1, # not required
 );
 }
 ]]></content>
     <tabTrigger>otrs.UserObject.UserSearch</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

@@ -13,5 +13,5 @@ ${1:my \$Success = \$TicketObject->ArticleFlagDelete(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.ArticleFlagDelete</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

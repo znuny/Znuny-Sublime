@@ -6,5 +6,5 @@ ${1:my \$TicketID = \$TicketObject->ArticleGetTicketIDOfMessageID(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.ArticleGetTicketIDOfMessageID</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
 ${1:\$GroupObject->GroupUserRoleMemberList(
-    UserID => \$UserID,
+    RoleID => \$RoleID,
     Result => 'HASH',
 );
 }${2:\$GroupObject->GroupUserRoleMemberList(
-    RoleID => \$RoleID,
+    UserID => \$UserID,
     Result => 'HASH',
 );
 }

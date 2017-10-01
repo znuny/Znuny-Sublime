@@ -8,5 +8,5 @@ ${1:my \$Template = \$TemplateGeneratorObject->Template(
 }
 ]]></content>
     <tabTrigger>otrs.TemplateGeneratorObject.Template</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

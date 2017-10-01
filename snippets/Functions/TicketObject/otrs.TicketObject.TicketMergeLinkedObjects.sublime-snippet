@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketMergeLinkedObjects(
+    MainTicketID  => \$MainTicketID,
+    MergeTicketID => \$MergeTicketID,
+    UserID        => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.TicketObject.TicketMergeLinkedObjects</tabTrigger>
+    <description>5</description>
+</snippet>

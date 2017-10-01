@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$CommunicationChannelObject->ChannelDrop(
+    ChannelID   => \$ChannelID,               # (required) Delete by channel ID
+                                    # or
+    ChannelName => 'SomeChannel',   # (required) Delete by channel name
+
+    DropArticleData => 1,           # (optional) Also drop article data if possible, default: 0
+);
+}
+]]></content>
+    <tabTrigger>otrs.CommunicationChannelObject.ChannelDrop</tabTrigger>
+    <description>6</description>
+</snippet>

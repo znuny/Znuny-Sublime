@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$IsVacationDay = \$DateTimeObject->IsVacationDay(
+    Calendar => 9, # optional, OTRS vacation days otherwise
+);
+}
+]]></content>
+    <tabTrigger>otrs.SystemTimeZone.IsVacationDay</tabTrigger>
+    <description>6</description>
+</snippet>

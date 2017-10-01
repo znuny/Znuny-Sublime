@@ -5,8 +5,16 @@ ${1:my \$Value = \$BackendObject->ValueGet(
     ObjectID           => \$ObjectID,                # ID of the current object that the field
                                                     # must be linked to, e. g. TicketID
 );
+}${2:my \$Value = \$BackendObject->ValueGet(
+    DynamicFieldConfig => \$DynamicFieldConfig,      # complete config of the DynamicField
+    ObjectID           => \$ObjectID,                # ID of the current object that the field
+                                                    # must be linked to, e. g. TicketID
+    ObjectName         => \$ObjectName,              # Name of the current object that the field
+                                                    # must be linked to, e. g. CustomerUserLogin
+                                                    # You have to give either ObjectID OR ObjectName
+);
 }
 ]]></content>
     <tabTrigger>otrs.BackendObject.ValueGet</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

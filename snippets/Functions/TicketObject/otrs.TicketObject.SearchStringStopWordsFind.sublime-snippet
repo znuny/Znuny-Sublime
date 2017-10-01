@@ -9,5 +9,5 @@ ${1:my \$StopWords = \$TicketObject->SearchStringStopWordsFind(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.SearchStringStopWordsFind</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

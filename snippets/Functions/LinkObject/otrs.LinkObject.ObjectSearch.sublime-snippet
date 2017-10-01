@@ -9,5 +9,5 @@ ${1:\$ObjectList = \$LinkObject->ObjectSearch(
 }
 ]]></content>
     <tabTrigger>otrs.LinkObject.ObjectSearch</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

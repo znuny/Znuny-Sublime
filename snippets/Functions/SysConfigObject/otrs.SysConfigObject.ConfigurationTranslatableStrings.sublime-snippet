@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my @TranslatableStrings = \$SysConfigObject->ConfigurationTranslatableStrings();
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.ConfigurationTranslatableStrings</tabTrigger>
+    <description>6</description>
+</snippet>

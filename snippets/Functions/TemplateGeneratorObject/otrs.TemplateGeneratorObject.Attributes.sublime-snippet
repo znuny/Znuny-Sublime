@@ -9,5 +9,5 @@ ${1:my %Attributes = \$TemplateGeneratorObject->Attributes(
 }
 ]]></content>
     <tabTrigger>otrs.TemplateGeneratorObject.Attributes</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my @List = \$SysConfigObject->ConfigurationDeploySettingsListGet(
+    DeploymentID => \$DeploymentID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.ConfigurationDeploySettingsListGet</tabTrigger>
+    <description>6</description>
+</snippet>

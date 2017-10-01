@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my %ArticleSenderTypeList = \$ArticleObject->ArticleSenderTypeList();
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.ArticleSenderTypeList</tabTrigger>
+    <description>6</description>
+</snippet>

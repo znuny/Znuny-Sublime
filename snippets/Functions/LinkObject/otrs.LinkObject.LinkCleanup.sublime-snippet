@@ -12,5 +12,5 @@ ${1:\$True = \$LinkObject->LinkCleanup(
 }
 ]]></content>
     <tabTrigger>otrs.LinkObject.LinkCleanup</tabTrigger>
-    <description>5</description>
+    <description>6, 5, 4</description>
 </snippet>

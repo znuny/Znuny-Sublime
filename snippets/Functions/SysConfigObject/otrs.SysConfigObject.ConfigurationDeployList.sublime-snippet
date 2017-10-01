@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my @List = \$SysConfigObject->ConfigurationDeployList();
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.ConfigurationDeployList</tabTrigger>
+    <description>6</description>
+</snippet>

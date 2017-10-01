@@ -6,5 +6,5 @@ ${1:my %MailAccount = \$MailAccountObject->MailAccountGet(
 }
 ]]></content>
     <tabTrigger>otrs.MailAccountObject.MailAccountGet</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

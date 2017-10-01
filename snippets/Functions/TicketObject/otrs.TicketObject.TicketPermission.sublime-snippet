@@ -14,5 +14,5 @@ ${1:my \$Access = \$TicketObject->TicketPermission(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketPermission</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

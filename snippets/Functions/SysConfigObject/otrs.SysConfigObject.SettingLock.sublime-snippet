@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ExclusiveLockGUID = \$SysConfigObject->SettingLock(
+    DefaultID => \$DefaultID,                     # the ID of the setting that needs to be locked
+                                        #    or
+    Name      => 'SettingName',         # the Name of the setting that needs to be locked
+                                        #    or
+    LockAll   => 1,                     # system locks all settings
+    Force     => 1,                     # (optional) Force locking (do not check if it's already locked by another user). Default: 0.
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.SettingLock</tabTrigger>
+    <description>6</description>
+</snippet>

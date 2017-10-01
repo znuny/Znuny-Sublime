@@ -6,5 +6,5 @@ ${1:my @ArticleSenderTypeList = \$TicketObject->ArticleSenderTypeList(
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.ArticleSenderTypeList</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

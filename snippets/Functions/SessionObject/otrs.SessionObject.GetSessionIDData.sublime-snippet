@@ -6,5 +6,5 @@ ${1:my %Data = \$SessionObject->GetSessionIDData(
 }
 ]]></content>
     <tabTrigger>otrs.SessionObject.GetSessionIDData</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

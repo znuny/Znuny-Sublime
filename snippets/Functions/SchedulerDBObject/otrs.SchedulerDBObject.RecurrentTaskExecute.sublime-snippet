@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$SchedulerDBObject->RecurrentTaskExecute(
+    NodeID                   => \$NodeID,                 # the ID of the node in a cluster environment
+    PID                      => \$PID,               # the process ID of the daemon that is creating
+                                                   #    the tasks to execution
+    TaskName                 => 'UniqueTaskName',
+    TaskType                 => 'Cron',
+    PreviousEventTimestamp   => 1433212343,
+    MaximumParallelInstances => 1,                 # optional (default 0) number of tasks with the
+                                                   #    same name and type that can be in execution
+                                                   #    table at the same time, value of 0 means
+                                                   #    unlimited
+    Data                   => \{                    # data payload
+        ...
+    \},
+);
+}
+]]></content>
+    <tabTrigger>otrs.SchedulerDBObject.RecurrentTaskExecute</tabTrigger>
+    <description>6, 5</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:\$CustomerUserObject->CustomerUserCacheClear(
+    UserLogin => 'mhuber',
+);
+}
+]]></content>
+    <tabTrigger>otrs.CustomerUserObject.CustomerUserCacheClear</tabTrigger>
+    <description>6</description>
+</snippet>

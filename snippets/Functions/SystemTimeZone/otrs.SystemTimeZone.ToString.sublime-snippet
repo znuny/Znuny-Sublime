@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$DateTimeString = \$DateTimeObject->ToString();
+}
+]]></content>
+    <tabTrigger>otrs.SystemTimeZone.ToString</tabTrigger>
+    <description>6</description>
+</snippet>

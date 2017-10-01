@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Result = \$SysConfigObject->SettingLockCheck(
+    DefaultID           => \$DefaultID,                     # the ID of the setting that needs to be checked
+    ExclusiveLockGUID   => \$ExclusiveLockGUID,                     # lock GUID
+    ExclusiveLockUserID => \$ExclusiveLockUserID,                     # UserID
+);
+}
+]]></content>
+    <tabTrigger>otrs.SysConfigObject.SettingLockCheck</tabTrigger>
+    <description>6</description>
+</snippet>

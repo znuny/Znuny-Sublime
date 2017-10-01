@@ -1,21 +1,25 @@
 <snippet>
     <content><![CDATA[
 ${1:my %SLAs = \$TicketObject->TicketSLAList(
-    TicketID  => \$TicketID,
     ServiceID => \$ServiceID,
     UserID    => \$UserID,
 );
 }${2:my %SLAs = \$TicketObject->TicketSLAList(
+    ServiceID      => \$ServiceID,
+    CustomerUserID => \$CustomerUserID,
+);
+}${3:my %SLAs = \$TicketObject->TicketSLAList(
     QueueID   => \$QueueID,
     ServiceID => \$ServiceID,
     UserID    => \$UserID,
 );
-}${3:my %SLAs = \$TicketObject->TicketSLAList(
+}${4:my %SLAs = \$TicketObject->TicketSLAList(
+    TicketID  => \$TicketID,
     ServiceID => \$ServiceID,
     UserID    => \$UserID,
 );
 }
 ]]></content>
     <tabTrigger>otrs.TicketObject.TicketSLAList</tabTrigger>
-    <description>4, 5</description>
+    <description>5, 4</description>
 </snippet>

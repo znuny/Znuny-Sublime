@@ -17,5 +17,5 @@ ${1:my \$ID = \$DynamicFieldObject->DynamicFieldAdd(
 }
 ]]></content>
     <tabTrigger>otrs.DynamicFieldObject.DynamicFieldAdd</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>

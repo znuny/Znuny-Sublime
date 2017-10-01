@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %ArticleTicketIDs = \$ArticleObject->ArticleSearchIndexRebuildFlagList(
+    Value => 1,     # (optional) 0/1 default 0
+    Limit => 10000, # (optional) default: 20000
+);
+}
+]]></content>
+    <tabTrigger>otrs.ArticleObject.ArticleSearchIndexRebuildFlagList</tabTrigger>
+    <description>6</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:\$SeleniumObject->DragAndDrop(
+    Element         => '.Element', # (required) css selector of element which should be dragged
+    Target          => '.Target',  # (required) css selector of element on which the dragged element should be dropped
+    TargetOffset    => \{           # (optional) Offset for target. If not specified, the mouse will move to the middle of the element.
+        X   => 150,
+        Y   => 100,
+    \}
+);
+}
+]]></content>
+    <tabTrigger>otrs.SeleniumObject.DragAndDrop</tabTrigger>
+    <description>6, 5</description>
+</snippet>

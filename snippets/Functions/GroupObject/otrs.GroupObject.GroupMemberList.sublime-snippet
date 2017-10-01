@@ -1,14 +1,14 @@
 <snippet>
     <content><![CDATA[
-${1:my %Users = \$GroupObject->GroupMemberList(
-    GroupID => \$GroupID,
-    Type    => 'move_into',
-    Result  => 'HASH',
-);
-}${2:my %Groups = \$GroupObject->GroupMemberList(
+${1:my %Groups = \$GroupObject->GroupMemberList(
     UserID => \$UserID,
     Type   => 'move_into',
     Result => 'HASH',
+);
+}${2:my %Users = \$GroupObject->GroupMemberList(
+    GroupID => \$GroupID,
+    Type    => 'move_into',
+    Result  => 'HASH',
 );
 }
 ]]></content>

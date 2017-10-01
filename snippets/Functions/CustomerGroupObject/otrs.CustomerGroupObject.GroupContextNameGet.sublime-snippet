@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ContextName = \$CustomerGroupObject->GroupContextNameGet(
+    SysConfigName => '100-CustomerID-other', # optional, defaults to '001-CustomerID-same'
+);
+}
+]]></content>
+    <tabTrigger>otrs.CustomerGroupObject.GroupContextNameGet</tabTrigger>
+    <description>6</description>
+</snippet>

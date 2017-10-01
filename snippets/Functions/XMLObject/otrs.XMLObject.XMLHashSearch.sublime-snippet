@@ -23,5 +23,5 @@ ${1:my @Keys = \$XMLObject->XMLHashSearch(
 }
 ]]></content>
     <tabTrigger>otrs.XMLObject.XMLHashSearch</tabTrigger>
-    <description>4, 5</description>
+    <description>6, 5, 4</description>
 </snippet>
