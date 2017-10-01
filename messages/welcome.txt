@@ -13,6 +13,10 @@ Enjoy!
 
  Your Znuny Team!
 
+Version 0.0.38
+✔ Added OTRS 6 snippets.
+✔ Improved existing snippets.
+
 Version 0.0.37
 ✔ Fixed bug: New file permissions are only applied for OTRS >= 6.
 
