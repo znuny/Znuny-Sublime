@@ -38,6 +38,7 @@ class Znuny4OtrsObjectDependencies(sublime_plugin.TextCommand):
     for (dependency) in re.findall(pattern, body):
 
       if package_name and dependency == package_name: continue
+      if dependency.find('$') != -1: continue
       if dependency in object_dependencies: continue
       object_dependencies.append( dependency )
 
