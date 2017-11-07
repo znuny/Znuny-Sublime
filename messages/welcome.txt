@@ -13,6 +13,11 @@ Enjoy!
 
  Your Znuny Team!
 
+Version 0.0.40
+✔ Added filter for dynamic generated ObjectManager calls.
+✔ Added compatibility for new Framework tag attributes.
+✔ Added support for new OTRS 6 config format.
+
 Version 0.0.39
 ✔ Improved existing snippets.
 
