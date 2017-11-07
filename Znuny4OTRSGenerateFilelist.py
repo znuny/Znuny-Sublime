@@ -21,11 +21,16 @@ class Znuny4OtrsGenerateFilelist(sublime_plugin.TextCommand):
 
   def generate_filelist(self, folder):
 
-    view_content = self.view.substr(sublime.Region(0, self.view.size()))
+    sublime.status_message('Getting content.')
 
-    m = re.search(r'<Framework>([^<]+)', view_content)
+    view_content = self.view.substr(sublime.Region(0, self.view.size()))
+    sublime.status_message('Got content.')
+
+    m = re.search(r'<Framework[^>]*>([^<]+)', view_content)
+    sublime.status_message('Getting Framework version.')
     if not m:
       return
+    sublime.status_message('Got Framework version.')
 
     otrs_version = m.group(1)
 
