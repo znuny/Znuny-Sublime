@@ -18,7 +18,7 @@ class Znuny4OtrsGenerateBlockHooksCommand(sublime_plugin.TextCommand):
     </Value>
 </Setting>"""
     },
-    'OTRS 6 or below': {
+    'OTRS 5 or below': {
       'pre': """<ConfigItem Name="Frontend::Template::GenerateBlockHooks###100-Znuny4OTRSGenerateBlockHooks" Required="1" Valid="1">
     <Description Translatable="1">Generate HTML comment hooks for the specified blocks so that filters can use them.</Description>
     <Group>Znuny4OTRSGenerateBlockHooks</Group>
