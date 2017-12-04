@@ -44,7 +44,7 @@ class Znuny4OtrsGitLabCiUnitTests(sublime_plugin.TextCommand):
     view_content = self.view.substr(sublime.Region(0, self.view.size()))
 
 
-    if re.search(r'image: otrs4', view_content):
+    if re.search(r'otrs4', view_content):
       file_entry_template = '    - su -c "perl /opt/otrs/bin/otrs.UnitTest.pl -n {location}" -s /bin/bash otrs'
 
     # elif re.search(r'image: otrs5', view_content):
