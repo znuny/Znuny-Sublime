@@ -22,5 +22,5 @@ sub $1 {
     return 1;
 }
 ]]></content>
-    <tabTrigger>sub</tabTrigger>
+    <tabTrigger>sub5</tabTrigger>
 </snippet>
