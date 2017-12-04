@@ -13,6 +13,10 @@ Enjoy!
 
  Your Znuny Team!
 
+Version 0.0.42
+✔ Added different sub blocks for OTRS 5 and 6 perldoc.
+✔ Added support for new OTRS4 image.
+
 Version 0.0.41
 ✔ Fixed typo.
 
