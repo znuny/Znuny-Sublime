@@ -136,6 +136,7 @@
       "otrs.lazy.AgentTicketCustomer",
       "otrs.lazy.AgentTicketDecision",
       "otrs.lazy.AgentTicketEmail",
+      "otrs.lazy.AgentTicketEmailOutbound",
       "otrs.lazy.AgentTicketEscalationView",
       "otrs.lazy.AgentTicketForward",
       "otrs.lazy.AgentTicketFreeText",
