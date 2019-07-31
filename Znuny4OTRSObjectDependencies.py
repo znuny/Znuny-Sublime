@@ -34,7 +34,7 @@ class Znuny4OtrsObjectDependencies(sublime_plugin.TextCommand):
     # loop over all "$Kernel::OM->Get('...')"s via a RegExp
     # and extract the used object
     object_dependencies = []
-    pattern             = re.compile(r'\$Kernel::OM\->(?:Get|Create)\(\s*\'?\"?([^\)]+)(?:\'|\")')
+    pattern             = re.compile(r'\$Kernel::OM\->(?:Get|Create)\(\s*\'?\"?([^\'\"]+)(?:\'|\")')
     for (dependency) in re.findall(pattern, body):
 
       if package_name and dependency == package_name: continue
