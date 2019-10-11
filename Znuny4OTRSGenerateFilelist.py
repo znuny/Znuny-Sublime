@@ -57,6 +57,9 @@ class Znuny4OtrsGenerateFilelist(sublime_plugin.TextCommand):
       if re.search(r'^doc', sub_dir):
         continue
 
+      if re.search(r'^misc', sub_dir):
+        continue
+
       for filename in filenames:
 
         if re.search(r'^\.', filename):
