@@ -2,10 +2,10 @@
 <title>Znuny Snippets</title>
 <style>
   /* print config */
-  @page { 
+  @page {
     margin: 0.635cm;
   }
-  
+
   body {
     font-family: "Open Sans", "Fira Sans", sans-serif;
     font-size: 11px;
@@ -55,7 +55,7 @@
 </style>
 
 <body class="categories no-columns">
-  
+
 <!-- <body class="categories"> -->
 <div id="PageContent" style="margin: 5px;">
   <div style="padding: 10px;">
@@ -177,7 +177,7 @@
       }
     };
     httpRequest.open('GET', path);
-    httpRequest.send(); 
+    httpRequest.send();
   }
 
   function UpdateCategories() {
@@ -208,7 +208,7 @@
               // snippet.className = 'snippet';
               snippet.innerHTML = data[i].snippets[j];
               fragment.appendChild(snippet);
-            }            
+            }
           }
         }
       }
