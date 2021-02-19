@@ -21,7 +21,7 @@ def plugin_loaded():
 
 class Znuny4OtrsCustomizersLittleHelper(sublime_plugin.WindowCommand):
 
-  repository_names    = ['otrs', 'ITSMIncidentProblemManagement', 'ITSMConfigurationManagement', 'ITSMChangeManagement', 'ITSMCore', 'GeneralCatalog', 'ITSMServiceLevelManagement', 'ImportExport', 'OTRSMasterSlave', 'TimeAccounting', 'Survey', 'FAQ']
+  repository_names    = ['Znuny', 'ITSMIncidentProblemManagement', 'ITSMConfigurationManagement', 'ITSMChangeManagement', 'ITSMCore', 'GeneralCatalog', 'ITSMServiceLevelManagement', 'ImportExport', 'OTRSMasterSlave', 'TimeAccounting', 'Survey', 'FAQ']
   selected_repository = ''
   branch_names        = []
   branch_files        = []
@@ -53,7 +53,7 @@ class Znuny4OtrsCustomizersLittleHelper(sublime_plugin.WindowCommand):
     sublime.active_window().show_quick_panel(self.branch_names, self.branch_selected)
 
   def branches(self):
-    url = 'https://api.github.com/repos/OTRS/%s/branches' % self.selected_repository
+    url = 'https://api.github.com/repos/znuny/%s/branches' % self.selected_repository
     sublime.status_message('fetching branches from "%s".' % url )
 
     return self.url_json(url)
@@ -73,7 +73,7 @@ class Znuny4OtrsCustomizersLittleHelper(sublime_plugin.WindowCommand):
 
   def fetch_branch_files(self):
 
-    url = "https://api.github.com/repos/OTRS/%s/git/trees/%s?recursive=1" % (self.selected_repository, self.selected_branch)
+    url = "https://api.github.com/repos/znuny/%s/git/trees/%s?recursive=1" % (self.selected_repository, self.selected_branch)
 
     sublime.status_message('Fetching files for branch "%s" from "%s".' % ( self.selected_branch, url ))
 
@@ -99,13 +99,13 @@ class Znuny4OtrsCustomizersLittleHelper(sublime_plugin.WindowCommand):
 
     sublime.status_message('Selected file "%s" from branch "%s".' % (file_path, self.selected_branch))
 
-    url = 'https://api.github.com/repos/OTRS/%s/contents/%s?ref=%s' % (self.selected_repository, file_path, self.selected_branch)
+    url = 'https://api.github.com/repos/znuny/%s/contents/%s?ref=%s' % (self.selected_repository, file_path, self.selected_branch)
 
     sublime.status_message('Fetching file information for file "%s" from branch "%s" from "%s".' % (file_path, self.selected_branch, url))
 
     file_information = self.url_json(url)
 
-    url = "https://api.github.com/repos/OTRS/%s/commits?path=%s;sha=%s" % (self.selected_repository, file_path, self.selected_branch)
+    url = "https://api.github.com/repos/znuny/%s/commits?path=%s;sha=%s" % (self.selected_repository, file_path, self.selected_branch)
 
     sublime.status_message('Fetching commits for file "%s" from branch "%s" from "%s".' % (file_path, self.selected_branch, url))
 
@@ -253,7 +253,7 @@ class Znuny4OtrsCustomizersLittleHelper(sublime_plugin.WindowCommand):
   # deprecated
 
   # def tags(self):
-  #   url = 'https://api.github.com/repos/OTRS/otrs/tags?page=%i'
+  #   url = 'https://api.github.com/repos/znuny/otrs/tags?page=%i'
 
   #   tags      = []
   #   iteration = 0
@@ -303,7 +303,7 @@ class Znuny4OtrsCustomizersLittleHelper(sublime_plugin.WindowCommand):
 
   # def fetch_tag_files(self, sha):
 
-  #   url = "https://api.github.com/repos/OTRS/otrs/git/trees/%s?recursive=1" % sha
+  #   url = "https://api.github.com/repos/znuny/otrs/git/trees/%s?recursive=1" % sha
 
   #   print(self.selected_tag)
   #   print(sha)
