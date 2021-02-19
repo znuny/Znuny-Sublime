@@ -116,10 +116,10 @@
                         }
                     },
                     {
-                        "caption": "Statistiken",
+                        "caption": "Stats",
                         "command": "cheat_sheet",
                         "args": {
-                            "cheatsheet": "Statistiken"
+                            "cheatsheet": "Stats"
                         }
                     },
                     {

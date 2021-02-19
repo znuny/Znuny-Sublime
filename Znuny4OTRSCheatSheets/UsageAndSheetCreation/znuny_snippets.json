@@ -230,7 +230,7 @@
       "otrs.sopm.block.codeupgrade"
     ]
   }, {
-    "category": "Statistiken",
+    "category": "Stats",
     "snippets": [
       "otrs.stats.params.queue",
       "otrs.stats.params.service",
