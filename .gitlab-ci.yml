@@ -1,7 +1,7 @@
 image: registry.znuny.com/znuny/internal/docker-centos-otrs-systemd:stable
 
 variables:
-  MANUAL:
+  MANUAL: ''
 
 include:
   - project: 'Znuny/Internal/Znuny'
