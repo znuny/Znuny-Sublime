@@ -2,7 +2,7 @@
 
 Sublime
 ===============
-Znuny4OTRS is a Sublime Text 2/3 plugin that helps you to make OTRS development less painful.
+Znuny4OTRS (Znuny4OTRS-Sublime) is a Sublime Text 2/3 plugin that helps you to make OTRS development less painful.
 
 ### Feature List
 
@@ -19,7 +19,7 @@ To install this plugin, you have three options:
 
 1. If you have [Sublime Package Control](http://wbond.net/sublime_packages/package_control) installed, simply search for `Znuny4OTRS` to install.
 2. Clone source code to Sublime Text packages folder *Sublime Text 2/Packages* or *Sublime Text 3/Packages*.
-3. Download archive with the latest [release](https://github.com/znuny/Znuny4OTRS/releases) and unpack it to Sublime Text packages folder *Sublime Text 2/Packages* or *Sublime Text 3/Packages*.
+3. Download archive with the latest [release](https://github.com/znuny/Znuny4OTRS-Sublime/releases) and unpack it to Sublime Text packages folder *Sublime Text 2/Packages* or *Sublime Text 3/Packages*.
 
 *OSX*
 
