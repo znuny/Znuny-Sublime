@@ -13,6 +13,14 @@ Enjoy!
 
  Your Znuny Team!
 
+Version 0.0.43
+✔ Fixed typos and tidied code.
+✔ Removed deprecated code.
+✔ Updated Znuny4OtrsCustomizersLittleHelper - Znuny source update.
+✔ Skip 'misc' directory while otrs file list generation.
+✔ Improved regex to also match date time object creation.
+✔ Added missing entry for 'otrs.lazy.AgentTicketEmailOutbound'
+
 Version 0.0.42
 ✔ Added different sub blocks for OTRS 5 and 6 perldoc.
 ✔ Added support for new OTRS4 image.
