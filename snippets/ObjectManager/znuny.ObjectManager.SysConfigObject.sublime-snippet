@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$SysConfigObject = \$Kernel::OM->Get('Kernel::System::SysConfig');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.SysConfigObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

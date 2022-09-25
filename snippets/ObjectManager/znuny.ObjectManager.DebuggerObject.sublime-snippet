@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$DebuggerObject = Kernel::GenericInterface::Debugger
+]]></content>
+    <tabTrigger>znuny.ObjectManager.DebuggerObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

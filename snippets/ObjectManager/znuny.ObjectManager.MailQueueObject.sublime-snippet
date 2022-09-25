@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$MailQueueObject = \$Kernel::OM->Get('Kernel::System::MailQueue');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.MailQueueObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

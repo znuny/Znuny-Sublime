@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+=back
+
+=head1 TERMS AND CONDITIONS
+
+This software is part of the Znuny project (L<http://znuny.org/>).
+
+This software comes with ABSOLUTELY NO WARRANTY. For details, see
+the enclosed file COPYING for license information (AGPL). If you
+did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
+
+=cut
+]]></content>
+    <tabTrigger>znuny.POD.AGPL.footer</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

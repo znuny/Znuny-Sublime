@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$OutputString = \$CalendarEventsObject->BuildString(
+    Data => \{
+      'Type'      => 'Recurrent', # required
+      'Interval'  => '5',
+      'ByDay'     => 'SU,TU,WE,TH,FR,SA',
+      'AllDay'    => 1,
+      'Frequency' => 'Weekly'
+    \},
+    Type => 'Frequency',
+);
+}
+]]></content>
+    <tabTrigger>znuny.CalendarEventsObject.BuildString</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

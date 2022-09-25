@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ValueStrg = \$BackendObject->ReadableValueRender(
+    DynamicFieldConfig => \$DynamicFieldConfig,      # complete config of the DynamicField
+    Value              => 'Any value',              # Optional
+    ValueMaxChars      => 20,                       # Optional
+    TitleMaxChars      => 20,                       # Optional
+);
+}
+]]></content>
+    <tabTrigger>znuny.BackendObject.ReadableValueRender</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

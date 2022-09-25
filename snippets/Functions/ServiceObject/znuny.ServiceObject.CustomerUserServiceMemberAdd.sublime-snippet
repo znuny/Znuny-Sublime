@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:\$ServiceObject->CustomerUserServiceMemberAdd(
+    CustomerUserLogin => 'Test1',
+    ServiceID         => \$ServiceID,
+    Active            => 1,
+    UserID            => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ServiceObject.CustomerUserServiceMemberAdd</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

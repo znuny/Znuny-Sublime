@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$FileTempObject = \$Kernel::OM->Get('Kernel::System::FileTemp');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.FileTempObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

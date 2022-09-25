@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-\$CommonObject{ConfigObject}->Get('$1')${2: || };
-]]></content>
-    <tabTrigger>otrs.config.get.Common</tabTrigger>
-</snippet>

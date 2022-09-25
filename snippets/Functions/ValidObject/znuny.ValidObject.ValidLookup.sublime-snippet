@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ValidID = \$ValidObject->ValidLookup(
+    Valid => 'valid',
+);
+}${2:my \$Valid = \$ValidObject->ValidLookup(
+    ValidID => \$ValidID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ValidObject.ValidLookup</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

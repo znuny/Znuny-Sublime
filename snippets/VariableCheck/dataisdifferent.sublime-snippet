@@ -6,4 +6,6 @@ my \$${3:DataIsDifferent} = DataIsDifferent(
 );
 ]]></content>
     <tabTrigger>DataIsDifferent</tabTrigger>
+    <description>VariableCheck</description>
+    <scope>source.perl</scope>
 </snippet>

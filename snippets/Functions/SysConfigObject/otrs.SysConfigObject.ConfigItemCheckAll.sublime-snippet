@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$Result = \$SysConfigObject->ConfigItemCheckAll();
-}
-]]></content>
-    <tabTrigger>otrs.SysConfigObject.ConfigItemCheckAll</tabTrigger>
-    <description>5, 4</description>
-</snippet>

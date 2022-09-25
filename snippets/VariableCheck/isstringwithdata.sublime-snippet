@@ -3,4 +3,6 @@
 IsStringWithData($1)
 ]]></content>
     <tabTrigger>IsStringWithData</tabTrigger>
+    <description>VariableCheck</description>
+    <scope>source.perl</scope>
 </snippet>

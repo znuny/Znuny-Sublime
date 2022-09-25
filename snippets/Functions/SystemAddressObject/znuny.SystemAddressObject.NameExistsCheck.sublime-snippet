@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Exists = \$SystemAddressObject->NameExistsCheck(
+    Name => 'Some Address',
+    ID   => 1,                  # optional
+);
+}
+]]></content>
+    <tabTrigger>znuny.SystemAddressObject.NameExistsCheck</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

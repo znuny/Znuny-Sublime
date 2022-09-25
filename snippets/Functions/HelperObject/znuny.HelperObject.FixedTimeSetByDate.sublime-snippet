@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:\$HelperObject->FixedTimeSetByDate(
+    Year   => 2016,
+    Month  => 4,
+    Day    => 28,
+    Hour   => 10, # default 0
+    Minute => 0,  # default 0
+    Second => 0,  # default 0
+);
+}
+]]></content>
+    <tabTrigger>znuny.HelperObject.FixedTimeSetByDate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

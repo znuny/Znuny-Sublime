@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$RandomID = \$HelperObject->GetRandomID();
+}
+]]></content>
+    <tabTrigger>znuny.HelperObject.GetRandomID</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

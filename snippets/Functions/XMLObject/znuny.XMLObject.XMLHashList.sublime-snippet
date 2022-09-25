@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Keys = \$XMLObject->XMLHashList(
+    Type => 'SomeType',
+);
+}
+]]></content>
+    <tabTrigger>znuny.XMLObject.XMLHashList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

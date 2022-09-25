@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:\$StateID = \$LinkObject->StateLookup(
+    Name => 'Valid',
+);
+}${2:\$Name = \$LinkObject->StateLookup(
+    StateID => \$StateID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.LinkObject.StateLookup</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

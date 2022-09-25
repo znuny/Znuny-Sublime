@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$WarningActive = \$ArticleObject->SearchStringStopWordsUsageWarningActive();
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.SearchStringStopWordsUsageWarningActive</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

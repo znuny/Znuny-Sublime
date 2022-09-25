@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Name = \$UserObject->UserName(
+    UserID => \$UserID,
+);
+}${2:my \$Name = \$UserObject->UserName(
+    User => 'some-login',
+);
+}
+]]></content>
+    <tabTrigger>znuny.UserObject.UserName</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ClonedDateTimeObject = \$DateTimeObject->Clone();
+}
+]]></content>
+    <tabTrigger>znuny.SystemTimeZone.Clone</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

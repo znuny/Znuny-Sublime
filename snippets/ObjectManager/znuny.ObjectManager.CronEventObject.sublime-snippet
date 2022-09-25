@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$CronEventObject = \$Kernel::OM->Get('Kernel::System::CronEvent');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.CronEventObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

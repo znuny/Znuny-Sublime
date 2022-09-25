@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Salutation = \$SalutationObject->SalutationGet(
+    ID => 123,
+);
+}
+]]></content>
+    <tabTrigger>znuny.SalutationObject.SalutationGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

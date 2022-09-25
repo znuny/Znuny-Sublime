@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %User = \$CustomerUserObject->CustomerUserDataGet(
+    User => 'franz',
+);
+}
+]]></content>
+    <tabTrigger>znuny.CustomerUserObject.CustomerUserDataGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

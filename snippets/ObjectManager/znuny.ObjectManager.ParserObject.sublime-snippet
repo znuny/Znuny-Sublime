@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$ParserObject = Kernel::System::EmailParser
+]]></content>
+    <tabTrigger>znuny.ObjectManager.ParserObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

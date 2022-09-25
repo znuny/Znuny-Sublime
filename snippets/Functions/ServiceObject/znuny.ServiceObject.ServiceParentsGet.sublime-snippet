@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ServiceParentsList = \$ServiceObject->ServiceParentsGet(
+    ServiceID => \$ServiceID,
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ServiceObject.ServiceParentsGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$ZnunyHelperObject->DynamicFieldValueCreate(
+    Name  => 'DynamicFieldName',
+    Key   => 'ValueDropdown',
+    Value => 'ValueDropdown',    # optional (Parameter "Key" is default)
+);
+}
+]]></content>
+    <tabTrigger>znuny.ZnunyHelperObject.DynamicFieldValueCreate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$ServiceObject = \$Kernel::OM->Get('Kernel::System::Service');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.ServiceObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:\$ObjectList = \$LinkObject->ObjectSearch(
+    Object       => 'ITSMConfigItem',
+    SubObject    => 'Computer'         # (optional)
+    SearchParams => \$HashRef,          # (optional)
+    UserID       => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.LinkObject.ObjectSearch</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

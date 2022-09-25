@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:\$LayoutObject->LoaderCreateAgentJSCalls();
-}
-]]></content>
-    <tabTrigger>otrs.LayoutObject.LoaderCreateAgentJSCalls</tabTrigger>
-    <description>4</description>
-</snippet>

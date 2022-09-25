@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$HelperObject->SetupTestEnvironment(
+    ... # Parameters get passed to the FillTestEnvironment and ConfigureViews function
+);
+}
+]]></content>
+    <tabTrigger>znuny.HelperObject.SetupTestEnvironment</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

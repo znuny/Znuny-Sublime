@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Hash = \$XMLObject->XMLHash2D( XMLHash => \@XMLHash );
+}
+]]></content>
+    <tabTrigger>znuny.XMLObject.XMLHash2D</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

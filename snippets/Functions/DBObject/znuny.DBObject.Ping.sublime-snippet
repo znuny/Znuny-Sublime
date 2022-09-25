@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$DBObject->Ping(
+    AutoConnect => 0,  # default 1
+);
+}
+]]></content>
+    <tabTrigger>znuny.DBObject.Ping</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

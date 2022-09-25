@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my %ForbiddenValueTypes = \$SysConfigObject->ForbiddenValueTypesGet();
-}
-]]></content>
-    <tabTrigger>otrs.SysConfigObject.ForbiddenValueTypesGet</tabTrigger>
-    <description>6</description>
-</snippet>

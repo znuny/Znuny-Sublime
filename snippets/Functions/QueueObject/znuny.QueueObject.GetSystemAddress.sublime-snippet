@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Address = \$QueueObject->GetSystemAddress(
+    QueueID => \$QueueID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.QueueObject.GetSystemAddress</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

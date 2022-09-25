@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+image: \$JOB_IMAGE
+
+include:
+  - project: \$INCLUDE_PROJECT
+    file: '/templates/gitlab/default-db.yaml'
+]]></content>
+    <tabTrigger>znuny.GitLab.Default-DB</tabTrigger>
+    <description>.gitlab-ci.yml</description>
+    <scope>source.yaml</scope>
+</snippet>
+
+

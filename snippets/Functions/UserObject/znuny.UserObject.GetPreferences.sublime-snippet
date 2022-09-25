@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Preferences = \$UserObject->GetPreferences(
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.UserObject.GetPreferences</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

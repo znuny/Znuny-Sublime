@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$SLAObject = \$Kernel::OM->Get('Kernel::System::SLA');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.SLAObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

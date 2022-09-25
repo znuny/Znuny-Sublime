@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$SessionObject = \$Kernel::OM->Get('Kernel::System::AuthSession');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.SessionObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

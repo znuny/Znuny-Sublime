@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ValueType = \$BackendObject->TemplateValueTypeGet(
+    DynamicFieldConfig => \$DynamicFieldConfig,
+    FieldType => 'All',
+);
+}${2:my \$ValueType = \$BackendObject->TemplateValueTypeGet(
+    DynamicFieldConfig => \$DynamicFieldConfig,
+    FieldType => 'Search',
+);
+}${3:my \$ValueType = \$BackendObject->TemplateValueTypeGet(
+    DynamicFieldConfig => \$DynamicFieldConfig,       # complete config of the DynamicField
+    FieldType => 'Edit',                             # or 'Search' or 'All'
+);
+}
+]]></content>
+    <tabTrigger>znuny.BackendObject.TemplateValueTypeGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

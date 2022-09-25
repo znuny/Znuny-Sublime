@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$HelperObject->TestUserPreferencesSet(
+    UserID      => \$UserID,
+    Preferences => \{                  # "Preferences" hashref is required
+        OutOfOffice  => 1,            # example Key -> Value pair for User Preferences
+        UserMobile   => undef,        # example for deleting a UserPreferences Key's value
+        UserLanguage => '',           # example for deleting a UserPreferences Key's value
+    \},
+);
+}
+]]></content>
+    <tabTrigger>znuny.HelperObject.TestUserPreferencesSet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

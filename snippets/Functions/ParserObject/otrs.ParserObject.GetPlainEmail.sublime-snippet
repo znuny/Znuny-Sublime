@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$Email = \$ParserObject->GetPlainEmail();
-}
-]]></content>
-    <tabTrigger>otrs.ParserObject.GetPlainEmail</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

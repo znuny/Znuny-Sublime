@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Version = \$EnvironmentObject->ModuleVersionGet(
+    Module => 'MIME::Parser',
+);
+}
+]]></content>
+    <tabTrigger>znuny.EnvironmentObject.ModuleVersionGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

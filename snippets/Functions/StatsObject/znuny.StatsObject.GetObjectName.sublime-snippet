@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ObjectName = \$StatsObject->GetObjectName(
+    ObjectModule => 'Kernel::System::Stats::Dynamic::TicketList',
+);
+}
+]]></content>
+    <tabTrigger>znuny.StatsObject.GetObjectName</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

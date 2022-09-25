@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$TicketNumber = \$TicketObject->TicketCreateNumber();
-}
-]]></content>
-    <tabTrigger>otrs.ArticleObject.TicketCreateNumber</tabTrigger>
-    <description>6</description>
-</snippet>

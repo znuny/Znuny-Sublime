@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$MailAccountObject = \$Kernel::OM->Get('Kernel::System::MailAccount');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.MailAccountObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Queues = \$QueueObject->GetAllQueues();
+}${2:my %Queues = \$QueueObject->GetAllQueues( UserID => \$UserID, Type => 'ro' );
+}
+]]></content>
+    <tabTrigger>znuny.QueueObject.GetAllQueues</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

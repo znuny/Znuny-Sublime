@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my %${1:Hash} = %{ \$$2 };
+]]></content>
+    <tabTrigger>hash.deref</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

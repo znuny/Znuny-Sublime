@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my %Result = \$SysConfigObject->ConfigurationTranslatedGet();
-}
-]]></content>
-    <tabTrigger>otrs.SysConfigObject.ConfigurationTranslatedGet</tabTrigger>
-    <description>6</description>
-</snippet>

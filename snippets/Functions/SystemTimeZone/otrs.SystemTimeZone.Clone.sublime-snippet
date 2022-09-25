@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$ClonedDateTimeObject = \$DateTimeObject->Clone();
-}
-]]></content>
-    <tabTrigger>otrs.SystemTimeZone.Clone</tabTrigger>
-    <description>6</description>
-</snippet>

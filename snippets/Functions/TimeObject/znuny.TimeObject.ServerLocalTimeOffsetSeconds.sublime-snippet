@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ServerLocalTimeOffsetSeconds = \$TimeObject->ServerLocalTimeOffsetSeconds(
+    SystemTime => \$SystemTime,  # optional, otherwise call time()
+);
+}
+]]></content>
+    <tabTrigger>znuny.TimeObject.ServerLocalTimeOffsetSeconds</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

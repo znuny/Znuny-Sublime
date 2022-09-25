@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$TimeStamp = \$TimeObject->SystemTime2TimeStamp(
+    SystemTime => \$SystemTime,
+);
+}${2:my \$TimeStamp = \$TimeObject->SystemTime2TimeStamp(
+    SystemTime => \$SystemTime,
+    Type       => 'Short',
+);
+}
+]]></content>
+    <tabTrigger>znuny.TimeObject.SystemTime2TimeStamp</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

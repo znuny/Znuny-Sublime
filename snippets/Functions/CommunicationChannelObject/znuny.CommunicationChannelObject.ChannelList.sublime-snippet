@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @CommunicationChannels = \$CommunicationChannelObject->ChannelList(
+    ValidID => \$ValidID,           # (optional) filter by ValidID
+);
+}
+]]></content>
+    <tabTrigger>znuny.CommunicationChannelObject.ChannelList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

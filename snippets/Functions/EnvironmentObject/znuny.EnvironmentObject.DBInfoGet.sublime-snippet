@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %DBInfo = \$EnvironmentObject->DBInfoGet();
+}
+]]></content>
+    <tabTrigger>znuny.EnvironmentObject.DBInfoGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

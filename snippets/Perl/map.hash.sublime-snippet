@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %NewHash = map \{ \$_ => \$_ \} sort keys \%Hash;}
+${2:my %NewHash = map \{ s\{SEARCH\}\{REPLACE\}g => s\{SEARCH\}\{REPLACE\}g \} sort keys \%Hash;}
+]]></content>
+    <tabTrigger>map.hash</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>
+

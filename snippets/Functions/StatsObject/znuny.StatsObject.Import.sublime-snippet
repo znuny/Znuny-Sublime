@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$StatID = \$StatsObject->Import(
+    UserID  => \$UserID,
+    Content => \$UploadStuff\{Content\},
+);
+}
+]]></content>
+    <tabTrigger>znuny.StatsObject.Import</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

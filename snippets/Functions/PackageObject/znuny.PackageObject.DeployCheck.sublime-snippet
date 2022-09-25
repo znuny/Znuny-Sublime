@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:\$PackageObject->DeployCheck(
+    Name    => 'Application A',
+    Version => '1.0',
+    Log     => 1, # Default: 1
+);
+}
+]]></content>
+    <tabTrigger>znuny.PackageObject.DeployCheck</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

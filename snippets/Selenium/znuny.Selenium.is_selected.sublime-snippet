@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$SeleniumObject->find_element("${2:#Name}", 'css')->is_selected();
+]]></content>
+    <tabTrigger>znuny.Selenium.is_selected</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:my %List = \$StateObject->StateList(
+    UserID => \$UserID,
+);
+}${2:my %List = \$StateObject->StateList(
+    UserID => \$UserID,
+    Valid  => 0,
+);
+}${3:my %List = \$StateObject->StateList(
+    UserID => \$UserID,
+    Valid  => 1, # is default
+);
+}
+]]></content>
+    <tabTrigger>znuny.StateObject.StateList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

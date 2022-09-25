@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$StandardTemplateObject = \$Kernel::OM->Get('Kernel::System::StandardTemplate');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.StandardTemplateObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

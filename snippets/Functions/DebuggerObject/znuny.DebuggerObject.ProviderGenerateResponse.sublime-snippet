@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$DebuggerObject->ProviderGenerateResponse(
+    Success         => 1,       # 1 or 0
+    ErrorMessage    => '',      # in case of an error, optional
+    Data            => \{        # data payload for response, optional
+        ...
+    \},
+
+);
+}
+]]></content>
+    <tabTrigger>znuny.DebuggerObject.ProviderGenerateResponse</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

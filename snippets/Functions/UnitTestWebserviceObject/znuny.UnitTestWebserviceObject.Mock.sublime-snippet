@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$UnitTestWebserviceObject->Mock(
+    InvokerName123 => [
+        \{
+            Data => \{
+                OutgoingData => 'Value'
+            \},
+            Result => \{
+                Success      => 1,
+                ErrorMessage => '',
+                Data         => \{
+                    YAY => 'so true',
+                \},
+            \}
+        \},
+        ...
+    ],
+    ...
+);
+}
+]]></content>
+    <tabTrigger>znuny.UnitTestWebserviceObject.Mock</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

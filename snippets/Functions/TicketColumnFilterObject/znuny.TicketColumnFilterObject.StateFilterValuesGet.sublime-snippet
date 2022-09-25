@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Values = \$TicketColumnFilterObject->StateFilterValuesGet(
+    TicketIDs => [23, 1, 56, 74],                    # array ref list of ticket IDs
+);
+}
+]]></content>
+    <tabTrigger>znuny.TicketColumnFilterObject.StateFilterValuesGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

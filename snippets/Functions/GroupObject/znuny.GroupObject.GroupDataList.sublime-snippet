@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %GroupDataList = \$GroupObject->GroupDataList();
+}
+]]></content>
+    <tabTrigger>znuny.GroupObject.GroupDataList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my @ArticleIDs = \$ArticleObject->ArticleIndex(
+    TicketID => \$TicketID,
+);
+}${2:my @ArticleIDs = \$ArticleObject->ArticleIndex(
+    SenderType => 'customer',                   # optional, to limit to a certain sender type
+    TicketID   => \$TicketID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.ArticleIndex</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

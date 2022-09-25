@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-\$SeleniumObject->PageContains(
-    String  => '$1',${2:
-    Message => "Page contains '$1'" # optional - default
-});
-]]></content>
-    <tabTrigger>otrs.selenium.pagecontains</tabTrigger>
-</snippet>

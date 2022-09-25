@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$SearchProfileObject = \$Kernel::OM->Get('Kernel::System::SearchProfile');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.SearchProfileObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

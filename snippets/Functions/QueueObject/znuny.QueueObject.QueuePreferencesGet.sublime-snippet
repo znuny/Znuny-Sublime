@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Preferences = \$QueueObject->QueuePreferencesGet(
+    QueueID => \$QueueID,
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.QueueObject.QueuePreferencesGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my %HistoryData = \$TicketToUnitTestObject->SystemTimeTicketGet(
+    SystemTime => 19435456436,
+    TicketID   => \$TicketID,
+    Force      => 0, # cache
+);
+}
+]]></content>
+    <tabTrigger>znuny.TicketToUnitTestObject.SystemTimeTicketGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

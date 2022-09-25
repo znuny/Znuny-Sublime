@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SystemTime = \$TimeObject->Date2SystemTime(
+    Year   => 2004,
+    Month  => 8,
+    Day    => 14,
+    Hour   => 22,
+    Minute => 45,
+    Second => 0,
+);
+}
+]]></content>
+    <tabTrigger>znuny.TimeObject.Date2SystemTime</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

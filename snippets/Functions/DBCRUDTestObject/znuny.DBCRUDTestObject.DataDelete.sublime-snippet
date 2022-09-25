@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$DBCRUDTestObject->DataDelete(
+    ID          => '...', # optional
+    Name        => '...', # optional
+    Age         => '...', # optional
+    Description => '...', # optional
+    ContentJSON => '...', # optional
+    CreateTime  => '...', # optional
+    ChangeTime  => '...', # optional
+);
+}
+]]></content>
+    <tabTrigger>znuny.DBCRUDTestObject.DataDelete</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

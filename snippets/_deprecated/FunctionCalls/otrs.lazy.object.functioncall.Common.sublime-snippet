@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-\$CommonObject{$1Object}->$2(${3:
-    $4
-});
-]]></content>
-    <tabTrigger>otrs.lazy.object.functioncall.Common</tabTrigger>
-</snippet>

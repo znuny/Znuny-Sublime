@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$TicketAttributeRelationsObject = \$Kernel::OM->Get('Kernel::System::TicketAttributeRelations');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.TicketAttributeRelationsObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$FileTempObject = \$Kernel::OM->Get('Kernel::System::FileTemp');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.FileTempObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$StandardTemplateObject->StandardTemplateDelete(
+    ID => 123,
+);
+}
+]]></content>
+    <tabTrigger>znuny.StandardTemplateObject.StandardTemplateDelete</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

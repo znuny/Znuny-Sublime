@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SearchFieldPreferences = \$BackendObject->SearchFieldPreferences(
+    DynamicFieldConfig => \$DynamicFieldConfig,       # complete config of the DynamicField
+);
+}
+]]></content>
+    <tabTrigger>znuny.BackendObject.SearchFieldPreferences</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

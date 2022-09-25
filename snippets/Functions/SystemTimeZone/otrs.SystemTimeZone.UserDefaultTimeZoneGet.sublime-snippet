@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$UserDefaultTimeZoneGet = \$OTRSTimeZone->UserDefaultTimeZoneGet();
-}
-]]></content>
-    <tabTrigger>otrs.SystemTimeZone.UserDefaultTimeZoneGet</tabTrigger>
-    <description>6</description>
-</snippet>

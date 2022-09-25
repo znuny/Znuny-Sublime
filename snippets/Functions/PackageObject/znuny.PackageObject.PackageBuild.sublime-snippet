@@ -1,0 +1,47 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Package = \$PackageObject->PackageBuild(
+    Name => \{
+        Content => 'SomePackageName',
+    \},
+    Version => \{
+        Content => '1.0',
+    \},
+    Vendor => \{
+        Content => 'OTRS AG',
+    \},
+    URL => \{
+        Content => 'L<http://otrs.org/>',
+    \},
+    License => \{
+        Content => 'GNU GENERAL PUBLIC LICENSE Version 3, November 2007',
+    \}
+    Description => [
+        \{
+            Lang    => 'en',
+            Content => 'english description',
+        \},
+        \{
+            Lang    => 'de',
+            Content => 'german description',
+        \},
+    ],
+    Filelist = [
+        \{
+            Location   => 'Kernel/System/Lala.pm'
+            Permission => '644',
+            Content    => \$FileInString,
+        \},
+        \{
+            Location   => 'Kernel/System/Lulu.pm'
+            Permission => '644',
+            Content    => \$FileInString,
+        \},
+    ],
+);
+}
+]]></content>
+    <tabTrigger>znuny.PackageObject.PackageBuild</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

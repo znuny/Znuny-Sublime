@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Encoding = \$EncodeObject->FindAsciiSupersetEncoding(
+    Encodings   => [ 'UTF-16LE', 'UTF-8' ],
+);
+}
+]]></content>
+    <tabTrigger>znuny.EncodeObject.FindAsciiSupersetEncoding</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

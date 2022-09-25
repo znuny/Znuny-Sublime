@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Valid = \$CheckItemObject->CheckEmail(
+    Address => 'info@example.com',
+);
+}
+]]></content>
+    <tabTrigger>znuny.CheckItemObject.CheckEmail</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

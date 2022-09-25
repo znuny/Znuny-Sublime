@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my %Categories = \$SysConfigObject->ConfigurationCategoriesGet();
-}
-]]></content>
-    <tabTrigger>otrs.SysConfigObject.ConfigurationCategoriesGet</tabTrigger>
-    <description>6</description>
-</snippet>

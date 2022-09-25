@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$Body = \$ParserObject->GetMessageBody();
-}
-]]></content>
-    <tabTrigger>otrs.ParserObject.GetMessageBody</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

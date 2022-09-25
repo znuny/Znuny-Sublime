@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %GroupData = \$GroupObject->GroupGet(
+    ID => 2,
+);
+}
+]]></content>
+    <tabTrigger>znuny.GroupObject.GroupGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Result = \$SysConfigObject->ConfigurationDirtySettingsList(
+    ChangeBy => 123,
+);
+}
+]]></content>
+    <tabTrigger>znuny.SysConfigObject.ConfigurationDirtySettingsList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

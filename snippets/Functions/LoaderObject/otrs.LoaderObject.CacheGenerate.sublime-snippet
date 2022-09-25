@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my %GeneratedFiles = \$LoaderObject->CacheGenerate();
-}
-]]></content>
-    <tabTrigger>otrs.LoaderObject.CacheGenerate</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

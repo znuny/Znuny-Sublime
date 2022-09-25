@@ -1,0 +1,48 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Result = \$HelperObject->ACLValuesGet(
+    Check  => 'SLA',
+    UserID => \$UserID,
+    %TicketACLParams,   # see TicketACL.pm
+);
+}${2:my %Result = \$HelperObject->ACLValuesGet(
+    Check  => 'Type',
+    UserID => \$UserID,
+    %TicketACLParams,   # see TicketACL.pm
+);
+}${3:my %Result = \$HelperObject->ACLValuesGet(
+    Check  => 'State',
+    UserID => \$UserID,
+    %TicketACLParams,   # see TicketACL.pm
+);
+}${4:my %Result = \$HelperObject->ACLValuesGet(
+    Check  => 'Queue',
+    UserID => \$UserID,
+    %TicketACLParams,   # see TicketACL.pm
+);
+}${5:my %Result = \$HelperObject->ACLValuesGet(
+    Check  => 'Service',
+    UserID => \$UserID,
+    %TicketACLParams,   # see TicketACL.pm
+);
+}${6:my %Result = \$HelperObject->ACLValuesGet(
+    Check  => 'Priority',
+    UserID => \$UserID,
+    %TicketACLParams,   # see TicketACL.pm
+);
+}${7:my %Result = \$HelperObject->ACLValuesGet(
+    Check    => 'Action',
+    UserID   => \$UserID,
+    %TicketACLParams,   # see TicketACL.pm
+);
+}${8:my %Result = \$HelperObject->ACLValuesGet(
+    Check    => 'DynamicField_Test',
+    UserID   => \$UserID,
+    %TicketACLParams,   # see TicketACL.pm
+);
+}
+]]></content>
+    <tabTrigger>znuny.HelperObject.ACLValuesGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

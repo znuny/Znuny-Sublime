@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ArticleBackendObject = \$ArticleObject->BackendForArticle( %BaseArticle );
+}${2:my \$ArticleBackendObject = \$ArticleObject->BackendForArticle( TicketID => \$TicketID, ArticleID => 123 );
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.BackendForArticle</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

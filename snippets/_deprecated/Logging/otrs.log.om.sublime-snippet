@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-\$LogObject->Log(
-    Priority => '${1:error|notice|info|debug}',
-    Message  => "$2",
-);
-]]></content>
-<tabTrigger>otrs.log.om</tabTrigger>
-</snippet>

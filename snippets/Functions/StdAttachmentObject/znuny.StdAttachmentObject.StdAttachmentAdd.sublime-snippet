@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ID = \$StdAttachmentObject->StdAttachmentAdd(
+    Name        => 'Some Name',
+    ValidID     => \$ValidID,
+    Content     => \$Content,
+    ContentType => 'text/xml',
+    Filename    => 'SomeFile.xml',
+    UserID      => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.StdAttachmentObject.StdAttachmentAdd</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

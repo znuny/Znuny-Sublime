@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my %SearchableFields = \$ArticleObject->ArticleSearchableFieldsList();
-}
-]]></content>
-    <tabTrigger>otrs.ArticleObject.ArticleSearchableFieldsList</tabTrigger>
-    <description>6</description>
-</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:\$TimeObject->VacationCheck(
+    Year     => 2005,
+    Month    => 7 || '07',
+    Day      => 13,
+);
+}${2:\$TimeObject->VacationCheck(
+    Year     => 2005,
+    Month    => 7 || '07',
+    Day      => 13,
+    Calendar => 3, # '' is default; 0 is handled like ''
+);
+}
+]]></content>
+    <tabTrigger>znuny.TimeObject.VacationCheck</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Structure = \$PackageObject->PackageParse( String => \$FileString );
+}
+]]></content>
+    <tabTrigger>znuny.PackageObject.PackageParse</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$YAMLObject = \$Kernel::OM->Get('Kernel::System::YAML');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.YAMLObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

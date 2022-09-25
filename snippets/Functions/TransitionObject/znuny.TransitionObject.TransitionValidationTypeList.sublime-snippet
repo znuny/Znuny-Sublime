@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my %TransitionValidationTypeList = \$TransitionObject->TransitionValidationTypeList();
+}${2:my %TransitionValidationTypeList = TransitionValidationTypeList(
+    'String' => 'String',
+    'Regexp' => 'Regular expression',
+    'Module' => 'Transition validation module',
+);
+}
+]]></content>
+    <tabTrigger>znuny.TransitionObject.TransitionValidationTypeList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

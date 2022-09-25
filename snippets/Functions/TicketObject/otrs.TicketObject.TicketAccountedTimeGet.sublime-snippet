@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$AccountedTime = \$TicketObject->TicketAccountedTimeGet(TicketID => 1234);
-}
-]]></content>
-    <tabTrigger>otrs.TicketObject.TicketAccountedTimeGet</tabTrigger>
-    <description>5, 4</description>
-</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @TranslationStrings = \$LanguageObject->GetPerlModuleTranslatableStrings(
+    ModuleDirectory  => "\$Home/...",  # optional, translates the Znuny module in the given directory
+);
+}
+]]></content>
+    <tabTrigger>znuny.LanguageObject.GetPerlModuleTranslatableStrings</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

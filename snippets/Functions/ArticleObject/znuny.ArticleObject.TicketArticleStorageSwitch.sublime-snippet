@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketArticleStorageSwitch(
+    TicketID    => \$TicketID,
+    Source      => 'ArticleStorageDB',
+    Destination => 'ArticleStorageFS',
+    UserID      => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.TicketArticleStorageSwitch</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

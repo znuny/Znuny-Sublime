@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my @XMLStructure = \$XMLObject->XMLParse( String => \$FileString );
+}${2:my @XMLStructure = \$XMLObject->XMLParse( String => \\$FileStringScalar );
+}
+]]></content>
+    <tabTrigger>znuny.XMLObject.XMLParse</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my %SearchProfiles = \$SearchProfileObject->SearchProfileList(
+    Base      => 'TicketSearch',
+    UserLogin => 'me',
+);
+}
+]]></content>
+    <tabTrigger>znuny.SearchProfileObject.SearchProfileList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

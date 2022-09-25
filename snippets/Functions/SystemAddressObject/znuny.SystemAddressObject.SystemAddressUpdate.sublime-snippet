@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:\$SystemAddressObject->SystemAddressUpdate(
+    ID       => 1,
+    Name     => 'info@example.com',
+    Realname => 'Hotline',
+    ValidID  => \$ValidID,
+    QueueID  => \$QueueID,
+    Comment  => 'some comment',
+    UserID   => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.SystemAddressObject.SystemAddressUpdate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

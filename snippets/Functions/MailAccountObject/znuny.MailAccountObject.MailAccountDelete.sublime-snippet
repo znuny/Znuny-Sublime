@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$MailAccountObject->MailAccountDelete(
+    ID => 123,
+);
+}
+]]></content>
+    <tabTrigger>znuny.MailAccountObject.MailAccountDelete</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

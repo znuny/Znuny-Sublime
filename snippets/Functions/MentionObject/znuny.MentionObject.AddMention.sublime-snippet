@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$MentionObject->AddMention(
+    TicketID        => \$TicketID,
+    ArticleID       => \$ArticleID,
+    MentionedUserID => \$MentionedUserID,
+    UserID          => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.MentionObject.AddMention</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

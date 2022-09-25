@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:\$LayoutObject->LoaderCreateCustomerCSSCalls();
-}
-]]></content>
-    <tabTrigger>otrs.LayoutObject.LoaderCreateCustomerCSSCalls</tabTrigger>
-    <description>4</description>
-</snippet>

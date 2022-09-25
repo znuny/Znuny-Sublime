@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+image: \$JOB_IMAGE
+
+include:
+  - project: \$INCLUDE_PROJECT
+    file: '/templates/gitlab/postgresql.yaml'
+]]></content>
+    <tabTrigger>znuny.GitLab.PostgreSQL</tabTrigger>
+    <description>.gitlab-ci.yml</description>
+    <scope>source.yaml</scope>
+</snippet>
+
+

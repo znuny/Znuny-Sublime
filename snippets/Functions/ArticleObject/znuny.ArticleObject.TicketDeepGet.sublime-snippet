@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Ticket = \$TicketObject->TicketDeepGet(
+    TicketID  => \$TicketID,
+    ArticleID => \$ArticleID, # optional
+    UserID    => \$UserID,
+
+    # Also fetch all attachments for all articles of the given ticket.
+    GetAllArticleAttachments => 1, # defaults to 0
+);
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.TicketDeepGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

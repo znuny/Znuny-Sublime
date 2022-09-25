@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$True = \$LinkObject->LinkCleanup(
+    State  => 'Temporary',
+    Age    => ( 60 * 60 * 24 ),
+);
+}
+]]></content>
+    <tabTrigger>znuny.LinkObject.LinkCleanup</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

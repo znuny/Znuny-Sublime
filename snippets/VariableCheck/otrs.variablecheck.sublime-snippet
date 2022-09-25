@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-use Kernel::System::VariableCheck qw(:all);
-]]></content>
-    <tabTrigger>otrs.variablecheck</tabTrigger>
-</snippet>

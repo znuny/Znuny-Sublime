@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$MentionedUserIDs = \$MentionObject->GetMentionedUserIDsFromString(
+    HTMLString => '...<a class="Mention" href="..." target="...">@root@localhost<\/a>...',
+
+    # optional
+    # plain text string must be given if mentions in quoted text should be ignored.
+    # they are not reliably parsable from the HTML string.
+    PlainTextString => '...@root@localhost...',
+
+    # optional
+    # Limit for number of returned user IDs. The rest will silently be ignored.
+    Limit => 5,
+);
+}
+]]></content>
+    <tabTrigger>znuny.MentionObject.GetMentionedUserIDsFromString</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

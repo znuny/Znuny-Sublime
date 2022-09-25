@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$FormDraftObject = \$Kernel::OM->Get('Kernel::System::FormDraft');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.FormDraftObject</tabTrigger>
-    <description>6</description>
-</snippet>

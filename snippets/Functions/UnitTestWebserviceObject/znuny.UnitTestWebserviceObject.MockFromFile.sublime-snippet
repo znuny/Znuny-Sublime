@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+${1:\$UnitTestWebserviceObject->MockFromFile(
+    Webservice => 'ExampleWebservice',
+    Invoker    => 'SomeInvoker',
+    Data       => \{
+
+    \}
+);
+}${2:\$UnitTestWebserviceObject->MockFromFile(
+    Location => \$ConfigObject->Get('Home') . "/misc/mocks/WebserviceName/SomeInvoker.json";
+    Invoker    => 'SomeInvoker',
+    Data       => \{
+
+    \}
+);
+}
+]]></content>
+    <tabTrigger>znuny.UnitTestWebserviceObject.MockFromFile</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-use Kernel::System::$1;
-]]></content>
-    <tabTrigger>otrs.lazy.use.KS</tabTrigger>
-</snippet>

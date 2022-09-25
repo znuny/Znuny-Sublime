@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SizeStr = \$LayoutObject->HumanReadableDataSize(
+    Size => 123,  # size in bytes
+);
+}
+]]></content>
+    <tabTrigger>znuny.LayoutObject.HumanReadableDataSize</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

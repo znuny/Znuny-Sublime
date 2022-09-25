@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Template = \$TemplateGeneratorObject->Template(
+    TemplateID => \$TemplateID,                  # Optional
+    Data       => \$ArticleHashRef,      # Optional
+    UserID     => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.TemplateGeneratorObject.Template</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

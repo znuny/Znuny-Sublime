@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$TemplateGeneratorObject = \$Kernel::OM->Get('Kernel::System::TemplateGenerator');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.TemplateGeneratorObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

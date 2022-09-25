@@ -1,26 +1,7 @@
 [
-    { "keys": ["ctrl+alt+z", "h"], "command": "znuny4_otrs_generate_block_hooks" },
-    { "keys": ["ctrl+alt+z", "q"], "command": "znuny4_otrs_quote_with_marker" },
-    { "keys": ["ctrl+alt+z", "d"], "command": "znuny4_otrs_object_dependencies" },
-    { "keys": ["ctrl+alt+z", "p"], "command": "znuny4_otrs_add_to_project" },
-    { "keys": ["ctrl+alt+z", "c"], "command": "znuny4_otrs_customizers_little_helper" },
-    { "keys": ["ctrl+alt+z", "f"], "command": "znuny4_otrs_generate_filelist" },
-    { "keys": ["ctrl+alt+z", "u"], "command": "znuny4_otrs_git_lab_ci_unit_tests" },
-    {
-      "keys": [
-        "ctrl+alt+z",
-        "ctrl+alt+s"
-      ],
-      "command": "cheat_sheet_search"
-    },
-    {
-      "keys": [
-        "ctrl+alt+z",
-        "ctrl+alt+o"
-      ],
-      "command": "cheat_sheet",
-      "args": {
-        "cheatsheet": "Overview"
-      }
-    }
+    { "keys": ["ctrl+alt+z", "p"], "command": "znuny_add_to_project" },
+    { "keys": ["ctrl+alt+z", "c"], "command": "znuny_customizers" },
+    { "keys": ["ctrl+alt+z", "f"], "command": "znuny_generate_filelist" },
+    { "keys": ["ctrl+alt+z", "d"], "command": "znuny_object_dependencies" },
+    { "keys": ["ctrl+alt+z", "q"], "command": "znuny_quote_with_marker" },
 ]

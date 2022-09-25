@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$MinifiedJS = \$LoaderObject->MinifyJavaScript( Code => \$JavaScript );
+}
+]]></content>
+    <tabTrigger>znuny.LoaderObject.MinifyJavaScript</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

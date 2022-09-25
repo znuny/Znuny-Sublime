@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %File = \$ParamObject->GetUploadAll(
+    Param  => 'FileParam',  # the name of the request parameter containing the file data
+);
+}
+]]></content>
+    <tabTrigger>znuny.ParamObject.GetUploadAll</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

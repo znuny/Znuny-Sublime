@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Data = \$UtilObject->DataStructureRemoveElements(
+    # Data can be a scalar, hash or array
+    Data => \{
+        Article => \{
+            # ...
+        \},
+        # ...
+    \},
+    HashKeys => [
+        # All 'Body' elements of array \$Hash->\{Articles\} will be removed.
+        # Also can mean: \$Hash->\{Articles\}->\{Body\}, if 'Articles' is a hash.
+        # Will remove nothing if last key ('Body') cannot be reached or is not a scalar/string.
+        'Articles->Body',
+
+        'QueueData->Comment',
+        # ...
+    ],
+);
+}
+]]></content>
+    <tabTrigger>znuny.UtilObject.DataStructureRemoveElements</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

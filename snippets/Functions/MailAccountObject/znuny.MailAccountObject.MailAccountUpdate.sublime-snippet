@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$MailAccountObject->MailAccountUpdate(
+    ID                  => 1,
+    Login               => 'mail',
+    Password            => 'SomePassword',
+    Host                => 'pop3.example.com',
+    Type                => 'POP3',
+    IMAPFolder          => 'Some Folder', # optional, only valid for IMAP-type accounts
+    ValidID             => \$ValidID,
+    Trusted             => 0,
+    AuthenticationType  => 'oauth2_token', # optional; defaults to 'password'
+    OAuth2TokenConfigID => \$OAuth2TokenConfigID, # optional
+    DispatchingBy       => 'Queue', # Queue|From
+    QueueID             => \$QueueID,
+    UserID              => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.MailAccountObject.MailAccountUpdate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

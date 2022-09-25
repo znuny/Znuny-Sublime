@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$QueueObject = \$Kernel::OM->Get('Kernel::System::Queue');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.QueueObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

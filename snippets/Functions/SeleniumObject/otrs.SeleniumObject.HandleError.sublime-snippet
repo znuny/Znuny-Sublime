@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:\$SeleniumObject->HandleError(\$@);
-}
-]]></content>
-    <tabTrigger>otrs.SeleniumObject.HandleError</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

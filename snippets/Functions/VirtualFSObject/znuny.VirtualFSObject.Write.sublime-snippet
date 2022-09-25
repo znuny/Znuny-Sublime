@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$VirtualFSObject->Write(
+    Content  => \\$Content,
+    Filename => '/Object/SomeFileName.txt',
+    Mode     => 'binary'            # (binary|utf8)
+
+    # optional, preferences data
+    Preferences => \{
+        ContentType        => 'text/plain',
+        ContentID          => \$ContentID,
+        ContentAlternative => 1,
+        SomeCustomParams   => 'with our own value',
+    \},
+);
+}
+]]></content>
+    <tabTrigger>znuny.VirtualFSObject.Write</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

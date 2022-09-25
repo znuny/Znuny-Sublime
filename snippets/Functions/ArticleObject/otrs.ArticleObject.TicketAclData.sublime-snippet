@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my %Acl = \$ArticleObject->TicketAclData();
-}
-]]></content>
-    <tabTrigger>otrs.ArticleObject.TicketAclData</tabTrigger>
-    <description>6</description>
-</snippet>

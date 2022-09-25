@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my %UserList = \$CustomerUserObject->SearchPreferences(
+    Key   => 'UserSomeKey',
+    Value => 'SomeValue',   # optional, limit to a certain value/pattern
+);
+}
+]]></content>
+    <tabTrigger>znuny.CustomerUserObject.SearchPreferences</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

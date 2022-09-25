@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my %List = \$UserObject->UserList(
+    Type          => 'Short', # Short|Long, default Short
+    Valid         => 1,       # default 1
+    NoOutOfOffice => 1,       # (optional) default 0
+);
+}
+]]></content>
+    <tabTrigger>znuny.UserObject.UserList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

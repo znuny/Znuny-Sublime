@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketResponsibleSet(
+    TicketID  => \$TicketID,
+    NewUserID => \$NewUserID,
+    UserID    => \$UserID,
+);
+}${2:my \$Success = \$TicketObject->TicketResponsibleSet(
+    TicketID  => \$TicketID,
+    NewUser   => 'some-user-login',
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.TicketResponsibleSet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

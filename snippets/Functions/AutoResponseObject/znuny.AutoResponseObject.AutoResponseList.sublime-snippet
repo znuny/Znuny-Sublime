@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my %AutoResponse = \$AutoResponseObject->AutoResponseList(
+    Valid   => 1,                 # (optional) default 1
+    TypeID  => \$TypeID,                 # (optional) Auto Response type ID
+);
+}
+]]></content>
+    <tabTrigger>znuny.AutoResponseObject.AutoResponseList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

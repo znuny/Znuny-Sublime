@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$Success = \$TimeObject->Run();
-}
-]]></content>
-    <tabTrigger>otrs.TimeObject.Run</tabTrigger>
-    <description>4</description>
-</snippet>

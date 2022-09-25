@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my @NextEvents = \$CronEventObject->NextEventList(
+    Schedule      => '*/2 * * * *',         # recurrence parameters based in cron notation
+    StartDateTime => \$StartDateTimeObject,  # optional, defaults to current date/time
+    StopDateTime  => \$StopDateTimeObject,
+);
+}
+]]></content>
+    <tabTrigger>znuny.CronEventObject.NextEventList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

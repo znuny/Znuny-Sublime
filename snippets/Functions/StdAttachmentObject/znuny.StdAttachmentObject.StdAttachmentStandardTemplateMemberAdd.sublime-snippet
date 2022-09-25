@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$StdAttachmentObject->StdAttachmentStandardTemplateMemberAdd(
+    AttachmentID       => \$AttachmentID,
+    StandardTemplateID => \$StandardTemplateID,
+    Active             => 1,        # optional
+    UserID             => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.StdAttachmentObject.StdAttachmentStandardTemplateMemberAdd</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

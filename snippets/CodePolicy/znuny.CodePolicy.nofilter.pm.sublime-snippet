@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+## nofilter($1)
+]]></content>
+    <tabTrigger>znuny.CodePolicy.nofilter.pm</tabTrigger>
+    <scope>source.perl, text.html.basic</scope>
+</snippet>

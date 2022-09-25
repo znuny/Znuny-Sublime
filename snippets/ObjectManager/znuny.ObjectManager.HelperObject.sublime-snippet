@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$HelperObject = \$Kernel::OM->Get('Kernel::System::UnitTest::Helper');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.HelperObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Calendar = \$CalendarObject->CalendarGet(
+    CalendarName => 'Meetings',          # (required) Calendar name
+                                         # or
+    CalendarID   => \$CalendarID,                   # (required) CalendarID
+
+    UserID       => \$UserID,                   # (optional) UserID - System will check if user has access to calendar if provided
+);
+}
+]]></content>
+    <tabTrigger>znuny.CalendarObject.CalendarGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

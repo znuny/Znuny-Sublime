@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Dump = \$MainObject->Dump(
+    \$SomeVariable,
+);
+}${2:my \$Dump = \$MainObject->Dump(
+    \{
+        Key1 => \$SomeVariable,
+    \},
+);
+}${3:my \$Dump = \$MainObject->Dump(
+    \$SomeVariable,
+    'ascii', # ascii|binary - default is binary
+);
+}
+]]></content>
+    <tabTrigger>znuny.MainObject.Dump</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

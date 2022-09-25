@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-\$HelperObject->FixedTimeAddSeconds(${1:60});
-]]></content>
-    <tabTrigger>otrs.unittest.helper.fixedtimeaddseconds</tabTrigger>
-</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ID = \$GroupObject->GroupAdd(
+    Name    => 'example-group',
+    Comment => 'comment describing the group',   # optional
+    ValidID => \$ValidID,
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.GroupObject.GroupAdd</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

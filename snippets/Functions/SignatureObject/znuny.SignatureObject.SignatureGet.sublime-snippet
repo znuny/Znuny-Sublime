@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Signature = \$SignatureObject->SignatureGet(
+    ID => 123,
+);
+}
+]]></content>
+    <tabTrigger>znuny.SignatureObject.SignatureGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

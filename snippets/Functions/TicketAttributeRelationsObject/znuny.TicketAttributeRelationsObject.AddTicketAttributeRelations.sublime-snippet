@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ID = \$TicketAttributeRelationsObject->AddTicketAttributeRelations(
+    Filename                 => 'csv-filename.csv',
+    Data                     => 'Data from CSV or Excel file',
+    DynamicFieldConfigUpdate => 1, # optional, this option will create dynamic field values for the CSV file
+    Priority                 => 123,
+    UserID                   => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.TicketAttributeRelationsObject.AddTicketAttributeRelations</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

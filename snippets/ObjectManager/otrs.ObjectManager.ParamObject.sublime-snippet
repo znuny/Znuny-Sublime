@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$ParamObject = \$Kernel::OM->Get('Kernel::System::Web::Request');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.ParamObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

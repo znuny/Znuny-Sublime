@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$SchedulerDBObject->GenericAgentTaskToExecute(
+    NodeID => \$NodeID,    # the ID of the node in a cluster environment
+    PID    => \$PID,  # the process ID of the daemon that is creating the tasks to execution
+);
+}
+]]></content>
+    <tabTrigger>znuny.SchedulerDBObject.GenericAgentTaskToExecute</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

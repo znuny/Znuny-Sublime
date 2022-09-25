@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$TicketID = \$HelperObject->TicketCreate();
+}${2:my \$TicketID = \$HelperObject->TicketCreate(
+    CustomerUser => 'another_customer@example.com',
+);
+}${3:my \$TicketID = \$HelperObject->TicketCreate(
+    Title        => 'UnitTest ticket',
+    Queue        => 'Raw',
+    Lock         => 'unlock',
+    Priority     => '3 normal',
+    State        => 'new',
+    CustomerID   => \$CustomerID,
+    CustomerUser => 'customer@example.com',
+    OwnerID      => \$OwnerID,
+    UserID       => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.HelperObject.TicketCreate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

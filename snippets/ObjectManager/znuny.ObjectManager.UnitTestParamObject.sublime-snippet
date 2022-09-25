@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$UnitTestParamObject = \$Kernel::OM->Get('Kernel::System::UnitTest::Param');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.UnitTestParamObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

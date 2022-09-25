@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$SalutationObject = \$Kernel::OM->Get('Kernel::System::Salutation');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.SalutationObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

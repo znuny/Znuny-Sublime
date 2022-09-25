@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$HTMLBody = \$LayoutObject->RichTextDocumentComplete(
+    String => \$HTMLBody,
+);
+}
+]]></content>
+    <tabTrigger>znuny.LayoutObject.RichTextDocumentComplete</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

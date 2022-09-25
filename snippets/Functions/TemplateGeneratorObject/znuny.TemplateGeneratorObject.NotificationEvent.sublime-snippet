@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+${1:my %NotificationEvent = \$TemplateGeneratorObject->NotificationEvent(
+    AppointmentID => \$AppointmentID,
+    Recipient     => \$UserDataHashRef,          # Agent data get result
+    Notification  => \$NotificationDataHashRef,
+    UserID        => \$UserID,
+);
+}${2:my %NotificationEvent = \$TemplateGeneratorObject->NotificationEvent(
+    TicketData            => \$TicketDataHashRef,
+    Recipient             => \$UserDataHashRef,          # Agent or Customer data get result
+    Notification          => \$NotificationDataHashRef,
+    CustomerMessageParams => \$ArticleHashRef,           # optional
+    UserID                => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.TemplateGeneratorObject.NotificationEvent</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

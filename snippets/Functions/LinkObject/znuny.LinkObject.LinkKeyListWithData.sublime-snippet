@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my %LinkKeyList = \$LinkObject->LinkKeyListWithData(
+    Object1   => 'Ticket',
+    Key1      => '321',
+    Object2   => 'FAQ',
+    State     => 'Valid',
+    Type      => 'ParentChild', # (optional)
+    Direction => 'Target',      # (optional) default Both (Source|Target|Both)
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.LinkObject.LinkKeyListWithData</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my @XMLHash = \$XMLObject->XMLHashGet(
+    Type => 'SomeType',
+    Key  => '123',
+);
+}${2:my @XMLHash = \$XMLObject->XMLHashGet(
+    Type  => 'SomeType',
+    Key   => '123',
+    Cache => 0,   # (optional) do not use cached data
+);
+}
+]]></content>
+    <tabTrigger>znuny.XMLObject.XMLHashGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

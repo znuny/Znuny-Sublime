@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+my \$Driver = \$Kernel::OM->Create(
+        'Kernel::System::UnitTest::Driver',
+        ObjectParams => \{
+            Verbose => \$Self->\{Verbose\},
+            ANSI    => \$Self->\{ANSI\},
+        \},
+    );
+]]></content>
+    <tabTrigger>znuny.ObjectManager.Driver</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

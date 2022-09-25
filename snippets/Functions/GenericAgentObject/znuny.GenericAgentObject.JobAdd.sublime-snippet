@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:\$GenericAgentObject->JobAdd(
+    Name => 'JobName',
+    Data => \{
+        Queue => 'SomeQueue',
+        ...
+        Valid => 1,
+    \},
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.GenericAgentObject.JobAdd</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$DebuggerObject->ProviderProcessRequest();
+}
+]]></content>
+    <tabTrigger>znuny.DebuggerObject.ProviderProcessRequest</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

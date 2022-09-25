@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$Text = \$LanguageObject->Get('Hello');
-}
-]]></content>
-    <tabTrigger>otrs.LanguageObject.Get</tabTrigger>
-    <description>5, 4</description>
-</snippet>

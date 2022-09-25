@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Dim = \$PDFObject->DimSet(
+    Dim => 'printable',  # (optional) default content (content|printable)
+);
+}
+]]></content>
+    <tabTrigger>znuny.PDFObject.DimSet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

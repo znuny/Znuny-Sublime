@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$UnitTestWebserviceObject->SchedulerCleanUp(
+    UnitTestObject => \$Self,
+);
+}${2:my \$Success = \$UnitTestWebserviceObject->SchedulerCleanUp(
+    UnitTestObject => \$Self,
+    Type           => 'AsynchronousExecutor', # optional, default is 'GenericInterface'
+);
+}
+]]></content>
+    <tabTrigger>znuny.UnitTestWebserviceObject.SchedulerCleanUp</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

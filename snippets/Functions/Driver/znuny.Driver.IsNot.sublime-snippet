@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Driver->IsNot(
+    \$ValueFromFunction,      # test data
+    1,                       # expected value
+    'Test Name',
+);
+}
+]]></content>
+    <tabTrigger>znuny.Driver.IsNot</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

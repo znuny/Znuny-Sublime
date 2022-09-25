@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$MailTimeStamp = \$TimeObject->MailTimeStamp();
+}
+]]></content>
+    <tabTrigger>znuny.TimeObject.MailTimeStamp</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

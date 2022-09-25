@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ServiceList = \$ServiceObject->ServiceListGet(
+    Valid  => 0,   # (optional) default 1 (0|1)
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ServiceObject.ServiceListGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

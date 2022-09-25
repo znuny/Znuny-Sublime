@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Job = \$GenericAgentObject->JobGet(Name => 'JobName');
+}
+]]></content>
+    <tabTrigger>znuny.GenericAgentObject.JobGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

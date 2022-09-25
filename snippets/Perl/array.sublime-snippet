@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my @${3:Array} = ("${4:Element1}","${5:Element2}",${6:@Array2});}
+
+${2:my @${3:Array} = (
+    "${4:Element1}",
+    "${5:Element2}",
+    ${6:@Array2}
+);}
+]]></content>
+    <tabTrigger>array</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>
+
+

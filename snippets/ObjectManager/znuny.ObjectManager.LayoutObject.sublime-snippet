@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$LayoutObject = \$Kernel::OM->Get('Kernel::Output::HTML::Layout');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.LayoutObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

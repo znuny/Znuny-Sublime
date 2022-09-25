@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$LinkList = \$LinkObject->LinkListWithData(
+    Object                          => 'Ticket',
+    Key                             => '321',
+    Object2                         => 'FAQ',         # (optional)
+    State                           => 'Valid',
+    Type                            => 'ParentChild', # (optional)
+    Direction                       => 'Target',      # (optional) default Both (Source|Target|Both)
+    UserID                          => \$UserID,
+    ObjectParameters                => \{              # (optional) backend specific flags
+        Ticket => \{
+            IgnoreLinkedTicketStateTypes => 0|1,
+        \},
+    \},
+);
+}
+]]></content>
+    <tabTrigger>znuny.LinkObject.LinkListWithData</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$NotificationEventObject->NotificationDelete(
+    ID     => 1,
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.NotificationEventObject.NotificationDelete</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

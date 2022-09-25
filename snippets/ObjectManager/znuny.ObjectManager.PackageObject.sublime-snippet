@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$PackageObject = \$Kernel::OM->Get('Kernel::System::Package');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.PackageObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

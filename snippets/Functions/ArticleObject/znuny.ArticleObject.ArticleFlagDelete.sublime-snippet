@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$ArticleObject->ArticleFlagDelete(
+    TicketID  => \$TicketID,
+    ArticleID => \$ArticleID,
+    Key       => 'seen',
+    UserID    => \$UserID,
+);
+}${2:my \$Success = \$ArticleObject->ArticleFlagDelete(
+    TicketID  => \$TicketID,
+    ArticleID => \$ArticleID,
+    Key       => 'seen',
+    AllUsers  => 1,         # delete for all users
+);
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.ArticleFlagDelete</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

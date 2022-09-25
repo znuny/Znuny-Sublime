@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my ( \$Content, \$Filename ) = \$SupportBundleGeneratorObject->GenerateCustomFilesArchive();
+}
+]]></content>
+    <tabTrigger>znuny.SupportBundleGeneratorObject.GenerateCustomFilesArchive</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Token = \$CustomerUserObject->TokenGenerate(
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.CustomerUserObject.TokenGenerate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

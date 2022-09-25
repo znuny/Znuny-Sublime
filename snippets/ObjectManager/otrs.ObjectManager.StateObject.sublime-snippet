@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$StateObject = \$Kernel::OM->Get('Kernel::System::State');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.StateObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

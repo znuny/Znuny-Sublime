@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$SeleniumObject->VerifiedRefresh();
+]]></content>
+    <tabTrigger>znuny.Selenium.VerifiedRefresh</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

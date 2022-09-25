@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SenderType = \$ArticleObject->ArticleSenderTypeLookup(
+    SenderTypeID => \$SenderTypeID,
+);
+}${2:my \$SenderTypeID = \$ArticleObject->ArticleSenderTypeLookup(
+    SenderType => 'customer', # customer|system|agent
+);
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.ArticleSenderTypeLookup</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

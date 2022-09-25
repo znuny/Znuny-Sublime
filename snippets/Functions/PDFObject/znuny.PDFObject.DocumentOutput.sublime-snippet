@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:\$DocumentString = \$PDFObject->DocumentOutput();
+}
+]]></content>
+    <tabTrigger>znuny.PDFObject.DocumentOutput</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

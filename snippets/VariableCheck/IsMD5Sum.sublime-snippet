@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+my \$${1:IsMD5Sum} = IsMD5Sum(
+    ${2:'6f1ed002ab5595859014ebf0951522d9'},
+);
+]]></content>
+    <tabTrigger>IsMD5Sum</tabTrigger>
+    <description>VariableCheck</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$IsSuperset = \$EncodeObject->EncodingIsAsciiSuperset(
+    Encoding    => 'UTF-8',
+);
+}
+]]></content>
+    <tabTrigger>znuny.EncodeObject.EncodingIsAsciiSuperset</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

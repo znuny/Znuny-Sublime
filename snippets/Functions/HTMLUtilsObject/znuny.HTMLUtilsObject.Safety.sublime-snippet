@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Safe = \$HTMLUtilsObject->Safety(
+    String       => \\$HTMLStringRef,
+    NoApplet     => 1,
+    NoObject     => 1,
+    NoEmbed      => 1,
+    NoSVG        => 1,
+    NoImg        => 1,
+    NoIntSrcLoad => 0,
+    NoExtSrcLoad => 1,
+    NoJavaScript => 1,
+);
+}${2:my %Safe = \$HTMLUtilsObject->Safety(
+    String         => \$HTMLString,
+    NoApplet       => 1,
+    NoObject       => 1,
+    NoEmbed        => 1,
+    NoSVG          => 1,
+    NoImg          => 1,
+    NoIntSrcLoad   => 0,
+    NoExtSrcLoad   => 1,
+    NoJavaScript   => 1,
+    ReplacementStr => 'string',          # optional, string to show instead of applet, object, embed, svg and img tags
+);
+}
+]]></content>
+    <tabTrigger>znuny.HTMLUtilsObject.Safety</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

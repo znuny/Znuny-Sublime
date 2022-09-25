@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$Success = \$UnitTestEmailObject->MailObjectDiscard();
-]]></content>
-    <tabTrigger>otrs.UnitTestEmailObject.MailObjectDiscard</tabTrigger>
-    <description>4, 5</description>
-</snippet>

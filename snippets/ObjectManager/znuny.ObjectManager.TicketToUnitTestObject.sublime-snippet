@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$TicketToUnitTestObject = \$Kernel::OM->Get('Kernel::System::UnitTest::TicketToUnitTest');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.TicketToUnitTestObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

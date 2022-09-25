@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-\$Self->{ParamObject}->GetParam( Param => '$1' )${2: || };
-]]></content>
-    <tabTrigger>otrs.param.getparam.Self</tabTrigger>
-</snippet>

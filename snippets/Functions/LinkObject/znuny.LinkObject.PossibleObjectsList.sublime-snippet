@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %PossibleObjectsList = \$LinkObject->PossibleObjectsList(
+    Object => 'Ticket',
+);
+}
+]]></content>
+    <tabTrigger>znuny.LinkObject.PossibleObjectsList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

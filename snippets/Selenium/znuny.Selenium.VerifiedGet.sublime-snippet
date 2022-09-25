@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:# get script alias
+my \$ScriptAlias = \$Kernel::OM->Get('Kernel::Config')->Get('ScriptAlias');
+
+}\$SeleniumObject->VerifiedGet("\${ScriptAlias}${2:index}.pl?Action=$3");
+]]></content>
+    <tabTrigger>znuny.Selenium.VerifiedGet</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+use Data::Dumper;
+open ERLOG, ">>/tmp/znuny.log";
+print ERLOG "${1:VariableName}\n";
+print ERLOG Dumper(${2:\\}$3${1:VariableName});
+close ERLOG;
+]]></content>
+    <tabTrigger>znuny.ERLOG.Dumper</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

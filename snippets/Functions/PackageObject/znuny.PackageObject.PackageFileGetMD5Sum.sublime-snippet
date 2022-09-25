@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$MD5Sum = \$PackageObject->PackageFileGetMD5Sum(
+    Name => 'Package Name',
+    Version => 123.0,
+);
+}
+]]></content>
+    <tabTrigger>znuny.PackageObject.PackageFileGetMD5Sum</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

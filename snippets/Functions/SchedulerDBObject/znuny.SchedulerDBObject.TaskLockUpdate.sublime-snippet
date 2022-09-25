@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$SchedulerDBObject->TaskLockUpdate(
+    TaskIDs => [123, 456],
+);
+}
+]]></content>
+    <tabTrigger>znuny.SchedulerDBObject.TaskLockUpdate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

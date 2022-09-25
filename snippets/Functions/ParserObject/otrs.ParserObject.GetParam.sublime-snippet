@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$To = \$ParserObject->GetParam( WHAT => 'To' );
-}
-]]></content>
-    <tabTrigger>otrs.ParserObject.GetParam</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

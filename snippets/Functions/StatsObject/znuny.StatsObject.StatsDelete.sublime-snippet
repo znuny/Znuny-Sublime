@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:\$StatsObject->StatsDelete( StatID => '123' );
+}
+]]></content>
+    <tabTrigger>znuny.StatsObject.StatsDelete</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ID = \$SystemMaintenanceObject->SystemMaintenanceAdd(
+    StartDate        => 1485346000               # mandatory
+    StopDate         => 1485349600               # mandatory
+    Comment          => 'Comment',               # mandatory
+    LoginMessage     => 'A login message.',      # optional
+    ShowLoginMessage => 1,                       # optional
+    NotifyMessage    => 'Notification message.', # optional
+    ValidID          => \$ValidID,                       # mandatory
+    UserID           => \$UserID,                     # mandatory
+);
+}
+]]></content>
+    <tabTrigger>znuny.SystemMaintenanceObject.SystemMaintenanceAdd</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

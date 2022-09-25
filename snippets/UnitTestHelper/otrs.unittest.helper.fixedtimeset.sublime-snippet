@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-\$HelperObject->FixedTimeSet();
-]]></content>
-    <tabTrigger>otrs.unittest.helper.fixedtimeset</tabTrigger>
-</snippet>

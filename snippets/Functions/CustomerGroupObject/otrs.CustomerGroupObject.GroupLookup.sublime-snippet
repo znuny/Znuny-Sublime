@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$GroupID = \$CustomerGroupObject->GroupLookup(Group => \$Group);
-}${2:my \$Group = \$CustomerGroupObject->GroupLookup(GroupID => \$GroupID);
-}
-]]></content>
-    <tabTrigger>otrs.CustomerGroupObject.GroupLookup</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

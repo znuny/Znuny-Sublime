@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Dim = \$PDFObject->DimGet();
+}
+]]></content>
+    <tabTrigger>znuny.PDFObject.DimGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

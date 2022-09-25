@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$SupportDataCollectorObject = \$Kernel::OM->Get('Kernel::System::SupportDataCollector');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.SupportDataCollectorObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

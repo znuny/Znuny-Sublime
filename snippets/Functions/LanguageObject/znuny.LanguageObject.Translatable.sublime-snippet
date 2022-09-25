@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Selection = \$LayoutObject BuildSelection (
+    Data => \{
+        'and' => Translatable('and'),
+        'or'  => Translatable('or'),
+        'xor' => Translatable('xor'),
+    \},
+    Name        => "ConditionLinking[_INDEX_]",
+    Sort        => 'AlphanumericKey',
+    Translation => 1,
+    Class       => 'Modernize W50pc',
+);
+}
+]]></content>
+    <tabTrigger>znuny.LanguageObject.Translatable</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

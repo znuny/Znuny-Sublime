@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$ArticleID = \$HelperObject->ArticleCreate(
-    TicketID => \$TicketID,
-);
-]]></content>
-    <tabTrigger>otrs.unittest.helper.articlecreate</tabTrigger>
-</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+${1:# username search
+my %List = \$CustomerUserObject->CustomerSearch(
+    UserLogin => '*some*',
+    Valid     => 1,         # (optional) default 1
+);
+}${2:# search by CustomerID
+my %List = \$CustomerUserObject->CustomerSearch(
+    CustomerID       => \$CustomerID,
+    Valid            => 1,                # (optional) default 1
+);
+}${3:# email search
+my %List = \$CustomerUserObject->CustomerSearch(
+    PostMasterSearch => 'email@example.com',
+    Valid            => 1,                    # (optional) default 1
+);
+}${4:# text search
+my %List = \$CustomerUserObject->CustomerSearch(
+    Search => '*some*', # also 'hans+huber' possible
+    Valid  => 1,        # (optional) default 1
+    Limit  => 100,      # (optional) overrides limit of the config
+);
+}
+]]></content>
+    <tabTrigger>znuny.CustomerUserObject.CustomerSearch</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

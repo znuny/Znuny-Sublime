@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$StateObject = \$Kernel::OM->Get('Kernel::System::State');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.StateObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

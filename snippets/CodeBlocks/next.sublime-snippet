@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-next $1 if ${2:!};
-]]></content>
-    <tabTrigger>next</tabTrigger>
-</snippet>

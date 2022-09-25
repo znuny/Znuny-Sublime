@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$SysConfigObject->SettingEffectiveValueGet(
+    Translate => 1,                      # (optional) Translate translatable strings. Default 0.
+    Value  => [                          # (required) parsed XML structure
+        \{
+            'Item' => [
+                \{
+                    'ValueType' => 'String',
+                    'Content' => '3600',
+                    'ValueRegex' => ''
+                \},
+            ],
+        \},
+        Objects => \{
+            Select => \{ ... \},
+            PerlModule => \{ ... \},
+            # ...
+        \}
+    ];
+);
+}
+]]></content>
+    <tabTrigger>znuny.SysConfigObject.SettingEffectiveValueGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$PerlStructureScalar = \$YAMLObject->Load(
+    Data => \$YAMLString,
+);
+}
+]]></content>
+    <tabTrigger>znuny.YAMLObject.Load</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

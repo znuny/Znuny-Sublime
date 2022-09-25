@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:\$EncodeObject->EncodeInput( \@Array );
-}${2:\$EncodeObject->EncodeInput( \\$String );
-}
-]]></content>
-    <tabTrigger>otrs.EncodeObject.EncodeInput</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

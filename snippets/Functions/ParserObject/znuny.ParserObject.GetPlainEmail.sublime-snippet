@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Email = \$ParserObject->GetPlainEmail();
+}
+]]></content>
+    <tabTrigger>znuny.ParserObject.GetPlainEmail</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

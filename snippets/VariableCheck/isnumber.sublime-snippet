@@ -3,4 +3,6 @@
 IsNumber($1)
 ]]></content>
     <tabTrigger>IsNumber</tabTrigger>
+    <description>VariableCheck</description>
+    <scope>source.perl</scope>
 </snippet>

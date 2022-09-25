@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-\$SeleniumObject->CustomerInterface(
-    Action      => '$1',${2:
-    WaitForAJAX => 0,       # optional, default 1
-});
-]]></content>
-    <tabTrigger>otrs.selenium.customerinterface</tabTrigger>
-</snippet>

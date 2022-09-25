@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$MailQueueObject->Delete(
+    %Filters,                       # See _FiltersSQLAndBinds
+);
+}
+]]></content>
+    <tabTrigger>znuny.MailQueueObject.Delete</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

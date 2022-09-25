@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:\$LogObject->CleanUp();
+}
+]]></content>
+    <tabTrigger>znuny.LogObject.CleanUp</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

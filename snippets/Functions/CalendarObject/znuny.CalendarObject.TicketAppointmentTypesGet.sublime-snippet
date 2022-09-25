@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %TicketAppointmentTypes = \$CalendarObject->TicketAppointmentTypesGet();
+}
+]]></content>
+    <tabTrigger>znuny.CalendarObject.TicketAppointmentTypesGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

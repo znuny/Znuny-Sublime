@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+my %${1:Hash}${2: = (
+    ${3:Key} => ${4:Value},
+)};
+]]></content>
+    <tabTrigger>hash</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

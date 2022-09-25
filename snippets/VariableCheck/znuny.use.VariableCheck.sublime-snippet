@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+use Kernel::System::VariableCheck qw(:all);
+]]></content>
+    <tabTrigger>znuny.use.VariableCheck</tabTrigger>
+    <description>VariableCheck</description>
+    <scope>source.perl</scope>
+</snippet>

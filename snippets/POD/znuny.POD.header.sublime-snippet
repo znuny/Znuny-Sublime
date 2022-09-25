@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+=head1 NAME
+
+Kernel::System::$1 - $2 lib
+
+=head1 SYNOPSIS
+
+All $3 functions.
+
+=head1 PUBLIC INTERFACE
+
+=over 4
+
+=cut
+
+=item new()
+
+create an object. Do not use it directly, instead use:
+
+    use Kernel::System::ObjectManager;
+    local \$Kernel::OM = Kernel::System::ObjectManager->new();
+    my \$TicketObject = $Kernel::OM->Get('Kernel::System::$1');
+
+=cut
+]]></content>
+    <tabTrigger>znuny.POD.header</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

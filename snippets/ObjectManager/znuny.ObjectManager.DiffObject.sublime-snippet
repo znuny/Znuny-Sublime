@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$DiffObject = \$Kernel::OM->Get('Kernel::System::Diff');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.DiffObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

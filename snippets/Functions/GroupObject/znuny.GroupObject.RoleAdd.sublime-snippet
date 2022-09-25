@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$RoleID = \$GroupObject->RoleAdd(
+    Name    => 'example-role',
+    Comment => 'comment describing the role',   # optional
+    ValidID => \$ValidID,
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.GroupObject.RoleAdd</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

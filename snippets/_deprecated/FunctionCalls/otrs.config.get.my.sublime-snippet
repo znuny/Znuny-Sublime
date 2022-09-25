@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-\$ConfigObject->Get('$1')${2: || };
-]]></content>
-    <tabTrigger>otrs.config.get.my</tabTrigger>
-</snippet>

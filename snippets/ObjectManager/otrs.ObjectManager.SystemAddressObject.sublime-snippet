@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$SystemAddressObject = \$Kernel::OM->Get('Kernel::System::SystemAddress');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.SystemAddressObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

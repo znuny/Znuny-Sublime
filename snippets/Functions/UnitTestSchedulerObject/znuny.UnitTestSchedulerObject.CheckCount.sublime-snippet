@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$UnitTestSchedulerObject->CheckCount(
+    UnitTestObject => \$Self,
+    Count          => '2',
+    Message        => "2 'AsynchronousExecutor' tasks added",    # optional
+    Type           => 'AsynchronousExecutor',                    # optional
+);
+}
+]]></content>
+    <tabTrigger>znuny.UnitTestSchedulerObject.CheckCount</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

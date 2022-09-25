@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+// ---
+// ${1:Znuny-}
+${3:// }---
+$2
+// ---
+]]></content>
+    <tabTrigger>znuny.Codemarker.js</tabTrigger>
+    <description>js</description>
+    <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %ListType = \$StateObject->StateTypeList(
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.StateObject.StateTypeList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

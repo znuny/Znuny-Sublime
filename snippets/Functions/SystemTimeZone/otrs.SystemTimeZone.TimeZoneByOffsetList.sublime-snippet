@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my %TimeZoneByOffset = \$TimeZones->TimeZoneByOffsetList();
-}
-]]></content>
-    <tabTrigger>otrs.SystemTimeZone.TimeZoneByOffsetList</tabTrigger>
-    <description>6</description>
-</snippet>

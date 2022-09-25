@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ArticleID = \$HelperObject->ArticleCreate(
+    TicketID => \$TicketID,
+);
+}${2:my \$ArticleID = \$HelperObject->ArticleCreate(
+    TicketID   => \$TicketID,
+    SenderType => 'customer',
+);
+}${3:my \$ArticleID = \$HelperObject->ArticleCreate(
+    TicketID       => \$TicketID,
+    ArticleType    => 'note-internal',
+    SenderType     => 'agent',
+    Subject        => 'UnitTest subject test',
+    Body           => 'UnitTest body test',
+    ContentType    => 'text/plain; charset=ISO-8859-15',
+    HistoryType    => 'OwnerUpdate',
+    HistoryComment => 'Some free text!',
+    UserID         => \$UserID,
+    NoAgentNotify  => 1,
+);
+}
+]]></content>
+    <tabTrigger>znuny.HelperObject.ArticleCreate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

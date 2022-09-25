@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$Success = \$ZnunyHelperObject->_QueueCreateIfNotExists(
-    Name    => '$1',
-    GroupID => $2{:1},
-);
-]]></content>
-    <tabTrigger>otrs.helper.queuecreateifnotexists</tabTrigger>
-</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Base64EncodedData = \$UtilObject->Base64DeepEncode(
+    # Data can be a scalar, hash or array
+    Data => \{
+        Article => \{
+            # ...
+        \},
+        # ...
+    \},
+    HashKeys => [
+        # All 'Body' elements of array \$Hash->\{Articles\} will be base-64 encoded.
+        # Also can mean: \$Hash->\{Articles\}->\{Body\}, if 'Articles' is a hash.
+        # Will encode nothing if last key ('Body') cannot be reached or is not a scalar/string.
+        'Articles->Body',
+
+        'QueueData->Comment',
+        # ...
+    ],
+);
+}
+]]></content>
+    <tabTrigger>znuny.UtilObject.Base64DeepEncode</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

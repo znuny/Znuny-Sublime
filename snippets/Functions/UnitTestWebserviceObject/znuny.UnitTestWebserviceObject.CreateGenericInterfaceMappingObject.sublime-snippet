@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$MappingObject = \$UnitTestWebserviceObject->CreateGenericInterfaceMappingObject(
+    UnitTestObject    => \$Self,
+    WebserviceName    => 'MyWebservice',
+    CommunicationType => 'Provider',
+    MappingConfig     => \{
+        Type => 'MyMapping', # name of mapping module
+        Config => \{
+            # ...
+        \},
+    \},
+);
+}
+]]></content>
+    <tabTrigger>znuny.UnitTestWebserviceObject.CreateGenericInterfaceMappingObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

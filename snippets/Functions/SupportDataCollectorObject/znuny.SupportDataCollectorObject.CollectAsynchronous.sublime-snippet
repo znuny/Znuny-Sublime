@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Result = \$SupportDataCollectorObject->CollectAsynchronous();
+}
+]]></content>
+    <tabTrigger>znuny.SupportDataCollectorObject.CollectAsynchronous</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Services = \$ServiceObject->GetAllCustomServices( UserID => 123 );
+}
+]]></content>
+    <tabTrigger>znuny.ServiceObject.GetAllCustomServices</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

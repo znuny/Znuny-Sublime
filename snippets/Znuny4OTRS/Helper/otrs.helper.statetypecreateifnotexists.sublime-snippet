@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$Success = \$ZnunyHelperObject->_StateTypeCreateIfNotExists(
-    Name => '$1',
-);
-]]></content>
-    <tabTrigger>otrs.helper.statetypecreateifnotexists</tabTrigger>
-</snippet>

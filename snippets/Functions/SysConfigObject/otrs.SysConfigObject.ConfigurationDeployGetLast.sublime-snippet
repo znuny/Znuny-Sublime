@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my %Deployment = \$SysConfigObject->ConfigurationDeployGetLast();
-}
-]]></content>
-    <tabTrigger>otrs.SysConfigObject.ConfigurationDeployGetLast</tabTrigger>
-    <description>6</description>
-</snippet>

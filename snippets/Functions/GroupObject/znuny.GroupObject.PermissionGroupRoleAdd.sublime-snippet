@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$GroupObject->PermissionGroupRoleAdd(
+    GID => \$GID,
+    RID => \$RID,
+    Permission => \{
+        ro        => 1,
+        move_into => 1,
+        create    => 1,
+        note      =  1,
+        owner     => 1,
+        priority  => 0,
+        rw        => 0,
+    \},
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.GroupObject.PermissionGroupRoleAdd</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

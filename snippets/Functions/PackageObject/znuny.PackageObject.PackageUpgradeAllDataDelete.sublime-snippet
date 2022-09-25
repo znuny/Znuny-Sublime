@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$PackageObject->PackageUpgradeAllDataDelete();
+}
+]]></content>
+    <tabTrigger>znuny.PackageObject.PackageUpgradeAllDataDelete</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

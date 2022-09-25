@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$ProcessObject = \$Kernel::OM->Get('Kernel::System::ProcessManagement::Process');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.ProcessObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

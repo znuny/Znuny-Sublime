@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my @ValueAttributeList = \$SysConfigObject->ValueAttributeList();
-}
-]]></content>
-    <tabTrigger>otrs.SysConfigObject.ValueAttributeList</tabTrigger>
-    <description>6</description>
-</snippet>

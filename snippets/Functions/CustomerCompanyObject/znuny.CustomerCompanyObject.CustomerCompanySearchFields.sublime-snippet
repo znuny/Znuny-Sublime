@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @SeachFields = \$CustomerCompanyObject->CustomerCompanySearchFields(
+    Source => 'CustomerCompany', # optional, but important in the CustomerCompanySearchDetail to get the right database fields
+);
+}
+]]></content>
+    <tabTrigger>znuny.CustomerCompanyObject.CustomerCompanySearchFields</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

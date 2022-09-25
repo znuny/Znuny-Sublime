@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my %PerlInfo = \$EnvironmentObject->PerlInfoGet();
+}${2:my %PerlInfo = \$EnvironmentObject->PerlInfoGet(
+    BundledModules => 1,
+);
+}
+]]></content>
+    <tabTrigger>znuny.EnvironmentObject.PerlInfoGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

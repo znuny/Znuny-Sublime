@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:\$True = \$LinkObject->LinkDelete(
+    Object1 => 'Ticket',
+    Key1    => '321',
+    Object2 => 'FAQ',
+    Key2    => '5',
+    Type    => 'Normal',
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.LinkObject.LinkDelete</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

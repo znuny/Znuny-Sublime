@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:\$True = \$PDFObject->PageBlankNew(
+    Width           => 200,          # (optional) default 595 (Din A4) - _ both or nothing
+    Height          => 300,          # (optional) default 842 (Din A4) -
+    PageOrientation => 'landscape',  # (optional) default normal (normal|landscape)
+    MarginTop       => 40,           # (optional) default 0 -
+    MarginRight     => 40,           # (optional) default 0  |_ all or nothing
+    MarginBottom    => 40,           # (optional) default 0  |
+    MarginLeft      => 40,           # (optional) default 0 -
+    ShowPageNumber  => 0,            # (optional) default 1
+);
+}
+]]></content>
+    <tabTrigger>znuny.PDFObject.PageBlankNew</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

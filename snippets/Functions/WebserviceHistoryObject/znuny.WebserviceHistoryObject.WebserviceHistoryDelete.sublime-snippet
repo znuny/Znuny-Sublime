@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$WebserviceHistoryObject->WebserviceHistoryDelete(
+    WebserviceID => \$WebserviceID,
+    UserID       => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.WebserviceHistoryObject.WebserviceHistoryDelete</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$PriorityObject = \$Kernel::OM->Get('Kernel::System::Priority');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.PriorityObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+${1:\$WebUploadCacheObject->FormIDAddFile(
+    FormID      => \$FormID,
+    Filename    => 'somefile.html',
+    Content     => \$FileInString,
+    ContentType => 'text/html',
+    Disposition => 'inline', # optional
+);
+}${2:\$WebUploadCacheObject->FormIDAddFile(
+    FormID      => \$FormID,
+    Filename    => 'somefile.html',
+    Content     => \$FileInString,
+    ContentID   => \$ContentID,
+    ContentType => 'text/html',
+    Disposition => 'inline', # optional
+);
+}
+]]></content>
+    <tabTrigger>znuny.WebUploadCacheObject.FormIDAddFile</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

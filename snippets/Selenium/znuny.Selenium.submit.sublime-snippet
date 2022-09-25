@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$SeleniumObject->find_element("${2:#Name}", 'css')->submit();
+]]></content>
+    <tabTrigger>znuny.Selenium.submit</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

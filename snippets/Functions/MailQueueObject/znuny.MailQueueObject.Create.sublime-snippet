@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$MailQueueObject->Create(
+    ArticleID       => \$ArticleID, # optional
+    MessageID       => \$MessageID, # optional (in case article id was passed this should be also)
+    Sender          => '...',
+    Recipient       => '...' || [],
+    Message         => '...',
+    Attempts        => '...', # optional
+);
+}
+]]></content>
+    <tabTrigger>znuny.MailQueueObject.Create</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

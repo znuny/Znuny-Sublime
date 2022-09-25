@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %SelectionsData = \$CustomerUserObject->GetFieldSelections(
+    FieldName => 'UserTitle',
+);
+}
+]]></content>
+    <tabTrigger>znuny.CustomerUserObject.GetFieldSelections</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

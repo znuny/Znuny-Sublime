@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:\$LastDayOfMonth = \$DateTimeObject->LastDayOfMonthGet();
-}
-]]></content>
-    <tabTrigger>otrs.SystemTimeZone.LastDayOfMonthGet</tabTrigger>
-    <description>6</description>
-</snippet>

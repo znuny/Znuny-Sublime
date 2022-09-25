@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:\$TypeObject->TypeUpdate(
+    ID      => 123,
+    Name    => 'New Type',
+    ValidID => \$ValidID,
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.TypeObject.TypeUpdate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

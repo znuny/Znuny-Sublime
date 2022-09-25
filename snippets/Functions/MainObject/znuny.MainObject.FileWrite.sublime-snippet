@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$FileLocation = \$MainObject->FileWrite(
+    Directory => 'c:\some\location',
+    Filename  => 'file2write.txt',
+    # or Location
+    Location  => 'c:\some\location\file2write.txt',
+
+    Content   => \\$Content,
+);
+}${2:my \$FileLocation = \$MainObject->FileWrite(
+    Directory  => 'c:\some\location',
+    Filename   => 'file2write.txt',
+    # or Location
+    Location   => 'c:\some\location\file2write.txt',
+
+    Content    => \\$Content,
+    Mode       => 'binmode', # binmode|utf8
+    Type       => 'Local',   # optional - Local|Attachment|MD5
+    Permission => '644',     # optional - unix file permissions
+);
+}
+]]></content>
+    <tabTrigger>znuny.MainObject.FileWrite</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

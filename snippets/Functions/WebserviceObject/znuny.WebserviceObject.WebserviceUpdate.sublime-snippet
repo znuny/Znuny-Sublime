@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$WebserviceObject->WebserviceUpdate(
+    ID      => 123,
+    Name    => 'some name',
+    Config  => \$ConfigHashRef,
+    ValidID => \$ValidID,
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.WebserviceObject.WebserviceUpdate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

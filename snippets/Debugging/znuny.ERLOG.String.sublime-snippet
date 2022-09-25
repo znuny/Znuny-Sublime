@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+open ERLOG, ">>/tmp/znuny.log";
+print ERLOG "${1:Logtext}\n";
+close ERLOG;
+]]></content>
+    <tabTrigger>znuny.ERLOG.String</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>
+<!-- Logging just a Logtext into /tmp/znuny.log -->

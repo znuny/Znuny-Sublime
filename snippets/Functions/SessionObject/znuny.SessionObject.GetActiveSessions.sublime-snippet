@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Result = \$SessionObject->GetActiveSessions(
+    UserType => '(User|Customer)',
+);
+}
+]]></content>
+    <tabTrigger>znuny.SessionObject.GetActiveSessions</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my @XMLHash = \$XMLObject->XMLStructure2XMLHash( XMLStructure => \@XMLStructure );
-}
-]]></content>
-    <tabTrigger>otrs.XMLObject.XMLStructure2XMLHash</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

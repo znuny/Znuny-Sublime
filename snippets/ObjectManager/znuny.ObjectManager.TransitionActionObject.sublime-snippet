@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$TransitionActionObject = \$Kernel::OM->Get('Kernel::System::ProcessManagement::TransitionAction');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.TransitionActionObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

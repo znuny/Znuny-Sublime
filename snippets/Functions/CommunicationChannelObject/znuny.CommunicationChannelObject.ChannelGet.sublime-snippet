@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my %CommunicationChannel = \$CommunicationChannelObject->ChannelGet(
+    ChannelID   => \$ChannelID,      # (optional) Communication channel id
+                             # or
+    ChannelName => 'Email',  # (optional) Communication channel name
+);
+}
+]]></content>
+    <tabTrigger>znuny.CommunicationChannelObject.ChannelGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$FormDraftID = \$ParamObject->SaveFormDraft(
+    UserID         => \$UserID,
+    ObjectID       => \$ObjectID,
+    OverrideParams => \{               # optional, can contain strings and array references
+        Subaction   => undef,
+        UserID      => \$UserID,
+        CustomParam => [ 1, 2, 3, ],
+        ...
+    \},
+);
+}
+]]></content>
+    <tabTrigger>znuny.ParamObject.SaveFormDraft</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

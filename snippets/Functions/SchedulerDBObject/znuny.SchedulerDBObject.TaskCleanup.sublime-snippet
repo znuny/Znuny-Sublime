@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$SchedulerDBObject->TaskCleanup();
+}
+]]></content>
+    <tabTrigger>znuny.SchedulerDBObject.TaskCleanup</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

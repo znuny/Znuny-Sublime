@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:\$StandardTemplateObject->StandardTemplateUpdate(
+    ID           => 123,
+    Name         => 'New Standard Template',
+    Template     => 'Thank you for your email.',
+    ContentType  => 'text/plain; charset=utf-8',
+    TemplateType => 'Answer',
+    ValidID      => \$ValidID,
+    UserID       => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.StandardTemplateObject.StandardTemplateUpdate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

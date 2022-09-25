@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Events = \$EventObject->EventList(
+    ObjectTypes => ['Ticket', 'Article'],    # optional filter
+);
+}
+]]></content>
+    <tabTrigger>znuny.EventObject.EventList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

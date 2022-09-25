@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$List = \$SystemMaintenanceObject->SystemMaintenanceList(
+    ValidIDs => ['1','2'],           # optional, to filter SystemMaintenances that match listed valid IDs
+    UserID   => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.SystemMaintenanceObject.SystemMaintenanceList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$PIDObject = \$Kernel::OM->Get('Kernel::System::PID');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.PIDObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

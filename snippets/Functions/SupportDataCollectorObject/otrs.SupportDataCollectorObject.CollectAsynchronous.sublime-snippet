@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my %Result = \$SupportDataCollectorObject->CollectAsynchronous();
-}${2:my \$Success = \$SupportDataCollectorObject->CollectAsynchronous();
-}
-]]></content>
-    <tabTrigger>otrs.SupportDataCollectorObject.CollectAsynchronous</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

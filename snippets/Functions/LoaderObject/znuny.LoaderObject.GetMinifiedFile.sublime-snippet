@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$MinifiedCSS = \$LoaderObject->GetMinifiedFile(
+    Location => \$Filename,
+    Type     => 'CSS',      # CSS | JavaScript
+);
+}
+]]></content>
+    <tabTrigger>znuny.LoaderObject.GetMinifiedFile</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

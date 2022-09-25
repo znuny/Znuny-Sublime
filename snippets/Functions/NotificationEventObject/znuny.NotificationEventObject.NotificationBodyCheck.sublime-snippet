@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Ok = \$NotificationEventObject->NotificationBodyCheck(
+    Content => \$BodyContent, # mandatory
+    UserID  => \$UserID,            # mandatory
+);
+}
+]]></content>
+    <tabTrigger>znuny.NotificationEventObject.NotificationBodyCheck</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

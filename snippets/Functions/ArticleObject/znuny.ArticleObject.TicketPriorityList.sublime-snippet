@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Priorities = \$TicketObject->TicketPriorityList(
+    QueueID => \$QueueID,
+    UserID  => \$UserID,
+);
+}${2:my %Priorities = \$TicketObject->TicketPriorityList(
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);
+}${3:my %Priorities = \$TicketObject->TicketPriorityList(
+    TicketID       => \$TicketID,
+    CustomerUserID => \$CustomerUserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.TicketPriorityList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

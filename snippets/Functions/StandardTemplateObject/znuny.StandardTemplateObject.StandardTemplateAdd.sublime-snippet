@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ID = \$StandardTemplateObject->StandardTemplateAdd(
+    Name         => 'New Standard Template',
+    Template     => 'Thank you for your email.',
+    ContentType  => 'text/plain; charset=utf-8',
+    TemplateType => 'Answer',                     # or 'Forward' or 'Create'
+    ValidID      => \$ValidID,
+    UserID       => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.StandardTemplateObject.StandardTemplateAdd</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

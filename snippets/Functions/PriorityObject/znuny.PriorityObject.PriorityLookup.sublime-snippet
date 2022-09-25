@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$PriorityID = \$PriorityObject->PriorityLookup(
+    Priority => '3 normal',
+);
+}${2:my \$Priority = \$PriorityObject->PriorityLookup(
+    PriorityID => \$PriorityID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.PriorityObject.PriorityLookup</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

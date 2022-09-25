@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$Transport = \$CommunicationLogObject->TransportGet();
-}
-]]></content>
-    <tabTrigger>otrs.CommunicationLogObject.TransportGet</tabTrigger>
-    <description>6</description>
-</snippet>

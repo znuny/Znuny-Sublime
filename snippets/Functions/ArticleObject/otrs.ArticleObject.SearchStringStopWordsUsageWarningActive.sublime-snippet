@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$WarningActive = \$ArticleObject->SearchStringStopWordsUsageWarningActive();
-}
-]]></content>
-    <tabTrigger>otrs.ArticleObject.SearchStringStopWordsUsageWarningActive</tabTrigger>
-    <description>6</description>
-</snippet>

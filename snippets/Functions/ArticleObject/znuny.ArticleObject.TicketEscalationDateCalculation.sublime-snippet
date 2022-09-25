@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Escalation = \$TicketObject->TicketEscalationDateCalculation(
+    Ticket => \$Param\{Ticket\},
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.TicketEscalationDateCalculation</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

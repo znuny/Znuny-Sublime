@@ -1,0 +1,78 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$FetchMailObject->Fetch(
+
+    # General Options:
+    Check        => 1,                          # Optional, check for messages without fetching
+    Silent       => 1,                          # Optional, work silently
+    Verbose      => 1,                          # Optional, work noisily (diagnostic output)
+    NoSoftBounce => 1,                          # Optional, fetchmail deletes permanently undeliverable messages.
+    SoftBounce   => 1,                          # Optional, keep permanently undeliverable messages on server (default).
+
+    # Disposal Options:
+    Keep       => 1,                            # Optional, save new messages after retrieval
+    NoKeep     => 1,                            # Optional, delete new messages after retrieval
+    Flush      => 1,                            # Optional, delete old messages from server
+    LimitFlush => 1,                            # Optional, delete oversized messages
+
+    # Protocol and Query Options:
+    Protocol       => 'imap',                   # Optional, (auto || pop2 || pop3 || apop || rpop || kpop || sdps
+                                                #   || imap || etrn || odmr) specify retrieval protocol
+    UIDL           => 1,                        # Optional, force the use of UIDLs (pop3 only)
+    Service        => 123,                      # Optional, TCP service to connect to (can be numeric TCP port)
+    Principal      => 'SomePrincipal',          # Optional, mail service principal
+    Timeout        => 123,                      # Optional, server nonresponse timeout
+    Plugin         => 'SomeCommand',            # Optional, specify external command to open connection
+    Plugout        => 'SomeCommand',            # Optional, specify external command to open smtp connection
+    Folder         => 'SomeForlder',            # Optional, specify remote folder name
+    TracePolls     => 1,                        # Optional, add poll-tracing information to Received header
+    SSL            => 1,                        # Optional, enable ssl encrypted session
+    SSLCert        => 'SomeCertName',           # Optional, ssl client certificate
+    SSLKey         => 'SomeKeyName',            # Optional, ssl private key file
+    SSLProto       => 'SSL2',                   # Optional, (SSL2 || SSL3 || TLS1) force ssl protocol
+    SSLCertCheck   => 1,                        # Optional, do strict server certificate check (recommended)
+    SSLCertFile    => 'SomeCerName',            # Optional, path to trusted-CA ssl certificate file
+    SSLCertPath    => 'SomeCertPath',           # Optional, path to trusted-CA ssl certificate directory
+    SSLFingerprint => 'SomeFingerprint',        # Optional, fingerprint that must match that of the server's cert.
+
+    # Delivery Control Options:
+    SMTPHost     => 'SomeHosts',                # Optional, set SMTP forwarding host
+    FetchDomains => 'SomeDomains',              # Optional, fetch mail for specified domains
+    SMTPAddress  => 'SomeAddress',              # Optional, set SMTP delivery domain to use
+    SMTPName     => 'some@example.com',         # Optional, set SMTP full name username@domain
+    AntiSpam     => '123,456',                  # Optional, set antispam response values
+    MDA          => 'SomeCommand',              # Optional, set MDA to use for forwarding
+    LMTP         => 1,                          # Optional, use LMTP (RFC2033) for delivery
+    BSMTP        => 'SomeFile',                 # Optional, set output BSMTP file
+    BadHeader    => 'reject',                   # Optional, (reject || accept), specify policy for handling messages with bad headers
+
+    # Resource Limit Control Options
+    Limit          => 123,                      # Optional, don't fetch messages over given size
+    Warnings       => 123,                      # Optional, interval between warning mail notification
+    BatchLimit     => 123,                      # Optional, set batch limit for SMTP connections
+    FetchLimit     => 123,                      # Optional, set fetch limit for server connections
+    FetchSizeLimit => 123,                      # Optional, set fetch message size limit
+    FastUIDL       => 123,                      # Optional, do a binary search for UIDLs
+    Expunge        => 123,                      # Optional, set max deletions between expunges
+
+    # Authentication Options:
+    Username => 'SomeUserName',                 # Optional, specify users's login on server
+    Auth     => 'ssh',                          # Optional, (password || kerberos || ssh || otp) authentication type
+
+    # Miscellaneous Options:
+    FetchMailrc => 'SomeFile',                  # Optional, specify alternate run control file
+    IDFile      => 'SomeFile',                  # Optional, specify alternate UIDs file
+    NoRewrite   =>  1,                          # Optional, don't rewrite header addresses
+    Envelope    => 'SomeXHeader',               # Optional, envelope address header
+    QVirtual    => 'SomePrefix',                # Optional, prefix to remove from local user id
+
+    # Administrative Options:
+    Postmaster  => 'SomeName',                  # Optional, specify recipient of last resort
+    NoBouce     => 1,                           # Optional, redirect bounces from user to postmaster.
+);
+}
+]]></content>
+    <tabTrigger>znuny.FetchMailObject.Fetch</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

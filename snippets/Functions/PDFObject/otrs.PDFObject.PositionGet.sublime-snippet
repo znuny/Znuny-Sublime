@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:%Position = \$PDFObject->PositionGet();
-}
-]]></content>
-    <tabTrigger>otrs.PDFObject.PositionGet</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

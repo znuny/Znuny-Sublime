@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$UserID = \$UserObject->UserAdd(
+    UserFirstname => 'Huber',
+    UserLastname  => 'Manfred',
+    UserLogin     => 'mhuber',
+    UserPw        => 'some-pass', # not required
+    UserEmail     => 'email@example.com',
+    UserMobile    => '1234567890', # not required
+    ValidID       => \$ValidID,
+    ChangeUserID  => \$ChangeUserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.UserObject.UserAdd</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

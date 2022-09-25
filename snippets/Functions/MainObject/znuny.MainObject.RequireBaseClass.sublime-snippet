@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Loaded = \$MainObject->RequireBaseClass(
+    'Kernel::System::Example',
+);
+}
+]]></content>
+    <tabTrigger>znuny.MainObject.RequireBaseClass</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

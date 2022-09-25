@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$MailQueueObject = \$Kernel::OM->Get('Kernel::System::MailQueue');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.MailQueueObject</tabTrigger>
-    <description>6</description>
-</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my @ServiceList = \$ServiceObject->ServiceSearch(
+    Name   => 'Service Name', # (optional)
+    Limit  => 122,            # (optional) default 1000
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ServiceObject.ServiceSearch</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

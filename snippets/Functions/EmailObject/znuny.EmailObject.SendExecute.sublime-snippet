@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$EmailObject->SendExecute(
+    From                   => \$RealFrom,
+    To                     => \@ToArray,
+    Header                 => \\$Param\{Header\},
+    Body                   => \\$Param\{Body\},
+    CommunicationLogObject => \$CommunicationLogObject,
+);
+}${2:# or
+my \$Result = \$EmailObject->SendExecute(
+    From                   => \$RealFrom,
+    To                     => \$To, # can be a string with comma separated mail addresses
+    Header                 => \\$Param\{Header\},
+    Body                   => \\$Param\{Body\},
+    CommunicationLogObject => \$CommunicationLogObject,
+);
+}
+]]></content>
+    <tabTrigger>znuny.EmailObject.SendExecute</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

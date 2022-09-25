@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Result = \$SysConfigObject->ConfigurationEntitiesGet();
+}
+]]></content>
+    <tabTrigger>znuny.SysConfigObject.ConfigurationEntitiesGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

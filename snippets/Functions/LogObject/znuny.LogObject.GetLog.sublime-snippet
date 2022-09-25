@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$CSVLog = \$LogObject->GetLog();
+}
+]]></content>
+    <tabTrigger>znuny.LogObject.GetLog</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

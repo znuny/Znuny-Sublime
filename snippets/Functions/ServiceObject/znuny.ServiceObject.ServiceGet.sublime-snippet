@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my %ServiceData = \$ServiceObject->ServiceGet(
+    ServiceID => \$ServiceID,
+    UserID    => \$UserID,
+);
+}${2:my %ServiceData = \$ServiceObject->ServiceGet(
+    Name    => 'Service::SubService',
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ServiceObject.ServiceGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

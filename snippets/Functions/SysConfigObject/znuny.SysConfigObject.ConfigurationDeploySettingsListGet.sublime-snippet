@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @List = \$SysConfigObject->ConfigurationDeploySettingsListGet(
+    DeploymentID => \$DeploymentID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.SysConfigObject.ConfigurationDeploySettingsListGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ID = \$WebserviceObject->WebserviceAdd(
+    Name    => 'some name',
+    Config  => \$ConfigHashRef,
+    ValidID => \$ValidID,
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.WebserviceObject.WebserviceAdd</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

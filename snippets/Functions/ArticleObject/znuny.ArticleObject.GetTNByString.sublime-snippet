@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$TicketNumber = \$TicketObject->GetTNByString(\$Subject);
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.GetTNByString</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

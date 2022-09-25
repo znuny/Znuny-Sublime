@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+NEEDED:
+for my \$Needed ( qw($1) ) {
+
+    next NEEDED if defined \$Param{ \$Needed };
+
+    \$Self->{LogObject}->Log(
+        Priority => 'error',
+        Message  => "Parameter '\$Needed' is needed!",
+    );
+    return;
+}
+]]></content>
+    <tabTrigger>znuny.Needed.Self</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

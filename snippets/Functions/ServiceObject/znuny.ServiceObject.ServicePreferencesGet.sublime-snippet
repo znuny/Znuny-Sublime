@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Preferences = \$ServiceObject->ServicePreferencesGet(
+    ServiceID => \$ServiceID,
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ServiceObject.ServicePreferencesGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

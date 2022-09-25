@@ -3,4 +3,6 @@
 IsHashRefWithData($1)
 ]]></content>
     <tabTrigger>IsHashRefWithData</tabTrigger>
+    <description>VariableCheck</description>
+    <scope>source.perl</scope>
 </snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$StdAttachmentObject->StdAttachmentDelete(
+    ID => \$ID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.StdAttachmentObject.StdAttachmentDelete</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

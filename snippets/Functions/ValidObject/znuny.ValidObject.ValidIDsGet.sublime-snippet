@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my @List = \$ValidObject->ValidIDsGet();
+}
+]]></content>
+    <tabTrigger>znuny.ValidObject.ValidIDsGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

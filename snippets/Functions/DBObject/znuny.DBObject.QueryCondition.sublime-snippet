@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SQL = \$DBObject->QueryCondition(
+    Key   => 'some_col',
+    Value => '(ABC+DEF)',
+);
+}${2:my \$SQL = \$DBObject->QueryCondition(
+    Key   => 'some_col',
+    Value => '((ABC&&DEF)&&!GHI)',
+);
+}${3:my \$SQL = \$DBObject->QueryCondition(
+    Key   => [ 'some_col_a', 'some_col_b' ],
+    Value => '((ABC&&DEF)&&!GHI)',
+);
+}${4:my \$SQL = \$DBObject->QueryCondition(
+    Key      => [ 'some_col_a', 'some_col_b' ],
+    Value    => '((ABC&&DEF)&&!GHI)',
+    BindMode => 1,
+);
+}${5:my \$SQL = \$DBObject->QueryCondition(
+    Key          => 'some_col',
+    Value        => '(ABC+DEF)',
+    SearchPrefix => '',
+    SearchSuffix => '*'
+    Extended     => 1, # use also " " as "&&", e.g. "bob smith" -> "bob&&smith"
+);
+}
+]]></content>
+    <tabTrigger>znuny.DBObject.QueryCondition</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

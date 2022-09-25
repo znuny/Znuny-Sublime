@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$TextString = \$LayoutObject->RichText2Ascii(
+    String => \$HTMLString,
+);
+}
+]]></content>
+    <tabTrigger>znuny.LayoutObject.RichText2Ascii</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

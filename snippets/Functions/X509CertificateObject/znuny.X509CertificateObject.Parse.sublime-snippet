@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$X509Certificate = \$X509CertificateObject->Parse(
+
+    # String or FilePath
+    String   => '...',
+    FilePath => '/home/user1/cert.pem',
+);
+}
+]]></content>
+    <tabTrigger>znuny.X509CertificateObject.Parse</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

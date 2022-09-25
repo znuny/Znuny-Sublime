@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:    while (my @Row = \$DBObject->FetchrowArray()) \{
+        print "\$Row[0]:\$Row[1]\n";
+    \}
+}
+]]></content>
+    <tabTrigger>znuny.DBObject.FetchrowArray</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

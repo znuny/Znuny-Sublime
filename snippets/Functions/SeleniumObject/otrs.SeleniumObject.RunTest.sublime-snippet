@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:\$SeleniumObject->RunTest( sub \{ ... \} );
-}
-]]></content>
-    <tabTrigger>otrs.SeleniumObject.RunTest</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

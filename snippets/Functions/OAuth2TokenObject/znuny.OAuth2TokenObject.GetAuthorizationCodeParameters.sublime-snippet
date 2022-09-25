@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my %AuthorizationCodeParameters = \$OAuth2TokenObject->GetAuthorizationCodeParameters(
+    ParamObject => \$ParamObject,
+    UserID      => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.OAuth2TokenObject.GetAuthorizationCodeParameters</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Data = \$DBCRUDTestObject->DataSearch(
+    Search      => 'test*test',
+    ID          => '...', # optional
+    Name        => '...', # optional
+    Age         => '...', # optional
+    Description => '...', # optional
+    ContentJSON => '...', # optional
+    CreateTime  => '...', # optional
+    ChangeTime  => '...', # optional
+);
+}
+]]></content>
+    <tabTrigger>znuny.DBCRUDTestObject.DataSearch</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

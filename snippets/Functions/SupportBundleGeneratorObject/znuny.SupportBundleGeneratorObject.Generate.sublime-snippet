@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$SupportBundleGeneratorObject->Generate();
+}
+]]></content>
+    <tabTrigger>znuny.SupportBundleGeneratorObject.Generate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

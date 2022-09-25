@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+\$SeleniumObject->->Login(
+    Type     => '${1:Agent}', # Agent|Customer
+    User     => '$2',
+    Password => '$3',
+);
+]]></content>
+    <tabTrigger>znuny.Selenium.login</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

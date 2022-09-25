@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ServiceName = \$ServiceObject->ServiceLookup(
+    ServiceID => \$ServiceID,
+);
+}${2:my \$ServiceID = \$ServiceObject->ServiceLookup(
+    Name => 'Service::SubService',
+);
+}
+]]></content>
+    <tabTrigger>znuny.ServiceObject.ServiceLookup</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

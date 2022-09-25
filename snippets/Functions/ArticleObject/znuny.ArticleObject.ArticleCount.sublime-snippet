@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Count = \$ArticleObject->ArticleCount(
+    TicketID  => \$TicketID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.ArticleCount</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

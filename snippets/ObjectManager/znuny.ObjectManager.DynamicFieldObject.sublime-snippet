@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$DynamicFieldObject = \$Kernel::OM->Get('Kernel::System::DynamicField');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.DynamicFieldObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

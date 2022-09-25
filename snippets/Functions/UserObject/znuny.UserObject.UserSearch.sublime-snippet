@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+${1:my %List = \$UserObject->UserSearch(
+    UserLogin => '*some*',
+    Limit     => 50,
+    Valid     => 1, # not required
+);
+}${2:my %List = \$UserObject->UserSearch(
+    Search => '*some*', # also 'hans+huber' possible
+    Valid  => 1, # not required
+);
+}${3:my %List = \$UserObject->UserSearch(
+    PostMasterSearch => 'email@example.com',
+    Valid            => 1, # not required
+);
+}
+]]></content>
+    <tabTrigger>znuny.UserObject.UserSearch</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

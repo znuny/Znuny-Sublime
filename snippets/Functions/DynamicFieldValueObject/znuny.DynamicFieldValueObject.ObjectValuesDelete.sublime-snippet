@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$DynamicFieldValueObject->ObjectValuesDelete(
+    ObjectType => 'Ticket',    # Dynamic Field object type ( e. g. Ticket, Article, FAQ)
+    ObjectID   => \$ObjectID,   # ID of the current object that the field
+                               #   is linked to, e. g. TicketID
+    UserID     => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.DynamicFieldValueObject.ObjectValuesDelete</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

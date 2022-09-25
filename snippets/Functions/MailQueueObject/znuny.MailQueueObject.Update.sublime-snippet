@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$MailQueueObject->Update(
+    Filters => \{\},
+    Data    => \{\},
+);
+}
+]]></content>
+    <tabTrigger>znuny.MailQueueObject.Update</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

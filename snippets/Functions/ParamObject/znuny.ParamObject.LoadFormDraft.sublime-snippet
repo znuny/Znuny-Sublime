@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$FormDraftID = \$ParamObject->LoadFormDraft(
+    FormDraftID => \$FormDraftID,
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ParamObject.LoadFormDraft</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

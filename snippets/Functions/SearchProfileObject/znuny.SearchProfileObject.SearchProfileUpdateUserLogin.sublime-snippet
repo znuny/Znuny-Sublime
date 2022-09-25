@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$SearchProfileObject->SearchProfileUpdateUserLogin(
+    Base         => 'TicketSearch',
+    UserLogin    => 'me',
+    NewUserLogin => 'newme',
+);
+}
+]]></content>
+    <tabTrigger>znuny.SearchProfileObject.SearchProfileUpdateUserLogin</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

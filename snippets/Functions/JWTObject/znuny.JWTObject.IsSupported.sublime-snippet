@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$JWTObjectIsSupported = \$JWTObject->IsSupported();
+}
+]]></content>
+    <tabTrigger>znuny.JWTObject.IsSupported</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$CommunicationID = \$CommunicationLogObject->CommunicationIDGet();
-}
-]]></content>
-    <tabTrigger>otrs.CommunicationLogObject.CommunicationIDGet</tabTrigger>
-    <description>6</description>
-</snippet>

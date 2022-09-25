@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$Lock = \$LockObject->LockLookup( LockID => 2 );
-}${2:my \$LockID = \$LockObject->LockLookup( Lock => 'lock' );
-}
-]]></content>
-    <tabTrigger>otrs.LockObject.LockLookup</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

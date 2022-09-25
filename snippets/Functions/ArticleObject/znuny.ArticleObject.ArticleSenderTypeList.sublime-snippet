@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %ArticleSenderTypeList = \$ArticleObject->ArticleSenderTypeList();
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.ArticleSenderTypeList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

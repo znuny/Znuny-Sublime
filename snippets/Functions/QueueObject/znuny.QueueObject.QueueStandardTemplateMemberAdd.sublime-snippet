@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$QueueObject->QueueStandardTemplateMemberAdd(
+    QueueID            => \$QueueID,
+    StandardTemplateID => \$StandardTemplateID,
+    Active             => 1,        # to set/confirm (1) or remove (0) the relation
+    UserID             => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.QueueObject.QueueStandardTemplateMemberAdd</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

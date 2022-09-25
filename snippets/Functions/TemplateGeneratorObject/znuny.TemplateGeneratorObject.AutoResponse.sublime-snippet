@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my %AutoResponse = \$TemplateGeneratorObject->AutoResponse(
+    TicketID         => \$TicketID,
+    OrigHeader       => \{\},
+    AutoResponseType => 'auto reply',
+    UserID           => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.TemplateGeneratorObject.AutoResponse</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

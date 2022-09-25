@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$DebuggerObject->Notice(
+    Summary => 'Short summary, one line',
+    Data    => \$Data, # optional, \$Data can be a string or a scalar reference
+);
+}
+]]></content>
+    <tabTrigger>znuny.DebuggerObject.Notice</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

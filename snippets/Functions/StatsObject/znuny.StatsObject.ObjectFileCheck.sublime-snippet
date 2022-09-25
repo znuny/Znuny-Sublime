@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ObjectFileCheck = \$StatsObject->ObjectFileCheck(
+    Type => 'static',
+    Name => 'NewTickets',
+);
+}
+]]></content>
+    <tabTrigger>znuny.StatsObject.ObjectFileCheck</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

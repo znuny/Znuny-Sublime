@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Keys = \$XMLObject->XMLHashSearch(
+    Type => 'SomeType',
+    What => [
+        # each array element is a and condition
+        \{
+            # or condition in hash
+            "[%]\{'ElementA'\}[%]\{'ElementB'\}[%]\{'Content'\}" => '%contentA%',
+            "[%]\{'ElementA'\}[%]\{'ElementC'\}[%]\{'Content'\}" => '%contentA%',
+        \},
+        \{
+            "[%]\{'ElementA'\}[%]\{'ElementB'\}[%]\{'Content'\}" => '%contentB%',
+            "[%]\{'ElementA'\}[%]\{'ElementC'\}[%]\{'Content'\}" => '%contentB%',
+        \},
+        \{
+            # use array reference if different content with same key was searched
+            "[%]\{'ElementA'\}[%]\{'ElementB'\}[%]\{'Content'\}" => ['%contentC%', '%contentD%', '%contentE%'],
+            "[%]\{'ElementA'\}[%]\{'ElementC'\}[%]\{'Content'\}" => ['%contentC%', '%contentD%', '%contentE%'],
+        \},
+    ],
+);
+}
+]]></content>
+    <tabTrigger>znuny.XMLObject.XMLHashSearch</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:    my \$Charset = \$LanguageObject->GetRecommendedCharset().
+}
+]]></content>
+    <tabTrigger>znuny.LanguageObject.GetRecommendedCharset</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:\$HelperObject->BeginWork();
+}
+]]></content>
+    <tabTrigger>znuny.HelperObject.BeginWork</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

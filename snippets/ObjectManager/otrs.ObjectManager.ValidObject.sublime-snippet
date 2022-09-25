@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$ValidObject = \$Kernel::OM->Get('Kernel::System::Valid');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.ValidObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

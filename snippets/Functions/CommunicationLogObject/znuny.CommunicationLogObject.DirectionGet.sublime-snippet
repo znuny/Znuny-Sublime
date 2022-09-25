@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Direction = \$CommunicationLogObject->DirectionGet();
+}
+]]></content>
+    <tabTrigger>znuny.CommunicationLogObject.DirectionGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

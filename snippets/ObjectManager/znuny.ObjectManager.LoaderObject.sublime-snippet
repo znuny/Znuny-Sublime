@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$LoaderObject = \$Kernel::OM->Get('Kernel::System::Loader');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.LoaderObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

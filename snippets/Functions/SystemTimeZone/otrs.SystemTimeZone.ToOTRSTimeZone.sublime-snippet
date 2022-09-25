@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$Success = \$DateTimeObject->ToOTRSTimeZone();
-}
-]]></content>
-    <tabTrigger>otrs.SystemTimeZone.ToOTRSTimeZone</tabTrigger>
-    <description>6</description>
-</snippet>

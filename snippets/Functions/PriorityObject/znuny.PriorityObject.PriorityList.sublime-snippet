@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %PriorityList = \$PriorityObject->PriorityList(
+    Valid => 0,   # (optional) default 1 (0|1)
+);
+}
+]]></content>
+    <tabTrigger>znuny.PriorityObject.PriorityList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

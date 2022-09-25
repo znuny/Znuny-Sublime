@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+image: \$JOB_IMAGE
+
+include:
+  - project: \$INCLUDE_PROJECT
+    file: '\$INCLUDE_FILE'
+]]></content>
+    <tabTrigger>znuny.GitLab.Generic</tabTrigger>
+    <description>.gitlab-ci.yml</description>
+    <scope>source.yaml</scope>
+</snippet>
+

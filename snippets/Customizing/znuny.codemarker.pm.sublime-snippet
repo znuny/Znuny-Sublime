@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+# ---
+# ${1:Znuny-}
+${3:# }---
+$2
+# ---
+]]></content>
+    <tabTrigger>znuny.Codemarker.pm</tabTrigger>
+    <description>pm pl tt dtl</description>
+    <scope>source.perl, text.html.basic</scope>
+</snippet>

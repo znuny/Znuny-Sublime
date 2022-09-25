@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Start = \$ProcessObject->ProcessStartpointGet(
+    ProcessEntityID => \$ProcessEntityID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ProcessObject.ProcessStartpointGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

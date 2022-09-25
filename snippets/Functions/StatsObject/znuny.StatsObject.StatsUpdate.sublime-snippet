@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:\$StatsObject->StatsUpdate(
+    StatID => \$StatID,
+    Hash   => \%Hash,
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.StatsObject.StatsUpdate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

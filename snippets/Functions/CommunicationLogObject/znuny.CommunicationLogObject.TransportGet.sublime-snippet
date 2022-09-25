@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Transport = \$CommunicationLogObject->TransportGet();
+}
+]]></content>
+    <tabTrigger>znuny.CommunicationLogObject.TransportGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

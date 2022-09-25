@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ActiveMaintenance = \$SystemMaintenanceObject->SystemMaintenanceIsActive();
+}
+]]></content>
+    <tabTrigger>znuny.SystemMaintenanceObject.SystemMaintenanceIsActive</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

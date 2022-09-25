@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %SystemAddress = \$SystemAddressObject->SystemAddressGet(
+    ID => 1,
+);
+}
+]]></content>
+    <tabTrigger>znuny.SystemAddressObject.SystemAddressGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$RequesterObject = \$Kernel::OM->Get('Kernel::GenericInterface::Requester');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.RequesterObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$StatArray = \$StatsObject->StatsResultCacheGet(
+    StatID       => \$StatID,
+    UserID       => \$UserID,    # target UserID
+    UserGetParam => \%GetParam,
+);
+}
+]]></content>
+    <tabTrigger>znuny.StatsObject.StatsResultCacheGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$DebugLogObject = \$Kernel::OM->Get('Kernel::System::GenericInterface::DebugLog');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.DebugLogObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

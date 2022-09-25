@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my @References = \$ParserObject->GetReferences();
+}
+]]></content>
+    <tabTrigger>znuny.ParserObject.GetReferences</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

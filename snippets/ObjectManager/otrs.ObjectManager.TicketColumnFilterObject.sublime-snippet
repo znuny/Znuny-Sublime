@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$TicketColumnFilterObject = \$Kernel::OM->Get('Kernel::System::Ticket::ColumnFilter');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.TicketColumnFilterObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

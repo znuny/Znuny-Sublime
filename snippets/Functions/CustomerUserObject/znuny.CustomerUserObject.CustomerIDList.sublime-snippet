@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my @CustomerIDs = \$CustomerUserObject->CustomerIDList(
+    SearchTerm  => 'somecustomer',    # optional
+    Valid       => 1,                 # optional
+);
+}
+]]></content>
+    <tabTrigger>znuny.CustomerUserObject.CustomerIDList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

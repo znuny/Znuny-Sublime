@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$CSVObject = \$Kernel::OM->Get('Kernel::System::CSV');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.CSVObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

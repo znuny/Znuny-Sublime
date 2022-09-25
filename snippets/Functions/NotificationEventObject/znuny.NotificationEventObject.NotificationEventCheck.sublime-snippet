@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @IDs = \$NotificationEventObject->NotificationEventCheck(
+    Event => 'ArticleCreate',
+);
+}
+]]></content>
+    <tabTrigger>znuny.NotificationEventObject.NotificationEventCheck</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

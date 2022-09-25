@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-Core.Form.Znuny4OTRSInput.Get('${1:AttributeName}'${2:, {KeyOrValue: 'Value', PossibleValues: true}});
-]]></content>
-    <tabTrigger>otrs.Znuny4OTRSInput.Get</tabTrigger>
-</snippet>

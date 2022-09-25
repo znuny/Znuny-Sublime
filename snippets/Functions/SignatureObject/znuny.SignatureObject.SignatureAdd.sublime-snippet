@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ID = \$SignatureObject->SignatureAdd(
+    Name        => 'New Signature',
+    Text        => "--\nSome Signature Infos",
+    ContentType => 'text/plain; charset=utf-8',
+    Comment     => 'some comment',
+    ValidID     => \$ValidID,
+    UserID      => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.SignatureObject.SignatureAdd</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

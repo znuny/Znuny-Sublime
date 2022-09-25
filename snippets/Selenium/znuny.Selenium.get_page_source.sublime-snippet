@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$PageContent = \$SeleniumObject->get_page_source();
+]]></content>
+    <tabTrigger>znuny.Selenium.get_page_source</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

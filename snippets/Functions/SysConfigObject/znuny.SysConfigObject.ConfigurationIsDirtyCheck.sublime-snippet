@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$SysConfigObject->ConfigurationIsDirtyCheck(
+    UserID => \$UserID,      # optional, the user that changes a modified setting
+);
+}
+]]></content>
+    <tabTrigger>znuny.SysConfigObject.ConfigurationIsDirtyCheck</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

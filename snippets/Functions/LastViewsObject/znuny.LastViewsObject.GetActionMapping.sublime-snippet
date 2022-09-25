@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %ActionMapping = \$LastViewsObject->GetActionMapping();
+}
+]]></content>
+    <tabTrigger>znuny.LastViewsObject.GetActionMapping</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

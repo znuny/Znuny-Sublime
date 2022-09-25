@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$FormDraftObject->FormDraftDelete(
+    FormDraftID => \$FormDraftID,
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.FormDraftObject.FormDraftDelete</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$VersionRef = \$UnitTestITSMConfigItemObject->ConfigItemCreate(
+    Name          => 'Znuny Rack 42',
+    ClassName     => 'Server',
+    DeplStateName => 'Production',
+    InciStateName => 'Operational',
+    XMLData       => \{
+        OtherEquipment         => '...',
+        Note                   => '...',
+        SerialNumber           => '...',
+        WarrantyExpirationDate => '2016-01-01',
+        InstallDate            => '2016-01-01',
+    \},
+);
+}
+]]></content>
+    <tabTrigger>znuny.UnitTestITSMConfigItemObject.ConfigItemCreate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

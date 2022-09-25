@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Driver->IsDeeply(\$ParamA, \$ParamB, 'Test Name');
+}${2:\$Driver->IsDeeply(
+    \%ResultHash,           # test data
+    \%ExpectedHash,         # expected value
+    'Dummy Test Name',
+);
+}
+]]></content>
+    <tabTrigger>znuny.Driver.IsDeeply</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

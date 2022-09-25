@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my @Sessions = \$SessionObject->GetAllSessionIDs();
-}
-]]></content>
-    <tabTrigger>otrs.SessionObject.GetAllSessionIDs</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

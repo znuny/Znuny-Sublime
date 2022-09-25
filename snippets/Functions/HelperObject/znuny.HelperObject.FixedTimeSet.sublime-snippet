@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Timestamp = \$HelperObject->FixedTimeSet(366475757);         # with Timestamp
+my \$Timestamp = \$HelperObject->FixedTimeSet(\$DateTimeObject);   # with previously created DateTime object
+my \$Timestamp = \$HelperObject->FixedTimeSet();                  # set to current date and time
+}
+]]></content>
+    <tabTrigger>znuny.HelperObject.FixedTimeSet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

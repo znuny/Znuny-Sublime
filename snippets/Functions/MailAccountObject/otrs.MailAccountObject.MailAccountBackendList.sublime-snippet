@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my %List = \$MailAccountObject->MailAccountBackendList();
-}
-]]></content>
-    <tabTrigger>otrs.MailAccountObject.MailAccountBackendList</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

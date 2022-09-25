@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my @SubactionIgnore = \$LastViewsObject->GetSubactionIgnore();
+}
+]]></content>
+    <tabTrigger>znuny.LastViewsObject.GetSubactionIgnore</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:\$WebUploadCacheObject->FormIDRemove( FormID => 123456 );
+}
+]]></content>
+    <tabTrigger>znuny.WebUploadCacheObject.FormIDRemove</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

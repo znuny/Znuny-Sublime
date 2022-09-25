@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketAttributeRelationsObject->DeleteTicketAttributeRelations(
+    ID     => 123,
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.TicketAttributeRelationsObject.DeleteTicketAttributeRelations</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

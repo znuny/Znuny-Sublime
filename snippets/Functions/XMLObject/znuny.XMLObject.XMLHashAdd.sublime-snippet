@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Key = \$XMLObject->XMLHashAdd(
+    Type    => 'SomeType',
+    Key     => '123',
+    XMLHash => \@XMLHash,
+);
+}${2:my \$AutoKey = \$XMLObject->XMLHashAdd(
+    Type             => 'SomeType',
+    KeyAutoIncrement => 1,
+    XMLHash          => \@XMLHash,
+);
+}
+]]></content>
+    <tabTrigger>znuny.XMLObject.XMLHashAdd</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

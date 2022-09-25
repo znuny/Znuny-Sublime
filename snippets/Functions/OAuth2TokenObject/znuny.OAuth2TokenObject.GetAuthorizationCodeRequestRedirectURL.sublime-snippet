@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$RedirectURL = \$OAuth2TokenObject->GetAuthorizationCodeRequestRedirectURL();
+}
+]]></content>
+    <tabTrigger>znuny.OAuth2TokenObject.GetAuthorizationCodeRequestRedirectURL</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

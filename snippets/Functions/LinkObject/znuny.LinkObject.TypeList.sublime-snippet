@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %TypeList = \$LinkObject->TypeList();
+}
+]]></content>
+    <tabTrigger>znuny.LinkObject.TypeList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+<Setting Name="$1" Required="${7:1}" Valid="1">
+    <Description Translatable="1">${2:This configuration defines}.</Description>
+    <Navigation>${4:Core}</Navigation>
+    <Value>
+        <Item ValueType="Textarea">$5Hello there beholder.</Item>
+    </Value>
+</Setting>
+]]></content>
+    <tabTrigger>znuny.Config.Textarea</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

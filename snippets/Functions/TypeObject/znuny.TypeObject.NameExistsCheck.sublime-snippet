@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Exist = \$TypeObject->NameExistsCheck(
+    Name => 'Some::Template',
+    ID => 1, # optional
+);
+}
+]]></content>
+    <tabTrigger>znuny.TypeObject.NameExistsCheck</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

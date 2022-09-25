@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my %Queues = \$QueueObject->GetAllQueues();
-}${2:my %Queues = \$QueueObject->GetAllQueues( UserID => \$UserID, Type => 'ro' );
-}
-]]></content>
-    <tabTrigger>otrs.QueueObject.GetAllQueues</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

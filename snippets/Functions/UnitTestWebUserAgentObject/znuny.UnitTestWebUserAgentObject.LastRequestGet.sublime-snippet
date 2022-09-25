@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Request = \$UnitTestWebUserAgentObject->LastRequestGet();
+}
+]]></content>
+    <tabTrigger>znuny.UnitTestWebUserAgentObject.LastRequestGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

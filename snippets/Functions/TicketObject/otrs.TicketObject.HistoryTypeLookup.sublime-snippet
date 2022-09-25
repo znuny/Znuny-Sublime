@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$ID = \$TicketObject->HistoryTypeLookup( Type => 'Move' );
-}
-]]></content>
-    <tabTrigger>otrs.TicketObject.HistoryTypeLookup</tabTrigger>
-    <description>5, 4</description>
-</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+my \$${1:IsIPv4Address} = IsIPv4Address(
+    ${2:'192.168.0.1'},
+);
+]]></content>
+    <tabTrigger>IsIPv4Address</tabTrigger>
+    <description>VariableCheck</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my %List = \$StdAttachmentObject->StdAttachmentStandardTemplateMemberList(
+    AttachmentID => \$AttachmentID,
+);
+}${2:or
+my %List = \$StdAttachmentObject->StdAttachmentStandardTemplateMemberList(
+    StandardTemplateID => \$StandardTemplateID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.StdAttachmentObject.StdAttachmentStandardTemplateMemberList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:\$HelperObject->FixedTimeAddSeconds(5);
+}
+]]></content>
+    <tabTrigger>znuny.HelperObject.FixedTimeAddSeconds</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

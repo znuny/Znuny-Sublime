@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$ArticleObject = \$Kernel::OM->Get('Kernel::System::Ticket::Article');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.ArticleObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

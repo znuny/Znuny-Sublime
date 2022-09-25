@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %SystemData = \$SystemDataObject->SystemDataGroupGet(
+    Group => 'SystemRegistration',
+);
+}
+]]></content>
+    <tabTrigger>znuny.SystemDataObject.SystemDataGroupGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$ArticleObject = \$Kernel::OM->Get('Kernel::System::Ticket::Article');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.ArticleObject</tabTrigger>
-    <description>6</description>
-</snippet>

@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:\$DBObject->Connect();
-}
-]]></content>
-    <tabTrigger>otrs.DBObject.Connect</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

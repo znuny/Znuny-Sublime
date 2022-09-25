@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$DBObject = \$Kernel::OM->Get('Kernel::System::DB');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.DBObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

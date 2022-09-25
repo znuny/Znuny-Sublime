@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Driver->False(
+    \$TestValue,
+    'Test Name',
+);
+}
+]]></content>
+    <tabTrigger>znuny.Driver.False</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

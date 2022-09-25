@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Roles = \$GroupObject->RoleList(
+    Valid => 1,
+);
+}
+]]></content>
+    <tabTrigger>znuny.GroupObject.RoleList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$NotificationEventObject = \$Kernel::OM->Get('Kernel::System::NotificationEvent');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.NotificationEventObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$EffectiveValue = \$SysConfigObject->GlobalEffectiveValueGet(
+    SettingName    => 'Setting::Name',  # (required)
+);
+}
+]]></content>
+    <tabTrigger>znuny.SysConfigObject.GlobalEffectiveValueGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Driver->True(1, 'Test Name');
+}${2:\$Driver->True(\$ParamA, 'Test Name');
+}${3:\$Driver->True(
+    \$TestValue,
+    'Test Name',
+);
+}
+]]></content>
+    <tabTrigger>znuny.Driver.True</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

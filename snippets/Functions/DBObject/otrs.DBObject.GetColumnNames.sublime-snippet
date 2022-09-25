@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my @Names = \$DBObject->GetColumnNames();
-}
-]]></content>
-    <tabTrigger>otrs.DBObject.GetColumnNames</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

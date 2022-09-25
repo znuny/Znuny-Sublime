@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Values = \$TicketColumnFilterObject->DynamicFieldFilterValuesGet(
+    TicketIDs => [23, 1, 56, 74],    # array ref list of ticket IDs
+    ValueType => 'Text',             # Text | Integer | Date
+    FieldID   => \$FieldID,           # ID of the dynamic field
+);
+}
+]]></content>
+    <tabTrigger>znuny.TicketColumnFilterObject.DynamicFieldFilterValuesGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

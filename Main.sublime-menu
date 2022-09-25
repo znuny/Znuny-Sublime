@@ -1,145 +1,5 @@
 [
     {
-        "id": "tools",
-        "children": [
-            {
-                "id": "znuny-sheets",
-                "caption": "Cheat Sheets",
-                "children": [
-                    {
-                        "caption": "QuickSearch",
-                        "command": "cheat_sheet_search"
-                    },
-                    {
-                        "caption": "Overview",
-                        "command": "cheat_sheet",
-                        "args": {
-                            "cheatsheet": "Overview"
-                        }
-                    },
-                    {
-                        "caption": "Documentation",
-                        "command": "cheat_sheet",
-                        "args": {
-                            "cheatsheet": "Documentation"
-                        }
-                    },
-                    {
-                        "caption": "ConfigObject",
-                        "command": "cheat_sheet",
-                        "args": {
-                            "cheatsheet": "ConfigObject"
-                        }
-                    },
-                    {
-                        "caption": "SysConfig",
-                        "command": "cheat_sheet",
-                        "args": {
-                            "cheatsheet": "SysConfig"
-                        }
-                    },
-                    {
-                        "caption": "Templating",
-                        "command": "cheat_sheet",
-                        "args": {
-                            "cheatsheet": "Templating"
-                        }
-                    },
-                    {
-                        "caption": "Dumping",
-                        "command": "cheat_sheet",
-                        "args": {
-                            "cheatsheet": "Dumping"
-                        }
-                    },
-                    {
-                        "caption": "CodeInstall",
-                        "command": "cheat_sheet",
-                        "args": {
-                            "cheatsheet": "CodeInstall"
-                        }
-                    },
-                    {
-                        "caption": "OTRSErrorLog",
-                        "command": "cheat_sheet",
-                        "args": {
-                            "cheatsheet": "OTRSErrorLog"
-                        }
-                    },
-                    {
-                        "caption": "OTRSLog",
-                        "command": "cheat_sheet",
-                        "args": {
-                            "cheatsheet": "OTRSLog"
-                        }
-                    },
-                    {
-                        "caption": "Templates",
-                        "command": "cheat_sheet",
-                        "args": {
-                            "cheatsheet": "Templates"
-                        }
-                    },
-                    {
-                        "caption": "Frontend",
-                        "command": "cheat_sheet",
-                        "args": {
-                            "cheatsheet": "Frontend"
-                        }
-                    },
-                    {
-                        "caption": "Lazy",
-                        "command": "cheat_sheet",
-                        "args": {
-                            "cheatsheet": "Lazy"
-                        }
-                    },
-                    {
-                        "caption": "LogInCustomFile",
-                        "command": "cheat_sheet",
-                        "args": {
-                            "cheatsheet": "LogInCustomFile"
-                        }
-                    },
-                    {
-                        "caption": "NeededLoop",
-                        "command": "cheat_sheet",
-                        "args": {
-                            "cheatsheet": "NeededLoop"
-                        }
-                    },
-                    {
-                        "caption": "SOPM",
-                        "command": "cheat_sheet",
-                        "args": {
-                            "cheatsheet": "SOPM"
-                        }
-                    },
-                    {
-                        "caption": "Stats",
-                        "command": "cheat_sheet",
-                        "args": {
-                            "cheatsheet": "Stats"
-                        }
-                    },
-                    {
-                        "caption": "Translation",
-                        "command": "cheat_sheet",
-                        "args": {
-                            "cheatsheet": "Translation"
-                        }
-                    },
-                    {
-                        "caption": "FileHeader",
-                        "command": "cheat_sheet",
-                        "args": {
-                            "cheatsheet": "FileHeader"
-                        }
-                    }                ]
-            }
-        ]
-    },
-    {
         "caption": "Preferences",
         "mnemonic": "n",
         "id": "preferences",
@@ -152,7 +12,7 @@
                 "children":
                 [
                     {
-                        "caption": "Znuny4OTRS",
+                        "caption": "Znuny",
                         "children":
                         [
                             {
@@ -160,7 +20,7 @@
                                 "command": "open_file",
                                 "args":
                                 {
-                                    "file": "${packages}/Znuny4OTRS/Znuny4Otrs.sublime-settings"
+                                    "file": "${packages}/Znuny/Znuny.sublime-settings"
                                 }
                             },
                             {
@@ -168,12 +28,12 @@
                                 "command": "open_file",
                                 "args":
                                 {
-                                    "file": "${packages}/User/Znuny4Otrs.sublime-settings"
+                                    "file": "${packages}/User/Znuny.sublime-settings"
                                 }
                             },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/Znuny4OTRS/Default.sublime-keymap"},
+                                "args": {"file": "${packages}/Znuny/Default.sublime-keymap"},
                                 "caption": "Key Bindings - Default"
                             },
                             {

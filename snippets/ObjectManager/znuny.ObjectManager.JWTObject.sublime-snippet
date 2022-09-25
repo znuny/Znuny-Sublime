@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$JWTObject = \$Kernel::OM->Get('Kernel::System::JSONWebToken');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.JWTObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

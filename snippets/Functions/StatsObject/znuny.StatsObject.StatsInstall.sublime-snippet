@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$StatsObject->StatsInstall(
+    FilePrefix => 'FAQ',  # (optional)
+    UserID     => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.StatsObject.StatsInstall</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

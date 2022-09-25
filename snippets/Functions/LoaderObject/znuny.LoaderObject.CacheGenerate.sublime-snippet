@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %GeneratedFiles = \$LoaderObject->CacheGenerate();
+}
+]]></content>
+    <tabTrigger>znuny.LoaderObject.CacheGenerate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$DebuggerObject->Map(
+    Data => \{              # data payload before mapping
+        ...
+    \},
+);
+}
+]]></content>
+    <tabTrigger>znuny.DebuggerObject.Map</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

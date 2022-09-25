@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$True = \$ServiceObject->ServiceUpdate(
+    ServiceID => \$ServiceID,
+    ParentID  => \$ParentID,           # (optional)
+    Name      => 'Service Name',
+    ValidID   => \$ValidID,
+    Comment   => 'Comment',    # (optional)
+    UserID    => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ServiceObject.ServiceUpdate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

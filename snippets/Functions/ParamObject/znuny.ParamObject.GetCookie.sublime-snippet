@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$String = \$ParamObject->GetCookie(
+    Key => ID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ParamObject.GetCookie</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Transition = \$TransitionObject->TransitionGet(
+    TransitionEntityID => \$TransitionEntityID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.TransitionObject.TransitionGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

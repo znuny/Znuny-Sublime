@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+# \$origin: https://github.com/znuny/Znuny/blob/$1/$2
+]]></content>
+    <tabTrigger>znuny.Origin.pm</tabTrigger>
+    <description>pm pl tt dtl</description>
+    <scope>source.perl, text.html.basic</scope>
+</snippet>

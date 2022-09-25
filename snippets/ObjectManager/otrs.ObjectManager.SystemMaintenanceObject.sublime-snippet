@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$SystemMaintenanceObject = \$Kernel::OM->Get('Kernel::System::SystemMaintenance');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.SystemMaintenanceObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

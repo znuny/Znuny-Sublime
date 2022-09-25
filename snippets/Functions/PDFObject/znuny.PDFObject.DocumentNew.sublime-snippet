@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:\$True = \$PDFObject->DocumentNew(
+    Title     => 'The Document Title',  # Title of PDF Document
+    Encode    => 'utf-8',               # Charset of Document
+    Testfonts => 1,                     # (optional) default 0
+);
+}
+]]></content>
+    <tabTrigger>znuny.PDFObject.DocumentNew</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

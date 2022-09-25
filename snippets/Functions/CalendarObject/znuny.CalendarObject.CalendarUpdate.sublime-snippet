@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$CalendarObject->CalendarUpdate(
+    CalendarID       => \$CalendarID,                   # (required) CalendarID
+    GroupID          => \$GroupID,                   # (required) Calendar group
+    CalendarName     => 'Meetings',          # (required) Personal calendar name
+    Color            => '#FF9900',           # (required) Color in hexadecimal RGB notation
+    UserID           => \$UserID,                   # (required) UserID (who made update)
+    ValidID          => \$ValidID,                   # (required) ValidID
+
+    TicketAppointments => [                 # (optional) Ticket appointments, array ref of hashes
+        \{
+            StartDate => 'FirstResponse',
+            EndDate   => 'Plus_5',
+            QueueID   => \$QueueID,
+            SearchParams => \{
+                Title => 'This is a title',
+                Types => 'This is a type',
+            \},
+        \},
+    ],
+);
+}
+]]></content>
+    <tabTrigger>znuny.CalendarObject.CalendarUpdate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

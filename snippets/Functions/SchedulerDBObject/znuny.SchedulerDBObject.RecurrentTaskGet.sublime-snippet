@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Task = \$SchedulerDBObject->RecurrentTaskGet(
+    TaskID => \$TaskID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.SchedulerDBObject.RecurrentTaskGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

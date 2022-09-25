@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$DBCRUDObjects = \$UtilObject->GetInstalledDBCRUDObjects();
+}
+]]></content>
+    <tabTrigger>znuny.UtilObject.GetInstalledDBCRUDObjects</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

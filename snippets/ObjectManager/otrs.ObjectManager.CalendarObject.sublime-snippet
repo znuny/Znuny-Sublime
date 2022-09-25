@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$CalendarObject = \$Kernel::OM->Get('Kernel::System::Calendar');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.CalendarObject</tabTrigger>
-    <description>6</description>
-</snippet>

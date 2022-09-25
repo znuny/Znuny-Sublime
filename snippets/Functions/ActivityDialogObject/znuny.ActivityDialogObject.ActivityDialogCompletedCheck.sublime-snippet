@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Completed = \$ActivityDialogObject->ActivityDialogCompletedCheck(
+    ActivityDialogEntityID => \$ActivityDialogEntityID,
+    Data                   => \{
+        Queue         => 'Raw',
+        DynamicField1 => 'Value',
+        Subject       => 'Testsubject',
+        # ...
+    \},
+);
+}
+]]></content>
+    <tabTrigger>znuny.ActivityDialogObject.ActivityDialogCompletedCheck</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

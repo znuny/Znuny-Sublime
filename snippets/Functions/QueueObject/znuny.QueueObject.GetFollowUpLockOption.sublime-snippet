@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$FollowUpLockOption = \$QueueObject->GetFollowUpLockOption( QueueID => \$QueueID );
+}
+]]></content>
+    <tabTrigger>znuny.QueueObject.GetFollowUpLockOption</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

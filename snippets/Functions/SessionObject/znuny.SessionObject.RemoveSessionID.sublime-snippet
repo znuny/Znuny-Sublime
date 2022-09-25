@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:\$SessionObject->RemoveSessionID(SessionID => '1234567890123456');
+}
+]]></content>
+    <tabTrigger>znuny.SessionObject.RemoveSessionID</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

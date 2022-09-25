@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$DataValues = \$BackendObject->BuildSelectionDataGet(
+    DynamicFieldConfig => \$DynamicFieldConfig,       # complete config of the DynamicField
+    PossibleValues     => \$PossibleValues,           # field possible values (could be reduced
+                                                     #    by ACLs)
+    Value              => \$Value,                    # optional scalar, ArrayRef or HashRef
+                                                     #    depending on dynamic field the
+);
+}
+]]></content>
+    <tabTrigger>znuny.BackendObject.BuildSelectionDataGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

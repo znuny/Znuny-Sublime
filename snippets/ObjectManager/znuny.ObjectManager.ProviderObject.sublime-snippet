@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$ProviderObject = \$Kernel::OM->Get('Kernel::GenericInterface::Provider');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.ProviderObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

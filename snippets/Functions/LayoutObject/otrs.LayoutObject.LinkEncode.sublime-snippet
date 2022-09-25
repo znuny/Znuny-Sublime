@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$ParamValueEncoded = \$LayoutObject->LinkEncode(\$ParamValue);
-}
-]]></content>
-    <tabTrigger>otrs.LayoutObject.LinkEncode</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

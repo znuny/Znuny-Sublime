@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ID = \$StdAttachmentObject->StdAttachmentLookup(
+    StdAttachment => 'Some Name',
+);
+}${2:my \$Name = \$StdAttachmentObject->StdAttachmentLookup(
+    StdAttachmentID => \$StdAttachmentID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.StdAttachmentObject.StdAttachmentLookup</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

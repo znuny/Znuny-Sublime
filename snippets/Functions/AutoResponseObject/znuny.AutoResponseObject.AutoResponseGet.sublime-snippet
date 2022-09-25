@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Data = \$AutoResponseObject->AutoResponseGet(
+    ID => 123,
+);
+}
+]]></content>
+    <tabTrigger>znuny.AutoResponseObject.AutoResponseGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

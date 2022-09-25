@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Output = \$LayoutObject->NotifyNonUpdatedTickets();
+}
+]]></content>
+    <tabTrigger>znuny.LayoutObject.NotifyNonUpdatedTickets</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

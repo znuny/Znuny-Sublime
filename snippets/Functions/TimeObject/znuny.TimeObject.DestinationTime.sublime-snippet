@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$DestinationTime = \$TimeObject->DestinationTime(
+    StartTime => \$Created,
+    Time      => 60*60*24*2,
+);
+}${2:my \$DestinationTime = \$TimeObject->DestinationTime(
+    StartTime => \$Created,
+    Time      => 60*60*24*2,
+    Calendar  => 3, # '' is default
+);
+}
+]]></content>
+    <tabTrigger>znuny.TimeObject.DestinationTime</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

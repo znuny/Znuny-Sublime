@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:\$AutoResponseObject->AutoResponseUpdate(
+    ID          => 123,
+    Name        => 'Some::AutoResponse',
+    ValidID     => \$ValidID,
+    Subject     => 'Some Subject..',
+    Response    => 'Auto Response Test....',
+    ContentType => 'text/plain',
+    AddressID   => \$AddressID,
+    TypeID      => \$TypeID,
+    UserID      => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.AutoResponseObject.AutoResponseUpdate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

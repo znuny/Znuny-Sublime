@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$WebUploadCacheObject = \$Kernel::OM->Get('Kernel::System::Web::UploadCache');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.WebUploadCacheObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

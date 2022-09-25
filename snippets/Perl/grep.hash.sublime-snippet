@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+grep \{ \$_ eq $1 \} ${2:sort }keys %${3:\{ \$$4 \}};
+]]></content>
+    <tabTrigger>grep.hash</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>
+

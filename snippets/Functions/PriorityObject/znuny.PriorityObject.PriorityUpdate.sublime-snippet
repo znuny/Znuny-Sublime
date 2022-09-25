@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$True = \$PriorityObject->PriorityUpdate(
+    PriorityID     => \$PriorityID,
+    Name           => 'New Prio',
+    ValidID        => \$ValidID,
+    UserID         => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.PriorityObject.PriorityUpdate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

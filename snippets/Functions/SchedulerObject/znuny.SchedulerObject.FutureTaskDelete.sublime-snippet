@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$SchedulerObject->FutureTaskDelete(
+    TaskID => \$TaskID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.SchedulerObject.FutureTaskDelete</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

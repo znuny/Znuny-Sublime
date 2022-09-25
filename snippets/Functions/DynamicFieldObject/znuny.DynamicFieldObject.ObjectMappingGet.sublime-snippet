@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ObjectMapping = \$DynamicFieldObject->ObjectMappingGet(
+    ObjectName            => \$ObjectName,    # Name or array ref of names of the object(s) to get the ID(s) for
+                                             # Note: either give ObjectName or ObjectID
+    ObjectID              => \$ObjectID,      # ID or array ref of IDs of the object(s) to get the name(s) for
+                                             # Note: either give ObjectName or ObjectID
+    ObjectType            => 'CustomerUser', # Type of object to get mapping for
+);
+}
+]]></content>
+    <tabTrigger>znuny.DynamicFieldObject.ObjectMappingGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

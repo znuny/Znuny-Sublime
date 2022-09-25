@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$Success = \$ZnunyHelperObject->_RoleCreateIfNotExists(
-    Name => '$1',
-);
-]]></content>
-    <tabTrigger>otrs.helper.rolecreateifnotexists</tabTrigger>
-</snippet>

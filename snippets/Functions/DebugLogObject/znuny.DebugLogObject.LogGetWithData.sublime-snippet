@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$LogData = \$DebugLogObject->LogGetWithData(
+    CommunicationID => \$CommunicationID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.DebugLogObject.LogGetWithData</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

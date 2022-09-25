@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$HistorialValues = \$BackendObject->HistoricalValuesGet(
+    DynamicFieldConfig => \$DynamicFieldConfig,       # complete config of the DynamicField
+);
+}
+]]></content>
+    <tabTrigger>znuny.BackendObject.HistoricalValuesGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$SignatureObject = \$Kernel::OM->Get('Kernel::System::Signature');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.SignatureObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

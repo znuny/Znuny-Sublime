@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$ParamObject = \$Kernel::OM->Get('Kernel::System::Web::Request');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.ParamObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

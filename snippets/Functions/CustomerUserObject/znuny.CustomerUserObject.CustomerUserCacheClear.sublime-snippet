@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$CustomerUserObject->CustomerUserCacheClear(
+    UserLogin => 'mhuber',
+);
+}
+]]></content>
+    <tabTrigger>znuny.CustomerUserObject.CustomerUserCacheClear</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

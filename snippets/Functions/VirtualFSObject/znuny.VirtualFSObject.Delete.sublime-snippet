@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$VirtualFSObject->Delete(
+    Filename => '/Object/SomeFileName.txt',
+
+    # optional
+    DisableWarnings => 1,
+);
+}
+]]></content>
+    <tabTrigger>znuny.VirtualFSObject.Delete</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

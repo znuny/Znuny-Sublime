@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Data = \$CalendarObject->CalendarExport(
+    CalendarID => \$CalendarID,
+    UserID     => \$UserID,
+\}
+
+%Data = (
+    CalendarData => \{
+        CalendarID   => \$CalendarID,
+        GroupID      => \$GroupID,
+        CalendarName => 'Meetings',
+        Color        => '#FF7700',
+        ValidID      => \$ValidID,
+    \},
+    AppointmentData => (
+        \{
+            AppointmentID       => \$AppointmentID,
+            ParentID            => \$ParentID,
+            CalendarID          => \$CalendarID,
+            UniqueID            => \$UniqueID,
+            ...
+        \},
+        ...
+    ),
+);
+}
+]]></content>
+    <tabTrigger>znuny.CalendarObject.CalendarExport</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

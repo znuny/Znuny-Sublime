@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$HTMLWithLinks = \$LayoutObject->LinkQuote(
+    Text => \$HTMLWithOutLinks,
+);
+}${2:my \$HTMLWithLinksRef = \$LayoutObject->LinkQuote(
+    Text => \\$HTMLWithOutLinksRef,
+);
+}
+]]></content>
+    <tabTrigger>znuny.LayoutObject.LinkQuote</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$QueueID = \$QueueObject->QueueLookup( Queue => \$Queue );
-}${2:my \$Queue = \$QueueObject->QueueLookup( QueueID => \$QueueID );
-}
-]]></content>
-    <tabTrigger>otrs.QueueObject.QueueLookup</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

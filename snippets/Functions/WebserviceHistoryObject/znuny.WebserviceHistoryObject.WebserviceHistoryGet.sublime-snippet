@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$WebserviceHistory = \$WebserviceHistoryObject->WebserviceHistoryGet(
+    ID => 123,
+);
+}
+]]></content>
+    <tabTrigger>znuny.WebserviceHistoryObject.WebserviceHistoryGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

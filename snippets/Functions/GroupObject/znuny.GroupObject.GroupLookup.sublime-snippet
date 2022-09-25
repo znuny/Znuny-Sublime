@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$GroupID = \$GroupObject->GroupLookup(
+    Group => \$Group,
+);
+}${2:my \$Group = \$GroupObject->GroupLookup(
+    GroupID => \$GroupID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.GroupObject.GroupLookup</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

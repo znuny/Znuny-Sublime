@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ContentType = \$ParserObject->GetReturnContentType();
+}
+]]></content>
+    <tabTrigger>znuny.ParserObject.GetReturnContentType</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ResultAsArrayRef = \$DBObject->SelectAll(
+    SQL   => "SELECT id, name FROM table",
+    Limit => 10
+);
+}
+]]></content>
+    <tabTrigger>znuny.DBObject.SelectAll</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

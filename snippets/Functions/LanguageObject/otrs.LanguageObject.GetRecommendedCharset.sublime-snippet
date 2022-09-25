@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:    my \$Charset = \$LanguageObject->GetRecommendedCharset().
-}
-]]></content>
-    <tabTrigger>otrs.LanguageObject.GetRecommendedCharset</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

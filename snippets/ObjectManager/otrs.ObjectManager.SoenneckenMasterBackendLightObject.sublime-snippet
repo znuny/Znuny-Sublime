@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$SoenneckenMasterBackendLightObject = \$Kernel::OM->Get('Kernel::System::SoenneckenMasterBackendLight');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.SoenneckenMasterBackendLightObject</tabTrigger>
-</snippet>
-

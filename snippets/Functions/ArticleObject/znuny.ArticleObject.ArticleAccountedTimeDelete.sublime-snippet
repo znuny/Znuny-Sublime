@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$ArticleObject->ArticleAccountedTimeDelete(
+    ArticleID => \$ArticleID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.ArticleAccountedTimeDelete</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

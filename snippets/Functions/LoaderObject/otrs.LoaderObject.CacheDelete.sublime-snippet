@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my @DeletedFiles = \$LoaderObject->CacheDelete();
-}
-]]></content>
-    <tabTrigger>otrs.LoaderObject.CacheDelete</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$UnitTestWebserviceObject->Result();
+}
+]]></content>
+    <tabTrigger>znuny.UnitTestWebserviceObject.Result</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

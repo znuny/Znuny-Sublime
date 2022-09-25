@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$CustomerCompanyObject = \$Kernel::OM->Get('Kernel::System::CustomerCompany');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.CustomerCompanyObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

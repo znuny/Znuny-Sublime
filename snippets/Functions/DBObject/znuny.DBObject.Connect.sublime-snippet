@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:\$DBObject->Connect();
+}
+]]></content>
+    <tabTrigger>znuny.DBObject.Connect</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

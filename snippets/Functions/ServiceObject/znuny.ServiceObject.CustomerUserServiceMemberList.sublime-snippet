@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:\$ServiceObject->CustomerUserServiceMemberList(
+    ServiceID => \$ServiceID,
+    Result    => 'HASH',
+);
+}${2:\$ServiceObject->CustomerUserServiceMemberList(
+    CustomerUserLogin => 'Test',
+    Result            => 'HASH',
+    DefaultServices   => 0,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ServiceObject.CustomerUserServiceMemberList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

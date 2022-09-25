@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$Epoch = \$DateTimeObject->ToEpoch();
-}
-]]></content>
-    <tabTrigger>otrs.SystemTimeZone.ToEpoch</tabTrigger>
-    <description>6</description>
-</snippet>

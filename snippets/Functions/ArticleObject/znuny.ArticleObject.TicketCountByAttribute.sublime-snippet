@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$TicketCount = \$ArticleObject->TicketCountByAttribute(
+    Attribute => 'ServiceID',
+    TicketIDs => [ 1, 2, 3 ],
+);
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.TicketCountByAttribute</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$CustomerGroupObject->GroupMemberAdd(
+    GID => \$GID,
+    UID => \$UID,
+    Permission => \{
+        ro        => 1,
+        move_into => 1,
+        create    => 1,
+        owner     => 1,
+        priority  => 0,
+        rw        => 0,
+    \},
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.CustomerGroupObject.GroupMemberAdd</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

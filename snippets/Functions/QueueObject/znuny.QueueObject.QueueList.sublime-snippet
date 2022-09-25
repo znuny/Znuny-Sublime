@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Queues = \$QueueObject->QueueList();
+}${2:my %Queues = \$QueueObject->QueueList( Valid => 1 );
+}
+]]></content>
+    <tabTrigger>znuny.QueueObject.QueueList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

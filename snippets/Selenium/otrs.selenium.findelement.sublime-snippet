@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$${1:Element} = \$SeleniumObject->find_element("${2:#Name}", 'css');
-]]></content>
-    <tabTrigger>otrs.selenium.findelement</tabTrigger>
-</snippet>

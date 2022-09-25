@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:\$HelperObject->UseTmpArticleDir();
+}
+]]></content>
+    <tabTrigger>znuny.HelperObject.UseTmpArticleDir</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$DBCRUDTestObject->DataImport(
+    Content   => \$ContentString,
+    Format    => 'yml',                 # optional - default
+    Overwrite => 1,                     # optional to overwrite existing data
+    Data      => \{                      # additional data if not all needed data exists
+        ValidID => \$ValidID,
+    \}
+);
+}
+]]></content>
+    <tabTrigger>znuny.DBCRUDTestObject.DataImport</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

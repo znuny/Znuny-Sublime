@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$PackageObject = \$Kernel::OM->Get('Kernel::System::Package');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.PackageObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Result = \$SysConfigObject->ConfigurationSearch(
+    Search           => 'The search string', # (optional)
+    Category         => 'OTRS'               # (optional)
+    IncludeInvisible => 1,                   # (optional) Default 0.
+);
+}
+]]></content>
+    <tabTrigger>znuny.SysConfigObject.ConfigurationSearch</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

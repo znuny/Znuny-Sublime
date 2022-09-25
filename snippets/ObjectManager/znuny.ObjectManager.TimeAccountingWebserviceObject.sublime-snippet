@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$TimeAccountingWebserviceObject = \$Kernel::OM->Get('Kernel::System::TimeAccountingWebservice');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.TimeAccountingWebserviceObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

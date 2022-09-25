@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my %ObjectAttributes = \$StatsObject->GetStatsObjectAttributes(
+    ObjectModule => 'Ticket',
+    Use          => 'UseAsXvalue' || 'UseAsValueSeries' || 'UseAsRestriction',
+);
+}
+]]></content>
+    <tabTrigger>znuny.StatsObject.GetStatsObjectAttributes</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:\$CacheObject->CleanUp();
+}${2:\$CacheObject->CleanUp(
+    KeepTypes => ['Object1', 'Object2'],
+);
+}${3:\$CacheObject->CleanUp(
+    Expired => 1,   # optional, defaults to 0
+);
+}${4:\$CacheObject->CleanUp(
+    Type => 'ObjectName',   # only [a-zA-Z0-9_] chars usable
+);
+}
+]]></content>
+    <tabTrigger>znuny.CacheObject.CleanUp</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

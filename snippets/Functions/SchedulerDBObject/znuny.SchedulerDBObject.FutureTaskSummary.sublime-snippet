@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Summary = \$SchedulerDBObject->FutureTaskSummary();
+}
+]]></content>
+    <tabTrigger>znuny.SchedulerDBObject.FutureTaskSummary</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

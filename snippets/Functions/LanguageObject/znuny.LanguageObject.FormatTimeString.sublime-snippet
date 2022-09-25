@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Date = \$LanguageObject->FormatTimeString(
+    '2009-12-12 12:12:12',  # timestamp
+    'DateFormat',           # which date format to use, e. g. DateFormatLong
+    0,                      # optional, hides the seconds from the time output
+);
+}
+]]></content>
+    <tabTrigger>znuny.LanguageObject.FormatTimeString</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$CommunicationChannelObject = \$Kernel::OM->Get('Kernel::System::CommunicationChannel');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.CommunicationChannelObject</tabTrigger>
-    <description>6</description>
-</snippet>

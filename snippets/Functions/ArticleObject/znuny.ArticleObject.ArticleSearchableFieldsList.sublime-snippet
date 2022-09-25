@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %SearchableFields = \$ArticleObject->ArticleSearchableFieldsList();
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.ArticleSearchableFieldsList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

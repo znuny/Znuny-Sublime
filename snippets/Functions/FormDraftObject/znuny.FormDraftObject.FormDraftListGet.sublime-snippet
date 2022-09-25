@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$FormDraftList = \$FormDraftObject->FormDraftListGet(
+    ObjectType => 'Ticket',             # optional
+    ObjectID   => \$ObjectID,                  # optional
+    Action     => 'AgentTicketCompose', # optional
+    UserID     => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.FormDraftObject.FormDraftListGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

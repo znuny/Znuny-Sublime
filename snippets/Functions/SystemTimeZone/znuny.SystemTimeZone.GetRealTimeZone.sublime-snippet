@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$TimeZone = \$Valid->GetRealTimeZone( TimeZone => 'Africa/Addis_Ababa' );
+}
+]]></content>
+    <tabTrigger>znuny.SystemTimeZone.GetRealTimeZone</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

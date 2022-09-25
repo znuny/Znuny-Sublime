@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Result = \$HelperObject->PostMaster(
+    Location => \$ConfigObject->Get('Home') . '/scripts/test/sample/Sample-1.box',
+);
+}
+]]></content>
+    <tabTrigger>znuny.HelperObject.PostMaster</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

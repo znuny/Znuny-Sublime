@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$List = \$MailQueueObject->Send(
+    ID              => '...',
+    Sender          => '...',
+    Recipient       => '...',
+    Message         => '...',
+    Force           => '...' # optional, to force the sending even if isn't time
+);
+}
+]]></content>
+    <tabTrigger>znuny.MailQueueObject.Send</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

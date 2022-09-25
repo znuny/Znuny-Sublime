@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$CustomerUserObject->CustomerUserCustomerMemberAdd(
+    CustomerUserID => \$CustomerUserID,
+    CustomerID     => \$CustomerID,
+    Active         => 1,        # optional
+    UserID         => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.CustomerUserObject.CustomerUserCustomerMemberAdd</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

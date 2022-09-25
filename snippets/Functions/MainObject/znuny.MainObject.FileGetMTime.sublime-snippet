@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$FileMTime = \$MainObject->FileGetMTime(
+    Directory => 'c:\some\location',
+    Filename  => 'me_to/alal.xml',
+    # or Location
+    Location  => 'c:\some\location\me_to\alal.xml'
+);
+}
+]]></content>
+    <tabTrigger>znuny.MainObject.FileGetMTime</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

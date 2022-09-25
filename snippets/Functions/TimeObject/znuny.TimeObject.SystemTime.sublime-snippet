@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SystemTime = \$TimeObject->SystemTime();
+}
+]]></content>
+    <tabTrigger>znuny.TimeObject.SystemTime</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

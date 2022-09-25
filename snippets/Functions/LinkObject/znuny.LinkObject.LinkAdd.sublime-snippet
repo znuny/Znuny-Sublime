@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:\$True = \$LinkObject->LinkAdd(
+    SourceObject => 'Ticket',
+    SourceKey    => '321',
+    TargetObject => 'FAQ',
+    TargetKey    => '5',
+    Type         => 'ParentChild',
+    State        => 'Valid',
+    UserID       => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.LinkObject.LinkAdd</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

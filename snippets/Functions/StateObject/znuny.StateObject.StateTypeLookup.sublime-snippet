@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$StateType = \$StateObject->StateTypeLookup(
+    StateTypeID => \$StateTypeID,
+);
+}${2:my \$StateTypeID = \$StateObject->StateTypeLookup(
+    StateType => 'pending auto',
+);
+}
+]]></content>
+    <tabTrigger>znuny.StateObject.StateTypeLookup</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

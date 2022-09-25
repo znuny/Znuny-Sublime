@@ -3,4 +3,6 @@
 IsPositiveInteger($1)
 ]]></content>
     <tabTrigger>IsPositiveInteger</tabTrigger>
+    <description>VariableCheck</description>
+    <scope>source.perl</scope>
 </snippet>

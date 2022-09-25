@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$SysConfigObject->DeleteZZZAAutoBackup();
+}
+]]></content>
+    <tabTrigger>znuny.SysConfigObject.DeleteZZZAAutoBackup</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$StatArray = \$StatsObject->StatsRun(
+    StatID     => \$StatID,
+    GetParam   => \%GetParam,
+    Preview    => 1,        # optional, return fake data for preview (only for dynamic stats)
+    UserID     => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.StatsObject.StatsRun</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

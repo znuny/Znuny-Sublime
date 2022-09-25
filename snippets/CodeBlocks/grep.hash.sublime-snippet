@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-grep \{ $1 eq \$_ \} ${2:sort }keys %${3:\{ \$$4 \}}
-]]></content>
-    <tabTrigger>grep.hash</tabTrigger>
-</snippet>
-

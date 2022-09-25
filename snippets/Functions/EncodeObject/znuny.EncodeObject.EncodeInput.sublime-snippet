@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:\$EncodeObject->EncodeInput( \@Array );
+}${2:\$EncodeObject->EncodeInput( \\$String );
+}
+]]></content>
+    <tabTrigger>znuny.EncodeObject.EncodeInput</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:\$SessionObject->RemoveSessionID(SessionID => '1234567890123456');
-}
-]]></content>
-    <tabTrigger>otrs.SessionObject.RemoveSessionID</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

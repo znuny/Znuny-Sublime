@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Notification = \$NotificationEventObject->NotificationGet(
+    ID => 1,
+);
+}${2:my %Notification = \$NotificationEventObject->NotificationGet(
+    Name => 'NotificationName',
+);
+}
+]]></content>
+    <tabTrigger>znuny.NotificationEventObject.NotificationGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

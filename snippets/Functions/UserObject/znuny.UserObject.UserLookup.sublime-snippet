@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$UserLogin = \$UserObject->UserLookup(
+    UserID => \$UserID,
+    Silent => 1, # optional, don't generate log entry if user was not found
+);
+}${2:my \$UserID = \$UserObject->UserLookup(
+    UserLogin => 'some_user_login',
+    Silent    => 1, # optional, don't generate log entry if user was not found
+);
+}
+]]></content>
+    <tabTrigger>znuny.UserObject.UserLookup</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

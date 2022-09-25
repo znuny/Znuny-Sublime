@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Driver->Is(\$A, \$B, 'Test Name');
+}${2:\$Driver->Is(
+    \$ValueFromFunction,      # test data
+    1,                       # expected value
+    'Test Name',
+);
+}
+]]></content>
+    <tabTrigger>znuny.Driver.Is</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

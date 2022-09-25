@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$X509CertificateObjectIsSupported = \$X509CertificateObject->IsSupported();
+}
+]]></content>
+    <tabTrigger>znuny.X509CertificateObject.IsSupported</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+CustomerTicketZoom
+]]></content>
+    <tabTrigger>CustomerTicketZoom</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

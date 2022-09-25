@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$StatsRef = \$StatsObject->StatsListGet(
+    AccessRw => 1, # Optional, indicates that user may see all statistics
+    UserID   => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.StatsObject.StatsListGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$HTML = \$LayoutObject->Redirect(
+    ExtURL => "http://some.example.com/",
+);
+}${2:my \$HTML = \$LayoutObject->Redirect(
+    OP => "Action=AdminUserGroup;Subaction=User;ID=\$UserID",
+);
+}
+]]></content>
+    <tabTrigger>znuny.LayoutObject.Redirect</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

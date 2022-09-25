@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Params = \$StatsObject->GetParams( StatID => '123' );
+}
+]]></content>
+    <tabTrigger>znuny.StatsObject.GetParams</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Valid = \$CustomerUserObject>TokenCheck(
+    Token  => \$Token,
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.CustomerUserObject.TokenCheck</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

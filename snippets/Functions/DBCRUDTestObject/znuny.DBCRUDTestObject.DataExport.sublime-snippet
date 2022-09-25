@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Export = \$DBCRUDTestObject->DataExport(
+    Format => 'yml',
+    Cache  => 0,
+);
+}
+]]></content>
+    <tabTrigger>znuny.DBCRUDTestObject.DataExport</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

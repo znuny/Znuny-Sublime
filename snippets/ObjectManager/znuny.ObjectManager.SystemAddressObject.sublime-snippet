@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$SystemAddressObject = \$Kernel::OM->Get('Kernel::System::SystemAddress');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.SystemAddressObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

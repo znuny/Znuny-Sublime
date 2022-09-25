@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my %Header = \$PostMasterObject->GetEmailParams();
-}
-]]></content>
-    <tabTrigger>otrs.PostMasterObject.GetEmailParams</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

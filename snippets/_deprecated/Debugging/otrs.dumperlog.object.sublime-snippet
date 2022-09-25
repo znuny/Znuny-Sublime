@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-\$LogObject->Dumper('Debug - ${1:ModuleName}', '${2:VariableName}', ${3:\\}$4${2:VariableName});
-]]></content>
-    <tabTrigger>otrs.dumperlog.object</tabTrigger>
-</snippet>

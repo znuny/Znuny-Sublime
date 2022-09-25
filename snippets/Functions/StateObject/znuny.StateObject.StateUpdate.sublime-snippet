@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:\$StateObject->StateUpdate(
+    ID             => 123,
+    Name           => 'New State',
+    Comment        => 'some comment',
+    ValidID        => \$ValidID,
+    TypeID         => \$TypeID,
+    UserID         => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.StateObject.StateUpdate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

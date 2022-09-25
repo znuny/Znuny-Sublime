@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %AutoResponseType = \$AutoResponseObject->AutoResponseTypeList(
+    Valid => 1,     # (optional) default 1
+);
+}
+]]></content>
+    <tabTrigger>znuny.AutoResponseObject.AutoResponseTypeList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

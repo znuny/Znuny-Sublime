@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Package = \$PackageObject->RepositoryGet(
+    Name    => 'Application A',
+    Version => '1.0',
+);
+}${2:my \$PackageScalar = \$PackageObject->RepositoryGet(
+    Name            => 'Application A',
+    Version         => '1.0',
+    Result          => 'SCALAR',
+    DisableWarnings => 1,                 # optional
+);
+}
+]]></content>
+    <tabTrigger>znuny.PackageObject.RepositoryGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Task = \$SchedulerDBObject->FutureTaskGet(
+    TaskID => \$TaskID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.SchedulerDBObject.FutureTaskGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

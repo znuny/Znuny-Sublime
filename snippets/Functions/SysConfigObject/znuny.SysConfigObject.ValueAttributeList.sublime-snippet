@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my @ValueAttributeList = \$SysConfigObject->ValueAttributeList();
+}
+]]></content>
+    <tabTrigger>znuny.SysConfigObject.ValueAttributeList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

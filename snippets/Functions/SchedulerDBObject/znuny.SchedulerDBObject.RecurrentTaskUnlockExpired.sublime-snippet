@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$SchedulerDBObject->RecurrentTaskUnlockExpired(
+    Type => 'some_type',
+);
+}
+]]></content>
+    <tabTrigger>znuny.SchedulerDBObject.RecurrentTaskUnlockExpired</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

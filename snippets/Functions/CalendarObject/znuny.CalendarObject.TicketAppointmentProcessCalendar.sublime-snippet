@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Result = \$CalendarObject->TicketAppointmentProcessCalendar(
+    CalendarID => \$CalendarID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.CalendarObject.TicketAppointmentProcessCalendar</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

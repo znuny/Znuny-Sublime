@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my @TaskList = \$SchedulerDBObject->TaskListUnlocked();
-}
-]]></content>
-    <tabTrigger>otrs.SchedulerDBObject.TaskListUnlocked</tabTrigger>
-    <description>6, 5</description>
-</snippet>

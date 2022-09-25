@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Response = \$UnitTestWebserviceObject->Process(
+    UnitTestObject => \$Self,
+    Webservice     => 'Name123', # or
+    WebserviceID   => \$WebserviceID,
+    Operation      => 'DesiredOperation',
+    Payload        => \{
+        ...
+    \},
+    Response => \{               # optional, you can validate the response manually in the unit test via \$Self->IsDeeply()
+        Success      => 1,
+        ErrorMessage => '',
+        Data         => \{
+            ...
+        \},
+    \}
+);
+}
+]]></content>
+    <tabTrigger>znuny.UnitTestWebserviceObject.Process</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$What = \$DBObject->GetDatabaseFunction('DirectBlob');
+}
+]]></content>
+    <tabTrigger>znuny.DBObject.GetDatabaseFunction</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

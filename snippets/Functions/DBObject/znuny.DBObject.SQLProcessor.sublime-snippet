@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+${1:my @SQL = \$DBObject->SQLProcessor(
+    Database =>
+        [
+            Tag  => 'TableCreate',
+            Name => 'table_name',
+        ],
+        [
+            Tag  => 'Column',
+            Name => 'col_name',
+            Type => 'VARCHAR',
+            Size => 150,
+        ],
+        [
+            Tag  => 'Column',
+            Name => 'col_name2',
+            Type => 'INTEGER',
+        ],
+        [
+            Tag => 'TableEnd',
+        ],
+);
+}
+]]></content>
+    <tabTrigger>znuny.DBObject.SQLProcessor</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

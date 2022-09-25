@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @InvolvedAgents = \$TicketObject->TicketInvolvedAgentsList(
+    TicketID => \$TicketID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.TicketInvolvedAgentsList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

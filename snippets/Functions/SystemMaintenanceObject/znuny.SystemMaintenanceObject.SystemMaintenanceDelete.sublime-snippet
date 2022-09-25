@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$SystemMaintenanceObject->SystemMaintenanceDelete(
+    ID     => 123,
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.SystemMaintenanceObject.SystemMaintenanceDelete</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

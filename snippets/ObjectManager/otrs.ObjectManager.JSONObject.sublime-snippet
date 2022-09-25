@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$JSONObject = \$Kernel::OM->Get('Kernel::System::JSON');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.JSONObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

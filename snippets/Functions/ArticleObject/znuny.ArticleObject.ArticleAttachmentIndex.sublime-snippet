@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my %AttachmentIndex = \$ArticleObject->ArticleAttachmentIndex(
+    TicketID         => \$TicketID,
+    ArticleID        => \$ArticleID,
+    ExcludePlainText => 1,       # (optional) Exclude plain text attachment
+    ExcludeHTMLBody  => 1,       # (optional) Exclude HTML body attachment
+    ExcludeInline    => 1,       # (optional) Exclude inline attachments
+    OnlyHTMLBody     => 1,       # (optional) Return only HTML body attachment, return nothing if not found
+);
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.ArticleAttachmentIndex</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$MailAccountObject = \$Kernel::OM->Get('Kernel::System::MailAccount');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.MailAccountObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

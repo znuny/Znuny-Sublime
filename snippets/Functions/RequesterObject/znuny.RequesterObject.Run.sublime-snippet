@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$RequesterObject->Run(
+    WebserviceID => \$WebserviceID,                      # ID of the configured remote web service to use OR
+    Invoker      => 'some_operation',       # Name of the Invoker to be used for sending the request
+    Asynchronous => 1,                      # Optional, 1 or 0, defaults to 0
+    Data         => \{                       # Data payload for the Invoker request (remote web service)
+       #...
+    \},
+    PastExecutionData => \{                  # Meta data containing information about previous request attempts, optional
+        #...
+    \}
+);
+}
+]]></content>
+    <tabTrigger>znuny.RequesterObject.Run</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

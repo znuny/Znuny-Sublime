@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:\$HelperObject->ProvideTestDatabase(
+    DatabaseXMLString => \$XML,      # (optional) database XML schema to execute
+                                    # or
+    DatabaseXMLFiles => [           # (optional) List of XML files to load and execute
+        '/opt/otrs/scripts/database/schema.xml',
+        '/opt/otrs/scripts/database/initial_insert.xml',
+    ],
+);
+}
+]]></content>
+    <tabTrigger>znuny.HelperObject.ProvideTestDatabase</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

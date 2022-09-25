@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result =  \$ErrorObject->HandleError(
+    WebserviceID      => \$WebserviceID,                     # ID of the configured remote web service to use
+    WebserviceConfig  => \$WebserviceConfig,
+    CommunicationID   => \$CommunicationID, # communication ID of current debugger instance
+    CommunicationType => 'Requester',           # May be 'Requester' or 'Provider'
+    CommunicationName => 'CreateTicket',        # optional, name of Invoker or Operation
+    ErrorStage        => 'MappingIn',           # stage where error occurred
+    Summary           => \$ErrorSummary,
+    Data              => \$ErrorData,
+    PastExecutionData => \$PastExecutionDataStructure,   # optional
+);
+}
+]]></content>
+    <tabTrigger>znuny.ErrorObject.HandleError</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

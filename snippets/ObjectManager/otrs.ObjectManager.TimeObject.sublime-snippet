@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$TimeObject = \$Kernel::OM->Get('Kernel::System::Time');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.TimeObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$StatsObject->StatsCleanUp(
+    UserID => \$UserID,
+
+    ObjectNames => [ 'Ticket', 'TicketList' ],
+    or
+    CheckAllObjects => 1,
+);
+}
+]]></content>
+    <tabTrigger>znuny.StatsObject.StatsCleanUp</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

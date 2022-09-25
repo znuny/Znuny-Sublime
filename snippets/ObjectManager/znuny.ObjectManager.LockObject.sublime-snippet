@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$LockObject = \$Kernel::OM->Get('Kernel::System::Lock');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.LockObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

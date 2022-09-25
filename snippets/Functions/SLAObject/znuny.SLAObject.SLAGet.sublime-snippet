@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my %SLAData = \$SLAObject->SLAGet(
+    SLAID  => \$SLAID,
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.SLAObject.SLAGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

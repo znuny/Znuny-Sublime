@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$TaskManagerObject = \$Kernel::OM->Get('Kernel::System::Scheduler::TaskManager');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.TaskManagerObject</tabTrigger>
-    <description>4</description>
-</snippet>

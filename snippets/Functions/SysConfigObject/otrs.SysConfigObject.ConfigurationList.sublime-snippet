@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my @SettingList = \$SysConfigObject->ConfigurationList();
-}
-]]></content>
-    <tabTrigger>otrs.SysConfigObject.ConfigurationList</tabTrigger>
-    <description>6</description>
-</snippet>

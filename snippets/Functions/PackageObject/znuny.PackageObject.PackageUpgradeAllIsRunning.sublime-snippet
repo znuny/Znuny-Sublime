@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Result = \$PackageObject->PackageUpgradeAllIsRunning();
+}
+]]></content>
+    <tabTrigger>znuny.PackageObject.PackageUpgradeAllIsRunning</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

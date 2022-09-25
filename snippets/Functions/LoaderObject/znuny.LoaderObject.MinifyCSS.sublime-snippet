@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$MinifiedCSS = \$LoaderObject->MinifyCSS( Code => \$CSS );
+}
+]]></content>
+    <tabTrigger>znuny.LoaderObject.MinifyCSS</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

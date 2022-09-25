@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$TicketNumber = \$TicketObject->TicketCreateNumber();
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.TicketCreateNumber</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

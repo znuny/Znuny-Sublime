@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$DateTimeObject->ToTimeZone(
+    TimeZone => 'Europe/Berlin',
+);
+}
+]]></content>
+    <tabTrigger>znuny.SystemTimeZone.ToTimeZone</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$TicketColumnFilterObject = \$Kernel::OM->Get('Kernel::System::Ticket::ColumnFilter');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.TicketColumnFilterObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

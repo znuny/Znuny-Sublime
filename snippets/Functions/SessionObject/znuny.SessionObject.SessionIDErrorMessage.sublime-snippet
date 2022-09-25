@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Message = \$SessionObject->SessionIDErrorMessage();
+}
+]]></content>
+    <tabTrigger>znuny.SessionObject.SessionIDErrorMessage</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

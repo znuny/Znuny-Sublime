@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$StatID = \$StatsObject->StatsAdd(
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.StatsObject.StatsAdd</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

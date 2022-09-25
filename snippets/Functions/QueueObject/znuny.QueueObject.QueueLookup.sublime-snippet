@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$QueueID = \$QueueObject->QueueLookup( Queue => \$Queue );
+}${2:my \$Queue = \$QueueObject->QueueLookup( QueueID => \$QueueID );
+}
+]]></content>
+    <tabTrigger>znuny.QueueObject.QueueLookup</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

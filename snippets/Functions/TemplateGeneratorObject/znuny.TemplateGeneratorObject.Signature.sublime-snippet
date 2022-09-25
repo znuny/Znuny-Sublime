@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Signature = \$TemplateGeneratorObject->Signature(
+    QueueID => \$QueueID,
+    UserID  => \$UserID,
+    Data    => \$ArticleHashRef,
+);
+}${2:my \$Signature = \$TemplateGeneratorObject->Signature(
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+    Data     => \$ArticleHashRef,
+);
+}
+]]></content>
+    <tabTrigger>znuny.TemplateGeneratorObject.Signature</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

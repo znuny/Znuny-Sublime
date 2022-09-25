@@ -1,0 +1,50 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$JWT = \$JWTObject->Encode(
+    Payload => \{
+
+        # arbitrary data
+        Subject => '...',
+        SomeOtherData => \{
+
+            # ...
+        \},
+    \},
+    Algorithm   => 'RS512', # see https://metacpan.org/pod/Crypt::JWT#alg
+
+    # Key or key file
+    Key         => '...', # see https://metacpan.org/pod/Crypt::JWT#key1
+    KeyFilePath => '/home/user1/key.pem',
+
+    KeyPassword          => '...', # optional, password for the key
+    AdditionalHeaderData => \{ # optional
+
+        # arbitrary data
+        Type => '...',
+    \},
+
+    # Optional: Use this hash to give additional parameters to Crypt::JWT.
+    CryptJWTParameters => \{
+
+        # see https://metacpan.org/pod/Crypt::JWT#encode_jwt
+        enc => '...',
+
+        # ...
+    \},
+
+    # Optional: Data to be placed in placeholders in given Payload and AdditionalHeaderData parameters.
+    # All values of the given payload and additional header data hash will be searched
+    # for all the given placeholders and their values be replaced.
+    PlaceholderData => \{
+        OTRS_JWT_CertSubject         => '...',
+        OTRS_JWT_ExpirationTimestamp => '9999999999999',
+
+        # ...
+    \},
+);
+}
+]]></content>
+    <tabTrigger>znuny.JWTObject.Encode</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

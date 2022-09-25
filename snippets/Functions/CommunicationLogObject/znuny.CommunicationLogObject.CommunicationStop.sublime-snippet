@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$CommunicationLogObject->CommunicationStop(
+    Status => 'Successful', # (required) Needs to be either 'Successful', 'Warning' or 'Failed'
+);
+}
+]]></content>
+    <tabTrigger>znuny.CommunicationLogObject.CommunicationStop</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

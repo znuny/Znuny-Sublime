@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$HashRef = \$StatsObject->StatsGet(
+    StatID             => \$StatID,
+    NoObjectAttributes => 1,       # optional
+);
+}
+]]></content>
+    <tabTrigger>znuny.StatsObject.StatsGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

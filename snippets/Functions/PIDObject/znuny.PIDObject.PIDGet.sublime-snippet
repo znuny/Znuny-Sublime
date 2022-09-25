@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %PID = \$PIDObject->PIDGet(
+    Name => 'PostMasterPOP3',
+);
+}
+]]></content>
+    <tabTrigger>znuny.PIDObject.PIDGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

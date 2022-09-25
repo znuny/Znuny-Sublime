@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$OTRSTimeZone = \$TimeZone->OTRSTimeZoneGet();
+}
+]]></content>
+    <tabTrigger>znuny.SystemTimeZone.OTRSTimeZoneGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

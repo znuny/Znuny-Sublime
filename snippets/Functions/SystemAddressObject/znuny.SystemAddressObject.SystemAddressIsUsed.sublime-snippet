@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SytemAddressIsUsed = \$SystemAddressObject->SystemAddressIsUsed(
+    SystemAddressID => \$SystemAddressID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.SystemAddressObject.SystemAddressIsUsed</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

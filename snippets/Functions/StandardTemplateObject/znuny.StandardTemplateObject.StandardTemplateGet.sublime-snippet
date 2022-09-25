@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %StandardTemplate = \$StandardTemplateObject->StandardTemplateGet(
+    ID => 123,
+);
+}
+]]></content>
+    <tabTrigger>znuny.StandardTemplateObject.StandardTemplateGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

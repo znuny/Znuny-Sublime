@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$UserInitials = \$LayoutObject->UserInitialsGet(
+    Fullname => 'John Doe',
+);
+}
+]]></content>
+    <tabTrigger>znuny.LayoutObject.UserInitialsGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

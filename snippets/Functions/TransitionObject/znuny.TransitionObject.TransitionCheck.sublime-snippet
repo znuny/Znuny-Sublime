@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$TransitionCheck = \$TransitionObject->TransitionCheck(
+    TransitionEntityID => \$TransitionEntityID,
+    or
+    TransitionEntityID => \$TransitionEntityID, 'T2', 'T3'],
+    Data       => \{
+        Queue         => 'Raw',
+        DynamicField1 => 'Value',
+        Subject       => 'Testsubject',
+        ...
+    \},
+);
+}
+]]></content>
+    <tabTrigger>znuny.TransitionObject.TransitionCheck</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

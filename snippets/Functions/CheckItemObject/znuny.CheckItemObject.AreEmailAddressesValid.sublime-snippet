@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$EmailAddressesAreValid = \$CheckItemObject->AreEmailAddressesValid(
+    EmailAddresses => 'test@example.org, test2@example.org',
+
+    # or as array ref
+    EmailAddresses => [
+        'test@example.org',
+        'test2@example.org',
+    ],
+
+    # also works with just one address
+    EmailAddresses => 'test@example.org',
+
+    # or as array ref
+    EmailAddresses => ['test@example.org'],
+);
+}
+]]></content>
+    <tabTrigger>znuny.CheckItemObject.AreEmailAddressesValid</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

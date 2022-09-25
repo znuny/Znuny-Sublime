@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @UsedOAuth2TokenConfigListGet = \$OAuth2TokenConfigObject->UsedOAuth2TokenConfigListGet(
+    Scope => 'MailAccount'      # optional, default 'undef', (MailAccount);
+);
+}
+]]></content>
+    <tabTrigger>znuny.OAuth2TokenConfigObject.UsedOAuth2TokenConfigListGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:    if ( \$AuthObject->GetOption( What => 'PreAuth' ) ) \{
+        print "No login screen is needed. Authentication is based on some other options. E. g. \$ENV\{REMOTE_USER\}\n";
+    \}
+}
+]]></content>
+    <tabTrigger>znuny.AuthObject.GetOption</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

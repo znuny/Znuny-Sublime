@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$FileHash = \$StatsObject->GetDynamicFiles();
+}
+]]></content>
+    <tabTrigger>znuny.StatsObject.GetDynamicFiles</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

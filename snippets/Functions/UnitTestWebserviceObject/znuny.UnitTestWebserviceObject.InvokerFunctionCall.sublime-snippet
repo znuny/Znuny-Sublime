@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$UnitTestWebserviceObject->InvokerFunctionCall(
+    Webservice => 'webservice-name',
+    Invoker    => 'invoker-name',
+    Function   => 'function',
+    Data       => \{\},
+);
+}${2:my \$Success = \$UnitTestWebserviceObject->InvokerFunctionCall(
+    Webservice => 'webservice-name',
+    Invoker    => 'invoker-name',
+    Function   => 'function',
+    Data       => \{\},
+    ObjectModifyFunction => sub \{
+        my (%Params) = @_;
+
+        \$Params\{Object\}->\{BackendObject\}->\{MessageName\} = 'SEND_UPDATE';
+
+        return 1;
+    \},
+);
+}
+]]></content>
+    <tabTrigger>znuny.UnitTestWebserviceObject.InvokerFunctionCall</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

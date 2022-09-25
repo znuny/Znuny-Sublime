@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$SignatureObject = \$Kernel::OM->Get('Kernel::System::Signature');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.SignatureObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

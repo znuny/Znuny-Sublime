@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Name = \$SystemAddressObject->SystemAddressLookup(
+    ID              => 2,
+    # or
+    SystemAddressID => \$SystemAddressID,
+);
+}${2:my \$SystemAddressID = \$SystemAddressObject->SystemAddressLookup(
+    Name          => 'info@znuny.com',
+    # or
+    SystemAddress => 'info@znuny.com',
+);
+}
+]]></content>
+    <tabTrigger>znuny.SystemAddressObject.SystemAddressLookup</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

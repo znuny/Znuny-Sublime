@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:\$QueueObject->QueuePreferencesSet(
+    QueueID => \$QueueID,
+    Key     => 'UserComment',
+    Value   => 'some comment',
+    UserID  => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.QueueObject.QueuePreferencesSet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

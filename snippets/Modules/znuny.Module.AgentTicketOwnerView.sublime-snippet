@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+AgentTicketOwnerView
+]]></content>
+    <tabTrigger>AgentTicketOwnerView</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

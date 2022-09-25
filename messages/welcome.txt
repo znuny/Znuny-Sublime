@@ -1,17 +1,27 @@
-Congratulations!!!
+⭐ Congratulations ⭐
 
-Znuny4OTRS is a Sublime Text 2/3 plugin that helps you to make OTRS development less painful.
+Znuny is a Sublime Text 2/3 plugin that helps you to make Znuny development less painful.
 
-You have to do nothing now. Just check out the list of fancy shortcuts in your preferences or type "otrs" and trigger sublime autocompletion.
+You have to do nothing now. Just check out the list of fancy shortcuts in your preferences or type "znuny" and trigger sublime autocompletion.
 
 New features are comming up!
-GitHub link - https://github.com/znuny/Znuny4OTRS-Sublime
+GitHub link - https://github.com/znuny/Znuny-Sublime
 
-For this extension and for OTRS in general visit http://znuny.com. Looking forward to hear from you!
+For this extension and for Znuny in general visit http://znuny.com. Looking forward to hear from you!
 
 Enjoy!
+Your Znuny Team! 🚀
 
- Your Znuny Team!
+-------------------
+
+🌟 Version 1.0.0 🌟
+✔ Renamed Package Znuny4OTRS-Sublime (Znuny4OTRS) to Znuny-Sublime (Znuny)
+✔ Renamed all Znuny4OTRS or OTRS strings to Znuny.
+✔ Removed deprecated Znuny4OTRSCheatSheets.
+✔ Removed deprecated Znuny4OTRSGenerateBlockHooks.
+✔ Removed deprecated Znuny4OTRSGitLabCIUnitTests.
+✔ Removed deprecated snippets.
+✔ Updated, refactored and improved all snippets up to Znuny 6.4
 
 Version 0.0.43
 ✔ Fixed typos and tidied code.

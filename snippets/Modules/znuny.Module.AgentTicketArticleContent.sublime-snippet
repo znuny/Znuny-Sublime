@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+AgentTicketArticleContent
+]]></content>
+    <tabTrigger>AgentTicketArticleContent</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

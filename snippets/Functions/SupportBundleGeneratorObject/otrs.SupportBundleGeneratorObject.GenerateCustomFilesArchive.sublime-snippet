@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my ( \$Content, \$Filename ) = \$SupportBundleGeneratorObject->GenerateCustomFilesArchive();
-}
-]]></content>
-    <tabTrigger>otrs.SupportBundleGeneratorObject.GenerateCustomFilesArchive</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

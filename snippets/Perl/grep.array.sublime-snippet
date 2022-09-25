@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+grep \{ \$_ eq $1 \} @${2:\{ \$$3 \}};
+]]></content>
+    <tabTrigger>grep.array</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

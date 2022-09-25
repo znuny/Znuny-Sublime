@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$UnitTestWebUserAgentObject = \$Kernel::OM->Get('Kernel::System::UnitTest::WebUserAgent');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.UnitTestWebUserAgentObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

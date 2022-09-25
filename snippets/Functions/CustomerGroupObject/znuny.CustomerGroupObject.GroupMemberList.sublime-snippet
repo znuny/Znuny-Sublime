@@ -1,0 +1,50 @@
+<snippet>
+    <content><![CDATA[
+${1:my @UserIDs = \$CustomerGroupObject->GroupMemberList(
+    GroupID        => \$GroupID,
+    Type           => 'move_into', # ro|move_into|priority|create|rw
+    Result         => 'ID',        # return array of user ids
+    RawPermissions => 0,           # 0 (return inherited permissions from CustomerCompany), default
+                                   # 1 (return only direct permissions)
+);
+}${2:my @GroupIDs = \$CustomerGroupObject->GroupMemberList(
+    UserID         => \$UserID,
+    Type           => 'move_into', # ro|move_into|priority|create|rw
+    Result         => 'ID',        # return array of group ids
+    RawPermissions => 0,           # 0 (return inherited permissions from CustomerCompany), default
+                                   # 1 (return only direct permissions)
+);
+}${3:my @UserNames = \$CustomerGroupObject->GroupMemberList(
+    GroupID        => \$GroupID,
+    Type           => 'move_into', # ro|move_into|priority|create|rw
+    Result         => 'Name',        # return array of user names
+    RawPermissions => 0,           # 0 (return inherited permissions from CustomerCompany), default
+                                   # 1 (return only direct permissions)
+);
+}${4:my @GroupNames = \$CustomerGroupObject->GroupMemberList(
+    UserID         => \$UserID,
+    Type           => 'move_into', # ro|move_into|priority|create|rw
+    Result         => 'Name',        # return array of group names
+    RawPermissions => 0,           # 0 (return inherited permissions from CustomerCompany), default
+                                   # 1 (return only direct permissions)
+);
+}${5:my %Users = \$CustomerGroupObject->GroupMemberList(
+    GroupID        => \$GroupID,
+    Type           => 'move_into', # ro|move_into|priority|create|rw
+    Result         => 'HASH',      # return hash of user id => user name entries
+    RawPermissions => 0,           # 0 (return inherited permissions from CustomerCompany), default
+                                   # 1 (return only direct permissions)
+);
+}${6:my %Groups = \$CustomerGroupObject->GroupMemberList(
+    UserID         => \$UserID,
+    Type           => 'move_into', # ro|move_into|priority|create|rw
+    Result         => 'HASH',      # return hash of group id => group name entries
+    RawPermissions => 0,           # 0 (return inherited permissions from CustomerCompany), default
+                                   # 1 (return only direct permissions)
+);
+}
+]]></content>
+    <tabTrigger>znuny.CustomerGroupObject.GroupMemberList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

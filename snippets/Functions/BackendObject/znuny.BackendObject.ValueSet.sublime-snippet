@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$BackendObject->ValueSet(
+    DynamicFieldConfig => \$DynamicFieldConfig,      # complete config of the DynamicField
+    # OR
+    DynamicFieldName => 'MyField',                  # Implicitly fetches config of dynamic field
+
+    ObjectID           => \$ObjectID,                # ID of the current object that the field
+                                                    # must be linked to, e. g. TicketID
+    ObjectName         => \$ObjectName,              # Name of the current object that the field
+                                                    # must be linked to, e. g. CustomerUserLogin
+                                                    # You have to give either ObjectID OR ObjectName
+    Value              => \$Value,                   # Value to store, depends on backend type
+    UserID             => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.BackendObject.ValueSet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

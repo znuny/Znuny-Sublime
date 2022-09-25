@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Queue = \$QueueObject->QueueGet(
+    ID    => 123,
+);
+}${2:my %Queue = \$QueueObject->QueueGet(
+    Name  => 'Some::Queue',
+);
+}
+]]></content>
+    <tabTrigger>znuny.QueueObject.QueueGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

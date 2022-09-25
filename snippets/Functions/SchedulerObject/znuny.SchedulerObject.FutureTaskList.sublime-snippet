@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @List = \$SchedulerObject->FutureTaskList(
+    Type => 'some type',  # optional
+);
+}
+]]></content>
+    <tabTrigger>znuny.SchedulerObject.FutureTaskList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

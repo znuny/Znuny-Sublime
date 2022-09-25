@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$StdAttachmentObject = \$Kernel::OM->Get('Kernel::System::StdAttachment');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.StdAttachmentObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

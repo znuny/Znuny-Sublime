@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+AgentTicketLockedView
+]]></content>
+    <tabTrigger>AgentTicketLockedView</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @List = \$SchedulerObject->TaskList(
+    Type => 'some type',  # optional
+);
+}
+]]></content>
+    <tabTrigger>znuny.SchedulerObject.TaskList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

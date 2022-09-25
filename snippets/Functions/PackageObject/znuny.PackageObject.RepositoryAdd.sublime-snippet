@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$PackageObject->RepositoryAdd(
+    String    => \$FileString,
+);
+}
+]]></content>
+    <tabTrigger>znuny.PackageObject.RepositoryAdd</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

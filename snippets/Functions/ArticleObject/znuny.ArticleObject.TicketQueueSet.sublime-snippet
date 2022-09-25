@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketQueueSet(
+    QueueID  => \$QueueID,
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);
+}${2:my \$Success = \$TicketObject->TicketQueueSet(
+    Queue    => 'Some Queue Name',
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);
+}${3:my \$Success = \$TicketObject->TicketQueueSet(
+    Queue    => 'Some Queue Name',
+    TicketID => \$TicketID,
+    Comment  => 'some comment', # optional
+    ForceNotificationToUserID => \$ForceNotificationToUserID,43,56], # if you want to force somebody
+    UserID   => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.TicketQueueSet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

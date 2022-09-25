@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ProcessTransition = \$ProcessObject->ProcessTransition(
+    ProcessEntityID  => \$ProcessEntityID,
+    ActivityEntityID => \$ActivityEntityID,
+    TicketID         => \$TicketID,
+    UserID           => \$UserID,
+    CheckOnly        => 1,             # optional
+    Data             => \{              # optional
+        Queue         => 'Raw',
+        DynamicField1 => 'Value',
+        Subject       => 'Testsubject',
+        #...
+    \},
+);
+}
+]]></content>
+    <tabTrigger>znuny.ProcessObject.ProcessTransition</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

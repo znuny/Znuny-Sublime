@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$HasExpired = \$OAuth2TokenObject->HasTokenExpired(
+    TokenConfigID => \$TokenConfigID,
+    UserID        => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.OAuth2TokenObject.HasTokenExpired</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

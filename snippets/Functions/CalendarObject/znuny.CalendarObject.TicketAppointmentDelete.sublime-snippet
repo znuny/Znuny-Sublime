@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$CalendarObject->TicketAppointmentDelete(
+    CalendarID    => \$CalendarID,                                     # (required) CalendarID
+    RuleID        => \$RuleID,    # (required) RuleID
+                                                            # or
+    TicketID      => \$TicketID,                                     # (required) Ticket ID
+
+    AppointmentID => \$AppointmentID,                                     # (optional) Appointment ID is known
+);
+}
+]]></content>
+    <tabTrigger>znuny.CalendarObject.TicketAppointmentDelete</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

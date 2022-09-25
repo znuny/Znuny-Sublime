@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$GroupID = \$QueueObject->GetQueueGroupID( QueueID => \$QueueID );
+}
+]]></content>
+    <tabTrigger>znuny.QueueObject.GetQueueGroupID</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

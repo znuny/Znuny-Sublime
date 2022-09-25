@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my %UserData = \$HelperObject->TestUserDataGet(
+    Groups => ['admin', 'users'],           # optional, list of groups to add this user to (rw rights)
+    Language => 'de'                        # optional, defaults to 'en' if not set
+);
+}
+]]></content>
+    <tabTrigger>znuny.HelperObject.TestUserDataGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

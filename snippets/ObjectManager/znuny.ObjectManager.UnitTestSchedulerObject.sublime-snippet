@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$UnitTestSchedulerObject = \$Kernel::OM->Get('Kernel::System::UnitTest::Scheduler');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.UnitTestSchedulerObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

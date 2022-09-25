@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$ArticleObject->ArticleWriteAttachment(
+    TicketID           => \$TicketID,
+    Content            => \$ContentAsString,
+    ContentType        => 'text/html; charset="iso-8859-15"',
+    Filename           => 'lala.html',
+    ContentID          => \$ContentID,   # optional
+    ContentAlternative => 0,            # optional, alternative content to shown as body
+    Disposition        => 'attachment', # or 'inline'
+    ArticleID          => \$ArticleID,
+    UserID             => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.ArticleWriteAttachment</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

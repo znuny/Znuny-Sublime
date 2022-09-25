@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$FollowUpOption = \$QueueObject->GetFollowUpOption( QueueID => \$QueueID );
-}
-]]></content>
-    <tabTrigger>otrs.QueueObject.GetFollowUpOption</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

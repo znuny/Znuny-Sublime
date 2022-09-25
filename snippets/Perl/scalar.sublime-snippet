@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+my \$${1:Scalar} = scalar @$2;
+]]></content>
+    <tabTrigger>scalar</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

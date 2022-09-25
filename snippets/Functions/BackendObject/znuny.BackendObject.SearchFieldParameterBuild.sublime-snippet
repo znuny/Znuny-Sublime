@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$DynamicFieldSearchParameter = \$BackendObject->SearchFieldParameterBuild(
+    DynamicFieldConfig   => \$DynamicFieldConfig,    # complete config of the DynamicField
+    LayoutObject         => \$LayoutObject,          # optional
+    Profile              => \$ProfileData,           # the search profile
+    Type                 => 'some type',            # search preference type
+);
+}
+]]></content>
+    <tabTrigger>znuny.BackendObject.SearchFieldParameterBuild</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

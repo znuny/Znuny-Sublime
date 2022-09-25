@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-if ($1) {
-    $2
-}
-$3
-]]></content>
-    <tabTrigger>if</tabTrigger>
-</snippet>

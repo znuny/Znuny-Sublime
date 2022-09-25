@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my %List = \$TypeObject->TypeList();
+}${2:my %List = \$TypeObject->TypeList(
+    Valid => 0,
+);
+}
+]]></content>
+    <tabTrigger>znuny.TypeObject.TypeList</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

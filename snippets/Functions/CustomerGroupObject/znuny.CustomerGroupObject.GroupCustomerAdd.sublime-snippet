@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$CustomerGroupObject->GroupCustomerAdd(
+    GID        => \$GID,
+    CustomerID => \$CustomerID,
+    Permission => \{
+        'Ticket::CustomerID::Same' => \{
+            ro            => 1,
+            move_into     => 1,
+            create        => 1,
+            owner         => 1,
+            priority      => 0,
+            rw            => 0,
+        \},
+        'Ticket::CustomerID::Other' => \{
+            ro        => 1,
+            move_into => 1,
+            create    => 1,
+            owner     => 1,
+            priority  => 0,
+            rw        => 0,
+        \},
+        ...
+    \},
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.CustomerGroupObject.GroupCustomerAdd</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

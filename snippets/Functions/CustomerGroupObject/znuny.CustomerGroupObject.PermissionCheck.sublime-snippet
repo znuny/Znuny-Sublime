@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$HasPermission = \$CustomerGroupObject->PermissionCheck(
+    UserID    => \$UserID,
+    GroupName => \$GroupName,
+    Type      => 'move_into',
+);
+}
+]]></content>
+    <tabTrigger>znuny.CustomerGroupObject.PermissionCheck</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

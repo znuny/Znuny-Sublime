@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Driver->AttachSeleniumScreenshot(
+    Filename => \$Filename,
+    Content  => \$Data               # raw image data
+);
+}
+]]></content>
+    <tabTrigger>znuny.Driver.AttachSeleniumScreenshot</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

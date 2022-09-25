@@ -1,0 +1,34 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Value = \$BackendObject->EditFieldValueGet(
+    DynamicFieldConfig      => \$DynamicFieldConfig, # complete config of the DynamicField
+    ParamObject             => \$ParamObject,        # the current request data
+    TransformDates          => 0                    # 1 || 0, default 1, to transform the dynamic fields that
+                                                    #   use dates to the user time zone (i.e. Date, DateTime
+                                                    #   dynamic fields)
+
+    Template                => \$Template            # stored values from DB like Search profile or Generic Agent job
+    ReturnTemplateStructure => 1,                   # 0 || 1, default 0
+                                                    #   Returns the structured values as got from the http request
+                                                    #   (only for backend internal use).
+);
+}${2:my \$Value = \$BackendObject->EditFieldValueGet(
+    DynamicFieldConfig   => \$DynamicFieldConfig,    # complete config of the DynamicField
+    ParamObject          => \$ParamObject,           # the current request data
+    LayoutObject         => \$LayoutObject,          # used to transform dates to user time zone
+    TransformDates       => 1                       # 1 || 0, default 1, to transform the dynamic fields that
+                                                    #   use dates to the user time zone (i.e. Date, DateTime
+                                                    #   dynamic fields)
+    Template             => \$Template,
+    ReturnValueStructure => 0,                      # 0 || 1, default 0
+                                                    #   Returns special structure
+                                                    #   (only for backend internal use).
+    ReturnTemplateStructure => 0,                   # 0 || 1, default 0
+                                                    #   Returns the structured values as got from the http request
+);
+}
+]]></content>
+    <tabTrigger>znuny.BackendObject.EditFieldValueGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

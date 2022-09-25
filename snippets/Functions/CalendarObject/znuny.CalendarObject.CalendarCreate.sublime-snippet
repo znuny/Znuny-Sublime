@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Calendar = \$CalendarObject->CalendarCreate(
+    CalendarName    => 'Meetings',          # (required) Personal calendar name
+    GroupID         => \$GroupID,                   # (required) GroupID
+    Color           => '#FF7700',           # (required) Color in hexadecimal RGB notation
+    UserID          => \$UserID,                   # (required) UserID
+
+    TicketAppointments => [                 # (optional) Ticket appointments, array ref of hashes
+        \{
+            StartDate => 'FirstResponse',
+            EndDate   => 'Plus_5',
+            QueueID   => \$QueueID,
+            SearchParams => \{
+                Title => 'This is a title',
+                Types => 'This is a type',
+            \},
+        \},
+    ],
+
+    ValidID => \$ValidID,                   # (optional) Default is 1.
+);
+}
+]]></content>
+    <tabTrigger>znuny.CalendarObject.CalendarCreate</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

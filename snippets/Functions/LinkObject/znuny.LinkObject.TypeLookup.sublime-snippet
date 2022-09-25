@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Name = \$LinkObject->TypeLookup(
+    TypeID => \$TypeID,
+    UserID => \$UserID,
+);
+}${2:\$TypeID = \$LinkObject->TypeLookup(
+    Name   => 'Normal',
+    UserID => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.LinkObject.TypeLookup</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

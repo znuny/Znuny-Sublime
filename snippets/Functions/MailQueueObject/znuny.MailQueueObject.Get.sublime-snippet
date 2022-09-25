@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Item = \$MailQueueObject->Get(
+    ID              => '...' # optional
+    ArticleID       => '...' # optional
+);
+}
+]]></content>
+    <tabTrigger>znuny.MailQueueObject.Get</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

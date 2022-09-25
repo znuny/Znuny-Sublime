@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<!-- nofilter($1) -->
+]]></content>
+    <tabTrigger>znuny.CodePolicy.nofilter.sopm_xml</tabTrigger>
+    <description>sopm, xml</description>
+    <scope>text.xml</scope>
+</snippet>

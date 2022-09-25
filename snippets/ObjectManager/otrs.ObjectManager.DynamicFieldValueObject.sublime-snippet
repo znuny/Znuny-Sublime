@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$DynamicFieldValueObject = \$Kernel::OM->Get('Kernel::System::DynamicFieldValue');
-]]></content>
-    <tabTrigger>otrs.ObjectManager.DynamicFieldValueObject</tabTrigger>
-    <description>6, 5, 4</description>
-</snippet>

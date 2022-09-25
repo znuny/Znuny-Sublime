@@ -3,4 +3,6 @@
 console.log('$1');
 ]]></content>
     <tabTrigger>console.log</tabTrigger>
+    <description>js</description>
+    <scope>source.js</scope>
 </snippet>

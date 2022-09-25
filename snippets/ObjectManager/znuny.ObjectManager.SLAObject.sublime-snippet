@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$SLAObject = \$Kernel::OM->Get('Kernel::System::SLA');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.SLAObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$CTimeString = \$DateTimeObject->ToCTimeString();
-}
-]]></content>
-    <tabTrigger>otrs.SystemTimeZone.ToCTimeString</tabTrigger>
-    <description>6</description>
-</snippet>

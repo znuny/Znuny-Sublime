@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+{
+    Name          => '${1:InternalName}',
+    Label         => "${2:Label}",
+    ObjectType    => '${3:Ticket|Article}',
+    FieldType     => 'Dropdown',
+    InternalField => ${4:1|0}, # Remember: Can't get updated afterwards! If set to 1 only deleting via the API is possible. Should only set to 1 in absolute exceptions
+    Config        => {
+        PossibleValues => {
+            ${5:Key} => "${6:Value}",
+        },
+        DefaultValue       => "${5:Key}",
+        TreeView           => '${7:1|0}',
+        PossibleNone       => '${8:1|0}',
+        TranslatableValues => '${9:1|0}',
+        Link               => '${10:\$LQData{"$1"}}',
+    },
+},
+]]></content>
+    <tabTrigger>znuny.DynamicField.Dropdown</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

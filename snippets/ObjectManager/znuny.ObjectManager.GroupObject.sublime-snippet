@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$GroupObject = \$Kernel::OM->Get('Kernel::System::Group');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.GroupObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

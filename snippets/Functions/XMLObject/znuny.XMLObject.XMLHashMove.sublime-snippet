@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:\$XMLObject->XMLHashMove(
+    OldType => 'SomeType',
+    OldKey  => '123',
+    NewType => 'NewType',
+    NewKey  => '321',
+);
+}
+]]></content>
+    <tabTrigger>znuny.XMLObject.XMLHashMove</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Data = \$StdAttachmentObject->StdAttachmentGet(
+    ID => \$ID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.StdAttachmentObject.StdAttachmentGet</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

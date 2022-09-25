@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$UnitTestWebUserAgentObject->Mock(
+    URL            => qr/testserver\/success/,
+    Status         => 'OK',
+    StatusCode     => '200',
+    Header         => [ 'Content-Type' => 'application/json' ],
+    Body           => '\{ "access_token": "123", "token_type": "ABC" \}',
+);
+}
+]]></content>
+    <tabTrigger>znuny.UnitTestWebUserAgentObject.Mock</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

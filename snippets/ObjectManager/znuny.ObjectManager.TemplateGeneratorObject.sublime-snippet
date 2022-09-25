@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$TemplateGeneratorObject = \$Kernel::OM->Get('Kernel::System::TemplateGenerator');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.TemplateGeneratorObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

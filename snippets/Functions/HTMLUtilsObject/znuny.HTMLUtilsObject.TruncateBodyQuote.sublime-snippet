@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Body = \$HTMLUtilsObject->TruncateBodyQuote(
+    Body       => \$Body,
+    Limit      => 10000,
+    HTMLOutput => 1|0,
+);
+}
+]]></content>
+    <tabTrigger>znuny.HTMLUtilsObject.TruncateBodyQuote</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

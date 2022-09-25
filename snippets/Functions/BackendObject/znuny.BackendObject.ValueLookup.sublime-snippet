@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Value = \$BackendObject->ValueLookup(
+    DynamicFieldConfig => \$DynamicFieldConfig,       # complete config of the DynamicField
+    Key                => 'sotred value',             # could also be an array ref for
+                                                     #    MultipleSelect fields
+    LanguageObject     => \$LanguageObject,            # optional, used to get value translations
+);
+}
+]]></content>
+    <tabTrigger>znuny.BackendObject.ValueLookup</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

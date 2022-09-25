@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$SystemTimeZone = Kernel::System::DateTime
-]]></content>
-    <tabTrigger>otrs.ObjectManager.SystemTimeZone</tabTrigger>
-    <description>6</description>
-</snippet>

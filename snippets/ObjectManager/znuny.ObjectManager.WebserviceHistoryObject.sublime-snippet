@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$WebserviceHistoryObject = \$Kernel::OM->Get('Kernel::System::GenericInterface::WebserviceHistory');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.WebserviceHistoryObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

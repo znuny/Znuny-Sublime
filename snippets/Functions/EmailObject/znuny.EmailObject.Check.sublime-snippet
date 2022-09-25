@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Check = \$EmailObject->Check();
+}
+]]></content>
+    <tabTrigger>znuny.EmailObject.Check</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

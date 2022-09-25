@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketMergeLinkedObjects(
+    MainTicketID  => \$MainTicketID,
+    MergeTicketID => \$MergeTicketID,
+    UserID        => \$UserID,
+);
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.TicketMergeLinkedObjects</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

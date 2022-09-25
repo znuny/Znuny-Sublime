@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Result = \$SysConfigObject->SettingEffectiveValueCheck(
+    EffectiveValue => 'open',     # (optional)
+    XMLContentParsed => \{         # (required)
+        Value => [
+            \{
+                'Item' => [
+                    \{
+                        'Content' => "Scalar value",
+                    \},
+                ],
+            \},
+        ],
+    \},
+    StoreCache            => 1,               # (optional) Store result in the Cache. Default 0.
+    SettingUID            => \$SettingUID,               # (optional) no value type validation.
+    CurrentSystemTime     => 1507894796935,   # (optional) Use provided 1507894796935, otherwise calculate
+    ExpireTime            => 1507894896935,   # (optional) Use provided ExpireTime for cache, otherwise calculate
+    UserID                => \$UserID,               # (required) UserID
+);
+}
+]]></content>
+    <tabTrigger>znuny.SysConfigObject.SettingEffectiveValueCheck</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

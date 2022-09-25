@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Status = \$ArticleObject->ArticleSearchIndexStatus();
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.ArticleSearchIndexStatus</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

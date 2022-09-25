@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$HTMLUtilsObject = \$Kernel::OM->Get('Kernel::System::HTMLUtils');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.HTMLUtilsObject</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

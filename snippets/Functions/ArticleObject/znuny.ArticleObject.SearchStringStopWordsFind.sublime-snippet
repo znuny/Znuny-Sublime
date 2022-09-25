@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$StopWords = \$ArticleObject->SearchStringStopWordsFind(
+    SearchStrings => \{
+        'Fulltext'      => '(this AND is) OR test',
+        'MIMEBase_From' => 'myself',
+    \},
+);
+}
+]]></content>
+    <tabTrigger>znuny.ArticleObject.SearchStringStopWordsFind</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>

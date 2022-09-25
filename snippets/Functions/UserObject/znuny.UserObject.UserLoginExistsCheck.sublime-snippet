@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Exist = \$UserObject->UserLoginExistsCheck(
+    UserLogin => 'Some::UserLogin',
+    UserID => \$UserID, # optional
+);
+}
+]]></content>
+    <tabTrigger>znuny.UserObject.UserLoginExistsCheck</tabTrigger>
+    <description>6</description>
+    <scope>source.perl</scope>
+</snippet>
