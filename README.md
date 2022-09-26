@@ -48,28 +48,6 @@ To install this plugin, you have three options:
 
 ```znuny``` + Sublime Text autocomplete (command ```auto_complete```)
 
-#### Frontend::Template::GenerateBlockHooks config XML generation
-
-Default keyboard shortcut: ```strg+alt+z, h```
-
-<img src="https://cloud.githubusercontent.com/assets/3873515/7705818/db4f3510-fe46-11e4-90b9-09093b063ac0.gif" width="640">
-
-#### Automatic custom marker quoting
-
-Default keyboard shortcut: ```strg+alt+z, q```
-
-Works with active Perl, JavaScript and HTML syntax.
-
-<img src="https://cloud.githubusercontent.com/assets/3873515/7766583/d64a68fc-006a-11e5-8d9c-682ba128297a.gif" width="640">
-
-#### Automatic creation of the ObjectDependencies array
-
-Default keyboard shortcut: ```strg+alt+z, d```
-
-Inserts the @ObjectDependencies array by parsing the file content. Only regular used OM calls are supported.
-
-<img src="https://cloud.githubusercontent.com/assets/3873515/9132331/0ec230a6-3cf3-11e5-8421-9261d25d2694.gif" width="640">
-
 #### Add folder from workspace(s) to project
 
 Default keyboard shortcut: ```strg+alt+z, p```
@@ -103,6 +81,22 @@ Default keyboard shortcut: ```strg+alt+z, f```
 Inserts the SOPM Filelist content containing all files of a selectable project.
 
 <img src="https://cloud.githubusercontent.com/assets/3873515/13220468/a1cdd8ee-d976-11e5-8b69-cf936c63c76e.gif" width="640">
+
+#### Automatic creation of the ObjectDependencies array
+
+Default keyboard shortcut: ```strg+alt+z, d```
+
+Inserts the @ObjectDependencies array by parsing the file content. Only regular used OM calls are supported.
+
+<img src="https://cloud.githubusercontent.com/assets/3873515/9132331/0ec230a6-3cf3-11e5-8421-9261d25d2694.gif" width="640">
+
+#### Automatic custom marker quoting
+
+Default keyboard shortcut: ```strg+alt+z, q```
+
+Works with active Perl, JavaScript and HTML syntax.
+
+<img src="https://cloud.githubusercontent.com/assets/3873515/7766583/d64a68fc-006a-11e5-8d9c-682ba128297a.gif" width="640">
 
 ### Commercial Support
 

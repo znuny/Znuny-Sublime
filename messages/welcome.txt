@@ -4,10 +4,7 @@ Znuny is a Sublime Text 2/3 plugin that helps you to make Znuny development less
 
 You have to do nothing now. Just check out the list of fancy shortcuts in your preferences or type "znuny" and trigger sublime autocompletion.
 
-New features are comming up!
 GitHub link - https://github.com/znuny/Znuny-Sublime
-
-For this extension and for Znuny in general visit http://znuny.com. Looking forward to hear from you!
 
 Enjoy!
 Your Znuny Team! 🚀

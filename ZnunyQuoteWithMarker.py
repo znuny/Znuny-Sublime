@@ -1,5 +1,11 @@
 import sublime
 import sublime_plugin
+import re
+
+
+def plugin_loaded():
+    global settings
+    settings = sublime.load_settings('Znuny.sublime-settings')
 
 
 class ZnunyQuoteWithMarkerCommand(sublime_plugin.TextCommand):
@@ -8,15 +14,16 @@ class ZnunyQuoteWithMarkerCommand(sublime_plugin.TextCommand):
         # get quoting char
         quote_char = None
         syntax = self.view.settings().get('syntax')
+        znuny_code_marker = settings.get('znuny_code_marker') or "Znuny"
 
-        if syntax == 'Packages/JavaScript/JavaScript.tmLanguage' or syntax == 'Packages/JavaScript/JavaScript.sublime-syntax':
+        if re.search("JavaScript", syntax):
             quote_char = '//'
-        elif syntax == 'Packages/Perl/Perl.tmLanguage' or syntax == 'Packages/Perl/Perl.sublime-syntax':
+        elif re.search("Perl", syntax):
             quote_char = '#'
-        elif syntax == 'Packages/HTML/HTML.tmLanguage' or syntax == 'Packages/HTML/HTML.sublime-syntax':
+        elif re.search("HTML", syntax):
             quote_char = '#'
 
-        if not quote_char:
+        if not quote_char or not znuny_code_marker:
             return
 
         # loop over all selections
@@ -31,7 +38,7 @@ class ZnunyQuoteWithMarkerCommand(sublime_plugin.TextCommand):
 
             # start custom maker
             code_marker_replace = """{quote_char} ---
-{quote_char} Znuny-
+{quote_char} {znuny_code_marker}-
 {quote_char} ---
 """
 
@@ -53,6 +60,7 @@ class ZnunyQuoteWithMarkerCommand(sublime_plugin.TextCommand):
             code_marker_replace += "\n\n{quote_char} ---"
 
             code_marker_replace = code_marker_replace.replace('{quote_char}', quote_char)
+            code_marker_replace = code_marker_replace.replace('{znuny_code_marker}', znuny_code_marker)
     #        code_marker_replace.format(**replace_dict)
 
             # replace the selection with transformed text
