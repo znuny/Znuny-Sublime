@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$Epoch = \$DateTimeObject->ToEpoch();
-}
-]]></content>
-    <tabTrigger>znuny.SystemTimeZone.ToEpoch</tabTrigger>
-    <description>6</description>
-    <scope>source.perl</scope>
-</snippet>

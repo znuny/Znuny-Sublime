@@ -1,12 +1,12 @@
 <snippet>
     <content><![CDATA[
-${1:my \$List = \$WebserviceObject->WebserviceList();
-}${2:my \$List = \$WebserviceObject->WebserviceList(
+${1:my \$List = \$WebserviceObject->WebserviceList(
     Valid => 0, # optional, defaults to 1
-);
-}
+);}
+${2:my \$List = \$WebserviceObject->WebserviceList();}
+
 ]]></content>
     <tabTrigger>znuny.WebserviceObject.WebserviceList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

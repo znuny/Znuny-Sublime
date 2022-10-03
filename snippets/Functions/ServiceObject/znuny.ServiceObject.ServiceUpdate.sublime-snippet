@@ -7,10 +7,10 @@ ${1:my \$True = \$ServiceObject->ServiceUpdate(
     ValidID   => \$ValidID,
     Comment   => 'Comment',    # (optional)
     UserID    => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.ServiceObject.ServiceUpdate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

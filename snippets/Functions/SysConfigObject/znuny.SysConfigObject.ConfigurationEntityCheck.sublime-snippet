@@ -3,10 +3,10 @@
 ${1:my @Result = \$SysConfigObject->ConfigurationEntityCheck(
     EntityType  => 'Priority',
     EntityName  => '3 normal',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SysConfigObject.ConfigurationEntityCheck</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

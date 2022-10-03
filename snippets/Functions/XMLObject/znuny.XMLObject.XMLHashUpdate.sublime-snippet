@@ -4,10 +4,10 @@ ${1:\$XMLObject->XMLHashUpdate(
     Type    => 'SomeType',
     Key     => '123',
     XMLHash => \@XMLHash,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.XMLObject.XMLHashUpdate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

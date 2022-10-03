@@ -3,10 +3,10 @@
 ${1:my %SLAData = \$SLAObject->SLAGet(
     SLAID  => \$SLAID,
     UserID => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SLAObject.SLAGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

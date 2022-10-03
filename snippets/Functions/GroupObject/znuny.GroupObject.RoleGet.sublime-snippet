@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my %RoleData = \$GroupObject->RoleGet(
     ID => 2,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.GroupObject.RoleGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

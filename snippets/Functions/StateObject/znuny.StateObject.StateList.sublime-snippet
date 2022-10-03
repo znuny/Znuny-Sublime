@@ -2,18 +2,18 @@
     <content><![CDATA[
 ${1:my %List = \$StateObject->StateList(
     UserID => \$UserID,
-);
-}${2:my %List = \$StateObject->StateList(
-    UserID => \$UserID,
     Valid  => 0,
-);
-}${3:my %List = \$StateObject->StateList(
+);}
+${2:my %List = \$StateObject->StateList(
     UserID => \$UserID,
     Valid  => 1, # is default
-);
-}
+);}
+${3:my %List = \$StateObject->StateList(
+    UserID => \$UserID,
+);}
+
 ]]></content>
     <tabTrigger>znuny.StateObject.StateList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:    my @SortedDateTimeObjects = sort \{ \$DateTimeObject->Compare( DateTimeObject => \$b ); \} @UnsortedDateTimeObjects:
+
+    \$Result = -1;       # if date/time of this object < date/time of given object
+    \$Result = 0;        # if date/time are equal
+    \$Result = 1:        # if date/time of this object > date/time of given object}
+${2:my \$Result = \$DateTimeObject->Compare( DateTimeObject => \$AnotherDateTimeObject );}
+
+]]></content>
+    <tabTrigger>znuny.DateTimeObject.Compare</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

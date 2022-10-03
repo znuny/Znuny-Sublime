@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my %TicketAttributes = \$TicketToUnitTestObject->GetTicketAttributes(
+    TicketAttributes => \%TicketAttributes,
+    HistoryTicket    => \%HistoryTicket,
+);}
+
+]]></content>
+    <tabTrigger>znuny.TicketToUnitTestObject.GetTicketAttributes</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

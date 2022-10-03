@@ -3,10 +3,10 @@
 ${1:\$PackageObject->PackageIsInstalled(
     String => \$PackageString,    # Attribute String or Name is required
     Name   => \$NameOfThePackage,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.PackageObject.PackageIsInstalled</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -8,10 +8,10 @@ ${1:my \$Result = \$BackendObject->EditFieldValueValidate(
     \},
     ParamObject          => \$Self->\{ParamObject\}      # To get the values directly from the web request
     Mandatory            => 1,                        # 0 or 1,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.BackendObject.EditFieldValueValidate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

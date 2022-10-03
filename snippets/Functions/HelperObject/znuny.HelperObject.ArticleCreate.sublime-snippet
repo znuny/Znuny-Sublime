@@ -1,13 +1,6 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$ArticleID = \$HelperObject->ArticleCreate(
-    TicketID => \$TicketID,
-);
-}${2:my \$ArticleID = \$HelperObject->ArticleCreate(
-    TicketID   => \$TicketID,
-    SenderType => 'customer',
-);
-}${3:my \$ArticleID = \$HelperObject->ArticleCreate(
     TicketID       => \$TicketID,
     ArticleType    => 'note-internal',
     SenderType     => 'agent',
@@ -18,10 +11,17 @@ ${1:my \$ArticleID = \$HelperObject->ArticleCreate(
     HistoryComment => 'Some free text!',
     UserID         => \$UserID,
     NoAgentNotify  => 1,
-);
-}
+);}
+${2:my \$ArticleID = \$HelperObject->ArticleCreate(
+    TicketID   => \$TicketID,
+    SenderType => 'customer',
+);}
+${3:my \$ArticleID = \$HelperObject->ArticleCreate(
+    TicketID => \$TicketID,
+);}
+
 ]]></content>
     <tabTrigger>znuny.HelperObject.ArticleCreate</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

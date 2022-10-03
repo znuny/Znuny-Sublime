@@ -5,12 +5,6 @@ ${1:my \$Success = \$UnitTestWebserviceObject->InvokerFunctionCall(
     Invoker    => 'invoker-name',
     Function   => 'function',
     Data       => \{\},
-);
-}${2:my \$Success = \$UnitTestWebserviceObject->InvokerFunctionCall(
-    Webservice => 'webservice-name',
-    Invoker    => 'invoker-name',
-    Function   => 'function',
-    Data       => \{\},
     ObjectModifyFunction => sub \{
         my (%Params) = @_;
 
@@ -18,10 +12,16 @@ ${1:my \$Success = \$UnitTestWebserviceObject->InvokerFunctionCall(
 
         return 1;
     \},
-);
-}
+);}
+${2:my \$Success = \$UnitTestWebserviceObject->InvokerFunctionCall(
+    Webservice => 'webservice-name',
+    Invoker    => 'invoker-name',
+    Function   => 'function',
+    Data       => \{\},
+);}
+
 ]]></content>
     <tabTrigger>znuny.UnitTestWebserviceObject.InvokerFunctionCall</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

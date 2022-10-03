@@ -3,10 +3,15 @@
 ${1:\$PackageObject->PackageInstall(
     String    => \$FileString,
     Force     => 1,             # optional 1 or 0, for to install package even if validation fails
-);
-}
+    FromCloud => 1,             # optional 1 or 0, it indicates if package's origin is Cloud or not
+);}
+${2:\$PackageObject->PackageInstall(
+    String    => \$FileString,
+    Force     => 1,             # optional 1 or 0, for to install package even if validation fails
+);}
+
 ]]></content>
     <tabTrigger>znuny.PackageObject.PackageInstall</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

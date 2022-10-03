@@ -5,10 +5,10 @@ ${1:\$SLAObject->SLAPreferencesSet(
     Key    => 'UserComment',
     Value  => 'some comment',
     UserID => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SLAObject.SLAPreferencesSet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

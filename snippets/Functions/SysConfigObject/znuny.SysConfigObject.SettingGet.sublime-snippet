@@ -11,10 +11,10 @@ ${1:my %Setting = \$SysConfigObject->SettingGet(
     NoLog           => 1,                # (optional) Do not log error if a setting does not exist.
     NoCache         => 1,                # (optional) Do not create cache.
     UserID          => \$UserID,                # Required only if OverriddenInXML is set.
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SysConfigObject.SettingGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

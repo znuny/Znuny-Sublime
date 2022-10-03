@@ -4,10 +4,10 @@ ${1:\$CustomerUserObject->SetPreferences(
     Key    => 'UserComment',
     Value  => 'some comment',
     UserID => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.CustomerUserObject.SetPreferences</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

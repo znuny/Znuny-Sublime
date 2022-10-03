@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Selenium->InputFieldValueSet(
+    Element => 'css-selector',              # (required) css selector
+    Value   => 3,                           # (optional) Value
+);}
+
+]]></content>
+    <tabTrigger>znuny.Selenium.InputFieldValueSet</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -5,10 +5,10 @@ ${1:my \$ValueStrg = \$BackendObject->ReadableValueRender(
     Value              => 'Any value',              # Optional
     ValueMaxChars      => 20,                       # Optional
     TitleMaxChars      => 20,                       # Optional
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.BackendObject.ReadableValueRender</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

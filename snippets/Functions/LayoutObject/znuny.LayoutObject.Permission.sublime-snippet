@@ -3,10 +3,10 @@
 ${1:my \$Access = \$LayoutObject->Permission(
     Action => 'AdminCustomerUser',
     Type   => 'rw', # ro|rw possible
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.LayoutObject.Permission</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

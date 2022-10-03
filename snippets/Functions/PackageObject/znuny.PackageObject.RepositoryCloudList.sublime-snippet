@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$List = \$PackageObject->RepositoryCloudList();}
+
+]]></content>
+    <tabTrigger>znuny.PackageObject.RepositoryCloudList</tabTrigger>
+    <description>6.0</description>
+    <scope>source.perl</scope>
+</snippet>

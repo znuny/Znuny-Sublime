@@ -5,10 +5,10 @@ ${1:my \$Success = \$BackendObject->ValueIsDifferent(
                                                     # must be linked to, e. g. TicketID
     Value1             => \$Value1,                  # Dynamic Field Value
     Value2             => \$Value2,                  # Dynamic Field Value
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.BackendObject.ValueIsDifferent</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

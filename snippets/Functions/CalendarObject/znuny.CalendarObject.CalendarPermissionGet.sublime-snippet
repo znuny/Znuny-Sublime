@@ -3,10 +3,10 @@
 ${1:my \$Permission = \$CalendarObject->CalendarPermissionGet(
     CalendarID  => \$CalendarID,                   # (required) CalendarID
     UserID      => \$UserID,                   # (required) UserID
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.CalendarObject.CalendarPermissionGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

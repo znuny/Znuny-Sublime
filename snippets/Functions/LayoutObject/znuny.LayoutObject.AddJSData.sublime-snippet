@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$LayoutObject->AddJSData(
+    Key   => 'Key1',  # the key to store this data
+    Value => \{ ... \}  # simple or complex data
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.AddJSData</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -2,13 +2,13 @@
     <content><![CDATA[
 ${1:my %Type = \$TypeObject->TypeGet(
     ID => 123,
-);
-}${2:my %Type = \$TypeObject->TypeGet(
+);}
+${2:my %Type = \$TypeObject->TypeGet(
     Name => 'default',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.TypeObject.TypeGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

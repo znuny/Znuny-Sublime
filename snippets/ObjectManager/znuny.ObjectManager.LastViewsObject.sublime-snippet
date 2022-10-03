@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-my \$LastViewsObject = \$Kernel::OM->Get('Kernel::System::LastViews');
+my $LastViewsObject = $Kernel::OM->Get('Kernel::System::LastViews');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.LastViewsObject</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

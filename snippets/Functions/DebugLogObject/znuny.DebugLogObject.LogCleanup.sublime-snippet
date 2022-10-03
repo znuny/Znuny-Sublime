@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my \$Success = \$DebugLogObject->LogCleanup(
     CreatedAtOrBefore => '2011-12-31 23:59:59',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.DebugLogObject.LogCleanup</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

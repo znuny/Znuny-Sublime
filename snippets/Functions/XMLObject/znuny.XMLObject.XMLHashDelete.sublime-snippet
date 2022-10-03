@@ -3,10 +3,10 @@
 ${1:\$XMLObject->XMLHashDelete(
     Type => 'SomeType',
     Key  => '123',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.XMLObject.XMLHashDelete</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

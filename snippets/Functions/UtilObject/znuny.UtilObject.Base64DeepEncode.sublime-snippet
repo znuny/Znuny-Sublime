@@ -17,10 +17,10 @@ ${1:my \$Base64EncodedData = \$UtilObject->Base64DeepEncode(
         'QueueData->Comment',
         # ...
     ],
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.UtilObject.Base64DeepEncode</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

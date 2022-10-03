@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$List = \$PackageObject->CloudFileGet(
+    Operation => 'OperationName', # used as operation name by the Cloud Service API
+                                  # Possible operation names:
+                                  # - RepositoryListAvailable
+                                  # - FAOListAssigned
+                                  # - FAOListAssignedFileGet
+);}
+
+]]></content>
+    <tabTrigger>znuny.PackageObject.CloudFileGet</tabTrigger>
+    <description>6.0</description>
+    <scope>source.perl</scope>
+</snippet>

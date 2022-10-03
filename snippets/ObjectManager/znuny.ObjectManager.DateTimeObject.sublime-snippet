@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+my $DateTimeObject = $Kernel::OM->Create(
+        'Kernel::System::DateTime',
+        ObjectParams => {
+            String   => '2016-08-14 22:45:00',
+            TimeZone => 'Europe/Berlin',        # optional, defaults to setting of SysConfig OTRSTimeZone
+        }
+    );
+]]></content>
+    <tabTrigger>znuny.ObjectManager.DateTimeObject</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

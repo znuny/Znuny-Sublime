@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$Delta = \$DateTimeObject->Delta( DateTimeObject => \$AnotherDateTimeObject );
-}
-]]></content>
-    <tabTrigger>znuny.SystemTimeZone.Delta</tabTrigger>
-    <description>6</description>
-    <scope>source.perl</scope>
-</snippet>

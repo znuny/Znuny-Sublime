@@ -4,10 +4,10 @@ ${1:my \$FileName = \$SysConfigObject->OverriddenFileNameGet(
     SettingName    => 'Setting::Name',  # (required)
     UserID         => \$UserID,                # (required)
     EffectiveValue => '3',              # (optional) EffectiveValue stored in the DB.
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SysConfigObject.OverriddenFileNameGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

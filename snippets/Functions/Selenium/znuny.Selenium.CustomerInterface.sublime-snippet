@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Selenium->CustomerInterface(
+    Action      => 'CustomerTicketMessage',
+    WaitForAJAX => 0,                      # optional, default 1
+);}
+
+]]></content>
+    <tabTrigger>znuny.Selenium.CustomerInterface</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

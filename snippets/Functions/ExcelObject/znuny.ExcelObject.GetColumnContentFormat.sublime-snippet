@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ColumnContentFormat = \$ExcelObject->GetColumnContentFormat(
+    Value  => '123',
+    Format => \{\},
+);}
+
+]]></content>
+    <tabTrigger>znuny.ExcelObject.GetColumnContentFormat</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

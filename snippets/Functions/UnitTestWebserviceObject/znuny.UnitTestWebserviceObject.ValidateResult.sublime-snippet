@@ -3,10 +3,10 @@
 ${1:my \$Result = \$UnitTestWebserviceObject->ValidateResult(
     UnitTestObject => \$Self,
     RequestCount   => 1, # default, defines the number of requests that should have been processed
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.UnitTestWebserviceObject.ValidateResult</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$LayoutObject->ComplexTablePreferencesSet(
+    DestinationObject => 'Ticket',
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.ComplexTablePreferencesSet</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

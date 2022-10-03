@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->HistoryAdd(
+    Name         => 'Some Comment',
+    HistoryType  => 'Move', # see system tables
+    TicketID     => \$TicketID,
+    ArticleID    => \$ArticleID, # not required!
+    QueueID      => \$QueueID, # not required!
+    TypeID       => \$TypeID, # not required!
+    CreateUserID => \$CreateUserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.TicketObject.HistoryAdd</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

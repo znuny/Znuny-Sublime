@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my %CustomerUserData = \$HelperObject->TestCustomerUserDataGet(
     Language => 'de' # optional, defaults to 'en' if not set
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.HelperObject.TestCustomerUserDataGet</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

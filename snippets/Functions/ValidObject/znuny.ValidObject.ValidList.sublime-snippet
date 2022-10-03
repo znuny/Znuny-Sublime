@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my %List = \$ValidObject->ValidList();
-}
+${1:my %List = \$ValidObject->ValidList();}
+
 ]]></content>
     <tabTrigger>znuny.ValidObject.ValidList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my %List = \$StdAttachmentObject->StdAttachmentList(
     Valid => 0,  # optional, defaults to 1
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.StdAttachmentObject.StdAttachmentList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

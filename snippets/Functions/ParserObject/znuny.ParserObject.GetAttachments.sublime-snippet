@@ -7,9 +7,15 @@ for my \$Attachment (@Attachments) \{
     print \$Attachment->\{MimeType\};
     print \$Attachment->\{ContentType\};
     print \$Attachment->\{Content\};
-}
+
+    # optional
+    print \$Attachment->\{ContentID\};
+    print \$Attachment->\{ContentAlternative\};
+    print \$Attachment->\{ContentMixed\};
+\}}
+
 ]]></content>
     <tabTrigger>znuny.ParserObject.GetAttachments</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$RequestURL = \$Selenium->RequestURLBuild(
+    Interface   => 'Agent',           # or Customer or Public
+    Param       => \{                  # optional
+        Action => AgentTicketZoom,
+    \}
+);}
+
+]]></content>
+    <tabTrigger>znuny.Selenium.RequestURLBuild</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

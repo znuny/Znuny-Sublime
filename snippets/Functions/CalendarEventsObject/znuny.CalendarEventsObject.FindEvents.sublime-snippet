@@ -1,0 +1,36 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$CalendarEventsObject->FindEvents(
+    String => [
+        \{
+            Content =>
+                "Hello! You've got an invitation for a meeting:
+                BEGIN:VCALENDAR
+                ..
+                END:VCALENDAR"
+        \}
+    ],
+    Attachments => [
+        \{
+            Content =>
+                "Hello! You've got an invitation for a meeting:
+                BEGIN:VCALENDAR
+                ..
+                END:VCALENDAR"
+        \},
+        \{
+            Content =>
+                "Hello! You've got an invitation for a meeting:
+                BEGIN:VCALENDAR
+                ..
+                END:VCALENDAR"
+        \},
+        ..
+    ],
+);}
+
+]]></content>
+    <tabTrigger>znuny.CalendarEventsObject.FindEvents</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

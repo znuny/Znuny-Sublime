@@ -5,10 +5,10 @@ ${1:my \$Success = \$MentionObject->AddMention(
     ArticleID       => \$ArticleID,
     MentionedUserID => \$MentionedUserID,
     UserID          => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.MentionObject.AddMention</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

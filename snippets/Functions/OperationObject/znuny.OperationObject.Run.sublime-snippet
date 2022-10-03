@@ -4,10 +4,10 @@ ${1:my \$Result = \$OperationObject->Run(
     Data => \{                               # data payload before Operation
         ...
     \},
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.OperationObject.Run</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

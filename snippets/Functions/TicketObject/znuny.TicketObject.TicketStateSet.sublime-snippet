@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketStateSet(
+    State     => 'open',
+    TicketID  => \$TicketID,
+    ArticleID => \$ArticleID, #optional, for history
+    UserID    => \$UserID,
+);}
+${2:my \$Success = \$TicketObject->TicketStateSet(
+    StateID  => \$StateID,
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.TicketObject.TicketStateSet</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

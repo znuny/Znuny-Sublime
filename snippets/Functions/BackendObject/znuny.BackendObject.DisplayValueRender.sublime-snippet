@@ -8,10 +8,10 @@ ${1:my \$ValueStrg = \$BackendObject->DisplayValueRender(
     ValueMaxChars      => 20,                       # Optional (for HTMLOutput only)
     TitleMaxChars      => 20,                       # Optional (for HTMLOutput only)
     LayoutObject       => \$LayoutObject,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.BackendObject.DisplayValueRender</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

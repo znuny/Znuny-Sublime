@@ -3,10 +3,10 @@
 ${1:my \$ObjectID = \$DynamicFieldObject->ObjectMappingCreate(
     ObjectName => 'customer-1',   # Name of the object to create the mapping for
     ObjectType => 'CustomerUser', # Type of object to create the mapping for
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.DynamicFieldObject.ObjectMappingCreate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

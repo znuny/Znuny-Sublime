@@ -69,10 +69,10 @@ ${1:my \$Success = \$FetchMailObject->Fetch(
     # Administrative Options:
     Postmaster  => 'SomeName',                  # Optional, specify recipient of last resort
     NoBouce     => 1,                           # Optional, redirect bounces from user to postmaster.
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.FetchMailObject.Fetch</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

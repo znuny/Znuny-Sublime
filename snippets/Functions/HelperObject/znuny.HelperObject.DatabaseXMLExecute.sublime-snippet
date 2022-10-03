@@ -1,14 +1,14 @@
 <snippet>
     <content><![CDATA[
 ${1:\$HelperObject->DatabaseXMLExecute(
-    XMLFile => '/path/to/file',  # OTRS database XML file to execute
-);
-}${2:\$HelperObject->DatabaseXMLExecute(
     XML => \$XML,                 # OTRS database XML schema to execute
-);
-}
+);}
+${2:\$HelperObject->DatabaseXMLExecute(
+    XMLFile => '/path/to/file',  # OTRS database XML file to execute
+);}
+
 ]]></content>
     <tabTrigger>znuny.HelperObject.DatabaseXMLExecute</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

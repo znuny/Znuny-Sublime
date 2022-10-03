@@ -3,10 +3,10 @@
 ${1:my \$SASLAuthString = \$OAuth2TokenObject->AssembleSASLAuthString(
     Username    => 'user2',
     OAuth2Token => 'the token',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.OAuth2TokenObject.AssembleSASLAuthString</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

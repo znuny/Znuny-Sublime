@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketFlagSet(
+    TicketID => \$TicketID,
+    Key      => 'Seen',
+    Value    => 1,
+    UserID   => \$UserID, # apply to this user
+);}
+
+]]></content>
+    <tabTrigger>znuny.TicketObject.TicketFlagSet</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

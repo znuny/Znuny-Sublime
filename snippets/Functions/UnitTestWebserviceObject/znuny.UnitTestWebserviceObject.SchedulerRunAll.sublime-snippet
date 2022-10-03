@@ -2,14 +2,14 @@
     <content><![CDATA[
 ${1:my \$Success = \$UnitTestWebserviceObject->SchedulerRunAll(
     UnitTestObject => \$Self,
-);
-}${2:my \$Success = \$UnitTestWebserviceObject->SchedulerRunAll(
-    UnitTestObject => \$Self,
     Type           => 'AsynchronousExecutor', # optional, default is 'GenericInterface'
-);
-}
+);}
+${2:my \$Success = \$UnitTestWebserviceObject->SchedulerRunAll(
+    UnitTestObject => \$Self,
+);}
+
 ]]></content>
     <tabTrigger>znuny.UnitTestWebserviceObject.SchedulerRunAll</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

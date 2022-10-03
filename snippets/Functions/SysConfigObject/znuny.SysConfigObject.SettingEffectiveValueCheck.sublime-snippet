@@ -18,10 +18,10 @@ ${1:my %Result = \$SysConfigObject->SettingEffectiveValueCheck(
     CurrentSystemTime     => 1507894796935,   # (optional) Use provided 1507894796935, otherwise calculate
     ExpireTime            => 1507894896935,   # (optional) Use provided ExpireTime for cache, otherwise calculate
     UserID                => \$UserID,               # (required) UserID
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SysConfigObject.SettingEffectiveValueCheck</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -7,10 +7,10 @@ ${1:my \$Success = \$DBCRUDTestObject->DataImport(
     Data      => \{                      # additional data if not all needed data exists
         ValidID => \$ValidID,
     \}
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.DBCRUDTestObject.DataImport</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

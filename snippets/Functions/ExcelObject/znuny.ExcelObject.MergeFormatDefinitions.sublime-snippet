@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Format = \$ExcelObject->MergeFormatDefinitions(
+    Merge             => 1,                 # if 1, merges all format definitions from last to first in array 'FormatDefinitions'
+                                            # if 0, use the first format definitions in array 'FormatDefinitions'
+    FormatDefinitions => [
+        # \$CellFormatDefinition\{Format\},
+        \{
+            'color' => 'silver',
+            'right' => 1,
+            'valign' => 'vcentre',
+        \},
+        # \$RowFormatDefinition\{Format\},
+        \{
+            'color' => 'red',
+            'right' => 0,
+            'bold'  => 1,
+        \},
+        # \$ColumnFormatDefinition\{Format\},
+        # \$Merge\{Format\},
+        # \$CellData\{Format\},
+        # \$DefaultFormatDefinition\{Format\},
+    ],
+);}
+
+]]></content>
+    <tabTrigger>znuny.ExcelObject.MergeFormatDefinitions</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

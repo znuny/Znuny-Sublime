@@ -3,10 +3,10 @@
 ${1:my \$String = \$EncodeObject->Convert2CharsetInternal(
     Text => \$String,
     From => \$SourceCharset,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.EncodeObject.Convert2CharsetInternal</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

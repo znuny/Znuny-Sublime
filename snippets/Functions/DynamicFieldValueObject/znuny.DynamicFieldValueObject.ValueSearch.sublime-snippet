@@ -4,10 +4,10 @@ ${1:my \$Value = \$DynamicFieldValueObject->ValueSearch(
     FieldID            => \$FieldID,             # ID of dynamic field to search
     Search             => 'test',
     SearchSQL          => "dynamic_field_value.value_text = 'test'",
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.DynamicFieldValueObject.ValueSearch</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

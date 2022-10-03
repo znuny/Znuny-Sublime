@@ -3,10 +3,10 @@
 ${1:my %QueueAddressData = \$AutoResponseObject->AutoResponseGetByTypeQueueID(
     QueueID => \$QueueID,
     Type    => 'auto reply/new ticket',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.AutoResponseObject.AutoResponseGetByTypeQueueID</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

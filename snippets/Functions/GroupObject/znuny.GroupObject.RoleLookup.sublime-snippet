@@ -1,14 +1,14 @@
 <snippet>
     <content><![CDATA[
-${1:my \$RoleID = \$GroupObject->RoleLookup(
-    Role => \$Role,
-);
-}${2:my \$Role = \$GroupObject->RoleLookup(
+${1:my \$Role = \$GroupObject->RoleLookup(
     RoleID => \$RoleID,
-);
-}
+);}
+${2:my \$RoleID = \$GroupObject->RoleLookup(
+    Role => \$Role,
+);}
+
 ]]></content>
     <tabTrigger>znuny.GroupObject.RoleLookup</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

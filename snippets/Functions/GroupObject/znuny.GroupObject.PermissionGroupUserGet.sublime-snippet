@@ -3,10 +3,10 @@
 ${1:my %UserList = \$GroupObject->PermissionGroupUserGet(
     GroupID => \$GroupID,
     Type    => 'move_into',  # ro|move_into|create|note|owner|priority|rw
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.GroupObject.PermissionGroupUserGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

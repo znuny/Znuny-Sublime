@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$OAuth2TokenObject->DataUpdate(
+    ID                         => 1234,
+    UserID                     => \$UserID,
+
+    # all other attributes are optional
+    TokenConfigID              => \$TokenConfigID,
+    AuthorizationCode          => '...',
+    Token                      => '...',
+    TokenExpirationDate        => '...',
+    RefreshToken               => '...',
+    RefreshTokenExpirationDate => '...',
+    ErrorMessage               => '...',
+    ErrorDescription           => '...',
+    ErrorCode                  => '...',
+    CreateTime                 => '...',
+    CreateBy                   => '...',
+    ChangeTime                 => '...',
+    ChangeBy                   => '...',
+);}
+
+]]></content>
+    <tabTrigger>znuny.OAuth2TokenObject.DataUpdate</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

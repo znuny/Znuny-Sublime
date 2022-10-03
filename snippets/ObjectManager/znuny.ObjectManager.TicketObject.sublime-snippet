@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my $TicketObject = $Kernel::OM->Get('Kernel::System::Ticket');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.TicketObject</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

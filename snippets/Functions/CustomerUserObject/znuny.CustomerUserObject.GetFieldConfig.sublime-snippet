@@ -3,10 +3,10 @@
 ${1:my %FieldConfig = \$CustomerUserObject->GetFieldConfig(
     FieldName => 'UserEmail',
     Source    => 'CustomerUser', # optional
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.CustomerUserObject.GetFieldConfig</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

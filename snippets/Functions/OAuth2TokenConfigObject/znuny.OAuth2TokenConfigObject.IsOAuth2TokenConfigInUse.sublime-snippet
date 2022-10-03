@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my \$IsInUse = \$OAuth2TokenConfigObject->IsOAuth2TokenConfigInUse(
     ID => 3,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.OAuth2TokenConfigObject.IsOAuth2TokenConfigInUse</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

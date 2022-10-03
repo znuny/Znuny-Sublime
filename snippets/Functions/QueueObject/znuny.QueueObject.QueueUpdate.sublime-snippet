@@ -22,10 +22,10 @@ ${1:my \$Success = \$QueueObject->QueueUpdate(
     UnlockTimeOut       => ''
     FollowUpLock        => 1,
     ParentQueueID       => \$ParentQueueID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.QueueObject.QueueUpdate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

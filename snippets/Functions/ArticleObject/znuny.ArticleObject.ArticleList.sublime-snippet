@@ -17,10 +17,10 @@ ${1:my @Articles = \$ArticleObject->ArticleList(
 
     OnlyFirst              => 0,                  # optional, only return first match
     OnlyLast               => 0,                  # optional, only return last match
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.ArticleObject.ArticleList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

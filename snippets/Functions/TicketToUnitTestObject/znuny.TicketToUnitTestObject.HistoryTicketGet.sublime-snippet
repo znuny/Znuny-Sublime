@@ -9,10 +9,10 @@ ${1:my %HistoryData = \$TicketToUnitTestObject->HistoryTicketGet(
     StopSecond => 0,  (optional, default 59)
     TicketID   => \$TicketID,
     Force      => 0,     # 1: don't use cache
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.TicketToUnitTestObject.HistoryTicketGet</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

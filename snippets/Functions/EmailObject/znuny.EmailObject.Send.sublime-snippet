@@ -1,29 +1,6 @@
 <snippet>
     <content><![CDATA[
-${1:my \$Sent = \$EmailObject->Send(                   (Backwards compatibility)
-    From                 => 'me@example.com',
-    To                   => 'friend@example.com',
-    Subject              => 'Some words!',
-    Charset              => 'iso-8859-15',
-    MimeType             => 'text/plain', # "text/plain" or "text/html"
-    Body                 => 'Some nice text',
-    InReplyTo            => '<somemessageid-2@example.com>',
-    References           => '<somemessageid-1@example.com> <somemessageid-2@example.com>',
-    Sign => \{
-        Type    => 'PGP',
-        SubType => 'Inline|Detached',
-        Key     => '81877F5E',
-
-        Type => 'SMIME',
-        Key  => '3b630c80',
-    \},
-    Crypt => \{
-        Type    => 'PGP',
-        SubType => 'Inline|Detached',
-        Key     => '81877F5E',
-    \},
-);
-}${2:my \$Sent = \$EmailObject->Send(
+${1:my \$Sent = \$EmailObject->Send(
     From          => 'me@example.com',
     To            => 'friend@example.com',                         # required if both Cc and Bcc are not present
     Cc            => 'Some Customer B <customer-b@example.com>',   # required if both To and Bcc are not present
@@ -57,10 +34,33 @@ ${1:my \$Sent = \$EmailObject->Send(                   (Backwards compatibility)
         SignKey     => '81877F5E',                  # Optional
         EncryptKeys => [ '81877F5E', '3b630c80' ],  # Optional
     \}
-);
-}
+);}
+${2:my \$Sent = \$EmailObject->Send(                   (Backwards compatibility)
+    From                 => 'me@example.com',
+    To                   => 'friend@example.com',
+    Subject              => 'Some words!',
+    Charset              => 'iso-8859-15',
+    MimeType             => 'text/plain', # "text/plain" or "text/html"
+    Body                 => 'Some nice text',
+    InReplyTo            => '<somemessageid-2@example.com>',
+    References           => '<somemessageid-1@example.com> <somemessageid-2@example.com>',
+    Sign => \{
+        Type    => 'PGP',
+        SubType => 'Inline|Detached',
+        Key     => '81877F5E',
+
+        Type => 'SMIME',
+        Key  => '3b630c80',
+    \},
+    Crypt => \{
+        Type    => 'PGP',
+        SubType => 'Inline|Detached',
+        Key     => '81877F5E',
+    \},
+);}
+
 ]]></content>
     <tabTrigger>znuny.EmailObject.Send</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

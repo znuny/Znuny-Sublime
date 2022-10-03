@@ -3,10 +3,10 @@
 ${1:my \$HasExpired = \$OAuth2TokenObject->HasRefreshTokenExpired(
     TokenConfigID => \$TokenConfigID,
     UserID        => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.OAuth2TokenObject.HasRefreshTokenExpired</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my %ArticleSenderTypeList = \$ArticleObject->ArticleSenderTypeList();
-}
+${1:my %ArticleSenderTypeList = \$ArticleObject->ArticleSenderTypeList();}
+
 ]]></content>
     <tabTrigger>znuny.ArticleObject.ArticleSenderTypeList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

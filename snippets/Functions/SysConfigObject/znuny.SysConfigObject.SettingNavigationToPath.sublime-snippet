@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my @Path = \$SysConfigObject->SettingNavigationToPath(
     Navigation => 'Frontend::Agent::ToolBarModule',  # (optional)
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SysConfigObject.SettingNavigationToPath</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

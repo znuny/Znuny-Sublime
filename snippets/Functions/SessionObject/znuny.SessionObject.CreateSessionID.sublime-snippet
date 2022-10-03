@@ -3,10 +3,10 @@
 ${1:my \$SessionID = \$SessionObject->CreateSessionID(
     UserLogin => 'root',
     UserEmail => 'root@example.com',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SessionObject.CreateSessionID</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

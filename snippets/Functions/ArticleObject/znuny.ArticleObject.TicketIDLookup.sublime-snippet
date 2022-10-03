@@ -1,14 +1,11 @@
 <snippet>
     <content><![CDATA[
-${1:my \$TicketID = \$TicketObject->TicketIDLookup(
-    TicketNumber => \$TicketNumber,
-);
-}${2:my \$TicketID = \$ArticleObject->TicketIDLookup(
+${1:my \$TicketID = \$ArticleObject->TicketIDLookup(
     ArticleID => \$ArticleID,   # required
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.ArticleObject.TicketIDLookup</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-my \$WebUserAgentObject = Kernel::System::WebUserAgent
+my $WebUserAgentObject = Kernel::System::WebUserAgent
 ]]></content>
     <tabTrigger>znuny.ObjectManager.WebUserAgentObject</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

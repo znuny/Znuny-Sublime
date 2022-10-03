@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-my \$ValidObject = \$Kernel::OM->Get('Kernel::System::Valid');
+my $ValidObject = $Kernel::OM->Get('Kernel::System::Valid');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.ValidObject</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

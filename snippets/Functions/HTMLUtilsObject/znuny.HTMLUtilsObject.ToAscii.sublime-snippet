@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my \$Ascii = \$HTMLUtilsObject->ToAscii( String => \$String );
-}
+${1:my \$Ascii = \$HTMLUtilsObject->ToAscii( String => \$String );}
+
 ]]></content>
     <tabTrigger>znuny.HTMLUtilsObject.ToAscii</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

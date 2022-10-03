@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my (\$TicketNumber, \$TicketID) = \$PostMasterObject->CheckFollowUp(
     Subject => 'Re: [Ticket:#123456] Some Subject',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.PostMasterObject.CheckFollowUp</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

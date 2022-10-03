@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:if ( \$AuthObject->Auth( User => \$User, Pw => \$Pw ) ) \{
+    print "Auth ok!\n";
+\}
+else \{
+    print "Auth invalid!\n";
+\}}
+${2:my \$User = \$AuthObject->Auth(
+    User => \$User,
+    Pw   => \$Pw,
+);}
+
+]]></content>
+    <tabTrigger>znuny.AuthObject.Auth</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

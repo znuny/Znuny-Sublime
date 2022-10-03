@@ -9,10 +9,10 @@ ${1:my \$Success = \$UnitTestEmailObject->EmailValidate(
                                                                  #    example: [ qr\{To\:\sto\@test.com\}xms, qr\{To\:\scc\@test.com\}xms, ],
     Body           => qr\{Hello [ ] World\}xms,                    # Regex or string that the body of the sent emails have to match
     ToArray        => 'email1realrecipient1@test.com',           # Array of strings, string, array of regexes or regex with recipients the sent emails have to match
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.UnitTestEmailObject.EmailValidate</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

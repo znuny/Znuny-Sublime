@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my @TranslationStrings = \$LanguageObject->GetJSTemplateTranslatableStrings(
     ModuleDirectory  => "\$Home/...",  # optional, translates the Znuny module in the given directory
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.LanguageObject.GetJSTemplateTranslatableStrings</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

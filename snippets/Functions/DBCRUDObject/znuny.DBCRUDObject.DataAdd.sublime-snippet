@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$DBCRUDObject->DataAdd(
+    ID          => '...',
+    '...',
+    CreateTime  => '...', # optional
+    ChangeTime  => '...', # optional
+);}
+
+]]></content>
+    <tabTrigger>znuny.DBCRUDObject.DataAdd</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

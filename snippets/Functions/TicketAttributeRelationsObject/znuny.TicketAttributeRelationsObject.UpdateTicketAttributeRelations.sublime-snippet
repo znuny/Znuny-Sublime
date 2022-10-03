@@ -7,10 +7,10 @@ ${1:my \$Success = \$TicketAttributeRelationsObject->UpdateTicketAttributeRelati
     DynamicFieldConfigUpdate => 1, # optional, this option will create dynamic field values for the csv file
     Priority                 => 123,
     UserID                   => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.TicketAttributeRelationsObject.UpdateTicketAttributeRelations</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

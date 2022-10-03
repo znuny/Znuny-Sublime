@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Output = \$LayoutObject->CustomerUserAddressBookListShow(
+    CustomerUserIDs => \$CustomerUserIDsRef,                      # total list of customer user ids, that can be listed
+    Total           => scalar @\{ \$CustomerUserIDsRef \},          # total number of customer user ids
+    View            => \$Self->\{View\},                            # optional, the default value is 'AddressBook'
+    Filter          => 'All',
+    Filters         => \%NavBarFilter,
+    LinkFilter      => \$LinkFilter,
+    TitleName       => 'Overview: CustomerUsers',
+    TitleValue      => \$Self->\{Filter\},
+    Env             => \$Self,
+    LinkPage        => \$LinkPage,
+    LinkSort        => \$LinkSort,
+    Frontend        => 'Agent',                                  # optional (Agent|Customer), default: Agent, indicates from which frontend this function was called
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.CustomerUserAddressBookListShow</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

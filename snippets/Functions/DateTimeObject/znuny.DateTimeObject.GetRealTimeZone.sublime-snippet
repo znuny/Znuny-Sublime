@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:# You can also call this function without an object:
+my \$TimeZone = Kernel::System::DateTime->GetRealTimeZone( TimeZone => 'Africa/Addis_Ababa' );}
+${2:my \$TimeZone = \$DateTimeObject->GetRealTimeZone( TimeZone => 'Africa/Addis_Ababa' );}
+
+]]></content>
+    <tabTrigger>znuny.DateTimeObject.GetRealTimeZone</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

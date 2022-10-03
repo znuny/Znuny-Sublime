@@ -11,8 +11,8 @@ ${1:my \$Value = \$BackendObject->EditFieldValueGet(
     ReturnTemplateStructure => 1,                   # 0 || 1, default 0
                                                     #   Returns the structured values as got from the http request
                                                     #   (only for backend internal use).
-);
-}${2:my \$Value = \$BackendObject->EditFieldValueGet(
+);}
+${2:my \$Value = \$BackendObject->EditFieldValueGet(
     DynamicFieldConfig   => \$DynamicFieldConfig,    # complete config of the DynamicField
     ParamObject          => \$ParamObject,           # the current request data
     LayoutObject         => \$LayoutObject,          # used to transform dates to user time zone
@@ -25,10 +25,10 @@ ${1:my \$Value = \$BackendObject->EditFieldValueGet(
                                                     #   (only for backend internal use).
     ReturnTemplateStructure => 0,                   # 0 || 1, default 0
                                                     #   Returns the structured values as got from the http request
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.BackendObject.EditFieldValueGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

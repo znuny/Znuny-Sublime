@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my \$Success = \$UnitTestEmailObject->MailBackendSetup();
-}
+${1:my \$Success = \$UnitTestEmailObject->MailBackendSetup();}
+
 ]]></content>
     <tabTrigger>znuny.UnitTestEmailObject.MailBackendSetup</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -3,10 +3,10 @@
 ${1:my %PossibleTypesList = \$LinkObject->PossibleTypesList(
     Object1 => 'Ticket',
     Object2 => 'FAQ',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.LinkObject.PossibleTypesList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

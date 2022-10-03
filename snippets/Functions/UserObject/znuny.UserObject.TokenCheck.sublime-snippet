@@ -3,10 +3,10 @@
 ${1:my \$Valid = \$UserObject->TokenCheck(
     Token  => \$Token,
     UserID => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.UserObject.TokenCheck</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

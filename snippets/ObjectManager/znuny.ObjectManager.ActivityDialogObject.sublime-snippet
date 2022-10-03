@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-my \$ActivityDialogObject = \$Kernel::OM->Get('Kernel::System::ProcessManagement::ActivityDialog');
+my $ActivityDialogObject = $Kernel::OM->Get('Kernel::System::ProcessManagement::ActivityDialog');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.ActivityDialogObject</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

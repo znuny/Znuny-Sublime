@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my \$Success = \$UnitTestWebUserAgentObject->Reset();
-}
+${1:my \$Success = \$UnitTestWebUserAgentObject->Reset();}
+
 ]]></content>
     <tabTrigger>znuny.UnitTestWebUserAgentObject.Reset</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

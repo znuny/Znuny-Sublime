@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-my \$YAMLObject = \$Kernel::OM->Get('Kernel::System::YAML');
+my $YAMLObject = $Kernel::OM->Get('Kernel::System::YAML');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.YAMLObject</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

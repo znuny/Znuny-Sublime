@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:# You can also call this function without an object:
+my \$Valid = Kernel::System::DateTime->IsTimeZoneValid( TimeZone => 'Europe/Berlin' );}
+${2:my \$Valid = \$DateTimeObject->IsTimeZoneValid( TimeZone => 'Europe/Berlin' );}
+
+]]></content>
+    <tabTrigger>znuny.DateTimeObject.IsTimeZoneValid</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

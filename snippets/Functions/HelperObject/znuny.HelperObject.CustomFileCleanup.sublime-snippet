@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:\$HelperObject->CustomFileCleanup();
-}
+${1:\$HelperObject->CustomFileCleanup();}
+
 ]]></content>
     <tabTrigger>znuny.HelperObject.CustomFileCleanup</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

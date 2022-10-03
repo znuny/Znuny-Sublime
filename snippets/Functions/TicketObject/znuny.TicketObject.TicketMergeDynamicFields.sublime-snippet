@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketMergeDynamicFields(
+    MainTicketID  => \$MainTicketID,
+    MergeTicketID => \$MergeTicketID,
+    UserID        => \$UserID,
+    DynamicFields => ['DynamicField_TicketFreeText1'], # optional
+);}
+
+]]></content>
+    <tabTrigger>znuny.TicketObject.TicketMergeDynamicFields</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

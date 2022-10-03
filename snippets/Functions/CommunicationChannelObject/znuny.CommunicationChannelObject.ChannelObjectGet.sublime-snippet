@@ -1,14 +1,14 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$Object = \$CommunicationChannelObject->ChannelObjectGet(
-    ChannelName => 'Email',     # ChannelName or ChannelID required
-);
-}${2:my \$Object = \$CommunicationChannelObject->ChannelObjectGet(
     ChannelID => \$ChannelID,             # ChannelName or ChannelID required
-);
-}
+);}
+${2:my \$Object = \$CommunicationChannelObject->ChannelObjectGet(
+    ChannelName => 'Email',     # ChannelName or ChannelID required
+);}
+
 ]]></content>
     <tabTrigger>znuny.CommunicationChannelObject.ChannelObjectGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

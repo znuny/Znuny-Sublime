@@ -2,13 +2,13 @@
     <content><![CDATA[
 ${1:my \$StandardTemplateID = \$StandardTemplateObject->StandardTemplateLookup(
     StandardTemplate => 'Std Template Name',
-);
-}${2:my \$StandardTemplateName = \$StandardTemplateObject->StandardTemplateLookup(
+);}
+${2:my \$StandardTemplateName = \$StandardTemplateObject->StandardTemplateLookup(
     StandardTemplateID => \$StandardTemplateID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.StandardTemplateObject.StandardTemplateLookup</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

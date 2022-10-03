@@ -7,10 +7,10 @@ ${1:\$True = \$LinkObject->LinkDelete(
     Key2    => '5',
     Type    => 'Normal',
     UserID  => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.LinkObject.LinkDelete</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

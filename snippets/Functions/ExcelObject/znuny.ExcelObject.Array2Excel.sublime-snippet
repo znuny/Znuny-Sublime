@@ -1,0 +1,154 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ExcelFileContent = \$ExcelObject->Array2Excel(
+    Data => [
+        \{
+            Name        => 'Overview',
+            FreezePanes => [
+                \{
+                    Row    => 2,
+                    Column => 0,
+                \},
+            ],
+            TableData   => [
+                [
+                    \{
+                        Format => \{
+                            right    => 1,
+                            bg_color => 'silver',
+                        \}
+                    \},
+                    \{
+                        Format => \{
+                            left     => 1,
+                            right    => 1,
+                            bg_color => 'silver',
+                        \}
+                    \},
+                    \{
+                        Format => \{
+                            left     => 1,
+                            right    => 1,
+                            bg_color => 'silver',
+                        \}
+                    \},
+                    \{
+                        Value  => 'Response Time',
+                        Merge  => 1,
+                        Format => \{
+                            border   => 1,
+                            bg_color => 'silver',
+                            valign   => 'vcentre',
+                            align    => 'center',
+                        \}
+                    \},
+                    \{
+                        Merge => 2,
+                    \},
+                    \{
+                        Merge => 3,
+                    \},
+                    \{
+                        Value  => 'Solution Time',
+                        Merge  => 1,
+                        Format => \{
+                            border   => 1,
+                            bg_color => 'silver',
+                            valign   => 'vcentre',
+                            align    => 'center',
+                        \}
+                    \},
+                    \{
+                        Merge => 2,
+                    \},
+                    \{
+                        Merge => 3,
+                    \},
+                ],
+                [
+                    \{
+                        Value  => 'Service',
+                        Format => \{
+                            right    => 1,
+                            bottom   => 1,
+                            bg_color => 'silver',
+                            valign   => 'vcentre',
+                            align    => 'center',
+                        \}
+                    \},
+                    \{
+                        Value  => 'SLA',
+                        Format => \{
+                            left     => 1,
+                            right    => 1,
+                            bottom   => 1,
+                            bg_color => 'silver',
+                            valign   => 'vcentre',
+                            align    => 'center',
+                        \}
+                    \},
+                    \{
+                        Value  => '#Tickets',
+                        Format => \{
+                            left     => 1,
+                            right    => 1,
+                            bottom   => 1,
+                            bg_color => 'silver',
+                            valign   => 'vcentre',
+                            align    => 'center',
+                        \}
+                    \},
+                    \{
+                        Value  => '#IN',
+                        Format => \{
+                            border   => 1,
+                            bg_color => 'silver',
+                        \}
+                    \},
+                    \{
+                        Value  => '%IN',
+                        Format => \{
+                            border   => 1,
+                            bg_color => 'silver',
+                        \}
+                    \},
+                    \{
+                        Value  => '#OUT',
+                        Format => \{
+                            border   => 1,
+                            bg_color => 'silver',
+                        \}
+                    \},
+                    \{
+                        Value  => '#IN',
+                        Format => \{
+                            border   => 1,
+                            bg_color => 'silver',
+                        \}
+                    \},
+                    \{
+                        Value  => '%IN',
+                        Format => \{
+                            border   => 1,
+                            bg_color => 'silver',
+                        \}
+                    \},
+                    \{
+                        Value  => '#OUT',
+                        Format => \{
+                            border   => 1,
+                            bg_color => 'silver',
+                        \}
+                    \},
+                ],
+                ...
+            ],
+        \},
+    ],
+);}
+
+]]></content>
+    <tabTrigger>znuny.ExcelObject.Array2Excel</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

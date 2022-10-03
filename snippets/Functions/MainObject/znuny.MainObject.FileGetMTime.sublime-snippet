@@ -5,10 +5,10 @@ ${1:my \$FileMTime = \$MainObject->FileGetMTime(
     Filename  => 'me_to/alal.xml',
     # or Location
     Location  => 'c:\some\location\me_to\alal.xml'
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.MainObject.FileGetMTime</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

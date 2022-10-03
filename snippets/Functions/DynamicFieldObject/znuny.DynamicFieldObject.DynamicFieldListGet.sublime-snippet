@@ -1,7 +1,6 @@
 <snippet>
     <content><![CDATA[
-${1:my \$List = \$DynamicFieldObject->DynamicFieldListGet();
-}${2:my \$List = \$DynamicFieldObject->DynamicFieldListGet(
+${1:my \$List = \$DynamicFieldObject->DynamicFieldListGet(
     Valid        => 0,            # optional, defaults to 1
 
     # object  type (optional) as STRING or as ARRAYREF
@@ -15,10 +14,11 @@ ${1:my \$List = \$DynamicFieldObject->DynamicFieldListGet();
         otherfield   => 0,
     \},
 
-);
-}
+);}
+${2:my \$List = \$DynamicFieldObject->DynamicFieldListGet();}
+
 ]]></content>
     <tabTrigger>znuny.DynamicFieldObject.DynamicFieldListGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

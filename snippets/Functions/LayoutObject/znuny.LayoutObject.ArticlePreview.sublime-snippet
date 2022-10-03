@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ArticlePreview = \$LayoutObject->ArticlePreview(
+    TicketID   => \$TicketID,     # (required)
+    ArticleID  => \$ArticleID,     # (required)
+    ResultType => 'plain', # (optional) plain|HTML, default: HTML
+    MaxLength  => 50,      # (optional) performs trimming (for plain result only)
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.ArticlePreview</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

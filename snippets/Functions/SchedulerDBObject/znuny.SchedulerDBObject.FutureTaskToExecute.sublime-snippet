@@ -3,10 +3,10 @@
 ${1:my \$Success = \$SchedulerDBObject->FutureTaskToExecute(
     NodeID => \$NodeID,    # the ID of the node in a cluster environment
     PID    => \$PID,  # the process ID of the daemon that is moving the tasks to execution
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SchedulerDBObject.FutureTaskToExecute</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -3,10 +3,10 @@
 ${1:\$WebUploadCacheObject->FormIDRemoveFile(
     FormID => \$FormID,
     FileID => \$FileID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.WebUploadCacheObject.FormIDRemoveFile</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

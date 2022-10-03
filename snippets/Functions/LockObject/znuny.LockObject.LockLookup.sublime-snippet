@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
-${1:my \$Lock = \$LockObject->LockLookup( LockID => 2 );
-}${2:my \$LockID = \$LockObject->LockLookup( Lock => 'lock' );
-}
+${1:my \$Lock = \$LockObject->LockLookup( LockID => 2 );}
+${2:my \$LockID = \$LockObject->LockLookup( Lock => 'lock' );}
+
 ]]></content>
     <tabTrigger>znuny.LockObject.LockLookup</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

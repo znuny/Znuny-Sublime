@@ -4,16 +4,16 @@ ${1:\$TimeObject->VacationCheck(
     Year     => 2005,
     Month    => 7 || '07',
     Day      => 13,
-);
-}${2:\$TimeObject->VacationCheck(
+    Calendar => 3, # '' is default; 0 is handled like ''
+);}
+${2:\$TimeObject->VacationCheck(
     Year     => 2005,
     Month    => 7 || '07',
     Day      => 13,
-    Calendar => 3, # '' is default; 0 is handled like ''
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.TimeObject.VacationCheck</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

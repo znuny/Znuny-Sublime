@@ -1,52 +1,6 @@
 <snippet>
     <content><![CDATA[
 ${1:my %Response = \$WebUserAgentObject->Request(
-    URL => 'http://example.com/somedata.xml',
-    SkipSSLVerification => 1, # (optional)
-    NoLog               => 1, # (optional)
-
-    # Returns the response content (if available) if the request was not successful.
-    # Otherwise only the status will be returned (default behavior).
-    ReturnResponseContentOnError => 1, # optional
-);
-}${2:my %Response = \$WebUserAgentObject->Request(
-    URL  => 'http://example.com/someurl',
-    Type => 'POST',
-    Data => \{ Attribute1 => 'Value', Attribute2 => 'Value2' \},
-    SkipSSLVerification => 1, # (optional)
-    NoLog               => 1, # (optional)
-
-    # Returns the response content (if available) if the request was not successful.
-    # Otherwise only the status will be returned (default behavior).
-    ReturnResponseContentOnError => 1, # optional
-);
-}${3:my %Response = \$WebUserAgentObject->Request(
-    URL  => 'http://example.com/someurl',
-    Type => 'POST',
-    Data => [ Attribute => 'Value', Attribute => 'OtherValue' ],
-    SkipSSLVerification => 1, # (optional)
-    NoLog               => 1, # (optional)
-
-    # Returns the response content (if available) if the request was not successful.
-    # Otherwise only the status will be returned (default behavior).
-    ReturnResponseContentOnError => 1, # optional
-);
-}${4:my %Response = \$WebUserAgentObject->Request(
-    URL    => 'http://example.com/someurl',
-    Type   => 'POST',
-    Data   => [ Attribute => 'Value', Attribute => 'OtherValue' ],
-    Header => \{
-        Authorization => 'Basic xxxx',
-        Content_Type  => 'text/json',
-    \},
-    SkipSSLVerification => 1, # (optional)
-    NoLog               => 1, # (optional)
-
-    # Returns the response content (if available) if the request was not successful.
-    # Otherwise only the status will be returned (default behavior).
-    ReturnResponseContentOnError => 1, # optional
-);
-}${5:my %Response = \$WebUserAgentObject->Request(
     URL          => 'http://example.com/someurl',
     Type         => 'POST',
     Data         => [ Attribute => 'Value', Attribute => 'OtherValue' ],
@@ -62,10 +16,99 @@ ${1:my %Response = \$WebUserAgentObject->Request(
     # Returns the response content (if available) if the request was not successful.
     # Otherwise only the status will be returned (default behavior).
     ReturnResponseContentOnError => 1, # optional
-);
-}
+);}
+${2:my %Response = \$WebUserAgentObject->Request(
+    URL          => 'http://example.com/someurl',
+    Type         => 'POST',
+    Data         => [ Attribute => 'Value', Attribute => 'OtherValue' ],
+    Credentials  => \{
+        User     => 'otrs_user',
+        Password => 'otrs_password',
+        Realm    => 'OTRS Unittests',
+        Location => 'download.znuny.org:80',
+    \},
+    SkipSSLVerification => 1, # (optional)
+    NoLog               => 1, # (optional)
+);}
+${3:my %Response = \$WebUserAgentObject->Request(
+    URL    => 'http://example.com/someurl',
+    Type   => 'POST',
+    Data   => [ Attribute => 'Value', Attribute => 'OtherValue' ],
+    Header => \{
+        Authorization => 'Basic xxxx',
+        Content_Type  => 'text/json',
+    \},
+    SkipSSLVerification => 1, # (optional)
+    NoLog               => 1, # (optional)
+
+    # Returns the response content (if available) if the request was not successful.
+    # Otherwise only the status will be returned (default behavior).
+    ReturnResponseContentOnError => 1, # optional
+);}
+${4:my %Response = \$WebUserAgentObject->Request(
+    URL    => 'http://example.com/someurl',
+    Type   => 'POST',
+    Data   => [ Attribute => 'Value', Attribute => 'OtherValue' ],
+    Header => \{
+        Authorization => 'Basic xxxx',
+        Content_Type  => 'text/json',
+    \},
+    SkipSSLVerification => 1, # (optional)
+    NoLog               => 1, # (optional)
+);}
+${5:my %Response = \$WebUserAgentObject->Request(
+    URL  => 'http://example.com/someurl',
+    Type => 'POST',
+    Data => [ Attribute => 'Value', Attribute => 'OtherValue' ],
+    SkipSSLVerification => 1, # (optional)
+    NoLog               => 1, # (optional)
+
+    # Returns the response content (if available) if the request was not successful.
+    # Otherwise only the status will be returned (default behavior).
+    ReturnResponseContentOnError => 1, # optional
+);}
+${6:my %Response = \$WebUserAgentObject->Request(
+    URL  => 'http://example.com/someurl',
+    Type => 'POST',
+    Data => [ Attribute => 'Value', Attribute => 'OtherValue' ],
+    SkipSSLVerification => 1, # (optional)
+    NoLog               => 1, # (optional)
+);}
+${7:my %Response = \$WebUserAgentObject->Request(
+    URL  => 'http://example.com/someurl',
+    Type => 'POST',
+    Data => \{ Attribute1 => 'Value', Attribute2 => 'Value2' \},
+    SkipSSLVerification => 1, # (optional)
+    NoLog               => 1, # (optional)
+
+    # Returns the response content (if available) if the request was not successful.
+    # Otherwise only the status will be returned (default behavior).
+    ReturnResponseContentOnError => 1, # optional
+);}
+${8:my %Response = \$WebUserAgentObject->Request(
+    URL  => 'http://example.com/someurl',
+    Type => 'POST',
+    Data => \{ Attribute1 => 'Value', Attribute2 => 'Value2' \},
+    SkipSSLVerification => 1, # (optional)
+    NoLog               => 1, # (optional)
+);}
+${9:my %Response = \$WebUserAgentObject->Request(
+    URL => 'http://example.com/somedata.xml',
+    SkipSSLVerification => 1, # (optional)
+    NoLog               => 1, # (optional)
+
+    # Returns the response content (if available) if the request was not successful.
+    # Otherwise only the status will be returned (default behavior).
+    ReturnResponseContentOnError => 1, # optional
+);}
+${10:my %Response = \$WebUserAgentObject->Request(
+    URL => 'http://example.com/somedata.xml',
+    SkipSSLVerification => 1, # (optional)
+    NoLog               => 1, # (optional)
+);}
+
 ]]></content>
     <tabTrigger>znuny.WebUserAgentObject.Request</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

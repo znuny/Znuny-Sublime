@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my (\$FileHandle, \$Filename) = \$FileTempObject->TempFile(
     Suffix => '.png',   # optional, defaults to '.tmp'
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.FileTempObject.TempFile</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

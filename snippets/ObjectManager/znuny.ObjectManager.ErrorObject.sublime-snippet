@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-my \$ErrorObject = \$Kernel::OM->Get('Kernel::GenericInterface::ErrorHandling');
+my $ErrorObject = $Kernel::OM->Get('Kernel::GenericInterface::ErrorHandling');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.ErrorObject</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

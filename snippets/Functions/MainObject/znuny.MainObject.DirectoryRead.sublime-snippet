@@ -3,28 +3,28 @@
 ${1:my @FilesInDirectory = \$MainObject->DirectoryRead(
     Directory => \$Path,
     Filter    => '*',
-);
-}${2:my @FilesInDirectory = \$MainObject->DirectoryRead(
-    Directory => '/tmp',
-    Filter    => 'Filenam*',
-);
-}${3:my @FilesInDirectory = \$MainObject->DirectoryRead(
-    Directory => '/tmp',
-    Filter    => \@MyFilters,
-);
-}${4:my @FilesInDirectory = \$MainObject->DirectoryRead(
+    Recursive => 1,
+);}
+${2:my @FilesInDirectory = \$MainObject->DirectoryRead(
     Directory => \$Path,
     Filter    => '*',
-    Recursive => 1,
-);
-}${5:my @FilesInDirectory = \$MainObject->DirectoryRead(
+);}
+${3:my @FilesInDirectory = \$MainObject->DirectoryRead(
     Directory => '/special/optional/directory/',
     Filter    => '*',
     Silent    => 1,     # will not log errors if the directory does not exist
-);
-}
+);}
+${4:my @FilesInDirectory = \$MainObject->DirectoryRead(
+    Directory => '/tmp',
+    Filter    => 'Filenam*',
+);}
+${5:my @FilesInDirectory = \$MainObject->DirectoryRead(
+    Directory => '/tmp',
+    Filter    => \@MyFilters,
+);}
+
 ]]></content>
     <tabTrigger>znuny.MainObject.DirectoryRead</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

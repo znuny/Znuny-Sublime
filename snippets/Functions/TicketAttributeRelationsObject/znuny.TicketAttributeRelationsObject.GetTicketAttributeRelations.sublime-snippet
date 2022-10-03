@@ -6,10 +6,10 @@ ${1:my \$TicketAttributeRelations = \$TicketAttributeRelationsObject->GetTicketA
     # Filename => 'test.csv',
 
     UserID  => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.TicketAttributeRelationsObject.GetTicketAttributeRelations</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

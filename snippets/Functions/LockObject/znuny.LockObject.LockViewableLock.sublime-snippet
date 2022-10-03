@@ -1,14 +1,14 @@
 <snippet>
     <content><![CDATA[
-${1:my @ListID = \$LockObject->LockViewableLock(
-    Type => 'ID', # ID|Name
-);
-}${2:my @List = \$LockObject->LockViewableLock(
+${1:my @List = \$LockObject->LockViewableLock(
     Type => 'Name', # ID|Name
-);
-}
+);}
+${2:my @ListID = \$LockObject->LockViewableLock(
+    Type => 'ID', # ID|Name
+);}
+
 ]]></content>
     <tabTrigger>znuny.LockObject.LockViewableLock</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

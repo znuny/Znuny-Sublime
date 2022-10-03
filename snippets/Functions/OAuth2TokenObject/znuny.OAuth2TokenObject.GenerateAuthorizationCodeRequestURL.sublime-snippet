@@ -3,10 +3,10 @@
 ${1:my \$URL = \$OAuth2TokenObject->GenerateAuthorizationCodeRequestURL(
     TokenConfigID => \$TokenConfigID,
     UserID        => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.OAuth2TokenObject.GenerateAuthorizationCodeRequestURL</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

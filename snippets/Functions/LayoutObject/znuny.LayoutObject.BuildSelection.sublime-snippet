@@ -49,10 +49,10 @@ ${1:my \$HTML = \$LayoutObject->BuildSelection(
 
     ValidateDateAfter  => '2016-01-01',  # (optional) validate that date is after supplied value
     ValidateDateBefore => '2016-01-01',  # (optional) validate that date is before supplied value
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.LayoutObject.BuildSelection</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

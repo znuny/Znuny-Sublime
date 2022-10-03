@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Hostname = \$HelperObject->GetTestHTTPHostname();}
+
+]]></content>
+    <tabTrigger>znuny.HelperObject.GetTestHTTPHostname</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

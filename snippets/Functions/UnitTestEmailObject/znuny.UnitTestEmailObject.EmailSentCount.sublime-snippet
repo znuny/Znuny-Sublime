@@ -4,10 +4,10 @@ ${1:\$UnitTestEmailObject->EmailSentCount(
     UnitTestObject => \$Self,
     Count          => 3,                               # Expected number of sent emails
     Message        => '3 emails must have been sent.', # Message printed for unit test
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.UnitTestEmailObject.EmailSentCount</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$ID = \$TicketObject->HistoryTypeLookup( Type => 'Move' );
-}
-]]></content>
-    <tabTrigger>znuny.ArticleObject.HistoryTypeLookup</tabTrigger>
-    <description>6</description>
-    <scope>source.perl</scope>
-</snippet>

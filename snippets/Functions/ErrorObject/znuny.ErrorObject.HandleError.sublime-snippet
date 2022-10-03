@@ -10,10 +10,10 @@ ${1:my \$Result =  \$ErrorObject->HandleError(
     Summary           => \$ErrorSummary,
     Data              => \$ErrorData,
     PastExecutionData => \$PastExecutionDataStructure,   # optional
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.ErrorObject.HandleError</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

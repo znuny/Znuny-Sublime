@@ -12,10 +12,10 @@ ${1:my \$Success = \$VirtualFSObject->Write(
         ContentAlternative => 1,
         SomeCustomParams   => 'with our own value',
     \},
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.VirtualFSObject.Write</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

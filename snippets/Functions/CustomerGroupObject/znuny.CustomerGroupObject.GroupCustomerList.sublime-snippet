@@ -1,50 +1,50 @@
 <snippet>
     <content><![CDATA[
-${1:my @CustomerIDs = \$CustomerGroupObject->GroupCustomerList(
-    GroupID => \$GroupID,
-    Type    => 'ro',    # ro|move_into|priority|create|owner|rw
-    Context => 'Ticket::CustomerID::Same',
-                        # permissions to same company tickets, default context
-    Result  => 'ID',    # return array of customer ids
-);
-}${2:my @CustomerNames = \$CustomerGroupObject->GroupCustomerList(
-    GroupID => \$GroupID,
-    Type    => 'ro',    # ro|move_into|priority|create|owner|rw
-    Context => 'Ticket::CustomerID::Same',
-                        # permissions to same company tickets, default context
-    Result  => 'Name',  # return array of customer ids
-);
-}${3:my @GroupIDs = \$CustomerGroupObject->GroupCustomerList(
-    CustomerID => \$CustomerID,
-    Type       => 'ro',     # ro|move_into|priority|create|owner|rw
-    Context => 'Ticket::CustomerID::Same',
-                        # permissions to same company tickets, default context
-    Result     => 'ID',     # return array of group ids
-);
-}${4:my @GroupNames = \$CustomerGroupObject->GroupCustomerList(
-    CustomerID => \$CustomerID,
-    Type       => 'ro',     # ro|move_into|priority|create|owner|rw
-    Context => 'Ticket::CustomerID::Same',
-                        # permissions to same company tickets, default context
-    Result     => 'Name',   # return array of group names
-);
-}${5:my %Customers = \$CustomerGroupObject->GroupCustomerList(
+${1:my %Customers = \$CustomerGroupObject->GroupCustomerList(
     GroupID => \$GroupID,
     Type    => 'ro',    # ro|move_into|priority|create|owner|rw
     Context => 'Ticket::CustomerID::Same',
                         # permissions to same company tickets, default context
     Result  => 'HASH',  # return hash of customer id => group name entries
-);
-}${6:my %Groups = \$CustomerGroupObject->GroupCustomerList(
+);}
+${2:my %Groups = \$CustomerGroupObject->GroupCustomerList(
     CustomerID => \$CustomerID,
     Type       => 'ro',     # ro|move_into|priority|create|owner|rw
     Context => 'Ticket::CustomerID::Same',
                         # permissions to same company tickets, default context
     Result     => 'HASH',   # return hash of group id => group name entries
-);
-}
+);}
+${3:my @CustomerIDs = \$CustomerGroupObject->GroupCustomerList(
+    GroupID => \$GroupID,
+    Type    => 'ro',    # ro|move_into|priority|create|owner|rw
+    Context => 'Ticket::CustomerID::Same',
+                        # permissions to same company tickets, default context
+    Result  => 'ID',    # return array of customer ids
+);}
+${4:my @CustomerNames = \$CustomerGroupObject->GroupCustomerList(
+    GroupID => \$GroupID,
+    Type    => 'ro',    # ro|move_into|priority|create|owner|rw
+    Context => 'Ticket::CustomerID::Same',
+                        # permissions to same company tickets, default context
+    Result  => 'Name',  # return array of customer ids
+);}
+${5:my @GroupIDs = \$CustomerGroupObject->GroupCustomerList(
+    CustomerID => \$CustomerID,
+    Type       => 'ro',     # ro|move_into|priority|create|owner|rw
+    Context => 'Ticket::CustomerID::Same',
+                        # permissions to same company tickets, default context
+    Result     => 'ID',     # return array of group ids
+);}
+${6:my @GroupNames = \$CustomerGroupObject->GroupCustomerList(
+    CustomerID => \$CustomerID,
+    Type       => 'ro',     # ro|move_into|priority|create|owner|rw
+    Context => 'Ticket::CustomerID::Same',
+                        # permissions to same company tickets, default context
+    Result     => 'Name',   # return array of group names
+);}
+
 ]]></content>
     <tabTrigger>znuny.CustomerGroupObject.GroupCustomerList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

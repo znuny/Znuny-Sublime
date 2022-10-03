@@ -8,10 +8,10 @@ ${1:my \$ExclusiveLockGUID = \$SysConfigObject->SettingLock(
     LockAll   => 1,                     # system locks all settings
     Force     => 1,                     # (optional) Force locking (do not check if it's already locked by another user). Default: 0.
     UserID    => \$UserID,                     # (required)
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SysConfigObject.SettingLock</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

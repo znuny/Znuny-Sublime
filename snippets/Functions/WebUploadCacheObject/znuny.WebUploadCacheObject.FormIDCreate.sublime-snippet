@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my \$FormID = \$WebUploadCacheObject->FormIDCreate();
-}
+${1:my \$FormID = \$WebUploadCacheObject->FormIDCreate();}
+
 ]]></content>
     <tabTrigger>znuny.WebUploadCacheObject.FormIDCreate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

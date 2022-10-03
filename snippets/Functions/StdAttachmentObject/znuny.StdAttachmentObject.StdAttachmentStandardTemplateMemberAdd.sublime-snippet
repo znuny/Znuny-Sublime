@@ -5,10 +5,10 @@ ${1:my \$Success = \$StdAttachmentObject->StdAttachmentStandardTemplateMemberAdd
     StandardTemplateID => \$StandardTemplateID,
     Active             => 1,        # optional
     UserID             => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.StdAttachmentObject.StdAttachmentStandardTemplateMemberAdd</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

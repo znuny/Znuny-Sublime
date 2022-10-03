@@ -1,14 +1,14 @@
 <snippet>
     <content><![CDATA[
-my \$PostMasterObject = \$Kernel::OM->Create(
+my $PostMasterObject = $Kernel::OM->Create(
         'Kernel::System::PostMaster',
-        ObjectParams => \{
+        ObjectParams => {
             Email        => \@ArrayOfEmailContent,
             Trusted      => 1, # 1|0 ignore X-OTRS header if false
-        \},
+        },
     );
 ]]></content>
     <tabTrigger>znuny.ObjectManager.PostMasterObject</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

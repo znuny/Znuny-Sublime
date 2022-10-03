@@ -1,12 +1,6 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$Success = \$UnitTestWebserviceObject->OperationFunctionCall(
-    Webservice    => 'webservice-name',
-    Operation     => 'operation-name',
-    Function      => 'function',
-    Data          => \{\},
-);
-}${2:my \$Success = \$UnitTestWebserviceObject->OperationFunctionCall(
     Webservice           => 'webservice-name',
     Operation            => 'operation-name',
     Function             => 'function',
@@ -18,10 +12,16 @@ ${1:my \$Success = \$UnitTestWebserviceObject->OperationFunctionCall(
 
         return 1;
     \},
-);
-}
+);}
+${2:my \$Success = \$UnitTestWebserviceObject->OperationFunctionCall(
+    Webservice    => 'webservice-name',
+    Operation     => 'operation-name',
+    Function      => 'function',
+    Data          => \{\},
+);}
+
 ]]></content>
     <tabTrigger>znuny.UnitTestWebserviceObject.OperationFunctionCall</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

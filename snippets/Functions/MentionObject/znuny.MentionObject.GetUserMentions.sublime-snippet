@@ -10,10 +10,10 @@ ${1:my \$Mentions = \$MentionObject->GetUserMentions(
 
     OrderBy    => 'create_time', # optional; default
     SortOrder  => 'ASC', # or 'DESC', optional; default
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.MentionObject.GetUserMentions</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

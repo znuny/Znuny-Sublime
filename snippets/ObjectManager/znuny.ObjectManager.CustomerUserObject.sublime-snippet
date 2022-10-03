@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-my \$CustomerUserObject = \$Kernel::OM->Get('Kernel::System::CustomerUser');
+my $CustomerUserObject = $Kernel::OM->Get('Kernel::System::CustomerUser');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.CustomerUserObject</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -4,10 +4,10 @@ ${1:my \$Success = \$SchedulerDBObject->TaskLock(
     TaskID => \$TaskID,
     NodeID => \$NodeID,    # the id on the node in a cluster environment
     PID    => \$PID,  # the process ID of the worker that is locking the task
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SchedulerDBObject.TaskLock</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -5,10 +5,10 @@ ${1:\$HelperObject->DisableSysConfigs(
         'Ticket::Responsible'
         'DashboardBackend###0442-RSS'
     ],
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.HelperObject.DisableSysConfigs</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

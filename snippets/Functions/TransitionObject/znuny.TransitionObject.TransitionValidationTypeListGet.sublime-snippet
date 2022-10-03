@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my %TransitionValidationTypeListGet = \$TransitionObject->TransitionValidationTypeListGet();
-}
+${1:my %TransitionValidationTypeListGet = \$TransitionObject->TransitionValidationTypeListGet();}
+
 ]]></content>
     <tabTrigger>znuny.TransitionObject.TransitionValidationTypeListGet</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

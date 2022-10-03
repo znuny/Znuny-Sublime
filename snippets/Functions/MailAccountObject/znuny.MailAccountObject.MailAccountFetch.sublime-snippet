@@ -9,10 +9,10 @@ ${1:my \$Ok = \$MailAccountObject->MailAccountFetch(
     DispatchingBy => 'Queue', # Queue|From
     QueueID       => \$QueueID,
     UserID        => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.MailAccountObject.MailAccountFetch</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

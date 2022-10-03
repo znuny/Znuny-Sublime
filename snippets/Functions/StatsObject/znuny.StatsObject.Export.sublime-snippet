@@ -3,10 +3,10 @@
 ${1:my \$ExportFile = \$StatsObject->Export(
     StatID => \$StatID,
     ExportStatNumber => 1 || 0, # optional, only useful move statistics from the test system to the productive system
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.StatsObject.Export</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

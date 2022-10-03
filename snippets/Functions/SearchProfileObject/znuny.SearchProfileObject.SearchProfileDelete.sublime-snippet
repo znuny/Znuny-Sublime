@@ -4,10 +4,10 @@ ${1:\$SearchProfileObject->SearchProfileDelete(
     Base      => 'TicketSearch',
     Name      => 'last-search',
     UserLogin => 'me',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SearchProfileObject.SearchProfileDelete</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

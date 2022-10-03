@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:\$HelperObject->FixedTimeSetByTimeStamp('2004-08-14 22:45:00');
-}
+${1:\$HelperObject->FixedTimeSetByTimeStamp('2004-08-14 22:45:00');}
+
 ]]></content>
     <tabTrigger>znuny.HelperObject.FixedTimeSetByTimeStamp</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

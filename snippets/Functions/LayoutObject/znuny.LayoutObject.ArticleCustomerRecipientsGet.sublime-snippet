@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my @CustomerUserIDs = \$LayoutObject->ArticleCustomerRecipientsGet(
+    TicketID  => \$TicketID,     # (required)
+    ArticleID => \$ArticleID,     # (required)
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.ArticleCustomerRecipientsGet</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -3,10 +3,10 @@
 ${1:my \$Exists = \$SystemAddressObject->NameExistsCheck(
     Name => 'Some Address',
     ID   => 1,                  # optional
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SystemAddressObject.NameExistsCheck</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -10,10 +10,10 @@ ${1:my \$Selection = \$LayoutObject BuildSelection (
     Sort        => 'AlphanumericKey',
     Translation => 1,
     Class       => 'Modernize W50pc',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.LanguageObject.Translatable</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

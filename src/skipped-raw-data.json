@@ -1,0 +1,1240 @@
+{
+   "Files" : {
+      "/Kernel/System/AsynchronousExecutor.pm" : [
+         "6.0",
+         "6.4"
+      ],
+      "/Kernel/System/EventHandler.pm" : [
+         "6.0",
+         "6.4"
+      ],
+      "/Kernel/System/OTRSBusiness.pm" : [
+         "6.0",
+         "6.4"
+      ],
+      "/Kernel/System/ObjectManager.pm" : [
+         "6.0",
+         "6.4"
+      ],
+      "/Kernel/System/Registration.pm" : [
+         "6.0",
+         "6.4"
+      ],
+      "/Kernel/System/VariableCheck.pm" : [
+         "6.0",
+         "6.4"
+      ]
+   },
+   "Functions" : {
+      "_ArticleActionsAdd" : [
+         "6.4"
+      ],
+      "_ArticleActionsRemove" : [
+         "6.4"
+      ],
+      "_ArticleCacheClear" : [
+         "6.0",
+         "6.4"
+      ],
+      "_AssembleRequestData" : [
+         "6.4"
+      ],
+      "_AssembleResponseDataFromJSONString" : [
+         "6.4"
+      ],
+      "_AssembleResponseDataFromWebRequest" : [
+         "6.4"
+      ],
+      "_AutocorrectNonExistingDateTimeForTimeZone" : [
+         "6.0",
+         "6.4"
+      ],
+      "_BooleansProcess" : [
+         "6.0",
+         "6.4"
+      ],
+      "_BuildLastViewsOutput" : [
+         "6.4"
+      ],
+      "_BuildSelectionAttributeRefCreate" : [
+         "6.0",
+         "6.4"
+      ],
+      "_BuildSelectionDataRefCreate" : [
+         "6.0",
+         "6.4"
+      ],
+      "_BuildSelectionOptionRefCreate" : [
+         "6.0",
+         "6.4"
+      ],
+      "_BuildSelectionOutput" : [
+         "6.0",
+         "6.4"
+      ],
+      "_CPANDateTimeObjectCreate" : [
+         "6.0",
+         "6.4"
+      ],
+      "_ChannelListCacheCleanup" : [
+         "6.0",
+         "6.4"
+      ],
+      "_CheckValidEmailAddresses" : [
+         "6.0",
+         "6.4"
+      ],
+      "_CheckValidMessageData" : [
+         "6.0",
+         "6.4"
+      ],
+      "_CheckVersion" : [
+         "6.0",
+         "6.4"
+      ],
+      "_Color" : [
+         "6.0",
+         "6.4"
+      ],
+      "_ColumnAndRowTranslation" : [
+         "6.0",
+         "6.4"
+      ],
+      "_CommunicationStart" : [
+         "6.0",
+         "6.4"
+      ],
+      "_CompareMatchWithData" : [
+         "6.0",
+         "6.4"
+      ],
+      "_ConfigurationFilesDeployCheck" : [
+         "6.0",
+         "6.4"
+      ],
+      "_ConfigurationTranslatableStrings" : [
+         "6.0",
+         "6.4"
+      ],
+      "_ConfiguredRepositoryDefinitionGet" : [
+         "6.0"
+      ],
+      "_CreateExpirationDateTimeObject" : [
+         "6.4"
+      ],
+      "_CreateStaticResultCacheFilename" : [
+         "6.0",
+         "6.4"
+      ],
+      "_CurContentDimCheck" : [
+         "6.0",
+         "6.4"
+      ],
+      "_CurContentDimGet" : [
+         "6.0",
+         "6.4"
+      ],
+      "_CurContentDimSet" : [
+         "6.0",
+         "6.4"
+      ],
+      "_CurPageDimCheck" : [
+         "6.0",
+         "6.4"
+      ],
+      "_CurPageDimGet" : [
+         "6.0",
+         "6.4"
+      ],
+      "_CurPageDimSet" : [
+         "6.0",
+         "6.4"
+      ],
+      "_CurPageNumberSet" : [
+         "6.0",
+         "6.4"
+      ],
+      "_CurPositionGet" : [
+         "6.0",
+         "6.4"
+      ],
+      "_CurPositionSet" : [
+         "6.0",
+         "6.4"
+      ],
+      "_CurPrintableDimCheck" : [
+         "6.0",
+         "6.4"
+      ],
+      "_CurPrintableDimGet" : [
+         "6.0",
+         "6.4"
+      ],
+      "_CurPrintableDimSet" : [
+         "6.0",
+         "6.4"
+      ],
+      "_CustomerUserCreateIfNotExists" : [
+         "6.4"
+      ],
+      "_DBGroupRoleGet" : [
+         "6.0",
+         "6.4"
+      ],
+      "_DBGroupUserGet" : [
+         "6.0",
+         "6.4"
+      ],
+      "_DBRoleUserGet" : [
+         "6.0",
+         "6.4"
+      ],
+      "_DaysMappingGet" : [
+         "6.4"
+      ],
+      "_DaysOrderMappingGet" : [
+         "6.4"
+      ],
+      "_DecodeString" : [
+         "6.0",
+         "6.4"
+      ],
+      "_DefaultColumnsDisable" : [
+         "6.4"
+      ],
+      "_DefaultColumnsEnable" : [
+         "6.4"
+      ],
+      "_DefaultColumnsGet" : [
+         "6.4"
+      ],
+      "_DefaultSettingAddBulk" : [
+         "6.0",
+         "6.4"
+      ],
+      "_DeleteAffectedCaches" : [
+         "6.0",
+         "6.4"
+      ],
+      "_DynamicFieldReorder" : [
+         "6.0",
+         "6.4"
+      ],
+      "_DynamicFieldsConfigExport" : [
+         "6.4"
+      ],
+      "_DynamicFieldsCreate" : [
+         "6.4"
+      ],
+      "_DynamicFieldsCreateIfNotExists" : [
+         "6.4"
+      ],
+      "_DynamicFieldsDefaultColumnsGet" : [
+         "6.4"
+      ],
+      "_DynamicFieldsDelete" : [
+         "6.4"
+      ],
+      "_DynamicFieldsDisable" : [
+         "6.4"
+      ],
+      "_DynamicFieldsScreenConfigExport" : [
+         "6.4"
+      ],
+      "_DynamicFieldsScreenConfigImport" : [
+         "6.4"
+      ],
+      "_DynamicFieldsScreenDisable" : [
+         "6.4"
+      ],
+      "_DynamicFieldsScreenEnable" : [
+         "6.4"
+      ],
+      "_DynamicFieldsScreenGet" : [
+         "6.4"
+      ],
+      "_EffectiveValues2PerlFile" : [
+         "6.0",
+         "6.4"
+      ],
+      "_EventAdd" : [
+         "6.4"
+      ],
+      "_EventRemove" : [
+         "6.4"
+      ],
+      "_Excel2ArrayTicketAttributeRelationsData" : [
+         "6.4"
+      ],
+      "_FileWriteAtomic" : [
+         "6.0",
+         "6.4"
+      ],
+      "_FiltersSQLAndBinds" : [
+         "6.0",
+         "6.4"
+      ],
+      "_FrequencyStringMappingGet" : [
+         "6.4"
+      ],
+      "_FromOTRSTimeZone" : [
+         "6.0",
+         "6.4"
+      ],
+      "_GETInterface" : [
+         "6.4"
+      ],
+      "_GETRequest" : [
+         "6.4"
+      ],
+      "_GeneralCatalogItemCreateIfNotExists" : [
+         "6.4"
+      ],
+      "_GenerateDynamicStats" : [
+         "6.0",
+         "6.4"
+      ],
+      "_GenerateErrorResponse" : [
+         "6.0",
+         "6.4"
+      ],
+      "_GenerateStaticStats" : [
+         "6.0",
+         "6.4"
+      ],
+      "_GenerateTemporaryPriority" : [
+         "6.4"
+      ],
+      "_GenericAgentCreate" : [
+         "6.4"
+      ],
+      "_GenericAgentCreateIfNotExists" : [
+         "6.4"
+      ],
+      "_GetBase64EncodedArticleAttachments" : [
+         "6.4"
+      ],
+      "_GetCacheString" : [
+         "6.0",
+         "6.4"
+      ],
+      "_GetChecks" : [
+         "6.0",
+         "6.4"
+      ],
+      "_GetCommunicationLog" : [
+         "6.0",
+         "6.4"
+      ],
+      "_GetIdentifier" : [
+         "6.0",
+         "6.4"
+      ],
+      "_GetOrCreateIfNotExists" : [
+         "6.4"
+      ],
+      "_GetRequestTypes" : [
+         "6.4"
+      ],
+      "_GetResultCache" : [
+         "6.0",
+         "6.4"
+      ],
+      "_GetSettingsToDeploy" : [
+         "6.0",
+         "6.4"
+      ],
+      "_GroupCreateIfNotExists" : [
+         "6.4"
+      ],
+      "_HandleError" : [
+         "6.0",
+         "6.4"
+      ],
+      "_HandleSettingsToDeploy" : [
+         "6.0",
+         "6.4"
+      ],
+      "_Hash2GETParamString" : [
+         "6.4"
+      ],
+      "_HumanReadableAgeGet" : [
+         "6.0",
+         "6.4"
+      ],
+      "_ITSMConfigItemDefinitionCreate" : [
+         "6.4"
+      ],
+      "_ITSMConfigItemDefinitionCreateIfNotExists" : [
+         "6.4"
+      ],
+      "_ITSMConfigItemVersionAdd" : [
+         "6.4"
+      ],
+      "_ITSMConfigItemVersionExists" : [
+         "6.4"
+      ],
+      "_ITSMConfigItemVersionGet" : [
+         "6.4"
+      ],
+      "_ImportExcelValue" : [
+         "6.4"
+      ],
+      "_Init" : [
+         "6.0",
+         "6.4"
+      ],
+      "_IsExcelFilename" : [
+         "6.4"
+      ],
+      "_IsOverriddenInModule" : [
+         "6.0",
+         "6.4"
+      ],
+      "_ItemReverseListGet" : [
+         "6.4"
+      ],
+      "_JobRunTicket" : [
+         "6.0",
+         "6.4"
+      ],
+      "_LinkObjectContentStringCreate" : [
+         "6.0",
+         "6.4"
+      ],
+      "_LoadLinkObjectLayoutBackend" : [
+         "6.0",
+         "6.4"
+      ],
+      "_LogAddChain" : [
+         "6.0",
+         "6.4"
+      ],
+      "_MailAddressParse" : [
+         "6.0",
+         "6.4"
+      ],
+      "_MaskSensitiveValue" : [
+         "6.0",
+         "6.4"
+      ],
+      "_MetaArticleList" : [
+         "6.0",
+         "6.4"
+      ],
+      "_ModuleGroupAdd" : [
+         "6.4"
+      ],
+      "_ModuleGroupRemove" : [
+         "6.4"
+      ],
+      "_MonthsMappingGet" : [
+         "6.4"
+      ],
+      "_NameExistsCheck" : [
+         "6.0",
+         "6.4"
+      ],
+      "_NotificationEventCreate" : [
+         "6.4"
+      ],
+      "_NotificationEventCreateIfNotExists" : [
+         "6.4"
+      ],
+      "_OutputFilterHookExists" : [
+         "6.4"
+      ],
+      "_OutputFilterHookInsertAfter" : [
+         "6.4"
+      ],
+      "_OutputFilterHookInsertBefore" : [
+         "6.4"
+      ],
+      "_OutputFilterHookReplace" : [
+         "6.4"
+      ],
+      "_OutputFilterHookShift" : [
+         "6.4"
+      ],
+      "_OverwrittenUserAgentRestore" : [
+         "6.4"
+      ],
+      "_PackageInstallOrderListGet" : [
+         "6.0",
+         "6.4"
+      ],
+      "_PackageOnlineListGet" : [
+         "6.0",
+         "6.4"
+      ],
+      "_PackageUninstallMerged" : [
+         "6.0",
+         "6.4"
+      ],
+      "_ParseData2XML" : [
+         "6.4"
+      ],
+      "_ParseTicketAttributeRelationsData" : [
+         "6.4"
+      ],
+      "_ParseXML2Data" : [
+         "6.4"
+      ],
+      "_PermissionTypeList" : [
+         "6.0",
+         "6.4"
+      ],
+      "_PostMasterFilterConfigExport" : [
+         "6.4"
+      ],
+      "_PostMasterFilterConfigImport" : [
+         "6.4"
+      ],
+      "_PostMasterFilterCreate" : [
+         "6.4"
+      ],
+      "_PostMasterFilterCreateIfNotExists" : [
+         "6.4"
+      ],
+      "_PostReorderTicketAttributeRelationsPriorities" : [
+         "6.4"
+      ],
+      "_PostmasterXHeaderAdd" : [
+         "6.4"
+      ],
+      "_PostmasterXHeaderRemove" : [
+         "6.4"
+      ],
+      "_PreReorderTicketAttributeRelationsPriorities" : [
+         "6.4"
+      ],
+      "_PrepareText" : [
+         "6.0",
+         "6.4"
+      ],
+      "_PriorityCreateIfNotExists" : [
+         "6.4"
+      ],
+      "_ProcessCreate" : [
+         "6.4"
+      ],
+      "_ProcessCreateIfNotExists" : [
+         "6.4"
+      ],
+      "_ProcessWidgetDynamicFieldGroupsAdd" : [
+         "6.4"
+      ],
+      "_ProcessWidgetDynamicFieldGroupsGet" : [
+         "6.4"
+      ],
+      "_ProcessWidgetDynamicFieldGroupsRemove" : [
+         "6.4"
+      ],
+      "_ProcessesGet" : [
+         "6.4"
+      ],
+      "_QueueCreateIfNotExists" : [
+         "6.4"
+      ],
+      "_RebuildConfig" : [
+         "6.4"
+      ],
+      "_RedefineTransport" : [
+         "6.4"
+      ],
+      "_RemoveScriptTags" : [
+         "6.0",
+         "6.4"
+      ],
+      "_RemoveUnSupportedTag" : [
+         "6.0",
+         "6.4"
+      ],
+      "_ReplaceDataSeries" : [
+         "6.4"
+      ],
+      "_RepositoryCacheClear" : [
+         "6.0",
+         "6.4"
+      ],
+      "_RichTextReplaceLinkOfInlineContent" : [
+         "6.0",
+         "6.4"
+      ],
+      "_RoleCreateIfNotExists" : [
+         "6.4"
+      ],
+      "_SLACreateIfNotExists" : [
+         "6.4"
+      ],
+      "_SanitizeConfig" : [
+         "6.0",
+         "6.4"
+      ],
+      "_Seconds2String" : [
+         "6.0",
+         "6.4"
+      ],
+      "_SendError" : [
+         "6.0",
+         "6.4"
+      ],
+      "_SendEventNotification" : [
+         "6.0",
+         "6.4"
+      ],
+      "_SendSuccess" : [
+         "6.0",
+         "6.4"
+      ],
+      "_ServiceCreateIfNotExists" : [
+         "6.4"
+      ],
+      "_SetArticleTransmissionError" : [
+         "6.0",
+         "6.4"
+      ],
+      "_SetResultCache" : [
+         "6.0",
+         "6.4"
+      ],
+      "_SettingEffectiveValueCheck" : [
+         "6.0",
+         "6.4"
+      ],
+      "_SettingTranslatedGet" : [
+         "6.0",
+         "6.4"
+      ],
+      "_StandardTemplateCreate" : [
+         "6.4"
+      ],
+      "_StateCreateIfNotExists" : [
+         "6.4"
+      ],
+      "_StateDisable" : [
+         "6.4"
+      ],
+      "_StateTypeCreateIfNotExists" : [
+         "6.4"
+      ],
+      "_StringToHash" : [
+         "6.0",
+         "6.4"
+      ],
+      "_StringWidth" : [
+         "6.0",
+         "6.4"
+      ],
+      "_SystemDataCacheKeyDelete" : [
+         "6.0",
+         "6.4"
+      ],
+      "_TableBlockNextCalculate" : [
+         "6.0",
+         "6.4"
+      ],
+      "_TableCalculate" : [
+         "6.0",
+         "6.4"
+      ],
+      "_TableCellOnCount" : [
+         "6.0",
+         "6.4"
+      ],
+      "_TableCellOutput" : [
+         "6.0",
+         "6.4"
+      ],
+      "_TableRowCalculate" : [
+         "6.0",
+         "6.4"
+      ],
+      "_TextCalculate" : [
+         "6.0",
+         "6.4"
+      ],
+      "_TicketAppointmentCreate" : [
+         "6.0",
+         "6.4"
+      ],
+      "_TicketAppointmentGet" : [
+         "6.0",
+         "6.4"
+      ],
+      "_TicketAppointmentList" : [
+         "6.0",
+         "6.4"
+      ],
+      "_TicketAppointmentUpdate" : [
+         "6.0",
+         "6.4"
+      ],
+      "_TicketCacheClear" : [
+         "6.0",
+         "6.4"
+      ],
+      "_TicketDeepGetDataCleanUp" : [
+         "6.4"
+      ],
+      "_TicketGetClosed" : [
+         "6.0",
+         "6.4"
+      ],
+      "_TicketGetExtended" : [
+         "6.0",
+         "6.4"
+      ],
+      "_TicketGetFirstLock" : [
+         "6.0",
+         "6.4"
+      ],
+      "_TicketGetFirstResponse" : [
+         "6.0",
+         "6.4"
+      ],
+      "_ToCPANDateTimeParamNames" : [
+         "6.0",
+         "6.4"
+      ],
+      "_ToOTRSTimeZone" : [
+         "6.0",
+         "6.4"
+      ],
+      "_TypeCreateIfNotExists" : [
+         "6.4"
+      ],
+      "_UpdateDynamicFieldConfigs" : [
+         "6.4"
+      ],
+      "_UserCreateIfNotExists" : [
+         "6.4"
+      ],
+      "_UserFullname" : [
+         "6.0",
+         "6.4"
+      ],
+      "_ValidDynamicFieldScreenListGet" : [
+         "6.4"
+      ],
+      "_ValueTypesList" : [
+         "6.0",
+         "6.4"
+      ],
+      "_WebserviceConfigUpgrade" : [
+         "6.0",
+         "6.4"
+      ],
+      "_WebserviceCreate" : [
+         "6.4"
+      ],
+      "_WebserviceCreateIfNotExists" : [
+         "6.4"
+      ],
+      "_WebserviceDelete" : [
+         "6.4"
+      ],
+      "_WebserviceObjectModify" : [
+         "6.4"
+      ],
+      "_WebservicesGet" : [
+         "6.4"
+      ],
+      "_WhereTimeStamp" : [
+         "6.4"
+      ],
+      "_XMLHashAddAutoIncrement" : [
+         "6.0",
+         "6.4"
+      ]
+   },
+   "Modules" : {
+      "AJAXDynamicFieldWebservice" : [
+         "6.4"
+      ],
+      "AJAXNotificationEventTransportWebservice" : [
+         "6.4"
+      ],
+      "AJAXRichTextAutocompletion" : [
+         "6.4"
+      ],
+      "Admin" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminACL" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminAppointmentCalendarManage" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminAppointmentImport" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminAppointmentNotificationEvent" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminAttachment" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminAutoResponse" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminCloudServiceSupportDataCollector" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminCloudServices" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminCommunicationLog" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminCustomerCompany" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminCustomerGroup" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminCustomerUser" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminCustomerUserCustomer" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminCustomerUserGroup" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminCustomerUserService" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminDynamicField" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminDynamicFieldCheckbox" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminDynamicFieldConfigurationImportExport" : [
+         "6.4"
+      ],
+      "AdminDynamicFieldDateTime" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminDynamicFieldDropdown" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminDynamicFieldMultiselect" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminDynamicFieldScreenConfiguration" : [
+         "6.4"
+      ],
+      "AdminDynamicFieldText" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminDynamicFieldWebservice" : [
+         "6.4"
+      ],
+      "AdminEmail" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminGenericAgent" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminGenericInterfaceDebugger" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminGenericInterfaceErrorHandlingDefault" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminGenericInterfaceErrorHandlingRequestRetry" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminGenericInterfaceInvokerDefault" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminGenericInterfaceInvokerEvent" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminGenericInterfaceMappingSimple" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminGenericInterfaceMappingXSLT" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminGenericInterfaceOperationDefault" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminGenericInterfaceTransportHTTPREST" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminGenericInterfaceTransportHTTPSOAP" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminGenericInterfaceWebservice" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminGenericInterfaceWebserviceHistory" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminGroup" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminInit" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminLog" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminMailAccount" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminNotificationEvent" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminOAuth2TokenManagement" : [
+         "6.4"
+      ],
+      "AdminOTRSBusiness" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminPGP" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminPackageManager" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminPerformanceLog" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminPostMasterFilter" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminPriority" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminProcessManagement" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminProcessManagementActivity" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminProcessManagementActivityDialog" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminProcessManagementPath" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminProcessManagementTransition" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminProcessManagementTransitionAction" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminQueue" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminQueueAutoResponse" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminQueueTemplates" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminRegistration" : [
+         "6.0"
+      ],
+      "AdminRole" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminRoleGroup" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminRoleUser" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminSLA" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminSMIME" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminSalutation" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminSelectBox" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminService" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminSession" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminSignature" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminState" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminSupportDataCollector" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminSystemAddress" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminSystemConfiguration" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminSystemConfigurationDeployment" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminSystemConfigurationGroup" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminSystemFiles" : [
+         "6.4"
+      ],
+      "AdminSystemMaintenance" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminTemplate" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminTemplateAttachment" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminTicketAttributeRelations" : [
+         "6.4"
+      ],
+      "AdminType" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminUser" : [
+         "6.0",
+         "6.4"
+      ],
+      "AdminUserGroup" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentAppointmentAgendaOverview" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentAppointmentCalendarOverview" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentAppointmentEdit" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentAppointmentList" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentAppointmentPluginSearch" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentCustomerInformationCenter" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentCustomerInformationCenterSearch" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentCustomerSearch" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentCustomerUserAddressBook" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentCustomerUserInformationCenter" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentCustomerUserInformationCenterSearch" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentDaemonInfo" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentDashboard" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentDashboardCommon" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentInfo" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentLinkObject" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentOTRSBusiness" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentPreferences" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentSearch" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentSplitSelection" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentStatistics" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentUserSearch" : [
+         "6.0",
+         "6.4"
+      ],
+      "AgentZoom" : [
+         "6.0",
+         "6.4"
+      ],
+      "AjaxAttachment" : [
+         "6.0",
+         "6.4"
+      ],
+      "CustomerAccept" : [
+         "6.0",
+         "6.4"
+      ],
+      "CustomerPreferences" : [
+         "6.0",
+         "6.4"
+      ],
+      "Installer" : [
+         "6.0",
+         "6.4"
+      ],
+      "Mentions" : [
+         "6.4"
+      ],
+      "PictureUpload" : [
+         "6.0",
+         "6.4"
+      ],
+      "PreApplicationLastViews" : [
+         "6.4"
+      ],
+      "PublicCalendar" : [
+         "6.0",
+         "6.4"
+      ],
+      "PublicDefault" : [
+         "6.0",
+         "6.4"
+      ],
+      "PublicRepository" : [
+         "6.0",
+         "6.4"
+      ],
+      "PublicSupportDataCollector" : [
+         "6.0",
+         "6.4"
+      ],
+      "Test" : [
+         "6.0",
+         "6.4"
+      ]
+   },
+   "ObjectFilesMapping" : {
+      "/Kernel/System/UnitTest/Driver.pm" : [
+         "6.0",
+         "6.4"
+      ]
+   },
+   "Objects" : {}
+}

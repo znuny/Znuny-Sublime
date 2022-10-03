@@ -10,10 +10,10 @@ ${1:my \$HTMLStr = \$SysConfigObject->SettingRender(
         # ...
     \},
     RW => 1,                                    # (optional) Allow editing. Default 0.
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SysConfigObject.SettingRender</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

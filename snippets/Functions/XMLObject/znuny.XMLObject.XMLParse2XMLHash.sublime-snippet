@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my @XMLHash = \$XMLObject->XMLParse2XMLHash( String => \$FileString );
-}
+${1:my @XMLHash = \$XMLObject->XMLParse2XMLHash( String => \$FileString );}
+
 ]]></content>
     <tabTrigger>znuny.XMLObject.XMLParse2XMLHash</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

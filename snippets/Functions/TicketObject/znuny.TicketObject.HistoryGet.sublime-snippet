@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my @HistoryLines = \$TicketObject->HistoryGet(
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.TicketObject.HistoryGet</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

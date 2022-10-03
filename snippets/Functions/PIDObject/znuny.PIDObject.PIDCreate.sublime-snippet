@@ -1,19 +1,19 @@
 <snippet>
     <content><![CDATA[
 ${1:\$PIDObject->PIDCreate(
-    Name => 'PostMasterPOP3',
-);
-}${2:\$PIDObject->PIDCreate(
     Name  => 'PostMasterPOP3',
     Force => 1,
-);
-}${3:\$PIDObject->PIDCreate(
+);}
+${2:\$PIDObject->PIDCreate(
     Name  => 'PostMasterPOP3',
     TTL   => 60 * 60 * 24 * 3, # for 3 days, per default 1h is used
-);
-}
+);}
+${3:\$PIDObject->PIDCreate(
+    Name => 'PostMasterPOP3',
+);}
+
 ]]></content>
     <tabTrigger>znuny.PIDObject.PIDCreate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

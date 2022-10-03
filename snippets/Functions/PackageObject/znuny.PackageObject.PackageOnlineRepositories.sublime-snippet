@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %List = \$PackageObject->PackageOnlineRepositories();}
+
+]]></content>
+    <tabTrigger>znuny.PackageObject.PackageOnlineRepositories</tabTrigger>
+    <description>6.0</description>
+    <scope>source.perl</scope>
+</snippet>

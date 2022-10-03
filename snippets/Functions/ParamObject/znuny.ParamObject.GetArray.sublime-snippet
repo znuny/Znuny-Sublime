@@ -3,10 +3,10 @@
 ${1:my @Param = \$ParamObject->GetArray(
     Param => 'ID',
     Raw   => 1,     # optional, input data is not changed
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.ParamObject.GetArray</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

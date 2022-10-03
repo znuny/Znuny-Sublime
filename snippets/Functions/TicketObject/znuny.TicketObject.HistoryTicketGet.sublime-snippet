@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my %HistoryData = \$TicketObject->HistoryTicketGet(
+    StopYear   => 2003,
+    StopMonth  => 12,
+    StopDay    => 24,
+    StopHour   => 10, (optional, default 23)
+    StopMinute => 0,  (optional, default 59)
+    StopSecond => 0,  (optional, default 59)
+    TicketID   => \$TicketID,
+    Force      => 0,     # 1: don't use cache
+);}
+
+]]></content>
+    <tabTrigger>znuny.TicketObject.HistoryTicketGet</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -3,10 +3,10 @@
 ${1:my \$TokenErrorMessage = \$OAuth2TokenObject->GetTokenErrorMessage(
     TokenConfigID => \$TokenConfigID,
     UserID        => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.OAuth2TokenObject.GetTokenErrorMessage</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

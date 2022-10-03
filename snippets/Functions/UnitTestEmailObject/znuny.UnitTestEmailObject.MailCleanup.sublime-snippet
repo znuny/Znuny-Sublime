@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my \$Success = \$UnitTestEmailObject->MailCleanup();
-}
+${1:my \$Success = \$UnitTestEmailObject->MailCleanup();}
+
 ]]></content>
     <tabTrigger>znuny.UnitTestEmailObject.MailCleanup</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

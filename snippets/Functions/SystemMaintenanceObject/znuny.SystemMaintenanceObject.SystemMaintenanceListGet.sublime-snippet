@@ -3,10 +3,10 @@
 ${1:my \$List = \$SystemMaintenanceObject->SystemMaintenanceListGet(
     UserID   => \$UserID,
     ValidIDs => ['1','2'], # optional, to filter SystemMaintenances that match listed valid IDs
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SystemMaintenanceObject.SystemMaintenanceListGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

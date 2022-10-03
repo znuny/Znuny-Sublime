@@ -5,10 +5,10 @@ ${1:my \$Success = \$DynamicFieldValueObject->ObjectValuesDelete(
     ObjectID   => \$ObjectID,   # ID of the current object that the field
                                #   is linked to, e. g. TicketID
     UserID     => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.DynamicFieldValueObject.ObjectValuesDelete</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

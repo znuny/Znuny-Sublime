@@ -24,10 +24,10 @@ ${1:my \$Success = \$CalendarObject->CalendarImport(
                                         # Calendar with same name will be overwritten
                                         # Appointments with same UniqueID in existing calendar will be overwritten
     UserID => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.CalendarObject.CalendarImport</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

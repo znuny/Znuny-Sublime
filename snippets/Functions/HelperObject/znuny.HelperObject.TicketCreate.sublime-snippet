@@ -1,10 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my \$TicketID = \$HelperObject->TicketCreate();
-}${2:my \$TicketID = \$HelperObject->TicketCreate(
+${1:my \$TicketID = \$HelperObject->TicketCreate(
     CustomerUser => 'another_customer@example.com',
-);
-}${3:my \$TicketID = \$HelperObject->TicketCreate(
+);}
+${2:my \$TicketID = \$HelperObject->TicketCreate(
     Title        => 'UnitTest ticket',
     Queue        => 'Raw',
     Lock         => 'unlock',
@@ -14,10 +13,11 @@ ${1:my \$TicketID = \$HelperObject->TicketCreate();
     CustomerUser => 'customer@example.com',
     OwnerID      => \$OwnerID,
     UserID       => \$UserID,
-);
-}
+);}
+${3:my \$TicketID = \$HelperObject->TicketCreate();}
+
 ]]></content>
     <tabTrigger>znuny.HelperObject.TicketCreate</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

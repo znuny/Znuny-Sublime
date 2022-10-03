@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my \$TimeStamp = \$TimeObject->CurrentTimestamp();
-}
+${1:my \$TimeStamp = \$TimeObject->CurrentTimestamp();}
+
 ]]></content>
     <tabTrigger>znuny.TimeObject.CurrentTimestamp</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -3,10 +3,14 @@
 ${1:my %Result = \$PackageObject->PackageInstallOrderListGet(
     InstalledPackages => \@PackageList,      # as returned from RepositoryList(Result => 'short')
     OnlinePackages    => \@PackageList,      # as returned from PackageOnlineList()
-);
-}
+);}
+${2:my %Result = \$PackageObject->PackageInstallOrderListGet(
+    InstalledPackages => \@PakageList,      # as returned from RepositoryList(Result => 'short')
+    OnlinePackages    => \@PakageList,      # as returned from PackageOnlineList()
+);}
+
 ]]></content>
     <tabTrigger>znuny.PackageObject.PackageInstallOrderListGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

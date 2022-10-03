@@ -4,10 +4,10 @@ ${1:\$StatsObject->StatsUpdate(
     StatID => \$StatID,
     Hash   => \%Hash,
     UserID => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.StatsObject.StatsUpdate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

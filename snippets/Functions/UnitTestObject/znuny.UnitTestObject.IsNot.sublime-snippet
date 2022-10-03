@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Self->IsNot(
+    \$ValueFromFunction,      # test data
+    1,                       # expected value
+    'Test Name',
+);}
+${2:\$Self->IsNot(\$A, \$B, 'Test Name');}
+
+]]></content>
+    <tabTrigger>znuny.UnitTestObject.IsNot</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

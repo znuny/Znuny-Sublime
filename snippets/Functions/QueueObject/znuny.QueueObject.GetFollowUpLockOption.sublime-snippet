@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my \$FollowUpLockOption = \$QueueObject->GetFollowUpLockOption( QueueID => \$QueueID );
-}
+${1:my \$FollowUpLockOption = \$QueueObject->GetFollowUpLockOption( QueueID => \$QueueID );}
+
 ]]></content>
     <tabTrigger>znuny.QueueObject.GetFollowUpLockOption</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my %List = \$CustomerUserObject->CustomerSourceList(
     ReadOnly => 0 # optional, 1 returns only RO backends, 0 returns writable, if not passed returns all backends
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.CustomerUserObject.CustomerSourceList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

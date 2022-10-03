@@ -13,10 +13,10 @@ ${1:my \$Success = \$DynamicFieldObject->DynamicFieldUpdate(
     ValidID     => \$ValidID,
     Reorder     => 1,               # or 0, to trigger reorder function, default 1
     UserID      => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.DynamicFieldObject.DynamicFieldUpdate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

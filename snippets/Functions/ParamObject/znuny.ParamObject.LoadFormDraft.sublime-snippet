@@ -3,10 +3,10 @@
 ${1:my \$FormDraftID = \$ParamObject->LoadFormDraft(
     FormDraftID => \$FormDraftID,
     UserID  => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.ParamObject.LoadFormDraft</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

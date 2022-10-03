@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-my \$TimeObject = \$Kernel::OM->Get('Kernel::System::DateTime');
+my $TimeObject = $Kernel::OM->Get('Kernel::System::DateTime');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.TimeObject</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

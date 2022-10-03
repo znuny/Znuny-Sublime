@@ -10,10 +10,10 @@ ${1:my \$Result = \$RequesterObject->Run(
     PastExecutionData => \{                  # Meta data containing information about previous request attempts, optional
         #...
     \}
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.RequesterObject.Run</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

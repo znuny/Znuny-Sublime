@@ -33,10 +33,10 @@ ${1:my \$FieldHTML = \$BackendObject->EditFieldRender(
     ],
     MaxLength            => 100                       # Optional, defines the maximum number of characters on fields
                                                       #      where applies (like TextArea)
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.BackendObject.EditFieldRender</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

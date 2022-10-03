@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Output = \$TicketToUnitTestObject->GetFooter();}
+
+]]></content>
+    <tabTrigger>znuny.TicketToUnitTestObject.GetFooter</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

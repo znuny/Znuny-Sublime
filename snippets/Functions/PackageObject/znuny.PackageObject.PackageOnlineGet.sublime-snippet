@@ -1,12 +1,16 @@
 <snippet>
     <content><![CDATA[
 ${1:\$PackageObject->PackageOnlineGet(
+    Source => 'http://host.example.com/',
+    File   => 'SomePackage-1.0.opm',
+);}
+${2:\$PackageObject->PackageOnlineGet(
     Source => 'http://host.example.com/', # or the name of a configured repository in Package::RepositoryList
     File   => 'SomePackage-1.0.opm',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.PackageObject.PackageOnlineGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

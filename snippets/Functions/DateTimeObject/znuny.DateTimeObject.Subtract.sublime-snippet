@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$DateTimeObject->Subtract(
+    Years     => 1,
+    Months    => 2,
+    Weeks     => 4,
+    Days      => 34,
+    Hours     => 2,
+    Minutes   => 5,
+    Seconds   => 459,
+);}
+
+]]></content>
+    <tabTrigger>znuny.DateTimeObject.Subtract</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,19 +1,19 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$Success = \$HelperObject->DynamicFieldSet(
-    Field      => 'DF1',
-    ObjectID   => \$ObjectID,
-    Value      => '123',
-);
-}${2:my \$Success = \$HelperObject->DynamicFieldSet(
     Field          => 'DF1',
     ObjectID       => \$ObjectID,
     Value          => '123',
     UserID         => \$UserID, # optional
-);
-}
+);}
+${2:my \$Success = \$HelperObject->DynamicFieldSet(
+    Field      => 'DF1',
+    ObjectID   => \$ObjectID,
+    Value      => '123',
+);}
+
 ]]></content>
     <tabTrigger>znuny.HelperObject.DynamicFieldSet</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

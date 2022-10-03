@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my %Hash = \$PackageObject->DeployCheckInfo();
-}
+${1:my %Hash = \$PackageObject->DeployCheckInfo();}
+
 ]]></content>
     <tabTrigger>znuny.PackageObject.DeployCheckInfo</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

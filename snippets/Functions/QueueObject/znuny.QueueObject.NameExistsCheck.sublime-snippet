@@ -3,10 +3,10 @@
 ${1:\$Exist = \$QueueObject->NameExistsCheck(
     Name => 'Some::Queue',
     ID => 1, # optional
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.QueueObject.NameExistsCheck</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

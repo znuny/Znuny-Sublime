@@ -10,10 +10,10 @@ ${1:my \$LogData = \$DebugLogObject->LogSearch(
     WebserviceID      => \$WebserviceID, # optional
     WithData          => 0, # optional
     Sort              => 'ASC', # optional. 'ASC' (default) or 'DESC'
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.DebugLogObject.LogSearch</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

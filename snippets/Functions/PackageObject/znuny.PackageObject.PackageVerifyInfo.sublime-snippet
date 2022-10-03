@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Hash = \$PackageObject->PackageVerifyInfo();}
+
+]]></content>
+    <tabTrigger>znuny.PackageObject.PackageVerifyInfo</tabTrigger>
+    <description>6.0</description>
+    <scope>source.perl</scope>
+</snippet>

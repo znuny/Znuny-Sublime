@@ -5,10 +5,10 @@ ${1:my \$ArrayRef = \$StatsObject->GetStatsList(
     OrderBy   => 'ID' || 'Title' || 'Object', # optional
     Direction => 'ASC' || 'DESC',             # optional
     UserID    => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.StatsObject.GetStatsList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

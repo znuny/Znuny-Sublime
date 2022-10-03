@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @UserIDs = \$TicketObject->GetSubscribedUserIDsByQueueID(
+    QueueID => \$QueueID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.TicketObject.GetSubscribedUserIDsByQueueID</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

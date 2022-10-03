@@ -9,10 +9,10 @@ ${1:my \$FormDraftID = \$ParamObject->SaveFormDraft(
         CustomParam => [ 1, 2, 3, ],
         ...
     \},
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.ParamObject.SaveFormDraft</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

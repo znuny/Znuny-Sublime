@@ -4,10 +4,10 @@ ${1:my \$ProcessList = \$ProcessObject->ProcessList(
     ProcessState => ['Active'],           # Active, FadeAway, Inactive
     Interface    => ['AgentInterface'],   # optional, ['AgentInterface'] or ['CustomerInterface'] or ['AgentInterface', 'CustomerInterface'] or 'all'
     Silent       => 1                     # optional, 1 || 0, default 0, if set to 1 does not log errors if there are no processes configured
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.ProcessObject.ProcessList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

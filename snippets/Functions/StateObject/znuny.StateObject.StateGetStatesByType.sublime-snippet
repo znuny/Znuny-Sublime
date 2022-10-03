@@ -3,14 +3,14 @@
 ${1:my %List = \$StateObject->StateGetStatesByType(
     Type   => 'Viewable',
     Result => 'HASH', # HASH|ID|Name
-);
-}${2:my @List = \$StateObject->StateGetStatesByType(
+);}
+${2:my @List = \$StateObject->StateGetStatesByType(
     StateType => ['open', 'new'],
     Result    => 'ID', # HASH|ID|Name
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.StateObject.StateGetStatesByType</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

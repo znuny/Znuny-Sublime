@@ -3,10 +3,10 @@
 ${1:my \$Webservice = \$WebserviceObject->WebserviceGet(
     ID   => 123,            # ID or Name must be provided
     Name => 'MyWebservice',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.WebserviceObject.WebserviceGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

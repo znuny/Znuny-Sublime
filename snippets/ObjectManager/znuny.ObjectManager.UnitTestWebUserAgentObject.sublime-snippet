@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-my \$UnitTestWebUserAgentObject = \$Kernel::OM->Get('Kernel::System::UnitTest::WebUserAgent');
+my $UnitTestWebUserAgentObject = $Kernel::OM->Get('Kernel::System::UnitTest::WebUserAgent');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.UnitTestWebUserAgentObject</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

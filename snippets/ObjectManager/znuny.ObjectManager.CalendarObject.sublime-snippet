@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-my \$CalendarObject = \$Kernel::OM->Get('Kernel::System::Calendar');
+my $CalendarObject = $Kernel::OM->Get('Kernel::System::Calendar');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.CalendarObject</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Data = \$OAuth2TokenConfigObject->DataGet(
+    ID         => '...', # optional
+    Name       => '...', # optional
+    Config     => '...', # optional
+    ValidID    => \$ValidID, # optional
+    CreateTime => '...', # optional
+    CreateBy   => '...', # optional
+    ChangeTime => '...', # optional
+    ChangeBy   => '...', # optional
+);}
+
+]]></content>
+    <tabTrigger>znuny.OAuth2TokenConfigObject.DataGet</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

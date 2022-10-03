@@ -3,10 +3,10 @@
 ${1:my \$DynamicFieldStatsSearchParameter = \$BackendObject->StatsSearchFieldParameterBuild(
     DynamicFieldConfig   => \$DynamicFieldConfig,    # complete config of the DynamicField
     Value                => \$Value,                 # the serach profile
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.BackendObject.StatsSearchFieldParameterBuild</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

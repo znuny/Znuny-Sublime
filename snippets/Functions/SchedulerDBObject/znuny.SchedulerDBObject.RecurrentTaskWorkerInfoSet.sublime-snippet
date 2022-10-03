@@ -6,10 +6,10 @@ ${1:my \$Success = \$SchedulerDBObject->RecurrentTaskWorkerInfoSet(
     LastWorkerStatis      => 1,          # optional 1 or 0, defaults to 0, 1 means success
     LastWorkerRunningTime => 123,        # optional, defaults to 0, the number in seconds a worker took
                                          #      to complete the task
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SchedulerDBObject.RecurrentTaskWorkerInfoSet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

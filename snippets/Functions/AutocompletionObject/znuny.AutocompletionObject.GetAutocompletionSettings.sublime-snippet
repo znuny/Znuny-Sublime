@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$AutocompletionSettings = \$AutocompletionObject->GetAutocompletionSettings();}
+
+]]></content>
+    <tabTrigger>znuny.AutocompletionObject.GetAutocompletionSettings</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

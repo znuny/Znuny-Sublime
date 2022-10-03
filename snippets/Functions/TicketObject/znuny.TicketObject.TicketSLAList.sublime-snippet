@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+${1:my %SLAs = \$TicketObject->TicketSLAList(
+    QueueID   => \$QueueID,
+    ServiceID => \$ServiceID,
+    UserID    => \$UserID,
+);}
+${2:my %SLAs = \$TicketObject->TicketSLAList(
+    ServiceID      => \$ServiceID,
+    CustomerUserID => \$CustomerUserID,
+);}
+${3:my %SLAs = \$TicketObject->TicketSLAList(
+    ServiceID => \$ServiceID,
+    UserID    => \$UserID,
+);}
+${4:my %SLAs = \$TicketObject->TicketSLAList(
+    TicketID  => \$TicketID,
+    ServiceID => \$ServiceID,
+    UserID    => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.TicketObject.TicketSLAList</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

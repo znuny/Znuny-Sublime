@@ -7,10 +7,10 @@ ${1:my \$Result = \$DebuggerObject->ProviderGenerateResponse(
         ...
     \},
 
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.DebuggerObject.ProviderGenerateResponse</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

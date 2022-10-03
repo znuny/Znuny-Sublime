@@ -2,13 +2,13 @@
     <content><![CDATA[
 ${1:my \$HTMLWithLinks = \$LayoutObject->HTMLLinkQuote(
     String => \$HTMLString,
-);
-}${2:my \$HTMLWithLinksRef = \$LayoutObject->HTMLLinkQuote(
+);}
+${2:my \$HTMLWithLinksRef = \$LayoutObject->HTMLLinkQuote(
     String => \\$HTMLString,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.LayoutObject.HTMLLinkQuote</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

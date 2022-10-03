@@ -9,10 +9,10 @@ ${1:my \$UserID = \$UserObject->UserAdd(
     UserMobile    => '1234567890', # not required
     ValidID       => \$ValidID,
     ChangeUserID  => \$ChangeUserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.UserObject.UserAdd</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

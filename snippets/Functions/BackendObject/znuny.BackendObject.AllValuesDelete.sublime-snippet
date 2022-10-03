@@ -3,10 +3,10 @@
 ${1:my \$Success = \$BackendObject->AllValuesDelete(
     DynamicFieldConfig => \$DynamicFieldConfig,      # complete config of the DynamicField
     UserID             => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.BackendObject.AllValuesDelete</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

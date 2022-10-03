@@ -14,10 +14,10 @@ ${1:my \$EmailAddressesAreValid = \$CheckItemObject->AreEmailAddressesValid(
 
     # or as array ref
     EmailAddresses => ['test@example.org'],
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.CheckItemObject.AreEmailAddressesValid</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

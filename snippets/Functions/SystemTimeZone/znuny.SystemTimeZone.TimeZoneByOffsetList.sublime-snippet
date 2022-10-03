@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my %TimeZoneByOffset = \$TimeZones->TimeZoneByOffsetList();
-}
-]]></content>
-    <tabTrigger>znuny.SystemTimeZone.TimeZoneByOffsetList</tabTrigger>
-    <description>6</description>
-    <scope>source.perl</scope>
-</snippet>

@@ -3,10 +3,10 @@
 ${1:my \$Result = \$StatsObject->StatsInstall(
     FilePrefix => 'FAQ',  # (optional)
     UserID     => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.StatsObject.StatsInstall</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

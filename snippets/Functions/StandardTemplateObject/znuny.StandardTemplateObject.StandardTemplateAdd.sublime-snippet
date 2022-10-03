@@ -7,10 +7,10 @@ ${1:my \$ID = \$StandardTemplateObject->StandardTemplateAdd(
     TemplateType => 'Answer',                     # or 'Forward' or 'Create'
     ValidID      => \$ValidID,
     UserID       => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.StandardTemplateObject.StandardTemplateAdd</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

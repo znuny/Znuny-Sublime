@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Data = \$AutocompletionObject->GetData(
+    Trigger          => '!EX', # !EX is from example autocompletion module Kernel::System::Autocompletion::Example
+    SearchString     => 'Raw',
+    UserID           => \$UserID,
+    AdditionalParams => \{ # optional
+        TicketID => \$TicketID, # this will only be passed if available (e.g. it's not available for AgentTicketPhone)
+    \},
+);}
+
+]]></content>
+    <tabTrigger>znuny.AutocompletionObject.GetData</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

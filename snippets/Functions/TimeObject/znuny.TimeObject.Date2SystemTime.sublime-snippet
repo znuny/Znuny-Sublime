@@ -7,10 +7,10 @@ ${1:my \$SystemTime = \$TimeObject->Date2SystemTime(
     Hour   => 22,
     Minute => 45,
     Second => 0,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.TimeObject.Date2SystemTime</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

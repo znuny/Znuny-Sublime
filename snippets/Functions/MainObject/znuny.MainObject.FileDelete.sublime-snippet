@@ -8,10 +8,10 @@ ${1:my \$Success = \$MainObject->FileDelete(
 
     Type            => 'Local',   # optional - Local|Attachment|MD5
     DisableWarnings => 1, # optional
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.MainObject.FileDelete</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

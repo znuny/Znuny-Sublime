@@ -2,13 +2,13 @@
     <content><![CDATA[
 ${1:my %State = \$StateObject->StateGet(
     ID    => 123,
-);
-}${2:my %State = \$StateObject->StateGet(
+);}
+${2:my %State = \$StateObject->StateGet(
     Name  => 'New State',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.StateObject.StateGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

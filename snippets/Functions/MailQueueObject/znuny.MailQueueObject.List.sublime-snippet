@@ -6,10 +6,10 @@ ${1:my \$List = \$MailQueueObject->List(
     Sender          => '...' # optional
     Recipient       => '...' # optional
     Attempts        => '...' # optional
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.MailQueueObject.List</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

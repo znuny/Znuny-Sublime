@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Calendar = \$TicketObject->TicketCalendarGet(
+    QueueID => \$QueueID,
+    SLAID   => \$SLAID,   # optional
+);}
+
+]]></content>
+    <tabTrigger>znuny.TicketObject.TicketCalendarGet</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

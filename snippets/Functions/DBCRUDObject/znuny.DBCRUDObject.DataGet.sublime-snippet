@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Data = \$DBCRUDObject->DataGet(
+    ID          => '...', # optional
+    CreateTime  => '...', # optional
+    ChangeTime  => '...', # optional
+);}
+
+]]></content>
+    <tabTrigger>znuny.DBCRUDObject.DataGet</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

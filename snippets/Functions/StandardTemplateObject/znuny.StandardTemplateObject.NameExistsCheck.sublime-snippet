@@ -3,10 +3,10 @@
 ${1:\$Exist = \$StandardTemplateObject->NameExistsCheck(
     Name => 'Some::Template',
     ID => 1, # optional
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.StandardTemplateObject.NameExistsCheck</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

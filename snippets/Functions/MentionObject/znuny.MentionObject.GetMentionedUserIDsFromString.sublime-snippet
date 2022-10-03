@@ -11,10 +11,10 @@ ${1:my \$MentionedUserIDs = \$MentionObject->GetMentionedUserIDsFromString(
     # optional
     # Limit for number of returned user IDs. The rest will silently be ignored.
     Limit => 5,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.MentionObject.GetMentionedUserIDsFromString</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

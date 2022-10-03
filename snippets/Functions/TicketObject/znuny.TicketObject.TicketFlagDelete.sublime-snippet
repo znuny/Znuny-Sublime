@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketFlagDelete(
+    TicketID => \$TicketID,
+    Key      => 'Seen',
+    AllUsers => 1,
+);}
+${2:my \$Success = \$TicketObject->TicketFlagDelete(
+    TicketID => \$TicketID,
+    Key      => 'Seen',
+    UserID   => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.TicketObject.TicketFlagDelete</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

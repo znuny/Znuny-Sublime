@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my \$Output = \$TicketToUnitTestObject->CreateUnitTest(
     TicketID => \$TicketID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.TicketToUnitTestObject.CreateUnitTest</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

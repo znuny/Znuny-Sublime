@@ -3,10 +3,10 @@
 ${1:my \$Token = \$CalendarObject->GetAccessToken(
     CalendarID => \$CalendarID,              # (required) CalendarID
     UserLogin  => 'agent-1',      # (required) User login
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.CalendarObject.GetAccessToken</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:# You can also call this function without an object:
+my \$OTRSTimeZone = Kernel::System::DateTime->OTRSTimeZoneGet();}
+${2:my \$OTRSTimeZone = \$DateTimeObject->OTRSTimeZoneGet();}
+
+]]></content>
+    <tabTrigger>znuny.DateTimeObject.OTRSTimeZoneGet</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -6,10 +6,10 @@ ${1:my \$ServiceID = \$ServiceObject->ServiceAdd(
     ValidID  => \$ValidID,
     Comment  => 'Comment',    # (optional)
     UserID   => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.ServiceObject.ServiceAdd</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

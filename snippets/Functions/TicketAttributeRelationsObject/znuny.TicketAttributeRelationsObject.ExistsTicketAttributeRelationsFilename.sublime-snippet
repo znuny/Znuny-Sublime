@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my \$ID = \$TicketAttributeRelationsObject->ExistsTicketAttributeRelationsFilename(
     Filename => 'test1.csv',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.TicketAttributeRelationsObject.ExistsTicketAttributeRelationsFilename</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SystemTimeZone = \$DateTimeObject->SystemTimeZoneGet();}
+${2:my \$SystemTimeZone = Kernel::System::DateTime->SystemTimeZoneGet();}
+
+]]></content>
+    <tabTrigger>znuny.DateTimeObject.SystemTimeZoneGet</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

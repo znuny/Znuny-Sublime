@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my \$StatID = \$StatsObject->StatNumber2StatID(
     StatNumber => 11212,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.StatsObject.StatNumber2StatID</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

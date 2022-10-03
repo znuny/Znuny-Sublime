@@ -6,10 +6,10 @@ ${1:my \$Success = \$ArticleObject->ArticleSearchIndexDelete(
     TicketID  => \$TicketID,   # required, deletes search index for all ticket articles
 
     UserID    => \$UserID,     # required
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.ArticleObject.ArticleSearchIndexDelete</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

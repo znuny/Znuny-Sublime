@@ -1,9 +1,6 @@
 <snippet>
     <content><![CDATA[
-${1:my \$HTMLStringRef = \$LayoutObject->Ascii2Html(
-    Text => \\$String,
-);
-}${2:my \$HTML = \$LayoutObject->Ascii2Html(
+${1:my \$HTML = \$LayoutObject->Ascii2Html(
     Text            => 'Some <> Test <font color="red">Test</font>',
     Max             => 20,       # max 20 chars flowed by [..]
     VMax            => 15,       # first 15 lines
@@ -12,10 +9,13 @@ ${1:my \$HTMLStringRef = \$LayoutObject->Ascii2Html(
     StripEmptyLines => 0,
     Type            => 'Normal', # JSText or Normal text
     LinkFeature     => 0,        # do some URL detections
-);
-}
+);}
+${2:my \$HTMLStringRef = \$LayoutObject->Ascii2Html(
+    Text => \\$String,
+);}
+
 ]]></content>
     <tabTrigger>znuny.LayoutObject.Ascii2Html</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

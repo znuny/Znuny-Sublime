@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-my \$SupportDataCollectorObject = \$Kernel::OM->Get('Kernel::System::SupportDataCollector');
+my $SupportDataCollectorObject = $Kernel::OM->Get('Kernel::System::SupportDataCollector');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.SupportDataCollectorObject</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

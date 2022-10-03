@@ -7,10 +7,10 @@ ${1:my \$Value = \$BackendObject->ValueGet(
     ObjectName         => \$ObjectName,              # Name of the current object that the field
                                                     # must be linked to, e. g. CustomerUserLogin
                                                     # You have to give either ObjectID OR ObjectName
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.BackendObject.ValueGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

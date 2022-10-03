@@ -3,10 +3,10 @@
 ${1:my \$Rule = \$CalendarObject->TicketAppointmentRuleGet(
     CalendarID => \$CalendarID,
     RuleID     => \$RuleID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.CalendarObject.TicketAppointmentRuleGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

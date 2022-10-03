@@ -4,10 +4,10 @@ ${1:my \$NotificationImport = \$NotificationEventObject->NotificationImport(
     Content                   => \$YAMLContent, # mandatory, YAML format
     OverwriteExistingNotifications => 0,            # 0 || 1
     UserID                    => \$UserID,            # mandatory
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.NotificationEventObject.NotificationImport</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

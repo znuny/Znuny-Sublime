@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$String = \$LayoutObject->LinkObjectTableCreateComplex(
+    LinkListWithData => \$LinkListRef,
+    ViewMode         => 'Complex', # (Complex|ComplexAdd|ComplexDelete|ComplexRaw)
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.LinkObjectTableCreateComplex</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

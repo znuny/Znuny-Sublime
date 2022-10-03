@@ -6,10 +6,10 @@ ${1:my \$DataValues = \$BackendObject->BuildSelectionDataGet(
                                                      #    by ACLs)
     Value              => \$Value,                    # optional scalar, ArrayRef or HashRef
                                                      #    depending on dynamic field the
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.BackendObject.BuildSelectionDataGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

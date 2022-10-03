@@ -7,10 +7,10 @@ ${1:my \$Success = \$DynamicFieldValueObject->ValueValidate(
             ValueInt           => 123,                    # optional
         \},
     UserID   => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.DynamicFieldValueObject.ValueValidate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

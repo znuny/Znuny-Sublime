@@ -3,15 +3,15 @@
 ${1:my \$DestinationTime = \$TimeObject->DestinationTime(
     StartTime => \$Created,
     Time      => 60*60*24*2,
-);
-}${2:my \$DestinationTime = \$TimeObject->DestinationTime(
+    Calendar  => 3, # '' is default
+);}
+${2:my \$DestinationTime = \$TimeObject->DestinationTime(
     StartTime => \$Created,
     Time      => 60*60*24*2,
-    Calendar  => 3, # '' is default
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.TimeObject.DestinationTime</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

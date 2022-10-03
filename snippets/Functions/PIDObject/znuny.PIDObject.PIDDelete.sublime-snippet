@@ -2,15 +2,15 @@
     <content><![CDATA[
 ${1:my \$Success = \$PIDObject->PIDDelete(
     Name  => 'PostMasterPOP3',
-);
-}${2:or to force delete even if the PID is registered by another host
+);}
+${2:or to force delete even if the PID is registered by another host
 my \$Success = \$PIDObject->PIDDelete(
     Name  => 'PostMasterPOP3',
     Force => 1,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.PIDObject.PIDDelete</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

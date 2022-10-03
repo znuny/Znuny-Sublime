@@ -3,15 +3,15 @@
 ${1:my \$WorkingTime = \$TimeObject->WorkingTime(
     StartTime => \$Created,
     StopTime  => \$TimeObject->SystemTime(),
-);
-}${2:my \$WorkingTime = \$TimeObject->WorkingTime(
+    Calendar  => 3, # '' is default
+);}
+${2:my \$WorkingTime = \$TimeObject->WorkingTime(
     StartTime => \$Created,
     StopTime  => \$TimeObject->SystemTime(),
-    Calendar  => 3, # '' is default
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.TimeObject.WorkingTime</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

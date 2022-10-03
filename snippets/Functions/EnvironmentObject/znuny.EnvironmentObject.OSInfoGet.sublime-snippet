@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my %OSInfo = \$EnvironmentObject->OSInfoGet();
-}
+${1:my %OSInfo = \$EnvironmentObject->OSInfoGet();}
+
 ]]></content>
     <tabTrigger>znuny.EnvironmentObject.OSInfoGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

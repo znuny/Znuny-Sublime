@@ -3,10 +3,10 @@
 ${1:my \$Result = \$MailQueueObject->Update(
     Filters => \{\},
     Data    => \{\},
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.MailQueueObject.Update</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

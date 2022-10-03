@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$Selenium->SendKeys(
+    Selector     => '#DynamicField_Test',
+    SelectorType => 'css',                  # optional
+    Content      => 'ABCDEFG',
+);}
+
+]]></content>
+    <tabTrigger>znuny.Selenium.SendKeys</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

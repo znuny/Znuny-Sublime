@@ -5,10 +5,10 @@ ${1:\$ServiceObject->CustomerUserServiceMemberAdd(
     ServiceID         => \$ServiceID,
     Active            => 1,
     UserID            => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.ServiceObject.CustomerUserServiceMemberAdd</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

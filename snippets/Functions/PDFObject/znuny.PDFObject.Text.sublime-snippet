@@ -10,10 +10,10 @@ ${1:%Return = \$PDFObject->Text(
     Color    => '#FF0000',           # (optional) default #000000
     Align    => 'center',            # (optional) default left (left|center|right)
     Lead     => 20,                  # (optional) default 1 distance between lines
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.PDFObject.Text</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

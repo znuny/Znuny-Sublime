@@ -1,16 +1,16 @@
 <snippet>
     <content><![CDATA[
-${1:my %List = \$CustomerCompanyObject->CustomerCompanyList();
-}${2:my %List = \$CustomerCompanyObject->CustomerCompanyList(
+${1:my %List = \$CustomerCompanyObject->CustomerCompanyList(
     Search => 'somecompany',
-);
-}${3:my %List = \$CustomerCompanyObject->CustomerCompanyList(
+);}
+${2:my %List = \$CustomerCompanyObject->CustomerCompanyList(
     Valid => 0,
     Limit => 0,     # optional, override configured search result limit (0 means unlimited)
-);
-}
+);}
+${3:my %List = \$CustomerCompanyObject->CustomerCompanyList();}
+
 ]]></content>
     <tabTrigger>znuny.CustomerCompanyObject.CustomerCompanyList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

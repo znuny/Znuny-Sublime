@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Value = \$ConfigObject->Get('My::Setting::Name');}
+
+]]></content>
+    <tabTrigger>znuny.ConfigObject.Get</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

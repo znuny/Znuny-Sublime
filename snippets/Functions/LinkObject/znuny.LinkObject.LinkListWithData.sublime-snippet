@@ -13,10 +13,10 @@ ${1:my \$LinkList = \$LinkObject->LinkListWithData(
             IgnoreLinkedTicketStateTypes => 0|1,
         \},
     \},
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.LinkObject.LinkListWithData</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

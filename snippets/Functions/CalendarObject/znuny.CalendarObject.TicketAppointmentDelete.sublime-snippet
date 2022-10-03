@@ -7,10 +7,10 @@ ${1:my \$Success = \$CalendarObject->TicketAppointmentDelete(
     TicketID      => \$TicketID,                                     # (required) Ticket ID
 
     AppointmentID => \$AppointmentID,                                     # (optional) Appointment ID is known
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.CalendarObject.TicketAppointmentDelete</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

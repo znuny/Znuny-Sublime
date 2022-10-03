@@ -8,10 +8,10 @@ ${1:my \$StringRef = \$CheckItemObject->StringClean(
     RemoveAllTabs           => 1,  # (optional) default 0
     RemoveAllSpaces         => 1,  # (optional) default 0
     ReplaceWithWhiteSpace   => 1,  # (optional) default 0
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.CheckItemObject.StringClean</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

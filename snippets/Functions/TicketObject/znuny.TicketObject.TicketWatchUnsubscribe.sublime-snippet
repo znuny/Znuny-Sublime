@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketWatchUnsubscribe(
+    TicketID    => \$TicketID,
+    WatchUserID => \$WatchUserID,
+    UserID      => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.TicketObject.TicketWatchUnsubscribe</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$DateTimeString = \$DateTimeObject->Format( Format => '%Y-%m-%d %H:%M:%S' );}
+
+]]></content>
+    <tabTrigger>znuny.DateTimeObject.Format</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

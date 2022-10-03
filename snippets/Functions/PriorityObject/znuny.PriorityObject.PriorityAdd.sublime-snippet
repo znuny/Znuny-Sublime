@@ -4,10 +4,10 @@ ${1:my \$True = \$PriorityObject->PriorityAdd(
     Name    => 'Prio',
     ValidID => \$ValidID,
     UserID  => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.PriorityObject.PriorityAdd</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

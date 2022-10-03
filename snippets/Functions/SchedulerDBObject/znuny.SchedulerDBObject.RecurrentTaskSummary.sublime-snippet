@@ -7,10 +7,10 @@ ${1:my @Summary = \$SchedulerDBObject->RecurrentTaskSummary(
         TaskName1 => '* * * * *',           #   the value of the items in this table is a crontab
         TaskName3 => '*/1 3,4 * * * 0',     #   format schedule
     \}
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SchedulerDBObject.RecurrentTaskSummary</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Types = \$TicketObject->TicketTypeList(
+    CustomerUserID => \$CustomerUserID,
+);}
+${2:my %Types = \$TicketObject->TicketTypeList(
+    QueueID => \$QueueID,
+    UserID  => \$UserID,
+);}
+${3:my %Types = \$TicketObject->TicketTypeList(
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);}
+${4:my %Types = \$TicketObject->TicketTypeList(
+    UserID => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.TicketObject.TicketTypeList</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

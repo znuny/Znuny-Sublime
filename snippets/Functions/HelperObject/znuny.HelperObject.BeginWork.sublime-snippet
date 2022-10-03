@@ -1,9 +1,10 @@
 <snippet>
     <content><![CDATA[
-${1:\$HelperObject->BeginWork();
-}
+${1:    \$HelperObject->BeginWork()}
+${2:\$HelperObject->BeginWork();}
+
 ]]></content>
     <tabTrigger>znuny.HelperObject.BeginWork</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

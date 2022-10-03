@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:\$PackageObject->PackageVerify(
+    Package   => \$Package,
+    Structure => \%Structure,
+);}
+${2:\$PackageObject->PackageVerify(
+    Package => \$Package,
+    Name    => 'FAQ',
+);}
+
+]]></content>
+    <tabTrigger>znuny.PackageObject.PackageVerify</tabTrigger>
+    <description>6.0</description>
+    <scope>source.perl</scope>
+</snippet>

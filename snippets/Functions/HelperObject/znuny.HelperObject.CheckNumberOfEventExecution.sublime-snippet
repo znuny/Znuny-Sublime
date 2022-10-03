@@ -7,10 +7,10 @@ ${1:my \$Result = \$HelperObject->CheckNumberOfEventExecution(
         AnExampleHistoryEntry      => 2,
         AnotherExampleHistoryEntry => 0,
     \},
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.HelperObject.CheckNumberOfEventExecution</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

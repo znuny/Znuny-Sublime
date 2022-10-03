@@ -1,14 +1,14 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$Success = \$HelperObject->DatabaseXML(
-    String => '...',
-);
-}${2:my \$Success = \$HelperObject->DatabaseXML(
     Location => \$ConfigObject->Get('Home') . '/scripts/development/db/schema.xml',
-);
-}
+);}
+${2:my \$Success = \$HelperObject->DatabaseXML(
+    String => '...',
+);}
+
 ]]></content>
     <tabTrigger>znuny.HelperObject.DatabaseXML</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

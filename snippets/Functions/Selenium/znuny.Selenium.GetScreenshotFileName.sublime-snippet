@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ScreenshotFileName = \$Selenium->GetScreenshotFileName(
+    Filename => 'ZnunyRocks',
+    # or
+    Line     => '359',
+    Function => 'InputFieldID',
+    Hook     => 'BEFORE',
+);}
+
+]]></content>
+    <tabTrigger>znuny.Selenium.GetScreenshotFileName</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

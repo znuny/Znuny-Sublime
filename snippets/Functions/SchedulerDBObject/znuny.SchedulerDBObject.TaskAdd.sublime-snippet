@@ -11,10 +11,10 @@ ${1:my \$TaskID = \$SchedulerDBObject->TaskAdd(
     Data => \{                                           # data payload
         ...
     \},
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SchedulerDBObject.TaskAdd</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

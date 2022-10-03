@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$LayoutObject->LoaderCreateAgentCSSCalls(
+    Skin => 'MySkin', # optional, if not provided skin is the configured by default
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.LoaderCreateAgentCSSCalls</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

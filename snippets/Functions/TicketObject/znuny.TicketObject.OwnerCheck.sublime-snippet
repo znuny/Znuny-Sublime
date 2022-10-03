@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$AccessOk = \$TicketObject->OwnerCheck(
+    TicketID => \$TicketID,
+    OwnerID  => \$OwnerID,
+);}
+${2:my (\$OwnerID, \$Owner) = \$TicketObject->OwnerCheck(
+    TicketID => \$TicketID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.TicketObject.OwnerCheck</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

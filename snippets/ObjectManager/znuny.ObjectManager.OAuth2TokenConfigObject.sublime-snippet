@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-my \$OAuth2TokenConfigObject = \$Kernel::OM->Get('Kernel::System::OAuth2TokenConfig');
+my $OAuth2TokenConfigObject = $Kernel::OM->Get('Kernel::System::OAuth2TokenConfig');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.OAuth2TokenConfigObject</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -8,10 +8,10 @@ ${1:my %Data = \$DBCRUDTestObject->DataGet(
     ContentJSON => '...', # optional
     CreateTime  => '...', # optional
     ChangeTime  => '...', # optional
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.DBCRUDTestObject.DataGet</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

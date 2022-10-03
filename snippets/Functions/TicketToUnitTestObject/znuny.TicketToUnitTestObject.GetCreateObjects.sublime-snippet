@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my \$Output = \$TicketToUnitTestObject->GetCreateObjects();
-}
+${1:my \$Output = \$TicketToUnitTestObject->GetCreateObjects();}
+
 ]]></content>
     <tabTrigger>znuny.TicketToUnitTestObject.GetCreateObjects</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

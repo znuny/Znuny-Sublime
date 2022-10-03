@@ -4,10 +4,10 @@ ${1:my \$StatArray = \$StatsObject->StatsResultCacheCompute(
     StatID       => \$StatID,
     UserID       => \$UserID,        # target UserID
     UserGetParam => \%UserGetParam, # user settings of non-fixed fields
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.StatsObject.StatsResultCacheCompute</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

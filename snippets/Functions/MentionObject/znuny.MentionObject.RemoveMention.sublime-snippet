@@ -4,10 +4,10 @@ ${1:my \$Success = \$MentionObject->RemoveMention(
     TicketID        => \$TicketID,
     MentionedUserID => \$MentionedUserID,
     UserID          => \$UserID, # user who wants to remove the mention
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.MentionObject.RemoveMention</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

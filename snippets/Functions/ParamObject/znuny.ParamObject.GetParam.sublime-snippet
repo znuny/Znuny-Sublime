@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Param = \$ParamObject->GetParam(
+    Param => 'ID',
+    Raw   => 1,       # optional, input data is not changed
+);}
+
+]]></content>
+    <tabTrigger>znuny.ParamObject.GetParam</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

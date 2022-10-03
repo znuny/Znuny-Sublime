@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my %List = \$MailAccountObject->MailAccountList(
     Valid => 0, # just valid/all accounts
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.MailAccountObject.MailAccountList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my \$ErrorType = \$CheckItemObject->CheckErrorType();
-}
+${1:my \$ErrorType = \$CheckItemObject->CheckErrorType();}
+
 ]]></content>
     <tabTrigger>znuny.CheckItemObject.CheckErrorType</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

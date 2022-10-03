@@ -1,12 +1,12 @@
 <snippet>
     <content><![CDATA[
-${1:my %StandardTemplates = \$StandardTemplateObject->StandardTemplateList();
-}${2:my %StandardTemplates = \$StandardTemplateObject->StandardTemplateList(
+${1:my %StandardTemplates = \$StandardTemplateObject->StandardTemplateList(
     Valid => 0,
-);
-}
+);}
+${2:my %StandardTemplates = \$StandardTemplateObject->StandardTemplateList();}
+
 ]]></content>
     <tabTrigger>znuny.StandardTemplateObject.StandardTemplateList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

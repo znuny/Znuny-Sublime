@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$DBCRUDObject->DataNameExists(
+    Name   => 'name',
+    UserID => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.DBCRUDObject.DataNameExists</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

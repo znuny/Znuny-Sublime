@@ -4,10 +4,10 @@ ${1:my %Attachment = \$ArticleObject->ArticleAttachment(
     TicketID  => \$TicketID,
     ArticleID => \$ArticleID,
     FileID    => \$FileID,   # as returned by ArticleAttachmentIndex
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.ArticleObject.ArticleAttachment</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

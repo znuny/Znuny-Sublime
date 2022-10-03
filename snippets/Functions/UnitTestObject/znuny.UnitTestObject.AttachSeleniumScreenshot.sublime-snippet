@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Self->AttachSeleniumScreenshot(
+    Filename => \$Filename,
+    Content  => \$Data               # raw image data
+);}
+
+]]></content>
+    <tabTrigger>znuny.UnitTestObject.AttachSeleniumScreenshot</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

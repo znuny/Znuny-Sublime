@@ -3,10 +3,10 @@
 ${1:\$CacheObject->Delete(
     Type => 'ObjectName',       # only [a-zA-Z0-9_] chars usable
     Key  => 'SomeKey',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.CacheObject.Delete</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

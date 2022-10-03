@@ -2,19 +2,19 @@
     <content><![CDATA[
 ${1:my \$Dump = \$MainObject->Dump(
     \$SomeVariable,
-);
-}${2:my \$Dump = \$MainObject->Dump(
+    'ascii', # ascii|binary - default is binary
+);}
+${2:my \$Dump = \$MainObject->Dump(
+    \$SomeVariable,
+);}
+${3:my \$Dump = \$MainObject->Dump(
     \{
         Key1 => \$SomeVariable,
     \},
-);
-}${3:my \$Dump = \$MainObject->Dump(
-    \$SomeVariable,
-    'ascii', # ascii|binary - default is binary
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.MainObject.Dump</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

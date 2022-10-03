@@ -3,10 +3,10 @@
 ${1:my \$Count = \$ArticleObject->ArticleAttachmentCount(
     TicketID  => \$TicketID,
     ArticleID => \$ArticleID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.ArticleObject.ArticleAttachmentCount</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

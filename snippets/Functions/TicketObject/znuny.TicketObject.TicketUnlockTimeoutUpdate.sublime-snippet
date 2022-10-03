@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketUnlockTimeoutUpdate(
+    UnlockTimeout => \$Epoch,
+    TicketID      => \$TicketID,
+    UserID        => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.TicketObject.TicketUnlockTimeoutUpdate</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

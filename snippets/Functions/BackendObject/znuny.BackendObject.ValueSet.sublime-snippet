@@ -12,10 +12,20 @@ ${1:my \$Success = \$BackendObject->ValueSet(
                                                     # You have to give either ObjectID OR ObjectName
     Value              => \$Value,                   # Value to store, depends on backend type
     UserID             => \$UserID,
-);
-}
+);}
+${2:my \$Success = \$BackendObject->ValueSet(
+    DynamicFieldConfig => \$DynamicFieldConfig,      # complete config of the DynamicField
+    ObjectID           => \$ObjectID,                # ID of the current object that the field
+                                                    # must be linked to, e. g. TicketID
+    ObjectName         => \$ObjectName,              # Name of the current object that the field
+                                                    # must be linked to, e. g. CustomerUserLogin
+                                                    # You have to give either ObjectID OR ObjectName
+    Value              => \$Value,                   # Value to store, depends on backend type
+    UserID             => \$UserID,
+);}
+
 ]]></content>
     <tabTrigger>znuny.BackendObject.ValueSet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

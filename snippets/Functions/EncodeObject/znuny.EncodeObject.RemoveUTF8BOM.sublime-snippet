@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my \$StringWithoutBOM = \$EncodeObject->RemoveUTF8BOM(
     String => '<BOM>....',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.EncodeObject.RemoveUTF8BOM</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

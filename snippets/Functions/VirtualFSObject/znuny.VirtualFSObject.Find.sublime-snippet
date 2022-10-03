@@ -1,22 +1,22 @@
 <snippet>
     <content><![CDATA[
 ${1:my @List = \$VirtualFSObject->Find(
-    Filename => '/Object/some_what/*.txt',
-);
-}${2:my @List = \$VirtualFSObject->Find(
-    Preferences => \{
-        ContentType => 'text/plain',
-    \},
-);
-}${3:my @List = \$VirtualFSObject->Find(
     Filename    => '/Object/some_what/*.txt',
     Preferences => \{
         ContentType => 'text/plain',
     \},
-);
-}
+);}
+${2:my @List = \$VirtualFSObject->Find(
+    Filename => '/Object/some_what/*.txt',
+);}
+${3:my @List = \$VirtualFSObject->Find(
+    Preferences => \{
+        ContentType => 'text/plain',
+    \},
+);}
+
 ]]></content>
     <tabTrigger>znuny.VirtualFSObject.Find</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

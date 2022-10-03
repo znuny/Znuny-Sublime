@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$Data   = '<OTRS_CONFIG_Home>';
-my \$Result = \$WebserviceObject->WebserviceConfigReplace(\$Data);
-}
+my \$Result = \$WebserviceObject->WebserviceConfigReplace(\$Data);}
+
 ]]></content>
     <tabTrigger>znuny.WebserviceObject.WebserviceConfigReplace</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my %TypeList = \$LinkObject->TypeList();
-}
+${1:my %TypeList = \$LinkObject->TypeList();}
+
 ]]></content>
     <tabTrigger>znuny.LinkObject.TypeList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

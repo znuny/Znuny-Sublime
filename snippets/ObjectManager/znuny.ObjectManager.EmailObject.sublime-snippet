@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-my \$EmailObject = \$Kernel::OM->Get('Kernel::System::Email');
+my $EmailObject = $Kernel::OM->Get('Kernel::System::Email');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.EmailObject</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

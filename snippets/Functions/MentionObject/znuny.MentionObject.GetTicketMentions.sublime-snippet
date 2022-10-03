@@ -4,10 +4,10 @@ ${1:my \$Mentions = \$MentionObject->GetTicketMentions(
     TicketID  => \$TicketID,
     OrderBy   => 'create_time', # optional; default
     SortOrder => 'ASC', # or 'DESC', optional; default
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.MentionObject.GetTicketMentions</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

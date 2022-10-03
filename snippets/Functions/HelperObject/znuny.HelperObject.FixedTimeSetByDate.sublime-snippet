@@ -7,10 +7,10 @@ ${1:\$HelperObject->FixedTimeSetByDate(
     Hour   => 10, # default 0
     Minute => 0,  # default 0
     Second => 0,  # default 0
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.HelperObject.FixedTimeSetByDate</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

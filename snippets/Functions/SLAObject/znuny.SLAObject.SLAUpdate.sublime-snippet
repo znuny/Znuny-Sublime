@@ -14,10 +14,10 @@ ${1:my \$True = \$SLAObject->SLAUpdate(
     ValidID             => \$ValidID,
     Comment             => 'Comment',    # (optional)
     UserID              => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SLAObject.SLAUpdate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

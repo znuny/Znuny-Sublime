@@ -1,19 +1,19 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$Result = \$HelperObject->ConsoleCommand(
-    CommandModule => 'Kernel::System::Console::Command::Maint::Cache::Delete',
-);
-}${2:my \$Result = \$HelperObject->ConsoleCommand(
     CommandModule => 'Kernel::System::Console::Command::Help',
     Parameter     => 'Lis',
-);
-}${3:my \$Result = \$HelperObject->ConsoleCommand(
+);}
+${2:my \$Result = \$HelperObject->ConsoleCommand(
     CommandModule => 'Kernel::System::Console::Command::Maint::Cache::Delete',
     Parameter     => [ '--type', 'Znuny' ],
-);
-}
+);}
+${3:my \$Result = \$HelperObject->ConsoleCommand(
+    CommandModule => 'Kernel::System::Console::Command::Maint::Cache::Delete',
+);}
+
 ]]></content>
     <tabTrigger>znuny.HelperObject.ConsoleCommand</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

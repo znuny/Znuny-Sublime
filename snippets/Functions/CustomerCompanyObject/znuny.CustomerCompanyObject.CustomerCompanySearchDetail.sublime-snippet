@@ -21,32 +21,10 @@ ${1:my \$CustomerCompanyIDsRef = \$CustomerCompanyObject->CustomerCompanySearchD
         GreaterThanEquals => '2001-01-01 01:01:01',
         SmallerThan       => '2002-02-02 02:02:02',
         SmallerThanEquals => '2002-02-02 02:02:02',
-    \}
+    \}}
 
-    OrderBy => [ 'CustomerID', 'CustomerCompanyCountry' ],              # (optional)
-    # ignored if the result type is 'COUNT'
-    # default: [ 'CustomerID' ]
-    # (all search fields possible which are defined in
-    CustomerCompany::EnhancedSearchFields)
-
-    # Additional information for OrderBy:
-    # The OrderByDirection can be specified for each OrderBy attribute.
-    # The pairing is made by the array indices.
-
-    OrderByDirection => [ 'Down', 'Up' ],                               # (optional)
-    # ignored if the result type is 'COUNT'
-    # (Down | Up) Default: [ 'Down' ]
-
-    Result => 'ARRAY' || 'COUNT',                                       # (optional)
-    # default: ARRAY, returns an array of change ids
-    # COUNT returns a scalar with the number of found changes
-
-    Limit => 100,                                                       # (optional)
-    # ignored if the result type is 'COUNT'
-);
-}
 ]]></content>
     <tabTrigger>znuny.CustomerCompanyObject.CustomerCompanySearchDetail</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

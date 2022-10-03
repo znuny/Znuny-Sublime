@@ -5,10 +5,10 @@ ${1:my \$Result = \$DebuggerObject->RequesterPerformRequest(
     Data            => \{            # data payload for request
         ...
     \},
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.DebuggerObject.RequesterPerformRequest</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

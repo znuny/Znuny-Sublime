@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my \$Success = \$DynamicFieldObject->DynamicFieldOrderReset();
-}
+${1:my \$Success = \$DynamicFieldObject->DynamicFieldOrderReset();}
+
 ]]></content>
     <tabTrigger>znuny.DynamicFieldObject.DynamicFieldOrderReset</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

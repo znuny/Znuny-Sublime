@@ -4,10 +4,10 @@ ${1:my %CommunicationChannel = \$CommunicationChannelObject->ChannelGet(
     ChannelID   => \$ChannelID,      # (optional) Communication channel id
                              # or
     ChannelName => 'Email',  # (optional) Communication channel name
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.CommunicationChannelObject.ChannelGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -10,10 +10,10 @@ ${1:my %PageNavBar = \$LayoutObject->PageNavBar(
     Link        => \$Link,       # e. g. 'Subaction=View;'
     AJAXReplace => 'IDElement', # IDElement which should be replaced
     IDPrefix    => 'Tickets',   # Prefix for the id parameter
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.LayoutObject.PageNavBar</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

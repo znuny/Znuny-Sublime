@@ -3,10 +3,10 @@
 ${1:my \$Success = \$LastViewsObject->Delete(
     SessionID => \$SessionID,
     Count     => 20,                    # option - deletes all views but the latest n
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.LastViewsObject.Delete</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

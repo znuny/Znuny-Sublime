@@ -4,10 +4,10 @@ ${1:my \$Success = \$ProcessObject->ProcessTicketProcessSet(
     ProcessEntityID => \$ProcessEntityID,
     TicketID        => \$TicketID,
     UserID          => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.ProcessObject.ProcessTicketProcessSet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

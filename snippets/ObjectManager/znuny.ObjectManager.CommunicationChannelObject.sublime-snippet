@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-my \$CommunicationChannelObject = \$Kernel::OM->Get('Kernel::System::CommunicationChannel');
+my $CommunicationChannelObject = $Kernel::OM->Get('Kernel::System::CommunicationChannel');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.CommunicationChannelObject</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

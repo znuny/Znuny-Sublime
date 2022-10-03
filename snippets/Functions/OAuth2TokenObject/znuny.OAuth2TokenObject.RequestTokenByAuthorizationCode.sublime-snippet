@@ -4,10 +4,10 @@ ${1:my %Token = \$OAuth2TokenObject->RequestTokenByAuthorizationCode(
     TokenConfigID     => \$TokenConfigID,
     AuthorizationCode => '...',
     UserID            => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.OAuth2TokenObject.RequestTokenByAuthorizationCode</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

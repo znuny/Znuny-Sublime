@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %AclAction = \$TicketObject->TicketAclActionData();}
+
+]]></content>
+    <tabTrigger>znuny.TicketObject.TicketAclActionData</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

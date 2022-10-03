@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:my \$CTimeString = \$DateTimeObject->ToCTimeString();
-}
-]]></content>
-    <tabTrigger>znuny.SystemTimeZone.ToCTimeString</tabTrigger>
-    <description>6</description>
-    <scope>source.perl</scope>
-</snippet>

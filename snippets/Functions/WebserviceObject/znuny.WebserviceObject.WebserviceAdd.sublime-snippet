@@ -5,10 +5,10 @@ ${1:my \$ID = \$WebserviceObject->WebserviceAdd(
     Config  => \$ConfigHashRef,
     ValidID => \$ValidID,
     UserID  => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.WebserviceObject.WebserviceAdd</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

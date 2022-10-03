@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my \$Output = \$LayoutObject->NotifyNonUpdatedTickets();
-}
+${1:my \$Output = \$LayoutObject->NotifyNonUpdatedTickets();}
+
 ]]></content>
     <tabTrigger>znuny.LayoutObject.NotifyNonUpdatedTickets</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

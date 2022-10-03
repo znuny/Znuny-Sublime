@@ -3,10 +3,13 @@
 ${1:my \$TestCustomerUserLogin = \$HelperObject->TestCustomerUserCreate(
     Language  => 'de',   # optional, defaults to 'en' if not set
     KeepValid => 1,      # optional, defaults to 0
-);
-}
+);}
+${2:my \$TestUserLogin = \$HelperObject->TestCustomerUserCreate(
+    Language => 'de',   # optional, defaults to 'en' if not set
+);}
+
 ]]></content>
     <tabTrigger>znuny.HelperObject.TestCustomerUserCreate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

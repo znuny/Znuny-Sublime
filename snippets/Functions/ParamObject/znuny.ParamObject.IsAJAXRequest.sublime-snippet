@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my \$IsAJAXRequest = \$ParamObject->IsAJAXRequest();
-}
+${1:my \$IsAJAXRequest = \$ParamObject->IsAJAXRequest();}
+
 ]]></content>
     <tabTrigger>znuny.ParamObject.IsAJAXRequest</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

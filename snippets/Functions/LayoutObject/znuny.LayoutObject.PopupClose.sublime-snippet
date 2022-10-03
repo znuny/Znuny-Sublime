@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:# load specific URL in main window
+\$LayoutObject->PopupClose(
+    URL => "Action=AgentTicketZoom;TicketID=\$TicketID"
+);}
+${2:# reload main window
+\$LayoutObject->PopupClose(
+    Reload => 1,
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.PopupClose</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

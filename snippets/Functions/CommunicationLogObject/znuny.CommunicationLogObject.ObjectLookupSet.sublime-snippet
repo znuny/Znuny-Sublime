@@ -4,10 +4,10 @@ ${1:my \$Result = \$CommunicationLogObject->ObjectLookupSet(
     ObjectID         => \$ObjectID,       # (required)
     TargetObjectType => 'Article', # (required)
     TargetObjectID   => \$TargetObjectID,       # (required)
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.CommunicationLogObject.ObjectLookupSet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

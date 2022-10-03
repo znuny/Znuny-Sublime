@@ -26,10 +26,10 @@ ${1:my %Result = \$SysConfigObject->SettingAddItem(
         \},
     ],
     AddSettingContent => 0,          # (optional) if enabled, result will be inside of div with class "SettingContent"
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SysConfigObject.SettingAddItem</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

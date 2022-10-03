@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Watch = \$TicketObject->TicketWatchGet(
+    TicketID => \$TicketID,
+    Notify   => 1,
+);}
+${2:my %Watch = \$TicketObject->TicketWatchGet(
+    TicketID => \$TicketID,
+);}
+${3:my @Watch = \$TicketObject->TicketWatchGet(
+    TicketID => \$TicketID,
+    Result   => 'ARRAY',
+);}
+
+]]></content>
+    <tabTrigger>znuny.TicketObject.TicketWatchGet</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

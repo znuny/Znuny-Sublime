@@ -7,10 +7,10 @@ ${1:my \$Success = \$HelperObject->TestUserPreferencesSet(
         UserMobile   => undef,        # example for deleting a UserPreferences Key's value
         UserLanguage => '',           # example for deleting a UserPreferences Key's value
     \},
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.HelperObject.TestUserPreferencesSet</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

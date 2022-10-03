@@ -4,10 +4,10 @@ ${1:my \$Success = \$BackendObject->ValueValidate(
     DynamicFieldConfig => \$DynamicFieldConfig,      # complete config of the DynamicField
     Value              => \$Value,                   # Value to store, depends on backend type
     UserID             => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.BackendObject.ValueValidate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

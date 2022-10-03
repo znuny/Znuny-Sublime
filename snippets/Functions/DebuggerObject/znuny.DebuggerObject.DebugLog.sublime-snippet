@@ -4,10 +4,10 @@ ${1:\$DebuggerObject->DebugLog(
     DebugLevel => 'debug',
     Summary    => 'Short summary, one line',
     Data       => \$Data, # optional, \$Data can be a string or a scalar reference
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.DebuggerObject.DebugLog</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

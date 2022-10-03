@@ -1,14 +1,6 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$FileLocation = \$MainObject->FileWrite(
-    Directory => 'c:\some\location',
-    Filename  => 'file2write.txt',
-    # or Location
-    Location  => 'c:\some\location\file2write.txt',
-
-    Content   => \\$Content,
-);
-}${2:my \$FileLocation = \$MainObject->FileWrite(
     Directory  => 'c:\some\location',
     Filename   => 'file2write.txt',
     # or Location
@@ -18,10 +10,18 @@ ${1:my \$FileLocation = \$MainObject->FileWrite(
     Mode       => 'binmode', # binmode|utf8
     Type       => 'Local',   # optional - Local|Attachment|MD5
     Permission => '644',     # optional - unix file permissions
-);
-}
+);}
+${2:my \$FileLocation = \$MainObject->FileWrite(
+    Directory => 'c:\some\location',
+    Filename  => 'file2write.txt',
+    # or Location
+    Location  => 'c:\some\location\file2write.txt',
+
+    Content   => \\$Content,
+);}
+
 ]]></content>
     <tabTrigger>znuny.MainObject.FileWrite</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

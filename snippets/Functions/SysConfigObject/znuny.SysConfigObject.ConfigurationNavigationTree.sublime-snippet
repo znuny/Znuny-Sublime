@@ -5,10 +5,10 @@ ${1:my %Result = \$SysConfigObject->ConfigurationNavigationTree(
     UserModificationActive => 1,            # (optional) Return settings that can be modified on user level only.
     IsValid                => 1,            # (optional) By default, display all settings.
     Category               => 'OTRS'        # (optional)
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SysConfigObject.ConfigurationNavigationTree</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

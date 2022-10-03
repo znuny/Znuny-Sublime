@@ -4,10 +4,10 @@ ${1:my \$ObjectModuleCheck = \$StatsObject->ObjectModuleCheck(
     StatType                     => 'static',
     ObjectModule                 => 'Kernel::System::Stats::Static::StateAction',
     CheckAlreadyUsedStaticObject => 1,                                             # optional
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.StatsObject.ObjectModuleCheck</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

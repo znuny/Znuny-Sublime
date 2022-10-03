@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Element = \$Selenium->FindElementSave(
+    Selector     => '#GroupID',
+    SelectorType => 'css',        # optional
+);}
+
+]]></content>
+    <tabTrigger>znuny.Selenium.FindElementSave</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

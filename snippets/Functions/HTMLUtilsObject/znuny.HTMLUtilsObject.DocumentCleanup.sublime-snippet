@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:\$HTMLBody = \$HTMLUtilsObject->DocumentCleanup(
     String => \$HTMLBody,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.HTMLUtilsObject.DocumentCleanup</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

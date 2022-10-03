@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:# Setting values by hash:
+my \$Success = \$DateTimeObject->Set(
+    Year     => 2016,
+    Month    => 1,
+    Day      => 22,
+    Hour     => 16,
+    Minute   => 35,
+    Second   => 59,
+);}
+${2:# Settings values by date/time string:
+my \$Success = \$DateTimeObject->Set( String => '2016-02-25 20:34:01' );}
+
+]]></content>
+    <tabTrigger>znuny.DateTimeObject.Set</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -17,10 +17,10 @@ ${1:my \$Data = \$UtilObject->DataStructureRemoveElements(
         'QueueData->Comment',
         # ...
     ],
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.UtilObject.DataStructureRemoveElements</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

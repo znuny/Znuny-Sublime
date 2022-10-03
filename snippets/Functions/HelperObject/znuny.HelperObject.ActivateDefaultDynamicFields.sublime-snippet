@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my \$Result = \$HelperObject->ActivateDefaultDynamicFields();
-}
+${1:my \$Result = \$HelperObject->ActivateDefaultDynamicFields();}
+
 ]]></content>
     <tabTrigger>znuny.HelperObject.ActivateDefaultDynamicFields</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

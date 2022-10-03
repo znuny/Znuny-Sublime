@@ -3,10 +3,10 @@
 ${1:my \$HistoricalValues = \$DynamicFieldValueObject->HistoricalValueGet(
     FieldID   => \$FieldID,                  # ID of the dynamic field
     ValueType => 'Text',                    # or 'DateTime' or 'Integer'. Default 'Text'
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.DynamicFieldValueObject.HistoricalValueGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

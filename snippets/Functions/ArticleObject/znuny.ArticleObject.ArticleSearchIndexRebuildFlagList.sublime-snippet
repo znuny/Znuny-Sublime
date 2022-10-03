@@ -3,10 +3,10 @@
 ${1:my %ArticleTicketIDs = \$ArticleObject->ArticleSearchIndexRebuildFlagList(
     Value => 1,     # (optional) 0/1 default 0
     Limit => 10000, # (optional) default: 20000
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.ArticleObject.ArticleSearchIndexRebuildFlagList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

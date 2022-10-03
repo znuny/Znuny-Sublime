@@ -1,8 +1,14 @@
 <snippet>
     <content><![CDATA[
-my \$UnitTestObject = \$Kernel::OM->Get('Kernel::System::UnitTest');
+my $DriverObject = $Kernel::OM->Create(
+        'Kernel::System::UnitTest::Driver',
+        ObjectParams => {
+            Verbose => $Self->{Verbose},
+            ANSI    => $Self->{ANSI},
+        },
+    );
 ]]></content>
     <tabTrigger>znuny.ObjectManager.UnitTestObject</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

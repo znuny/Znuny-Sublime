@@ -12,10 +12,10 @@ ${1:my \$ProcessTransition = \$ProcessObject->ProcessTransition(
         Subject       => 'Testsubject',
         #...
     \},
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.ProcessObject.ProcessTransition</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

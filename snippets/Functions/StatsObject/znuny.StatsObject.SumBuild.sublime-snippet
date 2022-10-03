@@ -4,10 +4,10 @@ ${1:\$StatArray = \$StatsObject->SumBuild(
     Array  => \@Result,
     SumRow => 1,
     SumCol => 0,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.StatsObject.SumBuild</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

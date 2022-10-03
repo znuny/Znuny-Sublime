@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TicketObject->TicketPrioritySet(
+    TicketID   => \$TicketID,
+    PriorityID => \$PriorityID,
+    UserID     => \$UserID,
+);}
+${2:my \$Success = \$TicketObject->TicketPrioritySet(
+    TicketID => \$TicketID,
+    Priority => 'low',
+    UserID   => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.TicketObject.TicketPrioritySet</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

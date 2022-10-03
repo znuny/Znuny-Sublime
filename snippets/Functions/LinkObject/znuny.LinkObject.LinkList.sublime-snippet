@@ -8,10 +8,10 @@ ${1:my \$LinkList = \$LinkObject->LinkList(
     Type      => 'ParentChild', # (optional)
     Direction => 'Target',      # (optional) default Both (Source|Target|Both)
     UserID    => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.LinkObject.LinkList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

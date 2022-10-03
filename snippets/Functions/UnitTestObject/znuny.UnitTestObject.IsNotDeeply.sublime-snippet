@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Self->IsNotDeeply(
+    \%ResultHash,           # test data
+    \%ExpectedHash,         # expected value
+    'Dummy Test Name',
+);}
+${2:\$Self->IsNotDeeply(\$ParamA, \$ParamB, 'Test Name');}
+
+]]></content>
+    <tabTrigger>znuny.UnitTestObject.IsNotDeeply</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

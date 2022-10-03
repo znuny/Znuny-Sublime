@@ -9,10 +9,10 @@ ${1:\$True = \$PDFObject->PageBlankNew(
     MarginBottom    => 40,           # (optional) default 0  |
     MarginLeft      => 40,           # (optional) default 0 -
     ShowPageNumber  => 0,            # (optional) default 1
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.PDFObject.PageBlankNew</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

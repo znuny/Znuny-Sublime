@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
-${1:my \$TypeID = \$TypeObject->TypeLookup( Type => \$Type );
-}${2:my \$Type = \$TypeObject->TypeLookup( TypeID => \$TypeID );
-}
+${1:my \$Type = \$TypeObject->TypeLookup( TypeID => \$TypeID );}
+${2:my \$TypeID = \$TypeObject->TypeLookup( Type => \$Type );}
+
 ]]></content>
     <tabTrigger>znuny.TypeObject.TypeLookup</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my @List = \$PackageObject->PackageOnlineList(
+    URL                => '',
+    Lang               => 'en',
+    Cache              => 0,    # (optional) do not use cached data
+    FromCloud          => 1,    # optional 1 or 0, it indicates if a Cloud Service
+                                #  should be used for getting the packages list
+    IncludeSameVersion => 1,    # (optional) to also get packages already installed and with the same version
+);}
+
+]]></content>
+    <tabTrigger>znuny.PackageObject.PackageOnlineList</tabTrigger>
+    <description>6.0</description>
+    <scope>source.perl</scope>
+</snippet>

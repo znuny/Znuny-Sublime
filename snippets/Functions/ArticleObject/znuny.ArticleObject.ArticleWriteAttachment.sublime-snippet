@@ -10,10 +10,10 @@ ${1:my \$Success = \$ArticleObject->ArticleWriteAttachment(
     Disposition        => 'attachment', # or 'inline'
     ArticleID          => \$ArticleID,
     UserID             => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.ArticleObject.ArticleWriteAttachment</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

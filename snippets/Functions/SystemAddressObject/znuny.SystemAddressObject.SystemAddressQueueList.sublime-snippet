@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my %List = \$SystemAddressObject->SystemAddressQueueList(
     Valid => 0,  # optional, defaults to 1
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SystemAddressObject.SystemAddressQueueList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

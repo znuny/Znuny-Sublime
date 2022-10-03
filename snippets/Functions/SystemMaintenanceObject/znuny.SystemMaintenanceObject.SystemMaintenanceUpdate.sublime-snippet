@@ -10,10 +10,10 @@ ${1:my \$Success = \$SystemMaintenanceObject->SystemMaintenanceUpdate(
     NotifyMessage    => 'Notification for showing', # optional
     ValidID          => \$ValidID,                  # mandatory
     UserID           => \$UserID,                        # mandatory
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SystemMaintenanceObject.SystemMaintenanceUpdate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

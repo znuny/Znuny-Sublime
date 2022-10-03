@@ -3,10 +3,10 @@
 ${1:my \$Success = \$UnitTestParamObject->ParamUploadSet(
     Name     => 'Upload',
     Location => '...',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.UnitTestParamObject.ParamUploadSet</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

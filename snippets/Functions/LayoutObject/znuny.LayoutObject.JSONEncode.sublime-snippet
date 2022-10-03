@@ -3,10 +3,10 @@
 ${1:my \$JSON = \$LayoutObject->JSONEncode(
     Data        => \$Data,
     NoQuotes    => 0|1, # optional: no double quotes at the start and the end of JSON string
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.LayoutObject.JSONEncode</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

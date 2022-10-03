@@ -1,25 +1,25 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$Output = \$LayoutObject->Notify(
-    Priority => 'Error',
-);
-}${2:my \$Output = \$LayoutObject->Notify(
-    Priority => 'Error',
-    Info => 'Some Error Message',
-);
-}${3:my \$Output = \$LayoutObject->Notify(
-    Priority => 'Warning',
-    Info => 'Some Info Message',
-);
-}${4:my \$Output = \$LayoutObject->Notify(
     Priority  => 'Warning',
     Data      => 'Template content',
     Link      => 'http://example.com/',
     LinkClass => 'some_CSS_class',              # optional
-);
-}
+);}
+${2:my \$Output = \$LayoutObject->Notify(
+    Priority => 'Error',
+    Info => 'Some Error Message',
+);}
+${3:my \$Output = \$LayoutObject->Notify(
+    Priority => 'Error',
+);}
+${4:my \$Output = \$LayoutObject->Notify(
+    Priority => 'Warning',
+    Info => 'Some Info Message',
+);}
+
 ]]></content>
     <tabTrigger>znuny.LayoutObject.Notify</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

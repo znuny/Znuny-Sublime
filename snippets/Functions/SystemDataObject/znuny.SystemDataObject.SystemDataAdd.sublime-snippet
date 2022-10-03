@@ -4,15 +4,15 @@ ${1:my \$Result = \$SystemDataObject->SystemDataAdd(
     Key    => 'SomeKey',
     Value  => 'Some Value',
     UserID => \$UserID,
-);
-}${2:my \$Result = \$SystemDataObject->SystemDataAdd(
+);}
+${2:my \$Result = \$SystemDataObject->SystemDataAdd(
     Key    => 'SystemRegistration::Version',
     Value  => 'Some Value',
     UserID => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SystemDataObject.SystemDataAdd</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

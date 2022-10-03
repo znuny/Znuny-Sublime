@@ -1,0 +1,42 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$Selenium->InputSet(
+    Attribute   => 'DynamicField_ExampleCheckbox',
+    WaitForAJAX => 0,                       # optional, default 1
+    Content     => undef,                   # optional, none removes content
+    Options     => \{                        # optional
+        TriggerChange => 1,                 # default is 1
+    \}
+);}
+${2:my \$Result = \$Selenium->InputSet(
+    Attribute   => 'QueueID',
+    WaitForAJAX => 0,                       # optional, default 1
+    Content     => 'Misc',                  # optional, none removes content
+    Options     => \{                        # optional
+        KeyOrValue    => 'Value',           # default is 'Key'
+        TriggerChange => 0,                 # default is 1
+    \}
+);}
+${3:my \$Result = \$Selenium->InputSet(
+    Attribute => 'DynamicField_NameOfYourDateOrDateTimeField',
+    Content   => \{
+        Year   => '2016',
+        Month  => '08',
+        Day    => '30',
+        Hour   => '00',
+        Minute => '00',
+        Second => '00',
+        Used   => 1, # THIS ONE IS IMPORTANT -
+                   # if not set to 1 field will not get activated and though not transmitted
+    \},
+    WaitForAJAX => 1,
+    Options     => \{
+        TriggerChange => 1,
+    \}
+);}
+
+]]></content>
+    <tabTrigger>znuny.Selenium.InputSet</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

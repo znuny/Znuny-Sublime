@@ -19,10 +19,10 @@ sub Request \{
 \}
 1;^,
     Identifier => 'News',   # (optional) Code identifier to include in file name
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.HelperObject.CustomCodeActivate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

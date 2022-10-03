@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my \$Token = \$UserObject->TokenGenerate(
     UserID => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.UserObject.TokenGenerate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

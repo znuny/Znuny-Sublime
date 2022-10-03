@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Self->IsDeeply(
+    \%ResultHash,           # test data
+    \%ExpectedHash,         # expected value
+    'Dummy Test Name',
+);}
+${2:\$Self->IsDeeply(\$ParamA, \$ParamB, 'Test Name');}
+${3:my \$IsDeeplyResult = \$Self->IsDeeply(
+    \%ResultHash,           # test data
+    \%ExpectedHash,         # expected value
+    'Dummy Test Name',
+);}
+
+]]></content>
+    <tabTrigger>znuny.UnitTestObject.IsDeeply</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

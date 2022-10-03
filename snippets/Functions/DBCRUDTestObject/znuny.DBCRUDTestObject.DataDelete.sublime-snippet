@@ -8,10 +8,10 @@ ${1:my \$Success = \$DBCRUDTestObject->DataDelete(
     ContentJSON => '...', # optional
     CreateTime  => '...', # optional
     ChangeTime  => '...', # optional
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.DBCRUDTestObject.DataDelete</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

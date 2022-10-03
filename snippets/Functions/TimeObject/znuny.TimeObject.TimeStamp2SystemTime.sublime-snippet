@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my \$SystemTime = \$TimeObject->TimeStamp2SystemTime(
     String => '2004-08-14 22:45:00',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.TimeObject.TimeStamp2SystemTime</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

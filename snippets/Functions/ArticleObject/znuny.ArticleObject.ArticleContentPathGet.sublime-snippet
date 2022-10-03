@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my \$Path = \$ArticleObject->ArticleContentPathGet(
     ArticleID => \$ArticleID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.ArticleObject.ArticleContentPathGet</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

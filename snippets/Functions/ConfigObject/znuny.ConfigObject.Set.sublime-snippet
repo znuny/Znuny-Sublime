@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$ConfigObject->Set(
+    Key   => 'My::Setting::Name',
+    Value => 42,    # new value; set to undef to remove the setting
+);}
+
+]]></content>
+    <tabTrigger>znuny.ConfigObject.Set</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

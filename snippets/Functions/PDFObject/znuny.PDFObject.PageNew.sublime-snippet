@@ -15,10 +15,10 @@ ${1:\$PDFObject->PageNew(
     HeadlineRight   => 'Headline Text',     # (optional)
     FooterLeft      => 'Footer Left Text',  # (optional)
     FooterRight     => 'Footer Right Text', # (optional)
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.PDFObject.PageNew</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$AlertText = \$Selenium->get_alert_text();}
+
+]]></content>
+    <tabTrigger>znuny.Selenium.get_alert_text</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

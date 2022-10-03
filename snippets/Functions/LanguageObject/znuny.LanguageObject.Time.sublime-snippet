@@ -1,10 +1,14 @@
 <snippet>
     <content><![CDATA[
-${1:\$TimeLong = \$LanguageObject->Time(
+${1:\$Time = \$LanguageObject->Time(
+    Action => 'GET',
+    Format => 'DateFormat',
+);}
+${2:\$TimeLong = \$LanguageObject->Time(
     Action => 'GET',
     Format => 'DateFormatLong',
-);
-}${2:\$TimeLong = \$LanguageObject->Time(
+);}
+${3:\$TimeLong = \$LanguageObject->Time(
     Action => 'RETURN',
     Format => 'DateFormatLong',
     Year   => 1977,
@@ -13,8 +17,8 @@ ${1:\$TimeLong = \$LanguageObject->Time(
     Hour   => 20,
     Minute => 10,
     Second => 05,
-);
-}${3:\$TimeLong = \$LanguageObject->Time(
+);}
+${4:\$TimeLong = \$LanguageObject->Time(
     Action => 'RETURN',
     Format => 'DateInputFormatLong',
     Mode   => 'NotNumeric',
@@ -24,10 +28,10 @@ ${1:\$TimeLong = \$LanguageObject->Time(
     Hour   => '<input value="11"/>',
     Minute => '<input value="12"/>',
     Second => '<input value="13"/>',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.LanguageObject.Time</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

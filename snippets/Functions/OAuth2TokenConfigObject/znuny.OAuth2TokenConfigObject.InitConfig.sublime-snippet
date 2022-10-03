@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my \$Success = \$OAuth2TokenConfigObject->InitConfig();
-}
+${1:my \$Success = \$OAuth2TokenConfigObject->InitConfig();}
+
 ]]></content>
     <tabTrigger>znuny.OAuth2TokenConfigObject.InitConfig</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

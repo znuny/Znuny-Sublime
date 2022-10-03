@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-my \$SalutationObject = \$Kernel::OM->Get('Kernel::System::Salutation');
+my $SalutationObject = $Kernel::OM->Get('Kernel::System::Salutation');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.SalutationObject</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

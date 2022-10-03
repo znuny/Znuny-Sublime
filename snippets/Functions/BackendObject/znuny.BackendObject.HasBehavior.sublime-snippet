@@ -16,10 +16,10 @@ ${1:my \$Success = \$BackendObject->HasBehavior(
                                                      #     interface
                                                      # 'IsHTMLContent' to indicate that there is                                                        # 'IsCustomerInterfaceCapable' to make
                                                      #     HTML content (avoid duble cnversion to HTML)
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.BackendObject.HasBehavior</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

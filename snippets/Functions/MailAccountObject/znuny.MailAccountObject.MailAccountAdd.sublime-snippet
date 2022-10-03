@@ -1,6 +1,18 @@
 <snippet>
     <content><![CDATA[
-${1:my \$MailAccountID = \$MailAccountObject->MailAccountAdd(
+${1:\$MailAccountObject->MailAccountAdd(
+    Login         => 'mail',
+    Password      => 'SomePassword',
+    Host          => 'pop3.example.com',
+    Type          => 'POP3',
+    IMAPFolder    => 'Some Folder', # optional, only valid for IMAP-type accounts
+    ValidID       => \$ValidID,
+    Trusted       => 0,
+    DispatchingBy => 'Queue', # Queue|From
+    QueueID       => \$QueueID,
+    UserID        => \$UserID,
+);}
+${2:my \$MailAccountID = \$MailAccountObject->MailAccountAdd(
     Login               => 'mail',
     Password            => 'SomePassword',
     Host                => 'pop3.example.com',
@@ -13,10 +25,10 @@ ${1:my \$MailAccountID = \$MailAccountObject->MailAccountAdd(
     DispatchingBy       => 'Queue',             # Queue|From
     QueueID             => \$QueueID,
     UserID              => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.MailAccountObject.MailAccountAdd</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

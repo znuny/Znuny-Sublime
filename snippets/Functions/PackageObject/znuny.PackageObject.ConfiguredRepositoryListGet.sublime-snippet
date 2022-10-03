@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my %RepositoryList = \$PackageObject->ConfiguredRepositoryListGet();
-}
+${1:my %RepositoryList = \$PackageObject->ConfiguredRepositoryListGet();}
+
 ]]></content>
     <tabTrigger>znuny.PackageObject.ConfiguredRepositoryListGet</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

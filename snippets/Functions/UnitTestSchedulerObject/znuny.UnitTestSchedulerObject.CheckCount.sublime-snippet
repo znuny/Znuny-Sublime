@@ -5,10 +5,10 @@ ${1:my \$Success = \$UnitTestSchedulerObject->CheckCount(
     Count          => '2',
     Message        => "2 'AsynchronousExecutor' tasks added",    # optional
     Type           => 'AsynchronousExecutor',                    # optional
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.UnitTestSchedulerObject.CheckCount</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

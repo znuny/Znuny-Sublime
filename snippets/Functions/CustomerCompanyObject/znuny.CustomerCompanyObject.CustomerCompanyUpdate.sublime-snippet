@@ -12,10 +12,10 @@ ${1:\$CustomerCompanyObject->CustomerCompanyUpdate(
     CustomerCompanyComment  => 'some comment',
     ValidID                 => \$ValidID,
     UserID                  => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.CustomerCompanyObject.CustomerCompanyUpdate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

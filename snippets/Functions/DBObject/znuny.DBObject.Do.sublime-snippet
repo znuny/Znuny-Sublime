@@ -1,14 +1,14 @@
 <snippet>
     <content><![CDATA[
-${1:\$DBObject->Do( SQL => "DELETE FROM table" );
-}${2:\$DBObject->Do( SQL => "INSERT INTO table (name) VALUES ('dog')" );
-}${3:\$DBObject->Do(
+${1:\$DBObject->Do(
     SQL  => "INSERT INTO table (name1, name2) VALUES (?, ?)",
     Bind => [ \\$Var1, \\$Var2 ],
-);
-}
+);}
+${2:\$DBObject->Do( SQL => "DELETE FROM table" );}
+${3:\$DBObject->Do( SQL => "INSERT INTO table (name) VALUES ('dog')" );}
+
 ]]></content>
     <tabTrigger>znuny.DBObject.Do</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

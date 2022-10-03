@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my ( \$Content, \$Filename ) = \$SupportBundleGeneratorObject->GenerateSupportData();
-}
+${1:my ( \$Content, \$Filename ) = \$SupportBundleGeneratorObject->GenerateSupportData();}
+
 ]]></content>
     <tabTrigger>znuny.SupportBundleGeneratorObject.GenerateSupportData</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

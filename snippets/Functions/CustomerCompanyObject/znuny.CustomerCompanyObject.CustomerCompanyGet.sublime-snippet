@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my %CustomerCompany = \$CustomerCompanyObject->CustomerCompanyGet(
     CustomerID => \$CustomerID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.CustomerCompanyObject.CustomerCompanyGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

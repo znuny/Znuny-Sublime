@@ -3,10 +3,10 @@
 ${1:\$SystemDataObject->SystemDataDelete(
     Key    => 'OTRS Version',
     UserID => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SystemDataObject.SystemDataDelete</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

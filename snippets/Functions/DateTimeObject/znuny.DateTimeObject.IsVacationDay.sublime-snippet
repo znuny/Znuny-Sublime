@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$IsVacationDay = \$DateTimeObject->IsVacationDay(
+    Calendar => 9, # optional, OTRS vacation days otherwise
+);}
+
+]]></content>
+    <tabTrigger>znuny.DateTimeObject.IsVacationDay</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,18 +1,22 @@
 <snippet>
     <content><![CDATA[
-${1:my ( \$TestUserLogin, \$TestUserID ) = \$HelperObject->TestUserCreate(
-    Groups    => ['admin', 'users'],
-    Language  => 'de'
-    KeepValid => 1,
-);
-}${2:my \$TestUserLogin = \$HelperObject->TestUserCreate(
+${1:my \$TestUserLogin = \$HelperObject->TestUserCreate(
     Groups    => ['admin', 'users'],         # optional, list of groups to add this user to (rw rights)
     Language  => 'de'                        # optional, defaults to 'en' if not set
     KeepValid => 1,                          # optional, defaults to 0
-);
-}
+);}
+${2:my \$TestUserLogin = \$HelperObject->TestUserCreate(
+    Groups => ['admin', 'users'],           # optional, list of groups to add this user to (rw rights)
+    Language => 'de'                        # optional, defaults to 'en' if not set
+);}
+${3:my ( \$TestUserLogin, \$TestUserID ) = \$HelperObject->TestUserCreate(
+    Groups    => ['admin', 'users'],
+    Language  => 'de'
+    KeepValid => 1,
+);}
+
 ]]></content>
     <tabTrigger>znuny.HelperObject.TestUserCreate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

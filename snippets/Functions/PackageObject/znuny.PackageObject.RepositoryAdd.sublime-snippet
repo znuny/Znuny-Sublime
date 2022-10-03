@@ -2,10 +2,14 @@
     <content><![CDATA[
 ${1:\$PackageObject->RepositoryAdd(
     String    => \$FileString,
-);
-}
+    FromCloud => 0,             # optional 1 or 0, it indicates if package came from Cloud or not
+);}
+${2:\$PackageObject->RepositoryAdd(
+    String    => \$FileString,
+);}
+
 ]]></content>
     <tabTrigger>znuny.PackageObject.RepositoryAdd</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,30 +1,31 @@
 <snippet>
     <content><![CDATA[
-${1:    my \$CalendarEventsData = \$CalendarEventsObject->Parse(
-        TicketID    => \$TicketID,
-        ArticleID   => \$ArticleID,
-        String      => \$ArticleContent, # parse specified text content
-        Attachments => \{ # parse attachments
-            Data => \{
-              '4' => \{
-                       'Disposition' => 'attachment',
-                       'ContentType' => 'text/calendar; charset=UTF-8; name="Some calendar name.ics"',
-                       'Filename' => 'calendar.ics',
-                       'FilesizeRaw' => '949'
-                     \},
-              '1' => \{
-                       'Disposition' => 'attachment',
-                       'ContentType' => 'text/calendar; charset=UTF-8; name="Some calendar name1.ics"',
-                       'Filename' => 'calendar1.ics',
-                       'FilesizeRaw' => '2967'
-                     \},
+${1:my \$CalendarEventsData = \$CalendarEventsObject->Parse(
+    TicketID    => \$TicketID,
+    ArticleID   => \$ArticleID,
+    String      => \$ArticleContent, # parse specified text content
+    Attachments => \{ # parse attachments
+        Data => \{
+            '4' => \{
+                'Disposition' => 'attachment',
+                'ContentType' => 'text/calendar; charset=UTF-8; name="Some calendar name.ics"',
+                'Filename'    => 'calendar.ics',
+                'FilesizeRaw' => '949'
             \},
-            Type => "Article", # specify type of attachments
+            '1' => \{
+                'Disposition' => 'attachment',
+                'ContentType' => 'text/calendar; charset=UTF-8; name="Some calendar name1.ics"',
+                'Filename'    => 'calendar1.ics',
+                'FilesizeRaw' => '2967'
+            \},
         \},
-        ToTimeZone => \$UserTimeZone,
-}
+        Type => "Article", # specify type of attachments
+    \},
+    ToTimeZone => \$UserTimeZone,
+);}
+
 ]]></content>
     <tabTrigger>znuny.CalendarEventsObject.Parse</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

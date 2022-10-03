@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-my \$SystemTimeZone = Kernel::System::DateTime
-]]></content>
-    <tabTrigger>znuny.ObjectManager.SystemTimeZone</tabTrigger>
-    <description>6</description>
-    <scope>source.perl</scope>
-</snippet>

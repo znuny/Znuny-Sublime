@@ -4,10 +4,10 @@ ${1:my \$Success = \$ArticleObject->ArticleSearchIndexBuild(
     TicketID  => \$TicketID,
     ArticleID => \$ArticleID,
     UserID    => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.ArticleObject.ArticleSearchIndexBuild</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

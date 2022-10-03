@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:my @Result = \$SysConfigObject->ConfigurationLockedSettingsList(
     ExclusiveLockUserID       => \$ExclusiveLockUserID, # Optional, ID of the user for which the default setting is locked
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SysConfigObject.ConfigurationLockedSettingsList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

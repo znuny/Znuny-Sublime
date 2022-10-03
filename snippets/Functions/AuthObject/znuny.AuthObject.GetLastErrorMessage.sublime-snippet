@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$AuthErrorMessage = \$AuthObject->GetLastErrorMessage();}
+
+]]></content>
+    <tabTrigger>znuny.AuthObject.GetLastErrorMessage</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

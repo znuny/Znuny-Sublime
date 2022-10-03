@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my ( \$Content, \$Filename ) = \$SupportBundleGeneratorObject->GenerateConfigurationDump();
-}
+${1:my ( \$Content, \$Filename ) = \$SupportBundleGeneratorObject->GenerateConfigurationDump();}
+
 ]]></content>
     <tabTrigger>znuny.SupportBundleGeneratorObject.GenerateConfigurationDump</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

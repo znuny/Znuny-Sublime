@@ -4,10 +4,10 @@ ${1:my \$Result = \$SystemDataObject->SystemDataUpdate(
     Key    => 'OTRS Version',
     Value  => 'Some New Value',
     UserID => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SystemDataObject.SystemDataUpdate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

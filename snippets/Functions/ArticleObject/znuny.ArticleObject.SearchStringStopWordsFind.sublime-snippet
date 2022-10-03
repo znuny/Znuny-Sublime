@@ -5,10 +5,10 @@ ${1:my \$StopWords = \$ArticleObject->SearchStringStopWordsFind(
         'Fulltext'      => '(this AND is) OR test',
         'MIMEBase_From' => 'myself',
     \},
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.ArticleObject.SearchStringStopWordsFind</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

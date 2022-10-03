@@ -5,10 +5,10 @@ ${1:my @List = \$PackageObject->RepositoryPackageListGet(
     Lang               => 'en',
     Cache              => 0,    # (optional) use cached data
     IncludeSameVersion => 1,    # (optional) also get packages already installed and with the same version
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.PackageObject.RepositoryPackageListGet</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

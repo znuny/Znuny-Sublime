@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Preferences = \$LayoutObject->ComplexTablePreferencesGet(
+    Config  => \{
+        'DefaultColumns' => \{
+            'Age' => 1,
+            'EscalationTime' => 1,
+            ...
+        \},
+        Priority => \{
+            'Age' => 120,
+            'TicketNumber' => 100,
+            ...
+        \}
+    \}.
+    PrefKey => "LinkObject::ComplexTable-Ticket",
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.ComplexTablePreferencesGet</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

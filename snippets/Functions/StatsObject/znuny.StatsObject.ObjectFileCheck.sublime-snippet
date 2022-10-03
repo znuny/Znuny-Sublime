@@ -3,10 +3,10 @@
 ${1:my \$ObjectFileCheck = \$StatsObject->ObjectFileCheck(
     Type => 'static',
     Name => 'NewTickets',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.StatsObject.ObjectFileCheck</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

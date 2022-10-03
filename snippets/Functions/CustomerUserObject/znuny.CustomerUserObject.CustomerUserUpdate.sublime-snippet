@@ -10,10 +10,10 @@ ${1:\$CustomerUserObject->CustomerUserUpdate(
     UserEmail     => 'email@example.com',
     ValidID       => \$ValidID,
     UserID        => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.CustomerUserObject.CustomerUserUpdate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -6,10 +6,10 @@ ${1:my @List = \$SysConfigObject->ConfigurationInvalidList(
                         #                 it will also trigger async call to generate cache.
     Undeployed  => 1,   # (optional) Default 0. Check settings that are not deployed as well.
     NoCache     => 1,   # (optional) Default 0. If enabled, system won't check the cached value.
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SysConfigObject.ConfigurationInvalidList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

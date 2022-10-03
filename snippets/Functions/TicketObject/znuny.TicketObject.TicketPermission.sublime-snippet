@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Access = \$TicketObject->TicketPermission(
+    Type     => 'ro',
+    TicketID => \$TicketID,
+    LogNo    => 1,
+    UserID   => \$UserID,
+);}
+${2:my \$Access = \$TicketObject->TicketPermission(
+    Type     => 'ro',
+    TicketID => \$TicketID,
+    UserID   => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.TicketObject.TicketPermission</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

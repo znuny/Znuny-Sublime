@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my \$ActiveMaintenance = \$SystemMaintenanceObject->SystemMaintenanceIsActive();
-}
+${1:my \$ActiveMaintenance = \$SystemMaintenanceObject->SystemMaintenanceIsActive();}
+
 ]]></content>
     <tabTrigger>znuny.SystemMaintenanceObject.SystemMaintenanceIsActive</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

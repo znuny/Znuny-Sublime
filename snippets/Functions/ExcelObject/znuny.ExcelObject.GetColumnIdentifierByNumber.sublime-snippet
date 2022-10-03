@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ColumnIdentifier = \$ExcelObject->GetColumnIdentifierByNumber(
+    ColumnNumber => 27,
+);}
+
+]]></content>
+    <tabTrigger>znuny.ExcelObject.GetColumnIdentifierByNumber</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

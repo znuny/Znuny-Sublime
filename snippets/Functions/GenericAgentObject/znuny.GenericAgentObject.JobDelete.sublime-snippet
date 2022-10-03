@@ -3,10 +3,10 @@
 ${1:my \$Success = \$GenericAgentObject->JobDelete(
     Name   => 'JobName',
     UserID => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.GenericAgentObject.JobDelete</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

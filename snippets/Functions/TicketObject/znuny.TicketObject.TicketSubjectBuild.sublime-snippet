@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$NewSubject = \$TicketObject->TicketSubjectBuild(
+    TicketNumber => \$TicketNumber,
+    Subject      => \$OldSubject,
+    Action       => 'Forward', # Possible values are Reply and Forward, Reply is default.
+);}
+${2:my \$NewSubject = \$TicketObject->TicketSubjectBuild(
+    TicketNumber => \$TicketNumber,
+    Subject      => \$OldSubject,
+    Action       => 'Reply',
+);}
+${3:my \$NewSubject = \$TicketObject->TicketSubjectBuild(
+    TicketNumber => \$TicketNumber,
+    Subject      => \$OldSubject,
+    Type         => 'New',
+    Action       => 'Reply',
+);}
+${4:my \$NewSubject = \$TicketObject->TicketSubjectBuild(
+    TicketNumber => \$TicketNumber,
+    Subject      => \$OldSubject,
+    Type         => 'New',
+    NoCleanup    => 1,
+);}
+
+]]></content>
+    <tabTrigger>znuny.TicketObject.TicketSubjectBuild</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

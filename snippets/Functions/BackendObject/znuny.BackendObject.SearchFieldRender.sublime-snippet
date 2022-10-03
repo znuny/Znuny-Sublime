@@ -29,10 +29,10 @@ ${1:my \$FieldHTML = \$BackendObject->SearchFieldRender(
     UseLabelHints          => 1,                      # or 0, default 1. To display seach hints in labels
     Type                   => 'some type',            # search preference type
 
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.BackendObject.SearchFieldRender</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

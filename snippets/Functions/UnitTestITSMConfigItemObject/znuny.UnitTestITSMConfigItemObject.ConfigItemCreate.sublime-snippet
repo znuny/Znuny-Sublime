@@ -12,10 +12,10 @@ ${1:my \$VersionRef = \$UnitTestITSMConfigItemObject->ConfigItemCreate(
         WarrantyExpirationDate => '2016-01-01',
         InstallDate            => '2016-01-01',
     \},
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.UnitTestITSMConfigItemObject.ConfigItemCreate</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Selenium->VerifiedGet(
+    \$URL,
+);}
+
+]]></content>
+    <tabTrigger>znuny.Selenium.VerifiedGet</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

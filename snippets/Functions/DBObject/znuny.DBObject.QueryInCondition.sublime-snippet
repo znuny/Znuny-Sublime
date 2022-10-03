@@ -6,10 +6,10 @@ ${1:my \$SQL = \$DBObject->QueryInCondition(
     QuoteType => '(undef|Integer|Number)',
     BindMode  => (0|1),
     Negate    => (0|1),
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.DBObject.QueryInCondition</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

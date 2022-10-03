@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:\$MainObject->Die('some message to die');
-}
+${1:\$MainObject->Die('some message to die');}
+
 ]]></content>
     <tabTrigger>znuny.MainObject.Die</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

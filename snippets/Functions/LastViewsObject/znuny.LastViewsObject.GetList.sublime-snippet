@@ -3,10 +3,10 @@
 ${1:my @LastViews = \$LastViewsObject->GetList(
     SessionID => \$SessionID,
     Types     => ['Ticket', 'Admin'],   # optional
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.LastViewsObject.GetList</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

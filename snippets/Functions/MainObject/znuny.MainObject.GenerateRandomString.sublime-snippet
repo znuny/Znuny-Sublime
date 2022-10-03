@@ -1,16 +1,16 @@
 <snippet>
     <content><![CDATA[
-${1:my \$String = \$MainObject->GenerateRandomString();
-}${2:my \$String = \$MainObject->GenerateRandomString(
-    Length => 32,
-);
-}${3:my \$String = \$MainObject->GenerateRandomString(
+${1:my \$String = \$MainObject->GenerateRandomString(
     Length     => 32,
     Dictionary => [ 0..9, 'a'..'f' ], # hexadecimal
-    );
-}
+    );}
+${2:my \$String = \$MainObject->GenerateRandomString(
+    Length => 32,
+);}
+${3:my \$String = \$MainObject->GenerateRandomString();}
+
 ]]></content>
     <tabTrigger>znuny.MainObject.GenerateRandomString</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

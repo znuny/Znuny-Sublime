@@ -1,14 +1,14 @@
 <snippet>
     <content><![CDATA[
-${1:    if ( \$SystemAddressObject->SystemAddressIsLocalAddress( Address => 'info@example.com' ) ) \{
-        # is local
-    \}
-    else \{
-        # is not local
-    \}
-}
+${1:if ( \$SystemAddressObject->SystemAddressIsLocalAddress( Address => 'info@example.com' ) ) \{
+    # is local
+\}
+else \{
+    # is not local
+\}}
+
 ]]></content>
     <tabTrigger>znuny.SystemAddressObject.SystemAddressIsLocalAddress</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

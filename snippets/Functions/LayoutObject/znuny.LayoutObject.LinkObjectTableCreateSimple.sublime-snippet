@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$String = \$LayoutObject->LinkObjectTableCreateSimple(
+    LinkListWithData => \$LinkListWithDataRef,
+    ViewMode         => 'SimpleRaw',            # (optional) (Simple|SimpleRaw)
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.LinkObjectTableCreateSimple</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

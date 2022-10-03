@@ -3,10 +3,10 @@
 ${1:my \$DynamicField = \$DynamicFieldObject->DynamicFieldGet(
     ID   => 123,             # ID or Name must be provided
     Name => 'DynamicField',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.DynamicFieldObject.DynamicFieldGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

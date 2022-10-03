@@ -10,10 +10,10 @@ ${1:my \$TargetFilename = \$LoaderObject->MinifyFiles(
     Type                 => 'CSS',      # CSS | JavaScript
     TargetDirectory      => \$TargetDirectory,
     TargetFilenamePrefix => 'CommonCSS',    # optional, prefix for the target filename
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.LoaderObject.MinifyFiles</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

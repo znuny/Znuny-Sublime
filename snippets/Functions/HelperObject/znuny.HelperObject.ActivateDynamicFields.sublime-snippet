@@ -8,10 +8,10 @@ ${1:\$HelperObject->ActivateDynamicFields(
     'UnitTestTextArea',
     'UnitTestDate',
     'UnitTestDateTime',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.HelperObject.ActivateDynamicFields</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -10,10 +10,10 @@ ${1:my @List = \$SysConfigObject->SettingsUpdatedList(
         ...
     ],
     UserID => \$UserID,                                                # (required) Current user id
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SysConfigObject.SettingsUpdatedList</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

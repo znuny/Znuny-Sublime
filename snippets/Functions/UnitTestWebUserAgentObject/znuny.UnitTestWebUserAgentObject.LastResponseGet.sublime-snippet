@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my %Response = \$UnitTestWebUserAgentObject->LastResponseGet();
-}
+${1:my %Response = \$UnitTestWebUserAgentObject->LastResponseGet();}
+
 ]]></content>
     <tabTrigger>znuny.UnitTestWebUserAgentObject.LastResponseGet</tabTrigger>
-    <description>6</description>
+    <description>6.4</description>
     <scope>source.perl</scope>
 </snippet>

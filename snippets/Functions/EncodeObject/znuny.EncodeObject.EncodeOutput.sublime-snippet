@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
-${1:\$EncodeObject->EncodeOutput( \@Array );
-}${2:\$EncodeObject->EncodeOutput( \\$String );
-}
+${1:\$EncodeObject->EncodeOutput( \\$String );}
+${2:\$EncodeObject->EncodeOutput( \@Array );}
+
 ]]></content>
     <tabTrigger>znuny.EncodeObject.EncodeOutput</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

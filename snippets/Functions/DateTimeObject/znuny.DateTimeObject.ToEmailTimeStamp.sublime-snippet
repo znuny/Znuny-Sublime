@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:# If you already have a DateTime object, possibly in another time zone:
+\$DateTimeObject->ToOTRSTimeZone();
+my \$MailTimeStamp = \$DateTimeObject->ToEmailTimeStamp();}
+${2:# Typical usage:
+# You want to have the date/time of OTRS + its UTC offset, so:
+my \$DateTimeObject = \$Kernel::OM->Create('Kernel::System::DateTime');
+my \$MailTimeStamp = \$DateTimeObject->ToEmailTimeStamp();}
+${3:my \$MailTimeStamp = \$DateTimeObject->ToEmailTimeStamp();}
+
+]]></content>
+    <tabTrigger>znuny.DateTimeObject.ToEmailTimeStamp</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

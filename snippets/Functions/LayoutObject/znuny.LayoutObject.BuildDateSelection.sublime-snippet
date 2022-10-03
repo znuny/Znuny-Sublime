@@ -45,10 +45,10 @@ ${1:my \$HTML = \$LayoutObject->BuildDateSelection(
                                               #   client side with JS
     Disabled => 1,                            # optional (1 or 0), when active select and checkbox controls gets the
                                               #   disabled attribute and input fields gets the read only attribute
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.LayoutObject.BuildDateSelection</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

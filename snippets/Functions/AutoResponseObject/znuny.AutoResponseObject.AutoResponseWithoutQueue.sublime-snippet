@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my %AutoResponseWithoutQueue = \$AutoResponseObject->AutoResponseWithoutQueue();
-}
+${1:my %AutoResponseWithoutQueue = \$AutoResponseObject->AutoResponseWithoutQueue();}
+
 ]]></content>
     <tabTrigger>znuny.AutoResponseObject.AutoResponseWithoutQueue</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

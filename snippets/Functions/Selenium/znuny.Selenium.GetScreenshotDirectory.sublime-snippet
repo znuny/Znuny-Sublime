@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %ScreenshotDirectory = \$Selenium->GetScreenshotDirectory(
+    Directory => 'Captured',
+);}
+
+]]></content>
+    <tabTrigger>znuny.Selenium.GetScreenshotDirectory</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

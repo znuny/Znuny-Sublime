@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my @Sessions = \$SessionObject->GetExpiredSessionIDs();
-}
+${1:my @Sessions = \$SessionObject->GetExpiredSessionIDs();}
+
 ]]></content>
     <tabTrigger>znuny.SessionObject.GetExpiredSessionIDs</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

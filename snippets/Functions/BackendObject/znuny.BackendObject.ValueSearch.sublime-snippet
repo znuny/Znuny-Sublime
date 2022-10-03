@@ -3,10 +3,10 @@
 ${1:my \$Value = \$BackendObject->ValueSearch(
     DynamicFieldConfig => \$DynamicFieldConfig,      # complete config of the DynamicField
     Search             => 'search term',
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.BackendObject.ValueSearch</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

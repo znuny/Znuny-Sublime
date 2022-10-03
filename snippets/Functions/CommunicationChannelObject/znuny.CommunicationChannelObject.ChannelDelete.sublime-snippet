@@ -4,10 +4,10 @@ ${1:my \$Success = \$CommunicationChannelObject->ChannelDelete(
     ChannelID   => \$ChannelID,       # (optional) Delete by ChannelID
                             # or
     ChannelName => 'Email', # (optional) Delete by Channel name
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.CommunicationChannelObject.ChannelDelete</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

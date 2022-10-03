@@ -5,10 +5,10 @@ ${1:\$LayoutObject->Block(
     Data => \{
         Time => ...,
     \},
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.LayoutObject.Block</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,0 +1,122 @@
+<snippet>
+    <content><![CDATA[
+${1:my @TicketIDs = \$TicketObject->TicketSearch(
+    # result (optional, default is 'HASH')
+    Result => 'ARRAY' || 'HASH' || 'COUNT',
+
+    # limit the number of found tickets (optional, default is 10000)
+    Limit => 100,
+
+    # Use TicketSearch as a ticket filter on a single ticket,
+    # or a predefined ticket list
+    TicketID     => \$TicketID,
+    TicketID     => \$TicketID, 1235],
+
+    # ticket number (optional) as STRING or as ARRAYREF
+    # The value will be treated as a SQL query expression.
+    TicketNumber => \$TicketNumber,
+    TicketNumber => \$TicketNumber, '%123666%'],
+
+    # ticket title (optional) as STRING or as ARRAYREF
+    # The value will be treated as a SQL query expression.
+    # When ConditionInline is set then remaining whitespace will be treated as a && condition and
+    # and the settings of ContentSearchPrefix and ContentSearchSuffix will be honored.
+    Title => '%SomeText%',
+    Title => ['%SomeTest1%', '%SomeTest2%'],
+
+    Queues   => ['system queue', 'other queue'],
+    QueueIDs => [1, 42, 512],
+
+    # use also sub queues of Queue|Queues in search
+    UseSubQueues => 0,
+
+    # You can use types like normal, ...
+    Types   => ['normal', 'change', 'incident'],
+    TypeIDs => [3, 4],
+
+    # You can use states like new, open, pending reminder, ...
+    States   => ['new', 'open'],
+    StateIDs => [3, 4],
+
+    # (Open|Closed) tickets for all closed or open tickets.
+    StateType => 'Open',
+
+    # You also can use real state types like new, open, closed,
+    # pending reminder, pending auto, removed and merged.
+    StateType    => ['open', 'new'],
+    StateTypeIDs => [1, 2, 3],
+
+    Priorities  => ['1 very low', '2 low', '3 normal'],
+    PriorityIDs => [1, 2, 3],
+
+    Services   => ['Service A', 'Service B'],
+    ServiceIDs => [1, 2, 3],
+
+    SLAs   => ['SLA A', 'SLA B'],
+    SLAIDs => [1, 2, 3],
+
+    Locks   => ['unlock'],
+    LockIDs => [1, 2, 3],
+
+    OwnerIDs => [1, 12, 455, 32]
+
+    ResponsibleIDs => [1, 12, 455, 32]
+
+    WatchUserIDs => [1, 12, 455, 32]
+
+    # CustomerID (optional) as STRING or as ARRAYREF
+    # The value will be treated as a SQL query expression.
+    CustomerID => \$CustomerID,
+    CustomerID => \$CustomerID, 'ABC'],
+
+    # CustomerIDRaw (optional) as STRING or as ARRAYREF
+    # CustomerID without QueryCondition checking.
+    # The param CustomerID will be ignored when CustomerIDRaw is set.
+    # The raw values will be quoted and combined with 'OR' for the query.
+    CustomerIDRaw => '123 + 345',
+    CustomerIDRaw => ['123', 'ABC','123 && 456','ABC % efg'],
+
+    # CustomerUserLogin (optional) as STRING as ARRAYREF
+    # The value will be treated as a SQL query expression.
+    CustomerUserLogin => 'uid123',
+    CustomerUserLogin => ['uid123', 'uid777'],
+
+    # CustomerUserLoginRaw (optional) as STRING as ARRAYREF
+    # CustomerUserLogin without QueryCondition checking.
+    # The param CustomerUserLogin will be ignored when CustomerUserLoginRaw is set.
+    # The raw values will be quoted and combined with 'OR' for the query.
+    CustomerUserLoginRaw => 'uid',
+    CustomerUserLoginRaw => 'uid + 123',
+    CustomerUserLoginRaw => ['uid  -  123', 'uid # 777 + 321'],
+
+    # create ticket properties (optional)
+    CreatedUserIDs     => [1, 12, 455, 32]
+    CreatedTypes       => ['normal', 'change', 'incident'],
+    CreatedTypeIDs     => [1, 2, 3],
+    CreatedPriorities  => ['1 very low', '2 low', '3 normal'],
+    CreatedPriorityIDs => [1, 2, 3],
+    CreatedStates      => ['new', 'open'],
+    CreatedStateIDs    => [3, 4],
+    CreatedQueues      => ['system queue', 'other queue'],
+    CreatedQueueIDs    => [1, 42, 512],
+
+    # DynamicFields
+    #   At least one operator must be specified. Operators will be connected with AND,
+    #       values in an operator with OR.
+    #   You can also pass more than one argument to an operator: ['value1', 'value2']
+    DynamicField_FieldNameX => \{
+        Empty             => 1,                       # will return dynamic fields without a value
+                                                      # set to 0 to search fields with a value present
+        Equals            => 123,
+        Like              => 'value*',                # "equals" operator with wildcard support
+        GreaterThan       => '2001-01-01 01:01:01',
+        GreaterThanEquals => '2001-01-01 01:01:01',
+        SmallerThan       => '2002-02-02 02:02:02',
+        SmallerThanEquals => '2002-02-02 02:02:02',
+    \}}
+
+]]></content>
+    <tabTrigger>znuny.TicketObject.TicketSearch</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

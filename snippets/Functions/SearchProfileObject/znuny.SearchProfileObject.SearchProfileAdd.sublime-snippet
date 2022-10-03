@@ -6,10 +6,10 @@ ${1:\$SearchProfileObject->SearchProfileAdd(
     Key       => 'Body',
     Value     => \$String,    # SCALAR|ARRAYREF
     UserLogin => 123,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SearchProfileObject.SearchProfileAdd</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

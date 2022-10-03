@@ -3,10 +3,10 @@
 ${1:\$PostMasterObject->Run(
     Queue   => 'Junk',  # optional, specify target queue for new tickets
     QueueID => \$QueueID,       # optional, specify target queue for new tickets
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.PostMasterObject.Run</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

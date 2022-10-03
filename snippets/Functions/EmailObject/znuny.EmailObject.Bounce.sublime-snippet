@@ -4,10 +4,10 @@ ${1:\$EmailObject->Bounce(
     From  => 'me@example.com',
     To    => 'friend@example.com',
     Email => \$Email,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.EmailObject.Bounce</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

@@ -3,10 +3,10 @@
 ${1:my \$Message = \$LogObject->GetLogEntry(
     Type => 'error', # error|info|notice
     What => 'Message', # Message|Traceback
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.LogObject.GetLogEntry</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

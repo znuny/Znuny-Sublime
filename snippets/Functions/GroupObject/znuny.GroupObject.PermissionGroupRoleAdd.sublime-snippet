@@ -13,10 +13,10 @@ ${1:my \$Success = \$GroupObject->PermissionGroupRoleAdd(
         rw        => 0,
     \},
     UserID => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.GroupObject.PermissionGroupRoleAdd</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

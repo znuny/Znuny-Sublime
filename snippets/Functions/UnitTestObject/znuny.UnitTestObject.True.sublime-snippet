@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Self->True(
+    \$TestValue,
+    'Test Name',
+);}
+${2:\$Self->True(\$ParamA, 'Test Name');}
+${3:\$Self->True(1, 'Test Name');}
+${4:my \$TrueResult = \$Self->True(
+    \$TestValue,
+    'Test Name',
+);}
+
+]]></content>
+    <tabTrigger>znuny.UnitTestObject.True</tabTrigger>
+    <description>6.0, 6.4</description>
+    <scope>source.perl</scope>
+</snippet>

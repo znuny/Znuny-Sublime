@@ -1,14 +1,14 @@
 <snippet>
     <content><![CDATA[
-${1:\$ObjectID = \$LinkObject->ObjectLookup(
-    Name => 'Ticket',
-);
-}${2:\$Name = \$LinkObject->ObjectLookup(
+${1:\$Name = \$LinkObject->ObjectLookup(
     ObjectID => \$ObjectID,
-);
-}
+);}
+${2:\$ObjectID = \$LinkObject->ObjectLookup(
+    Name => 'Ticket',
+);}
+
 ]]></content>
     <tabTrigger>znuny.LinkObject.ObjectLookup</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

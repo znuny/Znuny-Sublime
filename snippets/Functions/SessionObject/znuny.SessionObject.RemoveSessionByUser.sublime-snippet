@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:\$SessionObject->RemoveSessionByUser(
     UserLogin => 'some_user_login'
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SessionObject.RemoveSessionByUser</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

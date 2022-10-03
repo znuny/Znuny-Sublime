@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ScreenshotURL = \$Selenium->GetScreenshotURL(
+    WebPath  = '/otrs-web/SeleniumScreenshots/ZnunyRocks/',
+    Filename = 'AgentTicketZoom',
+);}
+
+]]></content>
+    <tabTrigger>znuny.Selenium.GetScreenshotURL</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

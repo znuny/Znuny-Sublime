@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Self->False(
+    \$TestValue,
+    'Test Name',
+);}
+${2:\$Self->False(\$ParamA, 'Test Name');}
+${3:\$Self->False(1, 'Test Name');}
+
+]]></content>
+    <tabTrigger>znuny.UnitTestObject.False</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -4,10 +4,10 @@ ${1:%Description = \$LinkObject->ObjectDescriptionGet(
     Object  => 'Ticket',
     Key     => 123,
     UserID  => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.LinkObject.ObjectDescriptionGet</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

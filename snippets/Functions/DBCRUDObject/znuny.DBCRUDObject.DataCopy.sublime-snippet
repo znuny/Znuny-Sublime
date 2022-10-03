@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ObjectID = \$DBCRUDObject->DataCopy(
+    ID     => 123,
+    UserID => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.DBCRUDObject.DataCopy</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>

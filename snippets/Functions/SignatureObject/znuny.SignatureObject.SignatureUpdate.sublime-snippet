@@ -8,10 +8,10 @@ ${1:\$SignatureObject->SignatureUpdate(
     Comment     => 'some comment',
     ValidID     => \$ValidID,
     UserID      => \$UserID,
-);
-}
+);}
+
 ]]></content>
     <tabTrigger>znuny.SignatureObject.SignatureUpdate</tabTrigger>
-    <description>6</description>
+    <description>6.0, 6.4</description>
     <scope>source.perl</scope>
 </snippet>

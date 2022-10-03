@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$OAuth2TokenObject->DataAdd(
+    ID                         => '...',
+    TokenConfigID              => \$TokenConfigID,
+    AuthorizationCode          => '...',
+    Token                      => '...',
+    TokenExpirationDate        => '...',
+    RefreshToken               => '...',
+    RefreshTokenExpirationDate => '...',
+    ErrorMessage               => '...',
+    ErrorDescription           => '...',
+    ErrorCode                  => '...',
+    CreateTime                 => '...',
+    CreateBy                   => '...',
+    ChangeTime                 => '...',
+    ChangeBy                   => '...',
+);}
+
+]]></content>
+    <tabTrigger>znuny.OAuth2TokenObject.DataAdd</tabTrigger>
+    <description>6.4</description>
+    <scope>source.perl</scope>
+</snippet>
