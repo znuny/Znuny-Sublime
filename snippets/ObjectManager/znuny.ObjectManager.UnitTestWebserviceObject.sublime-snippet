@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $UnitTestWebserviceObject = $Kernel::OM->Get('Kernel::System::UnitTest::Webservice');
+my \$UnitTestWebserviceObject = \$Kernel::OM->Get('Kernel::System::UnitTest::Webservice');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.UnitTestWebserviceObject</tabTrigger>
     <description>6.4</description>

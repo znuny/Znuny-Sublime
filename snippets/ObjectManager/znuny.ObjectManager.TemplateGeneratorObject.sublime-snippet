@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $TemplateGeneratorObject = $Kernel::OM->Get('Kernel::System::TemplateGenerator');
+my \$TemplateGeneratorObject = \$Kernel::OM->Get('Kernel::System::TemplateGenerator');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.TemplateGeneratorObject</tabTrigger>
     <description>6.0, 6.4</description>

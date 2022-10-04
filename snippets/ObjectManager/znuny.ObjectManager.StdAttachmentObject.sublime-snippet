@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $StdAttachmentObject = $Kernel::OM->Get('Kernel::System::StdAttachment');
+my \$StdAttachmentObject = \$Kernel::OM->Get('Kernel::System::StdAttachment');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.StdAttachmentObject</tabTrigger>
     <description>6.0, 6.4</description>

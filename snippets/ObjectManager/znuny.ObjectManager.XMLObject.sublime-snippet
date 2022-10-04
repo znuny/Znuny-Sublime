@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $XMLObject = $Kernel::OM->Get('Kernel::System::XML');
+my \$XMLObject = \$Kernel::OM->Get('Kernel::System::XML');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.XMLObject</tabTrigger>
     <description>6.0, 6.4</description>

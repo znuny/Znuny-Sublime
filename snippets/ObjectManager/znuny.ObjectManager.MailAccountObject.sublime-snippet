@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $MailAccountObject = $Kernel::OM->Get('Kernel::System::MailAccount');
+my \$MailAccountObject = \$Kernel::OM->Get('Kernel::System::MailAccount');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.MailAccountObject</tabTrigger>
     <description>6.0, 6.4</description>

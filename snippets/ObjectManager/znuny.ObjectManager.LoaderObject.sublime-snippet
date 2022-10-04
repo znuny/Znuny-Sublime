@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $LoaderObject = $Kernel::OM->Get('Kernel::System::Loader');
+my \$LoaderObject = \$Kernel::OM->Get('Kernel::System::Loader');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.LoaderObject</tabTrigger>
     <description>6.0, 6.4</description>

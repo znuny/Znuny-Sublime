@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $ServiceObject = $Kernel::OM->Get('Kernel::System::Service');
+my \$ServiceObject = \$Kernel::OM->Get('Kernel::System::Service');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.ServiceObject</tabTrigger>
     <description>6.0, 6.4</description>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $FetchMailObject = $Kernel::OM->Get('Kernel::System::FetchMail');
+my \$FetchMailObject = \$Kernel::OM->Get('Kernel::System::FetchMail');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.FetchMailObject</tabTrigger>
     <description>6.0, 6.4</description>

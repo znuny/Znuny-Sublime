@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $QueueObject = $Kernel::OM->Get('Kernel::System::Queue');
+my \$QueueObject = \$Kernel::OM->Get('Kernel::System::Queue');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.QueueObject</tabTrigger>
     <description>6.0, 6.4</description>

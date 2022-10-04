@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $VirtualFSObject = $Kernel::OM->Get('Kernel::System::VirtualFS');
+my \$VirtualFSObject = \$Kernel::OM->Get('Kernel::System::VirtualFS');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.VirtualFSObject</tabTrigger>
     <description>6.0, 6.4</description>

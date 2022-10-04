@@ -145,6 +145,13 @@ my @FunctionBlacklist  = (
     '\A_',
 );
 
+# regex
+my @VersionBlacklist  = (
+    '6.1',
+    '6.2',
+    '6.3',
+);
+
 # start the magic
 Run();
 
@@ -193,30 +200,63 @@ Parses the current framework folder.
 sub Run {
 
     Getopt::Long::GetOptions(
-        'dry-run'   => \$DryRun,
-        'help'      => \$Help,
+        'dry-run' => \$DryRun,
+        'help'    => \$Help,
     );
 
-    if ( defined $Help ) {
+    if (defined $Help) {
         PrintUsage();
         exit 0;
+    }
+
+    my $IsOnBlacklist = grep { $_ =~ m{$Version}xms } @VersionBlacklist;
+    if ($IsOnBlacklist){
+        Print("<red>The version $Version is blacklisted.</red>\n\n");
+        exit 1;
     }
 
     Print("<green>Start...</green>\n\n");
 
     _ReadRawDataFile();
-
+    _TidyRawDataFile();
     _GetRawData();
 
     if ( !$DryRun ) {
         _WriteRawDataFile();
+        _GenerateSnippets();
     }
-
-    _GenerateSnippets();
 
     Print("<green>Done</green>\n");
 
-    return 1;
+    exit 0;
+}
+
+=head2 Print()
+
+Print given text with ANSIColor.
+
+    Print("<green>Read Raw Data File...</green>\n\n");
+
+=cut
+
+sub Print {
+    my ( $Text ) = @_;
+
+    $Text =~ s{<(green|yellow|red)>(.*?)</\1>}{_Color($1, $2)}gsmxe;
+    print STDERR $Text;
+}
+
+=head2 _Color()
+
+Replaces colortag with ANSIColor.
+
+    _Color("<green>Read Raw Data File...</green>\n\n");
+
+=cut
+
+sub _Color {
+    my ( $Color, $Text ) = @_;
+    return Term::ANSIColor::color($Color) . $Text . Term::ANSIColor::color('reset');
 }
 
 =head2 _ReadRawDataFile()
@@ -263,6 +303,66 @@ sub _ReadRawDataFile {
         %SkippedRawData = %{$SkippedRawData};
     }
 }
+
+=head2 _TidyRawDataFile()
+
+Tidy the current raw data.
+
+    _TidyRawDataFile();
+
+=cut
+
+sub _TidyRawDataFile {
+    my ( %Param ) = @_;
+
+    for my $Type (sort keys %RawData){
+        for my $Name (sort keys %{$RawData{$Type}}){
+            my $Data = $RawData{$Type}->{$Name};
+
+            if (IsArrayRefWithData( $Data )){
+                @{$Data} = _RemoveBlacklistedVersion(@{$Data});
+            }
+            elsif(IsHashRefWithData($Data)){
+                if ($Data->{FrameworkVersion}){
+                    @{$Data->{FrameworkVersion}} = _RemoveBlacklistedVersion(@{$Data->{FrameworkVersion}});
+                }
+                for my $FunctionName (sort keys %{$Data->{Functions}}){
+                    for my $FunctionContent (sort keys %{$Data->{Functions}->{$FunctionName}}){
+                        @{$Data->{Functions}->{$FunctionName}->{$FunctionContent}} = _RemoveBlacklistedVersion(@{$Data->{Functions}->{$FunctionName}->{$FunctionContent}});
+                    }
+                }
+            }
+        }
+    }
+
+    for my $Type (sort keys %SkippedRawData){
+        for my $Name (sort keys %{$SkippedRawData{$Type}}){
+            @{$SkippedRawData{$Type}->{$Name}} = _RemoveBlacklistedVersion(@{$SkippedRawData{$Type}->{$Name}});
+        }
+    }
+
+}
+
+=head2 _RemoveBlacklistedVersion()
+
+    my @Versions = _RemoveBlacklistedVersion(@Versions);
+
+=cut
+
+sub _RemoveBlacklistedVersion {
+    my ( @Versions ) = @_;
+
+    my %Versions = map { $_ => 1 } @Versions;
+    VERSION:
+    for my $CurrentVersion (sort keys %Versions){
+        my $IsOnBlacklist = grep { $_ =~ m{$CurrentVersion}xms } @VersionBlacklist;
+        next VERSION if !$IsOnBlacklist;
+        delete $Versions{$CurrentVersion};
+    }
+    @Versions = sort keys %Versions;
+    return @Versions;
+}
+
 
 =head2 _WriteRawDataFile()
 
@@ -408,6 +508,39 @@ Parses the current Framework PODs to create all objects.
     _GetObjects(
         Objects => {},
     );
+
+Returns:
+
+    "Objects" => {
+        "ActivityDialogObject" => {
+            "ObjectManager"    => "my $ActivityDialogObject = $Kernel::OM->Get('Kernel::System::ProcessManagement::ActivityDialog');",
+            "Package"          => "Kernel::System::ProcessManagement::ActivityDialog"
+            "FrameworkVersion" => [
+                "6.0",
+                "6.4"
+            ],
+            "Functions" => {
+                "ActivityDialogCompletedCheck" => {
+                    "my $Completed = $ActivityDialogObject->ActivityDialogCompletedCheck(\n    ActivityDialogEntityID => $ActivityDialogEntityID,\n    Data                   => {\n        Queue         => 'Raw',\n        DynamicField1 => 'Value',\n        Subject       => 'Testsubject',\n        # ...\n    },\n);" => [
+                       "6.0",
+                       "6.4"
+                    ]
+                },
+                "ActivityDialogGet" => {
+                    "my $ActivityDialog = $ActivityDialogObject->ActivityDialogGet(\n    ActivityDialogEntityID => $ActivityDialogEntityID,\n    Interface              => ['AgentInterface'],   # ['AgentInterface'] or ['CustomerInterface'] or ['AgentInterface', 'CustomerInterface'] or 'all'\n    Silent                 => 1,    # 1 or 0, default 0, if set to 1, will not log errors about not matching interfaces\n);" => [
+                       "6.0",
+                       "6.4"
+                    ]
+                }
+            },
+        },
+    }
+
+The following snippets are created from it:
+
+    snippets/ObjectManager/znuny.ObjectManager.ActivityDialogObject.sublime-snippet
+    snippets/Functions/ActivityDialogObject/znuny.ActivityDialogObject.ActivityDialogCompletedCheck.sublime-snippet
+    snippets/Functions/ActivityDialogObject/znuny.ActivityDialogObject.ActivityDialogGet.sublime-snippet
 
 =cut
 
@@ -689,11 +822,13 @@ sub _GenerateObjectSnippets {
     for my $Object (sort keys %{$RawData{Objects}}){
 
         # create ObjectManager snippets
-        my %Object = %{$RawData{Objects}->{$Object}};
+        my %Object               = %{$RawData{Objects}->{$Object}};
+        my $ObjectManagerContent = _PrepareContent($Object{ObjectManager});
+
         my %Snippet = (
             Filename    => 'znuny.ObjectManager.' . $Object . '.sublime-snippet',
             Trigger     => 'znuny.ObjectManager.' . $Object,
-            Content     => $Object{ObjectManager},
+            Content     => $ObjectManagerContent,
             Description => join(', ',@{$Object{FrameworkVersion}}),
             Scope       => 'source.perl',
             Directory   => '/snippets/ObjectManager/',
@@ -714,11 +849,7 @@ sub _GenerateObjectSnippets {
                 $Counter++;
 
                 # replace special chars
-                my $FunctionContent = $FunctionCall;
-                $FunctionContent =~ s{\$}{\\\$}g;
-                $FunctionContent =~ s{\{}{\\\{}g;
-                $FunctionContent =~ s{\}}{\\\}}g;
-                $FunctionContent =~ s{\n+\z}{}g;
+                my $FunctionContent = _PrepareContent($FunctionCall);
 
                 $Content .= '${' . $Counter . ':' . $FunctionContent . "}\n";
                 push @Versions, @{$Function{$FunctionCall}};
@@ -740,6 +871,29 @@ sub _GenerateObjectSnippets {
     }
 
     return 1;
+}
+
+=head2 _PrepareContent()
+
+Escape, replace and tidy up some special chars.
+
+    my $Content = _PrepareContent("$Function");
+
+Returns:
+
+    my $Content = "\$Function;
+
+=cut
+
+sub _PrepareContent {
+    my ( $Content ) = @_;
+
+    $Content =~ s{\$}{\\\$}g;
+    $Content =~ s{\{}{\\\{}g;
+    $Content =~ s{\}}{\\\}}g;
+    $Content =~ s{\n+\z}{}g;
+
+    return $Content;
 }
 
 =head2 _WriteSnippets()
@@ -797,18 +951,6 @@ SNIPPET
     );
 
     return 1;
-}
-
-sub Print {
-    my ( $Text ) = @_;
-
-    $Text =~ s{<(green|yellow|red)>(.*?)</\1>}{_Color($1, $2)}gsmxe;
-    print STDERR $Text;
-}
-
-sub _Color {
-    my ( $Color, $Text ) = @_;
-    return Term::ANSIColor::color($Color) . $Text . Term::ANSIColor::color('reset');
 }
 
 exit 0;

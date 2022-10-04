@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $PDFObject = $Kernel::OM->Get('Kernel::System::PDF');
+my \$PDFObject = \$Kernel::OM->Get('Kernel::System::PDF');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.PDFObject</tabTrigger>
     <description>6.0, 6.4</description>

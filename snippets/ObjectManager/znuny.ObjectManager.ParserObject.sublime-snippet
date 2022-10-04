@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $ParserObject = Kernel::System::EmailParser
+my \$ParserObject = Kernel::System::EmailParser
 ]]></content>
     <tabTrigger>znuny.ObjectManager.ParserObject</tabTrigger>
     <description>6.0, 6.4</description>

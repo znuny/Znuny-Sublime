@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $WebUploadCacheObject = $Kernel::OM->Get('Kernel::System::Web::UploadCache');
+my \$WebUploadCacheObject = \$Kernel::OM->Get('Kernel::System::Web::UploadCache');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.WebUploadCacheObject</tabTrigger>
     <description>6.0, 6.4</description>

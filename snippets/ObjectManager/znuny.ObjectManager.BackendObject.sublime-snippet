@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $BackendObject = $Kernel::OM->Get('Kernel::System::DynamicField::Backend');
+my \$BackendObject = \$Kernel::OM->Get('Kernel::System::DynamicField::Backend');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.BackendObject</tabTrigger>
     <description>6.0, 6.4</description>

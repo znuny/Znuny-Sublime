@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $ProcessObject = $Kernel::OM->Get('Kernel::System::ProcessManagement::Process');
+my \$ProcessObject = \$Kernel::OM->Get('Kernel::System::ProcessManagement::Process');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.ProcessObject</tabTrigger>
     <description>6.0, 6.4</description>

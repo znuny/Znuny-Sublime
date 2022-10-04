@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $DebuggerObject = Kernel::GenericInterface::Debugger
+my \$DebuggerObject = Kernel::GenericInterface::Debugger
 ]]></content>
     <tabTrigger>znuny.ObjectManager.DebuggerObject</tabTrigger>
     <description>6.0, 6.4</description>

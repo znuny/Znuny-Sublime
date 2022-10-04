@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $EncodeObject = $Kernel::OM->Get('Kernel::System::Encode');
+my \$EncodeObject = \$Kernel::OM->Get('Kernel::System::Encode');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.EncodeObject</tabTrigger>
     <description>6.0, 6.4</description>

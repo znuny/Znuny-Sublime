@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $CheckItemObject = $Kernel::OM->Get('Kernel::System::CheckItem');
+my \$CheckItemObject = \$Kernel::OM->Get('Kernel::System::CheckItem');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.CheckItemObject</tabTrigger>
     <description>6.0, 6.4</description>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $OperationObject = Kernel::GenericInterface::Operation
+my \$OperationObject = Kernel::GenericInterface::Operation
 ]]></content>
     <tabTrigger>znuny.ObjectManager.OperationObject</tabTrigger>
     <description>6.0, 6.4</description>

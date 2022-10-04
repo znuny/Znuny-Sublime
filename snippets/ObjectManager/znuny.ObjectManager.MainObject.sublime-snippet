@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $MainObject = $Kernel::OM->Get('Kernel::System::Main');
+my \$MainObject = \$Kernel::OM->Get('Kernel::System::Main');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.MainObject</tabTrigger>
     <description>6.0, 6.4</description>

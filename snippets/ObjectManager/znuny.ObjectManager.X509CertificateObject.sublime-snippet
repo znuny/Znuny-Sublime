@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $X509CertificateObject = $Kernel::OM->Get('Kernel::System::X509Certificate');
+my \$X509CertificateObject = \$Kernel::OM->Get('Kernel::System::X509Certificate');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.X509CertificateObject</tabTrigger>
     <description>6.4</description>

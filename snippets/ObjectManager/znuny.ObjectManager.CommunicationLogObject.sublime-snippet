@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
-my $CommunicationLogObject = $Kernel::OM->Create(
+my \$CommunicationLogObject = \$Kernel::OM->Create(
         'Kernel::System::CommunicationLog',
-        ObjectParams => {
+        ObjectParams => \{
             CommunicationID => 123,
-        }
+        \}
     );
 ]]></content>
     <tabTrigger>znuny.ObjectManager.CommunicationLogObject</tabTrigger>

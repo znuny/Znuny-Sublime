@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $LogObject = $Kernel::OM->Get('Kernel::System::Log');
+my \$LogObject = \$Kernel::OM->Get('Kernel::System::Log');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.LogObject</tabTrigger>
     <description>6.0, 6.4</description>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $StorableObject = $Kernel::OM->Get('Kernel::System::Storable');
+my \$StorableObject = \$Kernel::OM->Get('Kernel::System::Storable');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.StorableObject</tabTrigger>
     <description>6.0, 6.4</description>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $StatsObject = $Kernel::OM->Get('Kernel::System::Stats');
+my \$StatsObject = \$Kernel::OM->Get('Kernel::System::Stats');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.StatsObject</tabTrigger>
     <description>6.0, 6.4</description>

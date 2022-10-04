@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $CSVObject = $Kernel::OM->Get('Kernel::System::CSV');
+my \$CSVObject = \$Kernel::OM->Get('Kernel::System::CSV');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.CSVObject</tabTrigger>
     <description>6.0, 6.4</description>

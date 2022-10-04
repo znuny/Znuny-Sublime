@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $CustomerGroupObject = $Kernel::OM->Get('Kernel::System::CustomerGroup');
+my \$CustomerGroupObject = \$Kernel::OM->Get('Kernel::System::CustomerGroup');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.CustomerGroupObject</tabTrigger>
     <description>6.0, 6.4</description>

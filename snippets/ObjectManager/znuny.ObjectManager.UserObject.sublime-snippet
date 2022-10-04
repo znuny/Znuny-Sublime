@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $UserObject = $Kernel::OM->Get('Kernel::System::User');
+my \$UserObject = \$Kernel::OM->Get('Kernel::System::User');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.UserObject</tabTrigger>
     <description>6.0, 6.4</description>

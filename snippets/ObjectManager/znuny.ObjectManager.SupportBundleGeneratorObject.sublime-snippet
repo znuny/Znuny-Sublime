@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $SupportBundleGeneratorObject = $Kernel::OM->Get('Kernel::System::SupportBundleGenerator');
+my \$SupportBundleGeneratorObject = \$Kernel::OM->Get('Kernel::System::SupportBundleGenerator');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.SupportBundleGeneratorObject</tabTrigger>
     <description>6.0, 6.4</description>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $UnitTestEmailObject = $Kernel::OM->Get('Kernel::System::UnitTest::Email');
+my \$UnitTestEmailObject = \$Kernel::OM->Get('Kernel::System::UnitTest::Email');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.UnitTestEmailObject</tabTrigger>
     <description>6.4</description>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $LanguageObject = $Kernel::OM->Get('Kernel::Language');
+my \$LanguageObject = \$Kernel::OM->Get('Kernel::Language');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.LanguageObject</tabTrigger>
     <description>6.0, 6.4</description>

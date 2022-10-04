@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $JSONObject = $Kernel::OM->Get('Kernel::System::JSON');
+my \$JSONObject = \$Kernel::OM->Get('Kernel::System::JSON');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.JSONObject</tabTrigger>
     <description>6.0, 6.4</description>

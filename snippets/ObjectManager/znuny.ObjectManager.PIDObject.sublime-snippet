@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $PIDObject = $Kernel::OM->Get('Kernel::System::PID');
+my \$PIDObject = \$Kernel::OM->Get('Kernel::System::PID');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.PIDObject</tabTrigger>
     <description>6.0, 6.4</description>

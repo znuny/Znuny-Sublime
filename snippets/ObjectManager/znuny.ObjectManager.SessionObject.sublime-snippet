@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $SessionObject = $Kernel::OM->Get('Kernel::System::AuthSession');
+my \$SessionObject = \$Kernel::OM->Get('Kernel::System::AuthSession');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.SessionObject</tabTrigger>
     <description>6.0, 6.4</description>

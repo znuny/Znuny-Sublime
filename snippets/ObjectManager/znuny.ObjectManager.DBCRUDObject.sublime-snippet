@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $DBCRUDObject = $Kernel::OM->Get('Kernel::System::DBCRUD');
+my \$DBCRUDObject = \$Kernel::OM->Get('Kernel::System::DBCRUD');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.DBCRUDObject</tabTrigger>
     <description>6.4</description>

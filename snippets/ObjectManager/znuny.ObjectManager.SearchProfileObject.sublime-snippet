@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $SearchProfileObject = $Kernel::OM->Get('Kernel::System::SearchProfile');
+my \$SearchProfileObject = \$Kernel::OM->Get('Kernel::System::SearchProfile');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.SearchProfileObject</tabTrigger>
     <description>6.0, 6.4</description>

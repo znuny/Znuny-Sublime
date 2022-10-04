@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $EnvironmentObject = $Kernel::OM->Get('Kernel::System::Environment');
+my \$EnvironmentObject = \$Kernel::OM->Get('Kernel::System::Environment');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.EnvironmentObject</tabTrigger>
     <description>6.0, 6.4</description>

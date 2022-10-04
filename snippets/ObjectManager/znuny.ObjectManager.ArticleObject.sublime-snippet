@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $ArticleObject = $Kernel::OM->Get('Kernel::System::Ticket::Article');
+my \$ArticleObject = \$Kernel::OM->Get('Kernel::System::Ticket::Article');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.ArticleObject</tabTrigger>
     <description>6.0, 6.4</description>

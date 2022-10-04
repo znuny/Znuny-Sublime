@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $GenericAgentObject = $Kernel::OM->Get('Kernel::System::GenericAgent');
+my \$GenericAgentObject = \$Kernel::OM->Get('Kernel::System::GenericAgent');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.GenericAgentObject</tabTrigger>
     <description>6.0, 6.4</description>

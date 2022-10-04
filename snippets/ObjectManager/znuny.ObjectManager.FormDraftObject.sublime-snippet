@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $FormDraftObject = $Kernel::OM->Get('Kernel::System::FormDraft');
+my \$FormDraftObject = \$Kernel::OM->Get('Kernel::System::FormDraft');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.FormDraftObject</tabTrigger>
     <description>6.0, 6.4</description>

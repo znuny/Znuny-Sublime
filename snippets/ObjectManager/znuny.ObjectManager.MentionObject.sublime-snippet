@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $MentionObject = $Kernel::OM->Get('Kernel::System::Mention');
+my \$MentionObject = \$Kernel::OM->Get('Kernel::System::Mention');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.MentionObject</tabTrigger>
     <description>6.4</description>

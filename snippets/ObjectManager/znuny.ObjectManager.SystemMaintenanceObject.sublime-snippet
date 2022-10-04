@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $SystemMaintenanceObject = $Kernel::OM->Get('Kernel::System::SystemMaintenance');
+my \$SystemMaintenanceObject = \$Kernel::OM->Get('Kernel::System::SystemMaintenance');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.SystemMaintenanceObject</tabTrigger>
     <description>6.0, 6.4</description>

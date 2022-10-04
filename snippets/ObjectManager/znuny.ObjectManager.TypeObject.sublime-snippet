@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $TypeObject = $Kernel::OM->Get('Kernel::System::Type');
+my \$TypeObject = \$Kernel::OM->Get('Kernel::System::Type');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.TypeObject</tabTrigger>
     <description>6.0, 6.4</description>

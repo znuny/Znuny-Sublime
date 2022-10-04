@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $WebserviceHistoryObject = $Kernel::OM->Get('Kernel::System::GenericInterface::WebserviceHistory');
+my \$WebserviceHistoryObject = \$Kernel::OM->Get('Kernel::System::GenericInterface::WebserviceHistory');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.WebserviceHistoryObject</tabTrigger>
     <description>6.0, 6.4</description>

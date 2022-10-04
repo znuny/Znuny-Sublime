@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $AutoResponseObject = $Kernel::OM->Get('Kernel::System::AutoResponse');
+my \$AutoResponseObject = \$Kernel::OM->Get('Kernel::System::AutoResponse');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.AutoResponseObject</tabTrigger>
     <description>6.0, 6.4</description>

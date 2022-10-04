@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $SchedulerDBObject = $Kernel::OM->Get('Kernel::System::Daemon::SchedulerDB');
+my \$SchedulerDBObject = \$Kernel::OM->Get('Kernel::System::Daemon::SchedulerDB');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.SchedulerDBObject</tabTrigger>
     <description>6.0, 6.4</description>

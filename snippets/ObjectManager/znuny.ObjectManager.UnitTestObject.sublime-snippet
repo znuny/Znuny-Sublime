@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
-my $DriverObject = $Kernel::OM->Create(
+my \$DriverObject = \$Kernel::OM->Create(
         'Kernel::System::UnitTest::Driver',
-        ObjectParams => {
-            Verbose => $Self->{Verbose},
-            ANSI    => $Self->{ANSI},
-        },
+        ObjectParams => \{
+            Verbose => \$Self->\{Verbose\},
+            ANSI    => \$Self->\{ANSI\},
+        \},
     );
 ]]></content>
     <tabTrigger>znuny.ObjectManager.UnitTestObject</tabTrigger>

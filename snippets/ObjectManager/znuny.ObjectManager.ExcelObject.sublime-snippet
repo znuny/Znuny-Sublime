@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $ExcelObject = $Kernel::OM->Get('Kernel::System::Excel');
+my \$ExcelObject = \$Kernel::OM->Get('Kernel::System::Excel');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.ExcelObject</tabTrigger>
     <description>6.4</description>

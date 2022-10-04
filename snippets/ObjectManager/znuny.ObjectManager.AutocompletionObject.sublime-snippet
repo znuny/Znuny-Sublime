@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $AutocompletionObject = $Kernel::OM->Get('Kernel::System::Autocompletion');
+my \$AutocompletionObject = \$Kernel::OM->Get('Kernel::System::Autocompletion');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.AutocompletionObject</tabTrigger>
     <description>6.4</description>

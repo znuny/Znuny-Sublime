@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-my $SignatureObject = $Kernel::OM->Get('Kernel::System::Signature');
+my \$SignatureObject = \$Kernel::OM->Get('Kernel::System::Signature');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.SignatureObject</tabTrigger>
     <description>6.0, 6.4</description>
