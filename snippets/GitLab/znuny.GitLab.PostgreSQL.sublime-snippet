@@ -4,7 +4,7 @@ image: \$JOB_IMAGE
 
 include:
   - project: \$INCLUDE_PROJECT
-    file: '/templates/gitlab/postgresql.yaml'
+    file: '/templates/gitlab/default/postgresql.yml'
 ]]></content>
     <tabTrigger>znuny.GitLab.PostgreSQL</tabTrigger>
     <description>.gitlab-ci.yml</description>

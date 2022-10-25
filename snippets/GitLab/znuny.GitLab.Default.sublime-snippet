@@ -4,7 +4,7 @@ image: \$JOB_IMAGE
 
 include:
   - project: \$INCLUDE_PROJECT
-    file: '/templates/gitlab/default.yaml'
+    file: '/templates/gitlab/default/default.yml'
 ]]></content>
     <tabTrigger>znuny.GitLab.Default</tabTrigger>
     <description>.gitlab-ci.yml</description>
