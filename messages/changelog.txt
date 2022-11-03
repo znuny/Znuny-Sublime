@@ -1,0 +1,186 @@
+Version 1.0.0
+✔ Renamed Package Znuny4OTRS-Sublime (Znuny4OTRS) to Znuny-Sublime (Znuny)
+✔ Renamed all Znuny4OTRS or OTRS strings to Znuny.
+✔ Removed deprecated Znuny4OTRSCheatSheets.
+✔ Removed deprecated Znuny4OTRSGenerateBlockHooks.
+✔ Removed deprecated Znuny4OTRSGitLabCIUnitTests.
+✔ Removed deprecated snippets.
+✔ Updated, refactored and improved all snippets up to Znuny 6.4
+
+Version 0.0.43
+✔ Fixed typos and tidied code.
+✔ Removed deprecated code.
+✔ Updated Znuny4OtrsCustomizersLittleHelper - Znuny source update.
+✔ Skip 'misc' directory while otrs file list generation.
+✔ Improved regex to also match date time object creation.
+✔ Added missing entry for 'otrs.lazy.AgentTicketEmailOutbound'
+
+Version 0.0.42
+✔ Added different sub blocks for OTRS 5 and 6 perldoc.
+✔ Added support for new OTRS4 image.
+
+Version 0.0.41
+✔ Fixed typo.
+
+Version 0.0.40
+✔ Added filter for dynamic generated ObjectManager calls.
+✔ Added compatibility for new Framework tag attributes.
+✔ Added support for new OTRS 6 config format.
+
+Version 0.0.39
+✔ Improved existing snippets.
+
+Version 0.0.38
+✔ Added OTRS 6 snippets.
+✔ Improved existing snippets.
+
+Version 0.0.37
+✔ Fixed bug: New file permissions are only applied for OTRS >= 6.
+
+Version 0.0.36
+✔ Applied new SOPM file permissions to Filelist generator.
+
+Version 0.0.35
+✔ Applied new origin line format.
+✔ Added ImportExport repo to Znuny4OtrsCustomizersLittleHelper.
+✔ Added sopm intro block.
+
+Version 0.0.34
+✔ Improved Perl sub snippet.
+✔ Improved needed loop ObjectManager snippet to include LogObject.
+
+Version 0.0.33
+✔ Fixed code policy incompatibility - PSD files should get included, README.md don't.
+✔ Fixed object name for HelperObject ObjectManager snippet.
+
+Version 0.0.32
+✔ Snippets improvements.
+✔ Added JSOnDocumentCompleteIfNotExists to Functions->LayoutObject.
+✔ Added use base snippet.
+✔ Added UnitTestEmailObject, moved old UnitTest snippets into UnitTestObject.
+
+Version 0.0.31
+✔ Fixed issue #10 - Wrong file permissions for .sh files.
+
+Version 0.0.30
+✔ Added OTRS comment style.
+✔ Improved snippets.
+
+Version 0.0.29
+✔ Fixed bug: UnitTest shortcut not usable on Windows machines.
+
+Version 0.0.28
+✔ Usability improvement for VariableCheck snippets.
+✔ Further snippet refactoring.
+✔ Added basic perl snippets.
+✔ Added ConfigObject and ObjectManager snippets.
+
+Version 0.0.27
+✔ Activated insane mode. Deal with it.
+
+Version 0.0.26
+✔ Added snippet for ACLs.
+✔ Added snippet for Calendar SysConfig.
+✔ Added Email Test backend snippets for UnitTests.
+✔ Added further ObjectManager snippets.
+✔ Fixed wrong LanguageObject path in snippet.
+✔ Fixed wrong JSON syntax.
+✔ Added GitLab CI UnitTest shortcut.
+
+Version 0.0.25
+✔ Added snippet for ::OM->ObjectsDiscard call.
+✔ Added snippet for CheckNumberOfEventExecution function.
+✔ Added odumper4.
+
+Version 0.0.24
+✔ Fixed issue #8: Filelist sorting order is wrong on Windows machines.
+
+Version 0.0.23
+✔ Removed unneded ConfigLevel attribute.
+✔ Added UnitTest snippets.
+✔ Added snippets for copyrights.
+✔ Fixed issue #5: file list wrong on windows.
+
+Version 0.0.22
+✔ Fixed bug: Error while writing special unicode charakters to file.
+
+Version 0.0.21
+✔ Fixed issue #4: CustomizersLittleHelper: wrong line ending on windows.
+
+Version 0.0.20
+✔ Fixed bug: Repository name is inserted at the wrong position.
+
+Version 0.0.19
+✔ Fixed issue #2: Support other sources than just the framework.
+
+Version 0.0.18
+✔ Fixed bug in OutputFilterHook OutputFilterHook.Replace snippet.
+
+Version 0.0.17
+✔ Added AddJSOnDocumentCompleteIfNotExists snippet.
+✔ Added OutputFilterHook snippets.
+
+Version 0.0.16
+✔ Fixed bug: Wrong path seperator for windows machines.
+
+Version 0.0.15
+✔ Added "Internal" attribute to dynamic field snippets.
+✔ Added JS marker snippet.
+✔ Added JS AGPL header snippet.
+✔ Added $LayoutObject->AddJSOnDocumentCompleteIfNotExists snippet.
+✔ Added Core.Form.Znuny4OTRSInput snippets.
+✔ Added 'Creating <Filelist> from project' functionality.
+
+Version 0.0.14
+✔ Fixed bug: Branch selection is broken.
+
+Version 0.0.13
+✔ Fixed bug: Ending newline breaks authentication.
+✔ Fixed bug: JSON syntax error.
+
+Version 0.0.12
+✔ Added first draft of CheatSheet functionality.
+✔ Added functionality for fetching framework files from github.
+✔ Added support for syntax names in newer SublimeText versions.
+✔ Added "otrs.erlog" snippets.
+✔ Added "Queue", "Type", "Webservice" and "GeneralCatalog" ObjectManager snippets.
+✔ Added CodePolicy "nofilter" and "origin" snippets.
+✔ Added "GetParam" snippet.
+✔ Added missing AGPL block to file header snippets.
+✔ Fixed bug: Dependencies can only added to real package modules, not templates.
+
+Version 0.0.11
+✔ Fixed bug: Usage of uninitialized settings caused by caching.
+
+Version 0.0.10
+✔ Fixed bug: Usage of wrong variable.
+
+Version 0.0.9
+✔ Fixed bug: Error while loading settings.
+
+Version 0.0.8
+✔ Fixed bug: Multiple entries in quick select field in 'Add folder from workspace to project' functionality.
+
+Version 0.0.7
+✔ Added 'Add folder from workspace to project' functionality.
+✔ Added, improved and fixed some snippets.
+
+Version 0.0.6
+✔ Added 'Automatic creation of the ObjectDependencies array' functionality.
+✔ Added, improved and fixed some snippets.
+
+Version 0.0.5
+✔ Follow up: Updated xml fields order in snipped according to the code policy
+
+Version 0.0.4
+✔ Follow up: Fixed bug: Trailing comma throws error
+
+Version 0.0.3
+✔ Fixed bug: Trailing comma throws error
+
+Version 0.0.2
+✔ Added automatic quoting with custom markers via keyboard shortcut
+
+Version 0.0.1
+✔ Added automatic 'Frontend::Template::GenerateBlockHooks' config XML generator
+✔ Added "otrs" autocomplete snippets from https://github.com/znuny/SublimeTextAdjustments/CodeSnippets
