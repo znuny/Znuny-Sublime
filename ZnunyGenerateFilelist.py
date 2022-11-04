@@ -68,7 +68,7 @@ class ZnunyGenerateFilelist(sublime_plugin.TextCommand):
                 if re.search(r'\.sopm$', filename):
                     continue
 
-            files.append(os.path.join(sub_dir, filename))
+                files.append(os.path.join(sub_dir, filename))
 
         file_entry_template = '        <File Permission="{permission}" Location="{location}"/>'
         filelist = []
