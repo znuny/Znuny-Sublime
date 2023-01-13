@@ -9,7 +9,6 @@ import os
 import json
 import re
 import base64
-import datetime
 import codecs
 
 
@@ -152,9 +151,7 @@ class ZnunyCustomizers(sublime_plugin.WindowCommand):
 
     def custom_header(self, content, path, sha):
 
-        now = datetime.datetime.now()
-
-        copyright = " Copyright (C) 2012-%s Znuny GmbH, http://znuny.com/" % now.year
+        copyright = " Copyright (C) 2012 Znuny GmbH, http://znuny.com/"
         comment_prefix = '#'
         comment_prefix_regex = '\%s' % comment_prefix  # noqa: W605
 
