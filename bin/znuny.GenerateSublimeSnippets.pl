@@ -55,9 +55,9 @@ my $TemplateDir = $ConfigObject->Get('TemplateDir');
 my $PackageDir = dirname(readlink(__FILE__));
 $PackageDir =~ s{/bin}{}xms;
 
-$Version =~ s{^(\d+\.\d+)\..+$}{$1}xms;
+$Version = ValidateVersion($Version);
 
-my ( $DryRun, $Help, %RawData, $RawDataFile, %SkippedRawData, $SkippedRawDataFile);
+my ( $DryRun, $GetOptVersion, $Help, %RawData, $RawDataFile, %SkippedRawData, $SkippedRawDataFile);
 
 my @Modules = (
     'AgentTicket', 'CustomerTicket',
@@ -169,11 +169,12 @@ sub PrintUsage {
 Generates Znuny Snippets for Sublime Text.
 
 Usage:
-    znuny.GenerateSnippets.pl [--dry-run]
+    znuny.GenerateSnippets.pl [--dry-run] [--version]
 
 Options:
 
     [--dry-run]   - Report only, do not create anything.
+    [--version]   - Generate Snippets for given version.
     [--help]      - Show help for this command.
 
     znuny.GenerateSnippets.pl
@@ -200,13 +201,18 @@ Parses the current framework folder.
 sub Run {
 
     Getopt::Long::GetOptions(
-        'dry-run' => \$DryRun,
-        'help'    => \$Help,
+        'dry-run'   => \$DryRun,
+        'version=s' => \$GetOptVersion,
+        'help'      => \$Help,
     );
 
     if (defined $Help) {
         PrintUsage();
         exit 0;
+    }
+
+    if (defined $GetOptVersion) {
+        $Version = ValidateVersion($GetOptVersion);
     }
 
     my $IsOnBlacklist = grep { $_ =~ m{$Version}xms } @VersionBlacklist;
@@ -229,6 +235,22 @@ sub Run {
     Print("<green>Done</green>\n");
 
     exit 0;
+}
+
+=head2 ValidateVersion()
+
+Validates a version-string.
+
+    my $Version = ValidateVersion("6.4.1");
+
+=cut
+
+sub ValidateVersion {
+    my ( $Version ) = @_;
+
+    $Version =~ s{^(\d+\.\d+)\..+$}{$1}xms;
+
+    return $Version;
 }
 
 =head2 Print()
