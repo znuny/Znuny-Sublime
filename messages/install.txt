@@ -1,0 +1,21 @@
+⭐ Congratulations ⭐
+
+Znuny is a Sublime Text 2/3 plugin that helps you to make Znuny development less painful.
+
+You have to do nothing now. Just check out the list of fancy shortcuts in your preferences or type "znuny" and trigger sublime autocompletion.
+
+GitHub link - https://github.com/znuny/Znuny-Sublime
+
+Enjoy!
+Your Znuny Team! 🚀
+
+-------------------
+
+🌟 Version 1.0.2 🌟 - Feature List
+
+✔ Add folder from workspace to project.
+✔ Automatic fetching of framework files from github.
+✔ Automatic generate SOPM file list.
+✔ Automatic creation of the ObjectDependencies array.
+✔ Automatic quoting with custom markers via keyboard shortcut.
+✔ Znuny code snippets for fast, consistent and error free coding.

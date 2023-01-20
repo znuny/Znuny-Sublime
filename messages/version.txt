@@ -1,0 +1,9 @@
+🌟 Version 1.0.2 🌟
+
+✔ Created map.array perl snippet.
+✔ Updated Copyright string to new format.
+
+GitHub link - https://github.com/znuny/Znuny-Sublime
+
+Enjoy!
+Your Znuny Team! 🚀

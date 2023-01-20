@@ -1,3 +1,10 @@
+Version 1.0.2
+✔ Created map.array perl snippet.
+✔ Updated Copyright string to new format.
+
+Version 1.0.1
+✔ Fixed ZnunyGenerateFilelist.py
+
 Version 1.0.0
 ✔ Renamed Package Znuny4OTRS-Sublime (Znuny4OTRS) to Znuny-Sublime (Znuny)
 ✔ Renamed all Znuny4OTRS or OTRS strings to Znuny.
