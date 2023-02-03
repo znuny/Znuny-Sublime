@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${5:use Data::Dumper;
-}print STDERR 'Debug Dump - ${1:ModuleName} - ${2:VariableName} = ' . Dumper(${3:\\}$4${2:VariableName}) . "\n";
-]]></content>
-    <tabTrigger>znuny.STDERR.Dumper</tabTrigger>
-    <scope>source.perl</scope>
-</snippet>

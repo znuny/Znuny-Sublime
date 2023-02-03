@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-\$Self->{Translation}->{'${1:English text...}'} = '${2:Translated text}';
-]]></content>
-    <tabTrigger>znuny.Language.Singleqoute</tabTrigger>
-    <scope>source.perl</scope>
-</snippet>

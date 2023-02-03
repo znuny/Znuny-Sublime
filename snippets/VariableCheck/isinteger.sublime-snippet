@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-IsInteger($1)
-]]></content>
-    <tabTrigger>IsInteger</tabTrigger>
-    <description>VariableCheck</description>
-    <scope>source.perl</scope>
-</snippet>

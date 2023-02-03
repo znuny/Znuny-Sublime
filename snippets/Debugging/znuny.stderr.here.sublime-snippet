@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-print STDERR "Debug Dump - ${1:ModuleName} - HERE - ${2:1}\n";
-]]></content>
-    <tabTrigger>znuny.STDERR.HERE</tabTrigger>
-    <scope>source.perl</scope>
-</snippet>

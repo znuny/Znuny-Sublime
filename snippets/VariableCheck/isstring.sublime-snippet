@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-IsString($1)
-]]></content>
-    <tabTrigger>IsString</tabTrigger>
-    <description>VariableCheck</description>
-    <scope>source.perl</scope>
-</snippet>
