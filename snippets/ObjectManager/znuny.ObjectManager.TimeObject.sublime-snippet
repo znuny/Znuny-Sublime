@@ -3,6 +3,6 @@
 my \$TimeObject = \$Kernel::OM->Get('Kernel::System::DateTime');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.TimeObject</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

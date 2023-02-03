@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:my @Services = \$ServiceObject->GetAllCustomServices( UserID => 123 );}
+${1:my @Services = \$ServiceObject->GetAllCustomServices( UserID => \$UserID );}
 
 ]]></content>
     <tabTrigger>znuny.ServiceObject.GetAllCustomServices</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

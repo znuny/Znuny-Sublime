@@ -4,6 +4,6 @@ ${1:my \$Output = \$TicketToUnitTestObject->GetNeededObjects();}
 
 ]]></content>
     <tabTrigger>znuny.TicketToUnitTestObject.GetNeededObjects</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

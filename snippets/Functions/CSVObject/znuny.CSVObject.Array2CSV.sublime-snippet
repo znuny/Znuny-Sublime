@@ -16,6 +16,6 @@ ${1:\$CSV = \$CSVObject->Array2CSV(
 
 ]]></content>
     <tabTrigger>znuny.CSVObject.Array2CSV</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

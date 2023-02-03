@@ -5,7 +5,7 @@ ${1:my \$JSON = \$LayoutObject->BuildSelectionJSON(
         \{
             Data          => \$ArrayRef,      # use \$HashRef, \$ArrayRef or \$ArrayHashRef (see below)
             Name          => 'TheName',      # name of element
-            SelectedID    => \$SelectedID, 5, 3],      # (optional) use integer or arrayref (unable to use with ArrayHashRef)
+            SelectedID    => [\$SelectedID, 5, 3],      # (optional) use integer or arrayref (unable to use with ArrayHashRef)
             SelectedValue => 'test',         # (optional) use string or arrayref (unable to use with ArrayHashRef)
             Sort          => 'NumericValue', # (optional) (AlphanumericValue|NumericValue|AlphanumericKey|NumericKey|TreeView) unable to use with ArrayHashRef
             SortReverse   => 0,              # (optional) reverse the list
@@ -21,6 +21,6 @@ ${1:my \$JSON = \$LayoutObject->BuildSelectionJSON(
 
 ]]></content>
     <tabTrigger>znuny.LayoutObject.BuildSelectionJSON</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

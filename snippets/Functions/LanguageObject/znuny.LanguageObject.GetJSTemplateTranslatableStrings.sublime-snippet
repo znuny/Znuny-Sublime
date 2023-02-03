@@ -6,6 +6,6 @@ ${1:my @TranslationStrings = \$LanguageObject->GetJSTemplateTranslatableStrings(
 
 ]]></content>
     <tabTrigger>znuny.LanguageObject.GetJSTemplateTranslatableStrings</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

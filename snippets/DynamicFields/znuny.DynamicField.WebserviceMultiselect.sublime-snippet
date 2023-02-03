@@ -1,0 +1,42 @@
+<snippet>
+    <content><![CDATA[
+{
+    Name          => '${1:InternalName}',
+    Label         => '${2:Label}',
+    ObjectType    => '${3:Ticket|Article}',
+    FieldType     => 'WebserviceMultiselect',
+    InternalField => ${4:1|0}, # Remember: Can't get updated afterwards! If set to 1 only deleting ia the API is possible. Should only set to 1 in absolute exceptions
+    Config        => {
+        Webservice               => '${5:Webservice}',
+        InvokerSearch            => '${6:Search}',
+        InvokerGet               => '${7:Get}',
+        Backend                  => '${8:DirectRequest}',
+        SearchKeys               => '${9:key}',
+        StoredValue              => '${9:key}',
+        DisplayedValues          => '${9:key}',
+        DisplayedValuesSeparator => '-',
+        Limit                    => 100,
+        AutocompleteMinLength    => 3,
+        InputFieldWidth          => 50,
+        QueryDelay               => 1,
+        AdditionalDFStorage      => [
+            {
+                DynamicField => '${10:DynamicFieldName}',
+                Key          => 'Key',
+                Type         => '${11:Frontend|Backend|FrontendBackend}',
+            },
+            {
+                DynamicField => '${10:DynamicFieldName}',
+                Key          => 'Value',
+                Type         => '${11:Frontend|Backend|FrontendBackend}',
+            },
+        ],
+        Link         => '',
+        LinkPreview  => '',
+        DefaultValue => '${12:1|0}',
+    },
+},
+]]></content>
+    <tabTrigger>znuny.DynamicField.WebserviceMultiselect</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$SeleniumObject->WaitForjQueryEventBound(
+    CSSSelector => 'li > a#Test',       # (required) css selector
+    Event       => 'click',             # (optional) Specify event name. Default 'click'.
+);}
+
+]]></content>
+    <tabTrigger>znuny.SeleniumObject.WaitForjQueryEventBound</tabTrigger>
+    <description>6.0, 6.4, 6.5</description>
+    <scope>source.perl</scope>
+</snippet>

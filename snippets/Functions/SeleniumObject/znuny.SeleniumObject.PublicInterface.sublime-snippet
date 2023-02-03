@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$SeleniumObject->PublicInterface(
+    Action      => 'PublicFAQ',
+    WaitForAJAX => 0,             # optional, default 1
+);}
+
+]]></content>
+    <tabTrigger>znuny.SeleniumObject.PublicInterface</tabTrigger>
+    <description>6.4, 6.5</description>
+    <scope>source.perl</scope>
+</snippet>

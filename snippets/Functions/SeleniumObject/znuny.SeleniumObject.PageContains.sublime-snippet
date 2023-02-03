@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$SeleniumObject->PageContains(
+    String  => 'Ticked locked.',
+    Message => "Page contains 'Ticket locked.'" # optional - default
+);}
+
+]]></content>
+    <tabTrigger>znuny.SeleniumObject.PageContains</tabTrigger>
+    <description>6.4, 6.5</description>
+    <scope>source.perl</scope>
+</snippet>

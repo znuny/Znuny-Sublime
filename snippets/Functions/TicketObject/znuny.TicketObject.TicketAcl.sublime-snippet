@@ -63,7 +63,8 @@ ${2:my \$Success = \$TicketObject->TicketAcl(
     ReturnSubType  => '-',                        # To match Possible, PossibleAdd or
                                                   #   PossibleNot sub-key in ACL
 
-    UserID         => \$UserID,                        # UserID => \$UserID,           # UserID or CustomerUserID are mandatory
+    UserID         => \$UserID,                        # UserID => 1 is not affected by this function
+    CustomerUserID => \$CustomerUserID,           # UserID or CustomerUserID are mandatory
 
     # Process Management Parameters
     ProcessEntityID        => \$ProcessEntityID,                # Optional
@@ -73,6 +74,6 @@ ${2:my \$Success = \$TicketObject->TicketAcl(
 
 ]]></content>
     <tabTrigger>znuny.TicketObject.TicketAcl</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

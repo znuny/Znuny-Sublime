@@ -25,6 +25,6 @@ ${4:my \$NewSubject = \$TicketObject->TicketSubjectBuild(
 
 ]]></content>
     <tabTrigger>znuny.TicketObject.TicketSubjectBuild</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

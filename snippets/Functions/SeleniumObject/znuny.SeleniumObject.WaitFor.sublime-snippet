@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$SeleniumObject->WaitFor(
+    AlertPresent   => 1,                                 # Wait until an alert, confirm or prompt dialog is present
+    Callback       => sub \{ ... \}                        # Wait until function returns true
+    ElementExists  => 'xpath-selector'                   # Wait until an element is present
+    ElementExists  => ['css-selector', 'css'],
+    ElementMissing => 'xpath-selector',                  # Wait until an element is not present
+    ElementMissing => ['css-selector', 'css'],
+    JavaScript     => 'return \$(".someclass").length',   # JavaScript code that checks condition
+    WindowCount    => 2,                                 # Wait until this many windows are open
+    Time           => 20,                                # optional, wait time in seconds (default 20)
+    SkipDie        => 1,                                 # Instead of a dying process do return the result of the wait for
+);}
+${2:my \$Success = \$SeleniumObject->WaitFor(
+    AlertPresent   => 1,                                 # Wait until an alert, confirm or prompt dialog is present
+    Callback       => sub \{ ... \}                        # Wait until function returns true
+    ElementExists  => 'xpath-selector'                   # Wait until an element is present
+    ElementExists  => ['css-selector', 'css'],
+    ElementMissing => 'xpath-selector',                  # Wait until an element is not present
+    ElementMissing => ['css-selector', 'css'],
+    JavaScript     => 'return \$(".someclass").length',   # JavaScript code that checks condition
+    WindowCount    => 2,                                 # Wait until this many windows are open
+    Time           => 20,                                # optional, wait time in seconds (default 20)
+);}
+
+]]></content>
+    <tabTrigger>znuny.SeleniumObject.WaitFor</tabTrigger>
+    <description>6.0, 6.4, 6.5</description>
+    <scope>source.perl</scope>
+</snippet>

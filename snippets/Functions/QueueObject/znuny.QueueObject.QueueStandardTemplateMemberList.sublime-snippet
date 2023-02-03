@@ -1,14 +1,14 @@
 <snippet>
     <content><![CDATA[
-${1:my %Queues = \$QueueObject->QueueStandardTemplateMemberList( StandardTemplateID => 123 );}
+${1:my %Queues = \$QueueObject->QueueStandardTemplateMemberList( StandardTemplateID => \$StandardTemplateID );}
 ${2:my %Responses = \$QueueObject->QueueStandardTemplateMemberList(
     QueueID       => \$QueueID,
     TemplateTypes => 1,
 );}
-${3:my %Templates = \$QueueObject->QueueStandardTemplateMemberList( QueueID => 123 );}
+${3:my %Templates = \$QueueObject->QueueStandardTemplateMemberList( QueueID => \$QueueID );}
 
 ]]></content>
     <tabTrigger>znuny.QueueObject.QueueStandardTemplateMemberList</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

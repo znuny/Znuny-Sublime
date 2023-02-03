@@ -14,6 +14,6 @@ ${1:my %Data = \$OAuth2TokenConfigObject->DataSearch(
 
 ]]></content>
     <tabTrigger>znuny.OAuth2TokenConfigObject.DataSearch</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

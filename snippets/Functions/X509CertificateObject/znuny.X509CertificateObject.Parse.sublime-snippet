@@ -9,6 +9,6 @@ ${1:my \$X509Certificate = \$X509CertificateObject->Parse(
 
 ]]></content>
     <tabTrigger>znuny.X509CertificateObject.Parse</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

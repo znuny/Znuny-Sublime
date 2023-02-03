@@ -13,7 +13,7 @@ ${1:my \$HTML = \$LayoutObject->BuildSelection(
     OnClick         => 'javascript',     # (optional)
 
     SelectedID     => \$SelectedID,                 # (optional) use integer or arrayref (unable to use with ArrayHashRef)
-    SelectedID     => \$SelectedID, 5, 3],         # (optional) use integer or arrayref (unable to use with ArrayHashRef)
+    SelectedID     => [\$SelectedID, 5, 3],         # (optional) use integer or arrayref (unable to use with ArrayHashRef)
     SelectedValue  => 'test',            # (optional) use string or arrayref (unable to use with ArrayHashRef)
     SelectedValue  => ['test', 'test1'], # (optional) use string or arrayref (unable to use with ArrayHashRef)
 
@@ -53,6 +53,6 @@ ${1:my \$HTML = \$LayoutObject->BuildSelection(
 
 ]]></content>
     <tabTrigger>znuny.LayoutObject.BuildSelection</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

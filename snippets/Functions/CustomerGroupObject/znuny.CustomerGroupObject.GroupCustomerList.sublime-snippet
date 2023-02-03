@@ -45,6 +45,6 @@ ${6:my @GroupNames = \$CustomerGroupObject->GroupCustomerList(
 
 ]]></content>
     <tabTrigger>znuny.CustomerGroupObject.GroupCustomerList</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

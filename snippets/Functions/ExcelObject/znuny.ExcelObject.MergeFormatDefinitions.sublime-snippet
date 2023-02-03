@@ -25,6 +25,6 @@ ${1:my %Format = \$ExcelObject->MergeFormatDefinitions(
 
 ]]></content>
     <tabTrigger>znuny.ExcelObject.MergeFormatDefinitions</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

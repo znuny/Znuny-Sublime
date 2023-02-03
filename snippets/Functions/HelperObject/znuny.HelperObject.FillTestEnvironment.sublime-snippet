@@ -23,6 +23,6 @@ my \$Result = \$HelperObject->FillTestEnvironment(
 
 ]]></content>
     <tabTrigger>znuny.HelperObject.FillTestEnvironment</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

@@ -6,6 +6,6 @@ ${1:my %MailAccount = \$MailAccountObject->MailAccountGet(
 
 ]]></content>
     <tabTrigger>znuny.MailAccountObject.MailAccountGet</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

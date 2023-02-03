@@ -3,20 +3,20 @@
 ${1:my \$HTMLBody = \$LayoutObject->ArticleQuote(
     TicketID           => \$TicketID,
     ArticleID          => \$ArticleID,
-    FormID             => \$FormID,
+    FormID             => \$Self->\{FormID\},
     UploadCacheObject   => \$Self->\{UploadCacheObject\},
     AttachmentsInclude => 1,
 );}
 ${2:my \$HTMLBody = \$LayoutObject->ArticleQuote(
     TicketID           => \$TicketID,
     ArticleID          => \$ArticleID,
-    FormID             => \$FormID,
+    FormID             => \$Self->\{FormID\},
     UploadCacheObject  => \$Self->\{UploadCacheObject\},
     AttachmentsInclude => 0,
 );}
 
 ]]></content>
     <tabTrigger>znuny.LayoutObject.ArticleQuote</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

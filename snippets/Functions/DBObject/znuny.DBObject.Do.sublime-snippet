@@ -9,6 +9,6 @@ ${3:\$DBObject->Do( SQL => "INSERT INTO table (name) VALUES ('dog')" );}
 
 ]]></content>
     <tabTrigger>znuny.DBObject.Do</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

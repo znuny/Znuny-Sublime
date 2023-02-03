@@ -19,6 +19,6 @@ ${1:my %Data = \$OAuth2TokenObject->DataGet(
 
 ]]></content>
     <tabTrigger>znuny.OAuth2TokenObject.DataGet</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

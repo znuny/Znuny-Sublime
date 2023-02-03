@@ -9,6 +9,6 @@ ${1:\$ObjectList = \$LinkObject->ObjectSearch(
 
 ]]></content>
     <tabTrigger>znuny.LinkObject.ObjectSearch</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

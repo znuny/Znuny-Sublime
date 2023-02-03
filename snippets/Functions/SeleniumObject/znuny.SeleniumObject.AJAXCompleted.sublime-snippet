@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:\$SeleniumObject->AJAXCompleted();}
+
+]]></content>
+    <tabTrigger>znuny.SeleniumObject.AJAXCompleted</tabTrigger>
+    <description>6.4, 6.5</description>
+    <scope>source.perl</scope>
+</snippet>

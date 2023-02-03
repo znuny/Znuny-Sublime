@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$SeleniumObject->SwitchToFrame(
+    FrameSelector => '.Iframe',     # (required) CSS selector of the frame element
+    WaitForLoad   => 1,             # (optional) Wait until the frame has loaded, if necessary
+    Time          => 20,            # (optional) Wait time in seconds (default 20)
+);}
+
+]]></content>
+    <tabTrigger>znuny.SeleniumObject.SwitchToFrame</tabTrigger>
+    <description>6.0, 6.4, 6.5</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,13 +1,14 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$Template = \$TemplateGeneratorObject->Template(
-    TemplateID => \$TemplateID,                  # Optional
+    TemplateID => \$TemplateID
+    TicketID   => \$TicketID,                  # Optional
     Data       => \$ArticleHashRef,      # Optional
     UserID     => \$UserID,
 );}
 
 ]]></content>
     <tabTrigger>znuny.TemplateGeneratorObject.Template</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

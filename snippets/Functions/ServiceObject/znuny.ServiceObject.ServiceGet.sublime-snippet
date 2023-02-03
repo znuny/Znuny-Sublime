@@ -1,16 +1,22 @@
 <snippet>
     <content><![CDATA[
-${1:my %ServiceData = \$ServiceObject->ServiceGet(
+${1:# With installed ITSM:
+my %ServiceData = \$ServiceObject->ServiceGet(
+    ServiceID     => \$ServiceID,
+    IncidentState => 1, # Optional, returns CurInciState etc.
+    UserID        => \$UserID,
+);}
+${2:my %ServiceData = \$ServiceObject->ServiceGet(
     Name    => 'Service::SubService',
     UserID  => \$UserID,
 );}
-${2:my %ServiceData = \$ServiceObject->ServiceGet(
+${3:my %ServiceData = \$ServiceObject->ServiceGet(
     ServiceID => \$ServiceID,
     UserID    => \$UserID,
 );}
 
 ]]></content>
     <tabTrigger>znuny.ServiceObject.ServiceGet</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Params = \$ParamObject->GetParams(
+    Params           => [ 'TicketID', 'Queue', ]      # optional, only these parameters are fetched and returned
+    Raw              => 1,                            # optional, input data is not changed
+    JSONDecodeParams => ['ParamNameWithJSONData1',]   # optional, this JSON-decodes the given parameters
+);}
+
+]]></content>
+    <tabTrigger>znuny.ParamObject.GetParams</tabTrigger>
+    <description>6.4, 6.5</description>
+    <scope>source.perl</scope>
+</snippet>

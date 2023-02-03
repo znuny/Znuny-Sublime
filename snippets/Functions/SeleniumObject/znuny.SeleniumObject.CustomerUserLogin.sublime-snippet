@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %CustomerUserData = \$SeleniumObject->CustomerUserLogin(
+    Language => 'de' # optional, defaults to 'en' if not set
+);}
+
+]]></content>
+    <tabTrigger>znuny.SeleniumObject.CustomerUserLogin</tabTrigger>
+    <description>6.4, 6.5</description>
+    <scope>source.perl</scope>
+</snippet>

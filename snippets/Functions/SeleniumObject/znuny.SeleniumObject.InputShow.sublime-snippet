@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$SeleniumObject->InputShow(
+    Attribute => 'QueueID',
+);}
+
+]]></content>
+    <tabTrigger>znuny.SeleniumObject.InputShow</tabTrigger>
+    <description>6.4, 6.5</description>
+    <scope>source.perl</scope>
+</snippet>

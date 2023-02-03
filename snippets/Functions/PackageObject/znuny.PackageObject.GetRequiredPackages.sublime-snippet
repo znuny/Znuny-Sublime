@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$PackageRequired = \$PackageObject->GetRequiredPackages(
+    Structure => \%Structure,       # return of PackageParse()
+);}
+
+]]></content>
+    <tabTrigger>znuny.PackageObject.GetRequiredPackages</tabTrigger>
+    <description>6.4, 6.5</description>
+    <scope>source.perl</scope>
+</snippet>

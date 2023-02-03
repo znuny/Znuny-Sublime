@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$Self->{LogObject}->Dumper('Debug - ${1:ModuleName}', '${2:VariableName}', ${3:\\}$4${2:VariableName});
+]]></content>
+    <tabTrigger>znuny.Dumper.Log.Self</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

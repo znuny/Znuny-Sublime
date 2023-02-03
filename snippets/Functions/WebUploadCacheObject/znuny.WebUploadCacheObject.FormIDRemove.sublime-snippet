@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:\$WebUploadCacheObject->FormIDRemove( FormID => 123456 );}
+${1:\$WebUploadCacheObject->FormIDRemove( FormID => \$FormID );}
 
 ]]></content>
     <tabTrigger>znuny.WebUploadCacheObject.FormIDRemove</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

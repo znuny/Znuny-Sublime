@@ -4,6 +4,6 @@ ${1:my \$MailTimeStamp = \$TimeObject->MailTimeStamp();}
 
 ]]></content>
     <tabTrigger>znuny.TimeObject.MailTimeStamp</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

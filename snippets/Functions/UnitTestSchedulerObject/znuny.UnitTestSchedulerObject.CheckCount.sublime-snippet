@@ -9,6 +9,6 @@ ${1:my \$Success = \$UnitTestSchedulerObject->CheckCount(
 
 ]]></content>
     <tabTrigger>znuny.UnitTestSchedulerObject.CheckCount</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

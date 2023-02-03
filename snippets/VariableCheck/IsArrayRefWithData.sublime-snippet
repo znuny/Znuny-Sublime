@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+IsArrayRefWithData(\$$1)
+]]></content>
+    <tabTrigger>IsArrayRefWithData</tabTrigger>
+    <description>VariableCheck</description>
+    <scope>source.perl</scope>
+</snippet>

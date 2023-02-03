@@ -4,6 +4,6 @@ ${1:my ( \$Content, \$Filename ) = \$SupportBundleGeneratorObject->GenerateCusto
 
 ]]></content>
     <tabTrigger>znuny.SupportBundleGeneratorObject.GenerateCustomFilesArchive</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

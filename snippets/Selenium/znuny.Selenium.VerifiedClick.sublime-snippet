@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-\$SeleniumObject->find_element("${2:#Name}", 'css')->VerifiedClick();
-]]></content>
-    <tabTrigger>znuny.Selenium.VerifiedClick</tabTrigger>
-    <scope>source.perl</scope>
-</snippet>

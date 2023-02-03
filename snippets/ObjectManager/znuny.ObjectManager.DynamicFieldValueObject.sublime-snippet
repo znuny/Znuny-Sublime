@@ -3,6 +3,6 @@
 my \$DynamicFieldValueObject = \$Kernel::OM->Get('Kernel::System::DynamicFieldValue');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.DynamicFieldValueObject</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

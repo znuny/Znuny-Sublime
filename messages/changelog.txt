@@ -1,3 +1,13 @@
+Version 1.0.3
+✔ Updated Snippets 6.0, 6.4, 6.5
+✔ Fixed syntax typos
+✔ Tidied snippet filenames for better readability
+✔ Added DynamicField WebserviceText        (⭐ new)
+✔ Added DynamicField WebserviceMultiselect (⭐ new)
+✔ Added DynamicField WebserviceDropdown    (⭐ new)
+✔ Added SeleniumObject VerifiedClick       (⭐ new)
+✔ Added SeleniumObject VerifiedSubmit      (⭐ new)
+
 Version 1.0.2
 ✔ Created map.array perl snippet.
 ✔ Updated Copyright string to new format.

@@ -7,10 +7,22 @@ ${1:my \$True = \$ServiceObject->ServiceUpdate(
     ValidID   => \$ValidID,
     Comment   => 'Comment',    # (optional)
     UserID    => \$UserID,
+
+    # ITSMCore (if installed)
+    TypeID      => \$TypeID,
+    Criticality => '3 normal',
+);}
+${2:my \$True = \$ServiceObject->ServiceUpdate(
+    ServiceID => \$ServiceID,
+    ParentID  => \$ParentID,           # (optional)
+    Name      => 'Service Name',
+    ValidID   => \$ValidID,
+    Comment   => 'Comment',    # (optional)
+    UserID    => \$UserID,
 );}
 
 ]]></content>
     <tabTrigger>znuny.ServiceObject.ServiceUpdate</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:    my \$CheckOk = \$PackageObject->CheckVersion(
+        VersionNew       => '1.3.92',
+        VersionInstalled => '1.3.91',
+        Type             => 'Min',     # 'Min' or 'Max'
+        ExternalPackage  => 1,         # optional
+    )}
+
+]]></content>
+    <tabTrigger>znuny.PackageObject.CheckVersion</tabTrigger>
+    <description>6.4, 6.5</description>
+    <scope>source.perl</scope>
+</snippet>

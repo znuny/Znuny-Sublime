@@ -3,6 +3,6 @@
 my \$FileTempObject = \$Kernel::OM->Get('Kernel::System::FileTemp');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.FileTempObject</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

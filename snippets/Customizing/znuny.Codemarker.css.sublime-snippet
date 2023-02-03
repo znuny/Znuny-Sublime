@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+/* ---
+ * ${1:Znuny-}${2:}
+ * $3
+*/
+
+/* --- */
+]]></content>
+    <tabTrigger>znuny.Codemarker.css</tabTrigger>
+    <description>css</description>
+    <scope>source.css</scope>
+</snippet>

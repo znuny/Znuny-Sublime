@@ -9,6 +9,6 @@ ${3:\$Self->False(1, 'Test Name');}
 
 ]]></content>
     <tabTrigger>znuny.UnitTestObject.False</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

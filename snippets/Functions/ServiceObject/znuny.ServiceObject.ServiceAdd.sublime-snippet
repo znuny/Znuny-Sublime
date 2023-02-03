@@ -6,10 +6,21 @@ ${1:my \$ServiceID = \$ServiceObject->ServiceAdd(
     ValidID  => \$ValidID,
     Comment  => 'Comment',    # (optional)
     UserID   => \$UserID,
+
+    # ITSMCore (if installed)
+    TypeID      => \$TypeID,
+    Criticality => '3 normal',
+);}
+${2:my \$ServiceID = \$ServiceObject->ServiceAdd(
+    Name     => 'Service Name',
+    ParentID => \$ParentID,           # (optional)
+    ValidID  => \$ValidID,
+    Comment  => 'Comment',    # (optional)
+    UserID   => \$UserID,
 );}
 
 ]]></content>
     <tabTrigger>znuny.ServiceObject.ServiceAdd</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

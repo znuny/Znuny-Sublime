@@ -4,6 +4,6 @@ ${1:my \$DBCRUDObjects = \$UtilObject->GetInstalledDBCRUDObjects();}
 
 ]]></content>
     <tabTrigger>znuny.UtilObject.GetInstalledDBCRUDObjects</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

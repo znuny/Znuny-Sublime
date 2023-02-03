@@ -3,7 +3,7 @@
 ${1:my \$TransitionCheck = \$TransitionObject->TransitionCheck(
     TransitionEntityID => \$TransitionEntityID,
     or
-    TransitionEntityID => \$TransitionEntityID, 'T2', 'T3'],
+    TransitionEntityID => [\$TransitionEntityID],
     Data       => \{
         Queue         => 'Raw',
         DynamicField1 => 'Value',
@@ -14,6 +14,6 @@ ${1:my \$TransitionCheck = \$TransitionObject->TransitionCheck(
 
 ]]></content>
     <tabTrigger>znuny.TransitionObject.TransitionCheck</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

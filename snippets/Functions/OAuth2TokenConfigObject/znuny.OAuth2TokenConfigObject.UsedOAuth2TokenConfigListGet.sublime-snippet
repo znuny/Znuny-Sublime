@@ -6,6 +6,6 @@ ${1:my @UsedOAuth2TokenConfigListGet = \$OAuth2TokenConfigObject->UsedOAuth2Toke
 
 ]]></content>
     <tabTrigger>znuny.OAuth2TokenConfigObject.UsedOAuth2TokenConfigListGet</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

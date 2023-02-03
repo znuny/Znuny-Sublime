@@ -3,12 +3,13 @@
 ${1:my %Attributes = \$TemplateGeneratorObject->Attributes(
     TicketID   => \$TicketID,
     ArticleID  => \$ArticleID,
-    ResponseID => \$ResponseID,
+    ResponseID => \$ResponseID
+    UserID     => \$UserID,
     Action     => 'Forward', # Possible values are Reply and Forward, Reply is default.
 );}
 
 ]]></content>
     <tabTrigger>znuny.TemplateGeneratorObject.Attributes</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

@@ -8,6 +8,6 @@ ${1:my \$NewSubject = \$TicketObject->TicketSubjectClean(
 
 ]]></content>
     <tabTrigger>znuny.TicketObject.TicketSubjectClean</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

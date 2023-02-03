@@ -1,12 +1,12 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$Success = \$LastViewsObject->Update(
-    SessionID => \$SessionID,
+    SessionID => \$Self->\{SessionID\},
     Request   => \%Request,
 );}
 
 ]]></content>
     <tabTrigger>znuny.LastViewsObject.Update</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

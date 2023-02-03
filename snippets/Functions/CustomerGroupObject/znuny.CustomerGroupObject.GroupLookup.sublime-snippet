@@ -5,6 +5,6 @@ ${2:my \$GroupID = \$CustomerGroupObject->GroupLookup(Group => \$Group);}
 
 ]]></content>
     <tabTrigger>znuny.CustomerGroupObject.GroupLookup</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

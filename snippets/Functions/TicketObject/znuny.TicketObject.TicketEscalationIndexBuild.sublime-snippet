@@ -1,12 +1,12 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$Success = \$TicketObject->TicketEscalationIndexBuild(
-    TicketID => \$TicketID,
-    UserID   => \$UserID,
+    TicketID => \$Param\{TicketID\},
+    UserID   => \$Param\{UserID\},
 );}
 
 ]]></content>
     <tabTrigger>znuny.TicketObject.TicketEscalationIndexBuild</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

@@ -4,6 +4,6 @@ ${1:my \$RedirectURL = \$OAuth2TokenObject->GetAuthorizationCodeRequestRedirectU
 
 ]]></content>
     <tabTrigger>znuny.OAuth2TokenObject.GetAuthorizationCodeRequestRedirectURL</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

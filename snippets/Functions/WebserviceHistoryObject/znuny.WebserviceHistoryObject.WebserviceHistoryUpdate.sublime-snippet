@@ -2,12 +2,13 @@
     <content><![CDATA[
 ${1:my \$Success = \$WebserviceHistoryObject->WebserviceHistoryUpdate(
     ID           => 123,
-    WebserviceID => \$WebserviceID,
+    WebserviceID => \$WebserviceID
+    Config       => \$ConfigHashRef,
     UserID       => \$UserID,
 );}
 
 ]]></content>
     <tabTrigger>znuny.WebserviceHistoryObject.WebserviceHistoryUpdate</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

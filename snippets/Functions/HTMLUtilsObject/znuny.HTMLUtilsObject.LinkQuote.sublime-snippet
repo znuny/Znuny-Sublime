@@ -11,6 +11,6 @@ ${2:my \$HTMLWithLinksRef = \$HTMLUtilsObject->LinkQuote(
 
 ]]></content>
     <tabTrigger>znuny.HTMLUtilsObject.LinkQuote</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

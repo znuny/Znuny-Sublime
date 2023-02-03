@@ -3,6 +3,6 @@
 my \$TicketToUnitTestObject = \$Kernel::OM->Get('Kernel::System::UnitTest::TicketToUnitTest');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.TicketToUnitTestObject</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

@@ -4,6 +4,6 @@ ${1:my @SubactionIgnore = \$LastViewsObject->GetSubactionIgnore();}
 
 ]]></content>
     <tabTrigger>znuny.LastViewsObject.GetSubactionIgnore</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

@@ -14,10 +14,29 @@ ${1:my \$True = \$SLAObject->SLAUpdate(
     ValidID             => \$ValidID,
     Comment             => 'Comment',    # (optional)
     UserID              => \$UserID,
+
+    # ITSMCore
+    TypeID                  => \$TypeID,
+    MinTimeBetweenIncidents => 3443,  # (optional)
+);}
+${2:my \$True = \$SLAObject->SLAUpdate(
+    SLAID               => \$SLAID,
+    ServiceIDs          => [ 1, 2, 3 ],  # (optional)
+    Name                => 'Service Name',
+    Calendar            => 'Calendar1',  # (optional)
+    FirstResponseTime   => 120,          # (optional)
+    FirstResponseNotify => 60,           # (optional) notify agent if first response escalation is 60% reached
+    UpdateTime          => 180,          # (optional)
+    UpdateNotify        => 80,           # (optional) notify agent if update escalation is 80% reached
+    SolutionTime        => 580,          # (optional)
+    SolutionNotify      => 80,           # (optional) notify agent if solution escalation is 80% reached
+    ValidID             => \$ValidID,
+    Comment             => 'Comment',    # (optional)
+    UserID              => \$UserID,
 );}
 
 ]]></content>
     <tabTrigger>znuny.SLAObject.SLAUpdate</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

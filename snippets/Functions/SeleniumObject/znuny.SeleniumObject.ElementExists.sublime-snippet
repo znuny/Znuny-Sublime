@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$SeleniumObject->ElementExists(
+    Selector     => '#GroupID',
+    SelectorType => 'css',        # optional
+);}
+
+]]></content>
+    <tabTrigger>znuny.SeleniumObject.ElementExists</tabTrigger>
+    <description>6.4, 6.5</description>
+    <scope>source.perl</scope>
+</snippet>

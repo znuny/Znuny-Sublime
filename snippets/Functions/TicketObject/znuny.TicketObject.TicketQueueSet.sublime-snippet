@@ -4,7 +4,7 @@ ${1:my \$Success = \$TicketObject->TicketQueueSet(
     Queue    => 'Some Queue Name',
     TicketID => \$TicketID,
     Comment  => 'some comment', # optional
-    ForceNotificationToUserID => \$ForceNotificationToUserID,43,56], # if you want to force somebody
+    ForceNotificationToUserID => [\$ForceNotificationToUserID,43,56], # if you want to force somebody
     UserID   => \$UserID,
 );}
 ${2:my \$Success = \$TicketObject->TicketQueueSet(
@@ -20,6 +20,6 @@ ${3:my \$Success = \$TicketObject->TicketQueueSet(
 
 ]]></content>
     <tabTrigger>znuny.TicketObject.TicketQueueSet</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

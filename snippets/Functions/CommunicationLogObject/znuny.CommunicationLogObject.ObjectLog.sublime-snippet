@@ -7,6 +7,6 @@ ${1:my \$Success = \$CommunicationLogObject->ObjectLog(
 
 ]]></content>
     <tabTrigger>znuny.CommunicationLogObject.ObjectLog</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

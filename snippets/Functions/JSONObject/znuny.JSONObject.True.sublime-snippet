@@ -4,6 +4,6 @@ ${1:my \$TrueConstant = \$JSONObject->True();}
 
 ]]></content>
     <tabTrigger>znuny.JSONObject.True</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

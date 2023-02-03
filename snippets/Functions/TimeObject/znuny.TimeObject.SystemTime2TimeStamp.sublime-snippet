@@ -10,6 +10,6 @@ ${2:my \$TimeStamp = \$TimeObject->SystemTime2TimeStamp(
 
 ]]></content>
     <tabTrigger>znuny.TimeObject.SystemTime2TimeStamp</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

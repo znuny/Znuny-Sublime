@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:\$SeleniumObject->RunTest( sub \{ ... \} );}
+
+]]></content>
+    <tabTrigger>znuny.SeleniumObject.RunTest</tabTrigger>
+    <description>6.0, 6.4, 6.5</description>
+    <scope>source.perl</scope>
+</snippet>

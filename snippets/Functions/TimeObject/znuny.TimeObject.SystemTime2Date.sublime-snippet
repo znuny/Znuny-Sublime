@@ -6,6 +6,6 @@ ${1:my (\$Sec, \$Min, \$Hour, \$Day, \$Month, \$Year, \$WeekDay) = \$TimeObject-
 
 ]]></content>
     <tabTrigger>znuny.TimeObject.SystemTime2Date</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

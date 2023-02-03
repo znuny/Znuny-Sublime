@@ -4,6 +4,6 @@ ${1:my \$AutocompletionSettings = \$AutocompletionObject->GetAutocompletionSetti
 
 ]]></content>
     <tabTrigger>znuny.AutocompletionObject.GetAutocompletionSettings</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+<Setting Name="$1" Required="${8:1}" Valid="1">
+    <Description Translatable="1">${2:This configuration defines}.</Description>
+    <Navigation>${4:Core}</Navigation>
+    <Value>
+        <Item ValueType="Select" SelectedID="$5">
+            <Item ValueType="Option" Value="$5" Translatable="1">$6</Item>
+        </Item>
+    </Value>
+</Setting>
+]]></content>
+    <tabTrigger>znuny.Config.Select</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

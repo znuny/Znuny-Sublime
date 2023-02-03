@@ -6,6 +6,6 @@ ${2:my \$TimeZone = \$DateTimeObject->GetRealTimeZone( TimeZone => 'Africa/Addis
 
 ]]></content>
     <tabTrigger>znuny.DateTimeObject.GetRealTimeZone</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

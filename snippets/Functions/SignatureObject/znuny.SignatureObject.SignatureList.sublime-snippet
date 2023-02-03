@@ -6,6 +6,6 @@ ${1:my %List = \$SignatureObject->SignatureList(
 
 ]]></content>
     <tabTrigger>znuny.SignatureObject.SignatureList</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

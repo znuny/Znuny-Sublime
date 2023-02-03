@@ -4,12 +4,12 @@ ${1:my \$Result = \$SysConfigObject->SettingReset(
     Name                  => 'Setting Name',                # (required) Setting name
     TargetUserID          => \$TargetUserID,                             # (optional) UserID for settings in AgentPreferences
                                                             # or
-    ExclusiveLockGUID     => \$ExclusiveLockGUID,                # (optional) the GUID used to locking the setting
+    ExclusiveLockGUID     => \$LockingString,                # (optional) the GUID used to locking the setting
     UserID                => \$UserID,                             # (required) UserID that creates modification
 );}
 
 ]]></content>
     <tabTrigger>znuny.SysConfigObject.SettingReset</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

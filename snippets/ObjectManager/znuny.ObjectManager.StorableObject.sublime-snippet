@@ -3,6 +3,6 @@
 my \$StorableObject = \$Kernel::OM->Get('Kernel::System::Storable');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.StorableObject</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

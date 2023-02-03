@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$SeleniumObject->InputMandatory(
+    Attribute => 'QueueID',
+    Mandatory => 1,         # 1 or 0
+);}
+${2:my \$Result = \$SeleniumObject->InputMandatory(
+    Attribute => 'QueueID',
+);}
+
+]]></content>
+    <tabTrigger>znuny.SeleniumObject.InputMandatory</tabTrigger>
+    <description>6.4, 6.5</description>
+    <scope>source.perl</scope>
+</snippet>

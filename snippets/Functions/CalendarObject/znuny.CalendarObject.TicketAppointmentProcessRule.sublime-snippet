@@ -11,7 +11,7 @@ ${1:my \$Success = \$CalendarObject->TicketAppointmentProcessRule(
     Rule => \{
         StartDate => 'DynamicField_TestDate',
         EndDate   => 'Plus_5',
-        QueueID   => \$QueueID,
+        QueueID   => [ \$QueueID ],
         RuleID    => \$RuleID,
         SearchParams => \{
             Title => 'Welcome*',
@@ -22,6 +22,6 @@ ${1:my \$Success = \$CalendarObject->TicketAppointmentProcessRule(
 
 ]]></content>
     <tabTrigger>znuny.CalendarObject.TicketAppointmentProcessRule</tabTrigger>
-    <description>6.0, 6.4</description>
+    <description>6.0, 6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

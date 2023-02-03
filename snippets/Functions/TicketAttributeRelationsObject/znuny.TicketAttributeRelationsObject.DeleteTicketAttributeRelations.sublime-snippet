@@ -7,6 +7,6 @@ ${1:my \$Success = \$TicketAttributeRelationsObject->DeleteTicketAttributeRelati
 
 ]]></content>
     <tabTrigger>znuny.TicketAttributeRelationsObject.DeleteTicketAttributeRelations</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

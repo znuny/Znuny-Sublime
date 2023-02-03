@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$CalendarEventsData = \$CalendarEventsObject->Parse(
-    TicketID    => \$TicketID,
-    ArticleID   => \$ArticleID,
+    TicketID    => \$Param\{TicketID\},
+    ArticleID   => \$Param\{ArticleID\},
     String      => \$ArticleContent, # parse specified text content
     Attachments => \{ # parse attachments
         Data => \{
@@ -26,6 +26,6 @@ ${1:my \$CalendarEventsData = \$CalendarEventsObject->Parse(
 
 ]]></content>
     <tabTrigger>znuny.CalendarEventsObject.Parse</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

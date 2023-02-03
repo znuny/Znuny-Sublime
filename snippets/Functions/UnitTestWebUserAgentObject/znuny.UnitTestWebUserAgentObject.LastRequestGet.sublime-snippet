@@ -4,6 +4,6 @@ ${1:my %Request = \$UnitTestWebUserAgentObject->LastRequestGet();}
 
 ]]></content>
     <tabTrigger>znuny.UnitTestWebUserAgentObject.LastRequestGet</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

@@ -39,7 +39,7 @@ use File::Path qw( make_path );
 
 local $Kernel::OM = Kernel::System::ObjectManager->new(
     'Kernel::System::Log' => {
-        LogPrefix => 'znuny.GenerateSnippets.pl',
+        LogPrefix => 'znuny.GenerateSublimeSnippets.pl',
     },
 );
 
@@ -106,6 +106,9 @@ my %ObjectFilesMapping = (
     UnitTestObject => [
         $Home . '/Kernel/System/UnitTest/Driver.pm',
     ],
+    SeleniumObject => [
+        $Home . '/Kernel/System/UnitTest/Selenium/WebElement.pm',
+    ],
 );
 
 # change CallObject name to other
@@ -169,7 +172,7 @@ sub PrintUsage {
 Generates Znuny Snippets for Sublime Text.
 
 Usage:
-    znuny.GenerateSnippets.pl [--dry-run] [--version]
+    znuny.GenerateSublimeSnippets.pl [--dry-run] [--version]
 
 Options:
 
@@ -177,13 +180,13 @@ Options:
     [--version]   - Generate Snippets for given version.
     [--help]      - Show help for this command.
 
-    znuny.GenerateSnippets.pl
+    znuny.GenerateSublimeSnippets.pl
 
 Process:
 
     1. Make sure all needed perl libs are installed (Pod::Parser, List::MoreUtils).
     2. Link this package to the wanted Framework directory.
-    3. Run this script znuny.GenerateSnippets.pl to create the snippets for the current version.
+    3. Run this script znuny.GenerateSublimeSnippets.pl to create the snippets for the current version.
     4. Repeat this for other Framework versions.
 
 EOF
@@ -228,8 +231,8 @@ sub Run {
     _GetRawData();
 
     if ( !$DryRun ) {
-        _WriteRawDataFile();
         _GenerateSnippets();
+        _WriteRawDataFile();
     }
 
     Print("<green>Done</green>\n");
@@ -746,11 +749,21 @@ sub _GetObjects {
 
                 my $FunctionCallReplaced = $FunctionCall;
 
-                # replace " TicketID => 123," with " TicketID => $TicketID,"
-                $FunctionCallReplaced =~ s{(\s(\w+ID)\s+=>\s+)[^,]+,}{$1\$$2,}gxms;
+                # replace " TicketID => 123,"            with " TicketID => $TicketID,"
+                # replace " TicketID => [1234, 1235],"   with " TicketID => [$TicketID, 1235],"
+                $FunctionCallReplaced =~ s{(\s(\w+ID)\s+=>\s+\[*\s*)(\d+)(.*)}{$1\$$2$4}gxm;
+
+                # replace " TicketID => '123',"          with " TicketID => $TicketID,"
+                # replace " TicketID => "123","          with " TicketID => $TicketID,"
+                # replace " TicketID => '20160101T160000-71E386@localhost',"   with " TicketID => $TicketID,"
+                $FunctionCallReplaced =~ s{(\s(\w+ID)\s+=>\s+\[*\s*)([\'|\"]+.*[\'|\"]+)(.*)}{$1\$$2$4}gxm;
+
+                # replace " TicketID => $ID,"   with " TicketID => $TicketID,"
+                $FunctionCallReplaced =~ s{(\s(\w+ID)\s+=>\s+\[*\s*)(\$ID)(.*)}{$1\$$2$4}gxm;
 
                 # replace TicketNumber parameter with var
-                $FunctionCallReplaced =~ s{(\sTicketNumber\s+=>\s+)[^,]+,}{$1\$TicketNumber,}gxms;
+                # replace " TicketNumber => '2004040510440485'," with " TicketNumber => $TicketNumber,"
+                $FunctionCallReplaced =~ s{(\sTicketNumber\s+=>\s+\[*\s*)([\'|\"]*\d+[\'|\"]*)(.*)}{$1\$TicketNumber$3}gxm;
 
                 $ObjectFunction->{$FunctionCallReplaced} ||= [];
 
@@ -928,7 +941,7 @@ Creates snippet file.
         Content     => 'CustomerTicketSearch',
         Description => '6.4',
         Scope       => 'source.perl',
-        Directory   => '/snippets/Modules',
+        Directory   => '/snippets/Modules/',
     );
 
 Returns:
@@ -944,7 +957,7 @@ sub _WriteSnippets {
     for my $Needed ( qw(Filename Trigger Content Description Scope Directory) ) {
 
         next NEEDED if defined $Snippet{ $Needed };
-        Print("<red>Snippet value '$Needed' is needed for '$Snippet{Trigger}'.</red> Skipping...\n");
+        Print("<red>ERROR: Snippet value '$Needed' is needed for '$Snippet{Trigger}'.</red> Skipping...\n");
 
         return;
     }

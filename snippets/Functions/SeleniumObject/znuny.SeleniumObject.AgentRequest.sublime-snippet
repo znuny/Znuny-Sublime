@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:\$SeleniumObject->AgentRequest(
+    Action      => 'CustomerUserSearch',
+    Param       => \{
+        Term => 'test-customer-user'
+    \}
+);}
+
+]]></content>
+    <tabTrigger>znuny.SeleniumObject.AgentRequest</tabTrigger>
+    <description>6.4, 6.5</description>
+    <scope>source.perl</scope>
+</snippet>

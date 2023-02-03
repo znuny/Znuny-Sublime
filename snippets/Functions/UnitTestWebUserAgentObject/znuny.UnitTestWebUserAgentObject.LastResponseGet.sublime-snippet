@@ -4,6 +4,6 @@ ${1:my %Response = \$UnitTestWebUserAgentObject->LastResponseGet();}
 
 ]]></content>
     <tabTrigger>znuny.UnitTestWebUserAgentObject.LastResponseGet</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

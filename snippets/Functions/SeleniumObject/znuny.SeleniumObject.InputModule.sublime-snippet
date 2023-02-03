@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Result = \$SeleniumObject->InputModule(
+    Action => 'QueueID',
+);}
+
+]]></content>
+    <tabTrigger>znuny.SeleniumObject.InputModule</tabTrigger>
+    <description>6.4, 6.5</description>
+    <scope>source.perl</scope>
+</snippet>

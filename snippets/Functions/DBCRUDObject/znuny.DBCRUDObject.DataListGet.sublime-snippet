@@ -8,6 +8,6 @@ ${1:my @Data = \$DBCRUDObject->DataListGet(
 
 ]]></content>
     <tabTrigger>znuny.DBCRUDObject.DataListGet</tabTrigger>
-    <description>6.4</description>
+    <description>6.4, 6.5</description>
     <scope>source.perl</scope>
 </snippet>
