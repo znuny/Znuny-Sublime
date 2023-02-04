@@ -1,6 +1,6 @@
 ![Znuny logo](http://znuny.com/assets/images/logo_small.png)
 
-Sublime
+Sublime ![Packagecontrol downloads](https://img.shields.io/packagecontrol/dt/Znuny)
 ===============
 Znuny (Znuny-Sublime) is a Sublime Text 2/3 plugin that helps you to make Znuny development less painful.
 
