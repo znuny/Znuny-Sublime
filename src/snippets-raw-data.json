@@ -104,6 +104,9 @@
          "6.4",
          "6.5"
       ],
+      "AgentTicketNoteToLinkedTicket" : [
+         "6.5"
+      ],
       "AgentTicketOwner" : [
          "6.0",
          "6.4",
@@ -2826,7 +2829,8 @@
                   "6.5"
                ],
                "my $Result = $EmailObject->SendExecute(\n    From                   => $RealFrom,\n    To                     => $To, # can be a string with comma separated mail addresses\n    Header                 => \\$Param{Header},\n    Body                   => \\$Param{Body},\n    CommunicationLogObject => $CommunicationLogObject,\n);" : [
-                  "6.4"
+                  "6.4",
+                  "6.5"
                ],
                "my $Result = $EmailObject->SendExecute(\n    From                   => $RealFrom,\n    To                     => \\@ToArray,\n    Header                 => \\$Param{Header},\n    Body                   => \\$Param{Body},\n    CommunicationLogObject => $CommunicationLogObject,\n);" : [
                   "6.0",
@@ -10109,6 +10113,11 @@
             "IsFrontendContext" : {
                "my $IsFrontendContext = $UtilObject->IsFrontendContext();" : [
                   "6.4",
+                  "6.5"
+               ]
+            },
+            "IsITSMIncidentProblemManagementInstalled" : {
+               "my $IsITSMIncidentProblemManagementInstalled = $UtilObject->IsITSMIncidentProblemManagementInstalled();" : [
                   "6.5"
                ]
             },
