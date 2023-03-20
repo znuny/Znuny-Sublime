@@ -28,12 +28,12 @@ ${1:my \$Package = \$PackageObject->PackageBuild(
     ],
     Filelist = [
         \{
-            Location   => 'Kernel/System/Lala.pm'
+            Location   => 'Kernel/System/Lala.pm',
             Permission => '644',
             Content    => \$FileInString,
         \},
         \{
-            Location   => 'Kernel/System/Lulu.pm'
+            Location   => 'Kernel/System/Lulu.pm',
             Permission => '644',
             Content    => \$FileInString,
         \},

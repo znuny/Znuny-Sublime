@@ -1,6 +1,24 @@
 <snippet>
     <content><![CDATA[
 ${1:\$Self->Run(
+    Tests                  => ['JSON', 'User'],             # optional, execute certain test files
+    Directory              => ['Selenium', 'User'],         # optional, execute tests in subdirectory
+    Package                => ['ITSMCore'],                 # optional, execute tests of installed package
+    ExcludeDirectory       => ['Selenium/Agent/Admin'],     # optional, all test files in the specified directory will be Excluded.
+    SOPMFile               => ['ITSMCore.sopm'],            # optional, execute all test files which are defined in these sopm.
+    Verbose                => 1,                            # optional (default 0), only show result details for all tests, not just failing
+    SubmitURL              => \$URL,                         # optional, send results to unit test result server
+    SubmitAuth             => \$SubmitAuth,                  # optional authentication string for unit test result server
+    SubmitResultAsExitCode => 1,                            # optional, specify if exit code should not indicate if tests were ok/not ok, but if submission was successful instead
+    JobID                  => \$JobID,                           # optional job ID for unit test submission to server
+    Scenario               => 'Znuny 6 git',                # optional scenario identifier for unit test submission to server
+    PostTestScripts        => ['...'],                      # Script(s) to execute after a test has been run.
+                                                            #  You can specify %File%, %TestOk% and %TestNotOk% as dynamic arguments.
+    PreSubmitScripts       => ['...'],                      # Script(s) to execute after all tests have been executed
+                                                            #  and the results are about to be sent to the server.
+    NumberOfTestRuns       => 10,                           # optional (default 1), number of successive runs for every single unit test
+);}
+${2:\$Self->Run(
     Tests                  => ['JSON', 'User'],             # optional, execute certain test files only
     Directory              => ['Selenium', 'User'],         # optional, execute tests in subdirectory
     ExcludeDirectory       => ['Selenium/Agent/Admin'],     # optional, all test files in the specified directory will be Excluded.

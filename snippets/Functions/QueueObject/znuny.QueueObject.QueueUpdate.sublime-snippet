@@ -18,8 +18,8 @@ ${1:my \$Success = \$QueueObject->QueueUpdate(
     UserID              => \$UserID,
     FollowUpID          => \$FollowUpID,
     Comment             => 'Some Comment2',
-    DefaultSignKey      => ''
-    UnlockTimeOut       => ''
+    DefaultSignKey      => '',
+    UnlockTimeOut       => '',
     FollowUpLock        => 1,
     ParentQueueID       => \$ParentQueueID,
 );}

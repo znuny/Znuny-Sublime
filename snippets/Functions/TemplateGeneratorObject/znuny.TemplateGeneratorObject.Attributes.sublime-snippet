@@ -3,7 +3,7 @@
 ${1:my %Attributes = \$TemplateGeneratorObject->Attributes(
     TicketID   => \$TicketID,
     ArticleID  => \$ArticleID,
-    ResponseID => \$ResponseID
+    ResponseID => \$ResponseID,
     UserID     => \$UserID,
     Action     => 'Forward', # Possible values are Reply and Forward, Reply is default.
 );}

@@ -2,7 +2,7 @@
     <content><![CDATA[
 ${1:\$True = \$PDFObject->Image(
     File   => '/path/image.gif',  # (gif|jpg|png)
-    Type   => 'ReturnFalse'       # (optional) default Reduce (ReturnFalse|Reduce)
+    Type   => 'ReturnFalse',      # (optional) default Reduce (ReturnFalse|Reduce)
     Width  => 300,                # width of image
     Height => 150,                # height of image
 );}

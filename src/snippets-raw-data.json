@@ -425,7 +425,7 @@
                ]
             },
             "ArticleSearchIndexRebuildFlagSet" : {
-               "my $Success = $ArticleObject->ArticleSearchIndexRebuildFlagSet(\n    ArticleIDs => [ 123, 234, 345 ]   # (Either 'ArticleIDs' or 'All' must be provided) The ArticleIDs to be updated.\n    All        => 1                   # (Either 'ArticleIDs' or 'All' must be provided) Set all articles to $Value. Default: 0,\n    Value      => 1, # 0/1 default 0\n);" : [
+               "my $Success = $ArticleObject->ArticleSearchIndexRebuildFlagSet(\n    ArticleIDs => [ 123, 234, 345 ]   # (Either 'ArticleIDs' or 'All' must be provided) The ArticleIDs to be updated.\n    All        => 1,                  # (Either 'ArticleIDs' or 'All' must be provided) Set all articles to $Value. Default: 0,\n    Value      => 1, # 0/1 default 0\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -705,19 +705,19 @@
                ]
             },
             "EditFieldRender" : {
-               "my $FieldHTML = $BackendObject->EditFieldRender(\n    DynamicFieldConfig   => $DynamicFieldConfig,      # complete config of the DynamicField\n    ParamObject          => $ParamObject,\n    LayoutObject         => $LayoutObject,\n    PossibleValuesFilter => {                         # Optional. Some backends may support this.\n        'Key1' => 'Value1',                           #     This may be needed to realize ACL support for ticket masks,\n        'Key2' => 'Value2',                           #     where the possible values can be limited with and ACL.\n    },\n    Template             => {                         # Optional data structure of GenericAgent etc.\n        Owner => 2,                                   # Value is accessable via field name (DynamicField_ + field name)\n        Title => 'Generic Agent Job was here'         # and could be a scalar, Hash- or ArrayRef\n        ...\n        DynamicField_ExampleField1 => 'Value 1'\n    },\n    Value                => 'Any value',              # Optional\n    Mandatory            => 1,                        # 0 or 1,\n    Class                => 'AnyCSSClass OrOneMore',  # Optional\n    ServerError          => 1,                        # 0 or 1,\n    ErrorMessage         => $ErrorMessage,            # Optional or a default will be used in error case\n    UseDefaultValue      => 1,                        # 0 or 1, 1 default\n    OverridePossibleNone => 1,                        # Optional, 0 or 1. If defined orverrides the Possible None\n                                                      #     setting of all dynamic fields (where applies) with the\n                                                      #     defined value\n    ConfirmationNeeded   => 0,                        # Optional, 0 or 1, default 0. To display a confirmation element\n                                                      #     on fields that apply (like checkbox)\n    AJAXUpdate           => 1,                        # Optional, 0 ir 1. To create JS code for field change to update\n                                                      #     the form using ACLs triggered by the field.\n    UpdatableFields      => [                         # Optional, to use if AJAXUpdate is 1. List of fields to display a\n        'NetxStateID',                                #     spinning wheel when reloading via AJAXUpdate.\n        'PriorityID',\n    ],\n    MaxLength            => 100                       # Optional, defines the maximum number of characters on fields\n                                                      #      where applies (like TextArea)\n);" : [
+               "my $FieldHTML = $BackendObject->EditFieldRender(\n    DynamicFieldConfig   => $DynamicFieldConfig,      # complete config of the DynamicField\n    ParamObject          => $ParamObject,\n    LayoutObject         => $LayoutObject,\n    PossibleValuesFilter => {                         # Optional. Some backends may support this.\n        'Key1' => 'Value1',                           #     This may be needed to realize ACL support for ticket masks,\n        'Key2' => 'Value2',                           #     where the possible values can be limited with and ACL.\n    },\n    Template             => {                         # Optional data structure of GenericAgent etc.\n        Owner => 2,                                   # Value is accessable via field name (DynamicField_ + field name)\n        Title => 'Generic Agent Job was here',         # and could be a scalar, Hash- or ArrayRef\n        ...\n        DynamicField_ExampleField1 => 'Value 1'\n    },\n    Value                => 'Any value',              # Optional\n    Mandatory            => 1,                        # 0 or 1,\n    Class                => 'AnyCSSClass OrOneMore',  # Optional\n    ServerError          => 1,                        # 0 or 1,\n    ErrorMessage         => $ErrorMessage,            # Optional or a default will be used in error case\n    UseDefaultValue      => 1,                        # 0 or 1, 1 default\n    OverridePossibleNone => 1,                        # Optional, 0 or 1. If defined orverrides the Possible None\n                                                      #     setting of all dynamic fields (where applies) with the\n                                                      #     defined value\n    ConfirmationNeeded   => 0,                        # Optional, 0 or 1, default 0. To display a confirmation element\n                                                      #     on fields that apply (like checkbox)\n    AJAXUpdate           => 1,                        # Optional, 0 ir 1. To create JS code for field change to update\n                                                      #     the form using ACLs triggered by the field.\n    UpdatableFields      => [                         # Optional, to use if AJAXUpdate is 1. List of fields to display a\n        'NetxStateID',                                #     spinning wheel when reloading via AJAXUpdate.\n        'PriorityID',\n    ],\n    MaxLength            => 100                       # Optional, defines the maximum number of characters on fields\n                                                      #      where applies (like TextArea)\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
                ]
             },
             "EditFieldValueGet" : {
-               "my $Value = $BackendObject->EditFieldValueGet(\n    DynamicFieldConfig      => $DynamicFieldConfig, # complete config of the DynamicField\n    ParamObject             => $ParamObject,        # the current request data\n    TransformDates          => 0                    # 1 || 0, default 1, to transform the dynamic fields that\n                                                    #   use dates to the user time zone (i.e. Date, DateTime\n                                                    #   dynamic fields)\n\n    Template                => $Template            # stored values from DB like Search profile or Generic Agent job\n    ReturnTemplateStructure => 1,                   # 0 || 1, default 0\n                                                    #   Returns the structured values as got from the http request\n                                                    #   (only for backend internal use).\n);" : [
+               "my $Value = $BackendObject->EditFieldValueGet(\n    DynamicFieldConfig      => $DynamicFieldConfig, # complete config of the DynamicField\n    ParamObject             => $ParamObject,        # the current request data\n    TransformDates          => 0,                   # 1 || 0, default 1, to transform the dynamic fields that\n                                                    #   use dates to the user time zone (i.e. Date, DateTime\n                                                    #   dynamic fields)\n\n    Template                => $Template,           # stored values from DB like Search profile or Generic Agent job\n    ReturnTemplateStructure => 1,                   # 0 || 1, default 0\n                                                    #   Returns the structured values as got from the http request\n                                                    #   (only for backend internal use).\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
                ],
-               "my $Value = $BackendObject->EditFieldValueGet(\n    DynamicFieldConfig   => $DynamicFieldConfig,    # complete config of the DynamicField\n    ParamObject          => $ParamObject,           # the current request data\n    LayoutObject         => $LayoutObject,          # used to transform dates to user time zone\n    TransformDates       => 1                       # 1 || 0, default 1, to transform the dynamic fields that\n                                                    #   use dates to the user time zone (i.e. Date, DateTime\n                                                    #   dynamic fields)\n    Template             => $Template,\n    ReturnValueStructure => 0,                      # 0 || 1, default 0\n                                                    #   Returns special structure\n                                                    #   (only for backend internal use).\n    ReturnTemplateStructure => 0,                   # 0 || 1, default 0\n                                                    #   Returns the structured values as got from the http request\n);" : [
+               "my $Value = $BackendObject->EditFieldValueGet(\n    DynamicFieldConfig   => $DynamicFieldConfig,    # complete config of the DynamicField\n    ParamObject          => $ParamObject,           # the current request data\n    LayoutObject         => $LayoutObject,          # used to transform dates to user time zone\n    TransformDates       => 1,                      # 1 || 0, default 1, to transform the dynamic fields that\n                                                    #   use dates to the user time zone (i.e. Date, DateTime\n                                                    #   dynamic fields)\n    Template             => $Template,\n    ReturnValueStructure => 0,                      # 0 || 1, default 0\n                                                    #   Returns special structure\n                                                    #   (only for backend internal use).\n    ReturnTemplateStructure => 0,                   # 0 || 1, default 0\n                                                    #   Returns the structured values as got from the http request\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -1333,7 +1333,7 @@
                ]
             },
             "ObjectLog" : {
-               "my $Success = $CommunicationLogObject->ObjectLog(\n    ObjectLogType => '...' # (required) To be defined by the related LogObject\n    ObjectLogID   => $ObjectLogID, # (required) The ObjectID of the started object type\n);" : [
+               "my $Success = $CommunicationLogObject->ObjectLog(\n    ObjectLogType => '...', # (required) To be defined by the related LogObject\n    ObjectLogID   => $ObjectLogID,   # (required) The ObjectID of the started object type\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -1347,7 +1347,7 @@
                ]
             },
             "ObjectLogStop" : {
-               "my $Success = $CommunicationLogObject->ObjectLogStop(\n    ObjectLogType => 'Connection'                        # (required) Can be 'Connection' or 'Message'\n    ObjectLogID   => $ObjectLogID, # (required) The ObjectID of the started object type\n);" : [
+               "my $Success = $CommunicationLogObject->ObjectLogStop(\n    ObjectLogType => 'Connection',                       # (required) Can be 'Connection' or 'Message'\n    ObjectLogID   => $ObjectLogID, # (required) The ObjectID of the started object type\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -1806,7 +1806,7 @@
                ]
             },
             "CustomerUserUpdate" : {
-               "$CustomerUserObject->CustomerUserUpdate(\n    Source        => 'CustomerUser', # CustomerUser source config\n    ID            => 'mh'            # current user login\n    UserLogin     => 'mhuber',       # new user login\n    UserFirstname => 'Huber',\n    UserLastname  => 'Manfred',\n    UserPassword  => 'some-pass',    # not required\n    UserEmail     => 'email@example.com',\n    ValidID       => $ValidID,\n    UserID        => $UserID,\n);" : [
+               "$CustomerUserObject->CustomerUserUpdate(\n    Source        => 'CustomerUser', # CustomerUser source config\n    ID            => 'mh',           # current user login\n    UserLogin     => 'mhuber',       # new user login\n    UserFirstname => 'Huber',\n    UserLastname  => 'Manfred',\n    UserPassword  => 'some-pass',    # not required\n    UserEmail     => 'email@example.com',\n    ValidID       => $ValidID,\n    UserID        => $UserID,\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -2139,7 +2139,7 @@
                ]
             },
             "QueryCondition" : {
-               "my $SQL = $DBObject->QueryCondition(\n    Key          => 'some_col',\n    Value        => '(ABC+DEF)',\n    SearchPrefix => '',\n    SearchSuffix => '*'\n    Extended     => 1, # use also \" \" as \"&&\", e.g. \"bob smith\" -> \"bob&&smith\"\n);" : [
+               "my $SQL = $DBObject->QueryCondition(\n    Key          => 'some_col',\n    Value        => '(ABC+DEF)',\n    SearchPrefix => '',\n    SearchSuffix => '*',\n    Extended     => 1, # use also \" \" as \"&&\", e.g. \"bob smith\" -> \"bob&&smith\"\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -2474,7 +2474,7 @@
          ],
          "Functions" : {
             "LogAdd" : {
-               "my $Success = $DebugLogObject->LogAdd(\n    CommunicationID   => $CommunicationID,\n    CommunicationType => 'Provider',        # 'Provider' or 'Requester'\n    Data              => 'additional data' # optional\n    DebugLevel        => 'info',           # 'debug', 'info', 'notice', 'error'\n    RemoteIP          => '192.168.0.1',    # optional, must be valid IPv4 or IPv6 address\n    Summary           => 'description of log entry',\n    WebserviceID      => $WebserviceID,\n);" : [
+               "my $Success = $DebugLogObject->LogAdd(\n    CommunicationID   => $CommunicationID,\n    CommunicationType => 'Provider',        # 'Provider' or 'Requester'\n    Data              => 'additional data', # optional\n    DebugLevel        => 'info',            # 'debug', 'info', 'notice', 'error'\n    RemoteIP          => '192.168.0.1',     # optional, must be valid IPv4 or IPv6 address\n    Summary           => 'description of log entry',\n    WebserviceID      => $WebserviceID,\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -3175,7 +3175,7 @@
                ]
             },
             "JobRun" : {
-               "$GenericAgentObject->JobRun(\n    Job          => 'JobName',\n    OnlyTicketID => $OnlyTicketID,     # (optional) for event based Job execution\n    SleepTime    => 100_000  # (optional) sleeptime per ticket in microseconds\n    UserID       => $UserID,\n);" : [
+               "$GenericAgentObject->JobRun(\n    Job          => 'JobName',\n    OnlyTicketID => $OnlyTicketID,     # (optional) for event based Job execution\n    SleepTime    => 100_000, # (optional) sleeptime per ticket in microseconds\n    UserID       => $UserID,\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -3755,14 +3755,14 @@
                ]
             },
             "TestUserCreate" : {
-               "my $TestUserLogin = $HelperObject->TestUserCreate(\n    Groups    => ['admin', 'users'],         # optional, list of groups to add this user to (rw rights)\n    Language  => 'de'                        # optional, defaults to 'en' if not set\n    KeepValid => 1,                          # optional, defaults to 0\n);" : [
+               "my $TestUserLogin = $HelperObject->TestUserCreate(\n    Groups    => ['admin', 'users'],         # optional, list of groups to add this user to (rw rights)\n    Language  => 'de',                       # optional, defaults to 'en' if not set\n    KeepValid => 1,                          # optional, defaults to 0\n);" : [
                   "6.4",
                   "6.5"
                ],
                "my $TestUserLogin = $HelperObject->TestUserCreate(\n    Groups => ['admin', 'users'],           # optional, list of groups to add this user to (rw rights)\n    Language => 'de'                        # optional, defaults to 'en' if not set\n);" : [
                   "6.0"
                ],
-               "my ( $TestUserLogin, $TestUserID ) = $HelperObject->TestUserCreate(\n    Groups    => ['admin', 'users'],\n    Language  => 'de'\n    KeepValid => 1,\n);" : [
+               "my ( $TestUserLogin, $TestUserID ) = $HelperObject->TestUserCreate(\n    Groups    => ['admin', 'users'],\n    Language  => 'de',\n    KeepValid => 1,\n);" : [
                   "6.4",
                   "6.5"
                ]
@@ -4532,7 +4532,7 @@
                ]
             },
             "ObjectSearch" : {
-               "$ObjectList = $LinkObject->ObjectSearch(\n    Object       => 'ITSMConfigItem',\n    SubObject    => 'Computer'         # (optional)\n    SearchParams => $HashRef,          # (optional)\n    UserID       => $UserID,\n);" : [
+               "$ObjectList = $LinkObject->ObjectSearch(\n    Object       => 'ITSMConfigItem',\n    SubObject    => 'Computer',        # (optional)\n    SearchParams => $HashRef,          # (optional)\n    UserID       => $UserID,\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -4670,7 +4670,7 @@
                ]
             },
             "MinifyFiles" : {
-               "my $TargetFilename = $LoaderObject->MinifyFiles(\n    List  => [                          # optional,  minify list of files\n        $Filename,\n        $Filename2,\n    ],\n    Checksum             => '...'       # optional, pass a checksum for the minified file\n    Content              => '...'       # optional, pass direct (already minified) content instead of a file list\n    Type                 => 'CSS',      # CSS | JavaScript\n    TargetDirectory      => $TargetDirectory,\n    TargetFilenamePrefix => 'CommonCSS',    # optional, prefix for the target filename\n);" : [
+               "my $TargetFilename = $LoaderObject->MinifyFiles(\n    List  => [                          # optional,  minify list of files\n        $Filename,\n        $Filename2,\n    ],\n    Checksum             => '...',      # optional, pass a checksum for the minified file\n    Content              => '...',      # optional, pass direct (already minified) content instead of a file list\n    Type                 => 'CSS',      # CSS | JavaScript\n    TargetDirectory      => $TargetDirectory,\n    TargetFilenamePrefix => 'CommonCSS',    # optional, prefix for the target filename\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -4886,7 +4886,7 @@
                ]
             },
             "List" : {
-               "my $List = $MailQueueObject->List(\n    ID              => '...' # optional\n    ArticleID       => $ArticleID # optional\n    Sender          => '...' # optional\n    Recipient       => '...' # optional\n    Attempts        => '...' # optional\n);" : [
+               "my $List = $MailQueueObject->List(\n    ID              => '...', # optional\n    ArticleID       => $ArticleID, # optional\n    Sender          => '...', # optional\n    Recipient       => '...', # optional\n    Attempts        => '...', # optional\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -4969,7 +4969,7 @@
                ]
             },
             "FileDelete" : {
-               "my $Success = $MainObject->FileDelete(\n    Directory       => 'c:\\some\\location',\n    Filename        => 'me_to/alal.xml',\n    # or Location\n    Location        => 'c:\\some\\location\\me_to\\alal.xml'\n\n    Type            => 'Local',   # optional - Local|Attachment|MD5\n    DisableWarnings => 1, # optional\n);" : [
+               "my $Success = $MainObject->FileDelete(\n    Directory       => 'c:\\some\\location',\n    Filename        => 'me_to/alal.xml',\n    # or Location\n    Location        => 'c:\\some\\location\\me_to\\alal.xml',\n\n    Type            => 'Local',   # optional - Local|Attachment|MD5\n    DisableWarnings => 1, # optional\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -5442,14 +5442,14 @@
                ]
             },
             "HLine" : {
-               "$True = $PDFObject->HLine(\n    Width     => 300,           # (optional) default 'end of printable dimension'\n    Type      => 'ReturnFalse'  # (optional) default Cut (ReturnFalse|Cut)\n    Color     => '#101010',     # (optional) default black\n    LineWidth => 1,             # (optional) default 1\n);" : [
+               "$True = $PDFObject->HLine(\n    Width     => 300,           # (optional) default 'end of printable dimension'\n    Type      => 'ReturnFalse', # (optional) default Cut (ReturnFalse|Cut)\n    Color     => '#101010',     # (optional) default black\n    LineWidth => 1,             # (optional) default 1\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
                ]
             },
             "Image" : {
-               "$True = $PDFObject->Image(\n    File   => '/path/image.gif',  # (gif|jpg|png)\n    Type   => 'ReturnFalse'       # (optional) default Reduce (ReturnFalse|Reduce)\n    Width  => 300,                # width of image\n    Height => 150,                # height of image\n);" : [
+               "$True = $PDFObject->Image(\n    File   => '/path/image.gif',  # (gif|jpg|png)\n    Type   => 'ReturnFalse',      # (optional) default Reduce (ReturnFalse|Reduce)\n    Width  => 300,                # width of image\n    Height => 150,                # height of image\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -5612,7 +5612,7 @@
                ]
             },
             "PackageBuild" : {
-               "my $Package = $PackageObject->PackageBuild(\n    Name => {\n        Content => 'SomePackageName',\n    },\n    Version => {\n        Content => '1.0',\n    },\n    Vendor => {\n        Content => 'OTRS AG',\n    },\n    URL => {\n        Content => 'L<http://otrs.org/>',\n    },\n    License => {\n        Content => 'GNU GENERAL PUBLIC LICENSE Version 3, November 2007',\n    }\n    Description => [\n        {\n            Lang    => 'en',\n            Content => 'english description',\n        },\n        {\n            Lang    => 'de',\n            Content => 'german description',\n        },\n    ],\n    Filelist = [\n        {\n            Location   => 'Kernel/System/Lala.pm'\n            Permission => '644',\n            Content    => $FileInString,\n        },\n        {\n            Location   => 'Kernel/System/Lulu.pm'\n            Permission => '644',\n            Content    => $FileInString,\n        },\n    ],\n);" : [
+               "my $Package = $PackageObject->PackageBuild(\n    Name => {\n        Content => 'SomePackageName',\n    },\n    Version => {\n        Content => '1.0',\n    },\n    Vendor => {\n        Content => 'OTRS AG',\n    },\n    URL => {\n        Content => 'L<http://otrs.org/>',\n    },\n    License => {\n        Content => 'GNU GENERAL PUBLIC LICENSE Version 3, November 2007',\n    }\n    Description => [\n        {\n            Lang    => 'en',\n            Content => 'english description',\n        },\n        {\n            Lang    => 'de',\n            Content => 'german description',\n        },\n    ],\n    Filelist = [\n        {\n            Location   => 'Kernel/System/Lala.pm',\n            Permission => '644',\n            Content    => $FileInString,\n        },\n        {\n            Location   => 'Kernel/System/Lulu.pm',\n            Permission => '644',\n            Content    => $FileInString,\n        },\n    ],\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -5883,7 +5883,7 @@
                ]
             },
             "SaveFormDraft" : {
-               "my $FormDraftID = $ParamObject->SaveFormDraft(\n    UserID         => $UserID\n    ObjectType     => 'Ticket',\n    ObjectID       => $ObjectID,\n    OverrideParams => {               # optional, can contain strings and array references\n        Subaction   => undef,\n        UserID      => $UserID,\n        CustomParam => [ 1, 2, 3, ],\n        ...\n    },\n);" : [
+               "my $FormDraftID = $ParamObject->SaveFormDraft(\n    UserID         => $UserID,\n    ObjectType     => 'Ticket',\n    ObjectID       => $ObjectID,\n    OverrideParams => {               # optional, can contain strings and array references\n        Subaction   => undef,\n        UserID      => $UserID,\n        CustomParam => [ 1, 2, 3, ],\n        ...\n    },\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -6313,7 +6313,7 @@
                ]
             },
             "QueueUpdate" : {
-               "my $Success = $QueueObject->QueueUpdate(\n    QueueID             => $QueueID,\n    Name                => 'Some::Queue',\n    ValidID             => $ValidID,\n    GroupID             => $GroupID,\n    Calendar            => '1', # (optional) default ''\n    FirstResponseTime   => 120, # (optional)\n    FirstResponseNotify => 60,  # (optional, notify agent if first response escalation is 60% reached)\n    UpdateTime          => 180, # (optional)\n    UpdateNotify        => 80,  # (optional, notify agent if update escalation is 80% reached)\n    SolutionTime        => 580, # (optional)\n    SolutionNotify      => 80,  # (optional, notify agent if solution escalation is 80% reached)\n    SystemAddressID     => $SystemAddressID,\n    SalutationID        => $SalutationID,\n    SignatureID         => $SignatureID,\n    UserID              => $UserID,\n    FollowUpID          => $FollowUpID,\n    Comment             => 'Some Comment2',\n    DefaultSignKey      => ''\n    UnlockTimeOut       => ''\n    FollowUpLock        => 1,\n    ParentQueueID       => $ParentQueueID,\n);" : [
+               "my $Success = $QueueObject->QueueUpdate(\n    QueueID             => $QueueID,\n    Name                => 'Some::Queue',\n    ValidID             => $ValidID,\n    GroupID             => $GroupID,\n    Calendar            => '1', # (optional) default ''\n    FirstResponseTime   => 120, # (optional)\n    FirstResponseNotify => 60,  # (optional, notify agent if first response escalation is 60% reached)\n    UpdateTime          => 180, # (optional)\n    UpdateNotify        => 80,  # (optional, notify agent if update escalation is 80% reached)\n    SolutionTime        => 580, # (optional)\n    SolutionNotify      => 80,  # (optional, notify agent if solution escalation is 80% reached)\n    SystemAddressID     => $SystemAddressID,\n    SalutationID        => $SalutationID,\n    SignatureID         => $SignatureID,\n    UserID              => $UserID,\n    FollowUpID          => $FollowUpID,\n    Comment             => 'Some Comment2',\n    DefaultSignKey      => '',\n    UnlockTimeOut       => '',\n    FollowUpLock        => 1,\n    ParentQueueID       => $ParentQueueID,\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -7073,12 +7073,12 @@
                ]
             },
             "WaitFor" : {
-               "my $Success = $SeleniumObject->WaitFor(\n    AlertPresent   => 1,                                 # Wait until an alert, confirm or prompt dialog is present\n    Callback       => sub { ... }                        # Wait until function returns true\n    ElementExists  => 'xpath-selector'                   # Wait until an element is present\n    ElementExists  => ['css-selector', 'css'],\n    ElementMissing => 'xpath-selector',                  # Wait until an element is not present\n    ElementMissing => ['css-selector', 'css'],\n    JavaScript     => 'return $(\".someclass\").length',   # JavaScript code that checks condition\n    WindowCount    => 2,                                 # Wait until this many windows are open\n    Time           => 20,                                # optional, wait time in seconds (default 20)\n    SkipDie        => 1,                                 # Instead of a dying process do return the result of the wait for\n);" : [
-                  "6.4",
-                  "6.5"
-               ],
                "my $Success = $SeleniumObject->WaitFor(\n    AlertPresent   => 1,                                 # Wait until an alert, confirm or prompt dialog is present\n    Callback       => sub { ... }                        # Wait until function returns true\n    ElementExists  => 'xpath-selector'                   # Wait until an element is present\n    ElementExists  => ['css-selector', 'css'],\n    ElementMissing => 'xpath-selector',                  # Wait until an element is not present\n    ElementMissing => ['css-selector', 'css'],\n    JavaScript     => 'return $(\".someclass\").length',   # JavaScript code that checks condition\n    WindowCount    => 2,                                 # Wait until this many windows are open\n    Time           => 20,                                # optional, wait time in seconds (default 20)\n);" : [
                   "6.0"
+               ],
+               "my $Success = $SeleniumObject->WaitFor(\n    AlertPresent   => 1,                                 # Wait until an alert, confirm or prompt dialog is present\n    Callback       => sub { ... }                        # Wait until function returns true\n    ElementExists  => 'xpath-selector',                  # Wait until an element is present\n    ElementExists  => ['css-selector', 'css'],\n    ElementMissing => 'xpath-selector',                  # Wait until an element is not present\n    ElementMissing => ['css-selector', 'css'],\n    JavaScript     => 'return $(\".someclass\").length',   # JavaScript code that checks condition\n    WindowCount    => 2,                                 # Wait until this many windows are open\n    Time           => 20,                                # optional, wait time in seconds (default 20)\n    SkipDie        => 1,                                 # Instead of a dying process do return the result of the wait for\n);" : [
+                  "6.4",
+                  "6.5"
                ]
             },
             "WaitForjQueryEventBound" : {
@@ -8059,7 +8059,7 @@
                ]
             },
             "ConfigurationSearch" : {
-               "my @Result = $SysConfigObject->ConfigurationSearch(\n    Search           => 'The search string', # (optional)\n    Category         => 'OTRS'               # (optional)\n    IncludeInvisible => 1,                   # (optional) Default 0.\n);" : [
+               "my @Result = $SysConfigObject->ConfigurationSearch(\n    Search           => 'The search string', # (optional)\n    Category         => 'OTRS',              # (optional)\n    IncludeInvisible => 1,                   # (optional) Default 0.\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -8127,7 +8127,7 @@
                ]
             },
             "SettingEffectiveValueCheck" : {
-               "my %Result = $SysConfigObject->SettingEffectiveValueCheck(\n    EffectiveValue => 'open',     # (optional)\n    XMLContentParsed => {         # (required)\n        Value => [\n            {\n                'Item' => [\n                    {\n                        'Content' => \"Scalar value\",\n                    },\n                ],\n            },\n        ],\n    },\n    StoreCache            => 1,               # (optional) Store result in the Cache. Default 0.\n    SettingUID            => $SettingUID    # (required if StoreCache)\n    NoValidation          => 1,               # (optional) no value type validation.\n    CurrentSystemTime     => 1507894796935,   # (optional) Use provided 1507894796935, otherwise calculate\n    ExpireTime            => 1507894896935,   # (optional) Use provided ExpireTime for cache, otherwise calculate\n    UserID                => $UserID,               # (required) UserID\n);" : [
+               "my %Result = $SysConfigObject->SettingEffectiveValueCheck(\n    EffectiveValue => 'open',     # (optional)\n    XMLContentParsed => {         # (required)\n        Value => [\n            {\n                'Item' => [\n                    {\n                        'Content' => \"Scalar value\",\n                    },\n                ],\n            },\n        ],\n    },\n    StoreCache            => 1,               # (optional) Store result in the Cache. Default 0.\n    SettingUID            => $SettingUID,   # (required if StoreCache)\n    NoValidation          => 1,               # (optional) no value type validation.\n    CurrentSystemTime     => 1507894796935,   # (optional) Use provided 1507894796935, otherwise calculate\n    ExpireTime            => 1507894896935,   # (optional) Use provided ExpireTime for cache, otherwise calculate\n    UserID                => $UserID,               # (required) UserID\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -8366,7 +8366,7 @@
          ],
          "Functions" : {
             "SystemMaintenanceAdd" : {
-               "my $ID = $SystemMaintenanceObject->SystemMaintenanceAdd(\n    StartDate        => 1485346000               # mandatory\n    StopDate         => 1485349600               # mandatory\n    Comment          => 'Comment',               # mandatory\n    LoginMessage     => 'A login message.',      # optional\n    ShowLoginMessage => 1,                       # optional\n    NotifyMessage    => 'Notification message.', # optional\n    ValidID          => $ValidID,                       # mandatory\n    UserID           => $UserID,                     # mandatory\n);" : [
+               "my $ID = $SystemMaintenanceObject->SystemMaintenanceAdd(\n    StartDate        => 1485346000,              # mandatory\n    StopDate         => 1485349600,              # mandatory\n    Comment          => 'Comment',               # mandatory\n    LoginMessage     => 'A login message.',      # optional\n    ShowLoginMessage => 1,                       # optional\n    NotifyMessage    => 'Notification message.', # optional\n    ValidID          => $ValidID,                       # mandatory\n    UserID           => $UserID,                     # mandatory\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -8433,7 +8433,7 @@
          ],
          "Functions" : {
             "Attributes" : {
-               "my %Attributes = $TemplateGeneratorObject->Attributes(\n    TicketID   => $TicketID,\n    ArticleID  => $ArticleID,\n    ResponseID => $ResponseID\n    UserID     => $UserID,\n    Action     => 'Forward', # Possible values are Reply and Forward, Reply is default.\n);" : [
+               "my %Attributes = $TemplateGeneratorObject->Attributes(\n    TicketID   => $TicketID,\n    ArticleID  => $ArticleID,\n    ResponseID => $ResponseID,\n    UserID     => $UserID,\n    Action     => 'Forward', # Possible values are Reply and Forward, Reply is default.\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -8492,7 +8492,7 @@
                ]
             },
             "Template" : {
-               "my $Template = $TemplateGeneratorObject->Template(\n    TemplateID => $TemplateID\n    TicketID   => $TicketID,                  # Optional\n    Data       => $ArticleHashRef,      # Optional\n    UserID     => $UserID,\n);" : [
+               "my $Template = $TemplateGeneratorObject->Template(\n    TemplateID => $TemplateID,\n    TicketID   => $TicketID,                  # Optional\n    Data       => $ArticleHashRef,      # Optional\n    UserID     => $UserID,\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -8657,7 +8657,7 @@
                   "6.4",
                   "6.5"
                ],
-               "my $Success = $TicketObject->TicketAcl(\n    Data => {                            # Values to restrict\n        1 => AgentTicketZoom,\n        # ...\n    },\n\n    Action        => 'AgentTicketZoom',           # Optional\n    TicketID      => $TicketID,                         # Optional\n    DynamicField  => {                            # Optional\n        DynamicField_NameX => 123,\n        DynamicField_NameZ => 'some value',\n    },\n\n    QueueID          => $QueueID,                      # Optional\n    Queue            => 'some queue name',        # Optional\n    NewQueueID       => $NewQueueID,                      # Optional, QueueID or NewQueueID can be\n                                                  #   used and they both refers to QueueID\n\n    ServiceID        => $ServiceID,                      # Optional\n    Service          => 'some service name',      # Optional\n\n    TypeID           => $TypeID,\n    Type             => 'some ticket type name',  # Optional\n\n    PriorityID       => $PriorityID,                      # Optional\n    NewPriorityID    => $NewPriorityID,                      # Optional, PriorityID or NewPriorityID can be\n                                                  #   used and they both refers to PriorityID\n    Priority         => 'some priority name',     # Optional\n\n    SLAID            => $SLAID,\n    SLA              => 'some SLA name',          # Optional\n\n    StateID          => $StateID,                      # Optional\n    NextStateID      => $NextStateID,                      # Optional, StateID or NextStateID can be\n                                                  #   used and they both refers to StateID\n    State            => 'some ticket state name', # Optional\n\n    OwnerID          => $OwnerID,                      # Optional\n    NewOwnerID       => $NewOwnerID,                      # Optional, OwnerID or NewOwnerID can be\n                                                  #   used and they both refers to OwnerID\n    Owner            => 'some user login'         # Optional\n\n    ResponsibleID    => $ResponsibleID,                      # Optional\n    NewResponsibleID => $NewResponsibleID,                      # Optional, ResponsibleID or NewResposibleID\n                                                  #   can be used and they both refers to\n                                                  #     ResponsibleID\n    Responsible      => 'some user login'         # Optional\n\n    ReturnType     => 'Action',                   # To match Possible, PossibleAdd or\n                                                  #   PossibleNot key in ACL\n    ReturnSubType  => '-',                        # To match Possible, PossibleAdd or\n                                                  #   PossibleNot sub-key in ACL\n\n    UserID         => $UserID,                        # UserID => 1 is not affected by this function\n    CustomerUserID => $CustomerUserID,           # UserID or CustomerUserID are mandatory\n\n    # Process Management Parameters\n    ProcessEntityID        => $ProcessEntityID,                # Optional\n    ActivityEntityID       => $ActivityEntityID,                # Optional\n    ActivityDialogEntityID => $ActivityDialogEntityID,                # Optional\n);" : [
+               "my $Success = $TicketObject->TicketAcl(\n    Data => {                            # Values to restrict\n        1 => AgentTicketZoom,\n        # ...\n    },\n\n    Action        => 'AgentTicketZoom',           # Optional\n    TicketID      => $TicketID,                         # Optional\n    DynamicField  => {                            # Optional\n        DynamicField_NameX => 123,\n        DynamicField_NameZ => 'some value',\n    },\n\n    QueueID          => $QueueID,                      # Optional\n    Queue            => 'some queue name',        # Optional\n    NewQueueID       => $NewQueueID,                      # Optional, QueueID or NewQueueID can be\n                                                  #   used and they both refers to QueueID\n\n    ServiceID        => $ServiceID,                      # Optional\n    Service          => 'some service name',      # Optional\n\n    TypeID           => $TypeID,\n    Type             => 'some ticket type name',  # Optional\n\n    PriorityID       => $PriorityID,                      # Optional\n    NewPriorityID    => $NewPriorityID,                      # Optional, PriorityID or NewPriorityID can be\n                                                  #   used and they both refers to PriorityID\n    Priority         => 'some priority name',     # Optional\n\n    SLAID            => $SLAID,\n    SLA              => 'some SLA name',          # Optional\n\n    StateID          => $StateID,                      # Optional\n    NextStateID      => $NextStateID,                      # Optional, StateID or NextStateID can be\n                                                  #   used and they both refers to StateID\n    State            => 'some ticket state name', # Optional\n\n    OwnerID          => $OwnerID,                      # Optional\n    NewOwnerID       => $NewOwnerID,                      # Optional, OwnerID or NewOwnerID can be\n                                                  #   used and they both refers to OwnerID\n    Owner            => 'some user login',        # Optional\n\n    ResponsibleID    => $ResponsibleID,                      # Optional\n    NewResponsibleID => $NewResponsibleID,                      # Optional, ResponsibleID or NewResposibleID\n                                                  #   can be used and they both refers to\n                                                  #     ResponsibleID\n    Responsible      => 'some user login',        # Optional\n\n    ReturnType     => 'Action',                   # To match Possible, PossibleAdd or\n                                                  #   PossibleNot key in ACL\n    ReturnSubType  => '-',                        # To match Possible, PossibleAdd or\n                                                  #   PossibleNot sub-key in ACL\n\n    UserID         => $UserID,                        # UserID => 1 is not affected by this function\n    CustomerUserID => $CustomerUserID,           # UserID or CustomerUserID are mandatory\n\n    # Process Management Parameters\n    ProcessEntityID        => $ProcessEntityID,                # Optional\n    ActivityEntityID       => $ActivityEntityID,                # Optional\n    ActivityDialogEntityID => $ActivityDialogEntityID,                # Optional\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -9737,6 +9737,9 @@
                ]
             },
             "Run" : {
+               "$Self->Run(\n    Tests                  => ['JSON', 'User'],             # optional, execute certain test files\n    Directory              => ['Selenium', 'User'],         # optional, execute tests in subdirectory\n    Package                => ['ITSMCore'],                 # optional, execute tests of installed package\n    ExcludeDirectory       => ['Selenium/Agent/Admin'],     # optional, all test files in the specified directory will be Excluded.\n    SOPMFile               => ['ITSMCore.sopm'],            # optional, execute all test files which are defined in these sopm.\n    Verbose                => 1,                            # optional (default 0), only show result details for all tests, not just failing\n    SubmitURL              => $URL,                         # optional, send results to unit test result server\n    SubmitAuth             => $SubmitAuth,                  # optional authentication string for unit test result server\n    SubmitResultAsExitCode => 1,                            # optional, specify if exit code should not indicate if tests were ok/not ok, but if submission was successful instead\n    JobID                  => $JobID,                           # optional job ID for unit test submission to server\n    Scenario               => 'Znuny 6 git',                # optional scenario identifier for unit test submission to server\n    PostTestScripts        => ['...'],                      # Script(s) to execute after a test has been run.\n                                                            #  You can specify %File%, %TestOk% and %TestNotOk% as dynamic arguments.\n    PreSubmitScripts       => ['...'],                      # Script(s) to execute after all tests have been executed\n                                                            #  and the results are about to be sent to the server.\n    NumberOfTestRuns       => 10,                           # optional (default 1), number of successive runs for every single unit test\n);" : [
+                  "6.5"
+               ],
                "$Self->Run(\n    Tests                  => ['JSON', 'User'],             # optional, execute certain test files only\n    Directory              => ['Selenium', 'User'],         # optional, execute tests in subdirectory\n    ExcludeDirectory       => ['Selenium/Agent/Admin'],     # optional, all test files in the specified directory will be Excluded.\n    SOPMFile               => ['ITSMCore.sopm'],            # optional, execute all test files which are defined in these sopm.\n    Verbose                => 1,                            # optional (default 0), only show result details for all tests, not just failing\n    SubmitURL              => $URL,                         # optional, send results to unit test result server\n    SubmitAuth             => $SubmitAuth,                  # optional authentication string for unit test result server\n    SubmitResultAsExitCode => 1,                            # optional, specify if exit code should not indicate if tests were ok/not ok, but if submission was successful instead\n    JobID                  => $JobID,                           # optional job ID for unit test submission to server\n    Scenario               => 'Znuny 6 git',                # optional scenario identifier for unit test submission to server\n    PostTestScripts        => ['...'],                      # Script(s) to execute after a test has been run.\n                                                            #  You can specify %File%, %TestOk% and %TestNotOk% as dynamic arguments.\n    PreSubmitScripts       => ['...'],                      # Script(s) to execute after all tests have been executed\n                                                            #  and the results are about to be sent to the server.\n    NumberOfTestRuns       => 10,                           # optional (default 1), number of successive runs for every single unit test\n);" : [
                   "6.0",
                   "6.4",
@@ -10207,7 +10210,7 @@
                ]
             },
             "Write" : {
-               "my $Success = $VirtualFSObject->Write(\n    Content  => \\$Content,\n    Filename => '/Object/SomeFileName.txt',\n    Mode     => 'binary'            # (binary|utf8)\n\n    # optional, preferences data\n    Preferences => {\n        ContentType        => 'text/plain',\n        ContentID          => $ContentID,\n        ContentAlternative => 1,\n        SomeCustomParams   => 'with our own value',\n    },\n);" : [
+               "my $Success = $VirtualFSObject->Write(\n    Content  => \\$Content,\n    Filename => '/Object/SomeFileName.txt',\n    Mode     => 'binary',            # (binary|utf8)\n\n    # optional, preferences data\n    Preferences => {\n        ContentType        => 'text/plain',\n        ContentID          => $ContentID,\n        ContentAlternative => 1,\n        SomeCustomParams   => 'with our own value',\n    },\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"
@@ -10366,7 +10369,7 @@
                ]
             },
             "WebserviceHistoryUpdate" : {
-               "my $Success = $WebserviceHistoryObject->WebserviceHistoryUpdate(\n    ID           => 123,\n    WebserviceID => $WebserviceID\n    Config       => $ConfigHashRef,\n    UserID       => $UserID,\n);" : [
+               "my $Success = $WebserviceHistoryObject->WebserviceHistoryUpdate(\n    ID           => 123,\n    WebserviceID => $WebserviceID,\n    Config       => $ConfigHashRef,\n    UserID       => $UserID,\n);" : [
                   "6.0",
                   "6.4",
                   "6.5"

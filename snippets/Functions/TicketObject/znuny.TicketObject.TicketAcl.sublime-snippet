@@ -50,13 +50,13 @@ ${2:my \$Success = \$TicketObject->TicketAcl(
     OwnerID          => \$OwnerID,                      # Optional
     NewOwnerID       => \$NewOwnerID,                      # Optional, OwnerID or NewOwnerID can be
                                                   #   used and they both refers to OwnerID
-    Owner            => 'some user login'         # Optional
+    Owner            => 'some user login',        # Optional
 
     ResponsibleID    => \$ResponsibleID,                      # Optional
     NewResponsibleID => \$NewResponsibleID,                      # Optional, ResponsibleID or NewResposibleID
                                                   #   can be used and they both refers to
                                                   #     ResponsibleID
-    Responsible      => 'some user login'         # Optional
+    Responsible      => 'some user login',        # Optional
 
     ReturnType     => 'Action',                   # To match Possible, PossibleAdd or
                                                   #   PossibleNot key in ACL
