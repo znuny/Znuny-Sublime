@@ -5,6 +5,6 @@ ${2:my \$SystemTimeZone = Kernel::System::DateTime->SystemTimeZoneGet();}
 
 ]]></content>
     <tabTrigger>znuny.DateTimeObject.SystemTimeZoneGet</tabTrigger>
-    <description>6.0, 6.4, 6.5</description>
+    <description>6.0, 6.4, 6.5, 7.0</description>
     <scope>source.perl</scope>
 </snippet>

@@ -12,6 +12,6 @@ ${1:\$HelperObject->ActivateDynamicFields(
 
 ]]></content>
     <tabTrigger>znuny.HelperObject.ActivateDynamicFields</tabTrigger>
-    <description>6.4, 6.5</description>
+    <description>6.4, 6.5, 7.0</description>
     <scope>source.perl</scope>
 </snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$ConfigItemObject->CurInciStateRecalc(
+    ConfigItemID               => \$ConfigItemID,
+    NewConfigItemIncidentState => \$NewConfigItemIncidentState,  # optional, incident states of already checked CIs
+    ScannedConfigItemIDs       => \$ScannedConfigItemIDs,        # optional, IDs of already checked CIs
+);}
+
+]]></content>
+    <tabTrigger>znuny.ConfigItemObject.CurInciStateRecalc</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$ActivityObject->InitConfig();}
+
+]]></content>
+    <tabTrigger>znuny.ActivityObject.InitConfig</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

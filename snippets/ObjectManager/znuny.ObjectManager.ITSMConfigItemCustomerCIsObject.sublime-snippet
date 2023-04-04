@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$ITSMConfigItemCustomerCIsObject = \$Kernel::OM->Get('Kernel::System::ITSMConfigItemCustomerCIs');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.ITSMConfigItemCustomerCIsObject</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

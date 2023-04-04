@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$GeneralCatalogObject = \$Kernel::OM->Get('Kernel::System::GeneralCatalog');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.GeneralCatalogObject</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

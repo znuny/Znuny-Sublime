@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$ActivityObject->DataUpdate(
+    ID     => 1234,
+    UserID => \$UserID,
+    # all other attributes are optional
+);}
+
+]]></content>
+    <tabTrigger>znuny.ActivityObject.DataUpdate</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

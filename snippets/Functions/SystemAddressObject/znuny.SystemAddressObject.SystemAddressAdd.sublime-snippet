@@ -11,6 +11,6 @@ ${1:my \$ID = \$SystemAddressObject->SystemAddressAdd(
 
 ]]></content>
     <tabTrigger>znuny.SystemAddressObject.SystemAddressAdd</tabTrigger>
-    <description>6.0, 6.4, 6.5</description>
+    <description>6.0, 6.4, 6.5, 7.0</description>
     <scope>source.perl</scope>
 </snippet>

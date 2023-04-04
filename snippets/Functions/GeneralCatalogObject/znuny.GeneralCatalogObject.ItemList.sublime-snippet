@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$HashRef = \$GeneralCatalogObject->ItemList(
+    Class         => 'ITSM::Service::Type',
+    Valid         => 0,                      # (optional) default 1
+    Preferences   => \{                       # (optional) default \{\}
+        Permission => 2,                     # or whatever preferences can be used
+    \},
+);}
+
+]]></content>
+    <tabTrigger>znuny.GeneralCatalogObject.ItemList</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

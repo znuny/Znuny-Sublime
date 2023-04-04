@@ -16,6 +16,6 @@ ${2:my %NotificationEvent = \$TemplateGeneratorObject->NotificationEvent(
 
 ]]></content>
     <tabTrigger>znuny.TemplateGeneratorObject.NotificationEvent</tabTrigger>
-    <description>6.0, 6.4, 6.5</description>
+    <description>6.0, 6.4, 6.5, 7.0</description>
     <scope>source.perl</scope>
 </snippet>

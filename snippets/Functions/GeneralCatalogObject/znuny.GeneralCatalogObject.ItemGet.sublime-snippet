@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ItemDataRef = \$GeneralCatalogObject->ItemGet(
+    Class => 'ITSM::Service::Type',
+    Name  => 'Underpinning Contract',
+);}
+${2:my \$ItemDataRef = \$GeneralCatalogObject->ItemGet(
+    ItemID => \$ItemID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.GeneralCatalogObject.ItemGet</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

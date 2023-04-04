@@ -6,6 +6,6 @@ ${1:my \$PackageRequired = \$PackageObject->GetRequiredPackages(
 
 ]]></content>
     <tabTrigger>znuny.PackageObject.GetRequiredPackages</tabTrigger>
-    <description>6.4, 6.5</description>
+    <description>6.4, 6.5, 7.0</description>
     <scope>source.perl</scope>
 </snippet>

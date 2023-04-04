@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ConfigItemID = \$ConfigItemObject->ConfigItemAdd(
+    Number  => '111',  # (optional)
+    ClassID => \$ClassID,
+    UserID  => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.ConfigItemObject.ConfigItemAdd</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

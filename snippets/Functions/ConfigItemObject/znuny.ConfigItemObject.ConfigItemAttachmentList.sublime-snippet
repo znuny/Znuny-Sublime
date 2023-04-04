@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Attachments = \$ConfigItemObject->ConfigItemAttachmentList(
+    ConfigItemID => \$ConfigItemID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.ConfigItemObject.ConfigItemAttachmentList</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,42 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ConfigItemIDs = \$ConfigItemObject->ConfigItemSearch(
+    Number       => 'The ConfigItem Number',  # (optional)
+    ClassIDs     => [9, 8, 7, 6],             # (optional)
+    DeplStateIDs => [1, 2, 3, 4],             # (optional)
+    InciStateIDs => [1, 2, 3, 4],             # (optional)
+    CreateBy     => [1, 2, 3],                # (optional)
+    ChangeBy     => [3, 2, 1],                # (optional)
+
+    # config items with created time after ...
+    ConfigItemCreateTimeNewerDate => '2006-01-09 00:00:01',  # (optional)
+    # config items with created time before then ....
+    ConfigItemCreateTimeOlderDate => '2006-01-19 23:59:59',  # (optional)
+
+    # config items with changed time after ...
+    ConfigItemChangeTimeNewerDate => '2006-01-09 00:00:01',  # (optional)
+    # config items with changed time before then ....
+    ConfigItemChangeTimeOlderDate => '2006-01-19 23:59:59',  # (optional)
+
+    OrderBy => [ 'ConfigItemID', 'Number' ],                  # (optional)
+    # default: [ 'ConfigItemID' ]
+    # (ConfigItemID, Number, ClassID, DeplStateID, InciStateID,
+    # CreateTime, CreateBy, ChangeTime, ChangeBy)
+
+    # Additional information for OrderBy:
+    # The OrderByDirection can be specified for each OrderBy attribute.
+    # The pairing is made by the array indices.
+
+    OrderByDirection => [ 'Down', 'Up' ],                    # (optional)
+    # default: [ 'Down' ]
+    # (Down | Up)
+
+    Limit          => 122,  # (optional)
+    UsingWildcards => 0,    # (optional) default 1
+);}
+
+]]></content>
+    <tabTrigger>znuny.ConfigItemObject.ConfigItemSearch</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$FormDataRef = \$LayoutObject->ITSMConfigItemFormDataGet(
+    Key          => 'Item::1::Node::3',
+    Item         => \$ItemRef,
+    ConfigItemID => \$ConfigItemID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.ITSMConfigItemFormDataGet</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

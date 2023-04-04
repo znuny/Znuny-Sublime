@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$ConfigItemObject->ConfigItemAttachmentAdd(
+    ConfigItemID    => \$ConfigItemID,
+    Filename        => 'filename',
+    Content         => 'content',
+    ContentType     => 'text/plain',
+    UserID          => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.ConfigItemObject.ConfigItemAttachmentAdd</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Activities = \$ActivityObject->ListGet(
+    ID         => '...', # optional
+    Type       => '...', # optional
+    Title      => '...', # optional
+    Text       => '...', # optional
+    State      => '...', # optional
+    Link       => '...', # optional
+    CreateTime => '...', # optional
+    CreateBy   => '...', # optional
+    UserID     => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.ActivityObject.ListGet</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

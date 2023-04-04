@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Preferences = \$GeneralCatalogObject->GeneralCatalogPreferencesGet(
+    ItemID => \$ItemID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.GeneralCatalogObject.GeneralCatalogPreferencesGet</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

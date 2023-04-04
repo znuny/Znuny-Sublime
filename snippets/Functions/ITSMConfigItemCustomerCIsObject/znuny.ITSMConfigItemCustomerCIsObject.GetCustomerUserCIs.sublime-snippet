@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my @ConfigItemIDs = \$ITSMConfigItemCustomerCIsObject->GetCustomerUserCIs(
+    CustomerUserID => \$CustomerUserLogin,                       # the CustomerUserID is the UserLogin
+);}
+
+]]></content>
+    <tabTrigger>znuny.ITSMConfigItemCustomerCIsObject.GetCustomerUserCIs</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

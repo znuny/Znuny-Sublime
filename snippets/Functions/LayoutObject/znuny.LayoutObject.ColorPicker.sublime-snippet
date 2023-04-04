@@ -1,0 +1,36 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$HTML = \$LayoutObject->ColorPicker(
+    Type => 'InputField',           # Input         returns only a single input field
+                                    # InputField    returns label and field combination
+
+    Name  => 'Name',                # name of element
+    ID    => 'ID',                  # the HTML ID for this element, if not provided, the name will be used as ID as well
+    Class => 'class',               # (optional) a css class, include 'Modernize' to activate InputFields
+    Label => 'Color',               # (optional) the label if type 'InputField' is used
+
+    # ColorPicker configurations
+    # All configurations listed here can be used https://jscolor.com/docs/
+    # Keys can be written in CamelCase or in lowerCamelCase.
+
+    Value   => '#FF8A25',           # default selected color
+    Color   => '#FF8A25',           # default selected color
+
+    Width   => 141,                 # make the picker a little narrower
+    Palette => [
+        '#000000', '#7d7d7d',
+        '#870014', '#ec1c23',
+        '#fef100', '#22b14b',
+        '#00a1e7', '#3f47cc',
+        '#ffffff', '#c3c3c3',
+        '#b87957', '#feaec9',
+        '#eee3af', '#b5e61d',
+        '#99d9ea', '#7092be',
+    ],
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.ColorPicker</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

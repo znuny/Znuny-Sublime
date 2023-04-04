@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Output = \$LayoutObject->ITSMConfigItemListShow(
+    ConfigItemIDs => \$ConfigItemIDsRef,                  # total list of config item ids, that can be listed
+    Total         => scalar @\{ \$ConfigItemIDsRef \},      # total number of list items, config items in this case
+    View          => \$Self->\{View\},                      # optional, the default value is 'Small'
+    Filter        => 'All',
+    Filters       => \%NavBarFilter,
+    FilterLink    => \$LinkFilter,
+    TitleName     => 'Overview: Config Item: Computer',
+    TitleValue    => \$Self->\{Filter\},
+    Env           => \$Self,
+    LinkPage      => \$LinkPage,
+    LinkSort      => \$LinkSort,
+    Frontend      => 'Agent',                           # optional (Agent|Customer), default: Agent, indicates from which frontend this function was called
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.ITSMConfigItemListShow</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

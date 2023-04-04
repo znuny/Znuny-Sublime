@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Data = \$LayoutObject->XMLData2Hash(
+    XMLDefinition => \$Version->\{XMLDefinition\},
+    XMLData       => \$Version->\{XMLData\}->[1]->\{Version\}->[1],
+    Attributes    => ['CPU::1', 'HardDrive::2::Capacity::1', ...],
+    Data          => \%DataHashRef,                                 # optional
+    Prefix        => 'HardDisk::1',                                 # optional
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.XMLData2Hash</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

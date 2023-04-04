@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ID = \$ConfigItemObject->ConfigItemLookup(
+    ConfigItemNumber => 1000001,
+);}
+${2:my \$Number = \$ConfigItemObject->ConfigItemLookup(
+    ConfigItemID => \$ConfigItemID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.ConfigItemObject.ConfigItemLookup</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

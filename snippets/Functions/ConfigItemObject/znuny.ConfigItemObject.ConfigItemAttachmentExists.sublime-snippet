@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Exists = \$ConfigItemObject->ConfigItemAttachmentExists(
+    Filename => 'test.txt',
+    ConfigItemID => \$ConfigItemID,
+    UserID   => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.ConfigItemObject.ConfigItemAttachmentExists</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

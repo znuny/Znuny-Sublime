@@ -8,9 +8,18 @@ ${1:\$StateObject->StateUpdate(
     TypeID         => \$TypeID,
     UserID         => \$UserID,
 );}
+${2:\$StateObject->StateUpdate(
+    ID      => 123,
+    Name    => 'New State',
+    Comment => 'some comment',
+    ValidID => \$ValidID,
+    TypeID  => \$TypeID,
+    Color   => '#FF8A25',
+    UserID  => \$UserID,
+);}
 
 ]]></content>
     <tabTrigger>znuny.StateObject.StateUpdate</tabTrigger>
-    <description>6.0, 6.4, 6.5</description>
+    <description>6.0, 6.4, 6.5, 7.0</description>
     <scope>source.perl</scope>
 </snippet>

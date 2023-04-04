@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ListRef = \$ITSMCIPAllocateObject->AllocateList(
+    UserID => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.ITSMCIPAllocateObject.AllocateList</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

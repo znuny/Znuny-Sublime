@@ -4,6 +4,6 @@ ${1:my \$IsITSMIncidentProblemManagementInstalled = \$UtilObject->IsITSMIncident
 
 ]]></content>
     <tabTrigger>znuny.UtilObject.IsITSMIncidentProblemManagementInstalled</tabTrigger>
-    <description>6.5</description>
+    <description>6.5, 7.0</description>
     <scope>source.perl</scope>
 </snippet>

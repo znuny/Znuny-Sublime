@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$ITSMCIPAllocateObject = \$Kernel::OM->Get('Kernel::System::ITSMCIPAllocate');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.ITSMCIPAllocateObject</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

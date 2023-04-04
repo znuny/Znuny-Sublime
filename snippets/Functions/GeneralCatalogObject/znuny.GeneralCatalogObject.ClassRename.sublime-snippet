@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$True = \$GeneralCatalogObject->ClassRename(
+    ClassOld => 'ITSM::ConfigItem::State',
+    ClassNew => 'ITSM::ConfigItem::DeploymentState',
+);}
+
+]]></content>
+    <tabTrigger>znuny.GeneralCatalogObject.ClassRename</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

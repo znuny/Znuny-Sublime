@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ItemID = \$GeneralCatalogObject->ItemAdd(
+    Class         => 'ITSM::Service::Type',
+    Name          => 'Item Name',
+    ValidID       => \$ValidID,
+    Comment       => 'Comment',              # (optional)
+    UserID        => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.GeneralCatalogObject.ItemAdd</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

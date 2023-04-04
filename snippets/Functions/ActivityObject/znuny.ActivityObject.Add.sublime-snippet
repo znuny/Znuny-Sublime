@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$CreatedID = \$ActivityObject->Add(
+    ID               => '...',
+    Type             => '...',
+    Title            => '...',
+    Text             => '...',
+    State            => '...',
+    Link             => '...',
+    CreateTime       => '...',
+    CreateBy         => '...',
+    UserID           => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.ActivityObject.Add</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

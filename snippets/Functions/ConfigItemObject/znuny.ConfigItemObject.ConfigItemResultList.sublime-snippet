@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ConfigItemListRef = \$ConfigItemObject->ConfigItemResultList(
+    ClassID => \$ClassID,
+    Start   => 100,
+    Limit   => 50,
+);}
+
+]]></content>
+    <tabTrigger>znuny.ConfigItemObject.ConfigItemResultList</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Attachment = \$ConfigItemObject->ConfigItemAttachmentGet(
+    ConfigItemID => \$ConfigItemID,
+    Filename     => 'test.txt',
+);}
+
+]]></content>
+    <tabTrigger>znuny.ConfigItemObject.ConfigItemAttachmentGet</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:\$GeneralCatalogObject->GeneralCatalogPreferencesSet(
+    ItemID => \$ItemID,
+    Key    => 'UserComment',
+    Value  => 'some comment',
+);}
+
+]]></content>
+    <tabTrigger>znuny.GeneralCatalogObject.GeneralCatalogPreferencesSet</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

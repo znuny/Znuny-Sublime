@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$PriorityID = \$ITSMCIPAllocateObject->PriorityAllocationGet(
+    Criticality => '1 very low',
+    Impact      => '3 normal',
+);}
+
+]]></content>
+    <tabTrigger>znuny.ITSMCIPAllocateObject.PriorityAllocationGet</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

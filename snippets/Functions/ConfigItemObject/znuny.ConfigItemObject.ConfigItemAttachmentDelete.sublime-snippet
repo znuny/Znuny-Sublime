@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$ConfigItemObject->ConfigItemAttachmentDelete(
+    ConfigItemID => \$ConfigItemID,               # used in event handling, e.g. for logging the history
+    Filename     => 'Projectplan.pdf', # identifies the attachment (together with the ConfigItemID)
+    UserID       => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.ConfigItemObject.ConfigItemAttachmentDelete</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ArrayRef = \$GeneralCatalogObject->ClassList();}
+
+]]></content>
+    <tabTrigger>znuny.GeneralCatalogObject.ClassList</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ArrayRef = \$LayoutObject->ITSMConfigItemSearchFormDataGet(
+    Key => 'Item::1::Node::3',
+    Item => \$ItemRef,
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.ITSMConfigItemSearchFormDataGet</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

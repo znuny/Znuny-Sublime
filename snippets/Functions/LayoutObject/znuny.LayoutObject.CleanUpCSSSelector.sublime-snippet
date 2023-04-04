@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$CSSSelector = \$LayoutObject->CleanUpCSSSelector(
+    CSSSelector => 'pending-auto-close+',
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.CleanUpCSSSelector</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$String = \$LayoutObject->ITSMConfigItemOutputStringCreate(
+    Value => 11,       # (optional)
+    Item  => \$ItemRef,
+    Print => 1,        # (optional, default 0)
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.ITSMConfigItemOutputStringCreate</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

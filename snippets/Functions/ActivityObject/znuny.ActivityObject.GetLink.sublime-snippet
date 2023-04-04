@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$String = \$ActivityObject->GetLink(
+    TicketID => \$TicketID,
+
+    # OR:
+    ApointmentID => \$ApointmentID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.ActivityObject.GetLink</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

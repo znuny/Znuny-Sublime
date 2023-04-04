@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$CSS = \$LayoutObject->CreateDynamicCSS();}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.CreateDynamicCSS</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

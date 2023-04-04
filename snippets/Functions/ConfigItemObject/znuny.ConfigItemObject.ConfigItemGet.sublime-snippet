@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ConfigItem = \$ConfigItemObject->ConfigItemGet(
+    ConfigItemID => \$ConfigItemID,
+    Cache        => 0,    # (optional) default 1 (0|1)
+);}
+
+]]></content>
+    <tabTrigger>znuny.ConfigItemObject.ConfigItemGet</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

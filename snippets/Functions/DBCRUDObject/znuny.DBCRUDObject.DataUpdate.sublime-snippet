@@ -1,13 +1,13 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$Success = \$DBCRUDObject->DataUpdate(
-    ID => 1234,
+    ID     => 1234,
     UserID => \$UserID,
     # all other attributes are optional
 );}
 
 ]]></content>
     <tabTrigger>znuny.DBCRUDObject.DataUpdate</tabTrigger>
-    <description>6.4, 6.5</description>
+    <description>6.4, 6.5, 7.0</description>
     <scope>source.perl</scope>
 </snippet>

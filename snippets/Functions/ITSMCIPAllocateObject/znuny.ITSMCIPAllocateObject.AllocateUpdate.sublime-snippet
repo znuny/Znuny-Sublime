@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$True = \$ITSMCIPAllocateObject->AllocateUpdate(
+    AllocateData => \$DataRef,  # 2D hash reference
+    UserID       => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.ITSMCIPAllocateObject.AllocateUpdate</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

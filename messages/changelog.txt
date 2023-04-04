@@ -1,3 +1,40 @@
+Version 1.0.4
+✔ Added Snippets
+  - `znuny.ActivityObject.Add.code-snippets`
+  - `znuny.ActivityObject.DataAdd.code-snippets`
+  - `znuny.ActivityObject.DataDelete.code-snippets`
+  - `znuny.ActivityObject.DataGet.code-snippets`
+  - `znuny.ActivityObject.DataListGet.code-snippets`
+  - `znuny.ActivityObject.DataSearch.code-snippets`
+  - `znuny.ActivityObject.DataUpdate.code-snippets`
+  - `znuny.ActivityObject.Get.code-snippets`
+  - `znuny.ActivityObject.GetLink.code-snippets`
+  - `znuny.ActivityObject.InitConfig.code-snippets`
+  - `znuny.ActivityObject.ListGet.code-snippets`
+  - `znuny.LayoutObject.CleanUpCSSSelector.code-snippets`
+  - `znuny.LayoutObject.ColorPicker.code-snippets`
+  - `znuny.LayoutObject.ConvertToCSS.code-snippets`
+  - `znuny.LayoutObject.CreateDynamicCSS.code-snippets`
+  - `znuny.LayoutObject.LoaderCreateDynamicCSS.code-snippets`
+✔ Updated Snippets 6.0, 6.4, 6.5
+  - `znuny.ArticleObject.ArticleSearchIndexRebuildFlagSet`
+  - `znuny.ArticleObject.ArticleSearchIndexSQLJoin.code-snippets`
+  - `znuny.ArticleObject.ArticleSearchIndexSQLJoinNeeded.code-snippets`
+  - `znuny.ArticleObject.ArticleSearchIndexWhereCondition.code-snippets`
+  - `znuny.BackendObject.EditFieldRender`
+  - `znuny.BackendObject.EditFieldValueGet`
+  - `znuny.BackendObject.EditFieldValueGet`
+  - `znuny.CommunicationLogObject.ObjectLog`
+  - `znuny.CommunicationLogObject.ObjectLogStop`
+  - `znuny.CustomerUserObject.CustomerUserUpdate`
+  - `znuny.DBCRUDObject.DataUpdate.code-snippets`
+  - `znuny.HelperObject.ProvideTestDatabase.code-snippets`
+  - `znuny.PriorityObject.PriorityAdd`
+  - `znuny.PriorityObject.PriorityUpdate`
+  - `znuny.SeleniumObject.GetSeleniumHome`
+  - `znuny.StateObject.StateAdd`
+  - `znuny.StateObject.StateUpdate`
+
 Version 1.0.3
 ✔ Updated Snippets 6.0, 6.4, 6.5
 ✔ Fixed syntax typos

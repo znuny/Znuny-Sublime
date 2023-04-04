@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$True = \$GeneralCatalogObject->ItemUpdate(
+    ItemID        => \$ItemID,
+    Name          => 'Item Name',
+    ValidID       => \$ValidID,
+    Comment       => 'Comment',    # (optional)
+    UserID        => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.GeneralCatalogObject.ItemUpdate</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

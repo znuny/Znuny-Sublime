@@ -149,6 +149,6 @@ ${1:my \$ExcelFileContent = \$ExcelObject->Array2Excel(
 
 ]]></content>
     <tabTrigger>znuny.ExcelObject.Array2Excel</tabTrigger>
-    <description>6.4, 6.5</description>
+    <description>6.4, 6.5, 7.0</description>
     <scope>source.perl</scope>
 </snippet>

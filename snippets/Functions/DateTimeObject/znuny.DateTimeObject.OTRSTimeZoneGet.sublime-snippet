@@ -6,6 +6,6 @@ ${2:my \$OTRSTimeZone = \$DateTimeObject->OTRSTimeZoneGet();}
 
 ]]></content>
     <tabTrigger>znuny.DateTimeObject.OTRSTimeZoneGet</tabTrigger>
-    <description>6.0, 6.4, 6.5</description>
+    <description>6.0, 6.4, 6.5, 7.0</description>
     <scope>source.perl</scope>
 </snippet>

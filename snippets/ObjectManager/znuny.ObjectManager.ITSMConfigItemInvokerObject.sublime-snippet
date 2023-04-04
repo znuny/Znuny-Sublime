@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$ITSMConfigItemInvokerObject = \$Kernel::OM->Get('Kernel::System::ITSMConfigItemInvoker');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.ITSMConfigItemInvokerObject</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

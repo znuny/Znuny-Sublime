@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ConfigItemData = \$ITSMConfigItemInvokerObject->GetConfigItemData(
+    ConfigItemID => \$ConfigItemID,
+
+    # OR
+    VersionID => \$VersionID,
+
+    Event => 'DeploymentStateUpdate', # optional; Will include data of previous version for certain events.
+);}
+
+]]></content>
+    <tabTrigger>znuny.ITSMConfigItemInvokerObject.GetConfigItemData</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>

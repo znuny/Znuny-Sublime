@@ -22,10 +22,11 @@ use strict;
 use warnings;
 
 use File::Basename;
-use FindBin qw($RealBin);
-use lib dirname($RealBin);
-use lib dirname($RealBin) . '/Kernel/cpan-lib';
-use lib dirname($RealBin) . '/Custom';
+use FindBin qw($Bin $RealBin);
+
+use lib dirname($Bin);
+use lib dirname($Bin) . '/Kernel/cpan-lib';
+use lib dirname($Bin) . '/Custom';
 
 use Kernel::System::ObjectManager;
 use Kernel::System::VariableCheck qw(:all);
@@ -69,8 +70,8 @@ my @Directories  = (
     '/Kernel/System',
     '/Kernel/System/GenericInterface',
     '/Kernel/System/ProcessManagement',
-    '/Kernel/System/Scheduler',
     '/Kernel/System/UnitTest',
+#     '/Kernel/System/Scheduler',         # up to rel-4_0
 );
 
 # add these single files instead of whole directories
@@ -122,6 +123,7 @@ my %ObjectFilesMapping = (
 my %CallObjectMapping = (
     UnitTestObject => 'Self',
     Helper         => 'HelperObject',
+    Selenium       => 'SeleniumObject',
 );
 
 # skip this files
@@ -223,6 +225,7 @@ sub Run {
         $Message ="<red>The version $Version is blacklisted.</red>\n\n";
         Print($Message);
         push @{$Summary{Error}}, $Message;
+
         exit 1;
     }
 

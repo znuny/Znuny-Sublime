@@ -12,6 +12,6 @@ ${1:my @Result = \$CalendarObject->CalendarList(
 
 ]]></content>
     <tabTrigger>znuny.CalendarObject.CalendarList</tabTrigger>
-    <description>6.0, 6.4, 6.5</description>
+    <description>6.0, 6.4, 6.5, 7.0</description>
     <scope>source.perl</scope>
 </snippet>

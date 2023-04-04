@@ -1,14 +1,6 @@
 <snippet>
     <content><![CDATA[
 ${1:\$HelperObject->ProvideTestDatabase(
-    DatabaseXMLString => \$XML,      # (optional) OTRS database XML schema to execute
-                                    # or
-    DatabaseXMLFiles => [           # (optional) List of XML files to load and execute
-        '/opt/otrs/scripts/database/otrs-schema.xml',
-        '/opt/otrs/scripts/database/otrs-initial_insert.xml',
-    ],
-);}
-${2:\$HelperObject->ProvideTestDatabase(
     DatabaseXMLString => \$XML,      # (optional) database XML schema to execute
                                     # or
     DatabaseXMLFiles => [           # (optional) List of XML files to load and execute
@@ -16,9 +8,17 @@ ${2:\$HelperObject->ProvideTestDatabase(
         '/opt/otrs/scripts/database/initial_insert.xml',
     ],
 );}
+${2:\$HelperObject->ProvideTestDatabase(
+    DatabaseXMLString => \$XML,      # (optional) database XML schema to execute
+                                    # or
+    DatabaseXMLFiles => [           # (optional) List of XML files to load and execute
+        '/opt/znuny/scripts/database/schema.xml',
+        '/opt/znuny/scripts/database/initial_insert.xml',
+    ],
+);}
 
 ]]></content>
     <tabTrigger>znuny.HelperObject.ProvideTestDatabase</tabTrigger>
-    <description>6.0, 6.4, 6.5</description>
+    <description>6.0, 6.4, 6.5, 7.0</description>
     <scope>source.perl</scope>
 </snippet>
