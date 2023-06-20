@@ -8,7 +8,7 @@ ${1:my \$TransitionCheck = \$TransitionObject->TransitionCheck(
         Queue         => 'Raw',
         DynamicField1 => 'Value',
         Subject       => 'Testsubject',
-        ...
+        # ...
     \},
 );}
 

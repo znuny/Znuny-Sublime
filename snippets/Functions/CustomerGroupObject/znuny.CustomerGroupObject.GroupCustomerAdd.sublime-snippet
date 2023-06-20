@@ -20,7 +20,7 @@ ${1:my \$Success = \$CustomerGroupObject->GroupCustomerAdd(
             priority  => 0,
             rw        => 0,
         \},
-        ...
+        # ...
     \},
     UserID => \$UserID,
 );}

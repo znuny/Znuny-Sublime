@@ -11,7 +11,7 @@ Your Znuny Team! 🚀
 
 -------------------
 
-🌟 Version 1.0.4 🌟 - Feature List
+🌟 Version 1.0.5 🌟 - Feature List
 
 ✔ Add folder from workspace to project.
 ✔ Automatic fetching of framework files from github.

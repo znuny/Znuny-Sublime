@@ -9,7 +9,7 @@ ${1:my \$TaskID = \$SchedulerDBObject->TaskAdd(
                                                         #   provided) that can exists at the same
                                                         #   time, value of 0 means unlimited
     Data => \{                                           # data payload
-        ...
+        # ...
     \},
 );}
 

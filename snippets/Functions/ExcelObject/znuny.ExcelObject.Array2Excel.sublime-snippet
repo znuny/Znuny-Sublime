@@ -141,7 +141,7 @@ ${1:my \$ExcelFileContent = \$ExcelObject->Array2Excel(
                         \}
                     \},
                 ],
-                ...
+                # ...
             ],
         \},
     ],

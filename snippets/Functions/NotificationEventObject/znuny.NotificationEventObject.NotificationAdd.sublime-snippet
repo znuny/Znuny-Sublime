@@ -4,7 +4,7 @@ ${1:my \$ID = \$NotificationEventObject->NotificationAdd(
     Name => 'Agent::OwnerUpdate',
     Data => \{
         Events => [ 'TicketQueueUpdate' ],
-        ...
+        # ...
         Queue => [ 'SomeQueue' ],
     \},
     Message => \{

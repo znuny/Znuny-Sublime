@@ -7,7 +7,7 @@ ${1:my @List = \$SysConfigObject->SettingsUpdatedList(
             ChangeTime            => '2017-01-13 11:23:07',
             IsLockedByAnotherUser => 0,
         \},
-        ...
+        # ...
     ],
     UserID => \$UserID,                                                # (required) Current user id
 );}

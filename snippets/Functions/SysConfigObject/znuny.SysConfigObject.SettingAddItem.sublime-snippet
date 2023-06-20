@@ -8,7 +8,7 @@ ${1:my %Result = \$SysConfigObject->SettingAddItem(
         'DefaultValue' => [ 'Item 1', 'Item 2' ],
         'Description' => 'Simple array item(Min 1, Max 3).',
         'Name' => 'TestArray',
-        ...
+        # ...
     \},
     Key               => 'HashKey',  # (optional) hash key
     IDSuffix          => '_Array3,   # (optional) suffix that will be added to all input/select fields
@@ -20,7 +20,7 @@ ${1:my %Result = \$SysConfigObject->SettingAddItem(
                     \{
                     'Content' => 'Item 1',
                     \},
-                    ...
+                   # ...
                 ],
             ],
         \},

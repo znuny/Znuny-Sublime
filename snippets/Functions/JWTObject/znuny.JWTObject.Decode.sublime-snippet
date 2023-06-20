@@ -13,7 +13,7 @@ ${1:my \$JWT = \$JWTObject->Decode(
     CryptJWTParameters => \{
 
         # see https://metacpan.org/pod/Crypt::JWT#decode_jwt
-        '...' => '...',
+        # '...' => '...',
 
         # ...
     \},

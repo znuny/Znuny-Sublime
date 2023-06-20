@@ -2,7 +2,7 @@
     <content><![CDATA[
 ${1:my \$SQLExtenion = \$ArticleObject->ArticleSearchIndexWhereCondition(
     SearchParams => \{
-        ...
+        # ...
         ConditionInline         => 1,
         ContentSearchPrefix     => '*',
         ContentSearchSuffix     => '*',
@@ -12,7 +12,7 @@ ${1:my \$SQLExtenion = \$ArticleObject->ArticleSearchIndexWhereCondition(
         MIMEBase_Subject        => '%VIRUS 32%',
         MIMEBase_Body           => '%VIRUS 32%',
         MIMEBase_AttachmentName => '%anyfile.txt%',
-        ...
+        # ...
     \},
 );}
 

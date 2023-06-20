@@ -4,7 +4,7 @@ ${1:\$GenericAgentObject->JobAdd(
     Name => 'JobName',
     Data => \{
         Queue => 'SomeQueue',
-        ...
+        # ...
         Valid => 1,
     \},
     UserID => \$UserID,

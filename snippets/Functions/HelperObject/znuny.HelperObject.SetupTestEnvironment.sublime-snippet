@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$Result = \$HelperObject->SetupTestEnvironment(
-    ... # Parameters get passed to the FillTestEnvironment and ConfigureViews function
+    # ... # Parameters get passed to the FillTestEnvironment and ConfigureViews function
 );}
 
 ]]></content>

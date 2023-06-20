@@ -10,7 +10,7 @@ ${1:my \$Success = \$SysConfigObject->SettingsSet(
             IsValid                => 1,                # (optional)
             UserModificationActive => 1,                # (optional)
         \},
-        ...
+        # ...
     ],
 );}
 

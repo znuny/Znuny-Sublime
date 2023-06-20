@@ -564,7 +564,7 @@
                ]
             },
             "ArticleSearchIndexSQLJoin" : {
-               "my $SQLExtenion = $ArticleObject->ArticleSearchIndexSQLJoin(\n    SearchParams => {\n        ...\n        ConditionInline         => 1,\n        ContentSearchPrefix     => '*',\n        ContentSearchSuffix     => '*',\n        MIMEBase_From           => '%spam@example.com%',\n        MIMEBase_To             => '%service@example.com%',\n        MIMEBase_Cc             => '%client@example.com%',\n        MIMEBase_Subject        => '%VIRUS 32%',\n        MIMEBase_Body           => '%VIRUS 32%',\n        MIMEBase_AttachmentName => '%anyfile.txt%',\n        ...\n    },\n);" : [
+               "my $SQLExtenion = $ArticleObject->ArticleSearchIndexSQLJoin(\n    SearchParams => {\n        # ...\n        ConditionInline         => 1,\n        ContentSearchPrefix     => '*',\n        ContentSearchSuffix     => '*',\n        MIMEBase_From           => '%spam@example.com%',\n        MIMEBase_To             => '%service@example.com%',\n        MIMEBase_Cc             => '%client@example.com%',\n        MIMEBase_Subject        => '%VIRUS 32%',\n        MIMEBase_Body           => '%VIRUS 32%',\n        MIMEBase_AttachmentName => '%anyfile.txt%',\n        # ...\n    },\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -572,7 +572,7 @@
                ]
             },
             "ArticleSearchIndexSQLJoinNeeded" : {
-               "my $Needed = $ArticleObject->ArticleSearchIndexSQLJoinNeeded(\n    SearchParams => {\n        ...\n        ConditionInline         => 1,\n        ContentSearchPrefix     => '*',\n        ContentSearchSuffix     => '*',\n        MIMEBase_From           => '%spam@example.com%',\n        MIMEBase_To             => '%service@example.com%',\n        MIMEBase_Cc             => '%client@example.com%',\n        MIMEBase_Subject        => '%VIRUS 32%',\n        MIMEBase_Body           => '%VIRUS 32%',\n        MIMEBase_AttachmentName => '%anyfile.txt%',\n        ...\n    },\n);" : [
+               "my $Needed = $ArticleObject->ArticleSearchIndexSQLJoinNeeded(\n    SearchParams => {\n        # ...\n        ConditionInline         => 1,\n        ContentSearchPrefix     => '*',\n        ContentSearchSuffix     => '*',\n        MIMEBase_From           => '%spam@example.com%',\n        MIMEBase_To             => '%service@example.com%',\n        MIMEBase_Cc             => '%client@example.com%',\n        MIMEBase_Subject        => '%VIRUS 32%',\n        MIMEBase_Body           => '%VIRUS 32%',\n        MIMEBase_AttachmentName => '%anyfile.txt%',\n        # ...\n    },\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -588,7 +588,7 @@
                ]
             },
             "ArticleSearchIndexWhereCondition" : {
-               "my $SQLExtenion = $ArticleObject->ArticleSearchIndexWhereCondition(\n    SearchParams => {\n        ...\n        ConditionInline         => 1,\n        ContentSearchPrefix     => '*',\n        ContentSearchSuffix     => '*',\n        MIMEBase_From           => '%spam@example.com%',\n        MIMEBase_To             => '%service@example.com%',\n        MIMEBase_Cc             => '%client@example.com%',\n        MIMEBase_Subject        => '%VIRUS 32%',\n        MIMEBase_Body           => '%VIRUS 32%',\n        MIMEBase_AttachmentName => '%anyfile.txt%',\n        ...\n    },\n);" : [
+               "my $SQLExtenion = $ArticleObject->ArticleSearchIndexWhereCondition(\n    SearchParams => {\n        # ...\n        ConditionInline         => 1,\n        ContentSearchPrefix     => '*',\n        ContentSearchSuffix     => '*',\n        MIMEBase_From           => '%spam@example.com%',\n        MIMEBase_To             => '%service@example.com%',\n        MIMEBase_Cc             => '%client@example.com%',\n        MIMEBase_Subject        => '%VIRUS 32%',\n        MIMEBase_Body           => '%VIRUS 32%',\n        MIMEBase_AttachmentName => '%anyfile.txt%',\n        # ...\n    },\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -875,7 +875,7 @@
                ]
             },
             "EditFieldRender" : {
-               "my $FieldHTML = $BackendObject->EditFieldRender(\n    DynamicFieldConfig   => $DynamicFieldConfig,      # complete config of the DynamicField\n    ParamObject          => $ParamObject,\n    LayoutObject         => $LayoutObject,\n    PossibleValuesFilter => {                         # Optional. Some backends may support this.\n        'Key1' => 'Value1',                           #     This may be needed to realize ACL support for ticket masks,\n        'Key2' => 'Value2',                           #     where the possible values can be limited with and ACL.\n    },\n    Template             => {                         # Optional data structure of GenericAgent etc.\n        Owner => 2,                                   # Value is accessable via field name (DynamicField_ + field name)\n        Title => 'Generic Agent Job was here',         # and could be a scalar, Hash- or ArrayRef\n        ...\n        DynamicField_ExampleField1 => 'Value 1'\n    },\n    Value                => 'Any value',              # Optional\n    Mandatory            => 1,                        # 0 or 1,\n    Class                => 'AnyCSSClass OrOneMore',  # Optional\n    ServerError          => 1,                        # 0 or 1,\n    ErrorMessage         => $ErrorMessage,            # Optional or a default will be used in error case\n    UseDefaultValue      => 1,                        # 0 or 1, 1 default\n    OverridePossibleNone => 1,                        # Optional, 0 or 1. If defined orverrides the Possible None\n                                                      #     setting of all dynamic fields (where applies) with the\n                                                      #     defined value\n    ConfirmationNeeded   => 0,                        # Optional, 0 or 1, default 0. To display a confirmation element\n                                                      #     on fields that apply (like checkbox)\n    AJAXUpdate           => 1,                        # Optional, 0 ir 1. To create JS code for field change to update\n                                                      #     the form using ACLs triggered by the field.\n    UpdatableFields      => [                         # Optional, to use if AJAXUpdate is 1. List of fields to display a\n        'NetxStateID',                                #     spinning wheel when reloading via AJAXUpdate.\n        'PriorityID',\n    ],\n    MaxLength            => 100                       # Optional, defines the maximum number of characters on fields\n                                                      #      where applies (like TextArea)\n);" : [
+               "my $FieldHTML = $BackendObject->EditFieldRender(\n    DynamicFieldConfig   => $DynamicFieldConfig,      # complete config of the DynamicField\n    ParamObject          => $ParamObject,\n    LayoutObject         => $LayoutObject,\n    PossibleValuesFilter => {                         # Optional. Some backends may support this.\n        'Key1' => 'Value1',                           #     This may be needed to realize ACL support for ticket masks,\n        'Key2' => 'Value2',                           #     where the possible values can be limited with and ACL.\n    },\n    Template             => {                         # Optional data structure of GenericAgent etc.\n        Owner => 2,                                   # Value is accessable via field name (DynamicField_ + field name)\n        Title => 'Generic Agent Job was here',         # and could be a scalar, Hash- or ArrayRef\n        # ...\n        DynamicField_ExampleField1 => 'Value 1'\n    },\n    Value                => 'Any value',              # Optional\n    Mandatory            => 1,                        # 0 or 1,\n    Class                => 'AnyCSSClass OrOneMore',  # Optional\n    ServerError          => 1,                        # 0 or 1,\n    ErrorMessage         => $ErrorMessage,            # Optional or a default will be used in error case\n    UseDefaultValue      => 1,                        # 0 or 1, 1 default\n    OverridePossibleNone => 1,                        # Optional, 0 or 1. If defined orverrides the Possible None\n                                                      #     setting of all dynamic fields (where applies) with the\n                                                      #     defined value\n    ConfirmationNeeded   => 0,                        # Optional, 0 or 1, default 0. To display a confirmation element\n                                                      #     on fields that apply (like checkbox)\n    AJAXUpdate           => 1,                        # Optional, 0 ir 1. To create JS code for field change to update\n                                                      #     the form using ACLs triggered by the field.\n    UpdatableFields      => [                         # Optional, to use if AJAXUpdate is 1. List of fields to display a\n        'NetxStateID',                                #     spinning wheel when reloading via AJAXUpdate.\n        'PriorityID',\n    ],\n    MaxLength            => 100                       # Optional, defines the maximum number of characters on fields\n                                                      #      where applies (like TextArea)\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -1287,7 +1287,7 @@
                ]
             },
             "CalendarImport" : {
-               "my $Success = $CalendarObject->CalendarImport(\n    Data => {\n        CalendarData => {\n            CalendarID   => $CalendarID,\n            GroupID      => $GroupID,\n            CalendarName => 'Meetings',\n            Color        => '#FF7700',\n            ValidID      => $ValidID,\n        },\n        AppointmentData => {\n            {\n                AppointmentID       => $AppointmentID,\n                ParentID            => $ParentID,\n                CalendarID          => $CalendarID,\n                UniqueID            => $UniqueID,\n                ...\n            },\n            ...\n        },\n    },\n    OverwriteExistingEntities => 0,     # (optional) Overwrite existing calendar and appointments, default: 0\n                                        # Calendar with same name will be overwritten\n                                        # Appointments with same UniqueID in existing calendar will be overwritten\n    UserID => $UserID,\n);" : [
+               "my $Success = $CalendarObject->CalendarImport(\n    Data => {\n        CalendarData => {\n            CalendarID   => $CalendarID,\n            GroupID      => $GroupID,\n            CalendarName => 'Meetings',\n            Color        => '#FF7700',\n            ValidID      => $ValidID,\n        },\n        AppointmentData => {\n            {\n                AppointmentID       => $AppointmentID,\n                ParentID            => $ParentID,\n                CalendarID          => $CalendarID,\n                UniqueID            => $UniqueID,\n                # ...\n            },\n            # ...\n        },\n    },\n    OverwriteExistingEntities => 0,     # (optional) Overwrite existing calendar and appointments, default: 0\n                                        # Calendar with same name will be overwritten\n                                        # Appointments with same UniqueID in existing calendar will be overwritten\n    UserID => $UserID,\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -1351,7 +1351,7 @@
                ]
             },
             "TicketAppointmentProcessRule" : {
-               "my $Success = $CalendarObject->TicketAppointmentProcessRule(\n    CalendarID => $CalendarID,\n    Config => {\n        DynamicField_TestDate => {\n            Module => 'Kernel::System::Calendar::Ticket::DynamicField',\n        },\n        ...\n    },\n    Rule => {\n        StartDate => 'DynamicField_TestDate',\n        EndDate   => 'Plus_5',\n        QueueID   => [ $QueueID ],\n        RuleID    => $RuleID,\n        SearchParams => {\n            Title => 'Welcome*',\n        },\n    },\n    TicketID => $TicketID,\n);" : [
+               "my $Success = $CalendarObject->TicketAppointmentProcessRule(\n    CalendarID => $CalendarID,\n    Config => {\n        DynamicField_TestDate => {\n            Module => 'Kernel::System::Calendar::Ticket::DynamicField',\n        },\n        # ...\n    },\n    Rule => {\n        StartDate => 'DynamicField_TestDate',\n        EndDate   => 'Plus_5',\n        QueueID   => [ $QueueID ],\n        RuleID    => $RuleID,\n        SearchParams => {\n            Title => 'Welcome*',\n        },\n    },\n    TicketID => $TicketID,\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -1651,88 +1651,6 @@
          "ObjectManager" : "my $CommunicationLogObject = $Kernel::OM->Create(\n        'Kernel::System::CommunicationLog',\n        ObjectParams => {\n            CommunicationID => 123,\n        }\n    );",
          "Package" : "Kernel::System::CommunicationLog"
       },
-      "ConfigItemObject" : {
-         "FrameworkVersion" : [
-            "7.0"
-         ],
-         "Functions" : {
-            "ConfigItemAdd" : {
-               "my $ConfigItemID = $ConfigItemObject->ConfigItemAdd(\n    Number  => '111',  # (optional)\n    ClassID => $ClassID,\n    UserID  => $UserID,\n);" : [
-                  "7.0"
-               ]
-            },
-            "ConfigItemAttachmentAdd" : {
-               "my $Success = $ConfigItemObject->ConfigItemAttachmentAdd(\n    ConfigItemID    => $ConfigItemID,\n    Filename        => 'filename',\n    Content         => 'content',\n    ContentType     => 'text/plain',\n    UserID          => $UserID,\n);" : [
-                  "7.0"
-               ]
-            },
-            "ConfigItemAttachmentDelete" : {
-               "my $Success = $ConfigItemObject->ConfigItemAttachmentDelete(\n    ConfigItemID => $ConfigItemID,               # used in event handling, e.g. for logging the history\n    Filename     => 'Projectplan.pdf', # identifies the attachment (together with the ConfigItemID)\n    UserID       => $UserID,\n);" : [
-                  "7.0"
-               ]
-            },
-            "ConfigItemAttachmentExists" : {
-               "my $Exists = $ConfigItemObject->ConfigItemAttachmentExists(\n    Filename => 'test.txt',\n    ConfigItemID => $ConfigItemID,\n    UserID   => $UserID,\n);" : [
-                  "7.0"
-               ]
-            },
-            "ConfigItemAttachmentGet" : {
-               "my $Attachment = $ConfigItemObject->ConfigItemAttachmentGet(\n    ConfigItemID => $ConfigItemID,\n    Filename     => 'test.txt',\n);" : [
-                  "7.0"
-               ]
-            },
-            "ConfigItemAttachmentList" : {
-               "my @Attachments = $ConfigItemObject->ConfigItemAttachmentList(\n    ConfigItemID => $ConfigItemID,\n);" : [
-                  "7.0"
-               ]
-            },
-            "ConfigItemCount" : {
-               "my $Count = $ConfigItemObject->ConfigItemCount(\n    ClassID => $ClassID,\n);" : [
-                  "7.0"
-               ]
-            },
-            "ConfigItemDelete" : {
-               "my $True = $ConfigItemObject->ConfigItemDelete(\n    ConfigItemID => $ConfigItemID,\n    UserID       => $UserID,\n);" : [
-                  "7.0"
-               ]
-            },
-            "ConfigItemGet" : {
-               "my $ConfigItem = $ConfigItemObject->ConfigItemGet(\n    ConfigItemID => $ConfigItemID,\n    Cache        => 0,    # (optional) default 1 (0|1)\n);" : [
-                  "7.0"
-               ]
-            },
-            "ConfigItemLookup" : {
-               "my $ID = $ConfigItemObject->ConfigItemLookup(\n    ConfigItemNumber => 1000001,\n);" : [
-                  "7.0"
-               ],
-               "my $Number = $ConfigItemObject->ConfigItemLookup(\n    ConfigItemID => $ConfigItemID,\n);" : [
-                  "7.0"
-               ]
-            },
-            "ConfigItemResultList" : {
-               "my $ConfigItemListRef = $ConfigItemObject->ConfigItemResultList(\n    ClassID => $ClassID,\n    Start   => 100,\n    Limit   => 50,\n);" : [
-                  "7.0"
-               ]
-            },
-            "ConfigItemSearch" : {
-               "my $ConfigItemIDs = $ConfigItemObject->ConfigItemSearch(\n    Number       => 'The ConfigItem Number',  # (optional)\n    ClassIDs     => [9, 8, 7, 6],             # (optional)\n    DeplStateIDs => [1, 2, 3, 4],             # (optional)\n    InciStateIDs => [1, 2, 3, 4],             # (optional)\n    CreateBy     => [1, 2, 3],                # (optional)\n    ChangeBy     => [3, 2, 1],                # (optional)\n\n    # config items with created time after ...\n    ConfigItemCreateTimeNewerDate => '2006-01-09 00:00:01',  # (optional)\n    # config items with created time before then ....\n    ConfigItemCreateTimeOlderDate => '2006-01-19 23:59:59',  # (optional)\n\n    # config items with changed time after ...\n    ConfigItemChangeTimeNewerDate => '2006-01-09 00:00:01',  # (optional)\n    # config items with changed time before then ....\n    ConfigItemChangeTimeOlderDate => '2006-01-19 23:59:59',  # (optional)\n\n    OrderBy => [ 'ConfigItemID', 'Number' ],                  # (optional)\n    # default: [ 'ConfigItemID' ]\n    # (ConfigItemID, Number, ClassID, DeplStateID, InciStateID,\n    # CreateTime, CreateBy, ChangeTime, ChangeBy)\n\n    # Additional information for OrderBy:\n    # The OrderByDirection can be specified for each OrderBy attribute.\n    # The pairing is made by the array indices.\n\n    OrderByDirection => [ 'Down', 'Up' ],                    # (optional)\n    # default: [ 'Down' ]\n    # (Down | Up)\n\n    Limit          => 122,  # (optional)\n    UsingWildcards => 0,    # (optional) default 1\n);" : [
-                  "7.0"
-               ]
-            },
-            "ConfigItemSearchExtended" : {
-               "my $ConfigItemIDs = $ConfigItemObject->ConfigItemSearchExtended(\n    Number       => 'The ConfigItem Number',  # (optional)\n    Name         => 'The Name',               # (optional)\n    ClassIDs     => [9, 8, 7, 6],             # (optional)\n    DeplStateIDs => [1, 2, 3, 4],             # (optional)\n    InciStateIDs => [1, 2, 3, 4],             # (optional)\n\n    # config items with created time after ...\n    ConfigItemCreateTimeNewerDate => '2006-01-09 00:00:01',  # (optional)\n    # config items with created time before then ....\n    ConfigItemCreateTimeOlderDate => '2006-01-19 23:59:59',  # (optional)\n\n    # config items with changed time after ...\n    ConfigItemChangeTimeNewerDate => '2006-01-09 00:00:01',  # (optional)\n    # config items with changed time before then ....\n    ConfigItemChangeTimeOlderDate => '2006-01-19 23:59:59',  # (optional)\n\n    What => [                                                # (optional)\n        # each array element is a and condition\n        {\n            # or condition in hash\n            \"[%]{'ElementA'}[%]{'ElementB'}[%]{'Content'}\" => '%contentA%',\n            \"[%]{'ElementA'}[%]{'ElementC'}[%]{'Content'}\" => '%contentA%',\n        },\n        {\n            \"[%]{'ElementA'}[%]{'ElementB'}[%]{'Content'}\" => '%contentB%',\n            \"[%]{'ElementA'}[%]{'ElementC'}[%]{'Content'}\" => '%contentB%',\n        },\n        {\n            # use array reference if different content with same key was searched\n            \"[%]{'ElementA'}[%]{'ElementB'}[%]{'Content'}\" => ['%contentC%', '%contentD%', '%contentE%'],\n            \"[%]{'ElementA'}[%]{'ElementC'}[%]{'Content'}\" => ['%contentC%', '%contentD%', '%contentE%'],\n        },\n    ],\n\n    PreviousVersionSearch => 1,  # (optional) default 0 (0|1)\n\n    OrderBy => [ 'ConfigItemID', 'Number' ],                  # (optional)\n    # default: [ 'ConfigItemID' ]\n    # (ConfigItemID, Number, Name, ClassID, DeplStateID, InciStateID,\n    # CreateTime, CreateBy, ChangeTime, ChangeBy)\n\n    # Additional information for OrderBy:\n    # The OrderByDirection can be specified for each OrderBy attribute.\n    # The pairing is made by the array indices.\n\n    OrderByDirection => [ 'Down', 'Up' ],                    # (optional)\n    # default: [ 'Down' ]\n    # (Down | Up)\n\n    Limit          => 122,  # (optional)\n    UsingWildcards => 0,    # (optional) default 1\n);" : [
-                  "7.0"
-               ]
-            },
-            "CurInciStateRecalc" : {
-               "my $Success = $ConfigItemObject->CurInciStateRecalc(\n    ConfigItemID               => $ConfigItemID,\n    NewConfigItemIncidentState => $NewConfigItemIncidentState,  # optional, incident states of already checked CIs\n    ScannedConfigItemIDs       => $ScannedConfigItemIDs,        # optional, IDs of already checked CIs\n);" : [
-                  "7.0"
-               ]
-            }
-         },
-         "ObjectManager" : "my $ConfigItemObject = $Kernel::OM->Get('Kernel::System::ITSMConfigItem');",
-         "Package" : "Kernel::System::ITSMConfigItem"
-      },
       "ConfigObject" : {
          "FrameworkVersion" : [
             "6.0",
@@ -1970,7 +1888,7 @@
                ]
             },
             "GroupCustomerAdd" : {
-               "my $Success = $CustomerGroupObject->GroupCustomerAdd(\n    GID        => $GID,\n    CustomerID => $CustomerID,\n    Permission => {\n        'Ticket::CustomerID::Same' => {\n            ro            => 1,\n            move_into     => 1,\n            create        => 1,\n            owner         => 1,\n            priority      => 0,\n            rw            => 0,\n        },\n        'Ticket::CustomerID::Other' => {\n            ro        => 1,\n            move_into => 1,\n            create    => 1,\n            owner     => 1,\n            priority  => 0,\n            rw        => 0,\n        },\n        ...\n    },\n    UserID => $UserID,\n);" : [
+               "my $Success = $CustomerGroupObject->GroupCustomerAdd(\n    GID        => $GID,\n    CustomerID => $CustomerID,\n    Permission => {\n        'Ticket::CustomerID::Same' => {\n            ro            => 1,\n            move_into     => 1,\n            create        => 1,\n            owner         => 1,\n            priority      => 0,\n            rw            => 0,\n        },\n        'Ticket::CustomerID::Other' => {\n            ro        => 1,\n            move_into => 1,\n            create    => 1,\n            owner     => 1,\n            priority  => 0,\n            rw        => 0,\n        },\n        # ...\n    },\n    UserID => $UserID,\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -2327,7 +2245,7 @@
                ]
             },
             "DataAdd" : {
-               "my $Success = $DBCRUDObject->DataAdd(\n    ID          => '...',\n    '...',\n    CreateTime  => '...', # optional\n    ChangeTime  => '...', # optional\n);" : [
+               "my $Success = $DBCRUDObject->DataAdd(\n    ID          => '...',\n    # ...\n    CreateTime  => '...', # optional\n    ChangeTime  => '...', # optional\n);" : [
                   "6.4",
                   "6.5",
                   "7.0"
@@ -3325,7 +3243,7 @@
                ]
             },
             "ValueSet" : {
-               "my $Success = $DynamicFieldValueObject->ValueSet(\n    FieldID  => $FieldID,                 # ID of the dynamic field\n    ObjectID => $ObjectID,                # ID of the current object that the field\n                                          #   must be linked to, e. g. TicketID\n    Value    => [\n        {\n            ValueText          => 'some text',            # optional, one of these fields must be provided\n            ValueDateTime      => '1977-12-12 12:00:00',  # optional\n            ValueInt           => 123,                    # optional\n        },\n        ...\n    ],\n    UserID   => $UserID,\n);" : [
+               "my $Success = $DynamicFieldValueObject->ValueSet(\n    FieldID  => $FieldID,                 # ID of the dynamic field\n    ObjectID => $ObjectID,                # ID of the current object that the field\n                                          #   must be linked to, e. g. TicketID\n    Value    => [\n        {\n            ValueText          => 'some text',            # optional, one of these fields must be provided\n            ValueDateTime      => '1977-12-12 12:00:00',  # optional\n            ValueInt           => 123,                    # optional\n        },\n        # ...\n    ],\n    UserID   => $UserID,\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -3603,7 +3521,7 @@
          ],
          "Functions" : {
             "Array2Excel" : {
-               "my $ExcelFileContent = $ExcelObject->Array2Excel(\n    Data => [\n        {\n            Name        => 'Overview',\n            FreezePanes => [\n                {\n                    Row    => 2,\n                    Column => 0,\n                },\n            ],\n            TableData   => [\n                [\n                    {\n                        Format => {\n                            right    => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Format => {\n                            left     => 1,\n                            right    => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Format => {\n                            left     => 1,\n                            right    => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Value  => 'Response Time',\n                        Merge  => 1,\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                            valign   => 'vcentre',\n                            align    => 'center',\n                        }\n                    },\n                    {\n                        Merge => 2,\n                    },\n                    {\n                        Merge => 3,\n                    },\n                    {\n                        Value  => 'Solution Time',\n                        Merge  => 1,\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                            valign   => 'vcentre',\n                            align    => 'center',\n                        }\n                    },\n                    {\n                        Merge => 2,\n                    },\n                    {\n                        Merge => 3,\n                    },\n                ],\n                [\n                    {\n                        Value  => 'Service',\n                        Format => {\n                            right    => 1,\n                            bottom   => 1,\n                            bg_color => 'silver',\n                            valign   => 'vcentre',\n                            align    => 'center',\n                        }\n                    },\n                    {\n                        Value  => 'SLA',\n                        Format => {\n                            left     => 1,\n                            right    => 1,\n                            bottom   => 1,\n                            bg_color => 'silver',\n                            valign   => 'vcentre',\n                            align    => 'center',\n                        }\n                    },\n                    {\n                        Value  => '#Tickets',\n                        Format => {\n                            left     => 1,\n                            right    => 1,\n                            bottom   => 1,\n                            bg_color => 'silver',\n                            valign   => 'vcentre',\n                            align    => 'center',\n                        }\n                    },\n                    {\n                        Value  => '#IN',\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Value  => '%IN',\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Value  => '#OUT',\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Value  => '#IN',\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Value  => '%IN',\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Value  => '#OUT',\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                ],\n                ...\n            ],\n        },\n    ],\n);" : [
+               "my $ExcelFileContent = $ExcelObject->Array2Excel(\n    Data => [\n        {\n            Name        => 'Overview',\n            FreezePanes => [\n                {\n                    Row    => 2,\n                    Column => 0,\n                },\n            ],\n            TableData   => [\n                [\n                    {\n                        Format => {\n                            right    => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Format => {\n                            left     => 1,\n                            right    => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Format => {\n                            left     => 1,\n                            right    => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Value  => 'Response Time',\n                        Merge  => 1,\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                            valign   => 'vcentre',\n                            align    => 'center',\n                        }\n                    },\n                    {\n                        Merge => 2,\n                    },\n                    {\n                        Merge => 3,\n                    },\n                    {\n                        Value  => 'Solution Time',\n                        Merge  => 1,\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                            valign   => 'vcentre',\n                            align    => 'center',\n                        }\n                    },\n                    {\n                        Merge => 2,\n                    },\n                    {\n                        Merge => 3,\n                    },\n                ],\n                [\n                    {\n                        Value  => 'Service',\n                        Format => {\n                            right    => 1,\n                            bottom   => 1,\n                            bg_color => 'silver',\n                            valign   => 'vcentre',\n                            align    => 'center',\n                        }\n                    },\n                    {\n                        Value  => 'SLA',\n                        Format => {\n                            left     => 1,\n                            right    => 1,\n                            bottom   => 1,\n                            bg_color => 'silver',\n                            valign   => 'vcentre',\n                            align    => 'center',\n                        }\n                    },\n                    {\n                        Value  => '#Tickets',\n                        Format => {\n                            left     => 1,\n                            right    => 1,\n                            bottom   => 1,\n                            bg_color => 'silver',\n                            valign   => 'vcentre',\n                            align    => 'center',\n                        }\n                    },\n                    {\n                        Value  => '#IN',\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Value  => '%IN',\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Value  => '#OUT',\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Value  => '#IN',\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Value  => '%IN',\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Value  => '#OUT',\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                ],\n                # ...\n            ],\n        },\n    ],\n);" : [
                   "6.4",
                   "6.5",
                   "7.0"
@@ -3690,7 +3608,7 @@
          ],
          "Functions" : {
             "FormDraftAdd" : {
-               "my $Success = $FormDraftObject->FormDraftAdd(\n    FormData => {\n        InformUserID => [ $InformUserID, 124, ],\n        Subject      => 'Request for information',\n        ...\n    },\n    FileData => [                                           # optional\n        {\n            'Content'     => 'Dear customer\\n\\nthank you!',\n            'ContentType' => 'text/plain',\n            'ContentID'   => undef,                         # optional\n            'Filename'    => 'thankyou.txt',\n            'Filesize'    => 25,\n            'FileID'      => 1,\n            'Disposition' => 'attachment',\n        },\n        ...\n    ],\n    ObjectType => 'Ticket',\n    ObjectID   => $ObjectID,\n    Action     => 'AgentTicketCompose',\n    Title      => 'my draft',                               # optional\n    UserID     => $UserID,\n);" : [
+               "my $Success = $FormDraftObject->FormDraftAdd(\n    FormData => {\n        InformUserID => [ $InformUserID, 124, ],\n        Subject      => 'Request for information',\n        # ...\n    },\n    FileData => [                                           # optional\n        {\n            'Content'     => 'Dear customer\\n\\nthank you!',\n            'ContentType' => 'text/plain',\n            'ContentID'   => undef,                         # optional\n            'Filename'    => 'thankyou.txt',\n            'Filesize'    => 25,\n            'FileID'      => 1,\n            'Disposition' => 'attachment',\n        },\n        # ...\n    ],\n    ObjectType => 'Ticket',\n    ObjectID   => $ObjectID,\n    Action     => 'AgentTicketCompose',\n    Title      => 'my draft',                               # optional\n    UserID     => $UserID,\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -3722,7 +3640,7 @@
                ]
             },
             "FormDraftUpdate" : {
-               "my $Success = $FormDraftObject->FormDraftUpdate(\n    FormData => {\n        InformUserID => [ $InformUserID, 124, ],\n        Subject      => 'Request for information',\n        ...\n    },\n    FileData => [                                           # optional\n        {\n            'Content'     => 'Dear customer\\n\\nthank you!',\n            'ContentType' => 'text/plain',\n            'ContentID'   => undef,                         # optional\n            'Filename'    => 'thankyou.txt',\n            'Filesize'    => 25,\n            'FileID'      => 1,\n            'Disposition' => 'attachment',\n        },\n        ...\n    ],\n    ObjectType  => 'Ticket',\n    ObjectID    => $ObjectID,\n    Action      => 'AgentTicketCompose',\n    Title       => 'my draft',\n    FormDraftID => $FormDraftID,\n    UserID      => $UserID,\n);" : [
+               "my $Success = $FormDraftObject->FormDraftUpdate(\n    FormData => {\n        InformUserID => [ $InformUserID, 124, ],\n        Subject      => 'Request for information',\n        # ...\n    },\n    FileData => [                                           # optional\n        {\n            'Content'     => 'Dear customer\\n\\nthank you!',\n            'ContentType' => 'text/plain',\n            'ContentID'   => undef,                         # optional\n            'Filename'    => 'thankyou.txt',\n            'Filesize'    => 25,\n            'FileID'      => 1,\n            'Disposition' => 'attachment',\n        },\n        # ...\n    ],\n    ObjectType  => 'Ticket',\n    ObjectID    => $ObjectID,\n    Action      => 'AgentTicketCompose',\n    Title       => 'my draft',\n    FormDraftID => $FormDraftID,\n    UserID      => $UserID,\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -3733,58 +3651,6 @@
          "ObjectManager" : "my $FormDraftObject = $Kernel::OM->Get('Kernel::System::FormDraft');",
          "Package" : "Kernel::System::FormDraft"
       },
-      "GeneralCatalogObject" : {
-         "FrameworkVersion" : [
-            "7.0"
-         ],
-         "Functions" : {
-            "ClassList" : {
-               "my $ArrayRef = $GeneralCatalogObject->ClassList();" : [
-                  "7.0"
-               ]
-            },
-            "ClassRename" : {
-               "my $True = $GeneralCatalogObject->ClassRename(\n    ClassOld => 'ITSM::ConfigItem::State',\n    ClassNew => 'ITSM::ConfigItem::DeploymentState',\n);" : [
-                  "7.0"
-               ]
-            },
-            "GeneralCatalogPreferencesGet" : {
-               "my %Preferences = $GeneralCatalogObject->GeneralCatalogPreferencesGet(\n    ItemID => $ItemID,\n);" : [
-                  "7.0"
-               ]
-            },
-            "GeneralCatalogPreferencesSet" : {
-               "$GeneralCatalogObject->GeneralCatalogPreferencesSet(\n    ItemID => $ItemID,\n    Key    => 'UserComment',\n    Value  => 'some comment',\n);" : [
-                  "7.0"
-               ]
-            },
-            "ItemAdd" : {
-               "my $ItemID = $GeneralCatalogObject->ItemAdd(\n    Class         => 'ITSM::Service::Type',\n    Name          => 'Item Name',\n    ValidID       => $ValidID,\n    Comment       => 'Comment',              # (optional)\n    UserID        => $UserID,\n);" : [
-                  "7.0"
-               ]
-            },
-            "ItemGet" : {
-               "my $ItemDataRef = $GeneralCatalogObject->ItemGet(\n    Class => 'ITSM::Service::Type',\n    Name  => 'Underpinning Contract',\n);" : [
-                  "7.0"
-               ],
-               "my $ItemDataRef = $GeneralCatalogObject->ItemGet(\n    ItemID => $ItemID,\n);" : [
-                  "7.0"
-               ]
-            },
-            "ItemList" : {
-               "my $HashRef = $GeneralCatalogObject->ItemList(\n    Class         => 'ITSM::Service::Type',\n    Valid         => 0,                      # (optional) default 1\n    Preferences   => {                       # (optional) default {}\n        Permission => 2,                     # or whatever preferences can be used\n    },\n);" : [
-                  "7.0"
-               ]
-            },
-            "ItemUpdate" : {
-               "my $True = $GeneralCatalogObject->ItemUpdate(\n    ItemID        => $ItemID,\n    Name          => 'Item Name',\n    ValidID       => $ValidID,\n    Comment       => 'Comment',    # (optional)\n    UserID        => $UserID,\n);" : [
-                  "7.0"
-               ]
-            }
-         },
-         "ObjectManager" : "my $GeneralCatalogObject = $Kernel::OM->Get('Kernel::System::GeneralCatalog');",
-         "Package" : "Kernel::System::GeneralCatalog"
-      },
       "GenericAgentObject" : {
          "FrameworkVersion" : [
             "6.0",
@@ -3794,7 +3660,7 @@
          ],
          "Functions" : {
             "JobAdd" : {
-               "$GenericAgentObject->JobAdd(\n    Name => 'JobName',\n    Data => {\n        Queue => 'SomeQueue',\n        ...\n        Valid => 1,\n    },\n    UserID => $UserID,\n);" : [
+               "$GenericAgentObject->JobAdd(\n    Name => 'JobName',\n    Data => {\n        Queue => 'SomeQueue',\n        # ...\n        Valid => 1,\n    },\n    UserID => $UserID,\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -4366,7 +4232,7 @@
                   "6.5",
                   "7.0"
                ],
-               "# create everything with defaults, except Type\nmy $Result = $HelperObject->FillTestEnvironment(\n    Type => {\n        'Type 1::Sub Type' => 1,\n        ...\n    }\n);" : [
+               "# create everything with defaults, except Type\nmy $Result = $HelperObject->FillTestEnvironment(\n    Type => {\n        'Type 1::Sub Type' => 1,\n        # ...\n    }\n);" : [
                   "6.4",
                   "6.5",
                   "7.0"
@@ -4475,7 +4341,7 @@
                ]
             },
             "SetupTestEnvironment" : {
-               "my $Result = $HelperObject->SetupTestEnvironment(\n    ... # Parameters get passed to the FillTestEnvironment and ConfigureViews function\n);" : [
+               "my $Result = $HelperObject->SetupTestEnvironment(\n    # ... # Parameters get passed to the FillTestEnvironment and ConfigureViews function\n);" : [
                   "6.4",
                   "6.5",
                   "7.0"
@@ -4563,68 +4429,6 @@
          "ObjectManager" : "my $HelperObject = $Kernel::OM->Get('Kernel::System::UnitTest::Helper');",
          "Package" : "Kernel::System::UnitTest::Helper"
       },
-      "ITSMCIPAllocateObject" : {
-         "FrameworkVersion" : [
-            "7.0"
-         ],
-         "Functions" : {
-            "AllocateList" : {
-               "my $ListRef = $ITSMCIPAllocateObject->AllocateList(\n    UserID => $UserID,\n);" : [
-                  "7.0"
-               ]
-            },
-            "AllocateUpdate" : {
-               "my $True = $ITSMCIPAllocateObject->AllocateUpdate(\n    AllocateData => $DataRef,  # 2D hash reference\n    UserID       => $UserID,\n);" : [
-                  "7.0"
-               ]
-            },
-            "PriorityAllocationGet" : {
-               "my $PriorityID = $ITSMCIPAllocateObject->PriorityAllocationGet(\n    Criticality => '1 very low',\n    Impact      => '3 normal',\n);" : [
-                  "7.0"
-               ]
-            }
-         },
-         "ObjectManager" : "my $ITSMCIPAllocateObject = $Kernel::OM->Get('Kernel::System::ITSMCIPAllocate');",
-         "Package" : "Kernel::System::ITSMCIPAllocate"
-      },
-      "ITSMConfigItemCustomerCIsObject" : {
-         "FrameworkVersion" : [
-            "7.0"
-         ],
-         "Functions" : {
-            "GetCustomerCIs" : {
-               "my @ConfigItemIDs = $ITSMConfigItemCustomerCIsObject->GetCustomerCIs(\n    CustomerID => $CustomerID,\n);" : [
-                  "7.0"
-               ]
-            },
-            "GetCustomerUserCIs" : {
-               "my @ConfigItemIDs = $ITSMConfigItemCustomerCIsObject->GetCustomerUserCIs(\n    CustomerUserID => $CustomerUserLogin,                       # the CustomerUserID is the UserLogin\n);" : [
-                  "7.0"
-               ]
-            },
-            "GetPossibleCustomerCIs" : {
-               "my @ConfigItems = $ITSMConfigItemCustomerCIsObject->GetPossibleCustomerCIs(\n    CustomerUserID => $CustomerUserID,\n    TicketID       => $TicketID,      # optional\n);" : [
-                  "7.0"
-               ]
-            }
-         },
-         "ObjectManager" : "my $ITSMConfigItemCustomerCIsObject = $Kernel::OM->Get('Kernel::System::ITSMConfigItemCustomerCIs');",
-         "Package" : "Kernel::System::ITSMConfigItemCustomerCIs"
-      },
-      "ITSMConfigItemInvokerObject" : {
-         "FrameworkVersion" : [
-            "7.0"
-         ],
-         "Functions" : {
-            "GetConfigItemData" : {
-               "my $ConfigItemData = $ITSMConfigItemInvokerObject->GetConfigItemData(\n    ConfigItemID => $ConfigItemID,\n\n    # OR\n    VersionID => $VersionID,\n\n    Event => 'DeploymentStateUpdate', # optional; Will include data of previous version for certain events.\n);" : [
-                  "7.0"
-               ]
-            }
-         },
-         "ObjectManager" : "my $ITSMConfigItemInvokerObject = $Kernel::OM->Get('Kernel::System::ITSMConfigItemInvoker');",
-         "Package" : "Kernel::System::ITSMConfigItemInvoker"
-      },
       "JSONObject" : {
          "FrameworkVersion" : [
             "6.0",
@@ -4669,7 +4473,7 @@
          ],
          "Functions" : {
             "Decode" : {
-               "my $JWT = $JWTObject->Decode(\n    Token       => '...',\n\n    # Key or KeyFilePath\n    Key         => '...', # see https://metacpan.org/pod/Crypt::JWT#key1\n    KeyFilePath => '/home/user1/key.pem',\n\n    KeyPassword => '...', # optional, password for the key\n\n    # Optional: Use this hash to give additional parameters to Crypt::JWT.\n    CryptJWTParameters => {\n\n        # see https://metacpan.org/pod/Crypt::JWT#decode_jwt\n        '...' => '...',\n\n        # ...\n    },\n);" : [
+               "my $JWT = $JWTObject->Decode(\n    Token       => '...',\n\n    # Key or KeyFilePath\n    Key         => '...', # see https://metacpan.org/pod/Crypt::JWT#key1\n    KeyFilePath => '/home/user1/key.pem',\n\n    KeyPassword => '...', # optional, password for the key\n\n    # Optional: Use this hash to give additional parameters to Crypt::JWT.\n    CryptJWTParameters => {\n\n        # see https://metacpan.org/pod/Crypt::JWT#decode_jwt\n        # '...' => '...',\n\n        # ...\n    },\n);" : [
                   "6.4",
                   "6.5",
                   "7.0"
@@ -5113,36 +4917,6 @@
                   "7.0"
                ]
             },
-            "ITSMConfigItemFormDataGet" : {
-               "my $FormDataRef = $LayoutObject->ITSMConfigItemFormDataGet(\n    Key          => 'Item::1::Node::3',\n    Item         => $ItemRef,\n    ConfigItemID => $ConfigItemID,\n);" : [
-                  "7.0"
-               ]
-            },
-            "ITSMConfigItemInputCreate" : {
-               "my $String = $LayoutObject->ITSMConfigItemInputCreate(\n    Key => 'Item::1::Node::3',\n    Value => 11,                # (optional)\n    Item => $ItemRef,\n);" : [
-                  "7.0"
-               ]
-            },
-            "ITSMConfigItemListShow" : {
-               "my $Output = $LayoutObject->ITSMConfigItemListShow(\n    ConfigItemIDs => $ConfigItemIDsRef,                  # total list of config item ids, that can be listed\n    Total         => scalar @{ $ConfigItemIDsRef },      # total number of list items, config items in this case\n    View          => $Self->{View},                      # optional, the default value is 'Small'\n    Filter        => 'All',\n    Filters       => \\%NavBarFilter,\n    FilterLink    => $LinkFilter,\n    TitleName     => 'Overview: Config Item: Computer',\n    TitleValue    => $Self->{Filter},\n    Env           => $Self,\n    LinkPage      => $LinkPage,\n    LinkSort      => $LinkSort,\n    Frontend      => 'Agent',                           # optional (Agent|Customer), default: Agent, indicates from which frontend this function was called\n);" : [
-                  "7.0"
-               ]
-            },
-            "ITSMConfigItemOutputStringCreate" : {
-               "my $String = $LayoutObject->ITSMConfigItemOutputStringCreate(\n    Value => 11,       # (optional)\n    Item  => $ItemRef,\n    Print => 1,        # (optional, default 0)\n);" : [
-                  "7.0"
-               ]
-            },
-            "ITSMConfigItemSearchFormDataGet" : {
-               "my $ArrayRef = $LayoutObject->ITSMConfigItemSearchFormDataGet(\n    Key => 'Item::1::Node::3',\n    Item => $ItemRef,\n);" : [
-                  "7.0"
-               ]
-            },
-            "ITSMConfigItemSearchInputCreate" : {
-               "my $String = $LayoutObject->ITSMConfigItemSearchInputCreate(\n    Key => 'Item::1::Node::3',\n    Item => $ItemRef,\n);" : [
-                  "7.0"
-               ]
-            },
             "JSONEncode" : {
                "my $JSON = $LayoutObject->JSONEncode(\n    Data        => $Data,\n    NoQuotes    => 0|1, # optional: no double quotes at the start and the end of JSON string\n);" : [
                   "6.0",
@@ -5408,11 +5182,6 @@
                   "6.0",
                   "6.4",
                   "6.5",
-                  "7.0"
-               ]
-            },
-            "XMLData2Hash" : {
-               "my $Data = $LayoutObject->XMLData2Hash(\n    XMLDefinition => $Version->{XMLDefinition},\n    XMLData       => $Version->{XMLData}->[1]->{Version}->[1],\n    Attributes    => ['CPU::1', 'HardDrive::2::Capacity::1', ...],\n    Data          => \\%DataHashRef,                                 # optional\n    Prefix        => 'HardDisk::1',                                 # optional\n);" : [
                   "7.0"
                ]
             }
@@ -6221,7 +5990,7 @@
          ],
          "Functions" : {
             "NotificationAdd" : {
-               "my $ID = $NotificationEventObject->NotificationAdd(\n    Name => 'Agent::OwnerUpdate',\n    Data => {\n        Events => [ 'TicketQueueUpdate' ],\n        ...\n        Queue => [ 'SomeQueue' ],\n    },\n    Message => {\n        en => {\n            Subject     => 'Hello',\n            Body        => 'Hello World',\n            ContentType => 'text/plain',\n        },\n        de => {\n            Subject     => 'Hallo',\n            Body        => 'Hallo Welt',\n            ContentType => 'text/plain',\n        },\n    },\n    Comment => 'An optional comment', # (optional)\n    ValidID => $ValidID,\n    UserID  => $UserID,\n);" : [
+               "my $ID = $NotificationEventObject->NotificationAdd(\n    Name => 'Agent::OwnerUpdate',\n    Data => {\n        Events => [ 'TicketQueueUpdate' ],\n        # ...\n        Queue => [ 'SomeQueue' ],\n    },\n    Message => {\n        en => {\n            Subject     => 'Hello',\n            Body        => 'Hello World',\n            ContentType => 'text/plain',\n        },\n        de => {\n            Subject     => 'Hallo',\n            Body        => 'Hallo Welt',\n            ContentType => 'text/plain',\n        },\n    },\n    Comment => 'An optional comment', # (optional)\n    ValidID => $ValidID,\n    UserID  => $UserID,\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -6283,7 +6052,7 @@
                ]
             },
             "NotificationUpdate" : {
-               "my $Ok = $NotificationEventObject->NotificationUpdate(\n    ID      => 123,\n    Name    => 'Agent::OwnerUpdate',\n    Data => {\n        Events => [ 'TicketQueueUpdate' ],\n        ...\n        Queue => [ 'SomeQueue' ],\n    },\n    Message => {\n        en => {\n            Subject     => 'Hello',\n            Body        => 'Hello World',\n            ContentType => 'text/plain',\n        },\n        de => {\n            Subject     => 'Hallo',\n            Body        => 'Hallo Welt',\n            ContentType => 'text/plain',\n        },\n    },\n    Comment => 'An optional comment',  # (optional)\n    ValidID => $ValidID,\n    UserID  => $UserID,\n);" : [
+               "my $Ok = $NotificationEventObject->NotificationUpdate(\n    ID      => 123,\n    Name    => 'Agent::OwnerUpdate',\n    Data => {\n        Events => [ 'TicketQueueUpdate' ],\n        # ...\n        Queue => [ 'SomeQueue' ],\n    },\n    Message => {\n        en => {\n            Subject     => 'Hello',\n            Body        => 'Hello World',\n            ContentType => 'text/plain',\n        },\n        de => {\n            Subject     => 'Hallo',\n            Body        => 'Hallo Welt',\n            ContentType => 'text/plain',\n        },\n    },\n    Comment => 'An optional comment',  # (optional)\n    ValidID => $ValidID,\n    UserID  => $UserID,\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -7064,7 +6833,7 @@
                ]
             },
             "SaveFormDraft" : {
-               "my $FormDraftID = $ParamObject->SaveFormDraft(\n    UserID         => $UserID,\n    ObjectType     => 'Ticket',\n    ObjectID       => $ObjectID,\n    OverrideParams => {               # optional, can contain strings and array references\n        Subaction   => undef,\n        UserID      => $UserID,\n        CustomParam => [ 1, 2, 3, ],\n        ...\n    },\n);" : [
+               "my $FormDraftID = $ParamObject->SaveFormDraft(\n    UserID         => $UserID,\n    ObjectType     => 'Ticket',\n    ObjectID       => $ObjectID,\n    OverrideParams => {               # optional, can contain strings and array references\n        Subaction   => undef,\n        UserID      => $UserID,\n        CustomParam => [ 1, 2, 3, ],\n        # ...\n    },\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -7774,7 +7543,7 @@
                ]
             },
             "FutureTaskAdd" : {
-               "my $TaskID = $SchedulerDBObject->FutureTaskAdd(\n    ExecutionTime            => '2015-01-01 00:00:00',\n    Type                     => 'GenericInterface',  # e. g. GenericInterface, Test\n    Name                     => 'any name',          # optional\n    Attempts                 => 5,                   # optional (default 1)\n    MaximumParallelInstances => 2,                   # optional (default 0), number of tasks\n                                                     #   with the same type (and name if provided)\n                                                     #   that can exists at the same time,\n                                                     #   value of 0 means unlimited\n    Data => {                                        # data payload\n        ...\n    },\n);" : [
+               "my $TaskID = $SchedulerDBObject->FutureTaskAdd(\n    ExecutionTime            => '2015-01-01 00:00:00',\n    Type                     => 'GenericInterface',  # e. g. GenericInterface, Test\n    Name                     => 'any name',          # optional\n    Attempts                 => 5,                   # optional (default 1)\n    MaximumParallelInstances => 2,                   # optional (default 0), number of tasks\n                                                     #   with the same type (and name if provided)\n                                                     #   that can exists at the same time,\n                                                     #   value of 0 means unlimited\n    Data => {                                        # data payload\n        # ...\n    },\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -7854,7 +7623,7 @@
                ]
             },
             "RecurrentTaskExecute" : {
-               "my $Success = $SchedulerDBObject->RecurrentTaskExecute(\n    NodeID                   => $NodeID,                 # the ID of the node in a cluster environment\n    PID                      => $PID,               # the process ID of the daemon that is creating\n                                                   #    the tasks to execution\n    TaskName                 => 'UniqueTaskName',\n    TaskType                 => 'Cron',\n    PreviousEventTimestamp   => 1433212343,\n    MaximumParallelInstances => 1,                 # optional (default 0) number of tasks with the\n                                                   #    same name and type that can be in execution\n                                                   #    table at the same time, value of 0 means\n                                                   #    unlimited\n    Data                   => {                    # data payload\n        ...\n    },\n);" : [
+               "my $Success = $SchedulerDBObject->RecurrentTaskExecute(\n    NodeID                   => $NodeID,                 # the ID of the node in a cluster environment\n    PID                      => $PID,               # the process ID of the daemon that is creating\n                                                   #    the tasks to execution\n    TaskName                 => 'UniqueTaskName',\n    TaskType                 => 'Cron',\n    PreviousEventTimestamp   => 1433212343,\n    MaximumParallelInstances => 1,                 # optional (default 0) number of tasks with the\n                                                   #    same name and type that can be in execution\n                                                   #    table at the same time, value of 0 means\n                                                   #    unlimited\n    Data                   => {                    # data payload\n        # ...\n    },\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -7902,7 +7671,7 @@
                ]
             },
             "TaskAdd" : {
-               "my $TaskID = $SchedulerDBObject->TaskAdd(\n    Type                     => 'GenericInterface',     # e. g. GenericInterface, Test\n    Name                     => 'any name',             # optional\n    Attempts                 => 5,                      # optional (default 1)\n    MaximumParallelInstances => 2,                      # optional (default 0), number of tasks\n                                                        #   with the same type (and name if\n                                                        #   provided) that can exists at the same\n                                                        #   time, value of 0 means unlimited\n    Data => {                                           # data payload\n        ...\n    },\n);" : [
+               "my $TaskID = $SchedulerDBObject->TaskAdd(\n    Type                     => 'GenericInterface',     # e. g. GenericInterface, Test\n    Name                     => 'any name',             # optional\n    Attempts                 => 5,                      # optional (default 1)\n    MaximumParallelInstances => 2,                      # optional (default 0), number of tasks\n                                                        #   with the same type (and name if\n                                                        #   provided) that can exists at the same\n                                                        #   time, value of 0 means unlimited\n    Data => {                                           # data payload\n        # ...\n    },\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -8010,7 +7779,7 @@
                ]
             },
             "TaskAdd" : {
-               "my $Success = $SchedulerObject->TaskAdd(\n    ExecutionTime            => '2015-01-01 00:00:00',  # task will be executed immediately if no execution\n                                                        #   time is given\n    Type                     => 'GenericInterface',     # e. g. GenericInterface, Test\n    Name                     => 'any name',             # optional\n    Attempts                 => 5,                      # optional (default 1)\n    MaximumParallelInstances => 2,                      # optional, number of tasks with the same type\n                                                        #   (and name if provided) that can exists at\n                                                        #   the same time, value of 0 means unlimited\n    Data => {                                           # data payload\n        ...\n    },\n);" : [
+               "my $Success = $SchedulerObject->TaskAdd(\n    ExecutionTime            => '2015-01-01 00:00:00',  # task will be executed immediately if no execution\n                                                        #   time is given\n    Type                     => 'GenericInterface',     # e. g. GenericInterface, Test\n    Name                     => 'any name',             # optional\n    Attempts                 => 5,                      # optional (default 1)\n    MaximumParallelInstances => 2,                      # optional, number of tasks with the same type\n                                                        #   (and name if provided) that can exists at\n                                                        #   the same time, value of 0 means unlimited\n    Data => {                                           # data payload\n        # ...\n    },\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -8227,7 +7996,7 @@
                ]
             },
             "InputFieldIDMapping" : {
-               "my $Result = $SeleniumObject->InputFieldIDMapping(\n    Action  => 'AgentTicketZoom',\n    Mapping => {\n        ...\n        QueueID => $QueueID,\n        ...\n    },\n);" : [
+               "my $Result = $SeleniumObject->InputFieldIDMapping(\n    Action  => 'AgentTicketZoom',\n    Mapping => {\n        # ...\n        QueueID => $QueueID,\n        # ...\n    },\n);" : [
                   "6.4",
                   "6.5",
                   "7.0"
@@ -9625,7 +9394,7 @@
                ]
             },
             "SettingAddItem" : {
-               "my %Result = $SysConfigObject->SettingAddItem(\n    SettingStructure  => [],         # (required) array that contains structure\n                                     #  where a new item should be inserted (can be empty)\n    Setting           => {           # (required) Setting hash (from SettingGet())\n        'DefaultID' => '8905',\n        'DefaultValue' => [ 'Item 1', 'Item 2' ],\n        'Description' => 'Simple array item(Min 1, Max 3).',\n        'Name' => 'TestArray',\n        ...\n    },\n    Key               => 'HashKey',  # (optional) hash key\n    IDSuffix          => '_Array3,   # (optional) suffix that will be added to all input/select fields\n                                     #    (it is used in the JS on Update, during EffectiveValue calculation)\n    Value             => [           # (optional) Perl structure\n        {\n            'Array' => [\n                'Item' => [\n                    {\n                    'Content' => 'Item 1',\n                    },\n                    ...\n                ],\n            ],\n        },\n    ],\n    AddSettingContent => 0,          # (optional) if enabled, result will be inside of div with class \"SettingContent\"\n);" : [
+               "my %Result = $SysConfigObject->SettingAddItem(\n    SettingStructure  => [],         # (required) array that contains structure\n                                     #  where a new item should be inserted (can be empty)\n    Setting           => {           # (required) Setting hash (from SettingGet())\n        'DefaultID' => '8905',\n        'DefaultValue' => [ 'Item 1', 'Item 2' ],\n        'Description' => 'Simple array item(Min 1, Max 3).',\n        'Name' => 'TestArray',\n        # ...\n    },\n    Key               => 'HashKey',  # (optional) hash key\n    IDSuffix          => '_Array3,   # (optional) suffix that will be added to all input/select fields\n                                     #    (it is used in the JS on Update, during EffectiveValue calculation)\n    Value             => [           # (optional) Perl structure\n        {\n            'Array' => [\n                'Item' => [\n                    {\n                    'Content' => 'Item 1',\n                    },\n                   # ...\n                ],\n            ],\n        },\n    ],\n    AddSettingContent => 0,          # (optional) if enabled, result will be inside of div with class \"SettingContent\"\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -9713,7 +9482,7 @@
                ]
             },
             "SettingsSet" : {
-               "my $Success = $SysConfigObject->SettingsSet(\n    UserID   => $UserID,                                      # (required) UserID\n    Comments => 'Deployment comment',                   # (optional) Comment\n    Settings => [                                       # (required) List of settings to update.\n        {\n            Name                   => 'Setting::Name',  # (required)\n            EffectiveValue         => 'Value',          # (optional)\n            IsValid                => 1,                # (optional)\n            UserModificationActive => 1,                # (optional)\n        },\n        ...\n    ],\n);" : [
+               "my $Success = $SysConfigObject->SettingsSet(\n    UserID   => $UserID,                                      # (required) UserID\n    Comments => 'Deployment comment',                   # (optional) Comment\n    Settings => [                                       # (required) List of settings to update.\n        {\n            Name                   => 'Setting::Name',  # (required)\n            EffectiveValue         => 'Value',          # (optional)\n            IsValid                => 1,                # (optional)\n            UserModificationActive => 1,                # (optional)\n        },\n        # ...\n    ],\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -9721,7 +9490,7 @@
                ]
             },
             "SettingsUpdatedList" : {
-               "my @List = $SysConfigObject->SettingsUpdatedList(\n    Settings => [                                               # (required) List of settings that needs to be checked\n        {\n            SettingName           => 'SettingName',\n            ChangeTime            => '2017-01-13 11:23:07',\n            IsLockedByAnotherUser => 0,\n        },\n        ...\n    ],\n    UserID => $UserID,                                                # (required) Current user id\n);" : [
+               "my @List = $SysConfigObject->SettingsUpdatedList(\n    Settings => [                                               # (required) List of settings that needs to be checked\n        {\n            SettingName           => 'SettingName',\n            ChangeTime            => '2017-01-13 11:23:07',\n            IsLockedByAnotherUser => 0,\n        },\n        # ...\n    ],\n    UserID => $UserID,                                                # (required) Current user id\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -11210,7 +10979,7 @@
          ],
          "Functions" : {
             "TransitionCheck" : {
-               "my $TransitionCheck = $TransitionObject->TransitionCheck(\n    TransitionEntityID => $TransitionEntityID,\n    or\n    TransitionEntityID => [$TransitionEntityID],\n    Data       => {\n        Queue         => 'Raw',\n        DynamicField1 => 'Value',\n        Subject       => 'Testsubject',\n        ...\n    },\n);" : [
+               "my $TransitionCheck = $TransitionObject->TransitionCheck(\n    TransitionEntityID => $TransitionEntityID,\n    or\n    TransitionEntityID => [$TransitionEntityID],\n    Data       => {\n        Queue         => 'Raw',\n        DynamicField1 => 'Value',\n        Subject       => 'Testsubject',\n        # ...\n    },\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",
@@ -11646,7 +11415,7 @@
                ]
             },
             "Mock" : {
-               "my $Result = $UnitTestWebserviceObject->Mock(\n    InvokerName123 => [\n        {\n            Data => {\n                OutgoingData => 'Value'\n            },\n            Result => {\n                Success      => 1,\n                ErrorMessage => '',\n                Data         => {\n                    YAY => 'so true',\n                },\n            }\n        },\n        ...\n    ],\n    ...\n);" : [
+               "my $Result = $UnitTestWebserviceObject->Mock(\n    InvokerName123 => [\n        {\n            Data => {\n                OutgoingData => 'Value'\n            },\n            Result => {\n                Success      => 1,\n                ErrorMessage => '',\n                Data         => {\n                    YAY => 'so true',\n                },\n            }\n        },\n        # ...\n    ],\n    # ...\n);" : [
                   "6.4",
                   "6.5",
                   "7.0"
@@ -11677,7 +11446,7 @@
                ]
             },
             "Process" : {
-               "my $Response = $UnitTestWebserviceObject->Process(\n    UnitTestObject => $Self,\n    Webservice     => 'Name123', # or\n    WebserviceID   => $WebserviceID,\n    Operation      => 'DesiredOperation',\n    Payload        => {\n        ...\n    },\n    Response => {               # optional, you can validate the response manually in the unit test via $Self->IsDeeply()\n        Success      => 1,\n        ErrorMessage => '',\n        Data         => {\n            ...\n        },\n    }\n);" : [
+               "my $Response = $UnitTestWebserviceObject->Process(\n    UnitTestObject => $Self,\n    Webservice     => 'Name123', # or\n    WebserviceID   => $WebserviceID,\n    Operation      => 'DesiredOperation',\n    Payload        => {\n        # ...\n    },\n    Response => {               # optional, you can validate the response manually in the unit test via $Self->IsDeeply()\n        Success      => 1,\n        ErrorMessage => '',\n        Data         => {\n           # ...\n        },\n    }\n);" : [
                   "6.4",
                   "6.5",
                   "7.0"
@@ -12180,7 +11949,7 @@
          ],
          "Functions" : {
             "WebserviceHistoryAdd" : {
-               "my $ID = $WebserviceHistoryObject->WebserviceHistoryAdd(\n    WebserviceID => $WebserviceID,\n    Config       => {\n        ...\n    },\n    UserID  => $UserID,\n);" : [
+               "my $ID = $WebserviceHistoryObject->WebserviceHistoryAdd(\n    WebserviceID => $WebserviceID,\n    Config       => {\n        # ...\n    },\n    UserID  => $UserID,\n);" : [
                   "6.0",
                   "6.4",
                   "6.5",

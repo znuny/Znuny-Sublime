@@ -6,7 +6,7 @@ ${1:my \$Success = \$CalendarObject->TicketAppointmentProcessRule(
         DynamicField_TestDate => \{
             Module => 'Kernel::System::Calendar::Ticket::DynamicField',
         \},
-        ...
+        # ...
     \},
     Rule => \{
         StartDate => 'DynamicField_TestDate',

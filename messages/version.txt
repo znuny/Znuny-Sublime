@@ -1,41 +1,37 @@
-🌟 Version 1.0.4 🌟
+🌟 Version 1.0.5 🌟
 
-✔ Added Snippets
-  - `znuny.ActivityObject.Add.code-snippets`
-  - `znuny.ActivityObject.DataAdd.code-snippets`
-  - `znuny.ActivityObject.DataDelete.code-snippets`
-  - `znuny.ActivityObject.DataGet.code-snippets`
-  - `znuny.ActivityObject.DataListGet.code-snippets`
-  - `znuny.ActivityObject.DataSearch.code-snippets`
-  - `znuny.ActivityObject.DataUpdate.code-snippets`
-  - `znuny.ActivityObject.Get.code-snippets`
-  - `znuny.ActivityObject.GetLink.code-snippets`
-  - `znuny.ActivityObject.InitConfig.code-snippets`
-  - `znuny.ActivityObject.ListGet.code-snippets`
-  - `znuny.LayoutObject.CleanUpCSSSelector.code-snippets`
-  - `znuny.LayoutObject.ColorPicker.code-snippets`
-  - `znuny.LayoutObject.ConvertToCSS.code-snippets`
-  - `znuny.LayoutObject.CreateDynamicCSS.code-snippets`
-  - `znuny.LayoutObject.LoaderCreateDynamicCSS.code-snippets`
-
-✔ Updated Snippets 6.0, 6.4, 6.5
-  - `znuny.ArticleObject.ArticleSearchIndexRebuildFlagSet`
+✔ Updated Snippets
   - `znuny.ArticleObject.ArticleSearchIndexSQLJoin.code-snippets`
   - `znuny.ArticleObject.ArticleSearchIndexSQLJoinNeeded.code-snippets`
   - `znuny.ArticleObject.ArticleSearchIndexWhereCondition.code-snippets`
-  - `znuny.BackendObject.EditFieldRender`
-  - `znuny.BackendObject.EditFieldValueGet`
-  - `znuny.BackendObject.EditFieldValueGet`
-  - `znuny.CommunicationLogObject.ObjectLog`
-  - `znuny.CommunicationLogObject.ObjectLogStop`
-  - `znuny.CustomerUserObject.CustomerUserUpdate`
-  - `znuny.DBCRUDObject.DataUpdate.code-snippets`
-  - `znuny.HelperObject.ProvideTestDatabase.code-snippets`
-  - `znuny.PriorityObject.PriorityAdd`
-  - `znuny.PriorityObject.PriorityUpdate`
-  - `znuny.SeleniumObject.GetSeleniumHome`
-  - `znuny.StateObject.StateAdd`
-  - `znuny.StateObject.StateUpdate`
+  - `znuny.BackendObject.EditFieldRender.code-snippets`
+  - `znuny.CalendarObject.CalendarImport.code-snippets`
+  - `znuny.CalendarObject.TicketAppointmentProcessRule.code-snippets`
+  - `znuny.CustomerGroupObject.GroupCustomerAdd.code-snippets`
+  - `znuny.DBCRUDObject.DataAdd.code-snippets`
+  - `znuny.DynamicFieldValueObject.ValueSet.code-snippets`
+  - `znuny.ExcelObject.Array2Excel.code-snippets`
+  - `znuny.FormDraftObject.FormDraftAdd.code-snippets`
+  - `znuny.FormDraftObject.FormDraftUpdate.code-snippets`
+  - `znuny.GenericAgentObject.JobAdd.code-snippets`
+  - `znuny.HelperObject.FillTestEnvironment.code-snippets`
+  - `znuny.HelperObject.SetupTestEnvironment.code-snippets`
+  - `znuny.JWTObject.Decode.code-snippets`
+  - `znuny.NotificationEventObject.NotificationAdd.code-snippets`
+  - `znuny.NotificationEventObject.NotificationUpdate.code-snippets`
+  - `znuny.ParamObject.SaveFormDraft.code-snippets`
+  - `znuny.SchedulerDBObject.FutureTaskAdd.code-snippets`
+  - `znuny.SchedulerDBObject.RecurrentTaskExecute.code-snippets`
+  - `znuny.SchedulerDBObject.TaskAdd.code-snippets`
+  - `znuny.SchedulerObject.TaskAdd.code-snippets`
+  - `znuny.SeleniumObject.InputFieldIDMapping.code-snippets`
+  - `znuny.SysConfigObject.SettingAddItem.code-snippets`
+  - `znuny.SysConfigObject.SettingsSet.code-snippets`
+  - `znuny.SysConfigObject.SettingsUpdatedList.code-snippets`
+  - `znuny.TransitionObject.TransitionCheck.code-snippets`
+  - `znuny.UnitTestWebserviceObject.Mock.code-snippets`
+  - `znuny.UnitTestWebserviceObject.Process.code-snippets`
+  - `znuny.WebserviceHistoryObject.WebserviceHistoryAdd.code-snippets`
 
 GitHub link - https://github.com/znuny/Znuny-Sublime
 

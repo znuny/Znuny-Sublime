@@ -4,7 +4,7 @@ ${1:my \$Success = \$FormDraftObject->FormDraftAdd(
     FormData => \{
         InformUserID => [ \$InformUserID, 124, ],
         Subject      => 'Request for information',
-        ...
+        # ...
     \},
     FileData => [                                           # optional
         \{
@@ -16,7 +16,7 @@ ${1:my \$Success = \$FormDraftObject->FormDraftAdd(
             'FileID'      => 1,
             'Disposition' => 'attachment',
         \},
-        ...
+        # ...
     ],
     ObjectType => 'Ticket',
     ObjectID   => \$ObjectID,

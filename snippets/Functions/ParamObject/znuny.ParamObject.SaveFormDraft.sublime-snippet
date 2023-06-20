@@ -8,7 +8,7 @@ ${1:my \$FormDraftID = \$ParamObject->SaveFormDraft(
         Subaction   => undef,
         UserID      => \$UserID,
         CustomParam => [ 1, 2, 3, ],
-        ...
+        # ...
     \},
 );}
 
