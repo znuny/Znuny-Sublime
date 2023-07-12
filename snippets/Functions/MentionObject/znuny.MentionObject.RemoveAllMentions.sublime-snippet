@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$MentionObject->RemoveAllMentions(
+    TicketID => \$TicketID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.MentionObject.RemoveAllMentions</tabTrigger>
+    <description>6.5, 7.0</description>
+    <scope>source.perl</scope>
+</snippet>

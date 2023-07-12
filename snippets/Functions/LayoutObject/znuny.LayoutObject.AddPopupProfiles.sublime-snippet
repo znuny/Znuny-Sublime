@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:\$LayoutObject->AddPopupProfiles();}
+${2:my \$Success = \$LayoutObject->AddPopupProfiles();}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.AddPopupProfiles</tabTrigger>
+    <description>6.5, 7.0</description>
+    <scope>source.perl</scope>
+</snippet>

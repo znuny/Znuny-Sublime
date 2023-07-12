@@ -418,15 +418,6 @@
          "6.5",
          "7.0"
       ],
-      "_FindChangedConfigItemValues" : [
-         "7.0"
-      ],
-      "_FindInciConfigItems" : [
-         "7.0"
-      ],
-      "_FindWarnConfigItems" : [
-         "7.0"
-      ],
       "_FrequencyStringMappingGet" : [
          "6.4",
          "6.5",
@@ -520,9 +511,6 @@
          "6.5",
          "7.0"
       ],
-      "_GetReadableValue" : [
-         "7.0"
-      ],
       "_GetRequestTypes" : [
          "6.4",
          "6.5",
@@ -591,9 +579,6 @@
       "_ITSMConfigItemVersionGet" : [
          "6.4",
          "6.5",
-         "7.0"
-      ],
-      "_ITSMLoadLayoutBackend" : [
          "7.0"
       ],
       "_ImportExcelValue" : [
@@ -808,9 +793,6 @@
       "_PreReorderTicketAttributeRelationsPriorities" : [
          "6.4",
          "6.5",
-         "7.0"
-      ],
-      "_PrepareLikeString" : [
          "7.0"
       ],
       "_PrepareText" : [
@@ -1184,9 +1166,6 @@
          "6.5",
          "7.0"
       ],
-      "_XML2Data" : [
-         "7.0"
-      ],
       "_XMLHashAddAutoIncrement" : [
          "6.0",
          "6.4",
@@ -1195,9 +1174,6 @@
       ]
    },
    "Modules" : {
-      "AJAXDynamicFieldConfigItem" : [
-         "7.0"
-      ],
       "AJAXDynamicFieldWebservice" : [
          "6.4",
          "6.5",
@@ -1322,9 +1298,6 @@
          "6.5",
          "7.0"
       ],
-      "AdminDynamicFieldConfigItem" : [
-         "7.0"
-      ],
       "AdminDynamicFieldConfigurationImportExport" : [
          "6.4",
          "6.5",
@@ -1368,9 +1341,6 @@
          "6.0",
          "6.4",
          "6.5",
-         "7.0"
-      ],
-      "AdminGeneralCatalog" : [
          "7.0"
       ],
       "AdminGenericAgent" : [
@@ -1455,12 +1425,6 @@
          "6.0",
          "6.4",
          "6.5",
-         "7.0"
-      ],
-      "AdminITSMCIPAllocate" : [
-         "7.0"
-      ],
-      "AdminITSMConfigItem" : [
          "7.0"
       ],
       "AdminInit" : [
@@ -1808,57 +1772,6 @@
          "6.0",
          "6.4",
          "6.5",
-         "7.0"
-      ],
-      "AgentITSMConfigItem" : [
-         "7.0"
-      ],
-      "AgentITSMConfigItemAdd" : [
-         "7.0"
-      ],
-      "AgentITSMConfigItemAttachment" : [
-         "7.0"
-      ],
-      "AgentITSMConfigItemBulk" : [
-         "7.0"
-      ],
-      "AgentITSMConfigItemCustomerCIsWidget" : [
-         "7.0"
-      ],
-      "AgentITSMConfigItemDelete" : [
-         "7.0"
-      ],
-      "AgentITSMConfigItemEdit" : [
-         "7.0"
-      ],
-      "AgentITSMConfigItemHistory" : [
-         "7.0"
-      ],
-      "AgentITSMConfigItemPrint" : [
-         "7.0"
-      ],
-      "AgentITSMConfigItemSearch" : [
-         "7.0"
-      ],
-      "AgentITSMConfigItemZoom" : [
-         "7.0"
-      ],
-      "AgentITSMSLA" : [
-         "7.0"
-      ],
-      "AgentITSMSLAPrint" : [
-         "7.0"
-      ],
-      "AgentITSMSLAZoom" : [
-         "7.0"
-      ],
-      "AgentITSMService" : [
-         "7.0"
-      ],
-      "AgentITSMServicePrint" : [
-         "7.0"
-      ],
-      "AgentITSMServiceZoom" : [
          "7.0"
       ],
       "AgentInfo" : [

@@ -4721,6 +4721,16 @@
                   "7.0"
                ]
             },
+            "AddPopupProfiles" : {
+               "$LayoutObject->AddPopupProfiles();" : [
+                  "6.5",
+                  "7.0"
+               ],
+               "my $Success = $LayoutObject->AddPopupProfiles();" : [
+                  "6.5",
+                  "7.0"
+               ]
+            },
             "ArticleActions" : {
                "my @Actions = $LayoutObject->ArticleActions(\n    TicketID  => $TicketID,     # (required)\n    ArticleID => $ArticleID,     # (required)\n);" : [
                   "6.0",
@@ -5966,6 +5976,12 @@
             "IsGroupBlocked" : {
                "my $GroupIsBlocked = $MentionObject->IsGroupBlocked(\n    Group => 'users',\n);" : [
                   "6.4",
+                  "6.5",
+                  "7.0"
+               ]
+            },
+            "RemoveAllMentions" : {
+               "my $Success = $MentionObject->RemoveAllMentions(\n    TicketID => $TicketID,\n);" : [
                   "6.5",
                   "7.0"
                ]
