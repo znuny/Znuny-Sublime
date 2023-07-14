@@ -11,10 +11,10 @@ ${1:my \$Success = \$CalendarObject->CalendarImport(
         \},
         AppointmentData => \{
             \{
-                AppointmentID       => \$AppointmentID,
-                ParentID            => \$ParentID,
-                CalendarID          => \$CalendarID,
-                UniqueID            => \$UniqueID,
+                AppointmentID => \$AppointmentID,
+                ParentID      => \$ParentID,
+                CalendarID    => \$CalendarID,
+                UniqueID      => \$UniqueID,
                 # ...
             \},
             # ...

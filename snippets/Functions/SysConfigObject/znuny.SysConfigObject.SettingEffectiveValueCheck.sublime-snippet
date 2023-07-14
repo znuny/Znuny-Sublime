@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 ${1:my %Result = \$SysConfigObject->SettingEffectiveValueCheck(
-    EffectiveValue => 'open',     # (optional)
+    EffectiveValue   => 'open',     # (optional)
     XMLContentParsed => \{         # (required)
         Value => [
             \{
@@ -13,12 +13,12 @@ ${1:my %Result = \$SysConfigObject->SettingEffectiveValueCheck(
             \},
         ],
     \},
-    StoreCache            => 1,               # (optional) Store result in the Cache. Default 0.
-    SettingUID            => \$SettingUID,   # (required if StoreCache)
-    NoValidation          => 1,               # (optional) no value type validation.
-    CurrentSystemTime     => 1507894796935,   # (optional) Use provided 1507894796935, otherwise calculate
-    ExpireTime            => 1507894896935,   # (optional) Use provided ExpireTime for cache, otherwise calculate
-    UserID                => \$UserID,               # (required) UserID
+    StoreCache        => 1,               # (optional) Store result in the Cache. Default 0.
+    SettingUID        => \$SettingUID,   # (required if StoreCache)
+    NoValidation      => 1,               # (optional) no value type validation.
+    CurrentSystemTime => 1507894796935,   # (optional) Use provided 1507894796935, otherwise calculate
+    ExpireTime        => 1507894896935,   # (optional) Use provided ExpireTime for cache, otherwise calculate
+    UserID            => \$UserID,               # (required) UserID
 );}
 
 ]]></content>

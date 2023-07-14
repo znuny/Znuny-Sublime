@@ -2,11 +2,11 @@
     <content><![CDATA[
 ${1:my %List = \$StateObject->StateGetStatesByType(
     Type   => 'Viewable',
-    Result => 'HASH', # HASH|ID|Name
+    Result => 'HASH',               # HASH|ID|Name
 );}
 ${2:my @List = \$StateObject->StateGetStatesByType(
     StateType => ['open', 'new'],
-    Result    => 'ID', # HASH|ID|Name
+    Result    => 'ID',              # HASH|ID|Name
 );}
 
 ]]></content>

@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 ${1:\$True = \$LinkObject->LinkCleanup(
-    State  => 'Temporary',
-    Age    => ( 60 * 60 * 24 ),
+    State => 'Temporary',
+    Age   => ( 60 * 60 * 24 ),
 );}
 
 ]]></content>

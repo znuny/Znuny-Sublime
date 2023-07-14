@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$MD5Sum = \$PackageObject->PackageFileGetMD5Sum(
-    Name => 'Package Name',
+    Name    => 'Package Name',
     Version => 123.0,
 );}
 

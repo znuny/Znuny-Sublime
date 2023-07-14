@@ -2,7 +2,7 @@
     <content><![CDATA[
 ${1:\$Exist = \$TypeObject->NameExistsCheck(
     Name => 'Some::Template',
-    ID => 1, # optional
+    ID   => 1,                  # optional
 );}
 
 ]]></content>

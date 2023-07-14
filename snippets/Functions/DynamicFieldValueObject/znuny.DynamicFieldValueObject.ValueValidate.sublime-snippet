@@ -1,12 +1,12 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$Success = \$DynamicFieldValueObject->ValueValidate(
-    Value    =>  \{
-            ValueText          => 'some text',            # optional, one of these fields must be provided
-            ValueDateTime      => '1977-12-12 12:00:00',  # optional
-            ValueInt           => 123,                    # optional
-        \},
-    UserID   => \$UserID,
+    Value  => \{
+        ValueText     => 'some text',            # optional, one of these fields must be provided
+        ValueDateTime => '1977-12-12 12:00:00',  # optional
+        ValueInt      => 123,                    # optional
+    \},
+    UserID => \$UserID,
 );}
 
 ]]></content>

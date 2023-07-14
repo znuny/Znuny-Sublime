@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$SystemData = \$SystemDataObject->SystemDataGet(
-    Key => 'OTRS Version',
+    Key => 'Znuny Version',
 );}
 
 ]]></content>

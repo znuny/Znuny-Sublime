@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
 ${1:\$Permission = \$LinkObject->ObjectPermission(
-    Object  => 'Ticket',
-    Key     => 123,
-    UserID  => \$UserID,
+    Object => 'Ticket',
+    Key    => 123,
+    UserID => \$UserID,
 );}
 
 ]]></content>

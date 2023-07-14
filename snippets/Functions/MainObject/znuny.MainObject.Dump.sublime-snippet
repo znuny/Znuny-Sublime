@@ -2,7 +2,7 @@
     <content><![CDATA[
 ${1:my \$Dump = \$MainObject->Dump(
     \$SomeVariable,
-    'ascii', # ascii|binary - default is binary
+    'ascii',        # ascii|binary - default is binary
 );}
 ${2:my \$Dump = \$MainObject->Dump(
     \$SomeVariable,

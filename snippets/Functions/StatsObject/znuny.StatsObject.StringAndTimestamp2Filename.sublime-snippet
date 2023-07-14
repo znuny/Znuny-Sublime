@@ -2,7 +2,7 @@
     <content><![CDATA[
 ${1:my \$Filename = \$StatsObject->StringAndTimestamp2Filename(
     String   => 'Title',
-    TimeZone => 'Europe/Berlin',  # optional
+    TimeZone => 'Europe/Berlin',    # optional
 );}
 
 ]]></content>

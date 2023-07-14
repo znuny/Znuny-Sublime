@@ -2,7 +2,7 @@
     <content><![CDATA[
 ${1:my \$StatArray = \$StatsObject->StatsResultCacheGet(
     StatID       => \$StatID,
-    UserID       => \$UserID,    # target UserID
+    UserID       => \$UserID,        # target UserID
     UserGetParam => \%GetParam,
 );}
 

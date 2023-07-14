@@ -2,7 +2,7 @@
     <content><![CDATA[
 ${1:my \$Success = \$FormDraftObject->FormDraftDelete(
     FormDraftID => \$FormDraftID,
-    UserID  => \$UserID,
+    UserID      => \$UserID,
 );}
 
 ]]></content>

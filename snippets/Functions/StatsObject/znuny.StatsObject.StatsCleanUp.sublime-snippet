@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$Result = \$StatsObject->StatsCleanUp(
-    UserID => \$UserID,
+    UserID          => \$UserID,
 
-    ObjectNames => [ 'Ticket', 'TicketList' ],
-    or
+    ObjectNames     => [ 'Ticket', 'TicketList' ],
+    # or
     CheckAllObjects => 1,
 );}
 

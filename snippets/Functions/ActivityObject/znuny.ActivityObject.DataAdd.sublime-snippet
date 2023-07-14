@@ -1,15 +1,15 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$CreatedID = \$ActivityObject->DataAdd(
-    ID               => '...',
-    Type             => '...',
-    Title            => '...',
-    Text             => '...',
-    State            => '...',
-    Link             => '...',
-    CreateTime       => '...',
-    CreateBy         => '...',
-    UserID           => \$UserID,
+    ID         => '...',
+    Type       => '...',
+    Title      => '...',
+    Text       => '...',
+    State      => '...',
+    Link       => '...',
+    CreateTime => '...',
+    CreateBy   => '...',
+    UserID     => \$UserID,
 );}
 
 ]]></content>

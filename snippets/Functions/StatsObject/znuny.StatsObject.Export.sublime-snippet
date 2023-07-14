@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$ExportFile = \$StatsObject->Export(
-    StatID => \$StatID,
-    ExportStatNumber => 1 || 0, # optional, only useful move statistics from the test system to the productive system
+    StatID           => \$StatID,
+    ExportStatNumber => 1 || 0,     # optional, only useful move statistics from the test system to the productive system
 );}
 
 ]]></content>

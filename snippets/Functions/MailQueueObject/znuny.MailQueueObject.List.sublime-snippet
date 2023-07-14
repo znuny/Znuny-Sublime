@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$List = \$MailQueueObject->List(
-    ID              => '...', # optional
-    ArticleID       => \$ArticleID, # optional
-    Sender          => '...', # optional
-    Recipient       => '...', # optional
-    Attempts        => '...', # optional
+    ID        => '...', # optional
+    ArticleID => \$ArticleID, # optional
+    Sender    => '...', # optional
+    Recipient => '...', # optional
+    Attempts  => '...', # optional
 );}
 
 ]]></content>

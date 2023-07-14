@@ -1,16 +1,16 @@
 <snippet>
     <content><![CDATA[
 ${1:my %Data = \$ActivityObject->DataSearch(
-    Search           => 'test*test',
-    ID               => '...', # optional
-    Type             => '...', # optional
-    Title            => '...', # optional
-    Text             => '...', # optional
-    State            => '...', # optional
-    Link             => '...', # optional
-    CreateTime       => '...', # optional
-    CreateBy         => '...', # optional
-    UserID           => \$UserID,
+    Search     => 'test*test',
+    ID         => '...', # optional
+    Type       => '...', # optional
+    Title      => '...', # optional
+    Text       => '...', # optional
+    State      => '...', # optional
+    Link       => '...', # optional
+    CreateTime => '...', # optional
+    CreateBy   => '...', # optional
+    UserID     => \$UserID,
 );}
 
 ]]></content>

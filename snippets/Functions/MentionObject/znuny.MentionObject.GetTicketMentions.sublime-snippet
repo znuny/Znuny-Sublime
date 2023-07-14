@@ -2,8 +2,8 @@
     <content><![CDATA[
 ${1:my \$Mentions = \$MentionObject->GetTicketMentions(
     TicketID  => \$TicketID,
-    OrderBy   => 'create_time', # optional; default
-    SortOrder => 'ASC', # or 'DESC', optional; default
+    OrderBy   => 'create_time',     # optional; default
+    SortOrder => 'ASC',             # or 'DESC', optional; default
 );}
 
 ]]></content>

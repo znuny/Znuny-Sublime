@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$FileHash = \$StatsObject->GetStaticFiles(
-    OnlyUnusedFiles => 1 | 0, # optional default 0
-    UserID => \$UserID,
+    OnlyUnusedFiles => 1 || 0,  # optional default 0
+    UserID          => \$UserID,
 );}
 
 ]]></content>

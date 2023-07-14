@@ -6,9 +6,9 @@ ${1:my \$Success = \$DynamicFieldValueObject->ValueSet(
                                           #   must be linked to, e. g. TicketID
     Value    => [
         \{
-            ValueText          => 'some text',            # optional, one of these fields must be provided
-            ValueDateTime      => '1977-12-12 12:00:00',  # optional
-            ValueInt           => 123,                    # optional
+            ValueText     => 'some text',            # optional, one of these fields must be provided
+            ValueDateTime => '1977-12-12 12:00:00',  # optional
+            ValueInt      => 123,                    # optional
         \},
         # ...
     ],

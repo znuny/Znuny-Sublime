@@ -6,8 +6,8 @@ ${1:my \$Success = \$MainObject->FileDelete(
     # or Location
     Location        => 'c:\some\location\me_to\alal.xml',
 
-    Type            => 'Local',   # optional - Local|Attachment|MD5
-    DisableWarnings => 1, # optional
+    Type            => 'Local',     # optional - Local|Attachment|MD5
+    DisableWarnings => 1,           # optional
 );}
 
 ]]></content>

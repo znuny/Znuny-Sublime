@@ -4,9 +4,8 @@ ${1:my \$JWT = \$JWTObject->Encode(
     Payload => \{
 
         # arbitrary data
-        Subject => '...',
+        Subject       => '...',
         SomeOtherData => \{
-
             # ...
         \},
     \},

@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$GenericAgentArticle = \$TemplateGeneratorObject->GenericAgentArticle(
-    Notification    => \$NotificationDataHashRef,
-    TicketID        => \$TicketID,
-    UserID          => \$UserID,
-    Data            => \$ArticleHashRef,             # Optional
+    Notification => \$NotificationDataHashRef,
+    TicketID     => \$TicketID,
+    UserID       => \$UserID,
+    Data         => \$ArticleHashRef,             # Optional
 );}
 
 ]]></content>

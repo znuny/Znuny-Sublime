@@ -3,7 +3,7 @@
 ${1:\$PackageObject->DeployCheck(
     Name    => 'Application A',
     Version => '1.0',
-    Log     => 1, # Default: 1
+    Log     => 1,       # Default: 1
 );}
 
 ]]></content>

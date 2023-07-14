@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$Item = \$MailQueueObject->Get(
-    ID              => '...' # optional
-    ArticleID       => \$ArticleID # optional
+    ID        => '...', # optional
+    ArticleID => \$ArticleID, # optional
 );}
 
 ]]></content>

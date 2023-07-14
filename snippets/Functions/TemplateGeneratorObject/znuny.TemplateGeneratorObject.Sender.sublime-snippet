@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$Sender = \$TemplateGeneratorObject->Sender(
-    QueueID    => \$QueueID,
-    UserID     => \$UserID,
+    QueueID => \$QueueID,
+    UserID  => \$UserID,
 );}
 
 ]]></content>

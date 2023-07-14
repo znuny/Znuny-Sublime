@@ -8,8 +8,8 @@ ${1:my \$Mentions = \$MentionObject->GetUserMentions(
     # if set to 1, all mentions of every article count separately
     PerArticle => 0,
 
-    OrderBy    => 'create_time', # optional; default
-    SortOrder  => 'ASC', # or 'DESC', optional; default
+    OrderBy    => 'create_time',    # optional; default
+    SortOrder  => 'ASC',            # or 'DESC', optional; default
 );}
 
 ]]></content>

@@ -4,10 +4,10 @@ ${1:my %Result = \$SysConfigObject->SettingAddItem(
     SettingStructure  => [],         # (required) array that contains structure
                                      #  where a new item should be inserted (can be empty)
     Setting           => \{           # (required) Setting hash (from SettingGet())
-        'DefaultID' => '8905',
+        'DefaultID'    => '8905',
         'DefaultValue' => [ 'Item 1', 'Item 2' ],
-        'Description' => 'Simple array item(Min 1, Max 3).',
-        'Name' => 'TestArray',
+        'Description'  => 'Simple array item(Min 1, Max 3).',
+        'Name'         => 'TestArray',
         # ...
     \},
     Key               => 'HashKey',  # (optional) hash key

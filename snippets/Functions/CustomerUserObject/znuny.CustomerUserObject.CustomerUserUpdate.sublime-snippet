@@ -1,12 +1,12 @@
 <snippet>
     <content><![CDATA[
 ${1:\$CustomerUserObject->CustomerUserUpdate(
-    Source        => 'CustomerUser', # CustomerUser source config
-    ID            => 'mh',           # current user login
-    UserLogin     => 'mhuber',       # new user login
+    Source        => 'CustomerUser',        # CustomerUser source config
+    ID            => 'mh',                  # current user login
+    UserLogin     => 'mhuber',              # new user login
     UserFirstname => 'Huber',
     UserLastname  => 'Manfred',
-    UserPassword  => 'some-pass',    # not required
+    UserPassword  => 'some-pass',           # not required
     UserEmail     => 'email@example.com',
     ValidID       => \$ValidID,
     UserID        => \$UserID,

@@ -6,7 +6,7 @@ ${1:\$PIDObject->PIDCreate(
 );}
 ${2:\$PIDObject->PIDCreate(
     Name  => 'PostMasterPOP3',
-    TTL   => 60 * 60 * 24 * 3, # for 3 days, per default 1h is used
+    TTL   => 60 * 60 * 24 * 3,  # for 3 days, per default 1h is used
 );}
 ${3:\$PIDObject->PIDCreate(
     Name => 'PostMasterPOP3',

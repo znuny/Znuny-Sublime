@@ -1,15 +1,15 @@
 <snippet>
     <content><![CDATA[
 ${1:my @Data = \$ActivityObject->DataListGet(
-    ID               => '...', # optional
-    Type             => '...', # optional
-    Title            => '...', # optional
-    Text             => '...', # optional
-    State            => '...', # optional
-    Link             => '...', # optional
-    CreateTime       => '...', # optional
-    CreateBy         => '...', # optional
-    UserID           => \$UserID,
+    ID         => '...', # optional
+    Type       => '...', # optional
+    Title      => '...', # optional
+    Text       => '...', # optional
+    State      => '...', # optional
+    Link       => '...', # optional
+    CreateTime => '...', # optional
+    CreateBy   => '...', # optional
+    UserID     => \$UserID,
 );}
 
 ]]></content>

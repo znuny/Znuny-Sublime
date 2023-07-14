@@ -19,12 +19,12 @@ ${2:my \$Success = \$MailAccountObject->MailAccountUpdate(
     Password            => 'SomePassword',
     Host                => 'pop3.example.com',
     Type                => 'POP3',
-    IMAPFolder          => 'Some Folder', # optional, only valid for IMAP-type accounts
+    IMAPFolder          => 'Some Folder',   # optional, only valid for IMAP-type accounts
     ValidID             => \$ValidID,
     Trusted             => 0,
-    AuthenticationType  => 'oauth2_token', # optional; defaults to 'password'
+    AuthenticationType  => 'oauth2_token',  # optional; defaults to 'password'
     OAuth2TokenConfigID => \$OAuth2TokenConfigID, # optional
-    DispatchingBy       => 'Queue', # Queue|From
+    DispatchingBy       => 'Queue',         # Queue|From
     QueueID             => \$QueueID,
     UserID              => \$UserID,
 );}

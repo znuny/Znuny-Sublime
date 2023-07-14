@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$NotificationImport = \$NotificationEventObject->NotificationImport(
-    Content                   => \$YAMLContent, # mandatory, YAML format
-    OverwriteExistingNotifications => 0,            # 0 || 1
-    UserID                    => \$UserID,            # mandatory
+    Content                        => \$YAMLContent,  # mandatory, YAML format
+    OverwriteExistingNotifications => 0,             # 0 || 1
+    UserID                         => \$UserID,             # mandatory
 );}
 
 ]]></content>

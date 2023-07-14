@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 ${1:\$SystemDataObject->SystemDataDelete(
-    Key    => 'OTRS Version',
+    Key    => 'Znuny Version',
     UserID => \$UserID,
 );}
 

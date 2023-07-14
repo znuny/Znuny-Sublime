@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$Result = \$MailQueueObject->Delete(
-    %Filters,                       # See _FiltersSQLAndBinds
+    %Filters,       # See _FiltersSQLAndBinds
 );}
 
 ]]></content>
