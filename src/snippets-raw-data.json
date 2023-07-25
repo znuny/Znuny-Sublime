@@ -8466,6 +8466,11 @@
                   "7.0"
                ]
             },
+            "GetOrphanedSessionIDs" : {
+               "my @Sessions = $SessionObject->GetOrphanedSessionIDs();" : [
+                  "7.0"
+               ]
+            },
             "GetSessionIDData" : {
                "my %Data = $SessionObject->GetSessionIDData(\n    SessionID => $SessionID,\n);" : [
                   "6.0",

@@ -2,6 +2,7 @@ Version 1.0.6
 ✔ Added Snippets
   - `znuny.LayoutObject.AddPopupProfiles.code-snippets`
   - `znuny.MentionObject.RemoveAllMentions.code-snippets`
+  - `znuny.SessionObject.GetOrphanedSessionIDs.code-snippets`
 
 ✔ Updated Snippets
   - `znuny.ActivityObject.DataAdd.sublime-snippet

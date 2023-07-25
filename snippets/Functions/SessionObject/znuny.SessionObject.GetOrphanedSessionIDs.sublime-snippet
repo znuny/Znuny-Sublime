@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Sessions = \$SessionObject->GetOrphanedSessionIDs();}
+
+]]></content>
+    <tabTrigger>znuny.SessionObject.GetOrphanedSessionIDs</tabTrigger>
+    <description>7.0</description>
+    <scope>source.perl</scope>
+</snippet>
