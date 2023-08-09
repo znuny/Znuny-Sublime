@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<File Permission="${1:660}" Location="${2:Kernel/System/Ticket.pm}"/>
+]]></content>
+    <tabTrigger>znuny.SOPM.File</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

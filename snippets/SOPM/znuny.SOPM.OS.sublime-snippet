@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<OS>${1:linux}</OS>
+]]></content>
+    <tabTrigger>znuny.SOPM.OS</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<Framework>${1:7.0.x}</Framework>
+]]></content>
+    <tabTrigger>znuny.SOPM.Framework</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

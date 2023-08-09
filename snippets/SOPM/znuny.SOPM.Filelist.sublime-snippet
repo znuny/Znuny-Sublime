@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<Filelist>
+    <File Permission="${1:660}" Location="${2:Kernel/System/Ticket.pm}"/>
+<Filelist>
+]]></content>
+    <tabTrigger>znuny.SOPM.Filelist</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

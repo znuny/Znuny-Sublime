@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<Name>${1:ZnunyCodePolicy}</Name>
+]]></content>
+    <tabTrigger>znuny.SOPM.Name</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

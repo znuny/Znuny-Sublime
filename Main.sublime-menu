@@ -16,30 +16,30 @@
                         "children":
                         [
                             {
-                                "caption": "Settings - Default",
+                                "caption": "README",
                                 "command": "open_file",
                                 "args":
                                 {
-                                    "file": "${packages}/Znuny/Znuny.sublime-settings"
+                                    "file": "${packages}/Znuny-Sublime/README.md"
                                 }
                             },
                             {
-                                "caption": "Settings - User",
-                                "command": "open_file",
+                                "command": "edit_settings",
                                 "args":
                                 {
-                                    "file": "${packages}/User/Znuny.sublime-settings"
-                                }
+                                    "base_file": "${packages}/Znuny-Sublime/Znuny.sublime-settings",
+                                    "default": "{\n$0\n}\n"
+                                },
+                                "caption": "Settings"
                             },
                             {
-                                "command": "open_file",
-                                "args": {"file": "${packages}/Znuny/Default.sublime-keymap"},
-                                "caption": "Key Bindings - Default"
-                            },
-                            {
-                                "command": "open_file",
-                                "args": {"file": "${packages}/User/Default.sublime-keymap"},
-                                "caption": "Key Bindings - User"
+                                "command": "edit_settings",
+                                "args":
+                                {
+                                    "base_file": "${packages}/Znuny-Sublime/Znuny.sublime-keymap",
+                                    "default": "{\n$0\n}\n"
+                                },
+                                "caption": "Key Bindings"
                             }
                         ]
                     }

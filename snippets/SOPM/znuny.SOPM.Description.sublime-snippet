@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+<Description Lang="${1:en}">${2:This package contains the functionality to...}</Description>
+]]></content>
+    <tabTrigger>znuny.SOPM.Description</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>
+

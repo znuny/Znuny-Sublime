@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<PackageIsVisible>${1:1}</PackageIsVisible>
+]]></content>
+    <tabTrigger>znuny.SOPM.PackageIsVisible</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

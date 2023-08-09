@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<License>${1:GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007}</License>
+]]></content>
+    <tabTrigger>znuny.SOPM.License</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

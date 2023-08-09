@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<ModuleRequired Version="${1:1.0}">${2:Perl::Critic}</ModuleRequired>
+]]></content>
+    <tabTrigger>znuny.SOPM.ModuleRequired</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

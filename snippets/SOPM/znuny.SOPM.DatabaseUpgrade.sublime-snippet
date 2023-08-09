@@ -1,0 +1,45 @@
+<snippet>
+    <content><![CDATA[
+<DatabaseUpgrade>
+    <TableCreate Name="${1:TableName}" Version="1.3.4">
+        <Column Name="event_id" Required="true" Type="BIGINT"/>
+        <Column Name="user_id" Required="true" Type="INTEGER"/>
+    </TableCreate>
+<!--  Altering Foreign Keys example, remove if not needed -->
+<!--
+    <TableAlter Type="post" Name="${1:TableName}" Version="1.3.4">
+        <ForeignKeyDrop ForeignTable="your_foreign_table">
+            <Reference Foreign="id" Local="your_foreign_table_id">
+            </Reference>
+        </ForeignKeyDrop>
+    </TableAlter>
+-->
+<!--  Adding Columns example, remove if not needed -->
+<!--
+    <TableAlter Type="post" Name="${1:TableName}" Version="1.3.4">
+        <ColumnAdd Name="ticket_id" PrimaryKey="true" Required="true" Type="BIGINT"></ColumnAdd>
+        <ColumnAdd Name="sample_varchar" Required="true" Size="200" Type="VARCHAR"></ColumnAdd>
+        <ColumnAdd Name="create_time" Required="false" Type="DATE"></ColumnAdd>
+        <ColumnAdd Name="create_by" Required="false" Type="INTEGER"></ColumnAdd>
+    </TableAlter>
+-->
+<!--  Dropping Columns example, remove if not needed -->
+<!--
+    <TableAlter Type="pre" Name="${1:TableName}">
+        <ColumnDrop Name="ticket_id"></ColumnDrop>
+        <ColumnDrop Name="sample_varchar"></ColumnDrop>
+        <ColumnDrop Name="create_time"></ColumnDrop>
+        <ColumnDrop Name="create_by"></ColumnDrop>
+    </TableAlter>
+-->
+<!--  Dropping Tables example, remove if not needed -->
+<!--
+    <TableDrop Type="pre" Name="${1:TableName}">
+    </TableDrop>
+-->
+</DatabaseUpgrade>
+]]></content>
+    <tabTrigger>znuny.SOPM.DatabaseUpgrade</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

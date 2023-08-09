@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<CodeInstall Type="post">//<![CDATA[
+    \$Kernel::OM->Get('var::packagesetup::Znuny')->CodeInstall();
+//]]/></CodeInstall>
+]]></content>
+    <tabTrigger>znuny.SOPM.CodeInstall</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

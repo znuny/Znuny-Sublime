@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<Vendor>${1:Znuny GmbH}</Vendor>
+]]></content>
+    <tabTrigger>znuny.SOPM.Vendor</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

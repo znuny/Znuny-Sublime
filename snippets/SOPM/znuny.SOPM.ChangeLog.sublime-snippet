@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<ChangeLog Version="${1:7.0.0}" Date="${2:2022-04-07 21:10:00 +0100}">${3:Changes.}</ChangeLog>
+]]></content>
+    <tabTrigger>znuny.SOPM.ChangeLog</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

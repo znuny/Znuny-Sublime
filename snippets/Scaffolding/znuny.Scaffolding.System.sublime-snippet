@@ -1,0 +1,59 @@
+<snippet>
+    <content><![CDATA[
+# --
+# Copyright (C) 2012 Znuny GmbH, http://znuny.com/
+# --
+# This software comes with ABSOLUTELY NO WARRANTY. For details, see
+# the enclosed file COPYING for license information (AGPL). If you
+# did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
+# --
+
+package Kernel::System::${1:Name};
+
+use strict;
+use warnings;
+use utf8;
+
+our @ObjectDependencies = (
+    'Kernel::System::Log',
+);
+
+use Kernel::System::VariableCheck qw(:all);
+
+=head1 NAME
+
+Kernel::System::${1:Name} - ${2:ObjectName} lib
+
+=head1 SYNOPSIS
+
+All ${2:ObjectName} functions
+
+=head1 PUBLIC INTERFACE
+
+=head2 new()
+
+    Don't use the constructor directly, use the ObjectManager instead:
+
+    my \$${2:ObjectName}Object = \$Kernel::OM->Get('Kernel::System::${1:Name}');
+
+=cut
+
+sub new {
+    my ( \$Type, %Param ) = @_;
+
+    my \$Self = {};
+    bless( \$Self, \$Type );
+
+    \$Self->{CacheType} = '${3:CacheName}';
+    \$Self->{CacheTTL}  = 60 * 60 * 24 * 20;
+
+    return \$Self;
+}
+
+1;
+
+]]></content>
+    <tabTrigger>znuny.Scaffolding.System</tabTrigger>
+    <description>perl</description>
+    <scope>source.perl</scope>
+</snippet>

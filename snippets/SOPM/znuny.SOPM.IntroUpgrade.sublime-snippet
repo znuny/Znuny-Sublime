@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<IntroUpgrade Type="${1|pre,post|}" Lang="${2:en}" Title="${3:Dependencies}!"><![CDATA[
+${4:Some Info formatted in html....}
+//]]/></IntroUpgrade>
+]]></content>
+    <tabTrigger>znuny.SOPM.IntroUpgrade</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>
+

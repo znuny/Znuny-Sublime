@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<PackageRequired>${1:1}</PackageRequired>
+]]></content>
+    <tabTrigger>znuny.SOPM.PackageRequired</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

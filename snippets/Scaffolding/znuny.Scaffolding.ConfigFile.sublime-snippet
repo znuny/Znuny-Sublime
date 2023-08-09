@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<?xml version="1.0" encoding="utf-8"?>
+<otrs_config version="2.0" init="Config">
+</otrs_config>
+]]></content>
+    <tabTrigger>znuny.Scaffolding.ConfigFile</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<URL>${1:https://znuny.com/}</URL>
+]]></content>
+    <tabTrigger>znuny.SOPM.URL</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <Name>${1:Name}</Name>
+    <Version>${2:7.0.0}</Version>
+    <Framework>${3:7.0.0}</Framework>
+    <PackageRequired>${4:7.0.0}</PackageRequired>
+    <ModuleRequired>${5:7.0.0}</ModuleRequired>
+    <Vendor>${6:Vendor}</Vendor>
+    <URL>${7:URL}</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Description Lang="en">${8:Description}</Description>
+    ${9:<PackageIsVisible>1</PackageIsVisible>}
+    ${10:<PackageIsDownloadable>1</PackageIsDownloadable>}
+    ${11:<PackageIsBuildable>1</PackageIsBuildable>}
+    ${12:<PackageIsRemovable>1</PackageIsRemovable>}
+    ${13:<PackageAllowDirectUpdate>1</PackageAllowDirectUpdate>}
+    <Filelist>
+       <File Permission="${18:660}" Location="${19:Kernel/System/Ticket.pm}"/>
+    </Filelist>
+</otrs_package>
+]]></content>
+    <tabTrigger>znuny.Scaffolding.SOPM</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

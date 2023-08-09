@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<IntroInstall Type="${1|pre,post|}" Lang="${2:en}" Title="${3:Dependencies}!"><![CDATA[
+${4:Some Info formatted in html....}
+//]]/></IntroInstall>
+]]></content>
+    <tabTrigger>znuny.SOPM.IntroInstall</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

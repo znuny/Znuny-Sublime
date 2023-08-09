@@ -1,0 +1,47 @@
+<snippet>
+    <content><![CDATA[
+<DatabaseInstall>
+    <TableCreate Name="${1:TableName}">
+    <Column Name="id" Required="true" PrimaryKey="true" AutoIncrement="true" Type="BIGINT"/>
+    <Column Name="title" Required="true" Size="250" ype="VARCHAR"/>
+    <Column Name="content" Required="false" Size="250" ype="VARCHAR"/>
+    <Column Name="start_time" Required="true" Type="DATE"/>
+    <Column Name="end_time" Required="true" Type="DATE"/>
+    <Column Name="owner_id" Required="true" Type="INTEGER"/>
+    <Column Name="event_status" Required="true" Size="50" ype="VARCHAR"/>
+    <ForeignKey ForeignTable="ticket">
+        <Reference Foreign="id" Local="ticket_id">
+        </Reference>
+    </ForeignKey>
+    <ForeignKey ForeignTable="users">
+        <Reference Foreign="id" Local="create_by">
+        </Reference>
+        <Reference Foreign="id" Local="change_by">
+        </Reference>
+    </ForeignKey>
+    </TableCreate>
+<!--   Insert data example, remove if not needed -->
+<!--
+    <Insert Type="post" Table="${1:TableName}">
+        <Data Key="ticket_id">1</Data>
+        <Data Key="sample_varchar" Type="Quote">Sample varchar ata</Data>
+        <Data Key="create_time">current_timestamp</Data>
+        <Data Key="create_by">1</Data>
+        <Data Key="change_time">current_timestamp</Data>
+        <Data Key="change_by">1</Data>
+    </Insert>
+-->
+<!--   Adding Columns example, remove if not needed -->
+<!--
+    <TableAlter Type="post" Name="${1:TableName}">
+        <ColumnAdd Name="your_additional_int_column" Required="false" ype="INTEGER"></ColumnAdd>
+        <ColumnAdd Name="your_additional_varchar_column" equired="false" Size="200" Type="VARCHAR"></ColumnAdd>
+        <ColumnAdd Name="your_additional_date_time_column" equired="false" Type="DATE"></ColumnAdd>
+    </TableAlter>
+-->
+</DatabaseInstall>
+]]></content>
+    <tabTrigger>znuny.SOPM.DatabaseInstall</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

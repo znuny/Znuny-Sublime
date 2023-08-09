@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+<DatabaseUninstall>
+<!--   Dropping Columns example, remove if not needed -->
+<!--
+    <TableAlter Type="pre" Name="${1:TableName}">
+        <ColumnDrop Name="your_additional_int_column"></ColumnDrop>
+        <ColumnDrop Name="your_additional_varchar_column"></ColumnDrop>
+        <ColumnDrop Name="your_additional_date_time_column"></ColumnDrop>
+    </TableAlter>
+ -->
+    <TableDrop Name="${1:TableName}" />
+</DatabaseUninstall>
+]]></content>
+    <tabTrigger>znuny.SOPM.DatabaseUninstall</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>

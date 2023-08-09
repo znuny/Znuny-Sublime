@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<PackageIsBuildable>${1:1}</PackageIsBuildable>
+]]></content>
+    <tabTrigger>znuny.SOPM.PackageIsBuildable</tabTrigger>
+    <description>xml</description>
+    <scope>text.xml</scope>
+</snippet>
