@@ -151,7 +151,7 @@ class ZnunyCustomizers(sublime_plugin.WindowCommand):
 
     def custom_header(self, content, path, sha):
 
-        copyright = " Copyright (C) 2012 Znuny GmbH, http://znuny.com/"
+        copyright = " Copyright (C) 2012 Znuny GmbH, https://znuny.com/"
         comment_prefix = '#'
         comment_prefix_regex = '\%s' % comment_prefix  # noqa: W605
 
