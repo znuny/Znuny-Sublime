@@ -65,6 +65,9 @@ class ZnunyGenerateFilelist(sublime_plugin.TextCommand):
                 if re.search(r'^README\.md$', filename):
                     continue
 
+                if re.search(r'^LICENSE$', filename):
+                    continue
+
                 if re.search(r'\.sopm$', filename):
                     continue
 
