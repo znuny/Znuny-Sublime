@@ -36,7 +36,7 @@
                                 "command": "edit_settings",
                                 "args":
                                 {
-                                    "base_file": "${packages}/Znuny-Sublime/Znuny.sublime-keymap",
+                                    "base_file": "${packages}/Znuny-Sublime/Default.sublime-keymap",
                                     "default": "{\n$0\n}\n"
                                 },
                                 "caption": "Key Bindings"
