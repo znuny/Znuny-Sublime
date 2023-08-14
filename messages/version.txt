@@ -1,41 +1,9 @@
-🌟 Version 1.0.7 🌟
+🌟 Version 1.0.8 🌟
 
-✔ Updated Sublime Menu
-✔ Added Snippets
-  - `znuny.Scaffolding.ConfigFile.sublime-snippet`
-  - `znuny.Scaffolding.SOPM.sublime-snippet`
-  - `znuny.Scaffolding.System.sublime-snippet`
-  - `znuny.Scaffolding.UnitTest.sublime-snippet`
-  - `znuny.SOPM.OS.sublime-snippet`
-  - `znuny.SOPM.ChangeLog.sublime-snippet`
-  - `znuny.SOPM.CodeInstall.sublime-snippet`
-  - `znuny.SOPM.CodeReinstall.sublime-snippet`
-  - `znuny.SOPM.CodeUninstall.sublime-snippet`
-  - `znuny.SOPM.CodeUpgrade.sublime-snippet`
-  - `znuny.SOPM.DatabaseInstall.sublime-snippet`
-  - `znuny.SOPM.DatabaseReinstall.sublime-snippet`
-  - `znuny.SOPM.DatabaseUninstall.sublime-snippet`
-  - `znuny.SOPM.DatabaseUpgrade.sublime-snippet`
-  - `znuny.SOPM.Description.sublime-snippet`
-  - `znuny.SOPM.File.sublime-snippet`
-  - `znuny.SOPM.Filelist.sublime-snippet`
-  - `znuny.SOPM.Framework.sublime-snippet`
-  - `znuny.SOPM.IntroInstall.sublime-snippet`
-  - `znuny.SOPM.IntroReinstall.sublime-snippet`
-  - `znuny.SOPM.IntroUninstall.sublime-snippet`
-  - `znuny.SOPM.IntroUpgrade.sublime-snippet`
-  - `znuny.SOPM.License.sublime-snippet`
-  - `znuny.SOPM.ModuleRequired.sublime-snippet`
-  - `znuny.SOPM.Name.sublime-snippet`
-  - `znuny.SOPM.PackageAllowDirectUpdate.sublime-snippet`
-  - `znuny.SOPM.PackageIsBuildable.sublime-snippet`
-  - `znuny.SOPM.PackageIsDownloadable.sublime-snippet`
-  - `znuny.SOPM.PackageIsRemovable.sublime-snippet`
-  - `znuny.SOPM.PackageIsVisible.sublime-snippet`
-  - `znuny.SOPM.PackageRequired.sublime-snippet`
-  - `znuny.SOPM.URL.sublime-snippet`
-  - `znuny.SOPM.Vendor.sublime-snippet`
-  - `znuny.SOPM.Version.sublime-snippet`
+✔ Improved generate filelist: Ignore LICENSE file.
+✔ Fixed edit_settings name.
+✔ Updated URL in copyright.
+
 
 GitHub link - https://github.com/znuny/Znuny-Sublime
 

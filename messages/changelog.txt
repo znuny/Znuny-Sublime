@@ -1,3 +1,8 @@
+Version 1.0.8
+✔ Improved generate filelist: Ignore LICENSE file.
+✔ Fixed edit_settings name.
+✔ Updated URL in copyright.
+
 Version 1.0.7
 ✔ Updated Sublime Menu
 ✔ Added Snippets

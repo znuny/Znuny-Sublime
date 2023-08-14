@@ -20,26 +20,26 @@
                                 "command": "open_file",
                                 "args":
                                 {
-                                    "file": "${packages}/Znuny-Sublime/README.md"
+                                    "file": "${packages}/Znuny/README.md"
                                 }
                             },
                             {
+                                "caption": "Settings",
                                 "command": "edit_settings",
                                 "args":
                                 {
-                                    "base_file": "${packages}/Znuny-Sublime/Znuny.sublime-settings",
+                                    "base_file": "${packages}/Znuny/Znuny.sublime-settings",
                                     "default": "{\n$0\n}\n"
                                 },
-                                "caption": "Settings"
                             },
                             {
+                                "caption": "Key Bindings",
                                 "command": "edit_settings",
                                 "args":
                                 {
-                                    "base_file": "${packages}/Znuny-Sublime/Default.sublime-keymap",
+                                    "base_file": "${packages}/Znuny/Default.sublime-keymap",
                                     "default": "{\n$0\n}\n"
                                 },
-                                "caption": "Key Bindings"
                             }
                         ]
                     }

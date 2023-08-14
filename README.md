@@ -26,21 +26,21 @@ To install this plugin, you have three options:
     cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
     - or ST 3 -
     cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
-    git clone git://github.com/znuny/Znuny-Sublime.git
+    git clone git://github.com/znuny/Znuny-Sublime.git Znuny
 
 *Linux*
 
     cd ~/.config/sublime-text-2/Packages
     - or ST 3 -
     cd ~/.config/sublime-text-3/Packages
-    git clone git://github.com/znuny/Znuny-Sublime.git
+    git clone git://github.com/znuny/Znuny-Sublime.git Znuny
 
 *Windows*
 
     cd "%APPDATA%\Sublime Text 2\Packages"
     - or ST 3 -
     cd "%APPDATA%\Sublime Text 3\Packages"
-    git clone git://github.com/znuny/Znuny-Sublime.git
+    git clone git://github.com/znuny/Znuny-Sublime.git Znuny
 
 ### Usage
 
