@@ -4,7 +4,6 @@
 ✔ Fixed edit_settings name.
 ✔ Updated URL in copyright.
 
-
 GitHub link - https://github.com/znuny/Znuny-Sublime
 
 Enjoy!
