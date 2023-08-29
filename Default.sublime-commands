@@ -1,0 +1,7 @@
+[
+    { "caption": "Znuny: Add Folder to Project", "command": "znuny_add_to_project" },
+    { "caption": "Znuny: Customizer", "command": "znuny_customizers" },
+    { "caption": "Znuny: Generate SOPM FileList", "command": "znuny_generate_filelist" },
+    { "caption": "Znuny: Generate ObjectDependencies", "command": "znuny_object_dependencies" },
+    { "caption": "Znuny: Quote with Marker", "command": "znuny_quote_with_marker" },
+]

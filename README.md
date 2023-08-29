@@ -50,7 +50,8 @@ To install this plugin, you have three options:
 
 #### Add folder from workspace(s) to project
 
-Default keyboard shortcut: ```strg+alt+z, p```
+**Shortcut:** ```strg + alt + z, p```<br>
+**Command:**  ```Znuny: Add Folder to Project```
 
 Provides a searchable list of folders that can be added to the project. All folders of configurable workspace folders will be displayed.
 
@@ -60,7 +61,8 @@ Preferences -> Package Settings -> Znuny -> Settings -> "znuny_workspaces"
 
 #### Fetching Znuny files from github
 
-Default keyboard shortcut: ```strg+alt+z, c```
+**Shortcut:** ```strg + alt + z, c```<br>
+**Command:**  ```Znuny: Customizer```
 
 Opens a project, branch and file selection list to chose a framework or addon file from. The file will get fetched live from the selected github branch and added to the (selected) folder. The Znuny copyright and the origin tag will be added automatically to the file header for you. The file will also be automatically added to the 'Custom/' directory in case it's a file with one of the file extensions '.pm', '.dtl' or '.tt'.
 
@@ -76,7 +78,8 @@ And add the settings "znuny_github_username" and "znuny_github_token" accordingl
 
 #### Creating SOPM Filelist from project
 
-Default keyboard shortcut: ```strg+alt+z, f```
+**Shortcut:** ```strg + alt + z, f```<br>
+**Command:**  ```Znuny: Generate SOPM FileList```
 
 Inserts the SOPM Filelist content containing all files of a selectable project.
 
@@ -84,7 +87,8 @@ Inserts the SOPM Filelist content containing all files of a selectable project.
 
 #### Automatic creation of the ObjectDependencies array
 
-Default keyboard shortcut: ```strg+alt+z, d```
+**Shortcut:** ```strg + alt + z, d```<br>
+**Command:**  ```Znuny: Generate ObjectDependencies```
 
 Inserts the @ObjectDependencies array by parsing the file content. Only regular used OM calls are supported.
 
@@ -92,7 +96,8 @@ Inserts the @ObjectDependencies array by parsing the file content. Only regular 
 
 #### Automatic custom marker quoting
 
-Default keyboard shortcut: ```strg+alt+z, q```
+**Shortcut:** ```strg + alt + z, q```<br>
+**Command:**  ```Znuny: Quote with Marker```
 
 Works with active Perl, JavaScript and HTML syntax.
 

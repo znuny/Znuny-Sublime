@@ -1,8 +1,6 @@
-🌟 Version 1.0.8 🌟
+🌟 Version 1.0.9 🌟
 
-✔ Improved generate filelist: Ignore LICENSE file.
-✔ Fixed edit_settings name.
-✔ Updated URL in copyright.
+✔ Command Palette - Added Znuny Commands to Default.sublime-commands.
 
 GitHub link - https://github.com/znuny/Znuny-Sublime
 
