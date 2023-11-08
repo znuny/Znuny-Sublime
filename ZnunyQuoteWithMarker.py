@@ -33,6 +33,8 @@ class ZnunyQuoteWithMarkerCommand(sublime_plugin.TextCommand):
             if var["name"] == "TM_COMMENT_END":
                 quote_char_end = " " + var["value"]
 
+        print(meta)
+
         # Loop over all selections.
         for region in self.view.sel():
 
@@ -44,9 +46,9 @@ class ZnunyQuoteWithMarkerCommand(sublime_plugin.TextCommand):
             selection = self.view.substr(region)
 
             # Start custom maker.
-            code_marker_replace = """{quote_char_start} ---{quote_char_end}
-{quote_char_start} {code_marker}{quote_char_end}
-{quote_char_start} ---{quote_char_end}
+            code_marker_replace = """{quote_char_start}---{quote_char_end}
+{quote_char_start}{code_marker}{quote_char_end}
+{quote_char_start}---{quote_char_end}
 """
             # Add QuoteCharStart to every single line.
             for line in selection.split("\n"):
@@ -57,17 +59,12 @@ class ZnunyQuoteWithMarkerCommand(sublime_plugin.TextCommand):
                 # Add quote.
                 code_marker_replace += "{quote_char_start}"
 
-                # Insert leading space for non empty lines.
-                if len(line) >= 1:
-
-                    code_marker_replace += " "
-
                 # Add old line and an linebreak.
                 code_marker_replace += line + "{quote_char_end}\n"
 
             # Add old selection and trailing code marker.
             code_marker_replace += selection
-            code_marker_replace += "\n\n{quote_char_start} ---{quote_char_end}\n"
+            code_marker_replace += "\n\n{quote_char_start}---{quote_char_end}\n"
 
             code_marker_replace = code_marker_replace.replace(
                 "{quote_char_start}", quote_char_start
