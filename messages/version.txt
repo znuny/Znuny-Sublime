@@ -1,7 +1,6 @@
-🌟 Version 1.0.10 🌟
+🌟 Version 1.0.11 🌟
 
-✔ Fixed - Codemarker is not accurate enough.
-✔ Added LanguageID detection for QuoteWithMarker.
+✔ Removed obsolete space after quote_char_start.
 
 GitHub link - https://github.com/znuny/Znuny-Sublime
 

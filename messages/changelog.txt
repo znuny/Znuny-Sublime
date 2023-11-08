@@ -1,3 +1,6 @@
+Version 1.0.11
+✔ Removed obsolete space after quote_char_start.
+
 Version 1.0.10
 ✔ Fixed - Codemarker is not accurate enough.
 ✔ Added LanguageID detection for QuoteWithMarker.

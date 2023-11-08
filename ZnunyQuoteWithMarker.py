@@ -33,8 +33,6 @@ class ZnunyQuoteWithMarkerCommand(sublime_plugin.TextCommand):
             if var["name"] == "TM_COMMENT_END":
                 quote_char_end = " " + var["value"]
 
-        print(meta)
-
         # Loop over all selections.
         for region in self.view.sel():
 
