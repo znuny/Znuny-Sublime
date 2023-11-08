@@ -1,3 +1,7 @@
+Version 1.0.10
+✔ Fixed - Codemarker is not accurate enough.
+✔ Added LanguageID detection for QuoteWithMarker.
+
 Version 1.0.9
 ✔ Command Palette - Added Znuny Commands to Default.sublime-commands.
 

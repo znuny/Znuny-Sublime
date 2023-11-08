@@ -1,6 +1,7 @@
-🌟 Version 1.0.9 🌟
+🌟 Version 1.0.10 🌟
 
-✔ Command Palette - Added Znuny Commands to Default.sublime-commands.
+✔ Fixed - Codemarker is not accurate enough.
+✔ Added LanguageID detection for QuoteWithMarker.
 
 GitHub link - https://github.com/znuny/Znuny-Sublime
 
