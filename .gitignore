@@ -1,3 +1,4 @@
-include:
-  - project: $INCLUDE_PROJECT
-    file: '/templates/gitlab/Znuny-Sublime/default.yml'
+*.sublime-package
+*.pyc
+package-metadata.json
+TODO.md
