@@ -66,7 +66,7 @@ Preferences -> Package Settings -> Znuny -> Settings -> "znuny_workspaces"
 
 Opens a project, branch and file selection list to chose a framework or addon file from. The file will get fetched live from the selected github branch and added to the (selected) folder. The Znuny copyright and the origin tag will be added automatically to the file header for you. The file will also be automatically added to the 'Custom/' directory in case it's a file with one of the file extensions '.pm', '.dtl' or '.tt'.
 
-The github API is limited to 60 requests per hour for non authorized requests. Yo can provide your github username and an access token to push this limit to 5000 requests per hour. Please see the [official github doc](https://developer.github.com/v3/#rate-limiting) for further information.
+The GitHub API is limited to 60 requests per hour for non authorized requests. You can provide your GitHub username and an access token to push this limit to 5000 requests per hour. Please see the [official github doc](https://docs.github.com/en/free-pro-team@latest/rest/rate-limit/rate-limit?apiVersion=2022-11-28) for further information.
 You can generate the access token in your [github settings](https://github.com/settings/tokens).
 
 To add your access credentials go to:

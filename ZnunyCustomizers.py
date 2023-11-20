@@ -235,9 +235,10 @@ class ZnunyCustomizers(sublime_plugin.WindowCommand):
 
         request = Request(url)
 
-        github_username = settings.get('znuny_github_username')
-        if github_username and len(github_username) > 0:
-            github_token = settings.get('znuny_github_token')
+        github_username = settings.get("znuny_github_username")
+        github_token = settings.get("znuny_github_token")
+
+        if github_username and github_token and len(github_username) > 0 and len(github_token) > 0:
 
             credentials = '%s:%s' % (github_username, github_token)
 

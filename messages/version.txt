@@ -1,6 +1,7 @@
-🌟 Version 1.0.11 🌟
+🌟 Version 1.0.12 🌟
 
-✔ Removed obsolete space after quote_char_start.
+✔ Updated README.md.
+✔ Improved github_username checks.
 
 GitHub link - https://github.com/znuny/Znuny-Sublime
 

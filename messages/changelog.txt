@@ -1,3 +1,7 @@
+Version 1.0.12
+✔ Updated README.md.
+✔ Improved github_username checks.
+
 Version 1.0.11
 ✔ Removed obsolete space after quote_char_start.
 
