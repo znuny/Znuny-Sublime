@@ -48,6 +48,12 @@ class ZnunyGenerateFilelist(sublime_plugin.TextCommand):
             else:
                 sub_dir = ''
 
+            if re.search(r'^\.vscode', sub_dir):
+                continue
+
+            if re.search(r'^\.idea', sub_dir):
+                continue
+
             if re.search(r'^\.git', sub_dir):
                 continue
 
