@@ -9,9 +9,18 @@ ${1:\$StandardTemplateObject->StandardTemplateUpdate(
     ValidID      => \$ValidID,
     UserID       => \$UserID,
 );}
+${2:\$StandardTemplateObject->StandardTemplateUpdate(
+    ID           => 123,
+    Name         => 'New Standard Template',
+    Template     => 'Thank you for your email.',
+    ContentType  => 'text/plain; charset=utf-8',
+    TemplateType => 'Answer,Forward',
+    ValidID      => \$ValidID,
+    UserID       => \$UserID,
+);}
 
 ]]></content>
     <tabTrigger>znuny.StandardTemplateObject.StandardTemplateUpdate</tabTrigger>
-    <description>6.0, 6.4, 6.5, 7.0</description>
+    <description>6.0, 6.4, 6.5, 7.0, 7.1</description>
     <scope>source.perl</scope>
 </snippet>

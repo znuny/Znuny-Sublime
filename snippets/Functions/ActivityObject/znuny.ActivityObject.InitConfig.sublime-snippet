@@ -4,6 +4,6 @@ ${1:my \$Success = \$ActivityObject->InitConfig();}
 
 ]]></content>
     <tabTrigger>znuny.ActivityObject.InitConfig</tabTrigger>
-    <description>7.0</description>
+    <description>7.0, 7.1</description>
     <scope>source.perl</scope>
 </snippet>

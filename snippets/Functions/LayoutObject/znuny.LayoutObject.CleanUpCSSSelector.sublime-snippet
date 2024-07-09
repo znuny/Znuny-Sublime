@@ -6,6 +6,6 @@ ${1:my \$CSSSelector = \$LayoutObject->CleanUpCSSSelector(
 
 ]]></content>
     <tabTrigger>znuny.LayoutObject.CleanUpCSSSelector</tabTrigger>
-    <description>7.0</description>
+    <description>7.0, 7.1</description>
     <scope>source.perl</scope>
 </snippet>

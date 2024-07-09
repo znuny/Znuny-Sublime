@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my %VersionInfos = \$DBObject->CheckRequiredDatabaseVersion();}
+
+]]></content>
+    <tabTrigger>znuny.DBObject.CheckRequiredDatabaseVersion</tabTrigger>
+    <description>7.1</description>
+    <scope>source.perl</scope>
+</snippet>

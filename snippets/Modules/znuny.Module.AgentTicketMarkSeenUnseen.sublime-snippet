@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+AgentTicketMarkSeenUnseen
+]]></content>
+    <tabTrigger>AgentTicketMarkSeenUnseen</tabTrigger>
+    <description>7.1</description>
+    <scope>source.perl</scope>
+</snippet>
