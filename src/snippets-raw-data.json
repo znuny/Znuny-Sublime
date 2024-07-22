@@ -2731,6 +2731,9 @@
          ],
          "Functions" : {
             "CheckRequiredDatabaseVersion" : {
+               "my %VersionInfo = $DBObject->CheckRequiredDatabaseVersion();" : [
+                  "7.1"
+               ],
                "my %VersionInfos = $DBObject->CheckRequiredDatabaseVersion();" : [
                   "7.1"
                ]
@@ -10366,6 +10369,11 @@
                   "6.4",
                   "6.5",
                   "7.0",
+                  "7.1"
+               ]
+            },
+            "DeleteCache" : {
+               "$SupportDataCollectorObject->DeleteCache();" : [
                   "7.1"
                ]
             }

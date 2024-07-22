@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:\$SupportDataCollectorObject->DeleteCache();}
+
+]]></content>
+    <tabTrigger>znuny.SupportDataCollectorObject.DeleteCache</tabTrigger>
+    <description>7.1</description>
+    <scope>source.perl</scope>
+</snippet>

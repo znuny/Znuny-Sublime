@@ -1,3 +1,7 @@
+Version 1.1.1
+✔ Added Snippets
+✔ Updated Snippets
+
 Version 1.0.12
 ✔ Updated README.md.
 ✔ Improved github_username checks.
