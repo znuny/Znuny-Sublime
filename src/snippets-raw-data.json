@@ -6376,6 +6376,9 @@
                ]
             },
             "MailAccountFetch" : {
+               "my $Ok = $MailAccountObject->MailAccountFetch(\n    Login         => 'mail',\n    Password      => 'SomePassword',\n    Host          => 'pop3.example.com',\n    Type          => 'POP3',    # POP3,POP3s,IMAP,IMAPS\n    Trusted       => 0,\n    DispatchingBy => 'Queue',   # Queue|From\n    QueueID       => $QueueID,\n    CMD           => 1, # optional: Print additional output of MailAccount module to STDOUT\n    UserID        => $UserID,\n);" : [
+                  "7.1"
+               ],
                "my $Ok = $MailAccountObject->MailAccountFetch(\n    Login         => 'mail',\n    Password      => 'SomePassword',\n    Host          => 'pop3.example.com',\n    Type          => 'POP3',    # POP3,POP3s,IMAP,IMAPS\n    Trusted       => 0,\n    DispatchingBy => 'Queue',   # Queue|From\n    QueueID       => $QueueID,\n    UserID        => $UserID,\n);" : [
                   "6.0",
                   "6.4",
