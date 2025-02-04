@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %ColumnMaxLength = \$DBObject->GetColumnMaxLengths(
+    Table => "customer_user",
+);}
+
+]]></content>
+    <tabTrigger>znuny.DBObject.GetColumnMaxLengths</tabTrigger>
+    <description>7.1</description>
+    <scope>source.perl</scope>
+</snippet>

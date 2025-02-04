@@ -2797,6 +2797,11 @@
                   "7.1"
                ]
             },
+            "GetColumnMaxLengths" : {
+               "my %ColumnMaxLength = $DBObject->GetColumnMaxLengths(\n    Table => \"customer_user\",\n);" : [
+                  "7.1"
+               ]
+            },
             "GetColumnNames" : {
                "my @Names = $DBObject->GetColumnNames();" : [
                   "6.0",
