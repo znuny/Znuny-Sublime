@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ImportResult = \$SalutationObject->SalutationImport(
+    Content                      => \$YAMLContent, # mandatory, YAML format
+    OverwriteExistingSalutations => 0,            # optional, possible: 0, 1
+    UserID                       => \$UserID,            # mandatory
+);}
+
+]]></content>
+    <tabTrigger>znuny.SalutationObject.SalutationImport</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

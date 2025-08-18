@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:\$LogObject->Error("Something went wrong!");}
+
+]]></content>
+    <tabTrigger>znuny.LogObject.Error</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

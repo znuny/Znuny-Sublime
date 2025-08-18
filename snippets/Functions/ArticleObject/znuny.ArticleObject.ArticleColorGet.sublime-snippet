@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my %ArticleColor = \$ArticleObject->ArticleColorGet(
+    Name => 'agent::Email::VisibleForCustomer',     # required, Name or ID of the article color
+    # or
+    ID => '1',                                      # required, ID or Name of the article color
+);}
+
+]]></content>
+    <tabTrigger>znuny.ArticleObject.ArticleColorGet</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

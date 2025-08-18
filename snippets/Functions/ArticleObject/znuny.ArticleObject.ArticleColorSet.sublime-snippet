@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ArticleColorID = \$ArticleObject->ArticleColorSet(
+    Name                 => 'agent::Email::VisibleForCustomer',     # required, Name of the article color
+    # or
+    SenderType           => 'agent',                                # agent|customer|system
+    CommunicationChannel => 'Email',                                # Email|Phone|Chat|...
+    IsVisibleForCustomer => 1,                                      # 1|VisibleForCustomer or 0|NotVisibleForCustomer
+
+    Color                => '#FFCCDD',                              # required, Color of the article
+    UserID               => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.ArticleObject.ArticleColorSet</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ExportData = \$SalutationObject->SalutationExport(
+    # required either ID or ExportAll
+    ID                       => \$SalutationID,
+    ExportAll                => 0,               # possible: 0, 1
+
+    UserID                   => \$UserID,               # required
+\}}
+
+]]></content>
+    <tabTrigger>znuny.SalutationObject.SalutationExport</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

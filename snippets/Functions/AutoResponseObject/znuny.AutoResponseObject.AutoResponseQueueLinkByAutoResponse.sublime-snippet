@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$AutoResponseObject->AutoResponseQueueLinkByAutoResponse(
+    QueueIDs => [1,2,3],
+    ID       => 1,
+    UserID   => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.AutoResponseObject.AutoResponseQueueLinkByAutoResponse</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

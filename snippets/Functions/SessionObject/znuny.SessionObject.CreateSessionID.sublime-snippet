@@ -4,9 +4,15 @@ ${1:my \$SessionID = \$SessionObject->CreateSessionID(
     UserLogin => 'root',
     UserEmail => 'root@example.com',
 );}
+${2:my \$SessionID = \$SessionObject->CreateSessionID(
+    UserType      => 'User',                # required, 'User' or 'Customer'
+    UserLogin     => 'root',
+    UserEmail     => 'root@example.com',
+    SessionSource => 'GenericInterface',    # optional, used to identify the source of the session
+);}
 
 ]]></content>
     <tabTrigger>znuny.SessionObject.CreateSessionID</tabTrigger>
-    <description>6.0, 6.4, 6.5, 7.0, 7.1</description>
+    <description>6.0, 6.4, 6.5, 7.0, 7.1, 7.2</description>
     <scope>source.perl</scope>
 </snippet>

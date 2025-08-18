@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$HTMLString = \$HTMLUtilsObject->ToHTMLReplaceWithParagraphs(
+    String => \$String,
+);}
+
+]]></content>
+    <tabTrigger>znuny.HTMLUtilsObject.ToHTMLReplaceWithParagraphs</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

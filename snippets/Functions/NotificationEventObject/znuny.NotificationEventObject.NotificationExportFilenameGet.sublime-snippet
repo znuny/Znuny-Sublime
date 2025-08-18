@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Filename = \$NotificationEventObject->NotificationExportFilenameGet(
+    Type => 'Appointment',
+    Name => 'notification_1',
+    Format => 'YAML',
+);}
+
+]]></content>
+    <tabTrigger>znuny.NotificationEventObject.NotificationExportFilenameGet</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

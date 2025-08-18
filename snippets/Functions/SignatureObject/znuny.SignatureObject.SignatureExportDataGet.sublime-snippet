@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %SignatureData = \$SignatureObject->SignatureExportDataGet(
+    ID               => 1, # mandatory
+);}
+
+]]></content>
+    <tabTrigger>znuny.SignatureObject.SignatureExportDataGet</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

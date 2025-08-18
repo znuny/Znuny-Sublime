@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Preferences = \$ProcessObject->ProcessPreferencesGet(
+    ProcessEntityID => \$ProcessEntityID,
+    Export          => 1,       # optional, if set to 1, the content of a file will be exported as Base64
+    UserID          => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.ProcessObject.ProcessPreferencesGet</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

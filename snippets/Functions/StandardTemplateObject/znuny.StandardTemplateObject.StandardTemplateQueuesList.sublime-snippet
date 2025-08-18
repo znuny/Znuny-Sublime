@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %StandardTemplateQueues = \$StandardTemplateObject->StandardTemplateQueuesList(
+    ID => 1, # mandatory
+);}
+
+]]></content>
+    <tabTrigger>znuny.StandardTemplateObject.StandardTemplateQueuesList</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

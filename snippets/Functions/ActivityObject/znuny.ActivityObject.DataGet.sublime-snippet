@@ -14,6 +14,6 @@ ${1:my %Data = \$ActivityObject->DataGet(
 
 ]]></content>
     <tabTrigger>znuny.ActivityObject.DataGet</tabTrigger>
-    <description>7.0, 7.1</description>
+    <description>7.0, 7.1, 7.2</description>
     <scope>source.perl</scope>
 </snippet>

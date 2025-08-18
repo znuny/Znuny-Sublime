@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$StandardTemplateObject->StandardTemplateAttachmentLinkByTemplate(
+    AttachmentIDs => [1,2,3],
+    ID            => 1,
+    UserID        => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.StandardTemplateObject.StandardTemplateAttachmentLinkByTemplate</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

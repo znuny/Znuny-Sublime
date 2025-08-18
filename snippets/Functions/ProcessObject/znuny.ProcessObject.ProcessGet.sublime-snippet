@@ -2,10 +2,14 @@
     <content><![CDATA[
 ${1:my \$Process = \$ProcessObject->ProcessGet(
     ProcessEntityID => \$ProcessEntityID,
+    Preferences     => 1,    # (optional) default 1 (0|1), if set to 1, returns Preferences
+);}
+${2:my \$Process = \$ProcessObject->ProcessGet(
+    ProcessEntityID => \$ProcessEntityID,
 );}
 
 ]]></content>
     <tabTrigger>znuny.ProcessObject.ProcessGet</tabTrigger>
-    <description>6.0, 6.4, 6.5, 7.0, 7.1</description>
+    <description>6.0, 6.4, 6.5, 7.0, 7.1, 7.2</description>
     <scope>source.perl</scope>
 </snippet>

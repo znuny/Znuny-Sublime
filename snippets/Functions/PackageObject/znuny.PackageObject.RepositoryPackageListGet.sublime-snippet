@@ -9,6 +9,6 @@ ${1:my @List = \$PackageObject->RepositoryPackageListGet(
 
 ]]></content>
     <tabTrigger>znuny.PackageObject.RepositoryPackageListGet</tabTrigger>
-    <description>6.4, 6.5, 7.0, 7.1</description>
+    <description>6.4, 6.5, 7.0, 7.1, 7.2</description>
     <scope>source.perl</scope>
 </snippet>

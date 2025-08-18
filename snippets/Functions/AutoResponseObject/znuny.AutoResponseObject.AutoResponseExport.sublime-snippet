@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ExportData = \$AutoResponseObject->AutoResponseExport(
+    # required either ID or ExportAll
+    ID                       => \$AutoResponseID,
+    ExportAll                => 0,               # possible: 0, 1
+
+    UserID                   => \$UserID,               # required
+\}}
+
+]]></content>
+    <tabTrigger>znuny.AutoResponseObject.AutoResponseExport</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

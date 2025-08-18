@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %AutoResponseData = \$AutoResponseObject->AutoResponseExportDataGet(
+    ID               => 1, # mandatory
+);}
+
+]]></content>
+    <tabTrigger>znuny.AutoResponseObject.AutoResponseExportDataGet</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

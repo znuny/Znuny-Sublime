@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$NewSalutationID = \$SalutationObject->SalutationCopy(
+    ID     => 1, # mandatory
+    UserID => \$UserID, # mandatory
+);}
+
+]]></content>
+    <tabTrigger>znuny.SalutationObject.SalutationCopy</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

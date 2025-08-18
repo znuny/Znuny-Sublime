@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Data = \$TranslationObject->DataSearch(
+    Search          => 'test*test',
+    ID              => '...', # optional
+    LanguageID      => \$LanguageID, # optional
+    Source          => '...', # optional
+    Destination     => '...', # optional
+    ValidID         => \$ValidID, # optional
+    CreateTime      => '...', # optional
+    CreateBy        => '...', # optional
+    ChangeTime      => '...', # optional
+    ChangeBy        => '...', # optional
+    DeploymentState => '...', # optional
+    UserID          => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.TranslationObject.DataSearch</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

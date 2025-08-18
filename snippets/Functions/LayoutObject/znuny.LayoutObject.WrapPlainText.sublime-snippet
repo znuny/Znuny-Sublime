@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$WrappedPlainText = \$LayoutObject->WrapPlainText(
+    PlainText     => "Some Plain text that is longer than the amount stored in MaxCharacters",
+    MaxCharacters => 80,
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.WrapPlainText</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %AutoResponseQueues = \$AutoResponseObject->AutoResponseQueuesList(
+    ID => 1, # mandatory
+);}
+
+]]></content>
+    <tabTrigger>znuny.AutoResponseObject.AutoResponseQueuesList</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

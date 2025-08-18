@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$CreatedID = \$TranslationObject->DataAdd(
+    ID              => '...',
+    LanguageID      => \$LanguageID,
+    Source          => '...',
+    Destination     => '...',
+    ValidID         => \$ValidID,
+    CreateTime      => '...',
+    CreateBy        => '...',
+    ChangeTime      => '...',
+    ChangeBy        => '...',
+    DeploymentState => '...',
+    UserID          => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.TranslationObject.DataAdd</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

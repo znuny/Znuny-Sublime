@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$TranslationObject->TranslationFilesDelete();}
+
+]]></content>
+    <tabTrigger>znuny.TranslationObject.TranslationFilesDelete</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

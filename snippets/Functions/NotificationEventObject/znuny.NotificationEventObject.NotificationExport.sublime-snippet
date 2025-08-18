@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ExportData = \$NotificationEventObject->NotificationExport(
+    # required either ID or ExportAll
+    ID                       => \$NotificationID,
+    ExportAll                => 0,               # possible: 0, 1
+
+    UserID                   => \$UserID,               # required
+    Type                     => 'Ticket',        # optional, default: 'Ticket'
+    All                      => 1                # optional, default: undef
+\}}
+
+]]></content>
+    <tabTrigger>znuny.NotificationEventObject.NotificationExport</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

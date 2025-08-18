@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ImportResult = \$SignatureObject->SignatureImport(
+    Content                     => \$YAMLContent, # mandatory, YAML format
+    OverwriteExistingSignatures => 0,            # optional, possible: 0, 1
+    UserID                      => \$UserID,            # mandatory
+);}
+
+]]></content>
+    <tabTrigger>znuny.SignatureObject.SignatureImport</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

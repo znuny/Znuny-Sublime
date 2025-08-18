@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ExportData = \$StandardTemplateObject->StandardTemplateExport(
+    # required either ID or ExportAll
+    ID                       => \$StandardTemplateID,
+    ExportAll                => 0,               # possible: 0, 1
+
+    UserID                   => \$UserID,               # required
+\}}
+
+]]></content>
+    <tabTrigger>znuny.StandardTemplateObject.StandardTemplateExport</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

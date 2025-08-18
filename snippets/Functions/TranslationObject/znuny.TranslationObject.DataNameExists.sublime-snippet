@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$NameExists = \$TranslationObject->DataNameExists(
+    ID     => 1234,
+    Name   => '...',
+    UserID => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.TranslationObject.DataNameExists</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

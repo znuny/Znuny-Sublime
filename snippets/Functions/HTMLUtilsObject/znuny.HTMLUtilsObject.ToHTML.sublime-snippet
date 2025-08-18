@@ -1,12 +1,25 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$HTMLString = \$HTMLUtilsObject->ToHTML(
+    String                     => \$String,
+    ReplaceDoubleSpace         => 0,       # replace &nbsp;&nbsp; with "  ", optional 1 or 0 (defaults to 1)
+    DoNotReplaceWithParagraphs => 0,       # this is additional feature required due to CKEditor 5 using
+                                           # rule of paragraphs being the "core" selector
+                                           # inside it's text data
+                                            # do not replace end of lines with paragraphs
+                                            # usually used to parse string (for example for template)
+                                            # before fixing paragrapth for ckeditor 5
+                                            # IMPORTANT!
+                                            # if enabled, then after string processing you need
+                                            # to execute "ToHTMLFixHardBreaks" function!
+);}
+${2:my \$HTMLString = \$HTMLUtilsObject->ToHTML(
     String             => \$String,
     ReplaceDoubleSpace => 0,        # replace &nbsp;&nbsp; with "  ", optional 1 or 0 (defaults to 1)
 );}
 
 ]]></content>
     <tabTrigger>znuny.HTMLUtilsObject.ToHTML</tabTrigger>
-    <description>6.0, 6.4, 6.5, 7.0, 7.1</description>
+    <description>6.0, 6.4, 6.5, 7.0, 7.1, 7.2</description>
     <scope>source.perl</scope>
 </snippet>

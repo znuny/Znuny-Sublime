@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$NewSignatureID = \$SignatureObject->SignatureCopy(
+    ID     => 1, # mandatory
+    UserID => \$UserID, # mandatory
+);}
+
+]]></content>
+    <tabTrigger>znuny.SignatureObject.SignatureCopy</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

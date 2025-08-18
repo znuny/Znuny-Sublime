@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Filename = \$AutoResponseObject->AutoResponseExportFilenameGet(
+    Name => 'autoresponse_1',
+    Format => 'YAML',
+);}
+
+]]></content>
+    <tabTrigger>znuny.AutoResponseObject.AutoResponseExportFilenameGet</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

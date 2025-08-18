@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %SalutationQueues = \$SalutationObject->SalutationQueuesList(
+    ID => 1, # mandatory
+);}
+
+]]></content>
+    <tabTrigger>znuny.SalutationObject.SalutationQueuesList</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

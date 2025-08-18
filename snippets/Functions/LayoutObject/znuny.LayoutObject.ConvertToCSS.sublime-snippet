@@ -34,6 +34,6 @@ ${1:my \$CSS = \$LayoutObject->ConvertToCSS(
 
 ]]></content>
     <tabTrigger>znuny.LayoutObject.ConvertToCSS</tabTrigger>
-    <description>7.0, 7.1</description>
+    <description>7.0, 7.1, 7.2</description>
     <scope>source.perl</scope>
 </snippet>

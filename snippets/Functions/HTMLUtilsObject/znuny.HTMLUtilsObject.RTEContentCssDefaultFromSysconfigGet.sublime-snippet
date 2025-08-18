@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$RTEContentCssDefault = \$HTMLUtilsObject->RTEContentCssDefaultFromSysconfigGet();}
+
+]]></content>
+    <tabTrigger>znuny.HTMLUtilsObject.RTEContentCssDefaultFromSysconfigGet</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

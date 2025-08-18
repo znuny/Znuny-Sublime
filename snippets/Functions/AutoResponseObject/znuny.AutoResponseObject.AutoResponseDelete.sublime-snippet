@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:\$AutoResponseObject->AutoResponseDelete(
+    ID     => 1,
+    UserID => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.AutoResponseObject.AutoResponseDelete</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

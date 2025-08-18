@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %NotificationData = \$NotificationEventObject->NotificationExportDataGet(
+    ID               => 1, # mandatory
+);}
+
+]]></content>
+    <tabTrigger>znuny.NotificationEventObject.NotificationExportDataGet</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

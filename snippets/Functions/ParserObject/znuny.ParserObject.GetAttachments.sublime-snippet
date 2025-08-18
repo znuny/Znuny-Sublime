@@ -1,6 +1,21 @@
 <snippet>
     <content><![CDATA[
-${1:my @Attachments = \$ParserObject->GetAttachments();
+${1:my @Attachments = \$ParserObject->GetAttachments(
+    UserType => 'Agent' # optional, but recommended
+);
+for my \$Attachment (@Attachments) \{
+    print \$Attachment->\{Filename\};
+    print \$Attachment->\{Charset\};
+    print \$Attachment->\{MimeType\};
+    print \$Attachment->\{ContentType\};
+    print \$Attachment->\{Content\};
+
+    # optional
+    print \$Attachment->\{ContentID\};
+    print \$Attachment->\{ContentAlternative\};
+    print \$Attachment->\{ContentMixed\};
+\}}
+${2:my @Attachments = \$ParserObject->GetAttachments();
 for my \$Attachment (@Attachments) \{
     print \$Attachment->\{Filename\};
     print \$Attachment->\{Charset\};
@@ -16,6 +31,6 @@ for my \$Attachment (@Attachments) \{
 
 ]]></content>
     <tabTrigger>znuny.ParserObject.GetAttachments</tabTrigger>
-    <description>6.0, 6.4, 6.5, 7.0, 7.1</description>
+    <description>6.0, 6.4, 6.5, 7.0, 7.1, 7.2</description>
     <scope>source.perl</scope>
 </snippet>

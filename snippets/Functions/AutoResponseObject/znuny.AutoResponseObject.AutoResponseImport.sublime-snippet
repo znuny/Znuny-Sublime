@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ImportResult = \$AutoResponseObject->AutoResponseImport(
+    Content                        => \$YAMLContent, # mandatory, YAML format
+    OverwriteExistingAutoResponses => 0,            # optional, possible: 0, 1
+    UserID                         => \$UserID,            # mandatory
+);}
+
+]]></content>
+    <tabTrigger>znuny.AutoResponseObject.AutoResponseImport</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

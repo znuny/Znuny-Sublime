@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Data = \$TranslationObject->DataGet(
+    ID              => '...', # optional
+    LanguageID      => \$LanguageID, # optional
+    Source          => '...', # optional
+    Destination     => '...', # optional
+    ValidID         => \$ValidID, # optional
+    CreateTime      => '...', # optional
+    CreateBy        => '...', # optional
+    ChangeTime      => '...', # optional
+    ChangeBy        => '...', # optional
+    DeploymentState => '...', # optional
+    UserID          => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.TranslationObject.DataGet</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ExportData = \$SignatureObject->SignatureExport(
+    # required either ID or ExportAll
+    ID                       => \$SignatureID,
+    ExportAll                => 0,               # possible: 0, 1
+
+    UserID                   => \$UserID,               # required
+\}}
+
+]]></content>
+    <tabTrigger>znuny.SignatureObject.SignatureExport</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

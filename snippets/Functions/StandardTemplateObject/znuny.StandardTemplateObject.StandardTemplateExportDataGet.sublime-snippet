@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %StandardTemplateData = \$StandardTemplateObject->StandardTemplateExportDataGet(
+    ID => 1, # mandatory
+);}
+
+]]></content>
+    <tabTrigger>znuny.StandardTemplateObject.StandardTemplateExportDataGet</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

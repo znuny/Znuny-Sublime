@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Success = \$ArticleObject->ArticleColorInit();}
+
+]]></content>
+    <tabTrigger>znuny.ArticleObject.ArticleColorInit</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>

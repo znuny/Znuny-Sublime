@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$LayoutObject->SetRichTextParameters(
+    Data => \%Param,
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.SetRichTextParameters</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>
