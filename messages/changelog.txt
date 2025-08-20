@@ -1,3 +1,7 @@
+Version 1.2.1
+✔ Added Snippets 7.2
+✔ Updated Snippets
+
 Version 1.1.1
 ✔ Added Snippets
 ✔ Updated Snippets

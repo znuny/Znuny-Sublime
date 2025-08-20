@@ -1,6 +1,6 @@
-🌟 Version 1.1.1 🌟
+🌟 Version 1.2.1 🌟
 
-✔ Added Snippets
+✔ Added Snippets 7.2
 ✔ Updated Snippets
 
 GitHub link - https://github.com/znuny/Znuny-Sublime
