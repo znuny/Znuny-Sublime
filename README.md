@@ -1,6 +1,6 @@
 ![Znuny logo](http://znuny.com/assets/images/logo_small.png)
 
-Sublime ![Packagecontrol downloads](https://img.shields.io/packagecontrol/dt/Znuny)
+Sublime ![Package Control Total](https://img.shields.io/packagecontrol/dt/Znuny) ![Package Control Month](https://img.shields.io/packagecontrol/dm/Znuny) ![Package Control Week](https://img.shields.io/packagecontrol/dw/Znuny) ![Package Control Day](https://img.shields.io/packagecontrol/dd/Znuny)
 ===============
 Znuny (Znuny-Sublime) is a Sublime Text 2/3 plugin that helps you to make Znuny development less painful.
 
