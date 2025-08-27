@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$AuthFlowIsSupported = \$OAuth2TokenConfigObject->IsAuthFlowSupported(
+    AuthFlow => 'AuthorizationCode', # or 'ClientCredentials'
+);}
+
+]]></content>
+    <tabTrigger>znuny.OAuth2TokenConfigObject.IsAuthFlowSupported</tabTrigger>
+    <description>7.2</description>
+    <scope>source.perl</scope>
+</snippet>
