@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:# Close all messages
+\$SeleniumObject->CloseNotification();}
+${2:# Close only messages containing specific text
+\$SeleniumObject->CloseNotification(
+    Text => 'Please select a time zone',
+);}
+
+]]></content>
+    <tabTrigger>znuny.SeleniumObject.CloseNotification</tabTrigger>
+    <description>7.3</description>
+    <scope>source.perl</scope>
+</snippet>

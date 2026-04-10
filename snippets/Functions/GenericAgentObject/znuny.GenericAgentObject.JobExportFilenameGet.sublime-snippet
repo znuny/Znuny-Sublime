@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Filename = \$GenericAgentObject->JobExportFilenameGet(
+    Name => 'Job_1',
+    Format => 'YAML',
+);}
+
+]]></content>
+    <tabTrigger>znuny.GenericAgentObject.JobExportFilenameGet</tabTrigger>
+    <description>7.3</description>
+    <scope>source.perl</scope>
+</snippet>

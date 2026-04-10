@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:\$TimeLong = \$LanguageObject->FormatNonNumericTime(
+    Format => 'DateInputFormatLong',
+    Year   => '<input value="2014"/>',
+    Month  => '<input value="1"/>',
+    Day    => '<input value="10"/>',
+    Hour   => '<input value="11"/>',
+    Minute => '<input value="12"/>',
+    Second => '<input value="13"/>',
+);}
+
+]]></content>
+    <tabTrigger>znuny.LanguageObject.FormatNonNumericTime</tabTrigger>
+    <description>7.3</description>
+    <scope>source.perl</scope>
+</snippet>

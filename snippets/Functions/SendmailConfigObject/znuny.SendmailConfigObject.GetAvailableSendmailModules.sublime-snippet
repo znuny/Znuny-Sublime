@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SendmailModules = \$SendmailConfigObject->GetAvailableSendmailModules();}
+
+]]></content>
+    <tabTrigger>znuny.SendmailConfigObject.GetAvailableSendmailModules</tabTrigger>
+    <description>7.3</description>
+    <scope>source.perl</scope>
+</snippet>

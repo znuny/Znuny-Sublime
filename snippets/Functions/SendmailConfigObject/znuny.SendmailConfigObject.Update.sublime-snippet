@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$UpdateSuccessful = \$SendmailConfigObject->Update(
+    ID                  => 5,
+    SendmailModule      => 'SMTPTLS',
+    CMD                 => '/usr/bin/sendmail...',
+    Host                => 'smtp.example.org',
+    Port                => 587,
+    Timeout             => 30,
+    SkipSSLVerification => 0,
+    IsFallbackConfig    => 0,
+    AuthenticationType  => 'oauth2_token',
+    AuthUser            => 'mail',
+    AuthPassword        => undef,
+    OAuth2TokenConfigID => \$OAuth2TokenConfigID,
+    EmailAddresses      => [ # Only stored/needed if IsFallbackConfig is false
+        'znuny@example.org',
+        'znuny2@example.org',
+    ],
+    Comments => 'Comment', # optional
+    ValidID  => \$ValidID,
+    UserID   => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.SendmailConfigObject.Update</tabTrigger>
+    <description>7.3</description>
+    <scope>source.perl</scope>
+</snippet>

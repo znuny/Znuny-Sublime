@@ -11,9 +11,20 @@ ${1:my \$Success = \$ActivityObject->Get();
     CreateBy   => '...', # optional
     UserID     => \$UserID,
 );}
+${2:my %Activity = \$ActivityObject->Get();
+    ID         => 1,
+    Type       => '...', # optional
+    Title      => '...', # optional
+    Text       => '...', # optional
+    State      => '...', # optional
+    Link       => '...', # optional
+    CreateTime => '...', # optional
+    CreateBy   => '...', # optional
+    UserID     => \$UserID,
+);}
 
 ]]></content>
     <tabTrigger>znuny.ActivityObject.Get</tabTrigger>
-    <description>7.0, 7.1, 7.2</description>
+    <description>7.0, 7.1, 7.2, 7.3</description>
     <scope>source.perl</scope>
 </snippet>

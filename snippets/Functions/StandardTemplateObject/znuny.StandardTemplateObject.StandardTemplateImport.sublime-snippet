@@ -8,6 +8,6 @@ ${1:my \$ImportResult = \$StandardTemplateObject->StandardTemplateImport(
 
 ]]></content>
     <tabTrigger>znuny.StandardTemplateObject.StandardTemplateImport</tabTrigger>
-    <description>7.2</description>
+    <description>7.2, 7.3</description>
     <scope>source.perl</scope>
 </snippet>

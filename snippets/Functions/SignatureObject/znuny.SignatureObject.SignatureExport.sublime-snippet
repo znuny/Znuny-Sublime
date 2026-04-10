@@ -10,6 +10,6 @@ ${1:my \$ExportData = \$SignatureObject->SignatureExport(
 
 ]]></content>
     <tabTrigger>znuny.SignatureObject.SignatureExport</tabTrigger>
-    <description>7.2</description>
+    <description>7.2, 7.3</description>
     <scope>source.perl</scope>
 </snippet>

@@ -6,6 +6,6 @@ ${1:my %AutoResponseData = \$AutoResponseObject->AutoResponseExportDataGet(
 
 ]]></content>
     <tabTrigger>znuny.AutoResponseObject.AutoResponseExportDataGet</tabTrigger>
-    <description>7.2</description>
+    <description>7.2, 7.3</description>
     <scope>source.perl</scope>
 </snippet>

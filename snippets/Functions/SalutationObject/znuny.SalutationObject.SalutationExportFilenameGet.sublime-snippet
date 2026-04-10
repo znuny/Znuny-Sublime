@@ -7,6 +7,6 @@ ${1:my \$Filename = \$SalutationObject->SalutationExportFilenameGet(
 
 ]]></content>
     <tabTrigger>znuny.SalutationObject.SalutationExportFilenameGet</tabTrigger>
-    <description>7.2</description>
+    <description>7.2, 7.3</description>
     <scope>source.perl</scope>
 </snippet>

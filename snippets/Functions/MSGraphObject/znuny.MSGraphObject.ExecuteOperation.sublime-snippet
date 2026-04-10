@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Response = \$MSGraphObject->ExecuteOperation(
+    CommunicationLogObject    => \$CommunicationLogObject,
+    Host                      => 'graph.microsoft.com',
+    Login                     => 'someone@example.org',
+    OAuth2Token               => '...',
+    Operation                 => '/messages/id',
+    RequestType               => 'GET', # optional; POST, DELETE, etc. Defaults to GET
+    RequestHeaders            => \{\}, # optional, headers
+    RequestData               => ..., # optional, payload of request
+    JSONDecodeResponseContent => 1, # optional, defaults to 1
+
+    # Optional; link returned by Graph for pagination.
+    # If given, parameter Operation will be ignored.
+    # Only for request type GET.
+    NextLink => 'https://...',
+
+    Timeout             => 60, # optional, timeout for request, default: WebUserAgent::Timeout // 15
+    Proxy               => '...', # optional, default: Config WebUserAgent::Proxy
+    NoProxy             => '', # optional, default: Config WebUserAgent::NoProxy
+    SkipSSLVerification => 0, # optional, default: Config WebUserAgent::DisableSSLVerification
+);}
+
+]]></content>
+    <tabTrigger>znuny.MSGraphObject.ExecuteOperation</tabTrigger>
+    <description>7.3</description>
+    <scope>source.perl</scope>
+</snippet>

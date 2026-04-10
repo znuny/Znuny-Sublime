@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SendmailConfig = \$SendmailConfigObject->Get(
+    ID => 4,
+);}
+
+]]></content>
+    <tabTrigger>znuny.SendmailConfigObject.Get</tabTrigger>
+    <description>7.3</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$FallbackSendmailConfig = \$SendmailConfigObject->GetFallback();}
+
+]]></content>
+    <tabTrigger>znuny.SendmailConfigObject.GetFallback</tabTrigger>
+    <description>7.3</description>
+    <scope>source.perl</scope>
+</snippet>

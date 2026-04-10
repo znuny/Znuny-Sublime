@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$AuthenticationTypes = \$SendmailConfigObject->GetAuthenticationTypes();}
+
+]]></content>
+    <tabTrigger>znuny.SendmailConfigObject.GetAuthenticationTypes</tabTrigger>
+    <description>7.3</description>
+    <scope>source.perl</scope>
+</snippet>

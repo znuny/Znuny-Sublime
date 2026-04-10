@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Errors = \$GenericAgentObject->StopWordsErrorsGet(
+    Fields => \{
+        SomeField => 'over',
+        MIMEBase_From => 'the',
+    \},
+    CheckConfig => 1, # optional
+                      # possible: 0, 1
+                      # default: 1
+);}
+
+]]></content>
+    <tabTrigger>znuny.GenericAgentObject.StopWordsErrorsGet</tabTrigger>
+    <description>7.3</description>
+    <scope>source.perl</scope>
+</snippet>

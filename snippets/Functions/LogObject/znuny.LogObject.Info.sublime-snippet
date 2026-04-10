@@ -4,6 +4,6 @@ ${1:\$LogObject->Info("Oh by the way, this thing worked.");}
 
 ]]></content>
     <tabTrigger>znuny.LogObject.Info</tabTrigger>
-    <description>7.2</description>
+    <description>7.2, 7.3</description>
     <scope>source.perl</scope>
 </snippet>

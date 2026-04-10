@@ -4,6 +4,6 @@ ${1:my \$Success = \$TranslationObject->InitConfig();}
 
 ]]></content>
     <tabTrigger>znuny.TranslationObject.InitConfig</tabTrigger>
-    <description>7.2</description>
+    <description>7.2, 7.3</description>
     <scope>source.perl</scope>
 </snippet>

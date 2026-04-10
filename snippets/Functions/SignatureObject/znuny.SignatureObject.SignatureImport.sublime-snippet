@@ -8,6 +8,6 @@ ${1:my \$ImportResult = \$SignatureObject->SignatureImport(
 
 ]]></content>
     <tabTrigger>znuny.SignatureObject.SignatureImport</tabTrigger>
-    <description>7.2</description>
+    <description>7.2, 7.3</description>
     <scope>source.perl</scope>
 </snippet>

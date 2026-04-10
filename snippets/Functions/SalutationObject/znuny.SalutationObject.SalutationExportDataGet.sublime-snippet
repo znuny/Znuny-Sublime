@@ -6,6 +6,6 @@ ${1:my %SalutationData = \$SalutationObject->SalutationExportDataGet(
 
 ]]></content>
     <tabTrigger>znuny.SalutationObject.SalutationExportDataGet</tabTrigger>
-    <description>7.2</description>
+    <description>7.2, 7.3</description>
     <scope>source.perl</scope>
 </snippet>

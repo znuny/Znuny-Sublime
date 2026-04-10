@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$JobImport = \$GenericAgentObject->JobImport(
+    Content               => \$YAMLContent, # mandatory, YAML format
+    OverwriteExistingJobs => 0,            # optional, possible: 0, 1
+    UserID                => \$UserID,            # mandatory
+);}
+
+]]></content>
+    <tabTrigger>znuny.GenericAgentObject.JobImport</tabTrigger>
+    <description>7.3</description>
+    <scope>source.perl</scope>
+</snippet>

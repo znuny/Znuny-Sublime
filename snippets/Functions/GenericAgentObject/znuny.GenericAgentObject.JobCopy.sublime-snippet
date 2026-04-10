@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$NewJobName = \$GenericAgentObject->JobCopy(
+    Name    => 'job1', # mandatory
+);}
+
+]]></content>
+    <tabTrigger>znuny.GenericAgentObject.JobCopy</tabTrigger>
+    <description>7.3</description>
+    <scope>source.perl</scope>
+</snippet>

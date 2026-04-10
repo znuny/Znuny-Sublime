@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SendmailConfig = \$SendmailConfigObject->GetByEmailAddress(
+    EmailAddress => 'znuny@example.org',
+
+    # optional, defaults to 0:
+    # Return fallback config (if any) if no config found for email address
+    UseFallback => 1,
+);}
+
+]]></content>
+    <tabTrigger>znuny.SendmailConfigObject.GetByEmailAddress</tabTrigger>
+    <description>7.3</description>
+    <scope>source.perl</scope>
+</snippet>

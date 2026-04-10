@@ -880,9 +880,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $SQLExtenion = $ArticleObject->ArticleSearchIndexSQLJoin(\n    SearchParams => {\n        ...\n        ConditionInline         => 1,\n        ContentSearchPrefix     => '*',\n        ContentSearchSuffix     => '*',\n        MIMEBase_From           => '%spam@example.com%',\n        MIMEBase_To             => '%service@example.com%',\n        MIMEBase_Cc             => '%client@example.com%',\n        MIMEBase_Subject        => '%VIRUS 32%',\n        MIMEBase_Body           => '%VIRUS 32%',\n        MIMEBase_AttachmentName => '%anyfile.txt%',\n        Chat_ChatterName        => '%Some Chatter Name%',\n        Chat_MessageText        => '%Some Message Text%'\n        ...\n    },\n);" : [
-                  "6.5"
                ]
             },
             "ArticleSearchIndexSQLJoinNeeded" : {
@@ -894,9 +891,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Needed = $ArticleObject->ArticleSearchIndexSQLJoinNeeded(\n    SearchParams => {\n        ...\n        ConditionInline         => 1,\n        ContentSearchPrefix     => '*',\n        ContentSearchSuffix     => '*',\n        MIMEBase_From           => '%spam@example.com%',\n        MIMEBase_To             => '%service@example.com%',\n        MIMEBase_Cc             => '%client@example.com%',\n        MIMEBase_Subject        => '%VIRUS 32%',\n        MIMEBase_Body           => '%VIRUS 32%',\n        MIMEBase_AttachmentName => '%anyfile.txt%',\n        Chat_ChatterName        => '%Some Chatter Name%',\n        Chat_MessageText        => '%Some Message Text%'\n        ...\n    },\n);" : [
-                  "6.5"
                ]
             },
             "ArticleSearchIndexStatus" : {
@@ -919,9 +913,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $SQLExtenion = $ArticleObject->ArticleSearchIndexWhereCondition(\n    SearchParams => {\n        ...\n        ConditionInline         => 1,\n        ContentSearchPrefix     => '*',\n        ContentSearchSuffix     => '*',\n        MIMEBase_From           => '%spam@example.com%',\n        MIMEBase_To             => '%service@example.com%',\n        MIMEBase_Cc             => '%client@example.com%',\n        MIMEBase_Subject        => '%VIRUS 32%',\n        MIMEBase_Body           => '%VIRUS 32%',\n        MIMEBase_AttachmentName => '%anyfile.txt%',\n        Chat_ChatterName        => '%Some Chatter Name%',\n        Chat_MessageText        => '%Some Message Text%'\n        ...\n    },\n);" : [
-                  "6.5"
                ]
             },
             "ArticleSearchableFieldsList" : {
@@ -1362,9 +1353,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $FieldHTML = $BackendObject->EditFieldRender(\n    DynamicFieldConfig   => $DynamicFieldConfig,      # complete config of the DynamicField\n    ParamObject          => $ParamObject,\n    LayoutObject         => $LayoutObject,\n    PossibleValuesFilter => {                         # Optional. Some backends may support this.\n        'Key1' => 'Value1',                           #     This may be needed to realize ACL support for ticket masks,\n        'Key2' => 'Value2',                           #     where the possible values can be limited with and ACL.\n    },\n    Template             => {                         # Optional data structure of GenericAgent etc.\n        Owner => 2,                                   # Value is accessable via field name (DynamicField_ + field name)\n        Title => 'Generic Agent Job was here',         # and could be a scalar, Hash- or ArrayRef\n        ...\n        DynamicField_ExampleField1 => 'Value 1'\n    },\n    Value                => 'Any value',              # Optional\n    Mandatory            => 1,                        # 0 or 1,\n    Class                => 'AnyCSSClass OrOneMore',  # Optional\n    ServerError          => 1,                        # 0 or 1,\n    ErrorMessage         => $ErrorMessage,            # Optional or a default will be used in error case\n    UseDefaultValue      => 1,                        # 0 or 1, 1 default\n    OverridePossibleNone => 1,                        # Optional, 0 or 1. If defined orverrides the Possible None\n                                                      #     setting of all dynamic fields (where applies) with the\n                                                      #     defined value\n    ConfirmationNeeded   => 0,                        # Optional, 0 or 1, default 0. To display a confirmation element\n                                                      #     on fields that apply (like checkbox)\n    AJAXUpdate           => 1,                        # Optional, 0 ir 1. To create JS code for field change to update\n                                                      #     the form using ACLs triggered by the field.\n    UpdatableFields      => [                         # Optional, to use if AJAXUpdate is 1. List of fields to display a\n        'NetxStateID',                                #     spinning wheel when reloading via AJAXUpdate.\n        'PriorityID',\n    ],\n    MaxLength            => 100                       # Optional, defines the maximum number of characters on fields\n                                                      #      where applies (like TextArea)\n);" : [
-                  "6.5"
                ]
             },
             "EditFieldValueGet" : {
@@ -1715,9 +1703,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $RefArray = $CSVObject->CSV2Array(\n    String    => $CSVString,\n    Separator => ';', # optional separator (default is ;)\n    Quote     => '\"', # optional quote (default is \")\n);" : [
-                  "6.5"
                ]
             }
          },
@@ -1804,9 +1789,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Value = $CacheObject->Get(\n    Type => 'ObjectName',\n    Key  => 'SomeKey',\n\n    CacheInMemory => 0,     # optional, defaults to 1\n    CacheInBackend => 1,    # optional, defaults to 1\n);" : [
-                  "6.5"
                ],
                "my $Value = $CacheObject->Get(\n    Type => 'ObjectName',       # only [a-zA-Z0-9_] chars usable\n    Key  => 'SomeKey',\n);" : [
                   "6.0",
@@ -1906,9 +1888,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my %Calendar = $CalendarObject->CalendarCreate(\n    CalendarName    => 'Meetings',          # (required) Personal calendar name\n    GroupID         => $GroupID,                   # (required) GroupID\n    Color           => '#FF7700',           # (required) Color in hexadecimal RGB notation\n    UserID          => $UserID,                   # (required) UserID\n\n    TicketAppointments => [                 # (optional) Ticket appointments, array ref of hashes\n        {\n            StartDate => 'FirstResponse',\n            EndDate   => 'Plus_5',\n            QueueID   => [ $QueueID ],\n            SearchParams => {\n                Title => 'This is a title',\n                Types => 'This is a type',\n            },\n        },\n    ],\n\n    ValidID => $ValidID,                   # (optional) Default is 1.\n);" : [
-                  "6.5"
                ]
             },
             "CalendarExport" : {
@@ -1934,9 +1913,6 @@
                ]
             },
             "CalendarImport" : {
-               "my $Success = $CalendarObject->CalendarImport(\n    Data => {\n        CalendarData => {\n            CalendarID   => $CalendarID,\n            GroupID      => $GroupID,\n            CalendarName => 'Meetings',\n            Color        => '#FF7700',\n            ValidID      => $ValidID,\n        },\n        AppointmentData => {\n            {\n                AppointmentID       => $AppointmentID,\n                ParentID            => $ParentID,\n                CalendarID          => $CalendarID,\n                UniqueID            => $UniqueID,\n                ...\n            },\n            ...\n        },\n    },\n    OverwriteExistingEntities => 0,     # (optional) Overwrite existing calendar and appointments, default: 0\n                                        # Calendar with same name will be overwritten\n                                        # Appointments with same UniqueID in existing calendar will be overwritten\n    UserID => $UserID,\n);" : [
-                  "6.5"
-               ],
                "my $Success = $CalendarObject->CalendarImport(\n    Data => {\n        CalendarData => {\n            CalendarID   => $CalendarID,\n            GroupID      => $GroupID,\n            CalendarName => 'Meetings',\n            Color        => '#FF7700',\n            ValidID      => $ValidID,\n        },\n        AppointmentData => {\n            {\n                AppointmentID => $AppointmentID,\n                ParentID      => $ParentID,\n                CalendarID    => $CalendarID,\n                UniqueID      => $UniqueID,\n                # ...\n            },\n            # ...\n        },\n    },\n    OverwriteExistingEntities => 0,     # (optional) Overwrite existing calendar and appointments, default: 0\n                                        # Calendar with same name will be overwritten\n                                        # Appointments with same UniqueID in existing calendar will be overwritten\n    UserID => $UserID,\n);" : [
                   "6.0",
                   "6.4",
@@ -1978,9 +1954,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Success = $CalendarObject->CalendarUpdate(\n    CalendarID       => $CalendarID,                   # (required) CalendarID\n    GroupID          => $GroupID,                   # (required) Calendar group\n    CalendarName     => 'Meetings',          # (required) Personal calendar name\n    Color            => '#FF9900',           # (required) Color in hexadecimal RGB notation\n    UserID           => $UserID,                   # (required) UserID (who made update)\n    ValidID          => $ValidID,                   # (required) ValidID\n\n    TicketAppointments => [                 # (optional) Ticket appointments, array ref of hashes\n        {\n            StartDate => 'FirstResponse',\n            EndDate   => 'Plus_5',\n            QueueID   => [ $QueueID ],\n            SearchParams => {\n                Title => 'This is a title',\n                Types => 'This is a type',\n            },\n        },\n    ],\n);" : [
-                  "6.5"
                ]
             },
             "GetAccessToken" : {
@@ -2006,9 +1979,6 @@
                ]
             },
             "TicketAppointmentDelete" : {
-               "my $Success = $CalendarObject->TicketAppointmentDelete(\n    CalendarID    => $CalendarID,                                     # (required) CalendarID\n    RuleID        => $RuleID,    # (required) RuleID\n                                                            # or\n    TicketID      => $TicketID,                                     # (required) Ticket ID\n\n    AppointmentID => $AppointmentID,                                     # (optional) Appointment ID is known\n);" : [
-                  "6.5"
-               ],
                "my $Success = $CalendarObject->TicketAppointmentDelete(\n    CalendarID    => $CalendarID,                                     # (required) CalendarID\n    RuleID        => $RuleID,    # (required) RuleID\n                                                            # or\n    TicketID      => $TicketID,                                     # (required) Ticket ID\n    AppointmentID => $AppointmentID,                                     # (optional) Appointment ID is known\n);" : [
                   "6.0",
                   "6.4",
@@ -2039,9 +2009,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Success = $CalendarObject->TicketAppointmentProcessRule(\n    CalendarID => $CalendarID,\n    Config => {\n        DynamicField_TestDate => {\n            Module => 'Kernel::System::Calendar::Ticket::DynamicField',\n        },\n        ...\n    },\n    Rule => {\n        StartDate => 'DynamicField_TestDate',\n        EndDate   => 'Plus_5',\n        QueueID   => [ $QueueID ],\n        RuleID    => $RuleID,\n        SearchParams => {\n            Title => 'Welcome*',\n        },\n    },\n    TicketID => $TicketID,\n);" : [
-                  "6.5"
                ]
             },
             "TicketAppointmentProcessTicket" : {
@@ -2180,9 +2147,6 @@
                ]
             },
             "StringClean" : {
-               "my $StringRef = $CheckItemObject->StringClean(\n    StringRef               => \\'String',\n    TrimLeft                => 0,  # (optional) default 1\n    TrimRight               => 0,  # (optional) default 1\n    RemoveAllNewlines       => 1,  # (optional) default 0\n    RemoveAllTabs           => 1,  # (optional) default 0\n    RemoveAllSpaces         => 1,  # (optional) default 0\n    ReplaceWithWhiteSpace   => 1,  # (optional) default 0\n);" : [
-                  "6.5"
-               ],
                "my $StringRef = $CheckItemObject->StringClean(\n    StringRef             => \\'String',\n    TrimLeft              => 0,  # (optional) default 1\n    TrimRight             => 0,  # (optional) default 1\n    RemoveAllNewlines     => 1,  # (optional) default 0\n    RemoveAllTabs         => 1,  # (optional) default 0\n    RemoveAllSpaces       => 1,  # (optional) default 0\n    ReplaceWithWhiteSpace => 1,  # (optional) default 0\n);" : [
                   "6.0",
                   "6.4",
@@ -2776,9 +2740,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Success = $CustomerGroupObject->GroupCustomerAdd(\n    GID        => $GID,\n    CustomerID => $CustomerID,\n    Permission => {\n        'Ticket::CustomerID::Same' => {\n            ro            => 1,\n            move_into     => 1,\n            create        => 1,\n            owner         => 1,\n            priority      => 0,\n            rw            => 0,\n        },\n        'Ticket::CustomerID::Other' => {\n            ro        => 1,\n            move_into => 1,\n            create    => 1,\n            owner     => 1,\n            priority  => 0,\n            rw        => 0,\n        },\n        ...\n    },\n    UserID => $UserID,\n);" : [
-                  "6.5"
                ]
             },
             "GroupCustomerList" : {
@@ -3052,9 +3013,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $UserLogin = $CustomerUserObject->CustomerUserAdd(\n    Source         => 'CustomerUser', # CustomerUser source config\n    UserFirstname  => 'Huber',\n    UserLastname   => 'Manfred',\n    UserCustomerID => $UserCustomerID,\n    UserLogin      => 'mhuber',\n    UserPassword   => 'some-pass', # not required\n    UserEmail      => 'email@example.com',\n    ValidID        => $ValidID,\n    UserID         => $UserID,\n);" : [
-                  "6.5"
                ]
             },
             "CustomerUserCacheClear" : {
@@ -3130,9 +3088,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "$CustomerUserObject->CustomerUserUpdate(\n    Source        => 'CustomerUser', # CustomerUser source config\n    ID            => 'mh',           # current user login\n    UserLogin     => 'mhuber',       # new user login\n    UserFirstname => 'Huber',\n    UserLastname  => 'Manfred',\n    UserPassword  => 'some-pass',    # not required\n    UserEmail     => 'email@example.com',\n    ValidID       => $ValidID,\n    UserID        => $UserID,\n);" : [
-                  "6.5"
                ]
             },
             "GenerateRandomPassword" : {
@@ -3200,9 +3155,6 @@
                ]
             },
             "SetPassword" : {
-               "$CustomerUserObject->SetPassword(\n    UserLogin => 'some-login',\n    PW        => 'some-new-password'\n);" : [
-                  "6.5"
-               ],
                "$CustomerUserObject->SetPassword(\n    UserLogin => 'some-login',\n    PW        => 'some-new-password',\n);" : [
                   "6.0",
                   "6.4",
@@ -3288,9 +3240,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Success = $DBCRUDObject->DataAdd(\n    ID          => '...',\n    '...',\n    CreateTime  => '...', # optional\n    ChangeTime  => '...', # optional\n);" : [
-                  "6.5"
                ]
             },
             "DataCopy" : {
@@ -3381,9 +3330,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Success = $DBCRUDObject->DataUpdate(\n    ID => 1234,\n    UserID => $UserID,\n    # all other attributes are optional\n);" : [
-                  "6.5"
                ]
             },
             "IsUUIDDatabaseTableColumnPresent" : {
@@ -4586,9 +4532,6 @@
                ]
             },
             "ObjectMappingGet" : {
-               "my $ObjectMapping = $DynamicFieldObject->ObjectMappingGet(\n    ObjectName            => $ObjectName,    # Name or array ref of names of the object(s) to get the ID(s) for\n                                             # Note: either give ObjectName or ObjectID\n    ObjectID              => $ObjectID,      # ID or array ref of IDs of the object(s) to get the name(s) for\n                                             # Note: either give ObjectName or ObjectID\n    ObjectType            => 'CustomerUser', # Type of object to get mapping for\n);" : [
-                  "6.5"
-               ],
                "my $ObjectMapping = $DynamicFieldObject->ObjectMappingGet(\n    ObjectName => $ObjectName,    # Name or array ref of names of the object(s) to get the ID(s) for\n                                             # Note: either give ObjectName or ObjectID\n    ObjectID   => $ObjectID,      # ID or array ref of IDs of the object(s) to get the name(s) for\n                                             # Note: either give ObjectName or ObjectID\n    ObjectType => 'CustomerUser', # Type of object to get mapping for\n);" : [
                   "6.0",
                   "6.4",
@@ -4626,9 +4569,6 @@
          ],
          "Functions" : {
             "AllValuesDelete" : {
-               "my $Success = $DynamicFieldValueObject->AllValuesDelete(\n    FieldID            => $FieldID,                 # ID of the dynamic field\n    UserID  => $UserID,\n);" : [
-                  "6.5"
-               ],
                "my $Success = $DynamicFieldValueObject->AllValuesDelete(\n    FieldID => $FieldID,    # ID of the dynamic field\n    UserID  => $UserID,\n);" : [
                   "6.0",
                   "6.4",
@@ -4662,9 +4602,6 @@
                ]
             },
             "ValueDelete" : {
-               "my $Success = $DynamicFieldValueObject->ValueDelete(\n    FieldID            => $FieldID,                 # ID of the dynamic field\n    ObjectID           => $ObjectID,                # ID of the current object that the field\n                                                    #   is linked to, e. g. TicketID\n    UserID  => $UserID,\n);" : [
-                  "6.5"
-               ],
                "my $Success = $DynamicFieldValueObject->ValueDelete(\n    FieldID  => $FieldID,   # ID of the dynamic field\n    ObjectID => $ObjectID,  # ID of the current object that the field\n                            #   is linked to, e. g. TicketID\n    UserID   => $UserID,\n);" : [
                   "6.0",
                   "6.4",
@@ -4676,9 +4613,6 @@
                ]
             },
             "ValueGet" : {
-               "my $Value = $DynamicFieldValueObject->ValueGet(\n    FieldID            => $FieldID,                 # ID of the dynamic field\n    ObjectID           => $ObjectID,                # ID of the current object that the field\n                                                    #   is linked to, e. g. TicketID\n);" : [
-                  "6.5"
-               ],
                "my $Value = $DynamicFieldValueObject->ValueGet(\n    FieldID  => $FieldID,       # ID of the dynamic field\n    ObjectID => $ObjectID,      # ID of the current object that the field\n                                #   is linked to, e. g. TicketID\n);" : [
                   "6.0",
                   "6.4",
@@ -4690,9 +4624,6 @@
                ]
             },
             "ValueSearch" : {
-               "my $Value = $DynamicFieldValueObject->ValueSearch(\n    FieldID            => $FieldID,             # ID of dynamic field to search\n    Search             => 'test',\n    SearchSQL          => \"dynamic_field_value.value_text = 'test'\",\n);" : [
-                  "6.5"
-               ],
                "my $Value = $DynamicFieldValueObject->ValueSearch(\n    FieldID   => $FieldID,             # ID of dynamic field to search\n    Search    => 'test',\n    SearchSQL => \"dynamic_field_value.value_text = 'test'\",\n);" : [
                   "6.0",
                   "6.4",
@@ -4704,9 +4635,6 @@
                ]
             },
             "ValueSet" : {
-               "my $Success = $DynamicFieldValueObject->ValueSet(\n    FieldID  => $FieldID,                 # ID of the dynamic field\n    ObjectID => $ObjectID,                # ID of the current object that the field\n                                          #   must be linked to, e. g. TicketID\n    Value    => [\n        {\n            ValueText          => 'some text',            # optional, one of these fields must be provided\n            ValueDateTime      => '1977-12-12 12:00:00',  # optional\n            ValueInt           => 123,                    # optional\n        },\n        ...\n    ],\n    UserID   => $UserID,\n);" : [
-                  "6.5"
-               ],
                "my $Success = $DynamicFieldValueObject->ValueSet(\n    FieldID  => $FieldID,                 # ID of the dynamic field\n    ObjectID => $ObjectID,                # ID of the current object that the field\n                                          #   must be linked to, e. g. TicketID\n    Value    => [\n        {\n            ValueText     => 'some text',            # optional, one of these fields must be provided\n            ValueDateTime => '1977-12-12 12:00:00',  # optional\n            ValueInt      => 123,                    # optional\n        },\n        # ...\n    ],\n    UserID   => $UserID,\n);" : [
                   "6.0",
                   "6.4",
@@ -4718,9 +4646,6 @@
                ]
             },
             "ValueValidate" : {
-               "my $Success = $DynamicFieldValueObject->ValueValidate(\n    Value    =>  {\n            ValueText          => 'some text',            # optional, one of these fields must be provided\n            ValueDateTime      => '1977-12-12 12:00:00',  # optional\n            ValueInt           => 123,                    # optional\n        },\n    UserID   => $UserID,\n);" : [
-                  "6.5"
-               ],
                "my $Success = $DynamicFieldValueObject->ValueValidate(\n    Value  => {\n        ValueText     => 'some text',            # optional, one of these fields must be provided\n        ValueDateTime => '1977-12-12 12:00:00',  # optional\n        ValueInt      => 123,                    # optional\n    },\n    UserID => $UserID,\n);" : [
                   "6.0",
                   "6.4",
@@ -4777,9 +4702,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Sent = $EmailObject->Send(                   (Backwards compatibility)\n    From                 => 'me@example.com',\n    To                   => 'friend@example.com',\n    Subject              => 'Some words!',\n    Charset              => 'iso-8859-15',\n    MimeType             => 'text/plain', # \"text/plain\" or \"text/html\"\n    Body                 => 'Some nice text',\n    InReplyTo            => '<somemessageid-2@example.com>',\n    References           => '<somemessageid-1@example.com> <somemessageid-2@example.com>',\n    Sign => {\n        Type    => 'PGP',\n        SubType => 'Inline|Detached',\n        Key     => '81877F5E',\n\n        Type => 'SMIME',\n        Key  => '3b630c80',\n    },\n    Crypt => {\n        Type    => 'PGP',\n        SubType => 'Inline|Detached',\n        Key     => '81877F5E',\n    },\n);" : [
-                  "6.5"
                ],
                "my $Sent = $EmailObject->Send(                   (Backwards compatibility)\n    From       => 'me@example.com',\n    To         => 'friend@example.com',\n    Subject    => 'Some words!',\n    Charset    => 'iso-8859-15',\n    MimeType   => 'text/plain', # \"text/plain\" or \"text/html\"\n    Body       => 'Some nice text',\n    InReplyTo  => '<somemessageid-2@example.com>',\n    References => '<somemessageid-1@example.com> <somemessageid-2@example.com>',\n    Sign       => {\n        Type    => 'PGP',\n        SubType => 'Inline|Detached',\n        Key     => '81877F5E',\n        Type    => 'SMIME',\n        Key     => '3b630c80',\n    },\n    Crypt => {\n        Type    => 'PGP',\n        SubType => 'Inline|Detached',\n        Key     => '81877F5E',\n    },\n);" : [
                   "6.0",
@@ -5098,9 +5020,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $ExcelFileContent = $ExcelObject->Array2Excel(\n    Data => [\n        {\n            Name        => 'Overview',\n            FreezePanes => [\n                {\n                    Row    => 2,\n                    Column => 0,\n                },\n            ],\n            TableData   => [\n                [\n                    {\n                        Format => {\n                            right    => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Format => {\n                            left     => 1,\n                            right    => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Format => {\n                            left     => 1,\n                            right    => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Value  => 'Response Time',\n                        Merge  => 1,\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                            valign   => 'vcentre',\n                            align    => 'center',\n                        }\n                    },\n                    {\n                        Merge => 2,\n                    },\n                    {\n                        Merge => 3,\n                    },\n                    {\n                        Value  => 'Solution Time',\n                        Merge  => 1,\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                            valign   => 'vcentre',\n                            align    => 'center',\n                        }\n                    },\n                    {\n                        Merge => 2,\n                    },\n                    {\n                        Merge => 3,\n                    },\n                ],\n                [\n                    {\n                        Value  => 'Service',\n                        Format => {\n                            right    => 1,\n                            bottom   => 1,\n                            bg_color => 'silver',\n                            valign   => 'vcentre',\n                            align    => 'center',\n                        }\n                    },\n                    {\n                        Value  => 'SLA',\n                        Format => {\n                            left     => 1,\n                            right    => 1,\n                            bottom   => 1,\n                            bg_color => 'silver',\n                            valign   => 'vcentre',\n                            align    => 'center',\n                        }\n                    },\n                    {\n                        Value  => '#Tickets',\n                        Format => {\n                            left     => 1,\n                            right    => 1,\n                            bottom   => 1,\n                            bg_color => 'silver',\n                            valign   => 'vcentre',\n                            align    => 'center',\n                        }\n                    },\n                    {\n                        Value  => '#IN',\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Value  => '%IN',\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Value  => '#OUT',\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Value  => '#IN',\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Value  => '%IN',\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                    {\n                        Value  => '#OUT',\n                        Format => {\n                            border   => 1,\n                            bg_color => 'silver',\n                        }\n                    },\n                ],\n                ...\n            ],\n        },\n    ],\n);" : [
-                  "6.5"
                ]
             },
             "GetColumnContentFormat" : {
@@ -5219,9 +5138,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Success = $FormDraftObject->FormDraftAdd(\n    FormData => {\n        InformUserID => [ $InformUserID, 124, ],\n        Subject      => 'Request for information',\n        ...\n    },\n    FileData => [                                           # optional\n        {\n            'Content'     => 'Dear customer\\n\\nthank you!',\n            'ContentType' => 'text/plain',\n            'ContentID'   => undef,                         # optional\n            'Filename'    => 'thankyou.txt',\n            'Filesize'    => 25,\n            'FileID'      => 1,\n            'Disposition' => 'attachment',\n        },\n        ...\n    ],\n    ObjectType => 'Ticket',\n    ObjectID   => $ObjectID,\n    Action     => 'AgentTicketCompose',\n    Title      => 'my draft',                               # optional\n    UserID     => $UserID,\n);" : [
-                  "6.5"
                ]
             },
             "FormDraftDelete" : {
@@ -5233,15 +5149,9 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Success = $FormDraftObject->FormDraftDelete(\n    FormDraftID => $FormDraftID,\n    UserID  => $UserID,\n);" : [
-                  "6.5"
                ]
             },
             "FormDraftGet" : {
-               "my $FormDraft = $FormDraftObject->FormDraftGet(\n    FormDraftID    => $FormDraftID,\n    GetContent => 1,                # optional, default 1\n    UserID     => $UserID,\n);" : [
-                  "6.5"
-               ],
                "my $FormDraft = $FormDraftObject->FormDraftGet(\n    FormDraftID => $FormDraftID,\n    GetContent  => 1,                # optional, default 1\n    UserID      => $UserID,\n);" : [
                   "6.0",
                   "6.4",
@@ -5272,9 +5182,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Success = $FormDraftObject->FormDraftUpdate(\n    FormData => {\n        InformUserID => [ $InformUserID, 124, ],\n        Subject      => 'Request for information',\n        ...\n    },\n    FileData => [                                           # optional\n        {\n            'Content'     => 'Dear customer\\n\\nthank you!',\n            'ContentType' => 'text/plain',\n            'ContentID'   => undef,                         # optional\n            'Filename'    => 'thankyou.txt',\n            'Filesize'    => 25,\n            'FileID'      => 1,\n            'Disposition' => 'attachment',\n        },\n        ...\n    ],\n    ObjectType  => 'Ticket',\n    ObjectID    => $ObjectID,\n    Action      => 'AgentTicketCompose',\n    Title       => 'my draft',\n    FormDraftID => $FormDraftID,\n    UserID      => $UserID,\n);" : [
-                  "6.5"
                ]
             }
          },
@@ -5301,9 +5208,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "$GenericAgentObject->JobAdd(\n    Name => 'JobName',\n    Data => {\n        Queue => 'SomeQueue',\n        ...\n        Valid => 1,\n    },\n    UserID => $UserID,\n);" : [
-                  "6.5"
                ]
             },
             "JobCopy" : {
@@ -5389,9 +5293,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "$GenericAgentObject->JobRun(\n    Job          => 'JobName',\n    OnlyTicketID => $OnlyTicketID,     # (optional) for event based Job execution\n    SleepTime    => 100_000, # (optional) sleeptime per ticket in microseconds\n    UserID       => $UserID,\n);" : [
-                  "6.5"
                ]
             },
             "StopWordsErrorsGet" : {
@@ -6172,9 +6073,6 @@
                   "7.2",
                   "7.3"
                ],
-               "# create everything with defaults, except Type\nmy $Result = $HelperObject->FillTestEnvironment(\n    Type => {\n        'Type 1::Sub Type' => 1,\n        ...\n    }\n);" : [
-                  "6.5"
-               ],
                "# would do nothing -> return an empty HashRef\nmy $Result = $HelperObject->FillTestEnvironment(\n    User         => 0, # optional, default 5\n    CustomerUser => 0, # optional, default 5\n    Service      => 0, # optional, default 1 (true)\n    SLA          => 0, # optional, default 1 (true)\n    Type         => 0, # optional, default 1 (true)\n    Queue        => 0, # optional, default 1 (true)\n);" : [
                   "6.4",
                   "6.5",
@@ -6331,9 +6229,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Result = $HelperObject->SetupTestEnvironment(\n    ... # Parameters get passed to the FillTestEnvironment and ConfigureViews function\n);" : [
-                  "6.5"
                ]
             },
             "TestCustomerUserCreate" : {
@@ -6482,9 +6377,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $JSONString = $JSONObject->Encode(\n    Data     => $Data,\n    SortKeys => 1,          # (optional) (0|1) default 0, to sort the keys of the json data\n    Pretty => 1,            # (optional) (0|1) default 0, to pretty print\n);" : [
-                  "6.5"
                ]
             },
             "True" : {
@@ -6520,9 +6412,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $JWT = $JWTObject->Decode(\n    Token       => '...',\n\n    # Key or KeyFilePath\n    Key         => '...', # see https://metacpan.org/pod/Crypt::JWT#key1\n    KeyFilePath => '/home/user1/key.pem',\n\n    KeyPassword => '...', # optional, password for the key\n\n    # Optional: Use this hash to give additional parameters to Crypt::JWT.\n    CryptJWTParameters => {\n\n        # see https://metacpan.org/pod/Crypt::JWT#decode_jwt\n        '...' => '...',\n\n        # ...\n    },\n);" : [
-                  "6.5"
                ]
             },
             "Encode" : {
@@ -6533,9 +6422,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $JWT = $JWTObject->Encode(\n    Payload => {\n\n        # arbitrary data\n        Subject => '...',\n        SomeOtherData => {\n\n            # ...\n        },\n    },\n    Algorithm   => 'RS512', # see https://metacpan.org/pod/Crypt::JWT#alg\n\n    # Key or key file\n    Key         => '...', # see https://metacpan.org/pod/Crypt::JWT#key1\n    KeyFilePath => '/home/user1/key.pem',\n\n    KeyPassword          => '...', # optional, password for the key\n    AdditionalHeaderData => { # optional\n\n        # arbitrary data\n        Type => '...',\n    },\n\n    # Optional: Use this hash to give additional parameters to Crypt::JWT.\n    CryptJWTParameters => {\n\n        # see https://metacpan.org/pod/Crypt::JWT#encode_jwt\n        enc => '...',\n\n        # ...\n    },\n\n    # Optional: Data to be placed in placeholders in given Payload and AdditionalHeaderData parameters.\n    # All values of the given payload and additional header data hash will be searched\n    # for all the given placeholders and their values be replaced.\n    PlaceholderData => {\n        OTRS_JWT_CertSubject         => '...',\n        OTRS_JWT_ExpirationTimestamp => '9999999999999',\n\n        # ...\n    },\n);" : [
-                  "6.5"
                ]
             },
             "IsSupported" : {
@@ -7614,9 +7500,6 @@
                ]
             },
             "LinkCleanup" : {
-               "$True = $LinkObject->LinkCleanup(\n    State  => 'Temporary',\n    Age    => ( 60 * 60 * 24 ),\n);" : [
-                  "6.5"
-               ],
                "$True = $LinkObject->LinkCleanup(\n    State => 'Temporary',\n    Age   => ( 60 * 60 * 24 ),\n);" : [
                   "6.0",
                   "6.4",
@@ -7683,9 +7566,6 @@
                ]
             },
             "LinkListWithData" : {
-               "my $LinkList = $LinkObject->LinkListWithData(\n    Object                          => 'Ticket',\n    Key                             => '321',\n    Object2                         => 'FAQ',         # (optional)\n    State                           => 'Valid',\n    Type                            => 'ParentChild', # (optional)\n    Direction                       => 'Target',      # (optional) default Both (Source|Target|Both)\n    UserID                          => $UserID,\n    ObjectParameters                => {              # (optional) backend specific flags\n        Ticket => {\n            IgnoreLinkedTicketStateTypes => 0|1,\n        },\n    },\n);" : [
-                  "6.5"
-               ],
                "my $LinkList = $LinkObject->LinkListWithData(\n    Object           => 'Ticket',\n    Key              => '321',\n    Object2          => 'FAQ',         # (optional)\n    State            => 'Valid',\n    Type             => 'ParentChild', # (optional)\n    Direction        => 'Target',      # (optional) default Both (Source|Target|Both)\n    UserID           => $UserID,\n    ObjectParameters => {              # (optional) backend specific flags\n        Ticket => {\n            IgnoreLinkedTicketStateTypes => 0|1,\n        },\n    },\n);" : [
                   "6.0",
                   "6.4",
@@ -7697,9 +7577,6 @@
                ]
             },
             "ObjectDescriptionGet" : {
-               "%Description = $LinkObject->ObjectDescriptionGet(\n    Object  => 'Ticket',\n    Key     => 123,\n    UserID  => $UserID,\n);" : [
-                  "6.5"
-               ],
                "%Description = $LinkObject->ObjectDescriptionGet(\n    Object => 'Ticket',\n    Key    => 123,\n    UserID => $UserID,\n);" : [
                   "6.0",
                   "6.4",
@@ -7731,9 +7608,6 @@
                ]
             },
             "ObjectPermission" : {
-               "$Permission = $LinkObject->ObjectPermission(\n    Object  => 'Ticket',\n    Key     => 123,\n    UserID  => $UserID,\n);" : [
-                  "6.5"
-               ],
                "$Permission = $LinkObject->ObjectPermission(\n    Object => 'Ticket',\n    Key    => 123,\n    UserID => $UserID,\n);" : [
                   "6.0",
                   "6.4",
@@ -8128,9 +8002,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Message = $LogObject->GetLogEntry(\n    Type => 'error', # error|info|notice\n    What => 'Message', # Message|Traceback\n);" : [
-                  "6.5"
                ]
             },
             "Info" : {
@@ -8209,9 +8080,6 @@
                ]
             },
             "MailAccountCheck" : {
-               "my %Check = $MailAccountObject->MailAccountCheck(\n    Login         => 'mail',\n    Password      => 'SomePassword',\n    Host          => 'pop3.example.com',\n    Type          => 'POP3', # POP3|POP3S|IMAP|IMAPS\n    Timeout       => '60',\n    Debug         => '0',\n);" : [
-                  "6.5"
-               ],
                "my %Check = $MailAccountObject->MailAccountCheck(\n    Login    => 'mail',\n    Password => 'SomePassword',\n    Host     => 'pop3.example.com',\n    Type     => 'POP3',             # POP3|POP3S|IMAP|IMAPS\n    Timeout  => '60',\n    Debug    => '0',\n);" : [
                   "6.0",
                   "6.4",
@@ -8245,9 +8113,6 @@
                   "6.5",
                   "7.0",
                   "7.1"
-               ],
-               "my $Ok = $MailAccountObject->MailAccountFetch(\n    Login         => 'mail',\n    Password      => 'SomePassword',\n    Host          => 'pop3.example.com',\n    Type          => 'POP3', # POP3,POP3s,IMAP,IMAPS\n    Trusted       => 0,\n    DispatchingBy => 'Queue', # Queue|From\n    QueueID       => $QueueID,\n    UserID        => $UserID,\n);" : [
-                  "6.5"
                ]
             },
             "MailAccountGet" : {
@@ -8294,9 +8159,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Success = $MailAccountObject->MailAccountUpdate(\n    ID                  => 1,\n    Login               => 'mail',\n    Password            => 'SomePassword',\n    Host                => 'pop3.example.com',\n    Type                => 'POP3',\n    IMAPFolder          => 'Some Folder', # optional, only valid for IMAP-type accounts\n    ValidID             => $ValidID,\n    Trusted             => 0,\n    AuthenticationType  => 'oauth2_token', # optional; defaults to 'password'\n    OAuth2TokenConfigID => $OAuth2TokenConfigID, # optional\n    DispatchingBy       => 'Queue', # Queue|From\n    QueueID             => $QueueID,\n    UserID              => $UserID,\n);" : [
-                  "6.5"
                ]
             }
          },
@@ -8315,9 +8177,6 @@
          ],
          "Functions" : {
             "Create" : {
-               "my $Result = $MailQueueObject->Create(\n    ArticleID       => $ArticleID, # optional\n    MessageID       => $MessageID, # optional (in case article id was passed this should be also)\n    Sender          => '...',\n    Recipient       => '...' || [],\n    Message         => '...',\n    Attempts        => '...', # optional\n);" : [
-                  "6.5"
-               ],
                "my $Result = $MailQueueObject->Create(\n    ArticleID => $ArticleID,         # optional\n    MessageID => $MessageID,         # optional (in case article id was passed this should be also)\n    Sender    => '...',\n    Recipient => '...' || [],\n    Message   => '...',\n    Attempts  => '...',         # optional\n);" : [
                   "6.0",
                   "6.4",
@@ -8329,9 +8188,6 @@
                ]
             },
             "Delete" : {
-               "my $Result = $MailQueueObject->Delete(\n    %Filters,                       # See _FiltersSQLAndBinds\n);" : [
-                  "6.5"
-               ],
                "my $Result = $MailQueueObject->Delete(\n    %Filters,       # See _FiltersSQLAndBinds\n);" : [
                   "6.0",
                   "6.4",
@@ -8343,9 +8199,6 @@
                ]
             },
             "Get" : {
-               "my $Item = $MailQueueObject->Get(\n    ID              => '...' # optional\n    ArticleID       => $ArticleID # optional\n);" : [
-                  "6.5"
-               ],
                "my $Item = $MailQueueObject->Get(\n    ID        => '...', # optional\n    ArticleID => $ArticleID, # optional\n);" : [
                   "6.0",
                   "6.4",
@@ -8357,9 +8210,6 @@
                ]
             },
             "List" : {
-               "my $List = $MailQueueObject->List(\n    ID              => '...', # optional\n    ArticleID       => $ArticleID, # optional\n    Sender          => '...', # optional\n    Recipient       => '...', # optional\n    Attempts        => '...', # optional\n);" : [
-                  "6.5"
-               ],
                "my $List = $MailQueueObject->List(\n    ID        => '...', # optional\n    ArticleID => $ArticleID, # optional\n    Sender    => '...', # optional\n    Recipient => '...', # optional\n    Attempts  => '...', # optional\n    Limit     => '...', # optional\n);" : [
                   "7.3"
                ],
@@ -8373,9 +8223,6 @@
                ]
             },
             "Send" : {
-               "my $List = $MailQueueObject->Send(\n    ID              => '...',\n    Sender          => '...',\n    Recipient       => '...',\n    Message         => '...',\n    Force           => '...' # optional, to force the sending even if isn't time\n);" : [
-                  "6.5"
-               ],
                "my $List = $MailQueueObject->Send(\n    ID        => '...',\n    Sender    => '...',\n    Recipient => '...',\n    Message   => '...',\n    Force     => '...',     # optional, to force the sending even if isn't time\n);" : [
                   "6.0",
                   "6.4",
@@ -8480,9 +8327,6 @@
                   "7.2",
                   "7.3"
                ],
-               "my $Dump = $MainObject->Dump(\n    $SomeVariable,\n    'ascii', # ascii|binary - default is binary\n);" : [
-                  "6.5"
-               ],
                "my $Dump = $MainObject->Dump(\n    $SomeVariable,\n);" : [
                   "6.0",
                   "6.4",
@@ -8511,15 +8355,9 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Success = $MainObject->FileDelete(\n    Directory       => 'c:\\some\\location',\n    Filename        => 'me_to/alal.xml',\n    # or Location\n    Location        => 'c:\\some\\location\\me_to\\alal.xml',\n\n    Type            => 'Local',   # optional - Local|Attachment|MD5\n    DisableWarnings => 1, # optional\n);" : [
-                  "6.5"
                ]
             },
             "FileGetMTime" : {
-               "my $FileMTime = $MainObject->FileGetMTime(\n    Directory => 'c:\\some\\location',\n    Filename  => 'me_to/alal.xml',\n    # or Location\n    Location  => 'c:\\some\\location\\me_to\\alal.xml'\n);" : [
-                  "6.5"
-               ],
                "my $FileMTime = $MainObject->FileGetMTime(\n    Directory => 'c:\\some\\location',\n    Filename  => 'me_to/alal.xml',\n    # or Location\n    Location  => 'c:\\some\\location\\me_to\\alal.xml',\n);" : [
                   "6.0",
                   "6.4",
@@ -8589,9 +8427,6 @@
                   "7.2",
                   "7.3"
                ],
-               "my $Filename = $MainObject->FilenameCleanUp(\n    Filename => 'me_to/alal.xml',\n    Type     => 'Local', # Local|Attachment|MD5\n);" : [
-                  "6.5"
-               ],
                "my $Filename = $MainObject->FilenameCleanUp(\n    Filename => 'some:file.xml',\n    Type     => 'MD5',              # Local|Attachment|MD5\n);" : [
                   "6.0",
                   "6.4",
@@ -8600,9 +8435,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Filename = $MainObject->FilenameCleanUp(\n    Filename => 'some:file.xml',\n    Type     => 'MD5', # Local|Attachment|MD5\n);" : [
-                  "6.5"
                ]
             },
             "GenerateRandomString" : {
@@ -8750,9 +8582,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Mentions = $MentionObject->GetTicketMentions(\n    TicketID  => $TicketID,\n    OrderBy   => 'create_time', # optional; default\n    SortOrder => 'ASC', # or 'DESC', optional; default\n);" : [
-                  "6.5"
                ]
             },
             "GetUserMentions" : {
@@ -8763,9 +8592,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Mentions = $MentionObject->GetUserMentions(\n    UserID     => $UserID,\n\n    # optional, defaults to 0 and then means that all mentions of all articles per ticket are\n    # counted as one combined mention;\n    # if set to 1, all mentions of every article count separately\n    PerArticle => 0,\n\n    OrderBy    => 'create_time', # optional; default\n    SortOrder  => 'ASC', # or 'DESC', optional; default\n);" : [
-                  "6.5"
                ]
             },
             "IsGroupBlocked" : {
@@ -8821,9 +8647,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $ID = $NotificationEventObject->NotificationAdd(\n    Name => 'Agent::OwnerUpdate',\n    Data => {\n        Events => [ 'TicketQueueUpdate' ],\n        ...\n        Queue => [ 'SomeQueue' ],\n    },\n    Message => {\n        en => {\n            Subject     => 'Hello',\n            Body        => 'Hello World',\n            ContentType => 'text/plain',\n        },\n        de => {\n            Subject     => 'Hallo',\n            Body        => 'Hallo Welt',\n            ContentType => 'text/plain',\n        },\n    },\n    Comment => 'An optional comment', # (optional)\n    ValidID => $ValidID,\n    UserID  => $UserID,\n);" : [
-                  "6.5"
                ]
             },
             "NotificationBodyCheck" : {
@@ -8915,9 +8738,6 @@
                "my $NotificationImport = $NotificationEventObject->NotificationImport(\n    Content                        => $YAMLContent, # mandatory, YAML format\n    OverwriteExistingNotifications => 0,            # optional, possible: 0, 1\n    UserID                         => $UserID,            # mandatory\n);" : [
                   "7.2",
                   "7.3"
-               ],
-               "my $NotificationImport = $NotificationEventObject->NotificationImport(\n    Content                   => $YAMLContent, # mandatory, YAML format\n    OverwriteExistingNotifications => 0,            # 0 || 1\n    UserID                    => $UserID,            # mandatory\n);" : [
-                  "6.5"
                ]
             },
             "NotificationList" : {
@@ -8940,9 +8760,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Ok = $NotificationEventObject->NotificationUpdate(\n    ID      => 123,\n    Name    => 'Agent::OwnerUpdate',\n    Data => {\n        Events => [ 'TicketQueueUpdate' ],\n        ...\n        Queue => [ 'SomeQueue' ],\n    },\n    Message => {\n        en => {\n            Subject     => 'Hello',\n            Body        => 'Hello World',\n            ContentType => 'text/plain',\n        },\n        de => {\n            Subject     => 'Hallo',\n            Body        => 'Hallo Welt',\n            ContentType => 'text/plain',\n        },\n    },\n    Comment => 'An optional comment',  # (optional)\n    ValidID => $ValidID,\n    UserID  => $UserID,\n);" : [
-                  "6.5"
                ]
             }
          },
@@ -9463,9 +9280,6 @@
                   "7.2",
                   "7.3"
                ],
-               "$PIDObject->PIDCreate(\n    Name  => 'PostMasterPOP3',\n    TTL   => 60 * 60 * 24 * 3, # for 3 days, per default 1h is used\n);" : [
-                  "6.5"
-               ],
                "$PIDObject->PIDCreate(\n    Name => 'PostMasterPOP3',\n);" : [
                   "6.0",
                   "6.4",
@@ -9508,9 +9322,6 @@
                ]
             },
             "PIDUpdate" : {
-               "my $Success = $PIDObject->PIDUpdate(\n    Name    => 'PostMasterPOP3',\n);" : [
-                  "6.5"
-               ],
                "my $Success = $PIDObject->PIDUpdate(\n    Name => 'PostMasterPOP3',\n);" : [
                   "6.0",
                   "6.4",
@@ -9537,9 +9348,6 @@
          ],
          "Functions" : {
             "AnalyzePackageFrameworkRequirements" : {
-               "my %CheckOk = $PackageObject->AnalyzePackageFrameworkRequirements(\n    Framework       => $Structure{Framework}, # [ { 'Content' => '4.0.x', 'Minimum' => '4.0.4'} ]\n    NoLog           => 1, # optional\n);" : [
-                  "6.5"
-               ],
                "my %CheckOk = $PackageObject->AnalyzePackageFrameworkRequirements(\n    Framework => $Structure{Framework},     # [ { 'Content' => '4.0.x', 'Minimum' => '4.0.4'} ]\n    NoLog     => 1, # optional\n);" : [
                   "6.0",
                   "6.4",
@@ -9584,9 +9392,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "$PackageObject->DeployCheck(\n    Name    => 'Application A',\n    Version => '1.0',\n    Log     => 1, # Default: 1\n);" : [
-                  "6.5"
                ]
             },
             "DeployCheckInfo" : {
@@ -9646,17 +9451,11 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $MD5Sum = $PackageObject->PackageFileGetMD5Sum(\n    Name => 'Package Name',\n    Version => 123.0,\n);" : [
-                  "6.5"
                ]
             },
             "PackageInstall" : {
                "$PackageObject->PackageInstall(\n    String    => $FileString,\n    Force     => 1,             # optional 1 or 0, for to install package even if validation fails\n    FromCloud => 1,             # optional 1 or 0, it indicates if package's origin is Cloud or not\n);" : [
                   "6.0"
-               ],
-               "$PackageObject->PackageInstall(\n    String    => $FileString,\n    Force     => 1,             # optional 1 or 0, for to install package even if validation fails\n);" : [
-                  "6.5"
                ],
                "$PackageObject->PackageInstall(\n    String => $FileString,\n    Force  => 1,             # optional 1 or 0, for to install package even if validation fails\n);" : [
                   "6.4",
@@ -9824,9 +9623,6 @@
                "$PackageObject->RepositoryAdd(\n    String    => $FileString,\n    FromCloud => 0,             # optional 1 or 0, it indicates if package came from Cloud or not\n);" : [
                   "6.0"
                ],
-               "$PackageObject->RepositoryAdd(\n    String    => $FileString,\n);" : [
-                  "6.5"
-               ],
                "$PackageObject->RepositoryAdd(\n    String => $FileString,\n);" : [
                   "6.4",
                   "6.5",
@@ -9889,9 +9685,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my @List = $PackageObject->RepositoryPackageListGet(\n    Source             => 'Example repository 1', # the value of key 'Name' in item of SysConfig option Package::RepositoryList or a direct download URL\n    Lang               => 'en',\n    Cache              => 0,    # (optional) use cached data\n    IncludeSameVersion => 1,    # (optional) also get packages already installed and with the same version\n);" : [
-                  "6.5"
                ]
             },
             "RepositoryRemove" : {
@@ -10039,9 +9832,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $FormDraftID = $ParamObject->SaveFormDraft(\n    UserID         => $UserID,\n    ObjectType     => 'Ticket',\n    ObjectID       => $ObjectID,\n    OverrideParams => {               # optional, can contain strings and array references\n        Subaction   => undef,\n        UserID      => $UserID,\n        CustomParam => [ 1, 2, 3, ],\n        ...\n    },\n);" : [
-                  "6.5"
                ]
             },
             "SetCookie" : {
@@ -10596,9 +10386,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "$Exist = $QueueObject->NameExistsCheck(\n    Name => 'Some::Queue',\n    ID => 1, # optional\n);" : [
-                  "6.5"
                ]
             },
             "QueueAdd" : {
@@ -10613,9 +10400,6 @@
                ]
             },
             "QueueGet" : {
-               "my %Queue = $QueueObject->QueueGet(\n    ID    => 123,\n);" : [
-                  "6.5"
-               ],
                "my %Queue = $QueueObject->QueueGet(\n    ID => 123,\n);" : [
                   "6.0",
                   "6.4",
@@ -10903,9 +10687,6 @@
                   "7.2",
                   "7.3"
                ],
-               "my $True = $SLAObject->SLAUpdate(\n    SLAID               => $SLAID,\n    ServiceIDs          => [ 1, 2, 3 ],  # (optional)\n    Name                => 'Service Name',\n    Calendar            => 'Calendar1',  # (optional)\n    FirstResponseTime   => 120,          # (optional)\n    FirstResponseNotify => 60,           # (optional) notify agent if first response escalation is 60% reached\n    UpdateTime          => 180,          # (optional)\n    UpdateNotify        => 80,           # (optional) notify agent if update escalation is 80% reached\n    SolutionTime        => 580,          # (optional)\n    SolutionNotify      => 80,           # (optional) notify agent if solution escalation is 80% reached\n    ValidID             => $ValidID,\n    Comment             => 'Comment',    # (optional)\n    UserID              => $UserID,\n\n    # ITSMCore\n    TypeID                  => $TypeID,\n    MinTimeBetweenIncidents => 3443,  # (optional)\n);" : [
-                  "6.5"
-               ],
                "my $True = $SLAObject->SLAUpdate(\n    SLAID               => $SLAID,\n    ServiceIDs          => [ 1, 2, 3 ],  # (optional)\n    Name                => 'Service Name',\n    Calendar            => 'Calendar1',  # (optional)\n    FirstResponseTime   => 120,          # (optional)\n    FirstResponseNotify => 60,           # (optional) notify agent if first response escalation is 60% reached\n    UpdateTime          => 180,          # (optional)\n    UpdateNotify        => 80,           # (optional) notify agent if update escalation is 80% reached\n    SolutionTime        => 580,          # (optional)\n    SolutionNotify      => 80,           # (optional) notify agent if solution escalation is 80% reached\n    ValidID             => $ValidID,\n    Comment             => 'Comment',    # (optional)\n    UserID              => $UserID,\n);" : [
                   "6.0",
                   "6.4",
@@ -11085,9 +10866,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $TaskID = $SchedulerDBObject->FutureTaskAdd(\n    ExecutionTime            => '2015-01-01 00:00:00',\n    Type                     => 'GenericInterface',  # e. g. GenericInterface, Test\n    Name                     => 'any name',          # optional\n    Attempts                 => 5,                   # optional (default 1)\n    MaximumParallelInstances => 2,                   # optional (default 0), number of tasks\n                                                     #   with the same type (and name if provided)\n                                                     #   that can exists at the same time,\n                                                     #   value of 0 means unlimited\n    Data => {                                        # data payload\n        ...\n    },\n);" : [
-                  "6.5"
                ]
             },
             "FutureTaskDelete" : {
@@ -11198,9 +10976,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Success = $SchedulerDBObject->RecurrentTaskExecute(\n    NodeID                   => $NodeID,                 # the ID of the node in a cluster environment\n    PID                      => $PID,               # the process ID of the daemon that is creating\n                                                   #    the tasks to execution\n    TaskName                 => 'UniqueTaskName',\n    TaskType                 => 'Cron',\n    PreviousEventTimestamp   => 1433212343,\n    MaximumParallelInstances => 1,                 # optional (default 0) number of tasks with the\n                                                   #    same name and type that can be in execution\n                                                   #    table at the same time, value of 0 means\n                                                   #    unlimited\n    Data                   => {                    # data payload\n        ...\n    },\n);" : [
-                  "6.5"
                ]
             },
             "RecurrentTaskGet" : {
@@ -11267,9 +11042,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $TaskID = $SchedulerDBObject->TaskAdd(\n    Type                     => 'GenericInterface',     # e. g. GenericInterface, Test\n    Name                     => 'any name',             # optional\n    Attempts                 => 5,                      # optional (default 1)\n    MaximumParallelInstances => 2,                      # optional (default 0), number of tasks\n                                                        #   with the same type (and name if\n                                                        #   provided) that can exists at the same\n                                                        #   time, value of 0 means unlimited\n    Data => {                                           # data payload\n        ...\n    },\n);" : [
-                  "6.5"
                ]
             },
             "TaskCleanup" : {
@@ -11417,9 +11189,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Success = $SchedulerObject->TaskAdd(\n    ExecutionTime            => '2015-01-01 00:00:00',  # task will be executed immediately if no execution\n                                                        #   time is given\n    Type                     => 'GenericInterface',     # e. g. GenericInterface, Test\n    Name                     => 'any name',             # optional\n    Attempts                 => 5,                      # optional (default 1)\n    MaximumParallelInstances => 2,                      # optional, number of tasks with the same type\n                                                        #   (and name if provided) that can exists at\n                                                        #   the same time, value of 0 means unlimited\n    Data => {                                           # data payload\n        ...\n    },\n);" : [
-                  "6.5"
                ]
             },
             "TaskList" : {
@@ -11728,9 +11497,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Result = $SeleniumObject->InputFieldIDMapping(\n    Action  => 'AgentTicketZoom',\n    Mapping => {\n        ...\n        QueueID => $QueueID,\n        ...\n    },\n);" : [
-                  "6.5"
                ],
                "my $Result = $SeleniumObject->InputFieldIDMapping(\n    Action  => 'AgentTicketZoom',\n);" : [
                   "6.4",
@@ -12184,9 +11950,6 @@
                   "7.2",
                   "7.3"
                ],
-               "my $ServiceID = $ServiceObject->ServiceAdd(\n    Name     => 'Service Name',\n    ParentID => $ParentID,           # (optional)\n    ValidID  => $ValidID,\n    Comment  => 'Comment',    # (optional)\n    UserID   => $UserID,\n\n    # ITSMCore (if installed)\n    TypeID      => $TypeID,\n    Criticality => '3 normal',\n);" : [
-                  "6.5"
-               ],
                "my $ServiceID = $ServiceObject->ServiceAdd(\n    Name     => 'Service Name',\n    ParentID => $ParentID,           # (optional)\n    ValidID  => $ValidID,\n    Comment  => 'Comment',    # (optional)\n    UserID   => $UserID,\n);" : [
                   "6.0",
                   "6.4",
@@ -12319,9 +12082,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $True = $ServiceObject->ServiceUpdate(\n    ServiceID => $ServiceID,\n    ParentID  => $ParentID,           # (optional)\n    Name      => 'Service Name',\n    ValidID   => $ValidID,\n    Comment   => 'Comment',    # (optional)\n    UserID    => $UserID,\n\n    # ITSMCore (if installed)\n    TypeID      => $TypeID,\n    Criticality => '3 normal',\n);" : [
-                  "6.5"
                ],
                "my $True = $ServiceObject->ServiceUpdate(\n    ServiceID => $ServiceID,\n    ParentID  => $ParentID,           # (optional)\n    Name      => 'Service Name',\n    ValidID   => $ValidID,\n    Comment   => 'Comment',    # (optional)\n    UserID    => $UserID,\n);" : [
                   "6.0",
@@ -12614,9 +12374,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "$Exist = $StandardTemplateObject->NameExistsCheck(\n    Name => 'Some::Template',\n    ID => 1, # optional\n);" : [
-                  "6.5"
                ]
             },
             "StandardTemplateAdd" : {
@@ -12827,9 +12584,6 @@
                   "7.2",
                   "7.3"
                ],
-               "my %List = $StateObject->StateGetStatesByType(\n    Type   => 'Viewable',\n    Result => 'HASH', # HASH|ID|Name\n);" : [
-                  "6.5"
-               ],
                "my @List = $StateObject->StateGetStatesByType(\n    StateType => ['open', 'new'],\n    Result    => 'ID',              # HASH|ID|Name\n);" : [
                   "6.0",
                   "6.4",
@@ -12838,9 +12592,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my @List = $StateObject->StateGetStatesByType(\n    StateType => ['open', 'new'],\n    Result    => 'ID', # HASH|ID|Name\n);" : [
-                  "6.5"
                ]
             },
             "StateList" : {
@@ -12960,9 +12711,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $ExportFile = $StatsObject->Export(\n    StatID => $StatID,\n    ExportStatNumber => 1 || 0, # optional, only useful move statistics from the test system to the productive system\n);" : [
-                  "6.5"
                ]
             },
             "GetDynamicFiles" : {
@@ -13010,9 +12758,6 @@
                ]
             },
             "GetStaticFiles" : {
-               "my $FileHash = $StatsObject->GetStaticFiles(\n    OnlyUnusedFiles => 1 | 0, # optional default 0\n    UserID => $UserID,\n);" : [
-                  "6.5"
-               ],
                "my $FileHash = $StatsObject->GetStaticFiles(\n    OnlyUnusedFiles => 1 || 0,  # optional default 0\n    UserID          => $UserID,\n);" : [
                   "6.0",
                   "6.4",
@@ -13032,9 +12777,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $ArrayRef = $StatsObject->GetStatsList(\n    AccessRw  => 1, # Optional, indicates that user may see all statistics\n    OrderBy   => 'ID' || 'Title' || 'Object', # optional\n    Direction => 'ASC' || 'DESC',             # optional\n    UserID    => $UserID,\n);" : [
-                  "6.5"
                ]
             },
             "GetStatsObjectAttributes" : {
@@ -13112,9 +12854,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Result = $StatsObject->StatsCleanUp(\n    UserID => $UserID,\n\n    ObjectNames => [ 'Ticket', 'TicketList' ],\n    or\n    CheckAllObjects => 1,\n);" : [
-                  "6.5"
                ]
             },
             "StatsDelete" : {
@@ -13148,9 +12887,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Result = $StatsObject->StatsInstall(\n    FilePrefix => 'FAQ',  # (optional)\n    UserID     => $UserID,\n);" : [
-                  "6.5"
                ]
             },
             "StatsListGet" : {
@@ -13162,9 +12898,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $StatsRef = $StatsObject->StatsListGet(\n    AccessRw => 1, # Optional, indicates that user may see all statistics\n    UserID   => $UserID,\n);" : [
-                  "6.5"
                ]
             },
             "StatsResultCacheCompute" : {
@@ -13176,9 +12909,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $StatArray = $StatsObject->StatsResultCacheCompute(\n    StatID       => $StatID,\n    UserID       => $UserID,        # target UserID\n    UserGetParam => \\%UserGetParam, # user settings of non-fixed fields\n);" : [
-                  "6.5"
                ]
             },
             "StatsResultCacheGet" : {
@@ -13190,9 +12920,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $StatArray = $StatsObject->StatsResultCacheGet(\n    StatID       => $StatID,\n    UserID       => $UserID,    # target UserID\n    UserGetParam => \\%GetParam,\n);" : [
-                  "6.5"
                ]
             },
             "StatsRun" : {
@@ -13204,9 +12931,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $StatArray = $StatsObject->StatsRun(\n    StatID     => $StatID,\n    GetParam   => \\%GetParam,\n    Preview    => 1,        # optional, return fake data for preview (only for dynamic stats)\n    UserID     => $UserID,\n);" : [
-                  "6.5"
                ]
             },
             "StatsUninstall" : {
@@ -13218,9 +12942,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Result = $StatsObject->StatsUninstall(\n    FilePrefix => 'FAQ',  # (optional)\n    UserID     => $UserID,\n);" : [
-                  "6.5"
                ]
             },
             "StatsUpdate" : {
@@ -13243,9 +12964,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Filename = $StatsObject->StringAndTimestamp2Filename(\n    String   => 'Title',\n    TimeZone => 'Europe/Berlin',  # optional\n);" : [
-                  "6.5"
                ]
             },
             "SumBuild" : {
@@ -13316,9 +13034,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my %List = $StdAttachmentObject->StdAttachmentList(\n    Valid => 0,  # optional, defaults to 1\n);" : [
-                  "6.5"
                ]
             },
             "StdAttachmentLookup" : {
@@ -13543,9 +13258,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my %Result = $SupportDataCollectorObject->Collect(\n    UseCache   => 1,    # (optional) to get data from cache if any\n    WebTimeout => 60,   # (optional)\n    Debug      => 1,    # (optional)\n    Hostname   => 'my.test.host:8080' # (optional, for testing purposes)\n);" : [
-                  "6.5"
                ]
             },
             "CollectAsynchronous" : {
@@ -13593,9 +13305,6 @@
                ]
             },
             "ConfigurationDeploy" : {
-               "my %Result = $SysConfigObject->ConfigurationDeploy(\n    Comments            => \"Some comments\",     # (optional)\n    NoValidation        => 0,                   # (optional) 1 or 0, default 0, skips settings validation\n    UserID              => $UserID,                 # if ExclusiveLockGUID is used, UserID must match the user that creates the lock\n    Force               => 1,                   # (optional) proceed even if lock is set to another user\n    NotDirty            => 1,                   # (optional) do not use any values from modified dirty settings\n    AllSettings         => 1,                   # (optional) use dirty modified settings from all users\n    DirtySettings       => [                    # (optional) use only this dirty modified settings from the current user\n        'SettingOne',\n        'SettingTwo',\n    ],\n);" : [
-                  "6.5"
-               ],
                "my %Result = $SysConfigObject->ConfigurationDeploy(\n    Comments      => \"Some comments\",     # (optional)\n    NoValidation  => 0,                   # (optional) 1 or 0, default 0, skips settings validation\n    UserID        => $UserID,                 # if ExclusiveLockGUID is used, UserID must match the user that creates the lock\n    Force         => 1,                   # (optional) proceed even if lock is set to another user\n    NotDirty      => 1,                   # (optional) do not use any values                 from modified dirty settings\n    AllSettings   => 1,                   # (optional) use dirty modified settings           from all users\n    DirtySettings => [                    # (optional) use only this dirty modified settings from the current user\n        'SettingOne',\n        'SettingTwo',\n    ],\n);" : [
                   "6.0",
                   "6.4",
@@ -13781,9 +13490,6 @@
                ]
             },
             "ConfigurationNavigationTree" : {
-               "my %Result = $SysConfigObject->ConfigurationNavigationTree(\n    RootNavigation         => 'Parent',     # (optional) If provided only sub groups of the root navigation are returned.\n    UserModificationActive => 1,            # (optional) Return settings that can be modified on user level only.\n    IsValid                => 1,            # (optional) By default, display all settings.\n    Category               => 'OTRS'        # (optional)\n);" : [
-                  "6.5"
-               ],
                "my %Result = $SysConfigObject->ConfigurationNavigationTree(\n    RootNavigation         => 'Parent',     # (optional) If provided only sub groups of the root navigation are returned.\n    UserModificationActive => 1,            # (optional) Return settings that can be modified on user level only.\n    IsValid                => 1,            # (optional) By default, display all settings.\n    Category               => 'OTRS',       # (optional)\n);" : [
                   "6.0",
                   "6.4",
@@ -13900,9 +13606,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my %Result = $SysConfigObject->SettingAddItem(\n    SettingStructure  => [],         # (required) array that contains structure\n                                     #  where a new item should be inserted (can be empty)\n    Setting           => {           # (required) Setting hash (from SettingGet())\n        'DefaultID' => '8905',\n        'DefaultValue' => [ 'Item 1', 'Item 2' ],\n        'Description' => 'Simple array item(Min 1, Max 3).',\n        'Name' => 'TestArray',\n        ...\n    },\n    Key               => 'HashKey',  # (optional) hash key\n    IDSuffix          => '_Array3,   # (optional) suffix that will be added to all input/select fields\n                                     #    (it is used in the JS on Update, during EffectiveValue calculation)\n    Value             => [           # (optional) Perl structure\n        {\n            'Array' => [\n                'Item' => [\n                    {\n                    'Content' => 'Item 1',\n                    },\n                    ...\n                ],\n            ],\n        },\n    ],\n    AddSettingContent => 0,          # (optional) if enabled, result will be inside of div with class \"SettingContent\"\n);" : [
-                  "6.5"
                ]
             },
             "SettingEffectiveValueCheck" : {
@@ -13914,9 +13617,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my %Result = $SysConfigObject->SettingEffectiveValueCheck(\n    EffectiveValue => 'open',     # (optional)\n    XMLContentParsed => {         # (required)\n        Value => [\n            {\n                'Item' => [\n                    {\n                        'Content' => \"Scalar value\",\n                    },\n                ],\n            },\n        ],\n    },\n    StoreCache            => 1,               # (optional) Store result in the Cache. Default 0.\n    SettingUID            => $SettingUID,   # (required if StoreCache)\n    NoValidation          => 1,               # (optional) no value type validation.\n    CurrentSystemTime     => 1507894796935,   # (optional) Use provided 1507894796935, otherwise calculate\n    ExpireTime            => 1507894896935,   # (optional) Use provided ExpireTime for cache, otherwise calculate\n    UserID                => $UserID,               # (required) UserID\n);" : [
-                  "6.5"
                ]
             },
             "SettingEffectiveValueGet" : {
@@ -13928,9 +13628,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Result = $SysConfigObject->SettingEffectiveValueGet(\n    Translate => 1,                      # (optional) Translate translatable strings. Default 0.\n    Value  => [                          # (required) parsed XML structure\n        {\n            'Item' => [\n                {\n                    'ValueType' => 'String',\n                    'Content' => '3600',\n                    'ValueRegex' => ''\n                },\n            ],\n        },\n        Objects => {\n            Select => { ... },\n            PerlModule => { ... },\n            # ...\n        }\n    ];\n);" : [
-                  "6.5"
                ]
             },
             "SettingGet" : {
@@ -13989,9 +13686,6 @@
                ]
             },
             "SettingReset" : {
-               "my $Result = $SysConfigObject->SettingReset(\n    Name                  => 'Setting Name',                # (required) Setting name\n    TargetUserID          => $TargetUserID,                             # (optional) UserID for settings in AgentPreferences\n                                                            # or\n    ExclusiveLockGUID     => $LockingString,                # (optional) the GUID used to locking the setting\n    UserID                => $UserID,                             # (required) UserID that creates modification\n);" : [
-                  "6.5"
-               ],
                "my $Result = $SysConfigObject->SettingReset(\n    Name              => 'Setting Name',                # (required) Setting name\n    TargetUserID      => $TargetUserID,                             # (optional) UserID for settings in AgentPreferences\n                                                        # or\n    ExclusiveLockGUID => $LockingString,                # (optional) the GUID used to locking the setting\n    UserID            => $UserID,                             # (required) UserID that creates modification\n);" : [
                   "6.0",
                   "6.4",
@@ -14014,9 +13708,6 @@
                ]
             },
             "SettingUpdate" : {
-               "my %Result = $SysConfigObject->SettingUpdate(\n    Name                   => 'Setting::Name',           # (required) setting name\n    IsValid                => 1,                         # (optional) 1 or 0, modified 0\n    EffectiveValue         => $SettingEffectiveValue,    # (optional)\n    UserModificationActive => 0,                         # (optional) 1 or 0, modified 0\n    TargetUserID           => $TargetUserID,                         # (optional) ID of the user for which the modified setting is meant,\n                                                         #   leave it undef for global changes.\n    ExclusiveLockGUID      => $LockingString,            # the GUID used to locking the setting\n    UserID                 => $UserID,                         # (required) UserID\n    NoValidation           => 1,                         # (optional) no value type validation.\n);" : [
-                  "6.5"
-               ],
                "my %Result = $SysConfigObject->SettingUpdate(\n    Name                   => 'Setting::Name',          # (required) setting name\n    IsValid                => 1,                        # (optional) 1 or 0, modified 0\n    EffectiveValue         => $SettingEffectiveValue,   # (optional)\n    UserModificationActive => 0,                        # (optional) 1 or 0, modified 0\n    TargetUserID           => $TargetUserID,                        # (optional) ID of the user for which the modified setting is meant,\n                                                        #   leave it undef for global changes.\n    ExclusiveLockGUID      => $LockingString,           # the GUID used to locking the setting\n    UserID                 => $UserID,                        # (required) UserID\n    NoValidation           => 1,                        # (optional) no value type validation.\n);" : [
                   "6.0",
                   "6.4",
@@ -14036,9 +13727,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Success = $SysConfigObject->SettingsSet(\n    UserID   => $UserID,                                      # (required) UserID\n    Comments => 'Deployment comment',                   # (optional) Comment\n    Settings => [                                       # (required) List of settings to update.\n        {\n            Name                   => 'Setting::Name',  # (required)\n            EffectiveValue         => 'Value',          # (optional)\n            IsValid                => 1,                # (optional)\n            UserModificationActive => 1,                # (optional)\n        },\n        ...\n    ],\n);" : [
-                  "6.5"
                ]
             },
             "SettingsUpdatedList" : {
@@ -14050,9 +13738,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my @List = $SysConfigObject->SettingsUpdatedList(\n    Settings => [                                               # (required) List of settings that needs to be checked\n        {\n            SettingName           => 'SettingName',\n            ChangeTime            => '2017-01-13 11:23:07',\n            IsLockedByAnotherUser => 0,\n        },\n        ...\n    ],\n    UserID => $UserID,                                                # (required) Current user id\n);" : [
-                  "6.5"
                ]
             },
             "ValueAttributeList" : {
@@ -14236,9 +13921,6 @@
                ]
             },
             "SystemDataDelete" : {
-               "$SystemDataObject->SystemDataDelete(\n    Key    => 'OTRS Version',\n    UserID => $UserID,\n);" : [
-                  "6.5"
-               ],
                "$SystemDataObject->SystemDataDelete(\n    Key    => 'Znuny Version',\n    UserID => $UserID,\n);" : [
                   "6.0",
                   "6.4",
@@ -14250,9 +13932,6 @@
                ]
             },
             "SystemDataGet" : {
-               "my $SystemData = $SystemDataObject->SystemDataGet(\n    Key => 'OTRS Version',\n);" : [
-                  "6.5"
-               ],
                "my $SystemData = $SystemDataObject->SystemDataGet(\n    Key => 'Znuny Version',\n);" : [
                   "6.0",
                   "6.4",
@@ -14275,9 +13954,6 @@
                ]
             },
             "SystemDataUpdate" : {
-               "my $Result = $SystemDataObject->SystemDataUpdate(\n    Key    => 'OTRS Version',\n    Value  => 'Some New Value',\n    UserID => $UserID,\n);" : [
-                  "6.5"
-               ],
                "my $Result = $SystemDataObject->SystemDataUpdate(\n    Key    => 'Znuny Version',\n    Value  => 'Some New Value',\n    UserID => $UserID,\n);" : [
                   "6.0",
                   "6.4",
@@ -14432,9 +14108,6 @@
                ]
             },
             "GenericAgentArticle" : {
-               "my $GenericAgentArticle = $TemplateGeneratorObject->GenericAgentArticle(\n    Notification    => $NotificationDataHashRef,\n    TicketID        => $TicketID,\n    UserID          => $UserID,\n    Data            => $ArticleHashRef,             # Optional\n);" : [
-                  "6.5"
-               ],
                "my $GenericAgentArticle = $TemplateGeneratorObject->GenericAgentArticle(\n    Notification => $NotificationDataHashRef,\n    TicketID     => $TicketID,\n    UserID       => $UserID,\n    Data         => $ArticleHashRef,             # Optional\n);" : [
                   "6.0",
                   "6.4",
@@ -14477,9 +14150,6 @@
                ]
             },
             "Sender" : {
-               "my $Sender = $TemplateGeneratorObject->Sender(\n    QueueID    => $QueueID,\n    UserID     => $UserID,\n);" : [
-                  "6.5"
-               ],
                "my $Sender = $TemplateGeneratorObject->Sender(\n    QueueID => $QueueID,\n    UserID  => $UserID,\n);" : [
                   "6.0",
                   "6.4",
@@ -14583,9 +14253,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $TicketAttributeRelations = $TicketAttributeRelationsObject->GetTicketAttributeRelations(\n    ID => 123,\n    # or\n    # Filename => 'test.csv',\n\n    UserID  => $UserID,\n);" : [
-                  "6.5"
                ]
             },
             "UpdateTicketAttributeRelations" : {
@@ -16151,9 +15818,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $TransitionCheck = $TransitionObject->TransitionCheck(\n    TransitionEntityID => $TransitionEntityID,\n    or\n    TransitionEntityID => [$TransitionEntityID],\n    Data       => {\n        Queue         => 'Raw',\n        DynamicField1 => 'Value',\n        Subject       => 'Testsubject',\n        ...\n    },\n);" : [
-                  "6.5"
                ]
             },
             "TransitionGet" : {
@@ -16301,9 +15965,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "$Exist = $TypeObject->NameExistsCheck(\n    Name => 'Some::Template',\n    ID => 1, # optional\n);" : [
-                  "6.5"
                ]
             },
             "TypeAdd" : {
@@ -16845,9 +16506,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Result = $UnitTestWebserviceObject->Mock(\n    InvokerName123 => [\n        {\n            Data => {\n                OutgoingData => 'Value'\n            },\n            Result => {\n                Success      => 1,\n                ErrorMessage => '',\n                Data         => {\n                    YAY => 'so true',\n                },\n            }\n        },\n        ...\n    ],\n    ...\n);" : [
-                  "6.5"
                ]
             },
             "MockFromFile" : {
@@ -16894,9 +16552,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $Response = $UnitTestWebserviceObject->Process(\n    UnitTestObject => $Self,\n    Webservice     => 'Name123', # or\n    WebserviceID   => $WebserviceID,\n    Operation      => 'DesiredOperation',\n    Payload        => {\n        ...\n    },\n    Response => {               # optional, you can validate the response manually in the unit test via $Self->IsDeeply()\n        Success      => 1,\n        ErrorMessage => '',\n        Data         => {\n            ...\n        },\n    }\n);" : [
-                  "6.5"
                ]
             },
             "Result" : {
@@ -17593,9 +17248,6 @@
                   "7.1",
                   "7.2",
                   "7.3"
-               ],
-               "my $ID = $WebserviceHistoryObject->WebserviceHistoryAdd(\n    WebserviceID => $WebserviceID,\n    Config       => {\n        ...\n    },\n    UserID  => $UserID,\n);" : [
-                  "6.5"
                ]
             },
             "WebserviceHistoryDelete" : {

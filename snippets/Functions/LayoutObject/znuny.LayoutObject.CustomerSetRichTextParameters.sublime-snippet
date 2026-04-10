@@ -6,6 +6,6 @@ ${1:\$LayoutObject->CustomerSetRichTextParameters(
 
 ]]></content>
     <tabTrigger>znuny.LayoutObject.CustomerSetRichTextParameters</tabTrigger>
-    <description>7.2</description>
+    <description>7.2, 7.3</description>
     <scope>source.perl</scope>
 </snippet>

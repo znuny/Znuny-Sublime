@@ -4,9 +4,12 @@ ${1:my \$Success = \$CommunicationLogObject->ObjectLog(
     ObjectLogType => '...', # (required) To be defined by the related LogObject
     ObjectLogID   => \$ObjectLogID,   # (required) The ObjectID of the started object type
 );}
+${2:my \$Success = \$CommunicationLogObject->ObjectLog(
+    ObjectLogType => '...', # (required) To be defined by the related LogObject
+);}
 
 ]]></content>
     <tabTrigger>znuny.CommunicationLogObject.ObjectLog</tabTrigger>
-    <description>6.0, 6.4, 6.5, 7.0, 7.1, 7.2</description>
+    <description>6.0, 6.4, 6.5, 7.0, 7.1, 7.2, 7.3</description>
     <scope>source.perl</scope>
 </snippet>

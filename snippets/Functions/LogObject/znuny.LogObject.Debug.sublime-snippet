@@ -4,6 +4,6 @@ ${1:\$LogObject->Debug("You won't want to see this unless you're a developer.");
 
 ]]></content>
     <tabTrigger>znuny.LogObject.Debug</tabTrigger>
-    <description>7.2</description>
+    <description>7.2, 7.3</description>
     <scope>source.perl</scope>
 </snippet>

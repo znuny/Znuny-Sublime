@@ -1,25 +1,70 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$Output = \$LayoutObject->Notify(
+    Priority        => 'Warning',
+    Info            => 'Some Info Message',
+    KeepClosedForSession => 1,
+
+    Actions  => [
+        \{
+            type => 'submit',
+            text => 'Continue',
+            url  => 'http://znuny.com/',
+            class => 'some_CSS_class',
+        \},
+        \{
+            type => 'error',
+            text => 'Error',
+            url  => 'http://znuny.com/',
+            class => 'Error',
+        \},
+        \{
+            type => 'notify',
+            text => 'Cancel',
+            url  => 'http://znuny.com/',
+            class => 'some_CSS_class',
+        \},
+    ],
+);}
+${2:my \$Output = \$LayoutObject->Notify(
+    Priority        => 'Warning',
+    Info            => 'Some Warning Message',
+    KeepClosedForSession => 1,                       # optional, default 0; If set to 1, the message remains closed when the page is reloaded for the current session.
+);}
+${3:my \$Output = \$LayoutObject->Notify(
     Priority  => 'Warning',
     Data      => 'Template content',
     Link      => 'http://example.com/',
     LinkClass => 'some_CSS_class',              # optional
 );}
-${2:my \$Output = \$LayoutObject->Notify(
+${4:my \$Output = \$LayoutObject->Notify(
+    Priority  => 'Warning',
+    Data      => 'Template content',
+    Link      => 'http://znuny.com/',
+    LinkClass => 'some_CSS_class',              # optional
+);}
+${5:my \$Output = \$LayoutObject->Notify(
+    Priority => 'Error',
+    Info     => 'Some Error Message',
+);}
+${6:my \$Output = \$LayoutObject->Notify(
     Priority => 'Error',
     Info => 'Some Error Message',
 );}
-${3:my \$Output = \$LayoutObject->Notify(
+${7:my \$Output = \$LayoutObject->Notify(
     Priority => 'Error',
 );}
-${4:my \$Output = \$LayoutObject->Notify(
+${8:my \$Output = \$LayoutObject->Notify(
+    Priority => 'Warning',
+    Info     => 'Some Info Message',
+);}
+${9:my \$Output = \$LayoutObject->Notify(
     Priority => 'Warning',
     Info => 'Some Info Message',
 );}
 
 ]]></content>
     <tabTrigger>znuny.LayoutObject.Notify</tabTrigger>
-    <description>6.0, 6.4, 6.5, 7.0, 7.1, 7.2</description>
+    <description>6.0, 6.4, 6.5, 7.0, 7.1, 7.2, 7.3</description>
     <scope>source.perl</scope>
 </snippet>

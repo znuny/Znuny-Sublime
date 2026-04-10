@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:\$Time = \$LanguageObject->FormatCurrentTime(
+    Format => 'DateFormat',
+);}
+
+]]></content>
+    <tabTrigger>znuny.LanguageObject.FormatCurrentTime</tabTrigger>
+    <description>7.3</description>
+    <scope>source.perl</scope>
+</snippet>

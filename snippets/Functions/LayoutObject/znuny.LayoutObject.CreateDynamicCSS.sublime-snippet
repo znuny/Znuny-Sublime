@@ -4,6 +4,6 @@ ${1:my \$CSS = \$LayoutObject->CreateDynamicCSS();}
 
 ]]></content>
     <tabTrigger>znuny.LayoutObject.CreateDynamicCSS</tabTrigger>
-    <description>7.0, 7.1, 7.2</description>
+    <description>7.0, 7.1, 7.2, 7.3</description>
     <scope>source.perl</scope>
 </snippet>

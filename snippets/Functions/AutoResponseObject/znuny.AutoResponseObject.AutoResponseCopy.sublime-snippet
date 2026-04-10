@@ -7,6 +7,6 @@ ${1:my \$NewAutoResponseID = \$AutoResponseObject->AutoResponseCopy(
 
 ]]></content>
     <tabTrigger>znuny.AutoResponseObject.AutoResponseCopy</tabTrigger>
-    <description>7.2</description>
+    <description>7.2, 7.3</description>
     <scope>source.perl</scope>
 </snippet>

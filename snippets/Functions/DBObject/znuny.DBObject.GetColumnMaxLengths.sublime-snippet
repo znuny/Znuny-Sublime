@@ -6,6 +6,6 @@ ${1:my %ColumnMaxLength = \$DBObject->GetColumnMaxLengths(
 
 ]]></content>
     <tabTrigger>znuny.DBObject.GetColumnMaxLengths</tabTrigger>
-    <description>7.1, 7.2</description>
+    <description>7.1, 7.2, 7.3</description>
     <scope>source.perl</scope>
 </snippet>

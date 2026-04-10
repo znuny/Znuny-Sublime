@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SendmailConfigDeleted = \$SendmailConfigObject->Delete(
+    ID => 123,
+);}
+
+]]></content>
+    <tabTrigger>znuny.SendmailConfigObject.Delete</tabTrigger>
+    <description>7.3</description>
+    <scope>source.perl</scope>
+</snippet>

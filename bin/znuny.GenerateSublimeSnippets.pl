@@ -400,9 +400,17 @@ sub _TidyRawDataFile {
                 if ($Data->{FrameworkVersion}){
                     @{$Data->{FrameworkVersion}} = _RemoveBlacklistedVersion(@{$Data->{FrameworkVersion}});
                 }
-                for my $FunctionName (sort keys %{$Data->{Functions}}){
-                    for my $FunctionContent (sort keys %{$Data->{Functions}->{$FunctionName}}){
-                        @{$Data->{Functions}->{$FunctionName}->{$FunctionContent}} = _RemoveBlacklistedVersion(@{$Data->{Functions}->{$FunctionName}->{$FunctionContent}});
+                for my $FunctionName ( sort keys %{ $Data->{Functions} } ) {
+                    my $FunctionBlock = $Data->{Functions}->{$FunctionName};
+
+                    # Drop parser placeholders with no snippet body (e.g. stale {} after POD parse failed).
+                    if ( !IsHashRefWithData($FunctionBlock) ) {
+                        delete $Data->{Functions}->{$FunctionName};
+                        next;
+                    }
+                    for my $FunctionContent ( sort keys %{$FunctionBlock} ) {
+                        @{ $FunctionBlock->{$FunctionContent} }
+                            = _RemoveBlacklistedVersion( @{ $FunctionBlock->{$FunctionContent} } );
                     }
                 }
             }
@@ -435,6 +443,41 @@ sub _RemoveBlacklistedVersion {
     }
     @Versions = sort keys %Versions;
     return @Versions;
+}
+
+=head2 _FallbackObjectManagerFromPackage()
+
+If POD has no C<=head2 new()> verbatim sample with C<< $Kernel::OM->Get(...) >>, derive the
+snippet ObjectManager line from the first C<package> statement (Znuny convention:
+C<Kernel::System::MSGraph> -> C<MSGraphObject>).
+
+=cut
+
+sub _FallbackObjectManagerFromPackage {
+    my ($File) = @_;
+
+    my $ContentSCALARRef = $MainObject->FileRead(
+        Location => $File,
+    );
+    return if !$ContentSCALARRef;
+    my $Content = ${$ContentSCALARRef};
+
+    my ($Package) = $Content =~ m{^\s*package\s+([A-Za-z0-9_:]+)\s*;}msx;
+    return if !$Package;
+    return if $Package !~ m{\AKernel::}msx;
+
+    my @Parts = split /::/, $Package;
+    my $Short = $Parts[-1];
+    return if !$Short;
+
+    my $ObjectName    = $Short . 'Object';
+    my $ObjectManager = "my \$$ObjectName = \$Kernel::OM->Get('$Package');";
+
+    return {
+        Package       => $Package,
+        ObjectName    => $ObjectName,
+        ObjectManager => $ObjectManager,
+    };
 }
 
 
@@ -726,6 +769,16 @@ sub _GetObjects {
         $ZnunyPODParserObject->{CallObjectMapping}  = \%CallObjectMapping;
 
         $ZnunyPODParserObject->parse_from_file($File);
+
+        # Modules that document with =head1 only or omit new() POD (e.g. Kernel::System::MSGraph)
+        if ( !$ZnunyPODParserObject->{ObjectManager} || !$ZnunyPODParserObject->{ObjectName} ) {
+            my $Fallback = _FallbackObjectManagerFromPackage($File);
+            if ($Fallback) {
+                $ZnunyPODParserObject->{ObjectManager} ||= $Fallback->{ObjectManager};
+                $ZnunyPODParserObject->{ObjectName}    ||= $Fallback->{ObjectName};
+                $ZnunyPODParserObject->{Package}       ||= $Fallback->{Package};
+            }
+        }
 
         ATTRIBUTE:
         for my $RequiredAttribute (qw(ObjectManager ObjectName)) {

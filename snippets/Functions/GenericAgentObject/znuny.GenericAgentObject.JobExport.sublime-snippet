@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ExportData = \$GenericAgentObject->JobExport(
+    # required either Name or ExportAll
+    Name       => 'job1', # required
+                          # or
+    ExportAll  => 0,      # required, possible: 0, 1
+);}
+
+]]></content>
+    <tabTrigger>znuny.GenericAgentObject.JobExport</tabTrigger>
+    <description>7.3</description>
+    <scope>source.perl</scope>
+</snippet>

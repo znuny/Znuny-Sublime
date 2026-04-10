@@ -15,6 +15,6 @@ ${4:my %StandardTemplates = \$StandardTemplateObject->StandardTemplateList();}
 
 ]]></content>
     <tabTrigger>znuny.StandardTemplateObject.StandardTemplateList</tabTrigger>
-    <description>6.0, 6.4, 6.5, 7.0, 7.1, 7.2</description>
+    <description>6.0, 6.4, 6.5, 7.0, 7.1, 7.2, 7.3</description>
     <scope>source.perl</scope>
 </snippet>
