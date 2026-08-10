@@ -6,6 +6,10 @@ ${1:\$PackageObject->RepositoryAdd(
 );}
 ${2:\$PackageObject->RepositoryAdd(
     String => \$FileString,
+    UserID => \$UserID,
+);}
+${3:\$PackageObject->RepositoryAdd(
+    String => \$FileString,
 );}
 
 ]]></content>

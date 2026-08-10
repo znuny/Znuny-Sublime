@@ -444,6 +444,9 @@
          "7.2",
          "7.3"
       ],
+      "_Decrypt" : [
+         "7.3"
+      ],
       "_DefaultColumnsDisable" : [
          "6.4",
          "6.5",
@@ -484,6 +487,9 @@
          "7.0",
          "7.1",
          "7.2",
+         "7.3"
+      ],
+      "_Dump" : [
          "7.3"
       ],
       "_DynamicFieldReorder" : [
@@ -592,6 +598,9 @@
          "7.2",
          "7.3"
       ],
+      "_EncodeMIMEWords" : [
+         "7.3"
+      ],
       "_EvaluateParams" : [
          "7.3"
       ],
@@ -620,6 +629,9 @@
          "7.3"
       ],
       "_ExtractValueType" : [
+         "7.3"
+      ],
+      "_FileLookup" : [
          "7.3"
       ],
       "_FileWriteAtomic" : [
@@ -833,6 +845,9 @@
          "7.0",
          "7.1",
          "7.2",
+         "7.3"
+      ],
+      "_HandleFile" : [
          "7.3"
       ],
       "_HandleSettingsToDeploy" : [
@@ -1174,6 +1189,9 @@
          "7.2",
          "7.3"
       ],
+      "_PossibleNextActionsRender" : [
+         "7.3"
+      ],
       "_PostMasterFilterConfigExport" : [
          "6.4",
          "6.5",
@@ -1394,6 +1412,9 @@
          "7.0",
          "7.1",
          "7.2",
+         "7.3"
+      ],
+      "_SaveResults" : [
          "7.3"
       ],
       "_Seconds2String" : [

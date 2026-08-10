@@ -1,6 +1,9 @@
 <snippet>
     <content><![CDATA[
 ${1:my \$BestTextColor = \$CalendarObject->GetTextColor(
+    Background => '#FFF',        # or #FFFFFF, #FFFFFFFF (ColorPicker / HVS)
+);}
+${2:my \$BestTextColor = \$CalendarObject->GetTextColor(
     Background => '#FFF',    # (required) must be in valid hexadecimal RGB notation
 );}
 

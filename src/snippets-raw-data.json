@@ -1968,6 +1968,9 @@
                ]
             },
             "GetTextColor" : {
+               "my $BestTextColor = $CalendarObject->GetTextColor(\n    Background => '#FFF',        # or #FFFFFF, #FFFFFFFF (ColorPicker / HVS)\n);" : [
+                  "7.3"
+               ],
                "my $BestTextColor = $CalendarObject->GetTextColor(\n    Background => '#FFF',    # (required) must be in valid hexadecimal RGB notation\n);" : [
                   "6.0",
                   "6.4",
@@ -9457,6 +9460,9 @@
                "$PackageObject->PackageInstall(\n    String    => $FileString,\n    Force     => 1,             # optional 1 or 0, for to install package even if validation fails\n    FromCloud => 1,             # optional 1 or 0, it indicates if package's origin is Cloud or not\n);" : [
                   "6.0"
                ],
+               "$PackageObject->PackageInstall(\n    String => $FileString,\n    Force  => 1,             # optional 1 or 0, for to install package even if validation fails\n    UserID => $UserID,           # optional\n);" : [
+                  "7.3"
+               ],
                "$PackageObject->PackageInstall(\n    String => $FileString,\n    Force  => 1,             # optional 1 or 0, for to install package even if validation fails\n);" : [
                   "6.4",
                   "6.5",
@@ -9558,6 +9564,9 @@
                ]
             },
             "PackageUpgrade" : {
+               "$PackageObject->PackageUpgrade(\n    String => $FileString,\n    Force  => 1,             # optional 1 or 0, for to install package even if validation fails\n    UserID => $UserID,           # optional\n);" : [
+                  "7.3"
+               ],
                "$PackageObject->PackageUpgrade(\n    String => $FileString,\n    Force  => 1,             # optional 1 or 0, for to install package even if validation fails\n);" : [
                   "6.0",
                   "6.4",
@@ -9622,6 +9631,9 @@
             "RepositoryAdd" : {
                "$PackageObject->RepositoryAdd(\n    String    => $FileString,\n    FromCloud => 0,             # optional 1 or 0, it indicates if package came from Cloud or not\n);" : [
                   "6.0"
+               ],
+               "$PackageObject->RepositoryAdd(\n    String => $FileString,\n    UserID => $UserID,\n);" : [
+                  "7.3"
                ],
                "$PackageObject->RepositoryAdd(\n    String => $FileString,\n);" : [
                   "6.4",
@@ -16858,7 +16870,15 @@
             "7.3"
          ],
          "Functions" : {
+            "ApplicationUserGet" : {
+               "my $ApplicationUser = $UtilObject->ApplicationUserGet();" : [
+                  "7.3"
+               ]
+            },
             "Base64DeepEncode" : {
+               "my $Base64EncodedData = $UtilObject->Base64DeepEncode(\n    # Data can be a scalar, hash or array\n    Data => {\n        Article => {\n            # ...\n        },\n        # ...\n    },\n    HashKeys => [\n        # All 'Body' elements of array $Hash->{Articles} will be Base64 encoded.\n        # Also can mean: $Hash->{Articles}->{Body}, if 'Articles' is a hash.\n        # Will encode nothing if last key ('Body') cannot be reached or is not a scalar/string.\n        'Articles->Body',\n\n        'QueueData->Comment',\n        # ...\n    ],\n);" : [
+                  "7.3"
+               ],
                "my $Base64EncodedData = $UtilObject->Base64DeepEncode(\n    # Data can be a scalar, hash or array\n    Data => {\n        Article => {\n            # ...\n        },\n        # ...\n    },\n    HashKeys => [\n        # All 'Body' elements of array $Hash->{Articles} will be base-64 encoded.\n        # Also can mean: $Hash->{Articles}->{Body}, if 'Articles' is a hash.\n        # Will encode nothing if last key ('Body') cannot be reached or is not a scalar/string.\n        'Articles->Body',\n\n        'QueueData->Comment',\n        # ...\n    ],\n);" : [
                   "6.4",
                   "6.5",
@@ -16914,6 +16934,11 @@
                   "7.0",
                   "7.1",
                   "7.2",
+                  "7.3"
+               ]
+            },
+            "XSSSanitizeValue" : {
+               "my $Value = $UtilObject->XSSSanitizeValue( $SuspiciousValue );" : [
                   "7.3"
                ]
             }

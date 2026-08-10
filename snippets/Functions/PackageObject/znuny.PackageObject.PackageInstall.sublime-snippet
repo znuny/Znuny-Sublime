@@ -8,6 +8,11 @@ ${1:\$PackageObject->PackageInstall(
 ${2:\$PackageObject->PackageInstall(
     String => \$FileString,
     Force  => 1,             # optional 1 or 0, for to install package even if validation fails
+    UserID => \$UserID,           # optional
+);}
+${3:\$PackageObject->PackageInstall(
+    String => \$FileString,
+    Force  => 1,             # optional 1 or 0, for to install package even if validation fails
 );}
 
 ]]></content>

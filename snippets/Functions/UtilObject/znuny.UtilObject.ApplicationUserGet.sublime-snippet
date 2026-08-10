@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ApplicationUser = \$UtilObject->ApplicationUserGet();}
+
+]]></content>
+    <tabTrigger>znuny.UtilObject.ApplicationUserGet</tabTrigger>
+    <description>7.3</description>
+    <scope>source.perl</scope>
+</snippet>
