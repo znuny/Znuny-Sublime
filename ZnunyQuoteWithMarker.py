@@ -38,7 +38,7 @@ class ZnunyQuoteWithMarkerCommand(sublime_plugin.TextCommand):
 
             # Skip empty selections.
             if region.empty():
-                next
+                continue
 
             # Get the selected text.
             selection = self.view.substr(region)

@@ -15,6 +15,7 @@
 ✔ Log Customizers errors with traceback to the Sublime console.
 ✔ Fixed Customizers network and HTTP errors. Connection failures and HTTP status (including a GitHub rate-limit hint) open an error dialog instead of crashing on a missing response.
 ✔ Fixed Customizers IndexError when the window has no project folder.
+✔ Fixed QuoteWithMarker inserting a marker block at empty carets.
 
 GitHub link - https://github.com/znuny/Znuny-Sublime
 
