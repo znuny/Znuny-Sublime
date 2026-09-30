@@ -48,6 +48,11 @@ class ZnunyCustomizers(sublime_plugin.WindowCommand):
 
     def run(self):
 
+        # An empty window has no target for the downloaded file.
+        # Stop here, before any GitHub request.
+        if not self.project_folders():
+            return
+
         sublime.active_window().show_quick_panel(self.repository_names, self.repository_selected)
 
     def repository_selected(self, index):
@@ -170,7 +175,10 @@ class ZnunyCustomizers(sublime_plugin.WindowCommand):
             self.file = file_data
 
             sublime.status_message('Determing possible target folders for file "%s" from branch "%s".' % (self.file['path'], self.selected_branch))
-            folders = self.window.folders()
+            folders = self.project_folders()
+
+            if not folders:
+                return
 
             if len(folders) > 1:
                 sublime.status_message('Showing folder selection for file "%s" from branch "%s".' % (self.file['path'], self.selected_branch))
@@ -204,9 +212,26 @@ class ZnunyCustomizers(sublime_plugin.WindowCommand):
         search = re.compile(search_regex, re.VERBOSE | re.DOTALL | re.MULTILINE | re.IGNORECASE)
         return search.sub(insert_regex, content)
 
-    def folder_selected(self, index):
+    def project_folders(self):
 
         folders = self.window.folders()
+
+        if folders:
+            return folders
+
+        sublime.error_message('Add a project folder before using Znuny Customizer.')
+        return []
+
+    def folder_selected(self, index):
+
+        if index == -1:
+            return
+
+        folders = self.project_folders()
+
+        if not folders:
+            return
+
         self.file['folder'] = folders[index]
 
         self.write_and_open_file()
