@@ -9,17 +9,40 @@ class ZnunyGenerateFilelist(sublime_plugin.TextCommand):
 
     def run(self, edit):
 
-        folders = self.view.window().folders()
+        window = self.view.window()
+        if not window:
+            sublime.status_message('Add a project folder first')
+            return
+
+        folders = window.folders()
+
+        # A single file opened without a project (subl file.sopm) has no folders.
+        # folders[0] on that empty list raises IndexError.
+        if not folders:
+            sublime.status_message('Add a project folder first')
+            return
 
         if len(folders) > 1:
             sublime.status_message('Showing folder selection.')
-            sublime.active_window().show_quick_panel(folders, self.folder_selected)
+            window.show_quick_panel(folders, self.folder_selected)
         else:
             self.generate_filelist(folders[0])
 
     def folder_selected(self, index):
 
-        folders = self.view.window().folders()
+        if index < 0:
+            return
+
+        window = self.view.window()
+        if not window:
+            sublime.status_message('Add a project folder first')
+            return
+
+        folders = window.folders()
+
+        if index >= len(folders):
+            sublime.status_message('Add a project folder first')
+            return
 
         self.generate_filelist(folders[index])
 
