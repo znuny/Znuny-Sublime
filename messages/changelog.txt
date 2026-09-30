@@ -1,3 +1,18 @@
+Version 1.4.0
+✔ Added Snippets
+  - `znuny.UtilObject.ApplicationUserGet.sublime-snippet`
+  - `znuny.UtilObject.XSSSanitizeValue.sublime-snippet`
+✔ Updated Snippets
+  - `znuny.CalendarObject.GetTextColor.sublime-snippet`
+  - `znuny.PackageObject.PackageInstall.sublime-snippet`
+  - `znuny.PackageObject.PackageUpgrade.sublime-snippet`
+  - `znuny.PackageObject.RepositoryAdd.sublime-snippet`
+  - `znuny.UtilObject.Base64DeepEncode.sublime-snippet`
+✔ Fixed Customizers freezing Sublime while fetching from GitHub.
+✔ Fixed Customizers file download on Python 3.9+ (base64.decodestring).
+✔ Fixed Customizers commits URL query separator.
+✔ Log Customizers errors with traceback to the Sublime console.
+
 Version 1.3.0
 ✔ Added Snippets 7.3
 ✔ Updated Snippets

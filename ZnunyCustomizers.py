@@ -10,6 +10,14 @@ import json
 import re
 import base64
 import codecs
+import socket
+import threading
+import traceback
+
+
+# Stall timeout for each blocking socket op. Prevents a hung GitHub
+# connection from freezing the worker indefinitely.
+REQUEST_TIMEOUT = 30
 
 
 # taken from: https://github.com/twolfson/sublime-request/blob/master/request.py#L5
@@ -18,7 +26,7 @@ try:
     from urllib.request import urlopen, Request
     from urllib.error import URLError
 except ImportError:
-    from urllib2 import urlopen, URLError
+    from urllib2 import urlopen, Request, URLError
 
 # https://github.com/titoBouzout/Open-Include/issues/28#issuecomment-31145976
 
@@ -49,18 +57,25 @@ class ZnunyCustomizers(sublime_plugin.WindowCommand):
 
         self.selected_repository = self.repository_names[index]
 
-        branches = self.branches()
+        sublime.status_message('Fetching branches for "%s".' % self.selected_repository)
 
-        self.branch_names = []
-        for branch in branches:
-            self.branch_names.append(branch['name'])
+        def task():
+            branches = self.branches()
 
-        # reverse branches
-        self.branch_names = self.branch_names[::-1]
+            names = []
+            for branch in branches:
+                names.append(branch['name'])
 
-        sublime.status_message('Showing branch selection.')
+            # reverse branches
+            names.reverse()
+            return names
 
-        sublime.active_window().show_quick_panel(self.branch_names, self.branch_selected)
+        def on_success(names):
+            self.branch_names = names
+            sublime.status_message('Showing branch selection.')
+            sublime.active_window().show_quick_panel(self.branch_names, self.branch_selected)
+
+        self.run_async(task, on_success)
 
     def branches(self):
         url = 'https://api.github.com/repos/znuny/%s/branches' % self.selected_repository
@@ -75,12 +90,17 @@ class ZnunyCustomizers(sublime_plugin.WindowCommand):
 
         self.selected_branch = self.branch_names[index]
 
-        sublime.status_message('Branch "%s" selected.' % self.selected_branch)
+        sublime.status_message('Fetching files for branch "%s".' % self.selected_branch)
 
-        self.fetch_branch_files()
+        def task():
+            return self.fetch_branch_files()
 
-        sublime.status_message('Showing file selection for branch "%s".' % self.selected_branch)
-        sublime.active_window().show_quick_panel(self.branch_files, self.file_selected)
+        def on_success(files):
+            self.branch_files = files
+            sublime.status_message('Showing file selection for branch "%s".' % self.selected_branch)
+            sublime.active_window().show_quick_panel(self.branch_files, self.file_selected)
+
+        self.run_async(task, on_success)
 
     def fetch_branch_files(self):
 
@@ -88,11 +108,11 @@ class ZnunyCustomizers(sublime_plugin.WindowCommand):
 
         sublime.status_message('Fetching files for branch "%s" from "%s".' % (self.selected_branch, url))
 
-        self.branch_files = []
-
         tree = self.url_json(url)
 
         sublime.status_message('Files fetched for branch "%s". Building file list.' % self.selected_branch)
+
+        files = []
 
         for file in tree['tree']:
 
@@ -100,7 +120,9 @@ class ZnunyCustomizers(sublime_plugin.WindowCommand):
             if file['type'] == 'tree':
                 continue
 
-            self.branch_files.append(file['path'])
+            files.append(file['path'])
+
+        return files
 
     def file_selected(self, index):
 
@@ -109,45 +131,55 @@ class ZnunyCustomizers(sublime_plugin.WindowCommand):
 
         file_path = self.branch_files[index]
 
-        sublime.status_message('Selected file "%s" from branch "%s".' % (file_path, self.selected_branch))
+        sublime.status_message('Fetching file "%s" from branch "%s".' % (file_path, self.selected_branch))
 
-        url = 'https://api.github.com/repos/znuny/%s/contents/%s?ref=%s' % (self.selected_repository, file_path, self.selected_branch)
+        def task():
+            url = 'https://api.github.com/repos/znuny/%s/contents/%s?ref=%s' % (self.selected_repository, file_path, self.selected_branch)
 
-        sublime.status_message('Fetching file information for file "%s" from branch "%s" from "%s".' % (file_path, self.selected_branch, url))
+            sublime.status_message('Fetching file information for file "%s" from branch "%s" from "%s".' % (file_path, self.selected_branch, url))
 
-        file_information = self.url_json(url)
+            file_information = self.url_json(url)
 
-        url = "https://api.github.com/repos/znuny/%s/commits?path=%s;sha=%s" % (self.selected_repository, file_path, self.selected_branch)
+            url = "https://api.github.com/repos/znuny/%s/commits?path=%s&sha=%s" % (self.selected_repository, file_path, self.selected_branch)
 
-        sublime.status_message('Fetching commits for file "%s" from branch "%s" from "%s".' % (file_path, self.selected_branch, url))
+            sublime.status_message('Fetching commits for file "%s" from branch "%s" from "%s".' % (file_path, self.selected_branch, url))
 
-        commits = self.url_json(url)
+            commits = self.url_json(url)
 
-        file_content = base64.decodestring(file_information['content'].encode('utf-8')).decode('utf-8')
+            file_content = base64.b64decode(file_information['content'].encode('utf-8')).decode('utf-8')
 
-        sublime.status_message('Decoded file "%s" from branch "%s". Adding custom header.' % (file_path, self.selected_branch))
-        file_content = self.custom_header(file_content, file_path, commits[0]['sha'])
+            sublime.status_message('Decoded file "%s" from branch "%s". Adding custom header.' % (file_path, self.selected_branch))
+            file_content = self.custom_header(file_content, file_path, commits[0]['sha'])
 
-        if file_path.endswith('.pm') or file_path.endswith('.dtl') or file_path.endswith('.tt'):
-            sublime.status_message('Adding file "%s" to Custom/ folder.')
-            file_path = "Custom/%s" % file_path
+            target_path = file_path
 
-        # fix windows line endings
-        file_content = file_content.replace('\r\n', '\n')
-        file_content = file_content.replace('\r', '\n')
+            if file_path.endswith('.pm') or file_path.endswith('.dtl') or file_path.endswith('.tt'):
+                sublime.status_message('Adding file "%s" to Custom/ folder.' % file_path)
+                target_path = "Custom/%s" % file_path
 
-        self.file['path'] = file_path
-        self.file['content'] = file_content
+            # fix windows line endings
+            file_content = file_content.replace('\r\n', '\n')
+            file_content = file_content.replace('\r', '\n')
 
-        sublime.status_message('Determing possible target folders for file "%s" from branch "%s".' % (self.file['path'], self.selected_branch))
-        folders = self.window.folders()
+            return {
+                'path': target_path,
+                'content': file_content,
+            }
 
-        if len(folders) > 1:
-            sublime.status_message('Showing folder selection for file "%s" from branch "%s".' % (self.file['path'], self.selected_branch))
-            sublime.active_window().show_quick_panel(folders, self.folder_selected)
-        else:
-            self.file['folder'] = folders[0]
-            self.write_and_open_file()
+        def on_success(file_data):
+            self.file = file_data
+
+            sublime.status_message('Determing possible target folders for file "%s" from branch "%s".' % (self.file['path'], self.selected_branch))
+            folders = self.window.folders()
+
+            if len(folders) > 1:
+                sublime.status_message('Showing folder selection for file "%s" from branch "%s".' % (self.file['path'], self.selected_branch))
+                sublime.active_window().show_quick_panel(folders, self.folder_selected)
+            else:
+                self.file['folder'] = folders[0]
+                self.write_and_open_file()
+
+        self.run_async(task, on_success)
 
     def custom_header(self, content, path, sha):
 
@@ -216,12 +248,49 @@ class ZnunyCustomizers(sublime_plugin.WindowCommand):
 
         return
 
+    def run_async(self, task, on_success):
+
+        # Drop stale results when a newer selection started another request.
+        self._async_token = getattr(self, '_async_token', 0) + 1
+        token = self._async_token
+
+        def worker():
+            try:
+                result = task()
+            except Exception as err:
+                message = 'Error fetching from GitHub: %s' % err
+                print('ZnunyCustomizers: %s' % message)
+                traceback.print_exc()
+
+                def on_error():
+                    if token != self._async_token:
+                        return
+                    sublime.status_message(message)
+
+                sublime.set_timeout(on_error, 0)
+                return
+
+            def on_done():
+                if token != self._async_token:
+                    return
+                on_success(result)
+
+            sublime.set_timeout(on_done, 0)
+
+        # Quick-panel callbacks run on the UI thread. Network must not.
+        if hasattr(sublime, 'set_timeout_async'):
+            sublime.set_timeout_async(worker, 0)
+            return
+
+        thread = threading.Thread(target=worker)
+        thread.daemon = True
+        thread.start()
+
     def url_json(self, url):
 
         json_result = self.url_content(url)
 
         sublime.status_message('Successfully read from "%s"' % url)
-        sublime.status_message('json_result "%s"' % json_result)
 
         return json.loads(json_result)
 
@@ -229,7 +298,11 @@ class ZnunyCustomizers(sublime_plugin.WindowCommand):
 
         req = self.url_request(url)
 
-        return req.read().decode(req.headers.get_content_charset())
+        try:
+            charset = req.headers.get_content_charset() or 'utf-8'
+            return req.read().decode(charset)
+        finally:
+            req.close()
 
     def url_request(self, url):
 
@@ -246,15 +319,11 @@ class ZnunyCustomizers(sublime_plugin.WindowCommand):
 
             request.add_header("Authorization", "Basic %s" % credentials_base64.decode('utf-8'))
 
-        # Attempt to open the url
         try:
-            # Make our open request
-            req = urlopen(request)
+            req = urlopen(request, timeout=REQUEST_TIMEOUT)
         except TypeError as err:
-            # If the arguments are malformed, display the error
-            return sublime.status_message(str(err))
-        except URLError:
-            # Otherwise, if there was a connection error, let it be known
-            return sublime.status_message('Error connecting to "%s"' % url)
+            raise URLError(str(err))
+        except socket.timeout:
+            raise URLError('Timeout connecting to "%s"' % url)
 
         return req
