@@ -24,9 +24,9 @@ REQUEST_TIMEOUT = 30
 # Attempt to load urllib.request/error and fallback to urllib2 (Python 2/3 compat)
 try:
     from urllib.request import urlopen, Request
-    from urllib.error import URLError
+    from urllib.error import HTTPError, URLError
 except ImportError:
-    from urllib2 import urlopen, Request, URLError
+    from urllib2 import urlopen, Request, HTTPError, URLError
 
 # https://github.com/titoBouzout/Open-Include/issues/28#issuecomment-31145976
 
@@ -258,14 +258,20 @@ class ZnunyCustomizers(sublime_plugin.WindowCommand):
             try:
                 result = task()
             except Exception as err:
-                message = 'Error fetching from GitHub: %s' % err
-                print('ZnunyCustomizers: %s' % message)
-                traceback.print_exc()
+                # URLError.reason is the message built in url_request.
+                # Other failures still get a console traceback.
+                if isinstance(err, URLError) and isinstance(getattr(err, 'reason', None), str):
+                    message = err.reason
+                    print('ZnunyCustomizers: %s' % message)
+                else:
+                    message = 'Error fetching from GitHub: %s' % err
+                    print('ZnunyCustomizers: %s' % message)
+                    traceback.print_exc()
 
                 def on_error():
                     if token != self._async_token:
                         return
-                    sublime.status_message(message)
+                    sublime.error_message(message)
 
                 sublime.set_timeout(on_error, 0)
                 return
@@ -321,9 +327,19 @@ class ZnunyCustomizers(sublime_plugin.WindowCommand):
 
         try:
             req = urlopen(request, timeout=REQUEST_TIMEOUT)
+        except HTTPError as err:
+            # HTTPError is a URLError. status_message() returns None, so callers
+            # must get a raised error instead of a response they would .read().
+            message = 'HTTP %s connecting to "%s"' % (err.code, url)
+            if err.code == 403 or err.code == 429:
+                message += '. GitHub rate limit may be exhausted. Set znuny_github_username and znuny_github_token.'
+            err.close()
+            raise URLError(message)
         except TypeError as err:
             raise URLError(str(err))
         except socket.timeout:
             raise URLError('Timeout connecting to "%s"' % url)
+        except URLError as err:
+            raise URLError('Error connecting to "%s" (%s)' % (url, err.reason))
 
         return req

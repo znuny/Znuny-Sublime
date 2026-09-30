@@ -13,6 +13,7 @@
 ✔ Fixed Customizers file download on Python 3.9+ (base64.decodestring).
 ✔ Fixed Customizers commits URL query separator.
 ✔ Log Customizers errors with traceback to the Sublime console.
+✔ Fixed Customizers network and HTTP errors. Connection failures and HTTP status (including a GitHub rate-limit hint) open an error dialog instead of crashing on a missing response.
 
 GitHub link - https://github.com/znuny/Znuny-Sublime
 
