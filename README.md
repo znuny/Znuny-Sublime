@@ -1,4 +1,10 @@
-![Znuny logo](http://znuny.com/assets/images/logo_small.png)
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://www.znuny.com/assets/znuny-logo.svg">
+    <img alt="Znuny" src="https://www.znuny.com/assets/znuny-logo-black.svg" width="300">
+  </picture>
+</div>
+
 
 Sublime ![Package Control Total](https://img.shields.io/packagecontrol/dt/Znuny) ![Package Control Month](https://img.shields.io/packagecontrol/dm/Znuny) ![Package Control Week](https://img.shields.io/packagecontrol/dw/Znuny) ![Package Control Day](https://img.shields.io/packagecontrol/dd/Znuny)
 ===============
