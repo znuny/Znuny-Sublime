@@ -3,6 +3,6 @@
 my \$MSGraphObject = \$Kernel::OM->Get('Kernel::System::MSGraph');
 ]]></content>
     <tabTrigger>znuny.ObjectManager.MSGraphObject</tabTrigger>
-    <description>7.3</description>
+    <description>7.3, 6.5</description>
     <scope>source.perl</scope>
 </snippet>

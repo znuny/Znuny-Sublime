@@ -4,6 +4,6 @@ ${1:my \$ApplicationUser = \$UtilObject->ApplicationUserGet();}
 
 ]]></content>
     <tabTrigger>znuny.UtilObject.ApplicationUserGet</tabTrigger>
-    <description>7.3</description>
+    <description>6.5, 7.3</description>
     <scope>source.perl</scope>
 </snippet>

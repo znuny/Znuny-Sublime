@@ -11,6 +11,6 @@ ${2:# reload main window
 
 ]]></content>
     <tabTrigger>znuny.LayoutObject.CustomerPopupClose</tabTrigger>
-    <description>7.3</description>
+    <description>6.5, 7.3</description>
     <scope>source.perl</scope>
 </snippet>

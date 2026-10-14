@@ -25,6 +25,6 @@ ${2:my %Activity = \$ActivityObject->Get();
 
 ]]></content>
     <tabTrigger>znuny.ActivityObject.Get</tabTrigger>
-    <description>7.0, 7.1, 7.2, 7.3</description>
+    <description>6.5, 7.0, 7.1, 7.2, 7.3</description>
     <scope>source.perl</scope>
 </snippet>
