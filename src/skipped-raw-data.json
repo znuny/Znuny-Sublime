@@ -200,8 +200,8 @@
          "6.4"
       ],
       "_ClearCaches" : [
-         "7.3",
-         "6.5"
+         "6.5",
+         "7.3"
       ],
       "_Color" : [
          "6.0",
@@ -446,8 +446,8 @@
          "7.3"
       ],
       "_Decrypt" : [
-         "7.3",
-         "6.5"
+         "6.5",
+         "7.3"
       ],
       "_DefaultColumnsDisable" : [
          "6.4",
@@ -492,8 +492,8 @@
          "7.3"
       ],
       "_Dump" : [
-         "7.3",
-         "6.5"
+         "6.5",
+         "7.3"
       ],
       "_DynamicFieldReorder" : [
          "6.0",
@@ -602,12 +602,12 @@
          "7.3"
       ],
       "_EncodeMIMEWords" : [
-         "7.3",
-         "6.5"
+         "6.5",
+         "7.3"
       ],
       "_EvaluateParams" : [
-         "7.3",
-         "6.5"
+         "6.5",
+         "7.3"
       ],
       "_EventAdd" : [
          "6.4",
@@ -634,12 +634,12 @@
          "7.3"
       ],
       "_ExtractValueType" : [
-         "7.3",
-         "6.5"
+         "6.5",
+         "7.3"
       ],
       "_FileLookup" : [
-         "7.3",
-         "6.5"
+         "6.5",
+         "7.3"
       ],
       "_FileWriteAtomic" : [
          "6.0",
@@ -787,8 +787,8 @@
          "7.3"
       ],
       "_GetGraphLogin" : [
-         "7.3",
-         "6.5"
+         "6.5",
+         "7.3"
       ],
       "_GetIdentifier" : [
          "6.0",
@@ -834,10 +834,10 @@
          "7.3"
       ],
       "_GetShortcutIconsForInterface" : [
+         "6.5",
          "7.1",
          "7.2",
-         "7.3",
-         "6.5"
+         "7.3"
       ],
       "_GroupCreateIfNotExists" : [
          "6.4",
@@ -857,8 +857,8 @@
          "7.3"
       ],
       "_HandleFile" : [
-         "7.3",
-         "6.5"
+         "6.5",
+         "7.3"
       ],
       "_HandleSettingsToDeploy" : [
          "6.0",
@@ -1022,8 +1022,8 @@
          "7.3"
       ],
       "_MaskPasswordsByValueTypeInfo" : [
-         "7.3",
-         "6.5"
+         "6.5",
+         "7.3"
       ],
       "_MaskSensitiveValue" : [
          "6.0",
@@ -1201,8 +1201,8 @@
          "7.3"
       ],
       "_PossibleNextActionsRender" : [
-         "7.3",
-         "6.5"
+         "6.5",
+         "7.3"
       ],
       "_PostMasterFilterConfigExport" : [
          "6.4",
@@ -1427,8 +1427,8 @@
          "7.3"
       ],
       "_SaveResults" : [
-         "7.3",
-         "6.5"
+         "6.5",
+         "7.3"
       ],
       "_Seconds2String" : [
          "6.0",
@@ -1853,9 +1853,9 @@
    },
    "Modules" : {
       "AJAXAttachment" : [
+         "6.5",
          "7.2",
-         "7.3",
-         "6.5"
+         "7.3"
       ],
       "AJAXDynamicFieldWebservice" : [
          "6.4",
@@ -1882,11 +1882,11 @@
          "7.3"
       ],
       "Activity" : [
+         "6.5",
          "7.0",
          "7.1",
          "7.2",
-         "7.3",
-         "6.5"
+         "7.3"
       ],
       "Admin" : [
          "6.0",
@@ -1934,9 +1934,9 @@
          "7.3"
       ],
       "AdminArticleColor" : [
+         "6.5",
          "7.2",
-         "7.3",
-         "6.5"
+         "7.3"
       ],
       "AdminAttachment" : [
          "6.0",
@@ -2039,9 +2039,9 @@
          "7.3"
       ],
       "AdminDynamicFieldAutoConfig" : [
+         "6.5",
          "7.2",
-         "7.3",
-         "6.5"
+         "7.3"
       ],
       "AdminDynamicFieldCheckbox" : [
          "6.0",
@@ -2489,8 +2489,8 @@
          "7.3"
       ],
       "AdminSendmailConfig" : [
-         "7.3",
-         "6.5"
+         "6.5",
+         "7.3"
       ],
       "AdminService" : [
          "6.0",
@@ -2617,9 +2617,9 @@
          "7.3"
       ],
       "AdminTranslation" : [
+         "6.5",
          "7.2",
-         "7.3",
-         "6.5"
+         "7.3"
       ],
       "AdminType" : [
          "6.0",
@@ -2816,8 +2816,8 @@
          "7.3"
       ],
       "AgentSession" : [
-         "7.3",
-         "6.5"
+         "6.5",
+         "7.3"
       ],
       "AgentSplitSelection" : [
          "6.0",

@@ -1,6 +1,11 @@
 <snippet>
     <content><![CDATA[
-${1:\$WebUploadCacheObject->FormIDRemove( FormID => \$FormID );}
+${1:\$WebUploadCacheObject->FormIDRemove(
+    FormID   => \$FormID,
+    UserID   => \$UserID,             # optional
+    UserType => 'User',          # optional, 'User' or 'CustomerUser'
+);}
+${2:\$WebUploadCacheObject->FormIDRemove( FormID => \$FormID );}
 
 ]]></content>
     <tabTrigger>znuny.WebUploadCacheObject.FormIDRemove</tabTrigger>
