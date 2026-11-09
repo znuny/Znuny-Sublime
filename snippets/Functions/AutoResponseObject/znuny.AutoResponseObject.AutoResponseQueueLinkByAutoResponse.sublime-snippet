@@ -8,6 +8,6 @@ ${1:my \$Success = \$AutoResponseObject->AutoResponseQueueLinkByAutoResponse(
 
 ]]></content>
     <tabTrigger>znuny.AutoResponseObject.AutoResponseQueueLinkByAutoResponse</tabTrigger>
-    <description>6.5, 7.2, 7.3</description>
+    <description>6.5, 7.2, 7.3, 7.5</description>
     <scope>source.perl</scope>
 </snippet>

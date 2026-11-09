@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Cookie = \$ParamObject->ExpireLegacySessionCookie(
+    SessionName => 'ZnunyAgentInterface',
+    Path        => \$ConfigObject->Get('ScriptAlias'),
+    Secure      => \$CookieSecureAttribute,
+);}
+
+]]></content>
+    <tabTrigger>znuny.ParamObject.ExpireLegacySessionCookie</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

@@ -7,6 +7,6 @@ ${1:my \$Filename = \$GenericAgentObject->JobExportFilenameGet(
 
 ]]></content>
     <tabTrigger>znuny.GenericAgentObject.JobExportFilenameGet</tabTrigger>
-    <description>6.5, 7.3</description>
+    <description>6.5, 7.3, 7.5</description>
     <scope>source.perl</scope>
 </snippet>

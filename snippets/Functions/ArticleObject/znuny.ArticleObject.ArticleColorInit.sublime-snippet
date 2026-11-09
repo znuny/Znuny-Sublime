@@ -4,6 +4,6 @@ ${1:my \$Success = \$ArticleObject->ArticleColorInit();}
 
 ]]></content>
     <tabTrigger>znuny.ArticleObject.ArticleColorInit</tabTrigger>
-    <description>6.5, 7.2, 7.3</description>
+    <description>6.5, 7.2, 7.3, 7.5</description>
     <scope>source.perl</scope>
 </snippet>

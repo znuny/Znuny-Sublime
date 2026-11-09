@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$LegacySessionName = \$ParamObject->GetLegacySessionName(
+    SessionName => 'ZnunyAgentInterface',    # returns OTRSAgentInterface
+);}
+
+]]></content>
+    <tabTrigger>znuny.ParamObject.GetLegacySessionName</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

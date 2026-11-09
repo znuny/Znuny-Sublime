@@ -7,10 +7,19 @@ ${1:\$ParamObject->SetCookie(
     Path    => 'otrs/',     # optional, only allow cookie for given path
     Secure  => 1,           # optional, set secure attribute to disable cookie on HTTP (HTTPS only)
     HTTPOnly => 1,          # optional, sets HttpOnly attribute of cookie to prevent access via JavaScript
+    SameSite => 'None',     # optional, Strict, Lax or None; None is emitted only together with Secure
+);}
+${2:\$ParamObject->SetCookie(
+    Key     => ID,
+    Value   => 123456,
+    Expires => '+3660s',
+    Path    => 'otrs/',     # optional, only allow cookie for given path
+    Secure  => 1,           # optional, set secure attribute to disable cookie on HTTP (HTTPS only)
+    HTTPOnly => 1,          # optional, sets HttpOnly attribute of cookie to prevent access via JavaScript
 );}
 
 ]]></content>
     <tabTrigger>znuny.ParamObject.SetCookie</tabTrigger>
-    <description>6.0, 6.4, 6.5, 7.0, 7.1, 7.2, 7.3</description>
+    <description>6.0, 6.4, 6.5, 7.0, 7.1, 7.2, 7.3, 7.5</description>
     <scope>source.perl</scope>
 </snippet>

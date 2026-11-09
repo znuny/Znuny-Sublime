@@ -4,11 +4,11 @@ my \$DateTimeObject = \$Kernel::OM->Create(
         'Kernel::System::DateTime',
         ObjectParams => \{
             String   => '2016-08-14 22:45:00',
-            TimeZone => 'Europe/Berlin',        # optional, defaults to setting of SysConfig OTRSTimeZone
+            TimeZone => 'Europe/Berlin',        # optional, defaults to setting of SysConfig ZnunyTimeZone
         \}
     );
 ]]></content>
     <tabTrigger>znuny.ObjectManager.DateTimeObject</tabTrigger>
-    <description>6.0, 6.4, 6.5, 7.0, 7.1, 7.2, 7.3</description>
+    <description>6.0, 6.4, 6.5, 7.0, 7.1, 7.2, 7.3, 7.5</description>
     <scope>source.perl</scope>
 </snippet>

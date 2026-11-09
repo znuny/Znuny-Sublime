@@ -16,6 +16,6 @@ ${1:my %Data = \$TranslationObject->DataGet(
 
 ]]></content>
     <tabTrigger>znuny.TranslationObject.DataGet</tabTrigger>
-    <description>6.5, 7.2, 7.3</description>
+    <description>6.5, 7.2, 7.3, 7.5</description>
     <scope>source.perl</scope>
 </snippet>

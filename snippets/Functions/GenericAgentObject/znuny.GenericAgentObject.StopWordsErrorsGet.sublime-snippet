@@ -12,6 +12,6 @@ ${1:my %Errors = \$GenericAgentObject->StopWordsErrorsGet(
 
 ]]></content>
     <tabTrigger>znuny.GenericAgentObject.StopWordsErrorsGet</tabTrigger>
-    <description>6.5, 7.3</description>
+    <description>6.5, 7.3, 7.5</description>
     <scope>source.perl</scope>
 </snippet>

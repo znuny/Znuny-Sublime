@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:# List context also returns the cookie value when the session came from a cookie:
+my ( \$SessionID, \$SessionIDCookie ) = \$ParamObject->GetSessionID(
+    SessionName => 'ZnunyAgentInterface',
+);}
+${2:my \$SessionID = \$ParamObject->GetSessionID(
+    SessionName => 'ZnunyAgentInterface',
+);}
+
+]]></content>
+    <tabTrigger>znuny.ParamObject.GetSessionID</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>
