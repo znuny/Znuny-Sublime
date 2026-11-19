@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$AttachmentSelectionHTML = \$LayoutObject->RenderArticleAttachmentSelection(
+    TicketID => \$TicketID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.RenderArticleAttachmentSelection</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

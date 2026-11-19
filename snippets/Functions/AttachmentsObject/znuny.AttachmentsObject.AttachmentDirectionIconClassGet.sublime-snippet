@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$IconClass = \$AttachmentsObject->AttachmentDirectionIconClassGet(
+    IsVisibleForCustomer => 1,
+    SenderType           => 'customer',
+);}
+
+]]></content>
+    <tabTrigger>znuny.AttachmentsObject.AttachmentDirectionIconClassGet</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

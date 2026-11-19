@@ -52,6 +52,9 @@
       ]
    },
    "Functions" : {
+      "_AddFilenameCounter" : [
+         "7.5"
+      ],
       "_ArticleActionsAdd" : [
          "6.4",
          "6.5",
@@ -820,6 +823,9 @@
          "7.1",
          "7.2",
          "7.3",
+         "7.5"
+      ],
+      "_GenerateUniqueFilename" : [
          "7.5"
       ],
       "_GenericAgentCreate" : [
@@ -1596,6 +1602,9 @@
          "7.1",
          "7.2",
          "7.3",
+         "7.5"
+      ],
+      "_SanitizeZipMemberName" : [
          "7.5"
       ],
       "_SaveResults" : [

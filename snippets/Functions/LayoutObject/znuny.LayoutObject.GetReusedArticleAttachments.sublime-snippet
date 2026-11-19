@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my @ReusedAttachments = \$LayoutObject->GetReusedArticleAttachments();}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.GetReusedArticleAttachments</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

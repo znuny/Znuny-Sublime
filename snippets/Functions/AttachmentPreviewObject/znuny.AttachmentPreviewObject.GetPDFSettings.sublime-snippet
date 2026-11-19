@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Settings = \$AttachmentPreviewObject->GetPDFSettings(
+    Ticket   => \%Ticket,    # optional if TicketID is given
+    TicketID => \$TicketID,         # optional if Ticket is given
+    UserID   => \$UserID,           # optional, default 1
+);}
+
+]]></content>
+    <tabTrigger>znuny.AttachmentPreviewObject.GetPDFSettings</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

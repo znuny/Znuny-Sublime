@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$DeletedCount = \$ActivityObject->TrimToMaxKeepActivities(
+    UserID   => \$UserID,
+    CreateBy => 1,
+);}
+
+]]></content>
+    <tabTrigger>znuny.ActivityObject.TrimToMaxKeepActivities</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

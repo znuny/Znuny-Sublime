@@ -1,0 +1,33 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ZipArchiveContentRef = \$AttachmentsObject->CreateTicketAttachmentZipArchive(
+    TicketID    => \$TicketID,
+
+    # The returned array from ArticleAttachmentListGet() can be used here.
+    # Filename is optional and defaults to the filename stored with the attachment.
+    Attachments => [
+        \{
+            ArticleID => \$ArticleID,
+            FileID    => \$FileID,
+            Filename  => 'test1.txt',
+        \},
+        \{
+            ArticleID => \$ArticleID,
+            FileID    => \$FileID,
+            Filename  => 'test2.txt'
+        \},
+        \{
+            ArticleID => \$ArticleID,
+            FileID    => \$FileID,
+            Filename  => 'test2-2.txt'
+        \},
+        # ...
+    ],
+    UserID => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.AttachmentsObject.CreateTicketAttachmentZipArchive</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

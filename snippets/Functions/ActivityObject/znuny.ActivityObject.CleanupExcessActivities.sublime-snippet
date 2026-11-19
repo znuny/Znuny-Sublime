@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$ScheduledTaskCount = \$ActivityObject->CleanupExcessActivities();}
+
+]]></content>
+    <tabTrigger>znuny.ActivityObject.CleanupExcessActivities</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

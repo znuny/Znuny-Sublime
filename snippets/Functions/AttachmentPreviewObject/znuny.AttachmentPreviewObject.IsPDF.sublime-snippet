@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$IsPDF = \$AttachmentPreviewObject->IsPDF(
+    ContentType => 'application/pdf',
+    Filename    => 'document.pdf',    # optional
+);}
+
+]]></content>
+    <tabTrigger>znuny.AttachmentPreviewObject.IsPDF</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

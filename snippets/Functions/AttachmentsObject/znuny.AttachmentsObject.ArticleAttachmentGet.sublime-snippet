@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Attachment = \$AttachmentsObject->ArticleAttachmentGet(
+    TicketID  => \$TicketID,
+    ArticleID => \$ArticleID,
+    FileID    => \$FileID,
+    UserID    => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.AttachmentsObject.ArticleAttachmentGet</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

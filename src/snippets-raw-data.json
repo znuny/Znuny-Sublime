@@ -30,6 +30,9 @@
          "7.3",
          "7.5"
       ],
+      "AgentTicketAttachmentList" : [
+         "7.5"
+      ],
       "AgentTicketBounce" : [
          "6.0",
          "6.4",
@@ -612,6 +615,11 @@
                   "7.5"
                ]
             },
+            "CleanupExcessActivities" : {
+               "my $ScheduledTaskCount = $ActivityObject->CleanupExcessActivities();" : [
+                  "7.5"
+               ]
+            },
             "DataAdd" : {
                "my $CreatedID = $ActivityObject->DataAdd(\n    ID         => '...',\n    Type       => '...',\n    Title      => '...',\n    Text       => '...',\n    State      => '...',\n    Link       => '...',\n    CreateTime => '...',\n    CreateBy   => '...',\n    UserID     => $UserID,\n);" : [
                   "6.5",
@@ -718,6 +726,11 @@
                "$Stats = $ActivityObject->StatsGet(\n    ID         => '...', # optional\n    Type       => '...', # optional\n    Title      => '...', # optional\n    Text       => '...', # optional\n    State      => '...', # optional\n    Link       => '...', # optional\n    CreateTime => '...', # optional\n    CreateBy   => '...', # optional\n    UserID     => $UserID,\n);" : [
                   "6.5",
                   "7.3",
+                  "7.5"
+               ]
+            },
+            "TrimToMaxKeepActivities" : {
+               "my $DeletedCount = $ActivityObject->TrimToMaxKeepActivities(\n    UserID   => $UserID,\n    CreateBy => 1,\n);" : [
                   "7.5"
                ]
             }
@@ -1164,6 +1177,89 @@
          },
          "ObjectManager" : "my $ArticleObject = $Kernel::OM->Get('Kernel::System::Ticket::Article');",
          "Package" : "Kernel::System::Ticket::Article"
+      },
+      "AttachmentPreviewObject" : {
+         "FrameworkVersion" : [
+            "7.5"
+         ],
+         "Functions" : {
+            "GetPDFSettings" : {
+               "my $Settings = $AttachmentPreviewObject->GetPDFSettings(\n    Ticket   => \\%Ticket,    # optional if TicketID is given\n    TicketID => $TicketID,         # optional if Ticket is given\n    UserID   => $UserID,           # optional, default 1\n);" : [
+                  "7.5"
+               ]
+            },
+            "IsPDF" : {
+               "my $IsPDF = $AttachmentPreviewObject->IsPDF(\n    ContentType => 'application/pdf',\n    Filename    => 'document.pdf',    # optional\n);" : [
+                  "7.5"
+               ]
+            },
+            "IsPreviewable" : {
+               "my $Ok = $AttachmentPreviewObject->IsPreviewable(\n    ContentType => 'application/pdf',\n    Filename    => 'document.pdf',    # optional\n);" : [
+                  "7.5"
+               ]
+            }
+         },
+         "ObjectManager" : "my $AttachmentPreviewObject = $Kernel::OM->Get('Kernel::System::AttachmentPreview');",
+         "Package" : "Kernel::System::AttachmentPreview"
+      },
+      "AttachmentsObject" : {
+         "FrameworkVersion" : [
+            "7.5"
+         ],
+         "Functions" : {
+            "AddAttachmentsToArticle" : {
+               "my $AttachmentsAdded = $AttachmentsObject->AddAttachmentsToArticle(\n    TicketID  => $TicketID,\n    ArticleID => $ArticleID,\n\n    # Key is article ID, values is array of file IDs of the article.\n    ArticleFileIDsToAdd => {\n        176 => [ 1, 3, ],\n        178 => [ 2, ],\n        179 => [ 1, 5, 7, ],\n    },\n\n    UserID => $UserID,\n);" : [
+                  "7.5"
+               ]
+            },
+            "ArticleAndAttachmentListGet" : {
+               "my @Attachments = $AttachmentsObject->ArticleAndAttachmentListGet(\n    TicketID => $TicketID,\n    UserID   => $UserID,\n);" : [
+                  "7.5"
+               ]
+            },
+            "ArticleAttachmentCount" : {
+               "my $ArticleAttachmentCount = $AttachmentsObject->ArticleAttachmentCount(\n    TicketID  => $TicketID,\n);" : [
+                  "7.5"
+               ]
+            },
+            "ArticleAttachmentGet" : {
+               "my %Attachment = $AttachmentsObject->ArticleAttachmentGet(\n    TicketID  => $TicketID,\n    ArticleID => $ArticleID,\n    FileID    => $FileID,\n    UserID    => $UserID,\n);" : [
+                  "7.5"
+               ]
+            },
+            "ArticleAttachmentListGet" : {
+               "my $TicketAttachments = $AttachmentsObject->ArticleAttachmentListGet(\n    TicketID => $TicketID,\n);" : [
+                  "7.5"
+               ]
+            },
+            "AttachmentDirectionIconClassGet" : {
+               "my $IconClass = $AttachmentsObject->AttachmentDirectionIconClassGet(\n    IsVisibleForCustomer => 1,\n    SenderType           => 'customer',\n);" : [
+                  "7.5"
+               ]
+            },
+            "AttachmentIconClassGet" : {
+               "my $IconClass = $AttachmentsObject->AttachmentIconClassGet(\n    ContentType => 'application/pdf',\n);" : [
+                  "7.5"
+               ]
+            },
+            "CreateTicketAttachmentZipArchive" : {
+               "my $ZipArchiveContentRef = $AttachmentsObject->CreateTicketAttachmentZipArchive(\n    TicketID    => $TicketID,\n\n    # The returned array from ArticleAttachmentListGet() can be used here.\n    # Filename is optional and defaults to the filename stored with the attachment.\n    Attachments => [\n        {\n            ArticleID => $ArticleID,\n            FileID    => $FileID,\n            Filename  => 'test1.txt',\n        },\n        {\n            ArticleID => $ArticleID,\n            FileID    => $FileID,\n            Filename  => 'test2.txt'\n        },\n        {\n            ArticleID => $ArticleID,\n            FileID    => $FileID,\n            Filename  => 'test2-2.txt'\n        },\n        # ...\n    ],\n    UserID => $UserID,\n);" : [
+                  "7.5"
+               ]
+            },
+            "IsArticleAttachmentCountReached" : {
+               "my $IsArticleAttachmentCountReached = $AttachmentsObject->IsArticleAttachmentCountReached(\n    TicketID => $TicketID,\n);" : [
+                  "7.5"
+               ]
+            },
+            "IsArticleCountReached" : {
+               "my $IsArticleCountReached = $AttachmentsObject->IsArticleCountReached(\n    TicketID => $TicketID,\n);" : [
+                  "7.5"
+               ]
+            }
+         },
+         "ObjectManager" : "my $AttachmentsObject = $Kernel::OM->Get('Kernel::System::Attachments');",
+         "Package" : "Kernel::System::Attachments"
       },
       "AuthObject" : {
          "FrameworkVersion" : [
@@ -7787,6 +7883,11 @@
                   "7.5"
                ]
             },
+            "GetReusedArticleAttachments" : {
+               "my @ReusedAttachments = $LayoutObject->GetReusedArticleAttachments();" : [
+                  "7.5"
+               ]
+            },
             "HTMLLinkQuote" : {
                "my $HTMLWithLinks = $LayoutObject->HTMLLinkQuote(\n    String => $HTMLString,\n);" : [
                   "6.0",
@@ -8191,6 +8292,11 @@
                   "7.1",
                   "7.2",
                   "7.3",
+                  "7.5"
+               ]
+            },
+            "RenderArticleAttachmentSelection" : {
+               "my $AttachmentSelectionHTML = $LayoutObject->RenderArticleAttachmentSelection(\n    TicketID => $TicketID,\n);" : [
                   "7.5"
                ]
             },

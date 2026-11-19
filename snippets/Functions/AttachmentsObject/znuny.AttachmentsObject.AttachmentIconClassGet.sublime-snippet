@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$IconClass = \$AttachmentsObject->AttachmentIconClassGet(
+    ContentType => 'application/pdf',
+);}
+
+]]></content>
+    <tabTrigger>znuny.AttachmentsObject.AttachmentIconClassGet</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

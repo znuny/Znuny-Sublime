@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+my \$AttachmentPreviewObject = \$Kernel::OM->Get('Kernel::System::AttachmentPreview');
+]]></content>
+    <tabTrigger>znuny.ObjectManager.AttachmentPreviewObject</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>
