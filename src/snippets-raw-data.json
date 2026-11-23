@@ -951,6 +951,11 @@
                   "7.5"
                ]
             },
+            "ArticleSearchIndexArticleIDsGet" : {
+               "my @ArticleIDs = $ArticleObject->ArticleSearchIndexArticleIDsGet(\n    TicketID   => $TicketID,\n    SearchTerm => 'refund invoice',\n);" : [
+                  "7.5"
+               ]
+            },
             "ArticleSearchIndexBuild" : {
                "my $Success = $ArticleObject->ArticleSearchIndexBuild(\n    TicketID  => $TicketID,\n    ArticleID => $ArticleID,\n    UserID    => $UserID,\n);" : [
                   "6.0",
@@ -1328,10 +1333,74 @@
                   "7.3",
                   "7.5"
                ]
+            },
+            "GetSAMLLogoutRequestID" : {
+               "my $LogoutRequestID = $AuthObject->GetSAMLLogoutRequestID(\n    Count => $Count,\n);" : [
+                  "7.5"
+               ]
+            },
+            "GetSAMLSLOData" : {
+               "my %SLOData = $AuthObject->GetSAMLSLOData(\n    Count => $Count,\n);" : [
+                  "7.5"
+               ]
+            },
+            "InitiateSAMLLogout" : {
+               "my $URL = $AuthObject->InitiateSAMLLogout(\n    Count        => $Count,\n    NameID       => $NameID,\n    NameIDFormat => $NameIDFormat, # optional\n    SessionIndex => $SessionIndex,\n);" : [
+                  "7.5"
+               ]
+            },
+            "VerifySAMLLogoutResponse" : {
+               "my $LogoutResponse = $AuthObject->VerifySAMLLogoutResponse(\n    Count       => $Count,\n    QueryString => $QueryString,\n);" : [
+                  "7.5"
+               ]
             }
          },
          "ObjectManager" : "my $AuthObject = $Kernel::OM->Get('Kernel::System::Auth');",
          "Package" : "Kernel::System::Auth"
+      },
+      "AuthenticationConfigObject" : {
+         "FrameworkVersion" : [
+            "7.5"
+         ],
+         "Functions" : {
+            "Deploy" : {
+               "my @Errors;\nmy $Location = $AuthenticationConfigObject->Deploy(\n    UserID => $UserID,\n    Errors => \\@Errors,    # optional, gets one entry per config that could not be deployed\n);" : [
+                  "7.5"
+               ]
+            },
+            "DumpAssignment" : {
+               "my $Line = $AuthenticationConfigObject->DumpAssignment(\n    Accessor => \"\\$Self->{'AuthModule::SAML::Issuer1'}\",\n    Value    => 'https://sp.example.com',\n);" : [
+                  "7.5"
+               ]
+            },
+            "EmitConfigLines" : {
+               "my $Lines = $AuthenticationConfigObject->EmitConfigLines(\n    Config   => $Row->{AuthConfig},\n    Prefix   => 'AuthModule::SAML::',\n    Slot     => $Row->{Slot},\n    SkipKeys => { MetaDataSourceType => 1 },\n);" : [
+                  "7.5"
+               ]
+            },
+            "IsDeploySynced" : {
+               "my $IsSynced = $AuthenticationConfigObject->IsDeploySynced();" : [
+                  "7.5"
+               ]
+            },
+            "SlotStatusList" : {
+               "my $SlotStatus = $AuthenticationConfigObject->SlotStatusList(\n    Context => 'Agent',    # or 'Customer'\n    UserID  => $UserID,\n);" : [
+                  "7.5"
+               ]
+            },
+            "SortedList" : {
+               "my @Configs = $AuthenticationConfigObject->SortedList(\n    Context => 'Agent',    # or 'Customer'\n    UserID  => $UserID,\n);" : [
+                  "7.5"
+               ]
+            },
+            "VFSFilenameUsedBy" : {
+               "my $UsedBy = $AuthenticationConfigObject->VFSFilenameUsedBy(\n    Filename  => 'VirtualFS::AuthenticationConfig::SAML::IdPCACert::...',\n    ExcludeID => $ExcludeID,  # optional\n    UserID    => $UserID,\n);" : [
+                  "7.5"
+               ]
+            }
+         },
+         "ObjectManager" : "my $AuthenticationConfigObject = $Kernel::OM->Get('Kernel::System::AuthenticationConfig');",
+         "Package" : "Kernel::System::AuthenticationConfig"
       },
       "AutoResponseObject" : {
          "FrameworkVersion" : [
@@ -2928,6 +2997,26 @@
                   "7.3",
                   "7.5"
                ]
+            },
+            "GetSAMLLogoutRequestID" : {
+               "my $LogoutRequestID = $CustomerAuthObject->GetSAMLLogoutRequestID(\n    Count => $Count,\n);" : [
+                  "7.5"
+               ]
+            },
+            "GetSAMLSLOData" : {
+               "my %SLOData = $CustomerAuthObject->GetSAMLSLOData(\n    Count => $Count,\n);" : [
+                  "7.5"
+               ]
+            },
+            "InitiateSAMLLogout" : {
+               "my $URL = $CustomerAuthObject->InitiateSAMLLogout(\n    Count        => $Count,\n    NameID       => $NameID,\n    NameIDFormat => $NameIDFormat, # optional\n    SessionIndex => $SessionIndex,\n);" : [
+                  "7.5"
+               ]
+            },
+            "VerifySAMLLogoutResponse" : {
+               "my $LogoutResponse = $CustomerAuthObject->VerifySAMLLogoutResponse(\n    Count       => $Count,\n    QueryString => $QueryString,\n);" : [
+                  "7.5"
+               ]
             }
          },
          "ObjectManager" : "my $CustomerAuthObject = $Kernel::OM->Get('Kernel::System::CustomerAuth');",
@@ -4429,6 +4518,14 @@
                   "7.5"
                ]
             },
+            "IsWorkingDay" : {
+               "my $IsWorkingDay = $DateTimeObject->IsWorkingDay(\n    Calendar => 9, # optional, OTRS vacation days calendar number\n);" : [
+                  "7.5"
+               ],
+               "my $IsWorkingDay = $DateTimeObject->IsWorkingDay();" : [
+                  "7.5"
+               ]
+            },
             "LastDayOfMonthGet" : {
                "$LastDayOfMonth = $DateTimeObject->LastDayOfMonthGet();" : [
                   "6.0",
@@ -5213,6 +5310,9 @@
                ]
             },
             "ValueSearch" : {
+               "my $Value = $DynamicFieldValueObject->ValueSearch(\n    FieldID   => $FieldID,             # ID of dynamic field to search\n    Search    => 'test',\n    SearchSQL => \"dynamic_field_value.value_text = 'test'\",\n    ObjectIDs => [ 1, 2, 3 ],     # optional, limit search to these object IDs\n);" : [
+                  "7.5"
+               ],
                "my $Value = $DynamicFieldValueObject->ValueSearch(\n    FieldID   => $FieldID,             # ID of dynamic field to search\n    Search    => 'test',\n    SearchSQL => \"dynamic_field_value.value_text = 'test'\",\n);" : [
                   "6.0",
                   "6.4",
@@ -7746,6 +7846,9 @@
                   "7.0",
                   "7.1",
                   "7.2"
+               ],
+               "my $HTML = $LayoutObject->BuildDateSelection(\n    Prefix           => 'some prefix',        # optional, (needed to specify other parameters)\n    <Prefix>Year     => 2015,                 # optional, defaults to current year, used to set the initial value\n    <Prefix>Month    => 6,                    # optional, defaults to current month, used to set the initial value\n    <Prefix>Day      => 9,                    # optional, defaults to current day, used to set the initial value\n    <Prefix>Hour     => 12,                   # optional, defaults to current hour, used to set the initial value\n    <Prefix>Minute   => 26,                   # optional, defaults to current minute, used to set the initial value\n    <Prefix>Second   => 59,                   # optional, defaults to current second, used to set the initial value\n    <Prefix>Optional => 1,                    # optional, default 0, when active a checkbox is included to specify\n                                              #   if the values should be saved or not\n    <Prefix>Used     => 1,                    # optional, default 0, used to set the initial state of the checkbox\n                                              #   mentioned above\n    <Prefix>Required => 1,                    # optional, default 0 (Deprecated)\n    <prefix>Class    => 'some class',         # optional, specify an additional class to the HTML elements\n    Area     => 'some area',                  # optional, default 'Agent' (Deprecated)\n    DiffTime => 123,                          # optional, default 0, used to set the initial time influencing the\n                                              #   current time (in seconds)\n    PendingSkipUnavailableDays => 1,          # optional (1 or 0), when active apply TimePendingSkipUnavailableDays\n                                              #   so pending default dates skip holidays and days without working hours\n    OverrideTimeZone => 1,                    # optional (1 or 0), when active the time is not translated to the user\n                                              #   time zone\n    YearPeriodFuture => 3,                    # optional, used to define the number of years in future to be display\n                                              #   in the year select\n    YearPeriodPast   => 2,                    # optional, used to define the number of years in past to be display\n                                              #   in the year select\n    YearDiff         => 0,                    # optional. used to define the number of years to be displayed\n                                              #   in the year select (alternatively to YearPeriodFuture and YearPeriodPast)\n    ValidateDateInFuture     => 1,            # optional (1 or 0), when active sets an special class to validate\n                                              #   that the date set in the controls to be in the future\n    ValidateDateNotInFuture  => 1,            # optional (1 or 0), when active sets an special class to validate\n                                              #   that the date set in the controls not to be in the future\n    ValidateDateAfterPrefix  => 'Start',      # optional (Prefix), when defined sets a special class to validate\n                                              #   that the date set in the controls comes after the date with Prefix\n    ValidateDateAfterValue   => '2016-01-01', # optional (Date), when defined sets a special data parameter to validate\n                                              #   that the date set in the controls comes after the supplied date\n    ValidateDateBeforePrefix => 'End',        # optional (Prefix), when defined sets a special class to validate\n                                              #   that the date set in the controls comes before the date with Prefix\n    ValidateDateBeforeValue  => '2016-01-01', # optional (Date), when defined sets a special data parameter to validate\n                                              #   that the date set in the controls comes before the supplied date\n    Calendar => 2,                            # optional, used to define the SysConfig calendar on which the Datepicker\n                                              #   will be based on to show the vacation days and the start week day\n    Format   => 'DateInputFormat',            # optional, or 'DateInputFormatLong', used to define if only date or\n                                              #   date/time components should be shown (DateInputFormatLong shows date/time)\n    Validate => 1,                            # optional (1 or 0), defines if the date selection should be validated on\n                                              #   client side with JS\n    Disabled => 1,                            # optional (1 or 0), when active select and checkbox controls gets the\n                                              #   disabled attribute and input fields gets the read only attribute\n    ShowYear => 1                             # optional (true or false, default true). If false, the year selector will be\n                                              #   hidden to result in a locale-sensitive, validating Month/Day picker\n);" : [
+                  "7.5"
                ]
             },
             "BuildSelection" : {
@@ -7955,6 +8058,31 @@
                   "7.1",
                   "7.2",
                   "7.3",
+                  "7.5"
+               ]
+            },
+            "LinkObjectColumnFilterApply" : {
+               "my $FilteredLinkList = $LayoutObject->LinkObjectColumnFilterApply(\n    LinkListWithData => $LinkListWithData,\n    ColumnFilter     => \\%ColumnFilter,\n);" : [
+                  "7.5"
+               ]
+            },
+            "LinkObjectColumnFilterHTML" : {
+               "my $HTML = $LayoutObject->LinkObjectColumnFilterHTML(\n    ColumnName    => 'State',\n    Label         => 'State',\n    ColumnValues  => \\%Values,\n    SelectedValue => [1, 2],\n);" : [
+                  "7.5"
+               ]
+            },
+            "LinkObjectColumnFilterParamGet" : {
+               "my %Result = $LayoutObject->LinkObjectColumnFilterParamGet(\n    PrefKey => 'LinkObject::ComplexTableFilters-Ticket',    # optional\n);" : [
+                  "7.5"
+               ]
+            },
+            "LinkObjectColumnFilterPreferencesSet" : {
+               "my $Success = $LayoutObject->LinkObjectColumnFilterPreferencesSet(\n    ColumnFilter => \\%ColumnFilter,\n    PrefKey      => 'LinkObject::ComplexTableFilters-Ticket',    # optional\n);" : [
+                  "7.5"
+               ]
+            },
+            "LinkObjectColumnFilterValuesGet" : {
+               "my $Values = $LayoutObject->LinkObjectColumnFilterValuesGet(\n    ColumnName => 'State',\n    TicketIDs  => \\@TicketIDs,\n);" : [
                   "7.5"
                ]
             },

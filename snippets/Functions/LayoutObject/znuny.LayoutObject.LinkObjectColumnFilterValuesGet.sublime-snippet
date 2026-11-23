@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Values = \$LayoutObject->LinkObjectColumnFilterValuesGet(
+    ColumnName => 'State',
+    TicketIDs  => \@TicketIDs,
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.LinkObjectColumnFilterValuesGet</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

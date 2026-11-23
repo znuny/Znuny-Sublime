@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$UsedBy = \$AuthenticationConfigObject->VFSFilenameUsedBy(
+    Filename  => 'VirtualFS::AuthenticationConfig::SAML::IdPCACert::...',
+    ExcludeID => \$ExcludeID,  # optional
+    UserID    => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.AuthenticationConfigObject.VFSFilenameUsedBy</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

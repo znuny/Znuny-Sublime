@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$IsSynced = \$AuthenticationConfigObject->IsDeploySynced();}
+
+]]></content>
+    <tabTrigger>znuny.AuthenticationConfigObject.IsDeploySynced</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

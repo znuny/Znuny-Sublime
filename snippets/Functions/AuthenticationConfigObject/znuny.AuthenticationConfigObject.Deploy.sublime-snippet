@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Errors;
+my \$Location = \$AuthenticationConfigObject->Deploy(
+    UserID => \$UserID,
+    Errors => \@Errors,    # optional, gets one entry per config that could not be deployed
+);}
+
+]]></content>
+    <tabTrigger>znuny.AuthenticationConfigObject.Deploy</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

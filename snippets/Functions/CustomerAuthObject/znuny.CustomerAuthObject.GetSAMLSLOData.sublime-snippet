@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %SLOData = \$CustomerAuthObject->GetSAMLSLOData(
+    Count => \$Count,
+);}
+
+]]></content>
+    <tabTrigger>znuny.CustomerAuthObject.GetSAMLSLOData</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

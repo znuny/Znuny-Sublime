@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my %Result = \$LayoutObject->LinkObjectColumnFilterParamGet(
+    PrefKey => 'LinkObject::ComplexTableFilters-Ticket',    # optional
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.LinkObjectColumnFilterParamGet</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

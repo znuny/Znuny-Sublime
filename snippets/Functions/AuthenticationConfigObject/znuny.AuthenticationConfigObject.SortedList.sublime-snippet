@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my @Configs = \$AuthenticationConfigObject->SortedList(
+    Context => 'Agent',    # or 'Customer'
+    UserID  => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.AuthenticationConfigObject.SortedList</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

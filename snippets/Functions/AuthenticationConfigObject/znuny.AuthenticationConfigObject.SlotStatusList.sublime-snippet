@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$SlotStatus = \$AuthenticationConfigObject->SlotStatusList(
+    Context => 'Agent',    # or 'Customer'
+    UserID  => \$UserID,
+);}
+
+]]></content>
+    <tabTrigger>znuny.AuthenticationConfigObject.SlotStatusList</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

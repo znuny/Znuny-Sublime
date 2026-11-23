@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$FilteredLinkList = \$LayoutObject->LinkObjectColumnFilterApply(
+    LinkListWithData => \$LinkListWithData,
+    ColumnFilter     => \%ColumnFilter,
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.LinkObjectColumnFilterApply</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

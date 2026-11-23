@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$LogoutRequestID = \$CustomerAuthObject->GetSAMLLogoutRequestID(
+    Count => \$Count,
+);}
+
+]]></content>
+    <tabTrigger>znuny.CustomerAuthObject.GetSAMLLogoutRequestID</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

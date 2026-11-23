@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$HTML = \$LayoutObject->LinkObjectColumnFilterHTML(
+    ColumnName    => 'State',
+    Label         => 'State',
+    ColumnValues  => \%Values,
+    SelectedValue => [1, 2],
+);}
+
+]]></content>
+    <tabTrigger>znuny.LayoutObject.LinkObjectColumnFilterHTML</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

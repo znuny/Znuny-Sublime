@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my @ArticleIDs = \$ArticleObject->ArticleSearchIndexArticleIDsGet(
+    TicketID   => \$TicketID,
+    SearchTerm => 'refund invoice',
+);}
+
+]]></content>
+    <tabTrigger>znuny.ArticleObject.ArticleSearchIndexArticleIDsGet</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

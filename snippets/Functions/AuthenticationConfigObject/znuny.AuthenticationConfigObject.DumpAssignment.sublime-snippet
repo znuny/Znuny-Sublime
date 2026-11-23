@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Line = \$AuthenticationConfigObject->DumpAssignment(
+    Accessor => "\\$Self->\{'AuthModule::SAML::Issuer1'\}",
+    Value    => 'https://sp.example.com',
+);}
+
+]]></content>
+    <tabTrigger>znuny.AuthenticationConfigObject.DumpAssignment</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

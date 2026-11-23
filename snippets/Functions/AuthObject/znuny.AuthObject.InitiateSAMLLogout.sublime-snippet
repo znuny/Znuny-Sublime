@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$URL = \$AuthObject->InitiateSAMLLogout(
+    Count        => \$Count,
+    NameID       => \$NameID,
+    NameIDFormat => \$NameIDFormat, # optional
+    SessionIndex => \$SessionIndex,
+);}
+
+]]></content>
+    <tabTrigger>znuny.AuthObject.InitiateSAMLLogout</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

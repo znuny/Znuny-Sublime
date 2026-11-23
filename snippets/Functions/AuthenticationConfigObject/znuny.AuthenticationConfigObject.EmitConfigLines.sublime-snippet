@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$Lines = \$AuthenticationConfigObject->EmitConfigLines(
+    Config   => \$Row->\{AuthConfig\},
+    Prefix   => 'AuthModule::SAML::',
+    Slot     => \$Row->\{Slot\},
+    SkipKeys => \{ MetaDataSourceType => 1 \},
+);}
+
+]]></content>
+    <tabTrigger>znuny.AuthenticationConfigObject.EmitConfigLines</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>
