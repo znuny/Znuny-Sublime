@@ -3,13 +3,18 @@
 ${1:my %Services = \$TicketObject->TicketServiceList(
     CustomerUserID => \$CustomerUserID,
     QueueID        => \$QueueID,
+    CustomerID     => \$CustomerID,    # optional, selected customer number
 );}
 ${2:my %Services = \$TicketObject->TicketServiceList(
+    CustomerUserID => \$CustomerUserID,
+    QueueID        => \$QueueID,
+);}
+${3:my %Services = \$TicketObject->TicketServiceList(
     CustomerUserID => \$CustomerUserID,
     TicketID       => \$TicketID,
     UserID         => \$UserID,
 );}
-${3:my %Services = \$TicketObject->TicketServiceList(
+${4:my %Services = \$TicketObject->TicketServiceList(
     QueueID        => \$QueueID,
     UserID         => \$UserID,
 );}

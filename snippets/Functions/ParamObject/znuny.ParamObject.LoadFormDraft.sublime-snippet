@@ -2,6 +2,12 @@
     <content><![CDATA[
 ${1:my \$FormDraftID = \$ParamObject->LoadFormDraft(
     FormDraftID => \$FormDraftID,
+    ObjectType  => 'Ticket',    # optional, draft must belong to this object type
+    ObjectID    => \$ObjectID,          # optional, draft must belong to this object ID
+    UserID      => \$UserID,
+);}
+${2:my \$FormDraftID = \$ParamObject->LoadFormDraft(
+    FormDraftID => \$FormDraftID,
     UserID  => \$UserID,
 );}
 

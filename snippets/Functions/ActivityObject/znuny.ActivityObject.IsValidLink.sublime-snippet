@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:my \$IsValid = \$ActivityObject->IsValidLink(
+    Link => 'index.pl?Action=AgentTicketZoom;TicketID=1',
+);}
+
+]]></content>
+    <tabTrigger>znuny.ActivityObject.IsValidLink</tabTrigger>
+    <description>7.5</description>
+    <scope>source.perl</scope>
+</snippet>

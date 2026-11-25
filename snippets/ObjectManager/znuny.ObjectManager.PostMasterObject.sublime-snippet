@@ -4,7 +4,7 @@ my \$PostMasterObject = \$Kernel::OM->Create(
         'Kernel::System::PostMaster',
         ObjectParams => \{
             Email   => \@ArrayOfEmailContent,
-            Trusted => 1,                       # 1|0 ignore X-OTRS header if false
+            Trusted => 1,                       # 1|0 ignore X-OTRS/X-Znuny header if false
         \},
     );
 ]]></content>

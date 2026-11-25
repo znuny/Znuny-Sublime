@@ -1214,6 +1214,9 @@
          "7.3",
          "7.5"
       ],
+      "_NormalizeTags" : [
+         "7.5"
+      ],
       "_NotificationEventCreate" : [
          "6.4",
          "6.5",
@@ -2238,6 +2241,9 @@
          "7.1",
          "7.2",
          "7.3",
+         "7.5"
+      ],
+      "AdminCustomerCompanyService" : [
          "7.5"
       ],
       "AdminCustomerGroup" : [

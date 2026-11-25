@@ -712,6 +712,11 @@
                   "7.5"
                ]
             },
+            "IsValidLink" : {
+               "my $IsValid = $ActivityObject->IsValidLink(\n    Link => 'index.pl?Action=AgentTicketZoom;TicketID=1',\n);" : [
+                  "7.5"
+               ]
+            },
             "ListGet" : {
                "my @Activities = $ActivityObject->ListGet(\n    ID         => '...', # optional\n    Type       => '...', # optional\n    Title      => '...', # optional\n    Text       => '...', # optional\n    State      => '...', # optional\n    Link       => '...', # optional\n    CreateTime => '...', # optional\n    CreateBy   => '...', # optional\n    UserID     => $UserID,\n);" : [
                   "6.5",
@@ -731,6 +736,11 @@
             },
             "TrimToMaxKeepActivities" : {
                "my $DeletedCount = $ActivityObject->TrimToMaxKeepActivities(\n    UserID   => $UserID,\n    CreateBy => 1,\n);" : [
+                  "7.5"
+               ]
+            },
+            "Update" : {
+               "my $Success = $ActivityObject->Update(\n    ID     => 123,\n    UserID => $UserID,\n\n    # optional\n    Type  => '...',\n    Title => '...',\n    Text  => '...',\n    State => '...',    # 'new' or 'seen'\n    Link  => '...',\n);" : [
                   "7.5"
                ]
             }
@@ -3679,6 +3689,9 @@
                ]
             },
             "SetPassword" : {
+               "$CustomerUserObject->SetPassword(\n    UserLogin       => 'some-login',\n    PW              => 'some-new-password',\n    KeepSessionID => $KeepSessionID,    # optional, keep this session\n);" : [
+                  "7.5"
+               ],
                "$CustomerUserObject->SetPassword(\n    UserLogin => 'some-login',\n    PW        => 'some-new-password',\n);" : [
                   "6.0",
                   "6.4",
@@ -5880,6 +5893,9 @@
                ]
             },
             "FormDraftDelete" : {
+               "my $Success = $FormDraftObject->FormDraftDelete(\n    FormDraftID => $FormDraftID,\n    ObjectType  => 'Ticket',    # optional, draft must belong to this object type\n    ObjectID    => $ObjectID,          # optional, draft must belong to this object ID\n    UserID      => $UserID,\n);" : [
+                  "7.5"
+               ],
                "my $Success = $FormDraftObject->FormDraftDelete(\n    FormDraftID => $FormDraftID,\n    UserID      => $UserID,\n);" : [
                   "6.0",
                   "6.4",
@@ -11120,6 +11136,9 @@
                ]
             },
             "LoadFormDraft" : {
+               "my $FormDraftID = $ParamObject->LoadFormDraft(\n    FormDraftID => $FormDraftID,\n    ObjectType  => 'Ticket',    # optional, draft must belong to this object type\n    ObjectID    => $ObjectID,          # optional, draft must belong to this object ID\n    UserID      => $UserID,\n);" : [
+                  "7.5"
+               ],
                "my $FormDraftID = $ParamObject->LoadFormDraft(\n    FormDraftID => $FormDraftID,\n    UserID  => $UserID,\n);" : [
                   "6.0",
                   "6.4",
@@ -11386,7 +11405,7 @@
                ]
             }
          },
-         "ObjectManager" : "my $PostMasterObject = $Kernel::OM->Create(\n        'Kernel::System::PostMaster',\n        ObjectParams => {\n            Email   => \\@ArrayOfEmailContent,\n            Trusted => 1,                       # 1|0 ignore X-OTRS header if false\n        },\n    );",
+         "ObjectManager" : "my $PostMasterObject = $Kernel::OM->Create(\n        'Kernel::System::PostMaster',\n        ObjectParams => {\n            Email   => \\@ArrayOfEmailContent,\n            Trusted => 1,                       # 1|0 ignore X-OTRS/X-Znuny header if false\n        },\n    );",
          "Package" : "Kernel::System::PostMaster"
       },
       "PriorityObject" : {
@@ -13437,6 +13456,19 @@
             "7.5"
          ],
          "Functions" : {
+            "CustomerCompanyServiceMemberAdd" : {
+               "$ServiceObject->CustomerCompanyServiceMemberAdd(\n    CustomerID => $CustomerID,\n    ServiceID  => $ServiceID,\n    Active     => 1,\n    UserID     => $UserID,\n);" : [
+                  "7.5"
+               ]
+            },
+            "CustomerCompanyServiceMemberList" : {
+               "$ServiceObject->CustomerCompanyServiceMemberList(\n    CustomerID => $CustomerID,\n    Result     => 'HASH',\n);" : [
+                  "7.5"
+               ],
+               "$ServiceObject->CustomerCompanyServiceMemberList(\n    ServiceID => $ServiceID,\n    Result    => 'HASH',\n);" : [
+                  "7.5"
+               ]
+            },
             "CustomerUserServiceMemberAdd" : {
                "$ServiceObject->CustomerUserServiceMemberAdd(\n    CustomerUserLogin => 'Test1',\n    ServiceID         => $ServiceID,\n    Active            => 1,\n    UserID            => $UserID,\n);" : [
                   "6.0",
@@ -13766,6 +13798,9 @@
                ]
             },
             "RemoveSessionByUser" : {
+               "$SessionObject->RemoveSessionByUser(\n    UserLogin     => 'some_user_login',\n    UserType      => 'User',                # optional, 'User' or 'Customer'\n    KeepSessionID => $KeepSessionID,    # optional, keep this session\n);" : [
+                  "7.5"
+               ],
                "$SessionObject->RemoveSessionByUser(\n    UserLogin => 'some_user_login'\n);" : [
                   "6.0",
                   "6.4",
@@ -17058,6 +17093,9 @@
                ]
             },
             "TicketServiceList" : {
+               "my %Services = $TicketObject->TicketServiceList(\n    CustomerUserID => $CustomerUserID,\n    QueueID        => $QueueID,\n    CustomerID     => $CustomerID,    # optional, selected customer number\n);" : [
+                  "7.5"
+               ],
                "my %Services = $TicketObject->TicketServiceList(\n    CustomerUserID => $CustomerUserID,\n    QueueID        => $QueueID,\n);" : [
                   "6.0",
                   "6.4",
@@ -18727,6 +18765,9 @@
                ]
             },
             "SetPassword" : {
+               "$UserObject->SetPassword(\n    UserLogin       => 'some-login',\n    PW              => 'some-new-password',\n    KeepSessionID => $KeepSessionID,    # optional, keep this session\n);" : [
+                  "7.5"
+               ],
                "$UserObject->SetPassword(\n    UserLogin => 'some-login',\n    PW        => 'some-new-password'\n);" : [
                   "6.0",
                   "6.4",
@@ -19320,6 +19361,9 @@
                ],
                "my %Response = $WebUserAgentObject->Request(\n    URL  => 'http://example.com/someurl',\n    Type => 'POST',\n    Data => { Attribute1 => 'Value', Attribute2 => 'Value2' },\n    SkipSSLVerification => 1, # (optional)\n    NoLog               => 1, # (optional)\n);" : [
                   "6.0"
+               ],
+               "my %Response = $WebUserAgentObject->Request(\n    URL => 'http://example.com/somedata.xml',\n    SkipSSLVerification => 1, # (optional)\n    NoLog               => 1, # (optional)\n\n    # Returns the response content (if available) if the request was not successful.\n    # Otherwise only the status will be returned (default behavior).\n    ReturnResponseContentOnError => 1, # optional\n\n    # Do not follow redirects. The Location header is returned for the caller to handle.\n    NoRedirect => 1, # optional, defaults to 0\n);" : [
+                  "7.5"
                ],
                "my %Response = $WebUserAgentObject->Request(\n    URL => 'http://example.com/somedata.xml',\n    SkipSSLVerification => 1, # (optional)\n    NoLog               => 1, # (optional)\n\n    # Returns the response content (if available) if the request was not successful.\n    # Otherwise only the status will be returned (default behavior).\n    ReturnResponseContentOnError => 1, # optional\n);" : [
                   "6.4",
